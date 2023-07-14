@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。城市中每拥有1座奇观，则+2 [ICON_CULTURE] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。城市中每拥有1座奇观，则+2 [ICON_CULTURE] 文化值。可存放 [ICON_GreatWork_Landscape] 艺术巨作。如果在剧院广场区域已经有一座考古博物馆则无法修建。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。城市中每拥有1座奇观，则+2 [ICON_CULTURE] 文化值。可存放 [ICON_GreatWork_Artifact] 文物。如果在剧院广场区域已经有一座艺术博物馆则无法修建。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPERA_HOUSE_NAME" Language="zh_Hans_CN">
+			<Text>歌剧院</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为此城+33% [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>为此城+33% [ICON_Culture] 文化值，[ICON_Power] 供电充足时，该加成翻倍。基础 [ICON_Culture] 文化值加成延伸到6个单元格中的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

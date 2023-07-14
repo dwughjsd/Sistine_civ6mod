@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Modifiers>
+		<Row ModifierId="CULTUREBUILDING_WONDER_CULTURE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_WONDER_YIELD_CHANGE" />
+		
+		<!--Used for amphitheaters and museums but set in game modifiers-->
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT" SubjectRequirementSetId="BUILDING_IS_AMPHITHEATER"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT" SubjectRequirementSetId="BUILDING_IS_MUSEUM_ART"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT" SubjectRequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT"/>
+		
+		<Row ModifierId="CULTUREBUILDING_CULTURE_33" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		<Row ModifierId="CULTUREBUILDING_CULTURE_33_POWERED" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_IS_POWERED"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="CULTUREBUILDING_WONDER_CULTURE" Name="Amount" Value="2"/>
+		<Row ModifierId="CULTUREBUILDING_WONDER_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER" Name="Amount" Value="1"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART" Name="Amount" Value="1"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT" Name="Amount" Value="1"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT" Name="YieldType" Value="YIELD_CULTURE"/>
+		<!--Just to make it looks better!-->
+		<Row ModifierId="CULTUREBUILDING_CULTURE_33" Name="Amount" Value="34"/>
+		<Row ModifierId="CULTUREBUILDING_CULTURE_33" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="CULTUREBUILDING_CULTURE_33_POWERED" Name="Amount" Value="33"/>
+		<Row ModifierId="CULTUREBUILDING_CULTURE_33_POWERED" Name="YieldType" Value="YIELD_CULTURE"/>
+	</ModifierArguments>
+	
+	<RequirementSets>
+		<InsertOrIgnore RequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+		<InsertOrIgnore RequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT" RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" />
+	</RequirementSetRequirements>
+	
+	<Requirements>
+		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" RequirementType="REQUIREMENT_CITY_HAS_BUILDING" />
+	</Requirements>
+	
+	<RequirementArguments>
+		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" Name="BuildingType" Value="BUILDING_MUSEUM_ARTIFACT" />
+	</RequirementArguments>
+	
+</GameData>

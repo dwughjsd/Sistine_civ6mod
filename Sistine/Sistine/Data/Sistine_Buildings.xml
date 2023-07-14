@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_OPERA_HOUSE" Kind="KIND_BUILDING"/>
+	</Types>
+	
+	<Buildings>
+		<!--Theater Square-->
+		<Update>
+			<Where BuildingType="BUILDING_AMPHITHEATER" />
+			<Set Cost="160" Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/>
+		</Update>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
+		<Update>
+			<Where BuildingType="BUILDING_BROADCAST_CENTER" />
+			<Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST"/>
+		</Update>
+	</Buildings>
+
+	<BuildingPrereqs>
+		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ART"/>
+		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_OPERA_HOUSE" PrereqBuilding="BUILDING_MUSEUM_ART"/>
+		<Row Building="BUILDING_OPERA_HOUSE" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_OPERA_HOUSE"/>
+	</BuildingPrereqs>
+
+	<Building_YieldChanges>
+		<!--Theater Square-->
+		<Delete BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE"/>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Delete BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/>		
+	</Building_YieldChanges>
+
+	<Building_YieldChangesBonusWithPower>
+		<Update>
+			<Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/>
+			<Set YieldChange="3"/>
+		</Update>
+	</Building_YieldChangesBonusWithPower>
+
+	<Building_CitizenYieldChanges>
+		<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Delete BuildingType="BUILDING_BROADCAST_CENTER"/>
+	</Building_CitizenYieldChanges>
+
+	<Building_YieldDistrictCopies>
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" OldYieldType="YIELD_CULTURE" NewYieldType="YIELD_CULTURE" />
+	</Building_YieldDistrictCopies>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_AMPHITHEATER" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
+		<Row BuildingType="BUILDING_MUSEUM_ART" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" ModifierId="CULTUREBUILDING_CULTURE_33"/>
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_33"/>
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_33_POWERED"/>
+	</BuildingModifiers>
+	
+	<Building_GreatPersonPoints>
+		<!--Theater Square-->
+		<Update>
+			<Where BuildingType="BUILDING_AMPHITHEATER" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
+			<Set PointsPerTurn="2" />
+		</Update>
+		<Delete BuildingType="BUILDING_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
+		<Delete BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+		<Delete BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
+		<Update>
+			<Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/>
+			<Set PointsPerTurn="1" />
+		</Update>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="1"/>
+	</Building_GreatWorks>
+
+	<Building_TourismBombs_XP2>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" TourismBombValue="500" />
+	</Building_TourismBombs_XP2>
+	
+	<GameModifiers>
+		<!--Theater Square-->
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT_ATTACH"/>
+	</GameModifiers>
+	
+	<Modifiers>
+		<!--Theater Square-->
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+	</Modifiers>
+	
+	<ModifierArguments>
+		<!--Theater Square-->
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT"/>
+	</ModifierArguments>
+</GameData>
