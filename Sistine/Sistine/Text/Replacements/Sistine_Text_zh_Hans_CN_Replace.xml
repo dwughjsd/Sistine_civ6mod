@@ -1,8 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_BUILDING_AMPHITHEATER_NAME" Language="zh_Hans_CN">
-			<Text>露天剧场</Text>
-		</Replace>
+		<!--Eras-->
+		<Replace Tag="LOC_ERA_CLASSICAL_NAME" Language="zh_Hans_CN" Text="古典时代"/>
+		<Replace Tag="LOC_ERA_MEDIEVAL_NAME" Language="zh_Hans_CN" Text="中古时代"/>
+		<Replace Tag="LOC_ERA_RENAISSANCE_NAME" Language="zh_Hans_CN" Text="启蒙时代"/>
+		<Replace Tag="LOC_ERA_MODERN_NAME" Language="zh_Hans_CN" Text="电气时代"/>
+		<Replace Tag="LOC_ERA_ATOMIC_NAME" Language="zh_Hans_CN" Text="原子时代"/>
+		<!--Districts and buildings (incomplete)-->
+		<Replace Tag="LOC_BUILDING_AMPHITHEATER_NAME_NAME" Language="zh_Hans_CN" Text="露天剧场"/>
+		<!--Techs and civics-->
+		<Replace Tag="LOC_TECH_POTTERY_NAME" Language="zh_Hans_CN" Text="制陶"/>
+		<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_NAME" Language="zh_Hans_CN" Text="畜牧"/>
+		<Replace Tag="LOC_TECH_MINING_NAME" Language="zh_Hans_CN" Text="采矿"/>
+		<Replace Tag="LOC_TECH_SAILING_NAME" Language="zh_Hans_CN" Text="航海"/>
+		<Replace Tag="LOC_TECH_WRITING_NAME" Language="zh_Hans_CN" Text="书写"/>
+		<Replace Tag="LOC_TECH_MASONRY_NAME" Language="zh_Hans_CN" Text="砌筑"/>
+		<Replace Tag="LOC_TECH_BRONZE_WORKING_NAME" Language="zh_Hans_CN" Text="青铜加工"/>
+		<Replace Tag="LOC_TECH_IRON_WORKING_NAME" Language="zh_Hans_CN" Text="铁器加工"/>
+		<Replace Tag="LOC_TECH_SHIPBUILDING_NAME" Language="zh_Hans_CN" Text="造船"/>
+		<Replace Tag="LOC_TECH_MATHEMATICS_NAME" Language="zh_Hans_CN" Text="数学"/>
+		<Replace Tag="LOC_TECH_CONSTRUCTION_NAME" Language="zh_Hans_CN" Text="建设工法"/>
+		<Replace Tag="LOC_TECH_ENGINEERING_NAME" Language="zh_Hans_CN" Text="工程学"/>
+		<Replace Tag="LOC_TECH_MILITARY_TACTICS_NAME" Language="zh_Hans_CN" Text="军事战术"/>
+		<Replace Tag="LOC_TECH_APPRENTICESHIP_NAME" Language="zh_Hans_CN" Text="学徒制度"/>
+		<Replace Tag="LOC_TECH_MACHINERY_NAME" Language="zh_Hans_CN" Text="机械"/>
+		<Replace Tag="LOC_TECH_EDUCATION_NAME" Language="zh_Hans_CN" Text="教育学"/>
+		<Replace Tag="LOC_TECH_STIRRUPS_NAME" Language="zh_Hans_CN" Text="马镫"/>
+		<Replace Tag="LOC_TECH_MASS_PRODUCTION_NAME" Language="zh_Hans_CN" Text="大规模生产"/>
+		<Replace Tag="LOC_TECH_SQUARE_RIGGING_NAME" Language="zh_Hans_CN" Text="横帆索具"/>
+		<Replace Tag="LOC_TECH_SIEGE_TACTICS_NAME" Language="zh_Hans_CN" Text="围攻战术"/>
+		<Replace Tag="LOC_TECH_MILITARY_SCIENCE_NAME" Language="zh_Hans_CN" Text="军事科学"/>
+		<Replace Tag="LOC_TECH_SANITATION_NAME" Language="zh_Hans_CN" Text="公共卫生"/>
+		<Replace Tag="LOC_TECH_ECONOMICS_NAME" Language="zh_Hans_CN" Text="经济学"/>
+		<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_NAME" Language="zh_Hans_CN" Text="可更换部件"/>
+		<Replace Tag="LOC_TECH_COMBUSTION_NAME" Language="zh_Hans_CN" Text="内燃机"/>
+		<Replace Tag="LOC_TECH_ROCKETRY_NAME" Language="zh_Hans_CN" Text="火箭技术"/>
+		<Replace Tag="LOC_TECH_ADVANCED_BALLISTICS_NAME" Language="zh_Hans_CN" Text="先进弹道学"/>
+		<Replace Tag="LOC_TECH_COMPUTERS_NAME" Language="zh_Hans_CN" Text="计算机"/>
+		<Replace Tag="LOC_TECH_SATELLITES_NAME" Language="zh_Hans_CN" Text="人造卫星"/>
+		<Replace Tag="LOC_TECH_GUIDANCE_SYSTEMS_NAME" Language="zh_Hans_CN" Text="导航系统"/>
+		<Replace Tag="LOC_TECH_ADVANCED_AI_NAME" Language="zh_Hans_CN" Text="先进人工智能"/>
+		<Replace Tag="LOC_TECH_ADVANCED_POWER_CELLS_NAME" Language="zh_Hans_CN" Text="先进电池装置"/>
+		<Replace Tag="LOC_TECH_PREDICTIVE_SYSTEMS_NAME" Language="zh_Hans_CN" Text="预测系统"/>
+		<Replace Tag="LOC_TECH_OFFWORLD_MISSION_NAME" Language="zh_Hans_CN" Text="地外任务"/>
+		<Replace Tag="LOC_CIVIC_CRAFTSMANSHIP_NAME" Language="zh_Hans_CN" Text="工匠技艺"/>
+		<Replace Tag="LOC_CIVIC_STATE_WORKFORCE_NAME" Language="zh_Hans_CN" Text="国有劳力"/>
+		<Replace Tag="LOC_CIVIC_EARLY_EMPIRE_NAME" Language="zh_Hans_CN" Text="早期帝国"/>
+		<Replace Tag="LOC_CIVIC_DIVINE_RIGHT_NAME" Language="zh_Hans_CN" Text="君权神授"/>
+		<Replace Tag="LOC_CIVIC_CONSERVATION_NAME" Language="zh_Hans_CN" Text="自然保护"/>
+		<Replace Tag="LOC_CIVIC_NUCLEAR_PROGRAM_NAME" Language="zh_Hans_CN" Text="核计划"/>
+		<Replace Tag="LOC_CIVIC_MOBILIZATION_NAME" Language="zh_Hans_CN" Text="动员"/>
+		<Replace Tag="LOC_CIVIC_SUFFRAGE_NAME" Language="zh_Hans_CN" Text="普选权"/>
+		<Replace Tag="LOC_CIVIC_RAPID_DEPLOYMENT_NAME" Language="zh_Hans_CN" Text="快速部署"/>
+		<Replace Tag="LOC_CIVIC_CORPORATE_LIBERTARIANISM_NAME" Language="zh_Hans_CN" Text="风投政治"/>
+		<Replace Tag="LOC_CIVIC_SYNTHETIC_TECHNOCRACY_NAME" Language="zh_Hans_CN" Text="优化必要论"/>
+		<Replace Tag="LOC_CIVIC_GLOBAL_WARMING_MITIGATION_NAME" Language="zh_Hans_CN" Text="全球变暖缓解"/>
+		<Replace Tag="LOC_CIVIC_SMART_POWER_DOCTRINE_NAME" Language="zh_Hans_CN" Text="巧实力学说"/>
+		<Replace Tag="LOC_CIVIC_EXODUS_IMPERATIVE_NAME" Language="zh_Hans_CN" Text="远征必要论"/>
+		<!--Unit classes-->
+		<Replace Tag="LOC_FORMATION_CLASS_NAVAL_NAME" Language="zh_Hans_CN" Text="海上战斗"/>
+		<Replace Tag="LOC_FORMATION_CLASS_AIR_NAME" Language="zh_Hans_CN" Text="空中战斗"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_RAIDER_NAME" Language="zh_Hans_CN" Text="海军掠袭"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_AIR_FIGHTER_NAME" Language="zh_Hans_CN" Text="空中格斗"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_RANGED_NAME" Language="zh_Hans_CN" Text="海军远程"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_RANGED_NAME" Language="zh_Hans_CN" Text="远程"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_CARRIER_NAME" Language="zh_Hans_CN" Text="海军母舰"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_APOSTLE_NAME" Language="zh_Hans_CN" Text="宗教使徒"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_SPY_NAME" Language="zh_Hans_CN" Text="间谍"/>
+		<!--Units (incomplete)-->
+		<Replace Tag="LOC_UNIT_BATTLESHIP_NAME" Language="zh_Hans_CN" Text="战列舰"/>
+		<Replace Tag="LOC_UNIT_IRONCLAD_NAME" Language="zh_Hans_CN" Text="铁甲舰"/>
+		<Replace Tag="LOC_UNIT_GERMAN_UBOAT_NAME" Language="zh_Hans_CN" Text="U型潜艇"/>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_NAME" Language="zh_Hans_CN" Text="机枪"/>
+		<Replace Tag="LOC_UNIT_SWORDSMAN_NAME" Language="zh_Hans_CN" Text="剑士"/>
+		<Replace Tag="LOC_UNIT_ARTILLERY_NAME" Language="zh_Hans_CN" Text="火炮"/>
 	</LocalizedText>
 </GameData>
