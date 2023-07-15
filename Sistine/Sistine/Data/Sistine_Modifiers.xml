@@ -55,21 +55,27 @@
 	<RequirementSets>
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="CITY_IS_WITHIN_6_HEXES_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT" RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" />
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT" RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" />
+		<Row RequirementSetId="CITY_IS_WITHIN_6_HEXES_SST" RequirementId="REQUIRES_CITY_IS_WITHIN_6_HEXES" />
 	</RequirementSetRequirements>
 	
 	<Requirements>
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" RequirementType="REQUIREMENT_CITY_HAS_BUILDING" />
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" RequirementType="REQUIREMENT_CITY_HAS_BUILDING" />
+		<Row RequirementId="REQUIRES_CITY_IS_WITHIN_6_HEXES" RequirementType="REQUIREMENT_PLOT_ADJACENT_TO_OWNER" />
 	</Requirements>
 	
 	<RequirementArguments>
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" Name="BuildingType" Value="BUILDING_MUSEUM_ARTIFACT" />
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" Name="BuildingType" Value="BUILDING_MANUFACTURING_PLANT" />
+		<InsertOrIgnore RequirementId="REQUIRES_CITY_IS_WITHIN_6_HEXES" Name="MinDistance" Value="0" />
+		<InsertOrIgnore RequirementId="REQUIRES_CITY_IS_WITHIN_6_HEXES" Name="MaxDistance" Value="6" />
+
 	</RequirementArguments>
 	
 </GameData>
