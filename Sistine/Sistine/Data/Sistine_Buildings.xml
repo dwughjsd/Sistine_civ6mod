@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="BUILDING_OPERA_HOUSE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PUBLIC_SCHOOL" Kind="KIND_BUILDING"/>
 	</Types>
 	
 	<Buildings>
@@ -15,14 +16,25 @@
 			<Where BuildingType="BUILDING_BROADCAST_CENTER" />
 			<Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST"/>
 		</Update>
+		<!--Campus-->
+		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" Name="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Description="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="3" CitizenSlots="1"/>
+		<Update>
+			<Where BuildingType="BUILDING_RESEARCH_LAB" />
+			<Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST"/>
+		</Update>
 	</Buildings>
 
 	<BuildingPrereqs>
+		<!--Theater Square-->
 		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ART"/>
 		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
 		<Row Building="BUILDING_OPERA_HOUSE" PrereqBuilding="BUILDING_MUSEUM_ART"/>
 		<Row Building="BUILDING_OPERA_HOUSE" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
 		<Row Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_OPERA_HOUSE"/>
+		<!--Campus-->
+		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_UNIVERSITY"/>
+		<Row Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_PUBLIC_SCHOOL"/>
+		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_UNIVERSITY"/>
 	</BuildingPrereqs>
 
 	<Building_YieldChanges>
@@ -30,32 +42,60 @@
 		<Delete BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="3"/>
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/>		
+		<!--Campus-->
+		<Delete BuildingType="BUILDING_LIBRARY" YieldType="YIELD_SCIENCE"/>
+		<Update>
+			<Where BuildingType="BUILDING_UNIVERSITY" />
+			<Set YieldChange="2"/>
+		</Update>
+		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Delete BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
 	</Building_YieldChanges>
 
 	<Building_YieldChangesBonusWithPower>
+		<!--Theater Square-->
 		<Update>
 			<Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/>
 			<Set YieldChange="3"/>
 		</Update>
+		<!--Campus-->
+		<Update>
+			<Where BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="4"/>
+		</Update>
 	</Building_YieldChangesBonusWithPower>
 
 	<Building_CitizenYieldChanges>
+		<!--Theater Square-->
 		<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER"/>
+		<!--Campus-->
+		<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Delete BuildingType="BUILDING_RESEARCH_LAB"/>
 	</Building_CitizenYieldChanges>
 
 	<Building_YieldDistrictCopies>
+		<!--Theater Square-->
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" OldYieldType="YIELD_CULTURE" NewYieldType="YIELD_CULTURE" />
+		<!--Campus-->
+		<Row BuildingType="BUILDING_RESEARCH_LAB" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_SCIENCE" />
 	</Building_YieldDistrictCopies>
 
 	<BuildingModifiers>
+		<!--Theater Square-->
 		<Row BuildingType="BUILDING_AMPHITHEATER" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
 		<Row BuildingType="BUILDING_MUSEUM_ART" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
 		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" ModifierId="CULTUREBUILDING_CULTURE_33"/>
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_33"/>
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_33_POWERED"/>
+		<!--Campus-->
+		<Row BuildingType="BUILDING_LIBRARY" ModifierId="SCIENCEBULIDING_SCIENCE_PER_POP"/>
+		<Row BuildingType="BUILDING_UNIVERSITY" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
+		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" ModifierId="SCIENCEBULIDING_SCIENCE_PER_POP"/>
+		<Row BuildingType="BUILDING_RESEARCH_LAB" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
+		<Row BuildingType="BUILDING_RESEARCH_LAB" ModifierId="SCIENCEBULIDING_SCIENCE_50_POWERED"/>
 	</BuildingModifiers>
 	
 	<Building_GreatPersonPoints>
@@ -72,6 +112,8 @@
 			<Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/>
 			<Set PointsPerTurn="1" />
 		</Update>
+		<!--Campus-->
+		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
 
 	<Building_GreatWorks>
