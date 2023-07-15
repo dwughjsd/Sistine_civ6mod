@@ -61,5 +61,11 @@
 		<Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION}</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_MANUFACTURING_PLANT_NAME" Language="zh_Hans_CN">
+			<Text>精密制造厂</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为此城+15% [ICON_Gold] 生产力。此城建造城市项目时+100% [ICON_Gold] 生产力。[ICON_Power] 供电充足的 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

@@ -17,6 +17,10 @@
 		<Row ModifierId="COMMERCIALBULIDING_GOLD_25_POWERED" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_IS_POWERED"/>
 		<Row ModifierId="PRODUCTIONBULIDING_PRODUCTION_10" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
 		<Row ModifierId="PRODUCTIONBULIDING_PRODUCTION_15" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		
+		<!--Used for manufacturing plant but set in game modifiers-->
+		<Row ModifierId="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_ALL_PROJECTS_PRODUCTION" SubjectRequirementSetId="BUILDING_IS_MANUFACTURING_PLANT"/>
+
 	</Modifiers>
 	<ModifierArguments>
 		<Row ModifierId="CULTUREBUILDING_WONDER_CULTURE" Name="Amount" Value="2"/>
@@ -45,22 +49,27 @@
 		<Row ModifierId="PRODUCTIONBULIDING_PRODUCTION_10" Name="YieldType" Value="YIELD_PRODUCTION"/>
 		<Row ModifierId="PRODUCTIONBULIDING_PRODUCTION_15" Name="Amount" Value="15"/>
 		<Row ModifierId="PRODUCTIONBULIDING_PRODUCTION_15" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION" Name="Amount" Value="100"/>
 	</ModifierArguments>
 	
 	<RequirementSets>
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT" RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" />
+		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT" RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" />
 	</RequirementSetRequirements>
 	
 	<Requirements>
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" RequirementType="REQUIREMENT_CITY_HAS_BUILDING" />
+		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" RequirementType="REQUIREMENT_CITY_HAS_BUILDING" />
 	</Requirements>
 	
 	<RequirementArguments>
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" Name="BuildingType" Value="BUILDING_MUSEUM_ARTIFACT" />
+		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" Name="BuildingType" Value="BUILDING_MANUFACTURING_PLANT" />
 	</RequirementArguments>
 	
 </GameData>
