@@ -70,6 +70,10 @@
 		<Delete BuildingType="BUILDING_STUPA"/>
 		<Delete BuildingType="BUILDING_SYNAGOGUE"/>
 		<Delete BuildingType="BUILDING_WAT"/>
+		<!--Encampment-->
+		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Delete BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" />
 	</Building_CitizenYieldChanges>
 
 	<Building_YieldDistrictCopies>
