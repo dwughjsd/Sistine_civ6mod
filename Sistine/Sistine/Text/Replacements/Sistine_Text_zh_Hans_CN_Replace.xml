@@ -8,6 +8,7 @@
 		<Replace Tag="LOC_ERA_MODERN_NAME" Language="zh_Hans_CN" Text="电气时代"/>
 		<Replace Tag="LOC_ERA_ATOMIC_NAME" Language="zh_Hans_CN" Text="原子时代"/>
 		<!--Districts and buildings (incomplete)-->
+		<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_NAME" Language="zh_Hans_CN" Text="水力发电坝"/>
 		<Replace Tag="LOC_BUILDING_SHRINE_NAME" Language="zh_Hans_CN" Text="神祠"/>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_NAME" Language="zh_Hans_CN" Text="露天剧场"/>
 		<!--Techs and civics-->
