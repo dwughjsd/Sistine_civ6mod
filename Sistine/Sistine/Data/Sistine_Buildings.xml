@@ -3,6 +3,7 @@
 	<Types>
 		<Row Type="BUILDING_OPERA_HOUSE" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_PUBLIC_SCHOOL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MANUFACTURING_PLANT" Kind="KIND_BUILDING"/>
 	</Types>
 	
 	<Buildings>
@@ -21,6 +22,14 @@
 		<Update><Where BuildingType="BUILDING_MARKET" /><Set Description="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION_SST"/></Update>
 		<Update><Where BuildingType="BUILDING_BANK" /><Set Description="LOC_BUILDING_BANK_DESCRIPTION_SST"/></Update>
 		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Description="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" RegionalRange="6"/></Update>
+		<!--Industrial Zone-->
+		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Description="LOC_PRODUCTION_10_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Description="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" RegionalRange="6"/></Update>
+		<Update><Where BuildingType="BUILDING_POWER_PLANT" /><Set Description="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_COAL_POWER_PLANT" /><Set Description="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" /><Set Description="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" /></Update>
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" Name="LOC_BUILDING_MANUFACTURING_PLANT_NAME" Description="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" PrereqTech="TECH_ROBOTICS" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="440" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" RegionalRange="6"/>
+		<!--Entertainment Complex-->
 	</Buildings>
 
 	<BuildingPrereqs>
@@ -34,6 +43,10 @@
 		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_UNIVERSITY"/>
 		<Row Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_PUBLIC_SCHOOL"/>
 		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_UNIVERSITY"/>
+		<!--Industrial Zone-->
+		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_POWER_PLANT"/>
+		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_COAL_POWER_PLANT"/>
+		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
 	</BuildingPrereqs>
 
 	<Building_YieldChanges>
@@ -43,13 +56,18 @@
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/>		
 		<!--Campus-->
 		<Delete BuildingType="BUILDING_LIBRARY" YieldType="YIELD_SCIENCE"/>
-		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE"/><Set YieldChange="2"/></Update>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="3"/>
 		<Delete BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
 		<!--Commercial Hub-->
-		<Update><Where BuildingType="BUILDING_MARKET" /><Set YieldChange="1"/></Update>
-		<Update><Where BuildingType="BUILDING_BANK" /><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD"/><Set YieldChange="1"/></Update>
+		<Update><Where BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
 		<Delete BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/>
+		<!--Industrial Zone-->
+		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
+		<Update><Where BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="5"/></Update>
+		<!--Harbor-->
+		<Delete BuildingType="BUILDING_SEAPORT" YieldType="YIELD_FOOD"/>
 	</Building_YieldChanges>
 
 	<Building_YieldChangesBonusWithPower>
@@ -59,6 +77,8 @@
 		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/><Set YieldChange="4"/></Update>
 		<!--Commercial Hub-->
 		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/><Set YieldChange="3"/></Update>
+		<!--Industrial Zone-->
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="5"/>
 	</Building_YieldChangesBonusWithPower>
 
 	<Building_CitizenYieldChanges>
@@ -87,6 +107,15 @@
 		<!--Holy Site-->
 		<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Delete BuildingType="BUILDING_STOCK_EXCHANGE"/>
+		<!--Industrial Zone-->
+		<Row BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Delete BuildingType="BUILDING_POWER_PLANT"/>
+		<Delete BuildingType="BUILDING_COAL_POWER_PLANT" />
+		<Delete BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
+		<!--Harbor-->
+		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Delete BuildingType="BUILDING_SEAPORT"/>
 	</Building_CitizenYieldChanges>
 
 	<Building_YieldDistrictCopies>
@@ -96,6 +125,10 @@
 		<Row BuildingType="BUILDING_RESEARCH_LAB" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_SCIENCE" />
 		<!--Commercial Hub-->
 		<Row BuildingType="BUILDING_STOCK_EXCHANGE" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_GOLD" />
+		<!--Industrial Zone-->
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" OldYieldType="YIELD_PRODUCTION" NewYieldType="YIELD_PRODUCTION" />
+		<!--Harbor-->
+		<Row BuildingType="BUILDING_SEAPORT" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_FOOD" />
 	</Building_YieldDistrictCopies>
 
 	<BuildingModifiers>
@@ -117,6 +150,13 @@
 		<Row BuildingType="BUILDING_BANK" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
 		<Row BuildingType="BUILDING_STOCK_EXCHANGE" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
 		<Row BuildingType="BUILDING_STOCK_EXCHANGE" ModifierId="COMMERCIALBULIDING_GOLD_25_POWERED"/>
+		<!--Industrial Zone-->
+		<Row BuildingType="BUILDING_WORKSHOP" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
+		<Row BuildingType="BUILDING_FACTORY" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
+		<Row BuildingType="BUILDING_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<Row BuildingType="BUILDING_COAL_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
 	</BuildingModifiers>
 	
 	<Building_GreatPersonPoints>
@@ -129,6 +169,8 @@
 		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="1" /></Update>
 		<!--Campus-->
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<!--Industrial Zone-->
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
 
 	<Building_GreatWorks>

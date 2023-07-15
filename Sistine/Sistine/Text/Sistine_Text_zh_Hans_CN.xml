@@ -17,7 +17,7 @@
 			<Text>为此城+33% [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>为此城+33% [ICON_Culture] 文化值，[ICON_Power] 供电充足时额外 +34% [ICON_Culture] 文化值。[ICON_Power] 供电充足的 [ICON_Culture] 文化值加成延伸到6个单元格中的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+			<Text>为此城+33% [ICON_Culture] 文化值，[ICON_Power] 供电充足时额外+34% [ICON_Culture] 文化值。[ICON_Power] 供电充足的 [ICON_Culture] 文化值加成延伸到6个单元格中的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_SCIENCE] 科技值。</Text>
@@ -32,7 +32,7 @@
 			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>为此城+33% [ICON_Science] 科技值，[ICON_Power] 供电充足时额外 +34% [ICON_Science] 科技值。[ICON_Power] 供电充足的 [ICON_Science] 科技值加成延伸到6个单元格中的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+			<Text>为此城+33% [ICON_Science] 科技值，[ICON_Power] 供电充足时额外+34% [ICON_Science] 科技值。[ICON_Power] 供电充足的 [ICON_Science] 科技值加成延伸到6个单元格中的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>{LOC_BUILDING_BANK_DESCRIPTION_SST}{LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION}</Text>
@@ -41,7 +41,25 @@
 			<Text>为此城+25% [ICON_Gold] 金币。</Text>
 		</Replace>	
 		<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>为此城+25% [ICON_Gold] 金币，[ICON_Power] 供电充足时额外 +25% [ICON_Gold] 金币。[ICON_Power] 供电充足的 [ICON_Gold] 金币加成延伸到6个单元格中的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+			<Text>为此城+25% [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+25% [ICON_Gold] 金币。[ICON_Power] 供电充足的 [ICON_Gold] 金币加成延伸到6个单元格中的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_PRODUCTION_10_SST" Language="zh_Hans_CN">
+			<Text>为此城+10% [ICON_Gold] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PRODUCTION_15_SST" Language="zh_Hans_CN">
+			<Text>为此城+15% [ICON_Gold] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>为此城+10% [ICON_Gold] 生产力。基础 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION}</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
