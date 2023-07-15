@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<GlobalParameters>
+		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="60" />
+		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="40" />
+	</GlobalParameters>
+</GameData>
