@@ -17,6 +17,10 @@
 		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST"/></Update>
 		<!--Holy Site-->
 		<!--To be implemented-->
+		<!--Commercial Hub-->
+		<Update><Where BuildingType="BUILDING_MARKET" /><Set Description="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_BANK" /><Set Description="LOC_BUILDING_BANK_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Description="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" RegionalRange="6"/></Update>
 	</Buildings>
 
 	<BuildingPrereqs>
@@ -42,6 +46,10 @@
 		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set YieldChange="2"/></Update>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="3"/>
 		<Delete BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
+		<!--Commercial Hub-->
+		<Update><Where BuildingType="BUILDING_MARKET" /><Set YieldChange="1"/></Update>
+		<Update><Where BuildingType="BUILDING_BANK" /><Set YieldChange="2"/></Update>
+		<Delete BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/>
 	</Building_YieldChanges>
 
 	<Building_YieldChangesBonusWithPower>
@@ -49,6 +57,8 @@
 		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
 		<!--Campus-->
 		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/><Set YieldChange="4"/></Update>
+		<!--Commercial Hub-->
+		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/><Set YieldChange="3"/></Update>
 	</Building_YieldChangesBonusWithPower>
 
 	<Building_CitizenYieldChanges>
@@ -74,6 +84,9 @@
 		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Delete BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" />
+		<!--Holy Site-->
+		<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Delete BuildingType="BUILDING_STOCK_EXCHANGE"/>
 	</Building_CitizenYieldChanges>
 
 	<Building_YieldDistrictCopies>
@@ -81,6 +94,8 @@
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" OldYieldType="YIELD_CULTURE" NewYieldType="YIELD_CULTURE" />
 		<!--Campus-->
 		<Row BuildingType="BUILDING_RESEARCH_LAB" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_SCIENCE" />
+		<!--Commercial Hub-->
+		<Row BuildingType="BUILDING_STOCK_EXCHANGE" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_GOLD" />
 	</Building_YieldDistrictCopies>
 
 	<BuildingModifiers>
@@ -97,6 +112,11 @@
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" ModifierId="SCIENCEBULIDING_SCIENCE_PER_POP"/>
 		<Row BuildingType="BUILDING_RESEARCH_LAB" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
 		<Row BuildingType="BUILDING_RESEARCH_LAB" ModifierId="SCIENCEBULIDING_SCIENCE_34_POWERED"/>
+		<!--Commercial Hub-->
+		<Row BuildingType="BUILDING_MARKET" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+		<Row BuildingType="BUILDING_BANK" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+		<Row BuildingType="BUILDING_STOCK_EXCHANGE" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+		<Row BuildingType="BUILDING_STOCK_EXCHANGE" ModifierId="COMMERCIALBULIDING_GOLD_25_POWERED"/>
 	</BuildingModifiers>
 	
 	<Building_GreatPersonPoints>
