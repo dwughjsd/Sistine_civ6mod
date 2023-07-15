@@ -9,7 +9,7 @@
 		<!--Theater Square-->
 		<Update>
 			<Where BuildingType="BUILDING_AMPHITHEATER" />
-			<Set Cost="160" Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/>
+			<Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/>
 		</Update>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
 		<Update>
@@ -17,6 +17,14 @@
 			<Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST"/>
 		</Update>
 		<!--Campus-->
+		<Update>
+			<Where BuildingType="BUILDING_LIBRARY" />
+			<Set Description="LOC_BUILDING_LIBRARY_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_UNIVERSITY" />
+			<Set Description="LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST"/>
+		</Update>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" Name="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Description="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="3" CitizenSlots="1"/>
 		<Update>
 			<Where BuildingType="BUILDING_RESEARCH_LAB" />

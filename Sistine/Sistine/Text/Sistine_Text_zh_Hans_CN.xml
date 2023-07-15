@@ -19,5 +19,20 @@
 		<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>为此城+33% [ICON_Culture] 文化值，[ICON_Power] 供电充足时，该加成翻倍。[ICON_Power] 供电充足的 [ICON_Culture] 文化值加成延伸到6个单元格中的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_SCIENCE] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>为此城+33% [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Language="zh_Hans_CN">
+			<Text>公立学校</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_SCIENCE] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>为此城+33% [ICON_Science] 科技值，[ICON_Power] 供电充足时，额外 +50% [ICON_Science] 科技值。[ICON_Power] 供电充足的 [ICON_Science] 科技值加成延伸到6个单元格中的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
