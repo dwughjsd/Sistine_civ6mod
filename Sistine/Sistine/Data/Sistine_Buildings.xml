@@ -46,15 +46,9 @@
 
 	<Building_YieldChangesBonusWithPower>
 		<!--Theater Square-->
-		<Update>
-			<Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/>
-			<Set YieldChange="3"/>
-		</Update>
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
 		<!--Campus-->
-		<Update>
-			<Where BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
-			<Set YieldChange="4"/>
-		</Update>
+		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/><Set YieldChange="4"/></Update>
 	</Building_YieldChangesBonusWithPower>
 
 	<Building_CitizenYieldChanges>
