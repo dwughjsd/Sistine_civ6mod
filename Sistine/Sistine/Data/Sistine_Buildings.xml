@@ -7,29 +7,16 @@
 	
 	<Buildings>
 		<!--Theater Square-->
-		<Update>
-			<Where BuildingType="BUILDING_AMPHITHEATER" />
-			<Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/>
-		</Update>
+		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/></Update>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
-		<Update>
-			<Where BuildingType="BUILDING_BROADCAST_CENTER" />
-			<Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST"/>
-		</Update>
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" /><Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST"/></Update>
 		<!--Campus-->
-		<Update>
-			<Where BuildingType="BUILDING_LIBRARY" />
-			<Set Description="LOC_BUILDING_LIBRARY_DESCRIPTION_SST"/>
-		</Update>
-		<Update>
-			<Where BuildingType="BUILDING_UNIVERSITY" />
-			<Set Description="LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST"/>
-		</Update>
+		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Description="LOC_BUILDING_LIBRARY_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set Description="LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST"/></Update>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" Name="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Description="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="3" CitizenSlots="1"/>
-		<Update>
-			<Where BuildingType="BUILDING_RESEARCH_LAB" />
-			<Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST"/>
-		</Update>
+		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST"/></Update>
+		<!--Holy Site-->
+		<!--To be implemented-->
 	</Buildings>
 
 	<BuildingPrereqs>
@@ -52,10 +39,7 @@
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/>		
 		<!--Campus-->
 		<Delete BuildingType="BUILDING_LIBRARY" YieldType="YIELD_SCIENCE"/>
-		<Update>
-			<Where BuildingType="BUILDING_UNIVERSITY" />
-			<Set YieldChange="2"/>
-		</Update>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set YieldChange="2"/></Update>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="3"/>
 		<Delete BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
 	</Building_YieldChanges>
@@ -81,6 +65,17 @@
 		<!--Campus-->
 		<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Delete BuildingType="BUILDING_RESEARCH_LAB"/>
+		<!--Holy Site-->
+		<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Delete BuildingType="BUILDING_CATHEDRAL"/>
+		<Delete BuildingType="BUILDING_DAR_E_MEHR"/>
+		<Delete BuildingType="BUILDING_GURDWARA"/>
+		<Delete BuildingType="BUILDING_MEETING_HOUSE"/>
+		<Delete BuildingType="BUILDING_MOSQUE"/>
+		<Delete BuildingType="BUILDING_PAGODA"/>
+		<Delete BuildingType="BUILDING_STUPA"/>
+		<Delete BuildingType="BUILDING_SYNAGOGUE"/>
+		<Delete BuildingType="BUILDING_WAT"/>
 	</Building_CitizenYieldChanges>
 
 	<Building_YieldDistrictCopies>
@@ -108,24 +103,30 @@
 	
 	<Building_GreatPersonPoints>
 		<!--Theater Square-->
-		<Update>
-			<Where BuildingType="BUILDING_AMPHITHEATER" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
-			<Set PointsPerTurn="2" />
-		</Update>
+		<Update><Where BuildingType="BUILDING_AMPHITHEATER" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/><Set PointsPerTurn="2" /></Update>
 		<Delete BuildingType="BUILDING_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
 		<Delete BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
-		<Update>
-			<Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/>
-			<Set PointsPerTurn="1" />
-		</Update>
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="1" /></Update>
 		<!--Campus-->
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
 
 	<Building_GreatWorks>
+		<!--Theater Square-->
 		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="1"/>
+		<!--Holy Site-->
+		<Delete BuildingType="BUILDING_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
+		<Row BuildingType="BUILDING_CATHEDRAL" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_DAR_E_MEHR" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_GURDWARA" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_MEETING_HOUSE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_MOSQUE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_PAGODA" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_STUPA" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_SYNAGOGUE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_WAT" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
 	</Building_GreatWorks>
 
 	<Building_TourismBombs_XP2>
