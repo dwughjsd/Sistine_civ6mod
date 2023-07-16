@@ -21,6 +21,17 @@
 		<Replace Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
 	</MajorStartingUnits>
 
+	<BonusMinorStartingUnits>
+		<Replace Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_CLASSICAL" Unit="UNIT_WARRIOR" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_MEDIEVAL" Unit="UNIT_SWORDSMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_RENAISSANCE" Unit="UNIT_SWORDSMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_INDUSTRIAL" Unit="UNIT_MUSKETMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_MODERN" Unit="UNIT_MUSKETMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_ATOMIC" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+	</BonusMinorStartingUnits>
+
 	<BarbarianAttackForces>
 		<!--Fix of high difficulty barb heavy cavalry-->
 		<Replace AttackForceType="LowDifficultyStandardRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_MELEE" NumMeleeUnits="1" RaidingForce="true"/>
@@ -48,13 +59,15 @@
 		<Replace PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" DefaultValue="2.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" DefaultValue="2.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" DefaultValue="2.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" DefaultValue="2.0"/>
+		<!--So that only civs with high religious preference would prefer a new religion.-->
+		<Replace PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" DefaultValue="1.8"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" DefaultValue="2.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_GPP_WRITER" DefaultValue="2.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" DefaultValue="2.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" DefaultValue="2.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_DISTRICT" DefaultValue="15.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_DISTRICT" DefaultValue="12.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" DefaultValue="8.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_UNIT_SPY" DefaultValue="10.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_CITY_BASE" DefaultValue="400"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" DefaultValue="200"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" DefaultValue="0.5"/>
