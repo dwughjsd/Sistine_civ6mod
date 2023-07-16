@@ -44,6 +44,15 @@
 	</BarbarianAttackForces>
 
 	<PseudoYields>
+		<Replace PseudoYieldType="PSEUDOYIELD_GPP_GENERAL" DefaultValue="2.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" DefaultValue="2.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" DefaultValue="2.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" DefaultValue="2.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" DefaultValue="2.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" DefaultValue="2.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_GPP_WRITER" DefaultValue="2.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" DefaultValue="2.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" DefaultValue="2.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_DISTRICT" DefaultValue="15.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" DefaultValue="8.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_CITY_BASE" DefaultValue="400"/>

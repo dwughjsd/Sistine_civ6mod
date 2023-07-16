@@ -44,6 +44,7 @@
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set EntertainmentBonusWithPower="3" /></Update>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" RequiredPower="3"/>
 		<Row BuildingType="BUILDING_VISITOR_CENTER" RequiredPower="2"/>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set RequiredPower="3" EntertainmentBonusWithPower="1" /></Update>
 	</Buildings_XP2>
 	<BuildingPrereqs>
 		<!--Theater Square-->
@@ -62,7 +63,14 @@
 		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
 		<!--Aerodrome-->
 		<Row Building="BUILDING_VISITOR_CENTER" PrereqBuilding="BUILDING_AIRPORT"/>
+		<!--Neighborhood-->
+		<Row Building="BUILDING_SHOPPING_MALL" PrereqBuilding="BUILDING_FOOD_MARKET"/>
 	</BuildingPrereqs>
+
+	<MutuallyExclusiveBuildings>
+		<Delete Building="BUILDING_FOOD_MARKET" MutuallyExclusiveBuilding="BUILDING_SHOPPING_MALL"/>
+		<Delete Building="BUILDING_SHOPPING_MALL" MutuallyExclusiveBuilding="BUILDING_FOOD_MARKET"/>
+	</MutuallyExclusiveBuildings>
 
 	<Building_YieldChanges>
 		<!--Theater Square-->
@@ -182,6 +190,12 @@
 		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM"/>
 		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM"/>
 		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM_POWERED"/>
+		<!--Neighborhood-->
+		<Row BuildingType="BUILDING_FOOD_MARKET" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP"/>
+		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP"/>
+		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP_POWERED"/>
+		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="STADIUM_10_POPULATION_TOURISM"/>
+		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="STADIUM_20_POPULATION_TOURISM"/>
 	</BuildingModifiers>
 	
 	<Building_GreatPersonPoints>

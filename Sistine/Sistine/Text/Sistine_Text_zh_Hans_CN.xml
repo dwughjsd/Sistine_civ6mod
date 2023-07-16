@@ -77,7 +77,13 @@
 			<Text>旅客中心</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VISITOR_CENTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城市+50% [ICON_Tourism] 旅游业绩，供电充足时额外+50% [ICON_Tourism] 旅游业绩。</Text>
+			<Text>此城市+50% [ICON_Tourism] 旅游业绩，[ICON_Power] 供电充足时额外+50% [ICON_Tourism] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+0.5 [ICON_Gold] 金币。+4 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于10，则+2 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+5 [ICON_Tourism] 旅游业绩。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
