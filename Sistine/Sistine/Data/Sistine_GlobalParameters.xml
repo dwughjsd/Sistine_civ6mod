@@ -4,5 +4,37 @@
 		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="60" />
 		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="40" />
 		<Replace Name="GAME_COST_ESCALATION" Value="400" />
+		<Replace Name="BARBARIAN_CAMP_MAX_PER_MAJOR_CIV" Value="2" />
+		<Replace Name="EXPERIENCE_BARB_SOFT_CAP" Value="2" />
+		<Replace Name="EXPERIENCE_MAX_BARB_LEVEL" Value="3" />
 	</GlobalParameters>
+
+	<MajorStartingUnits>
+		<Replace Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_CLASSICAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_MEDIEVAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_RENAISSANCE" Unit="UNIT_PIKEMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_INDUSTRIAL" Unit="UNIT_PIKEMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_MODERN" Unit="UNIT_RANGER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_ATOMIC" Unit="UNIT_INFANTRY" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+	</MajorStartingUnits>
+
+	<BarbarianAttackForces>
+		<!--Fix of high difficulty barb heavy cavalry-->
+		<Update>
+			<Where AttackForceType="HighDifficultyCavalryAttack" />
+			<Set SiegeTag="CLASS_HEAVY_CAVALRY"/>
+		</Update>
+	</BarbarianAttackForces>
+
+	<PseudoYields>
+		<Replace PseudoYieldType="PSEUDOYIELD_DISTRICT" DefaultValue="20.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" DefaultValue="5.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_CITY_BASE" DefaultValue="400"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" DefaultValue="200"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" DefaultValue="0.5"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" DefaultValue="10.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" DefaultValue="20"/>
+	</PseudoYields>
 </GameData>
