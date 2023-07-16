@@ -3,5 +3,6 @@
 	<GlobalParameters>
 		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="60" />
 		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="40" />
+		<Replace Name="GAME_COST_ESCALATION" Value="400" />
 	</GlobalParameters>
 </GameData>
