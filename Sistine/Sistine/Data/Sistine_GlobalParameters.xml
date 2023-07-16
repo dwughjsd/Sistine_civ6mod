@@ -60,7 +60,8 @@
 		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" /><Set DefaultValue="2.0" /></Update>
 		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" /><Set DefaultValue="2.0" /></Update>
 		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" /><Set DefaultValue="2.0" /></Update>
-		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" /><Set DefaultValue="1.8" /></Update>
+		<!--Really no need to spam prophet. Let fewer civs build it-->
+		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" /><Set DefaultValue="0.75" /></Update>
 		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" /><Set DefaultValue="2.0" /></Update>
 		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" /><Set DefaultValue="2.0" /></Update>
 		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" /><Set DefaultValue="2.0" /></Update>
