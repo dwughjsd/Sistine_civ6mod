@@ -29,12 +29,81 @@
 	</BarbarianAttackForces>
 
 	<PseudoYields>
-		<Replace PseudoYieldType="PSEUDOYIELD_DISTRICT" DefaultValue="20.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" DefaultValue="5.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_DISTRICT" DefaultValue="15.0"/>
+		<Replace PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" DefaultValue="8.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_CITY_BASE" DefaultValue="400"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" DefaultValue="200"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" DefaultValue="0.5"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" DefaultValue="10.0"/>
 		<Replace PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" DefaultValue="20"/>
 	</PseudoYields>
+
+	<AiFavoredItems>
+		<Delete ListType="DefaultYieldBias" Item="YIELD_PRODUCTION"/>
+		<Delete ListType="DefaultYieldBias" Item="YIELD_CULTURE"/>
+		<Delete ListType="DefaultYieldBias" Item="YIELD_GOLD"/>
+		<Delete ListType="DefaultYieldBias" Item="YIELD_FOOD"/>
+		<Delete ListType="DefaultYieldBias" Item="YIELD_FAITH"/>
+		<Delete ListType="DefaultYieldBias" Item="YIELD_SCIENCE"/>
+		<Delete ListType="ClassicalYields" Item="YIELD_PRODUCTION"/>
+		<Delete ListType="ClassicalYields" Item="YIELD_CULTURE"/>
+		<Delete ListType="ClassicalYields" Item="YIELD_GOLD"/>
+		<Delete ListType="ClassicalYields" Item="YIELD_FOOD"/>
+		<Delete ListType="ClassicalYields" Item="YIELD_FAITH"/>
+		<Delete ListType="ClassicalYields" Item="YIELD_SCIENCE"/>
+		<Delete ListType="MedievalYields" Item="YIELD_PRODUCTION"/>
+		<Delete ListType="MedievalYields" Item="YIELD_CULTURE"/>
+		<Delete ListType="MedievalYields" Item="YIELD_GOLD"/>
+		<Delete ListType="MedievalYields" Item="YIELD_FOOD"/>
+		<Delete ListType="MedievalYields" Item="YIELD_FAITH"/>
+		<Delete ListType="MedievalYields" Item="YIELD_SCIENCE"/>
+		<Delete ListType="RenaissanceYields" Item="YIELD_PRODUCTION"/>
+		<Delete ListType="RenaissanceYields" Item="YIELD_CULTURE"/>
+		<Delete ListType="RenaissanceYields" Item="YIELD_GOLD"/>
+		<Delete ListType="RenaissanceYields" Item="YIELD_FOOD"/>
+		<Delete ListType="RenaissanceYields" Item="YIELD_FAITH"/>
+		<Delete ListType="RenaissanceYields" Item="YIELD_SCIENCE"/>
+		<Delete ListType="IndustrialYields" Item="YIELD_PRODUCTION"/>
+		<Delete ListType="IndustrialYields" Item="YIELD_CULTURE"/>
+		<Delete ListType="IndustrialYields" Item="YIELD_GOLD"/>
+		<Delete ListType="IndustrialYields" Item="YIELD_FOOD"/>
+		<Delete ListType="IndustrialYields" Item="YIELD_FAITH"/>
+		<Delete ListType="IndustrialYields" Item="YIELD_SCIENCE"/>
+		<Delete ListType="ModernYields" Item="YIELD_PRODUCTION"/>
+		<Delete ListType="ModernYields" Item="YIELD_CULTURE"/>
+		<Delete ListType="ModernYields" Item="YIELD_GOLD"/>
+		<Delete ListType="ModernYields" Item="YIELD_FOOD"/>
+		<Delete ListType="ModernYields" Item="YIELD_FAITH"/>
+		<Delete ListType="ModernYields" Item="YIELD_SCIENCE"/>
+
+		<Row ListType="DefaultYieldBias" Item="YIELD_PRODUCTION" Value="25"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="25"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="20"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_FAITH" Value="-25"/>
+
+		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
+		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="20"/>
+		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="20"/>
+
+		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="20"/>
+		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="20"/>
+		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="10"/>
+		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="15"/>
+		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-15"/>
+		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
+
+		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="15"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-15"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
+
+		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="30"/>
+		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
+
+		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
+	</AiFavoredItems>
 </GameData>
