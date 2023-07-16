@@ -55,24 +55,24 @@
 	</BarbarianAttackForces>
 
 	<PseudoYields>
-		<Replace PseudoYieldType="PSEUDOYIELD_GPP_GENERAL" DefaultValue="2.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" DefaultValue="2.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" DefaultValue="2.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" DefaultValue="2.0"/>
-		<!--So that only civs with high religious preference would prefer a new religion.-->
-		<Replace PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" DefaultValue="1.8"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" DefaultValue="2.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_GPP_WRITER" DefaultValue="2.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" DefaultValue="2.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" DefaultValue="2.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_DISTRICT" DefaultValue="12.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" DefaultValue="8.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_UNIT_SPY" DefaultValue="10.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_CITY_BASE" DefaultValue="400"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" DefaultValue="200"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" DefaultValue="0.5"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" DefaultValue="10.0"/>
-		<Replace PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" DefaultValue="20"/>
+		<!--Replacing PseudoYields will cause issues. Be sure not to replace but only use update-->
+		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_GENERAL" /><Set DefaultValue="2.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" /><Set DefaultValue="2.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" /><Set DefaultValue="2.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" /><Set DefaultValue="2.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" /><Set DefaultValue="1.8" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" /><Set DefaultValue="2.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" /><Set DefaultValue="2.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" /><Set DefaultValue="2.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" /><Set DefaultValue="2.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_DISTRICT" /><Set DefaultValue="12.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" /><Set DefaultValue="8.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" /><Set DefaultValue="10.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_CITY_BASE" /><Set DefaultValue="400" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" /><Set DefaultValue="200" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" /><Set DefaultValue="0.5" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" /><Set DefaultValue="10.0" /></Update>
+		<Update><Where PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" /><Set DefaultValue="20" /></Update>
 	</PseudoYields>
 
 	<AiFavoredItems>
