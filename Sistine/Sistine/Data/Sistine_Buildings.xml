@@ -4,6 +4,7 @@
 		<Row Type="BUILDING_OPERA_HOUSE" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_PUBLIC_SCHOOL" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_MANUFACTURING_PLANT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_VISITOR_CENTER" Kind="KIND_BUILDING"/>
 	</Types>
 	
 	<Buildings>
@@ -35,10 +36,14 @@
 		<Update><Where BuildingType="BUILDING_FERRIS_WHEEL" /><Set Entertainment="3"/></Update>
 		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Entertainment="3"/></Update>
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set Entertainment="4" /></Update>
+		<!--Aerodrome-->
+		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO"/></Update>
+		<Row BuildingType="BUILDING_VISITOR_CENTER" Name="LOC_BUILDING_VISITOR_CENTER_NAME" Description="LOC_BUILDING_VISITOR_CENTER_DESCRIPTION" PrereqTech="TECH_ADVANCED_FLIGHT" PrereqDistrict="DISTRICT_AERODROME" PurchaseYield="YIELD_GOLD" Cost="480" AdvisorType="ADVISOR_CULTURE" Maintenance="3"/>
 	</Buildings>
 	<Buildings_XP2>
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set EntertainmentBonusWithPower="3" /></Update>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" RequiredPower="3"/>
+		<Row BuildingType="BUILDING_VISITOR_CENTER" RequiredPower="2"/>
 	</Buildings_XP2>
 	<BuildingPrereqs>
 		<!--Theater Square-->
@@ -55,6 +60,8 @@
 		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_POWER_PLANT"/>
 		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_COAL_POWER_PLANT"/>
 		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
+		<!--Aerodrome-->
+		<Row Building="BUILDING_VISITOR_CENTER" PrereqBuilding="BUILDING_AIRPORT"/>
 	</BuildingPrereqs>
 
 	<Building_YieldChanges>
@@ -76,6 +83,8 @@
 		<Update><Where BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="5"/></Update>
 		<!--Harbor-->
 		<Delete BuildingType="BUILDING_SEAPORT" YieldType="YIELD_FOOD"/>
+		<!--Aerodrome-->
+		<Update><Where BuildingType="BUILDING_AIRPORT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
 	</Building_YieldChanges>
 
 	<Building_YieldChangesBonusWithPower>
@@ -169,6 +178,10 @@
 		<Delete BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="HYDROELECTRIC_DAM_FREE_POWER"/>
 		<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX"/>
 		<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<!--Aerodrome-->
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM_POWERED"/>
 	</BuildingModifiers>
 	
 	<Building_GreatPersonPoints>
