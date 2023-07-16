@@ -101,31 +101,31 @@
 		<Delete ListType="ModernYields" Item="YIELD_SCIENCE"/>
 
 		<Row ListType="DefaultYieldBias" Item="YIELD_PRODUCTION" Value="25"/>
-		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="25"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="30"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FAITH" Value="-25"/>
 
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="10"/>
-		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="20"/>
+		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="20"/>
 
-		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="20"/>
-		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="20"/>
+		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="-10"/>
+		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="35"/>
 		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="15"/>
 		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-15"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
 
-		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="15"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="15"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="5"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="15"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-15"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
 
-		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="30"/>
-		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
 
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
