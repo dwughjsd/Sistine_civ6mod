@@ -5,6 +5,7 @@
 		<Row Type="BUILDING_PUBLIC_SCHOOL" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_MANUFACTURING_PLANT" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_VISITOR_CENTER" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_VIVARIUM" Kind="KIND_BUILDING"/>
 	</Types>
 	
 	<Buildings>
@@ -39,6 +40,9 @@
 		<!--Aerodrome-->
 		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO"/></Update>
 		<Row BuildingType="BUILDING_VISITOR_CENTER" Name="LOC_BUILDING_VISITOR_CENTER_NAME" Description="LOC_BUILDING_VISITOR_CENTER_DESCRIPTION" PrereqTech="TECH_ADVANCED_FLIGHT" PrereqDistrict="DISTRICT_AERODROME" PurchaseYield="YIELD_GOLD" Cost="480" AdvisorType="ADVISOR_CULTURE" Maintenance="3"/>
+		<!--Preserve-->
+		<Update><Where BuildingType="BUILDING_SANCTUARY" /><Set PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqCivic=""/></Update>
+		<Row BuildingType="BUILDING_VIVARIUM" Name="LOC_BUILDING_VIVARIUM_NAME" Description="LOC_BUILDING_VIVARIUM_DESCRIPTION" PrereqCivic="CIVIC_CONSERVATION" PrereqDistrict="DISTRICT_PRESERVE" PurchaseYield="YIELD_GOLD" Cost="440" AdvisorType="ADVISOR_CULTURE"/>
 	</Buildings>
 	<Buildings_XP2>
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set EntertainmentBonusWithPower="3" /></Update>
@@ -263,4 +267,32 @@
 		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX" Name="Amount" Value="6"/>
 		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX" Name="SourceType" Value="FREE_POWER_SOURCE_WATER"/>
 	</ModifierArguments>
+
+	<Adjacent_AppealYieldChanges>
+		<Delete DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="2" YieldType="YIELD_FAITH" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_GROVE"/>
+		<Delete DistrictType="DISTRICT_PRESERVE" MinimumValue="2" MaximumValue="3" YieldChange="1" YieldType="YIELD_FAITH" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_CHARMING" BuildingType="BUILDING_GROVE"/>
+		<Delete DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="2" YieldType="YIELD_CULTURE" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_GROVE"/>
+
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="3" YieldType="YIELD_FAITH" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_GROVE"/>
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="2" MaximumValue="3" YieldChange="2" YieldType="YIELD_FAITH" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_CHARMING" BuildingType="BUILDING_GROVE"/>
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="3" YieldType="YIELD_CULTURE" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_GROVE"/>
+
+		<Delete DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="2" YieldType="YIELD_FOOD" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_GROVE"/>
+		<Delete DistrictType="DISTRICT_PRESERVE" MinimumValue="2" MaximumValue="3" YieldChange="1" YieldType="YIELD_FOOD" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_CHARMING" BuildingType="BUILDING_GROVE"/>
+		<Delete DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="2" YieldType="YIELD_PRODUCTION" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_SANCTUARY"/>
+
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="3" YieldType="YIELD_FOOD" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_SANCTUARY"/>
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="2" MaximumValue="3" YieldChange="2" YieldType="YIELD_FOOD" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_CHARMING" BuildingType="BUILDING_SANCTUARY"/>
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="3" YieldType="YIELD_PRODUCTION" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_SANCTUARY"/>
+
+		<Delete DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="2" YieldType="YIELD_GOLD" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_SANCTUARY"/>
+		<Delete DistrictType="DISTRICT_PRESERVE" MinimumValue="2" MaximumValue="3" YieldChange="1" YieldType="YIELD_GOLD" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_CHARMING" BuildingType="BUILDING_SANCTUARY"/>
+		<Delete DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="2" YieldType="YIELD_SCIENCE" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_SANCTUARY"/>
+		<Delete DistrictType="DISTRICT_PRESERVE" MinimumValue="2" MaximumValue="3" YieldChange="1" YieldType="YIELD_SCIENCE" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_CHARMING" BuildingType="BUILDING_SANCTUARY"/>
+
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="3" YieldType="YIELD_SCIENCE" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_VIVARIUM"/>
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="2" MaximumValue="3" YieldChange="2" YieldType="YIELD_SCIENCE" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_CHARMING" BuildingType="BUILDING_VIVARIUM"/>
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="3" YieldType="YIELD_GOLD" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_VIVARIUM"/>
+	</Adjacent_AppealYieldChanges>
+
 </GameData>

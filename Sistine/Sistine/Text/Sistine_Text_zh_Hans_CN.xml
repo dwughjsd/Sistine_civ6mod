@@ -85,5 +85,17 @@
 		<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+0.5 [ICON_Gold] 金币。+4 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于10，则+2 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+5 [ICON_Tourism] 旅游业绩。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_GROVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为相邻未改良迷人单元格+2 [ICON_FAITH] 信仰值。为相邻未改良惊艳单元格+3 [ICON_FAITH] 信仰值、+3 [ICON_CULTURE] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SANCTUARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为相邻未改良迷人单元格+2 [ICON_FOOD] 食物。为相邻未改良惊艳单元格+3 [ICON_FOOD] 食物、+3 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_VIVARIUM_NAME" Language="zh_Hans_CN">
+			<Text>生态园</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_VIVARIUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为相邻未改良迷人单元格+2 [ICON_SCIENCE] 科技值。为相邻未改良惊艳单元格+3 [ICON_SCIENCE] 科技值、+3 [ICON_GOLD] 金币。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
