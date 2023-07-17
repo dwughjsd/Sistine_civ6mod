@@ -12,7 +12,7 @@
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_AQUEDUCT" />
-			<Set Cost="30" />
+			<Set Cost="30" CostProgressionParam1="400"/>
 		</Update>
 		<!--Standard cost districts-->
 		<Update>
@@ -57,7 +57,7 @@
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_NEIGHBORHOOD" />
-			<Set Cost="40" />
+			<Set Cost="40" CostProgressionParam1="400"/>
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" />
@@ -65,16 +65,16 @@
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_PRESERVE" />
-			<Set Cost="40" />
+			<Set Cost="40" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40"/>
 		</Update>
 		<!--High cost districts-->
 		<Update>
 			<Where DistrictType="DISTRICT_CANAL" />
-			<Set Cost="60" />
+			<Set Cost="60" CostProgressionParam1="400"/>
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_DAM" />
-			<Set Cost="60" />
+			<Set Cost="60" CostProgressionParam1="400"/>
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_SPACEPORT" />
@@ -83,7 +83,7 @@
 		<!--Unique districts-->
 		<Update>
 			<Where DistrictType="DISTRICT_BATH" />
-			<Set Cost="15" />
+			<Set Cost="15" CostProgressionParam1="400"/>
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_ACROPOLIS" />
@@ -99,7 +99,7 @@
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_MBANZA" />
-			<Set Cost="20" />
+			<Set Cost="20" CostProgressionParam1="400"/>
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_STREET_CARNIVAL" />
