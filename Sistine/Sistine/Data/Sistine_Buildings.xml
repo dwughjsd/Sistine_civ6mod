@@ -31,6 +31,8 @@
 		<Update><Where BuildingType="BUILDING_COAL_POWER_PLANT" /><Set Description="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_SST" /></Update>
 		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" /><Set Description="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" /></Update>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" Name="LOC_BUILDING_MANUFACTURING_PLANT_NAME" Description="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" PrereqTech="TECH_ROBOTICS" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="440" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" RegionalRange="6"/>
+		<!--Harbor-->
+		<!--To be implemented-->
 		<!--Entertainment Complex and Water Park-->
 		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_EXPLORATION" Entertainment="2"/></Update>
 		<Update><Where BuildingType="BUILDING_STADIUM" /><Set PrereqCivic="CIVIC_MASS_MEDIA" Entertainment="3"/></Update>
@@ -186,6 +188,10 @@
 		<Row BuildingType="BUILDING_COAL_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
 		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<!--Harbor-->
+		<Delete BuildingType="BUILDING_SHIPYARD" ModifierId="SHIPYARD_UNIMPROVED_COAST_PRODUCTION"/>
+		<Row BuildingType="BUILDING_SHIPYARD" ModifierId="HARBORBUILDING_COAST_PRODUCTION"/>
+		<Row BuildingType="BUILDING_SEAPORT" ModifierId="HARBORBUILDING_COAST_PRODUCTION"/>
 		<!--Dam-->
 		<Delete BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="HYDROELECTRIC_DAM_FREE_POWER"/>
 		<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX"/>

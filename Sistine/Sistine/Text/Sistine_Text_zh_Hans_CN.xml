@@ -43,6 +43,15 @@
 		<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>为此城+25% [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+25% [ICON_Gold] 金币。[ICON_Power] 供电充足的 [ICON_Gold] 金币加成延伸到6个单元格中的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>此城生产的所有海军单位+25%战斗经验值。此城的所有海岸单元格+1 [ICON_FOOD] 食物。如此城与海岸相邻，则+2 [ICON_HOUSING] 住房。如此城尚无市场，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>此城中生产的所有海军单位+25%战斗经验值。[ICON_Production] 生产力加成等于港口区域的相邻加成。此城所有海岸单元格提供的 [ICON_PRODUCTION] 生产力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SEAPORT_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>此城中生产的所有海军单位+25%战斗经验值。可直接生产舰队和无敌舰队。舰队和无敌舰队的生产费用降低25%。此城所有海岸单元格产出的 [ICON_GOLD] 金币+2、[ICON_PRODUCTION] 生产力+1。</Text>
+		</Replace>
 		<Replace Tag="LOC_PRODUCTION_10_SST" Language="zh_Hans_CN">
 			<Text>为此城+10% [ICON_Production] 生产力。</Text>
 		</Replace>
