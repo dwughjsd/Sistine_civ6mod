@@ -3,11 +3,48 @@
 	<Tags>
 		<!-- Building Effects Based-->
 		<Row Tag="CLASS_FOOD_MARKET" Vocabulary="RESOURCE_CLASS"/>
-		<Row Tag="CLASS_GRANARY" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_SHOPPING_MALL" Vocabulary="RESOURCE_CLASS"/>
 		<Row Tag="CLASS_LIGHTHOUSE" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_STONE_WORKS" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_MINT" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_FARMS" Vocabulary="RESOURCE_CLASS"/>
 	</Tags>
     <TypeTags>
 		<!-- Bonus-->
+		<Row Type="RESOURCE_CRABS" Tag="CLASS_LIGHTHOUSE"/>
+		<Row Type="RESOURCE_FISH" Tag="CLASS_LIGHTHOUSE"/>
+		<Row Type="RESOURCE_PEARLS" Tag="CLASS_LIGHTHOUSE"/>
+		<Row Type="RESOURCE_TURTLES" Tag="CLASS_LIGHTHOUSE"/>
+
+		<Row Type="RESOURCE_RICE" Tag="CLASS_FARMS"/>
+		<Row Type="RESOURCE_WHEAT" Tag="CLASS_FARMS"/>
+		<Row Type="RESOURCE_MAIZE" Tag="CLASS_FARMS"/>
+
+		<Row Type="RESOURCE_OLIVES" Tag="CLASS_FOOD_MARKET"/>
 		<Row Type="RESOURCE_BANANAS" Tag="CLASS_FOOD_MARKET"/>
+		<Row Type="RESOURCE_CIRTUS" Tag="CLASS_FOOD_MARKET"/>
+		<Row Type="RESOURCE_SPICES" Tag="CLASS_FOOD_MARKET"/>
+		<Row Type="RESOURCE_SUGAR" Tag="CLASS_FOOD_MARKET"/>
+		<Row Type="RESOURCE_SALT" Tag="CLASS_FOOD_MARKET"/>
+
+		<Row Type="RESOURCE_HONEY" Tag="CLASS_SHOPPING_MALL"/>
+		<Row Type="RESOURCE_TRUFFLES" Tag="CLASS_SHOPPING_MALL"/>
+		<Row Type="RESOURCE_CATTLE" Tag="CLASS_SHOPPING_MALL"/>
+		<Row Type="RESOURCE_DEER" Tag="CLASS_SHOPPING_MALL"/>
+		<Row Type="RESOURCE_SHEEP" Tag="CLASS_SHOPPING_MALL"/>
+
+		<Row Type="RESOURCE_MARBLE" Tag="CLASS_STONE_WORKS"/>
+		<Row Type="RESOURCE_STONE" Tag="CLASS_STONE_WORKS"/>
+
+		<Row Type="RESOURCE_SILVER" Tag="CLASS_MINT"/>
+		<Row Type="RESOURCE_COPPER" Tag="CLASS_MINT"/>
+		
+		<!--Find somewhere else, you drinks-->
+		<!--
+		<Row Type="RESOURCE_WINE" Tag="CLASS_DRINKS"/>
+		<Row Type="RESOURCE_COCOA" Tag="CLASS_DRINKS"/>
+		<Row Type="RESOURCE_COFFEE" Tag="CLASS_DRINKS"/>
+		<Row Type="RESOURCE_TEA" Tag="CLASS_DRINKS"/>
+		-->
     </TypeTags>
 </GameData>
