@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Tags>
+		<!-- Building Effects Based-->
+		<Row Tag="CLASS_FOOD_MARKET" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_GRANARY" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_LIGHTHOUSE" Vocabulary="RESOURCE_CLASS"/>
+	</Tags>
+    <TypeTags>
+		<!-- Bonus-->
+		<Row Type="RESOURCE_BANANAS" Tag="CLASS_FOOD_MARKET"/>
+    </TypeTags>
+</GameData>
