@@ -143,5 +143,7 @@
 		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
 
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
+		<Row ListType="ScienceVictoryProjects" Item="PROJECT_TERRESTRIAL_LASER" Favored="true"/>
 	</AiFavoredItems>
 </GameData>
