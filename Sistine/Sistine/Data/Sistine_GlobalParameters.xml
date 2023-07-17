@@ -4,7 +4,8 @@
 		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="60" />
 		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="40" />
 		<Replace Name="GAME_COST_ESCALATION" Value="400" />
-		<Replace Name="BARBARIAN_CAMP_MAX_PER_MAJOR_CIV" Value="2" />
+		<Replace Name="TOURISM_CULTURE_PER_CITIZEN" Value="200" />
+		<Replace Name="TOURISM_TOURISM_TO_MOVE_CITIZEN" Value="100" />
 		<Replace Name="EXPERIENCE_BARB_SOFT_CAP" Value="2" />
 		<Replace Name="EXPERIENCE_MAX_BARB_LEVEL" Value="3" />
 		<Replace Name="BARBARIAN_TECH_PERCENT" Value="75" />
@@ -143,6 +144,7 @@
 		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
 
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
+
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_TERRESTRIAL_LASER" Favored="true"/>
 	</AiFavoredItems>
