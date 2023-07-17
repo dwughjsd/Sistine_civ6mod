@@ -9,6 +9,10 @@
 		<Replace Name="EXPERIENCE_BARB_SOFT_CAP" Value="2" />
 		<Replace Name="EXPERIENCE_MAX_BARB_LEVEL" Value="3" />
 		<Replace Name="BARBARIAN_TECH_PERCENT" Value="75" />
+		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT" Value="1" />
+		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="20" />
+		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MIN" Value="0" />
+		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MULTIPLIER" Value="50" />
 	</GlobalParameters>
 
 	<MajorStartingUnits>
