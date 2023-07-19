@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_STONE_WORKS_NAME" Language="zh_Hans_CN">
+			<Text>石工坊</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STONE_WORKS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城的 [ICON_RESOURCE_STONE] 石头和 [ICON_RESOURCE_MARBLE] 大理石提供的 [ICON_Production] 生产力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MINT_NAME" Language="zh_Hans_CN">
+			<Text>铸币厂</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MINT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城的 [ICON_RESOURCE_COPPER] 铜和 [ICON_RESOURCE_SILVER] 银提供的 [ICON_Gold] 金币+2。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>此城 [ICON_Citizen] 人口增长加速50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HOSPITAL_NAME" Language="zh_Hans_CN">
+			<Text>医院</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MEDICAL_LAB_NAME" Language="zh_Hans_CN">
+			<Text>医学实验室</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城 [ICON_Citizen] 人口增长加速50%，供电充足时额外+50%。基础 [ICON_Food] 食物加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。城市中每拥有1座奇观，则+2 [ICON_CULTURE] 文化值。</Text>
 		</Replace>
@@ -89,7 +113,7 @@
 			<Text>此城市+50% [ICON_Tourism] 旅游业绩，[ICON_Power] 供电充足时额外+50% [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币。此城的 [ICON_RESOURCE_BANANAS] 香蕉、 [ICON_RESOURCE_CITRUS] 柑橘、 [ICON_RESOURCE_SPICES] 香料、 [ICON_RESOURCE_SUGAR] 糖、 [ICON_RESOURCE_SALT] 盐和[ICON_RESOURCE_OLIVES] 橄榄提供的 [ICON_Food] 食物+1。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币。此城的 [ICON_RESOURCE_BANANAS] 香蕉、 [ICON_RESOURCE_CITRUS] 柑橘、 [ICON_RESOURCE_SPICES] 香料、 [ICON_RESOURCE_SUGAR] 糖、 [ICON_RESOURCE_SALT] 盐和 [ICON_RESOURCE_OLIVES] 橄榄提供的 [ICON_Food] 食物+1。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+0.5 [ICON_Gold] 金币。此城的 [ICON_RESOURCE_CATTLE] 牛、 [ICON_RESOURCE_DEER] 鹿 [ICON_RESOURCE_SHEEP] 羊、[ICON_RESOURCE_TRUFFLES] 松露和 [ICON_RESOURCE_HONEY] 蜂蜜提供的 [ICON_Food] 食物+1。+4 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于10，则+2 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+5 [ICON_Tourism] 旅游业绩。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>

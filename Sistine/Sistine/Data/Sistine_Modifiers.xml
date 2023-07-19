@@ -27,6 +27,9 @@
 		<Row ModifierId="BUILDING_LIGHTHOUSE_FOOD" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="PLOT_HAS_LIGHTHOUSE_TAG_REQUIREMENTS"/>
 		<Row ModifierId="BUILDING_STONE_WORKS_PRODUCTION" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="PLOT_HAS_STONE_WORKS_TAG_REQUIREMENTS"/>
 		<Row ModifierId="BUILDING_MINT_GOLD" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="PLOT_HAS_MINT_TAG_REQUIREMENTS"/>
+		<Row ModifierId="GROWTHBUILDING_50_POP_GROWTH" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH" />
+		<Row ModifierId="GROWTHBUILDING_50_POP_POWERED" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH" SubjectRequirementSetId="CITY_IS_POWERED"/>
+
 	</Modifiers>
 	<ModifierArguments>
 		<Row ModifierId="CULTUREBUILDING_WONDER_CULTURE" Name="Amount" Value="2"/>
@@ -76,6 +79,8 @@
 		<Row ModifierId="BUILDING_STONE_WORKS_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
 		<Row ModifierId="BUILDING_MINT_GOLD" Name="Amount" Value="2"/>
 		<Row ModifierId="BUILDING_MINT_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GROWTHBUILDING_50_POP_GROWTH" Name="Amount" Value="50"/>
+		<Row ModifierId="GROWTHBUILDING_50_POP_POWERED" Name="Amount" Value="50"/>
 	</ModifierArguments>
 	
 	<RequirementSets>

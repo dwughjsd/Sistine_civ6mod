@@ -6,9 +6,19 @@
 		<Row Type="BUILDING_MANUFACTURING_PLANT" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_VISITOR_CENTER" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_VIVARIUM" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STONE_WORKS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MINT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HOSPITAL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MEDICAL_LAB" Kind="KIND_BUILDING"/>
 	</Types>
 	
 	<Buildings>
+		<!--City Center-->
+		<Row BuildingType="BUILDING_STONE_WORKS" Name="LOC_BUILDING_STONE_WORKS_NAME" Description="LOC_BUILDING_STONE_WORKS_DESCRIPTION" PrereqTech="TECH_MASONRY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC" />
+		<Row BuildingType="BUILDING_MINT" Name="LOC_BUILDING_MINT_NAME" Description="LOC_BUILDING_MINT_DESCRIPTION" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="100" AdvisorType="ADVISOR_GENERIC" />
+		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Cost="100" Housing="0" Maintenance="1"/></Update>
+		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="280" AdvisorType="ADVISOR_GENERIC" Maintenance="2"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="440" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Maintenance="3"/>
 		<!--Theater Square-->
 		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/></Update>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
@@ -42,17 +52,26 @@
 		<!--Aerodrome-->
 		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO"/></Update>
 		<Row BuildingType="BUILDING_VISITOR_CENTER" Name="LOC_BUILDING_VISITOR_CENTER_NAME" Description="LOC_BUILDING_VISITOR_CENTER_DESCRIPTION" PrereqTech="TECH_ADVANCED_FLIGHT" PrereqDistrict="DISTRICT_AERODROME" PurchaseYield="YIELD_GOLD" Cost="480" AdvisorType="ADVISOR_CULTURE" Maintenance="3"/>
+		<!--Neighborhood-->
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2"/></Update>
 		<!--Preserve-->
 		<Update><Where BuildingType="BUILDING_SANCTUARY" /><Set PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqCivic=""/></Update>
 		<Row BuildingType="BUILDING_VIVARIUM" Name="LOC_BUILDING_VIVARIUM_NAME" Description="LOC_BUILDING_VIVARIUM_DESCRIPTION" PrereqCivic="CIVIC_CONSERVATION" PrereqDistrict="DISTRICT_PRESERVE" PurchaseYield="YIELD_GOLD" Cost="440" AdvisorType="ADVISOR_CULTURE"/>
 	</Buildings>
+	
 	<Buildings_XP2>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" RequiredPower="3"/>
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set EntertainmentBonusWithPower="3" /></Update>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" RequiredPower="3"/>
 		<Row BuildingType="BUILDING_VISITOR_CENTER" RequiredPower="2"/>
+		<Delete BuildingType="BUILDING_FOOD_MARKET"/>
 		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set RequiredPower="3" EntertainmentBonusWithPower="1" /></Update>
 	</Buildings_XP2>
+	
 	<BuildingPrereqs>
+		<!--City Center-->
+		<Row Building="BUILDING_HOSPITAL" PrereqBuilding="BUILDING_SEWER"/>
+		<Row Building="BUILDING_MEDICAL_LAB" PrereqBuilding="BUILDING_HOSPITAL"/>
 		<!--Theater Square-->
 		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ART"/>
 		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
@@ -79,6 +98,11 @@
 	</MutuallyExclusiveBuildings>
 
 	<Building_YieldChanges>
+		<!--City Center-->
+		<Row BuildingType="BUILDING_STONE_WORKS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_MINT" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="5"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="3"/>
 		<!--Theater Square-->
 		<Delete BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="3"/>
@@ -99,9 +123,14 @@
 		<Delete BuildingType="BUILDING_SEAPORT" YieldType="YIELD_FOOD"/>
 		<!--Aerodrome-->
 		<Update><Where BuildingType="BUILDING_AIRPORT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
+		<!--Neighborhood-->
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>	<Set YieldChange="2"/></Update>
+
 	</Building_YieldChanges>
 
 	<Building_YieldChangesBonusWithPower>
+		<!--City Center-->
+		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="5"/>
 		<!--Theater Square-->
 		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
 		<!--Campus-->
@@ -110,6 +139,8 @@
 		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/><Set YieldChange="3"/></Update>
 		<!--Industrial Zone-->
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="5"/>
+		<!--Neighborhood-->
+		<Delete BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>
 	</Building_YieldChangesBonusWithPower>
 
 	<Building_CitizenYieldChanges>
@@ -163,6 +194,12 @@
 	</Building_YieldDistrictCopies>
 
 	<BuildingModifiers>
+		<!--City Center-->
+		<Row BuildingType="BUILDING_STONE_WORKS" ModifierId="BUILDING_STONE_WORKS_PRODUCTION"/>
+		<Row BuildingType="BUILDING_MINT" ModifierId="BUILDING_MINT_GOLD"/>
+		<Row BuildingType="BUILDING_SEWER" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_POWERED"/>
 		<!--Theater Square-->
 		<Row BuildingType="BUILDING_AMPHITHEATER" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
 		<Row BuildingType="BUILDING_MUSEUM_ART" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
