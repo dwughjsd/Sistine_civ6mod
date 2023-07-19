@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<!--Irrigation-->
+		<Replace Tag="LOC_TECH_IRRIGATION_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>{LOC_TECH_IRRIGATION_DESCRIPTION}淡水单元格的农场改良设施提供的 [ICON_Food] 食物+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>无淡水单元格的农场改良设施提供的 [ICON_Food] 食物+1。</Text>
+		</Replace>
+		<!--Buildings-->
 		<Replace Tag="LOC_BUILDING_STONE_WORKS_NAME" Language="zh_Hans_CN">
 			<Text>石工坊</Text>
 		</Replace>
