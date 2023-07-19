@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_OPERA_HOUSE"           Atlas="ICON_ATLAS_BUILDINGS" Index="25"/>
+		<Row Name="ICON_BUILDING_PUBLIC_SCHOOL"           Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
+		<Row Name="ICON_BUILDING_MANUFACTURING_PLANT"              Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
+		<Row Name="ICON_BUILDING_VISITOR_CENTER"              Atlas="ICON_ATLAS_BUILDINGS" Index="38"/>
+		<Row Name="ICON_BUILDING_STONE_WORKS"             Atlas="ICON_ATLAS_BUILDINGS" Index="20"/>
+		<Row Name="ICON_BUILDING_MINT"               Atlas="ICON_ATLAS_BUILDINGS" Index="11"/>
+		<Row Name="ICON_BUILDING_HOSPITAL"           Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
+		<Row Name="ICON_BUILDING_VIVARIUM" Atlas="ICON_ATLAS_KUBLAIKAN_VIETNAM_BUILDINGS" Index="1"/>
+		<Row Name="ICON_BUILDING_MEDICAL_LAB"         Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
+		<Row Name="ICON_BUILDING_RECYCLING_CENTER"          Atlas="ICON_ATLAS_BUILDINGS" Index="34"/>
+	</IconDefinitions>
 </GameData>
