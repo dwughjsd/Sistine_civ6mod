@@ -29,7 +29,10 @@
 		<Row ModifierId="BUILDING_MINT_GOLD" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="PLOT_HAS_MINT_TAG_REQUIREMENTS"/>
 		<Row ModifierId="GROWTHBUILDING_50_POP_GROWTH" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH" />
 		<Row ModifierId="GROWTHBUILDING_50_POP_POWERED" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH" SubjectRequirementSetId="CITY_IS_POWERED"/>
-
+		<Row ModifierId="RECYCLING_CENTER_FREE_ALUMINUM" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION" SubjectRequirementSetId="CITY_IS_POWERED"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_URANIUM" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION" SubjectRequirementSetId="BUILDING_IS_POWER_PLANT_SST"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_OIL" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION" SubjectRequirementSetId="BUILDING_IS_FOSSIL_FUEL_POWER_PLANT_SST"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_COAL" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION" SubjectRequirementSetId="BUILDING_IS_COAL_POWER_PLANT_SST"/>
 	</Modifiers>
 	<ModifierArguments>
 		<Row ModifierId="CULTUREBUILDING_WONDER_CULTURE" Name="Amount" Value="2"/>
@@ -81,18 +84,32 @@
 		<Row ModifierId="BUILDING_MINT_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
 		<Row ModifierId="GROWTHBUILDING_50_POP_GROWTH" Name="Amount" Value="50"/>
 		<Row ModifierId="GROWTHBUILDING_50_POP_POWERED" Name="Amount" Value="50"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_ALUMINUM" Name="Amount" Value="1"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_ALUMINUM" Name="ResourceType" Value="RESOURCE_ALUMINUM"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_URANIUM" Name="Amount" Value="1"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_URANIUM" Name="ResourceType" Value="RESOURCE_URANIUM"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_OIL" Name="Amount" Value="1"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_OIL" Name="ResourceType" Value="RESOURCE_OIL"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_COAL" Name="Amount" Value="1"/>
+		<Row ModifierId="RECYCLING_CENTER_FREE_COAL" Name="ResourceType" Value="RESOURCE_COAL"/>
 	</ModifierArguments>
 	
 	<RequirementSets>
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
 		<Row RequirementSetId="CITY_IS_WITHIN_6_HEXES_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="BUILDING_IS_POWER_PLANT_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="BUILDING_IS_FOSSIL_FUEL_POWER_PLANT_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="BUILDING_IS_COAL_POWER_PLANT_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT" RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" />
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT" RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" />
 		<Row RequirementSetId="CITY_IS_WITHIN_6_HEXES_SST" RequirementId="REQUIRES_CITY_IS_WITHIN_6_HEXES" />
+		<Row RequirementSetId="BUILDING_IS_POWER_PLANT_SST" RequirementId="REQUIRES_CITY_HAS_POWER_PLANT" />
+		<Row RequirementSetId="BUILDING_IS_FOSSIL_FUEL_POWER_PLANT_SST" RequirementId="REQUIRES_CITY_HAS_FOSSIL_FUEL_POWER_PLANT" />
+		<Row RequirementSetId="BUILDING_IS_COAL_POWER_PLANT_SST" RequirementId="REQUIRES_CITY_HAS_COAL_POWER_PLANT" />
 	</RequirementSetRequirements>
 	
 	<Requirements>
