@@ -37,7 +37,7 @@
 			<Text>回收中心</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_RECYCLING_CENTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>提供1份此城的发电站使用的战略资源。若城市 [ICON_Power] 供电充足，提供1份 [ICON_RESOURCE_ALUMINUM] 铝。</Text>
+			<Text>提供1份此城的发电站使用的战略资源。若城市 [ICON_Power] 供电充足，提供1份 [ICON_RESOURCE_ALUMINUM] 铝。每回合减少5点文明的终身碳排放量。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。城市中每拥有1座奇观，则+2 [ICON_CULTURE] 文化值。</Text>
