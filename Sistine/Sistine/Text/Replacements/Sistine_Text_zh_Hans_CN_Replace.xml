@@ -13,6 +13,7 @@
 		<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_NAME" Language="zh_Hans_CN" Text="水力发电坝"/>
 		<Replace Tag="LOC_BUILDING_SHRINE_NAME" Language="zh_Hans_CN" Text="神祠"/>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_NAME" Language="zh_Hans_CN" Text="露天剧场"/>
+		<Replace Tag="LOC_BUILDING_WORKSHOP_NAME" Language="zh_Hans_CN" Text="工坊"/>
 		<!--Techs and civics-->
 		<Replace Tag="LOC_TECH_POTTERY_NAME" Language="zh_Hans_CN" Text="制陶"/>
 		<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_NAME" Language="zh_Hans_CN" Text="畜牧"/>
