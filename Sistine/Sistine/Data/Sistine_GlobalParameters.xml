@@ -14,6 +14,11 @@
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="20" />
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MIN" Value="0" />
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MULTIPLIER" Value="50" />
+		<!--I guess it will make AI smarter. Let's see!-->
+		<Replace Name="CIVIC_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
+		<Replace Name="CIVIC_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
+		<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
+		<Replace Name="TECH_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
 	</GlobalParameters>
 
 	<MajorStartingUnits>

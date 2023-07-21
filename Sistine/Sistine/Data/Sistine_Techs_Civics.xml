@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Technologies>
+		<Update>
+			<Where TechnologyType="TECH_POTTERY" />
+			<Set Cost="20"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ANIMAL_HUSBANDRY" />
+			<Set Cost="20"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MINING" />
+			<Set Cost="20"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SAILING" />
+			<Set Cost="50"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ASTROLOGY" />
+			<Set Cost="50"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_IRRIGATION" />
+			<Set Cost="50"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ARCHERY" />
+			<Set Cost="50"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_WRITING" />
+			<Set Cost="50"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MASONRY" />
+			<Set Cost="90"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_BRONZE_WORKING" />
+			<Set Cost="90"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_THE_WHEEL" />
+			<Set Cost="90"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CELESTIAL_NAVIGATION" />
+			<Set Cost="140"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CURRENCY" />
+			<Set Cost="140"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_HORSEBACK_RIDING" />
+			<Set Cost="140"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_IRON_WORKING" />
+			<Set Cost="140"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SHIPBUILDING" />
+			<Set Cost="200"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MATHEMATICS" />
+			<Set Cost="200"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CONSTRUCTION" />
+			<Set Cost="200"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ENGINEERING" />
+			<Set Cost="200"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MILITARY_TACTICS" />
+			<Set Cost="280"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_APPRENTICESHIP" />
+			<Set Cost="280"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MACHINERY" />
+			<Set Cost="280"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_EDUCATION" />
+			<Set Cost="380"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_STIRRUPS" />
+			<Set Cost="380"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MILITARY_ENGINEERING" />
+			<Set Cost="380"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CASTLES" />
+			<Set Cost="380"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CARTOGRAPHY" />
+			<Set Cost="500"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MASS_PRODUCTION" />
+			<Set Cost="500"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_BANKING" />
+			<Set Cost="500"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_GUNPOWDER" />
+			<Set Cost="500"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_PRINTING" />
+			<Set Cost="500"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SQUARE_RIGGING" />
+			<Set Cost="640"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ASTRONOMY" />
+			<Set Cost="640"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_METAL_CASTING" />
+			<Set Cost="640"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SIEGE_TACTICS" />
+			<Set Cost="640"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_INDUSTRIALIZATION" />
+			<Set Cost="820"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SCIENTIFIC_THEORY" />
+			<Set Cost="820"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_BALLISTICS" />
+			<Set Cost="820"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MILITARY_SCIENCE" />
+			<Set Cost="820"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_STEAM_POWER" />
+			<Set Cost="1040"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SANITATION" />
+			<Set Cost="1040"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ECONOMICS" />
+			<Set Cost="1040"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_RIFLING" />
+			<Set Cost="1040"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_FLIGHT" />
+			<Set Cost="1300"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_REPLACEABLE_PARTS" />
+			<Set Cost="1300"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_STEEL" />
+			<Set Cost="1300"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ELECTRICITY" />
+			<Set Cost="1600"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_RADIO" />
+			<Set Cost="1600"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CHEMISTRY" />
+			<Set Cost="1600"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_COMBUSTION" />
+			<Set Cost="1600"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ADVANCED_FLIGHT" />
+			<Set Cost="1960"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ROCKETRY" />
+			<Set Cost="1960"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ADVANCED_BALLISTICS" />
+			<Set Cost="1960"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_COMBINED_ARMS" />
+			<Set Cost="1960"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_PLASTICS" />
+			<Set Cost="1960"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_COMPUTERS" />
+			<Set Cost="2380"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_NUCLEAR_FISSION" />
+			<Set Cost="2380"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SYNTHETIC_MATERIALS" />
+			<Set Cost="2380"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_TELECOMMUNICATIONS" />
+			<Set Cost="2860"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SATELLITES" />
+			<Set Cost="2860"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_GUIDANCE_SYSTEMS" />
+			<Set Cost="2860"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_LASERS" />
+			<Set Cost="2860"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_COMPOSITES" />
+			<Set Cost="2860"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_STEALTH_TECHNOLOGY" />
+			<Set Cost="2860"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ROBOTICS" />
+			<Set Cost="3400"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_NANOTECHNOLOGY" />
+			<Set Cost="3400"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_NUCLEAR_FUSION" />
+			<Set Cost="3400"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_BUTTRESS" />
+			<Set Cost="280"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_REFINING" />
+			<Set Cost="1300"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SEASTEADS" />
+			<Set Cost="4020"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ADVANCED_AI" />
+			<Set Cost="4020"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ADVANCED_POWER_CELLS" />
+			<Set Cost="4020"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CYBERNETICS" />
+			<Set Cost="4020"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SMART_MATERIALS" />
+			<Set Cost="4020"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_PREDICTIVE_SYSTEMS" />
+			<Set Cost="4020"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_OFFWORLD_MISSION" />
+			<Set Cost="4720"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_FUTURE_TECH" />
+			<Set Cost="5500"/>
+		</Update>
+	</Technologies>
+	<Civics>
+		<Update>
+			<Where CivicType="CIVIC_CODE_OF_LAWS" />
+			<Set Cost="25"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CRAFTSMANSHIP" />
+			<Set Cost="60"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_FOREIGN_TRADE" />
+			<Set Cost="60"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_MILITARY_TRADITION" />
+			<Set Cost="90"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_STATE_WORKFORCE" />
+			<Set Cost="120"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_EARLY_EMPIRE" />
+			<Set Cost="120"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_MYSTICISM" />
+			<Set Cost="90"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_GAMES_RECREATION" />
+			<Set Cost="170"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_POLITICAL_PHILOSOPHY" />
+			<Set Cost="170"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_DRAMA_POETRY" />
+			<Set Cost="170"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_MILITARY_TRAINING" />
+			<Set Cost="225"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_DEFENSIVE_TACTICS" />
+			<Set Cost="285"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_RECORDED_HISTORY" />
+			<Set Cost="285"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_THEOLOGY" />
+			<Set Cost="225"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_NAVAL_TRADITION" />
+			<Set Cost="325"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_FEUDALISM" />
+			<Set Cost="415"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CIVIL_SERVICE" />
+			<Set Cost="415"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_MERCENARIES" />
+			<Set Cost="470"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_MEDIEVAL_FAIRES" />
+			<Set Cost="560"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_GUILDS" />
+			<Set Cost="560"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_DIVINE_RIGHT" />
+			<Set Cost="470"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_EXPLORATION" />
+			<Set Cost="640"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_HUMANISM" />
+			<Set Cost="760"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_DIPLOMATIC_SERVICE" />
+			<Set Cost="760"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_REFORMED_CHURCH" />
+			<Set Cost="640"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_MERCANTILISM" />
+			<Set Cost="925"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_THE_ENLIGHTENMENT" />
+			<Set Cost="925"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_COLONIALISM" />
+			<Set Cost="1125"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CIVIL_ENGINEERING" />
+			<Set Cost="1275"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_NATIONALISM" />
+			<Set Cost="1275"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_OPERA_BALLET" />
+			<Set Cost="1125"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_NATURAL_HISTORY" />
+			<Set Cost="1450"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_SCORCHED_EARTH" />
+			<Set Cost="1600"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_URBANIZATION" />
+			<Set Cost="1600"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CONSERVATION" />
+			<Set Cost="1840"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CAPITALISM" />
+			<Set Cost="1960"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_NUCLEAR_PROGRAM" />
+			<Set Cost="2385"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_MASS_MEDIA" />
+			<Set Cost="1840"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_MOBILIZATION" />
+			<Set Cost="1840"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_IDEOLOGY" />
+			<Set Cost="2265"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_SUFFRAGE" />
+			<Set Cost="2265"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_TOTALITARIANISM" />
+			<Set Cost="2265"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CLASS_STRUGGLE" />
+			<Set Cost="2265"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_COLD_WAR" />
+			<Set Cost="2890"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_PROFESSIONAL_SPORTS" />
+			<Set Cost="2890"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CULTURAL_HERITAGE" />
+			<Set Cost="2730"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_RAPID_DEPLOYMENT" />
+			<Set Cost="3355"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_SPACE_RACE" />
+			<Set Cost="3355"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_GLOBALIZATION" />
+			<Set Cost="3980"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_SOCIAL_MEDIA" />
+			<Set Cost="3980"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_FUTURE_CIVIC" />
+			<Set Cost="7400"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_ENVIRONMENTALISM" />
+			<Set Cost="3980"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" />
+			<Set Cost="4685"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_DIGITAL_DEMOCRACY" />
+			<Set Cost="4685"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_SYNTHETIC_TECHNOCRACY" />
+			<Set Cost="4685"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_NEAR_FUTURE_GOVERNANCE" />
+			<Set Cost="5490"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" />
+			<Set Cost="6395"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_SMART_POWER_DOCTRINE" />
+			<Set Cost="6395"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_INFORMATION_WARFARE" />
+			<Set Cost="6395"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_EXODUS_IMPERATIVE" />
+			<Set Cost="6395"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CULTURAL_HEGEMONY" />
+			<Set Cost="6395"/>
+		</Update>
+	</Civics>
+</GameData>
