@@ -368,219 +368,219 @@
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_GAMES_RECREATION" />
-			<Set Cost="170"/>
+			<Set Cost="160"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_POLITICAL_PHILOSOPHY" />
-			<Set Cost="170"/>
+			<Set Cost="160"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_DRAMA_POETRY" />
-			<Set Cost="170"/>
+			<Set Cost="160"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_MILITARY_TRAINING" />
-			<Set Cost="225"/>
+			<Set Cost="195"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_DEFENSIVE_TACTICS" />
-			<Set Cost="285"/>
+			<Set Cost="255"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_RECORDED_HISTORY" />
-			<Set Cost="285"/>
+			<Set Cost="255"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_THEOLOGY" />
-			<Set Cost="225"/>
+			<Set Cost="195"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_NAVAL_TRADITION" />
-			<Set Cost="325"/>
+			<Set Cost="275"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_FEUDALISM" />
-			<Set Cost="415"/>
+			<Set Cost="365"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CIVIL_SERVICE" />
-			<Set Cost="415"/>
+			<Set Cost="365"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_MERCENARIES" />
-			<Set Cost="470"/>
+			<Set Cost="400"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_MEDIEVAL_FAIRES" />
-			<Set Cost="560"/>
+			<Set Cost="490"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_GUILDS" />
-			<Set Cost="560"/>
+			<Set Cost="490"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_DIVINE_RIGHT" />
-			<Set Cost="470"/>
+			<Set Cost="400"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_EXPLORATION" />
-			<Set Cost="640"/>
+			<Set Cost="540"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_HUMANISM" />
-			<Set Cost="760"/>
+			<Set Cost="660"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_DIPLOMATIC_SERVICE" />
-			<Set Cost="760"/>
+			<Set Cost="660"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_REFORMED_CHURCH" />
-			<Set Cost="640"/>
+			<Set Cost="540"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_MERCANTILISM" />
-			<Set Cost="925"/>
+			<Set Cost="785"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_THE_ENLIGHTENMENT" />
-			<Set Cost="925"/>
+			<Set Cost="785"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_COLONIALISM" />
-			<Set Cost="1125"/>
+			<Set Cost="945"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CIVIL_ENGINEERING" />
-			<Set Cost="1275"/>
+			<Set Cost="1095"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_NATIONALISM" />
-			<Set Cost="1275"/>
+			<Set Cost="1095"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_OPERA_BALLET" />
-			<Set Cost="1125"/>
+			<Set Cost="945"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_NATURAL_HISTORY" />
-			<Set Cost="1450"/>
+			<Set Cost="1230"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_SCORCHED_EARTH" />
-			<Set Cost="1600"/>
+			<Set Cost="1380"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_URBANIZATION" />
-			<Set Cost="1600"/>
+			<Set Cost="1380"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CONSERVATION" />
-			<Set Cost="1840"/>
+			<Set Cost="1580"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CAPITALISM" />
-			<Set Cost="1960"/>
+			<Set Cost="1700"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_NUCLEAR_PROGRAM" />
-			<Set Cost="2385"/>
+			<Set Cost="2085"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_MASS_MEDIA" />
-			<Set Cost="1840"/>
+			<Set Cost="1580"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_MOBILIZATION" />
-			<Set Cost="1840"/>
+			<Set Cost="1580"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_IDEOLOGY" />
-			<Set Cost="2265"/>
+			<Set Cost="1965"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_SUFFRAGE" />
-			<Set Cost="2265"/>
+			<Set Cost="1965"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_TOTALITARIANISM" />
-			<Set Cost="2265"/>
+			<Set Cost="1965"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CLASS_STRUGGLE" />
-			<Set Cost="2265"/>
+			<Set Cost="1965"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_COLD_WAR" />
-			<Set Cost="2890"/>
+			<Set Cost="2560"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_PROFESSIONAL_SPORTS" />
-			<Set Cost="2890"/>
+			<Set Cost="2560"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CULTURAL_HERITAGE" />
-			<Set Cost="2730"/>
+			<Set Cost="2400"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_RAPID_DEPLOYMENT" />
-			<Set Cost="3355"/>
+			<Set Cost="3005"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_SPACE_RACE" />
-			<Set Cost="3355"/>
+			<Set Cost="3005"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_GLOBALIZATION" />
-			<Set Cost="3980"/>
+			<Set Cost="3600"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_SOCIAL_MEDIA" />
-			<Set Cost="3980"/>
+			<Set Cost="3600"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_FUTURE_CIVIC" />
-			<Set Cost="7400"/>
+			<Set Cost="6740"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_ENVIRONMENTALISM" />
-			<Set Cost="3980"/>
+			<Set Cost="3600"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" />
-			<Set Cost="4685"/>
+			<Set Cost="4265"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_DIGITAL_DEMOCRACY" />
-			<Set Cost="4685"/>
+			<Set Cost="4265"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_SYNTHETIC_TECHNOCRACY" />
-			<Set Cost="4685"/>
+			<Set Cost="4265"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_NEAR_FUTURE_GOVERNANCE" />
-			<Set Cost="5490"/>
+			<Set Cost="5010"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" />
-			<Set Cost="6395"/>
+			<Set Cost="5835"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_SMART_POWER_DOCTRINE" />
-			<Set Cost="6395"/>
+			<Set Cost="5835"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_INFORMATION_WARFARE" />
-			<Set Cost="6395"/>
+			<Set Cost="5835"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_EXODUS_IMPERATIVE" />
-			<Set Cost="6395"/>
+			<Set Cost="5835"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CULTURAL_HEGEMONY" />
-			<Set Cost="6395"/>
+			<Set Cost="5835"/>
 		</Update>
 	</Civics>
 	<CivicRandomCosts>
@@ -595,15 +595,15 @@
 		<Delete CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="3200"/>
 		<Delete CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="3300"/>
 		
-		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="6395"/>
-		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="6750"/>
-		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="6395"/>
-		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="6750"/>
-		<Row CivicType="CIVIC_INFORMATION_WARFARE" Cost="6395"/>
-		<Row CivicType="CIVIC_INFORMATION_WARFARE" Cost="6750"/>
-		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="6395"/>
-		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="6750"/>
+		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="5835"/>
+		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="6185"/>
+		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="5835"/>
+		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="6185"/>
+		<Row CivicType="CIVIC_INFORMATION_WARFARE" Cost="5835"/>
+		<Row CivicType="CIVIC_INFORMATION_WARFARE" Cost="6185"/>
+		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="5835"/>
+		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="6185"/>
 		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="6395"/>
-		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="6750"/>
+		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="6185"/>
 	</CivicRandomCosts>
 </GameData>
