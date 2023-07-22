@@ -160,14 +160,21 @@
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
-		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
-		<Row ListType="ScienceVictoryProjects" Item="PROJECT_TERRESTRIAL_LASER" Favored="true"/>
+		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true" Value="100"/>
+		<Row ListType="ScienceVictoryProjects" Item="PROJECT_TERRESTRIAL_LASER" Favored="true" Value="100"/>
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION" Favored="true"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
-
+		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies-->
+		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" Value="20"/>
+		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" Value="20"/>
 		<!--Tells the AI that future shits are last resorts-->
-		<Row ListType="DefaultTechsSST" Item="TECH_FUTURE_TECH" Favored="false"/>
-		<Row ListType="DefaultCivicsSST" Item="CIVIC_FUTURE_CIVIC" Favored="false"/>
+		<Row ListType="DefaultTechsSST" Item="TECH_FUTURE_TECH" Favored="false" Value="-25"/>
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_FUTURE_CIVIC" Favored="false" Value="-25"/>
+		<!--Do something and switch to Tier 2 government!-->
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_MERCENARIES" Favored="true" Value="20"/>
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_EXPLORATION" Favored="true" Value="20"/>
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_DIVINE_RIGHT" Favored="true" Value="20"/>
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_REFORMED_CHURCH" Favored="true" Value="20"/>
 	</AiFavoredItems>
 </GameData>
