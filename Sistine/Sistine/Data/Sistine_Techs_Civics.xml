@@ -310,6 +310,33 @@
 			<Set Cost="5500"/>
 		</Update>
 	</Technologies>
+	<TechnologyRandomCosts>
+		<!--New Techs-->
+		<Delete TechnologyType="TECH_SEASTEADS" Cost="2200"/>
+		<Delete TechnologyType="TECH_SEASTEADS" Cost="2300"/>
+		<Delete TechnologyType="TECH_ADVANCED_AI" Cost="2200"/>
+		<Delete TechnologyType="TECH_ADVANCED_AI" Cost="2300"/>
+		<Delete TechnologyType="TECH_ADVANCED_POWER_CELLS" Cost="2200"/>
+		<Delete TechnologyType="TECH_ADVANCED_POWER_CELLS" Cost="2300"/>
+		<Delete TechnologyType="TECH_CYBERNETICS" Cost="2200"/>
+		<Delete TechnologyType="TECH_CYBERNETICS" Cost="2300"/>
+		<Delete TechnologyType="TECH_SMART_MATERIALS" Cost="2200"/>
+		<Delete TechnologyType="TECH_SMART_MATERIALS" Cost="2300"/>
+		<Delete TechnologyType="TECH_PREDICTIVE_SYSTEMS" Cost="2200"/>
+		<Delete TechnologyType="TECH_PREDICTIVE_SYSTEMS" Cost="2300"/>
+		<Row TechnologyType="TECH_SEASTEADS" Cost="4020"/>
+		<Row TechnologyType="TECH_SEASTEADS" Cost="4320"/>
+		<Row TechnologyType="TECH_ADVANCED_AI" Cost="4020"/>
+		<Row TechnologyType="TECH_ADVANCED_AI" Cost="4320"/>
+		<Row TechnologyType="TECH_ADVANCED_POWER_CELLS" Cost="4020"/>
+		<Row TechnologyType="TECH_ADVANCED_POWER_CELLS" Cost="4320"/>
+		<Row TechnologyType="TECH_CYBERNETICS" Cost="4020"/>
+		<Row TechnologyType="TECH_CYBERNETICS" Cost="4320"/>
+		<Row TechnologyType="TECH_SMART_MATERIALS" Cost="4020"/>
+		<Row TechnologyType="TECH_SMART_MATERIALS" Cost="4320"/>
+		<Row TechnologyType="TECH_PREDICTIVE_SYSTEMS" Cost="4020"/>
+		<Row TechnologyType="TECH_PREDICTIVE_SYSTEMS" Cost="4320"/>
+	</TechnologyRandomCosts>
 	<Civics>
 		<Update>
 			<Where CivicType="CIVIC_CODE_OF_LAWS" />
@@ -556,4 +583,27 @@
 			<Set Cost="6395"/>
 		</Update>
 	</Civics>
+	<CivicRandomCosts>
+		<Delete CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="3200"/>
+		<Delete CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="3300"/>
+		<Delete CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="3200"/>
+		<Delete CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="3300"/>
+		<Delete CivicType="CIVIC_INFORMATION_WARFARE" Cost="3200"/>
+		<Delete CivicType="CIVIC_INFORMATION_WARFARE" Cost="3300"/>
+		<Delete CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="3200"/>
+		<Delete CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="3300"/>
+		<Delete CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="3200"/>
+		<Delete CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="3300"/>
+		
+		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="6395"/>
+		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="6750"/>
+		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="6395"/>
+		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="6750"/>
+		<Row CivicType="CIVIC_INFORMATION_WARFARE" Cost="6395"/>
+		<Row CivicType="CIVIC_INFORMATION_WARFARE" Cost="6750"/>
+		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="6395"/>
+		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="6750"/>
+		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="6395"/>
+		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="6750"/>
+	</CivicRandomCosts>
 </GameData>

@@ -155,6 +155,13 @@
 
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
 
+		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
+		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="33"/>
+		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="10"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-20"/>
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
+
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_TERRESTRIAL_LASER" Favored="true"/>
 	</AiFavoredItems>
