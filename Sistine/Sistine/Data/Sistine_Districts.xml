@@ -236,4 +236,22 @@
 			<Set YieldChangeAsInternationalDestination="3" />
 		</Update>
 	</District_TradeRouteYields>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_MAJOR_CIV</TraitType>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_MAJOR_CIV</TraitType>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>MINOR_CIV_DEFAULT_TRAIT</TraitType>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>MINOR_CIV_DEFAULT_TRAIT</TraitType>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT</ModifierId>
+		</Row>
+	</TraitModifiers>
 </GameData>
