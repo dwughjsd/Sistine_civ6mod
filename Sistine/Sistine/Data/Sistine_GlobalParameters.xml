@@ -87,6 +87,17 @@
 		<Update><Where PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" /><Set DefaultValue="20" /></Update>
 	</PseudoYields>
 
+	<AiListTypes>
+		<Row ListType="DefaultTechsSST"/>
+		<Row ListType="DefaultCivicsSST"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="DefaultTechsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Technologies"/>
+		<Row ListType="DefaultTechsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Technologies"/>
+		<Row ListType="DefaultCivicsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Civics"/>
+		<Row ListType="DefaultCivicsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Civics"/>
+	</AiLists>
+
 	<AiFavoredItems>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_PRODUCTION"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_CULTURE"/>
@@ -162,8 +173,16 @@
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-20"/>
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
 
+		<!--C'mon it's the era of Gathering Storm-->
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_TERRESTRIAL_LASER" Favored="true"/>
+		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION" Favored="true"/>
+		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
+		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
+		
+		<!--Tells the AI that future shits are last resorts-->
+		<Row ListType="DefaultTechsSST" Item="TECH_FUTURE_TECH" Favored="false"/>
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_FUTURE_CIVIC" Favored="false"/>
 	</AiFavoredItems>
 
 	
