@@ -43,6 +43,11 @@
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
 			<Set DefaultValue="12.0" />
 		</Update>
+		<!--Let's see if this can become a good heuristic to advance goverment tier.-->
+		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
+			<Set DefaultValue="10.0" />
+		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
 			<Set DefaultValue="8.0" />
@@ -122,35 +127,35 @@
 		<Delete ListType="ModernYields" Item="YIELD_FAITH"/>
 		<Delete ListType="ModernYields" Item="YIELD_SCIENCE"/>
 
-		<Row ListType="DefaultYieldBias" Item="YIELD_PRODUCTION" Value="25"/>
-		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="30"/>
-		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="10"/>
-		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="20"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_PRODUCTION" Value="50"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="40"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="-10"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="30"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FAITH" Value="-25"/>
 
-		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
+		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="10"/>
-		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="10"/>
+		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="5"/>
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="20"/>
 
-		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="-10"/>
-		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="35"/>
-		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="10"/>
-		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="15"/>
-		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-15"/>
+		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="40"/>
+		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="5"/>
+		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-10"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
-
-		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="15"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="15"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="5"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="15"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-15"/>
+		
+		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="20"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
 
-		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="5"/>
+		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="5"/>
 		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
 
-		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="5"/>
+		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="15"/>
 
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
 		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="33"/>
@@ -162,19 +167,12 @@
 		<!--C'mon it's the era of Gathering Storm-->
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true" Value="100"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_TERRESTRIAL_LASER" Favored="true" Value="100"/>
-		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION" Favored="true"/>
-		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
-		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
+		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
+		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROBOTICS"/>
 		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies-->
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" Value="20"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" Value="20"/>
-		<!--Tells the AI that future shits are last resorts-->
-		<Row ListType="DefaultTechsSST" Item="TECH_FUTURE_TECH" Favored="false" Value="-25"/>
-		<Row ListType="DefaultCivicsSST" Item="CIVIC_FUTURE_CIVIC" Favored="false" Value="-25"/>
-		<!--Do something and switch to Tier 2 government!-->
-		<Row ListType="DefaultCivicsSST" Item="CIVIC_MERCENARIES" Favored="true" Value="20"/>
-		<Row ListType="DefaultCivicsSST" Item="CIVIC_EXPLORATION" Favored="true" Value="20"/>
-		<Row ListType="DefaultCivicsSST" Item="CIVIC_DIVINE_RIGHT" Favored="true" Value="20"/>
-		<Row ListType="DefaultCivicsSST" Item="CIVIC_REFORMED_CHURCH" Favored="true" Value="20"/>
+		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
+		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
 	</AiFavoredItems>
 </GameData>

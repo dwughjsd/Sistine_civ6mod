@@ -247,7 +247,7 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_LASERS" />
-			<Set Cost="2860"/>
+			<Set Cost="2860" Critical="0"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_COMPOSITES" />
@@ -255,7 +255,7 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_STEALTH_TECHNOLOGY" />
-			<Set Cost="2860"/>
+			<Set Cost="2860" Critical="0"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_ROBOTICS" />
@@ -279,19 +279,19 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_SEASTEADS" />
-			<Set Cost="4020"/>
+			<Set Cost="4020" Critical="0"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_ADVANCED_AI" />
-			<Set Cost="4020"/>
+			<Set Cost="4020" Critical="0"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_ADVANCED_POWER_CELLS" />
-			<Set Cost="4020"/>
+			<Set Cost="4020" Critical="0"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_CYBERNETICS" />
-			<Set Cost="4020"/>
+			<Set Cost="4020" Critical="0"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_SMART_MATERIALS" />
@@ -299,7 +299,7 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_PREDICTIVE_SYSTEMS" />
-			<Set Cost="4020"/>
+			<Set Cost="4020" Critical="0"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_OFFWORLD_MISSION" />
@@ -337,6 +337,19 @@
 		<Row TechnologyType="TECH_PREDICTIVE_SYSTEMS" Cost="4020"/>
 		<Row TechnologyType="TECH_PREDICTIVE_SYSTEMS" Cost="4320"/>
 	</TechnologyRandomCosts>
+	<Technologies_XP2>
+		<Delete TechnologyType="TECH_STEAM_POWER"/>
+		<Delete TechnologyType="TECH_FUTURE_TECH"/>
+	</Technologies_XP2>
+	<TechnologyPrereqs>
+		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_SEASTEADS"/>
+		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_ADVANCED_AI"/>
+		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_ADVANCED_POWER_CELLS"/>
+		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_CYBERNETICS"/>
+		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_SMART_MATERIALS"/>
+		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_PREDICTIVE_SYSTEMS"/>
+		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_OFFWORLD_MISSION"/>
+	</TechnologyPrereqs>
 	<Civics>
 		<Update>
 			<Where CivicType="CIVIC_CODE_OF_LAWS" />
@@ -606,4 +619,16 @@
 		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="6395"/>
 		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="6185"/>
 	</CivicRandomCosts>
+	<Civics_XP2>
+		<Delete CivicType="CIVIC_FUTURE_CIVIC"/>
+	</Civics_XP2>
+	<CivicPrereqs>
+		<Delete Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_GLOBALIZATION"/>
+		<Delete Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_SOCIAL_MEDIA"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_GLOBAL_WARMING_MITIGATION"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_SMART_POWER_DOCTRINE"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_INFORMATION_WARFARE"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_EXODUS_IMPERATIVE"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_CULTURAL_HEGEMONY"/>
+	</CivicPrereqs>
 </GameData>
