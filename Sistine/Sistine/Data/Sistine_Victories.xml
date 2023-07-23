@@ -137,22 +137,23 @@
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="5"/>
-		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="20"/>
+		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="10"/>
 
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="40"/>
 		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="5"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
-		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-10"/>
+		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-20"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
 		
 		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="20"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
+
 
 		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="5"/>
 		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="5"/>
-		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
 
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="5"/>
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="15"/>
