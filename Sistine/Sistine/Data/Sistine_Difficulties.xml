@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_SCIENCE_SCALING"/>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_CULTURE_SCALING"/>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_SCALING"/>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_SCALING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_CIVIC_BOOST_BONUS_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST"/>	
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_CIVIC_BOOST_BONUS_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CIVIC_BOOST</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_ON_NEW_ERA</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_ON_NEW_ERA</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>0</Value>
+			<Extra>10</Extra>
+			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_CIVIC_BOOST_BONUS_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>0</Value>
+			<Extra>10</Extra>
+			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>0</Value>
+			<Extra>1</Extra>
+			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>
+			<Name>ApplyImmediately</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>0</Value>
+			<Extra>1</Extra>
+			<SecondExtra>DIFFICULTY_KING</SecondExtra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST</ModifierId>
+			<Name>ApplyImmediately</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GOLD_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>0</Value>
+			<Extra>10</Extra>
+			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_FAITH_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>0</Value>
+			<Extra>10</Extra>
+			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
+		</Row>
+	</ModifierArguments>
+</GameData>
