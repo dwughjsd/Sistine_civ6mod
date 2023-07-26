@@ -46,7 +46,7 @@
 		<!--Let's see if this can become a good heuristic to advance goverment tier. Don't let it be too high or AI will stuck at Monarchy. TODO: Overhaul Monarchy to prevent this issue forever-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
-			<Set DefaultValue="6.0" />
+			<Set DefaultValue="8.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
