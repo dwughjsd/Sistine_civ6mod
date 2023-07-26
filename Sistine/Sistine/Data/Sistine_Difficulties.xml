@@ -62,35 +62,32 @@
 	<ModifierArguments>
 		<Update>
 			<Where ModifierId="HIGH_DIFFICULTY_PRODUCTION_SCALING" Name="Amount"/>
-			<Set Type="LinearScaleFromDefaultHandicap" Value="0" Extra="25" SecondExtra="DIFFICULTY_PRINCE"/>
+			<Set Type="LinearScaleFromDefaultHandicap" Value="-25" Extra="25"/>
 		</Update>
 		<Update>
 			<Where ModifierId="HIGH_DIFFICULTY_UNIT_XP_SCALING" Name="Amount"/>
-			<Set Type="LinearScaleFromDefaultHandicap" Value="0" Extra="10" SecondExtra="DIFFICULTY_PRINCE"/>
+			<Set Type="LinearScaleFromDefaultHandicap" Value="-10" Extra="10"/>
 		</Update>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>0</Value>
+			<Value>-10</Value>
 			<Extra>10</Extra>
-			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_CIVIC_BOOST_BONUS_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>0</Value>
+			<Value>-10</Value>
 			<Extra>10</Extra>
-			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>0</Value>
+			<Value>-1</Value>
 			<Extra>1</Extra>
-			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>
@@ -119,9 +116,8 @@
 			<ModifierId>HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>0</Value>
+			<Value>-10</Value>
 			<Extra>10</Extra>
-			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
@@ -132,9 +128,8 @@
 			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>0</Value>
+			<Value>-10</Value>
 			<Extra>10</Extra>
-			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_SERFDOM</ModifierId>
