@@ -18,6 +18,11 @@
 		<Replace Name="CIVIC_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
+		<!--Eras tweaks-->
+		<Replace Name="DARK_AGE_SCORE_BASE_THRESHOLD" Value="9" />
+		<Replace Name="GOLDEN_AGE_SCORE_BASE_THRESHOLD" Value="18" />
+		<Replace Name="THRESHOLD_SHIFT_PER_PAST_DARK_AGE" Value="-8" />
+		<Replace Name="THRESHOLD_SHIFT_PER_PAST_GOLDEN_AGE" Value="8" />
 	</GlobalParameters>
 
 	<MajorStartingUnits>
@@ -41,6 +46,17 @@
 		<Replace Era="ERA_ATOMIC" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
 		<Replace Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
 	</BonusMinorStartingUnits>
+
+	<Eras_XP1>
+		<Update><Where EraType="ERA_ANCIENT" /><Set GameEraMinimumTurns="30"/></Update>
+		<Update><Where EraType="ERA_CLASSICAL" /><Set GameEraMinimumTurns="30"/></Update>
+		<Update><Where EraType="ERA_MEDIEVAL" /><Set GameEraMinimumTurns="30"/></Update>
+		<Update><Where EraType="ERA_RENAISSANCE" /><Set GameEraMinimumTurns="30"/></Update>
+		<Update><Where EraType="ERA_INDUSTRIAL" /><Set GameEraMinimumTurns="30"/></Update>
+		<Update><Where EraType="ERA_MODERN" /><Set GameEraMinimumTurns="30"/></Update>
+		<Update><Where EraType="ERA_ATOMIC" /><Set GameEraMinimumTurns="30"/></Update>
+		<Update><Where EraType="ERA_INFORMATION" /><Set GameEraMinimumTurns="30"/></Update>
+	</Eras_XP1>
 
 	<BarbarianAttackForces>
 		<!--Fix of high difficulty barb heavy cavalry-->
