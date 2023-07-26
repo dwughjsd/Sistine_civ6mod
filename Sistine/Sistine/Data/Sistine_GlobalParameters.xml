@@ -25,10 +25,10 @@
 		<Replace Era="ERA_CLASSICAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
 		<Replace Era="ERA_MEDIEVAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
 		<Replace Era="ERA_RENAISSANCE" Unit="UNIT_PIKEMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-		<Replace Era="ERA_INDUSTRIAL" Unit="UNIT_PIKEMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_INDUSTRIAL" Unit="UNIT_PIKE_AND_SHOT" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
 		<Replace Era="ERA_MODERN" Unit="UNIT_RANGER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-		<Replace Era="ERA_ATOMIC" Unit="UNIT_INFANTRY" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-		<Replace Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_ATOMIC" Unit="UNIT_AT_CREW" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_INFORMATION" Unit="UNIT_AT_CREW" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
 	</MajorStartingUnits>
 
 	<BonusMinorStartingUnits>
