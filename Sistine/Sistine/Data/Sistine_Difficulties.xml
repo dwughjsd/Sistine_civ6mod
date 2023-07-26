@@ -11,6 +11,9 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST"/>	
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST"/>
+		<!--We all know AI never use these 2 policies. So why not give them these?-->
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SERFDOM"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_PUBLIC_WORKS"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
@@ -43,8 +46,28 @@
 			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_SERFDOM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_TRAINED_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_SERFDOM</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_PUBLIC_WORKS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</OwnerRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_PRODUCTION_SCALING" Name="Amount"/>
+			<Set Type="LinearScaleFromDefaultHandicap" Value="0" Extra="25" SecondExtra="DIFFICULTY_PRINCE"/>
+		</Update>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_UNIT_XP_SCALING" Name="Amount"/>
+			<Set Type="LinearScaleFromDefaultHandicap" Value="0" Extra="10" SecondExtra="DIFFICULTY_PRINCE"/>
+		</Update>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST</ModifierId>
 			<Name>Amount</Name>
@@ -113,5 +136,78 @@
 			<Extra>10</Extra>
 			<SecondExtra>DIFFICULTY_PRINCE</SecondExtra>
 		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_SERFDOM</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_PUBLIC_WORKS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_PUBLIC_WORKS</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
 	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_SERFDOM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_SERFDOM</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_SERFDOM</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_SERFDOM</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_PUBLIC_WORKS_CIVIC_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_PUBLIC_WORKS_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_FEUDALISM</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_PUBLIC_WORKS_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CIVIL_ENGINEERING</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>
