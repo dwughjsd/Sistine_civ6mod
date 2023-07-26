@@ -6,7 +6,6 @@
 		<Row Tag="CLASS_SHOPPING_MALL" Vocabulary="RESOURCE_CLASS"/>
 		<Row Tag="CLASS_LIGHTHOUSE" Vocabulary="RESOURCE_CLASS"/>
 		<Row Tag="CLASS_STONE_WORKS" Vocabulary="RESOURCE_CLASS"/>
-		<Row Tag="CLASS_MINT" Vocabulary="RESOURCE_CLASS"/>
 		<Row Tag="CLASS_FARMS" Vocabulary="RESOURCE_CLASS"/>
 	</Tags>
     <TypeTags>
@@ -36,9 +35,11 @@
 		<Row Type="RESOURCE_MARBLE" Tag="CLASS_STONE_WORKS"/>
 		<Row Type="RESOURCE_STONE" Tag="CLASS_STONE_WORKS"/>
 
+		<!--We don't really need a mint-->
+		<!--
 		<Row Type="RESOURCE_SILVER" Tag="CLASS_MINT"/>
 		<Row Type="RESOURCE_COPPER" Tag="CLASS_MINT"/>
-		
+		-->
 		<!--Find somewhere else, you drinks-->
 		<!--
 		<Row Type="RESOURCE_WINE" Tag="CLASS_DRINKS"/>
@@ -65,10 +66,6 @@
 			<RequirementSetId>PLOT_HAS_STONE_WORKS_TAG_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
-		<Row>
-			<RequirementSetId>PLOT_HAS_MINT_TAG_REQUIREMENTS</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -87,10 +84,7 @@
 			<RequirementSetId>PLOT_HAS_STONE_WORKS_TAG_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_TAG_STONE_WORKS</RequirementId>
 		</Row>
-		<Row>
-			<RequirementSetId>PLOT_HAS_MINT_TAG_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_MINT</RequirementId>
-		</Row>	</RequirementSetRequirements>
+	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
 			<RequirementId>REQUIRES_PLOT_HAS_TAG_FOOD_MARKET</RequirementId>
@@ -106,10 +100,6 @@
 		</Row>
 		<Row>
 			<RequirementId>REQUIRES_PLOT_HAS_TAG_STONE_WORKS</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_MINT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
@@ -133,11 +123,6 @@
 			<RequirementId>REQUIRES_PLOT_HAS_TAG_STONE_WORKS</RequirementId>
 			<Name>Tag</Name>
 			<Value>CLASS_STONE_WORKS</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_MINT</RequirementId>
-			<Name>Tag</Name>
-			<Value>CLASS_MINT</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>

@@ -15,12 +15,6 @@
 		<Replace Tag="LOC_BUILDING_STONE_WORKS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城的 [ICON_RESOURCE_STONE] 石头和 [ICON_RESOURCE_MARBLE] 大理石提供的 [ICON_Production] 生产力+1。</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_MINT_NAME" Language="zh_Hans_CN">
-			<Text>铸币厂</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_MINT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城的 [ICON_RESOURCE_COPPER] 铜和 [ICON_RESOURCE_SILVER] 银提供的 [ICON_Gold] 金币+2。</Text>
-		</Replace>
 		<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>此城 [ICON_Citizen] 人口增长加速50%。</Text>
 		</Replace>

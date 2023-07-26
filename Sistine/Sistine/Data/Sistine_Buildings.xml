@@ -7,7 +7,6 @@
 		<Row Type="BUILDING_VISITOR_CENTER" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_VIVARIUM" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_STONE_WORKS" Kind="KIND_BUILDING"/>
-		<Row Type="BUILDING_MINT" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_HOSPITAL" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_MEDICAL_LAB" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_RECYCLING_CENTER" Kind="KIND_BUILDING"/>
@@ -20,7 +19,6 @@
 		<Update><Where BuildingType="BUILDING_STAR_FORT" /><Set Cost="200"/></Update>
 		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="60"/></Update>
 		<Row BuildingType="BUILDING_STONE_WORKS" Name="LOC_BUILDING_STONE_WORKS_NAME" Description="LOC_BUILDING_STONE_WORKS_DESCRIPTION" PrereqTech="TECH_MASONRY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC" />
-		<Row BuildingType="BUILDING_MINT" Name="LOC_BUILDING_MINT_NAME" Description="LOC_BUILDING_MINT_DESCRIPTION" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC" />
 		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Cost="120" Housing="0" Maintenance="1"/></Update>
 		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="320" AdvisorType="ADVISOR_GENERIC" Maintenance="2"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Maintenance="3"/>
@@ -139,7 +137,6 @@
 	<Building_YieldChanges>
 		<!--City Center-->
 		<Row BuildingType="BUILDING_STONE_WORKS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
-		<Row BuildingType="BUILDING_MINT" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="5"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="3"/>
 		<!--Theater Square-->
@@ -234,7 +231,6 @@
 	<BuildingModifiers>
 		<!--City Center-->
 		<Row BuildingType="BUILDING_STONE_WORKS" ModifierId="BUILDING_STONE_WORKS_PRODUCTION"/>
-		<Row BuildingType="BUILDING_MINT" ModifierId="BUILDING_MINT_GOLD"/>
 		<Row BuildingType="BUILDING_SEWER" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_POWERED"/>
