@@ -80,4 +80,11 @@
 		<Replace AttackForceType="HighDifficultyNavalAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="3" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2" SiegeTag="CLASS_NAVAL_RANGED" NumSiegeUnits="2"/>
 	</BarbarianAttackForces>
 
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="PROJECT_COMPLETION_GRANT_CULTURE_BASED_ON_SCIENCE_RATE" Name="YieldToBaseOn"/>
+			<Set Value="YIELD_CULTURE"/>
+		</Update>
+	</ModifierArguments>
+
 </GameData>

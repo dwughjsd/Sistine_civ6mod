@@ -138,5 +138,8 @@
 		<Replace Tag="LOC_BUILDING_VIVARIUM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为相邻未改良迷人单元格+2 [ICON_SCIENCE] 科技值。为相邻未改良惊艳单元格+3 [ICON_SCIENCE] 科技值、+3 [ICON_GOLD] 金币。</Text>
 		</Replace>
+		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>发射火箭让人类登陆月球的太空竞赛项目。赠予一次等同于您每回合 [ICON_Culture] 文化值10倍的 [ICON_Culture] 文化值加成，标志着科技胜利的第二步。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
