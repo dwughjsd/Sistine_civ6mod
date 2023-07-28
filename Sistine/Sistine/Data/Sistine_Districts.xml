@@ -91,7 +91,7 @@
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_HANSA" />
-			<Set Cost="20" />
+			<Set Cost="20" PrereqTech="TECH_IRON_WORKING"/>
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_LAVRA" />

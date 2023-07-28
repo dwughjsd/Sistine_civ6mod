@@ -17,6 +17,7 @@
 		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Cost="60"/></Update>
 		<Update><Where BuildingType="BUILDING_CASTLE" /><Set Cost="160"/></Update>
 		<Update><Where BuildingType="BUILDING_STAR_FORT" /><Set Cost="200"/></Update>
+		<Update><Where BuildingType="BUILDING_TSIKHE" /><Set Cost="180"/></Update>
 		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="60"/></Update>
 		<Row BuildingType="BUILDING_STONE_WORKS" Name="LOC_BUILDING_STONE_WORKS_NAME" Description="LOC_BUILDING_STONE_WORKS_DESCRIPTION" PrereqTech="TECH_MASONRY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC" />
 		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Cost="120" Housing="0" Maintenance="1"/></Update>
@@ -25,18 +26,24 @@
 		<Row BuildingType="BUILDING_RECYCLING_CENTER" Name="LOC_BUILDING_RECYCLING_CENTER_NAME" Description="LOC_BUILDING_RECYCLING_CENTER_DESCRIPTION" PrereqCivic="CIVIC_CONSERVATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="440" AdvisorType="ADVISOR_GENERIC" Maintenance="3"/>
 		<!--Theater Square-->
 		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_MARAE" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_MUSEUM_ART" /><Set Cost="200"/></Update>
 		<Update><Where BuildingType="BUILDING_MUSEUM_ARTIFACT" /><Set Cost="200"/></Update>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="320" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
 		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" /><Set Maintenance="4" RegionalRange="6" Cost="480" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_FILM_STUDIO" /><Set Maintenance="4" RegionalRange="6" Cost="480" /></Update>
 		<!--Campus-->
 		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Description="LOC_BUILDING_LIBRARY_DESCRIPTION_SST" Cost="80"/></Update>
 		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set Description="LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST" Cost="180"/></Update>
+		<Update><Where BuildingType="BUILDING_MADRASA" /><Set Cost="180"/></Update>
+		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" /><Set Cost="180"/></Update>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" Name="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Description="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="320" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="3" CitizenSlots="1"/>
 		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Maintenance="4" RegionalRange="6" Cost="480" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST"/></Update>
 		<!--Holy Site-->
 		<Update><Where BuildingType="BUILDING_SHRINE" /><Set Cost="80"/></Update>
 		<Update><Where BuildingType="BUILDING_TEMPLE" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_PRASAT" /><Set Cost="120"/></Update>	
+		<Update><Where BuildingType="BUILDING_STAVE_CHURCH" /><Set Cost="120"/></Update>	
 		<Update><Where BuildingType="BUILDING_CATHEDRAL" /><Set Cost="180"/></Update>
 		<Update><Where BuildingType="BUILDING_DAR_E_MEHR" /><Set Cost="180"/></Update>
 		<Update><Where BuildingType="BUILDING_GURDWARA" /><Set Cost="180"/></Update>
@@ -48,11 +55,14 @@
 		<Update><Where BuildingType="BUILDING_WAT" /><Set Cost="180"/></Update>
 		<!--Commercial Hub-->
 		<Update><Where BuildingType="BUILDING_MARKET" /><Set Description="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION_SST" Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_SUKIENNICE" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_BANK" /><Set Description="LOC_BUILDING_BANK_DESCRIPTION_SST" Cost="200"/></Update>
+		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" /><Set Cost="200"/></Update>
 		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Description="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" RegionalRange="6" Cost="320"/></Update>
 		<!--Industrial Zone-->
 		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Description="LOC_PRODUCTION_10_SST" Cost="120" PrereqTech="TECH_IRON_WORKING"/></Update>
-		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Description="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" RegionalRange="6" Cost="320"/></Update>
+		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Description="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" Cost="320"/></Update>
+		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" /><Set Cost="320"/></Update>
 		<Update><Where BuildingType="BUILDING_POWER_PLANT" /><Set Description="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_COAL_POWER_PLANT" /><Set Description="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_SST" Cost="320"/></Update>
 		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" /><Set Description="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" Cost="400"/></Update>
@@ -63,7 +73,9 @@
 		<Update><Where BuildingType="BUILDING_SEAPORT" /><Set Cost="440"/></Update>
 		<!--Entertainment Complex and Water Park-->
 		<Update><Where BuildingType="BUILDING_ARENA" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_TLACHTLI" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_EXPLORATION" Entertainment="2" Cost="200"/></Update>
+		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_EXPLORATION" Entertainment="3" Cost="200"/></Update>
 		<Update><Where BuildingType="BUILDING_STADIUM" /><Set PrereqCivic="CIVIC_MASS_MEDIA" Entertainment="3" Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_FERRIS_WHEEL" /><Set Entertainment="3" Cost="160"/></Update>
 		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Entertainment="3" Cost="240"/></Update>
@@ -84,6 +96,7 @@
 		<Update><Where BuildingType="BUILDING_GOV_CITYSTATES" /><Set Cost="240"/></Update>
 		<Update><Where BuildingType="BUILDING_GOV_SPIES" /><Set Cost="240"/></Update>
 		<Update><Where BuildingType="BUILDING_GOV_FAITH" /><Set Cost="240"/></Update>
+		<Update><Where BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" /><Set Cost="240"/></Update>		
 		<Update><Where BuildingType="BUILDING_GOV_MILITARY" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_GOV_CULTURE" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_GOV_SCIENCE" /><Set Cost="480"/></Update>
@@ -112,13 +125,21 @@
 		<!--Theater Square-->
 		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ART"/>
 		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+		<Delete Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_MUSEUM_ART"/>
+		<Delete Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>	
 		<Row Building="BUILDING_OPERA_HOUSE" PrereqBuilding="BUILDING_MUSEUM_ART"/>
 		<Row Building="BUILDING_OPERA_HOUSE" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
 		<Row Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_OPERA_HOUSE"/>
+		<Row Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_OPERA_HOUSE"/>
 		<!--Campus-->
 		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_UNIVERSITY"/>
+		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_MADRASA"/>
+		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_NAVIGATION_SCHOOL"/>
 		<Row Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_PUBLIC_SCHOOL"/>
 		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_UNIVERSITY"/>
+		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_MADRASA"/>
+		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_NAVIGATION_SCHOOL"/>
+
 		<!--Industrial Zone-->
 		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_POWER_PLANT"/>
 		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_COAL_POWER_PLANT"/>
@@ -142,15 +163,20 @@
 		<!--Theater Square-->
 		<Delete BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="3"/>
-		<Delete BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/>		
+		<Delete BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/>
+		<Delete BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_CULTURE"/>
 		<!--Campus-->
 		<Delete BuildingType="BUILDING_LIBRARY" YieldType="YIELD_SCIENCE"/>
 		<Update><Where BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE"/><Set YieldChange="2"/></Update>		
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="3"/>
 		<Delete BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
 		<!--Commercial Hub-->
 		<Update><Where BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD"/><Set YieldChange="1"/></Update>
+		<Update><Where BuildingType="BUILDING_SUKIENNICE" YieldType="YIELD_GOLD"/><Set YieldChange="1"/></Update>
 		<Update><Where BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
 		<Delete BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/>
 		<!--Industrial Zone-->
 		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
@@ -168,6 +194,7 @@
 		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="5"/>
 		<!--Theater Square-->
 		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
 		<!--Campus-->
 		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/><Set YieldChange="4"/></Update>
 		<!--Commercial Hub-->
@@ -183,11 +210,16 @@
 		<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER"/>
+		<Delete BuildingType="BUILDING_FILM_STUDIO"/>
 		<!--Campus-->
 		<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Delete BuildingType="BUILDING_RESEARCH_LAB"/>
 		<!--Holy Site-->
 		<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<Delete BuildingType="BUILDING_CATHEDRAL"/>
 		<Delete BuildingType="BUILDING_DAR_E_MEHR"/>
 		<Delete BuildingType="BUILDING_GURDWARA"/>
@@ -201,11 +233,13 @@
 		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Delete BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" />
-		<!--Holy Site-->
+		<!--Commercial Hub-->
 		<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Delete BuildingType="BUILDING_STOCK_EXCHANGE"/>
 		<!--Industrial Zone-->
 		<Row BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
 		<Delete BuildingType="BUILDING_POWER_PLANT"/>
 		<Delete BuildingType="BUILDING_COAL_POWER_PLANT" />
 		<Delete BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
@@ -218,6 +252,7 @@
 	<Building_YieldDistrictCopies>
 		<!--Theater Square-->
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" OldYieldType="YIELD_CULTURE" NewYieldType="YIELD_CULTURE" />
+		<Row BuildingType="BUILDING_FILM_STUDIO" OldYieldType="YIELD_CULTURE" NewYieldType="YIELD_CULTURE" />
 		<!--Campus-->
 		<Row BuildingType="BUILDING_RESEARCH_LAB" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_SCIENCE" />
 		<!--Commercial Hub-->
@@ -240,25 +275,33 @@
 		<Row BuildingType="BUILDING_RECYCLING_CENTER" ModifierId="RECYCLING_CENTER_FREE_COAL"/>
 		<!--Theater Square-->
 		<Row BuildingType="BUILDING_AMPHITHEATER" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
+		<Row BuildingType="BUILDING_MARAE" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
 		<Row BuildingType="BUILDING_MUSEUM_ART" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
 		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" ModifierId="CULTUREBUILDING_CULTURE_33"/>
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_33"/>
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_34_POWERED"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" ModifierId="CULTUREBUILDING_CULTURE_33"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" ModifierId="CULTUREBUILDING_CULTURE_34_POWERED"/>		
 		<!--Campus-->
 		<Row BuildingType="BUILDING_LIBRARY" ModifierId="SCIENCEBULIDING_SCIENCE_PER_POP"/>
 		<Row BuildingType="BUILDING_UNIVERSITY" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
+		<Row BuildingType="BUILDING_MADRASA" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
+		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" ModifierId="SCIENCEBULIDING_SCIENCE_PER_POP"/>
 		<Row BuildingType="BUILDING_RESEARCH_LAB" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
 		<Row BuildingType="BUILDING_RESEARCH_LAB" ModifierId="SCIENCEBULIDING_SCIENCE_34_POWERED"/>
 		<!--Commercial Hub-->
 		<Row BuildingType="BUILDING_MARKET" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+		<Row BuildingType="BUILDING_SUKIENNICE" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
 		<Row BuildingType="BUILDING_BANK" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
 		<Row BuildingType="BUILDING_STOCK_EXCHANGE" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
 		<Row BuildingType="BUILDING_STOCK_EXCHANGE" ModifierId="COMMERCIALBULIDING_GOLD_25_POWERED"/>
 		<!--Industrial Zone-->
 		<Row BuildingType="BUILDING_WORKSHOP" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
 		<Row BuildingType="BUILDING_FACTORY" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
 		<Row BuildingType="BUILDING_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
 		<Row BuildingType="BUILDING_COAL_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
 		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
@@ -294,6 +337,8 @@
 		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
 		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="1" /></Update>
+		<Delete BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
+		<Update><Where BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="1" /></Update>
 		<!--Campus-->
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
 		<!--Industrial Zone-->
@@ -305,6 +350,8 @@
 		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="1"/>
 		<!--Holy Site-->
 		<Delete BuildingType="BUILDING_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
+		<Delete BuildingType="BUILDING_PRASAT" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
+		<Delete BuildingType="BUILDING_STAVE_CHURCH" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
 		<Row BuildingType="BUILDING_CATHEDRAL" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
 		<Row BuildingType="BUILDING_DAR_E_MEHR" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
 		<Row BuildingType="BUILDING_GURDWARA" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
@@ -348,6 +395,11 @@
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT"/>
 		<!--Industrial Zone-->
 		<Row ModifierId="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION_ATTACH" Name="ModifierId" Value="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION"/>
+		<!--Entertainment Complex-->
+		<Update><Where ModifierId="STADIUM_10_POPULATION_TOURISM" Name="Amount"/><Set Value="10"/></Update>
+		<Update><Where ModifierId="STADIUM_20_POPULATION_TOURISM" Name="Amount"/><Set Value="10"/></Update>
+		<Update><Where ModifierId="AQUATICS_CENTER_WONDER_TOURISM" Name="Amount"/><Set Value="5"/></Update>
+		<!--Dam-->
 		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX" Name="Amount" Value="6"/>
 		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX" Name="SourceType" Value="FREE_POWER_SOURCE_WATER"/>
 	</ModifierArguments>
