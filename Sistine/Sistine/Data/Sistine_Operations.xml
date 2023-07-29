@@ -5,11 +5,11 @@
 		<Replace TeamName="Simple Early Attack Force" OperationName="Attack Barb Camp" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="0.5" />
 		<Replace TeamName="Simple Early Attack Force" OperationName="Barb Camp Tech Boost" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="0.5" />
 		<!--Attack unwalled cities-->
-		<Replace TeamName="Simple City Attack Force" OperationName="Wartime Attack Enemy City" InitialStrengthAdvantage="1" OngoingStrengthAdvantage="3" />
+		<Replace TeamName="Simple City Attack Force" OperationName="Wartime Attack Enemy City" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="1" />
 		<Replace TeamName="City Naval Attack Force" OperationName="Wartime Attack Enemy City" InitialStrengthAdvantage="-5" OngoingStrengthAdvantage="2" Condition="IsCoastalTarget" />
 		<!--Attack walled cities-->
-		<Replace TeamName="City Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="2" OngoingStrengthAdvantage="4" />
-		<Replace TeamName="City Naval Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="-5" OngoingStrengthAdvantage="3" Condition="IsCoastalTarget" />
+		<Replace TeamName="City Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="1" OngoingStrengthAdvantage="2" />
+		<Replace TeamName="City Naval Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="-5" OngoingStrengthAdvantage="2" Condition="IsCoastalTarget" />
 		<!--Settle new cities-->
 		<Replace TeamName="Settle City Team" OperationName="Settle New City" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="0.5" SafeRallyPoint="true" />
 		<!--Defenses-->
@@ -48,8 +48,8 @@
 		<!--Attack walled cities-->
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_MELEE" MinNumber="2" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_RANGED" MinNumber="0" />
-		<Replace TeamName="City Attack Force" AiType="UNITAI_COMBAT" MinNumber="6" />
-		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE" MinPercentage="15" />
+		<Replace TeamName="City Attack Force" AiType="UNITAI_COMBAT" MinNumber="7" />
+		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE" MinPercentage="15" MaxPercentage="30"/>
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_AIR_SIEGE" MinNumber="0" MaxNumber="3" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE_SUPPORT" AiTypeDependence="UNITTYPE_MELEE" MinNumber="0" MaxNumber="2" />
 		<Delete TeamName="City Attack Force" AiType="UNITTYPE_SIEGE_ALL" MinNumber="1" />

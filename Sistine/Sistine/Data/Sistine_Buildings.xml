@@ -173,11 +173,11 @@
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="3"/>
 		<Delete BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
 		<!--Commercial Hub-->
-		<Update><Where BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD"/><Set YieldChange="1"/></Update>
-		<Update><Where BuildingType="BUILDING_SUKIENNICE" YieldType="YIELD_GOLD"/><Set YieldChange="1"/></Update>
-		<Update><Where BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
-		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
-		<Delete BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/>
+		<Update><Where BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_SUKIENNICE" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD"/><Set YieldChange="4"/></Update>
+		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD"/><Set YieldChange="4"/></Update>
+		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/><Set YieldChange="6"/></Update>
 		<!--Industrial Zone-->
 		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
 		<Update><Where BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="5"/></Update>
@@ -198,7 +198,7 @@
 		<!--Campus-->
 		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/><Set YieldChange="4"/></Update>
 		<!--Commercial Hub-->
-		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/><Set YieldChange="6"/></Update>
 		<!--Industrial Zone-->
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="5"/>
 		<!--Neighborhood-->

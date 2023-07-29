@@ -11,9 +11,11 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST"/>	
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST"/>
-		<!--We all know AI never use these 2 policies. So why not give them these?-->
+		<!--We all know AI never use these policies. So why not give them?-->
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SERFDOM"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_PUBLIC_WORKS"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_CONSCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_LEVEE_EN_MASSE"/>	
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
@@ -57,6 +59,16 @@
 			<ModifierId>HIGH_DIFFICULTY_AI_PUBLIC_WORKS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_CONSCRIPTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_STATE_WORKFORCE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_LEVEE_EN_MASSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MOBILIZATION</OwnerRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -146,6 +158,16 @@
 			<Name>Amount</Name>
 			<Value>30</Value>
 		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_CONSCRIPTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_LEVEE_EN_MASSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
 		<Row>
@@ -154,6 +176,14 @@
 		</Row>
 		<Row>
 			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_STATE_WORKFORCE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MOBILIZATION</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -182,6 +212,30 @@
 			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
 			<RequirementId>REQUIRES_HAS_PUBLIC_WORKS_CIVIC_SST</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_STATE_WORKFORCE</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_STATE_WORKFORCE</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_STATE_WORKFORCE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_STATE_WORKFORCE_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MOBILIZATION</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MOBILIZATION</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MOBILIZATION</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_MOBILIZATION_CIVIC_SST</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
@@ -190,6 +244,14 @@
 		</Row>
 		<Row>
 			<RequirementId>REQUIRES_HAS_PUBLIC_WORKS_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_STATE_WORKFORCE_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_MOBILIZATION_CIVIC_SST</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
 		</Row>
 	</Requirements>
@@ -203,6 +265,16 @@
 			<RequirementId>REQUIRES_HAS_PUBLIC_WORKS_CIVIC_SST</RequirementId>
 			<Name>CivicType</Name>
 			<Value>CIVIC_CIVIL_ENGINEERING</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_STATE_WORKFORCE_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_STATE_WORKFORCE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_MOBILIZATION_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_MOBILIZATION</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>
