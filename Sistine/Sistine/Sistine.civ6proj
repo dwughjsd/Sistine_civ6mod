@@ -46,7 +46,7 @@
     <AssemblyName>Sistine</AssemblyName>
     <RootNamespace>Sistine</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="SistineSettingsText"><File>Text/Replacements/Sistine_ConfigText_zh_Hans_CN_Replace.xml</File><File>Text/Sistine_ConfigText_zh_Hans_CN.xml</File><File>Text/Sistine_ConfigText_AFallback.xml</File></UpdateText><UpdateDatabase id="SistineSettings"><File>Data/Sistine_Config.xml</File></UpdateDatabase><UpdateIcons id="SistineSettingsIcons"><File>Data/Sistine_Icons.xml</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateText id="SistineText"><File>Text/Replacements/Sistine_ConfigText_zh_Hans_CN_Replace.xml</File><File>Text/Replacements/Sistine_Text_zh_Hans_CN_Replace.xml</File><File>Text/Sistine_ConfigText_AFallback.xml</File><File>Text/Sistine_ConfigText_zh_Hans_CN.xml</File><File>Text/Sistine_Text_AFallback.xml</File><File>Text/Sistine_Text_zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="SistineGameplay"><File>Data/Sistine_Buildings.xml</File><File>Data/Sistine_Districts.xml</File><File>Data/Sistine_Modifiers.xml</File><File>Data/Sistine_GlobalParameters.xml</File><File>Data/Sistine_Resources.xml</File><File>Data/Sistine_Techs_Civics.xml</File><File>Data/Sistine_Units.xml</File><File>Data/Sistine_AdditionalMechanisms.xml</File><File>Data/Sistine_Victories.xml</File><File>Data/Sistine_Difficulties.xml</File></UpdateDatabase><UpdateIcons id="SistineIcons"><File>Data/Sistine_Icons.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="SistineText"><File>Text/Replacements/Sistine_ConfigText_zh_Hans_CN_Replace.xml</File><File>Text/Replacements/Sistine_Text_zh_Hans_CN_Replace.xml</File><File>Text/Sistine_ConfigText_AFallback.xml</File><File>Text/Sistine_ConfigText_zh_Hans_CN.xml</File><File>Text/Sistine_Text_AFallback.xml</File><File>Text/Sistine_Text_zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="SistineGameplay"><File>Data/Sistine_Buildings.xml</File><File>Data/Sistine_Districts.xml</File><File>Data/Sistine_Modifiers.xml</File><File>Data/Sistine_GlobalParameters.xml</File><File>Data/Sistine_Resources.xml</File><File>Data/Sistine_Techs_Civics.xml</File><File>Data/Sistine_Units.xml</File><File>Data/Sistine_AdditionalMechanisms.xml</File><File>Data/Sistine_Victories.xml</File><File>Data/Sistine_Difficulties.xml</File><File>Data/Sistine_Operations.xml</File></UpdateDatabase><UpdateIcons id="SistineIcons"><File>Data/Sistine_Icons.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -82,6 +82,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Sistine_Modifiers.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Sistine_Operations.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Sistine_Resources.xml">
