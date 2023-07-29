@@ -136,48 +136,61 @@
 
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="10"/>
-		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="5"/>
+		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="15"/>
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="10"/>
 
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="5"/>
-		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="15"/>
 		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-10"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
 		
 		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="10"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="20"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="10"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="5"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-5"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
 
 
 		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="5"/>
-		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="5"/>
-		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="10"/>		
+		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="10"/>
+		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="15"/>		
 
-		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="5"/>
-		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="15"/>
-		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="10"/>
+		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="5"/>
+		<Row ListType="ModernYields" Item="YIELD_CULTURE" Value="5"/>
 
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
 		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="33"/>
 		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="10"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-20"/>
-		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-20"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true" Value="100"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_TERRESTRIAL_LASER" Favored="true" Value="100"/>
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
-		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROBOTICS"/>
 		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies-->
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" Value="20"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" Value="20"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
+	</AiFavoredItems>
+
+	<Strategy_Priorities>
+		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ListType="ScienceVictoryBuildings"/>
+	</Strategy_Priorities>
+	<AiListTypes>
+		<Row ListType="ScienceVictoryBuildings"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="ScienceVictoryBuildings" System="Buildings"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_MANUFACTURING_PLANT" Favored="true"/>
+		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_RECYCLING_CENTER" Favored="true"/>
 	</AiFavoredItems>
 </GameData>
