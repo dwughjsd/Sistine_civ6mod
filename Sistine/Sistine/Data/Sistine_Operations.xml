@@ -78,12 +78,6 @@
 
 	<AiFavoredItems>
 		<Replace ListType="BaseOperationsLimits" Item="ATTACK_BARBARIANS" Value="2" />
-		<Replace ListType="BaseOperationsLimits" Item="CITY_ASSAULT" Value="1" />
 		<Replace ListType="BaseOperationsLimits" Item="OP_SETTLE" Value="2" />
-		<Replace ListType="BaseOperationsLimits" Item="OP_DEFENSE" Value="10" />
-		<Replace ListType="BaseOperationsLimits" Item="OP_NUCLEAR" Value="1" />
-		<Replace ListType="BaseOperationsLimits" Item="NAVAL_SUPERIORITY" Value="1" />
-		<!-- Don't use this early game, it must be increased by a strategy to be used -->
-		<Replace ListType="PerWarOperationsLimits" Item="CITY_ASSAULT" Value="1" />
 	</AiFavoredItems>
 </GameData>

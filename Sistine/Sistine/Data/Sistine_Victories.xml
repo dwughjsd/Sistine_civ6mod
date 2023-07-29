@@ -130,8 +130,6 @@
 		<Delete ListType="ModernYields" Item="YIELD_FOOD"/>
 		<Delete ListType="ModernYields" Item="YIELD_FAITH"/>
 		<Delete ListType="ModernYields" Item="YIELD_SCIENCE"/>
-
-		<Row ListType="ClassicalDistricts" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>
 		
 		<Row ListType="DefaultYieldBias" Item="YIELD_PRODUCTION" Value="50"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_SCIENCE" Value="20"/>
@@ -171,9 +169,9 @@
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
 		<Replace ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
 		<Replace ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="5"/>
-		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
-		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-20"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-10"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-10"/>
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-10"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true" Value="100"/>
