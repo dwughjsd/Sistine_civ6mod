@@ -74,21 +74,6 @@
 		<Replace TeamName="City Naval Defense" AiType="UNITTYPE_MELEE" MinNumber="0" />
 		<Replace TeamName="City Naval Defense" AiType="UNITTYPE_RANGED" MinNumber="0" />
 		<Replace TeamName="City Naval Defense" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
-		<!--Raid-->
-		<Replace TeamName="Barbarian Raid" AiType="UNITAI_COMBAT" MinNumber="1" />
-		<!--Misc-->
-		<Replace TeamName="Nuclear Attack" AiType="UNITTYPE_NUCLEAR" MinNumber="1"/>
-		<Replace TeamName="Nuclear Attack" AiType="UNITTYPE_NUCLEAR_ESCORT" MinNumber="0" />
-		<Replace TeamName="Aid Ally Attack Force" AiType="UNITTYPE_MELEE" MinNumber="0" />
-		<Replace TeamName="Aid Ally Attack Force" AiType="UNITTYPE_RANGED" MinNumber="0" />
-		<Replace TeamName="Aid Ally Attack Force" AiType="UNITTYPE_CIVILIAN" MaxNumber="0" />
-		<Replace TeamName="Aid Ally Attack Force" AiType="UNITTYPE_SIEGE" MaxNumber="2" />
-		<Replace TeamName="Aid Ally Attack Force" AiType="UNITTYPE_AIR" MaxNumber="0" />
-		<!--Naval Superiority-->
-		<Replace TeamName="Naval Superiority Force" AiType="UNITTYPE_NAVAL" MinPercentage="1" />
-		<Replace TeamName="Naval Superiority Force" AiType="UNITTYPE_MELEE" MaxNumber="0" />
-		<Replace TeamName="Naval Superiority Force" AiType="UNITTYPE_RANGED" MaxNumber="0" />
-		<Replace TeamName="Naval Superiority Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
 	</OpTeamRequirements>
 
 	<AiFavoredItems>
