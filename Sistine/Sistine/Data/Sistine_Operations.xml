@@ -100,26 +100,10 @@
 		<Replace TeamName="Naval Superiority Force" AiType="UNITTYPE_RANGED" MaxNumber="0" />
 		<Replace TeamName="Naval Superiority Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
 	</OpTeamRequirements>
+
 	<AiOperationDefs>
-		<!--Attacking Barb Camps-->
-		<Replace OperationName="Attack Barb Camp" TargetType="TARGET_BARBARIAN_CAMP" OperationType="ATTACK_BARBARIANS" BehaviorTree="Simple Operation Attack" Priority="3" SelfStart="True" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MinOddsOfSuccess="0.5" />
-		<Replace OperationName="Barb Camp Tech Boost" TargetType="TARGET_BARBARIAN_CAMP" OperationType="ATTACK_BARBARIANS" BehaviorTree="Simple Operation Attack" Priority="3" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MinOddsOfSuccess="0.5"/>
-		<!--Attack unwalled cities-->
-		<Replace OperationName="Wartime Attack Enemy City" TargetType="TARGET_ENEMY_COMBAT_DISTRICT" EnemyType="WAR" OperationType="CITY_ASSAULT" BehaviorTree="Early City Assault" SelfStart="True" Priority="3" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MaxTargetDistInWorld="-1" MinOddsOfSuccess="0.5" MustBeAtWar="true" MustHaveUnits="5" />
-		<!--Attack walled cities-->
-		<Replace OperationName="Wartime Attack Walled City" TargetType="TARGET_ENEMY_COMBAT_DISTRICT" EnemyType="WAR" TargetParameter="1" OperationType="CITY_ASSAULT" BehaviorTree="Siege City Assault" SelfStart="True" Priority="3" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MaxTargetDistInWorld="-1" MinOddsOfSuccess="0.6" MustBeAtWar="true" MustHaveUnits="10" />
-		<!--Capture and move civilian units-->
-		<Replace OperationName="Barbarian Builder Capture" TargetType="TARGET_BARBARIAN_CAMP" BehaviorTree="Escort Worker To Camp" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MaxTargetDistInWorld="0" />
-		<Replace OperationName="Civilian Builder Capture" TargetType="TARGET_FRIENDLY_CITY" BehaviorTree="Escort Worker To Camp" Priority="1" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MaxTargetDistInWorld="0" />
-		<!--Settle new cities-->
-		<Replace OperationName="Settle New City" TargetType="TARGET_SETTLE_LOCATION" OperationType="OP_SETTLE" BehaviorTree="Settle City Op" Priority="3" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MaxTargetDistInWorld="-1" />
-		<!--Defenses-->
-		<Replace OperationName="City Defense" TargetType="TARGET_FRIENDLY_CITY" TargetParameter="1" BehaviorTree="Simple City Defense" Priority="2" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MaxTargetDistInWorld="-1" />
-		<Replace OperationName="Barbarian Attack" TargetType="TARGET_ENEMY_COMBAT_DISTRICT" BehaviorTree="Raid City" Priority="3" SelfStart="false" AllowTargetUpdate="false" />
-		<Replace OperationName="Barbarian City Assault" TargetType="TARGET_ENEMY_COMBAT_DISTRICT" BehaviorTree="Barbarian City Attack" Priority="3" SelfStart="false" AllowTargetUpdate="false" />
-		<Replace OperationName="Nuclear Assault" TargetType="TARGET_ENEMY_COMBAT_DISTRICT" TargetParameter="1" EnemyType="WAR" OperationType="OP_NUCLEAR" BehaviorTree="Nuclear Assault" Priority="2" SelfStart="true"  MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MustBeAtWar="true" MustHaveNukes="true"/>
-		<Replace OperationName="Aid Ally" TargetType="TARGET_ALLY_SUPPORT" EnemyType="ALLY" OperationType="CITY_ASSAULT" BehaviorTree="Reinforce Ally" Priority="4" SelfStart="true"  MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1"/>
-		<Replace OperationName="Naval Superiority" TargetType="TARGET_NAVAL_SUPERIORITY" EnemyType="NONE" OperationType="NAVAL_SUPERIORITY" BehaviorTree="Naval Superiority Tree" Priority="3" SelfStart="true" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MaxTargetDistInWorld="-1"/>
+		<Replace OperationName="City Defense" OperationType="OP_DEFENSE" TargetType="TARGET_FRIENDLY_CITY" TargetParameter="1" BehaviorTree="Simple City Defense" Priority="2" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MaxTargetDistInWorld="0" />
+		<Replace OperationName="Naval Superiority" TargetType="TARGET_NAVAL_SUPERIORITY" EnemyType="NONE" OperationType="NAVAL_SUPERIORITY" BehaviorTree="Naval Superiority Tree" Priority="4" SelfStart="true" MaxTargetDistInRegion="-1" MaxTargetDistInArea="-1" MaxTargetDistInWorld="-1"/>
 	</AiOperationDefs>
 	<AiFavoredItems>
 		<Replace ListType="BaseOperationsLimits" Item="ATTACK_BARBARIANS" Value="2" />
