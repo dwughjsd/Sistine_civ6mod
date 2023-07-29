@@ -37,7 +37,7 @@
 		<Delete TeamName="Simple Early Attack Force" AiType="UNITTYPE_MELEE" MinNumber="1" />
 		<Replace TeamName="Simple Early Attack Force" AiType="UNITTYPE_RANGED" MinNumber="0" MaxNumber="" />
 		<Replace TeamName="Simple Early Attack Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
-		<Row TeamName="Simple Early Attack Force" AiType="UNITTYPE_CIVILIAN" MaxNumber="0" />
+		<Replace TeamName="Simple Early Attack Force" AiType="UNITTYPE_CIVILIAN" MaxNumber="0" />
 		<Row TeamName="Simple Early Attack Force" AiType="UNITTYPE_SIEGE" MaxNumber="0" />
 		<Row TeamName="Simple Early Attack Force" AiType="UNITTYPE_SIEGE_SUPPORT" MaxNumber="0" />
 		<Row TeamName="Simple Early Attack Force" AiType="UNITTYPE_SIEGE_ALL" MinNumber="0" />
