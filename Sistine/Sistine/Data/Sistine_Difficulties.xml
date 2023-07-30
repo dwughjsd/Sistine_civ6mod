@@ -11,6 +11,7 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST"/>	
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_GOLD_MILITARY_UPGRADE_SST"/>
 		<!--We all know AI never use these policies. So why not give them?-->
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SERFDOM"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_PUBLIC_WORKS"/>
@@ -69,6 +70,11 @@
 			<ModifierId>HIGH_DIFFICULTY_AI_LEVEE_EN_MASSE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT</ModifierType>
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MOBILIZATION</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_GOLD_MILITARY_UPGRADE_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -167,6 +173,11 @@
 			<ModifierId>HIGH_DIFFICULTY_AI_LEVEE_EN_MASSE</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_GOLD_MILITARY_UPGRADE_SST</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>

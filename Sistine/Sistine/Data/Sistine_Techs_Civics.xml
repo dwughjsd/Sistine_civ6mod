@@ -51,7 +51,7 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_CURRENCY" />
-			<Set Cost="140"/>
+			<Set Cost="140" Description="LOC_TECH_CURRENCY_DESCRIPTION"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_HORSEBACK_RIDING" />
@@ -259,7 +259,7 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_ROBOTICS" />
-			<Set Cost="3400"/>
+			<Set Cost="3400" Critical="1"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_NANOTECHNOLOGY" />
