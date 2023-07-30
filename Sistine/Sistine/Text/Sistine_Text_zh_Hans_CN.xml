@@ -8,6 +8,19 @@
 		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>无淡水单元格的农场改良设施提供的 [ICON_Food] 食物+1。</Text>
 		</Replace>
+		<!--Gold reform-->
+		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>允许创建 [ICON_TradeRoute] 贸易路线。沿河单元格+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SAILING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>允许建造者上船。海岸与湖泊以及海洋单元格+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您的 [ICON_TradeRoute] 贸易路线每经过4个单元格，其提供的 [ICON_Gold] 金币便+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>水运单位+2 [ICON_Movement] 移动力。您的 [ICON_TradeRoute] 贸易路线每经过4个单元格，其提供的 [ICON_Production] 生产力便+1。</Text>
+		</Replace>
 		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>发射火箭让人类登陆月球的太空竞赛项目。赠予一次等同于您每回合 [ICON_Culture] 文化值10倍的 [ICON_Culture] 文化值加成，标志着科技胜利的第二步。</Text>
 		</Replace>
