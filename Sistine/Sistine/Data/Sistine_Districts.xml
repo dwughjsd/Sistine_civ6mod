@@ -231,10 +231,47 @@
 		</Update>
 	</District_GreatPersonPoints>
 	<District_TradeRouteYields>
-		<Update>
-			<Where DistrictType="DISTRICT_GOVERNMENT" YieldType="YIELD_GOLD"/>
-			<Set YieldChangeAsInternationalDestination="3" />
-		</Update>
+		<!--Specialty districts-->
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_THEATER" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_IKANDA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT" YieldType="YIELD_CULTURE" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_OBSERVATORY" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_THANH" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_DIPLOMATIC_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_PRESERVE" YieldType="YIELD_FOOD" YieldChangeAsDomesticDestination="1"/>
+		<Row DistrictType="DISTRICT_PRESERVE" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="3"/>
+		<!--Non-specialty district-->
+		<Row DistrictType="DISTRICT_SPACEPORT" YieldType="YIELD_PRODUCTION" YieldChangeAsDomesticDestination="1"/>
+		<Row DistrictType="DISTRICT_SPACEPORT" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_SPACEPORT" YieldType="YIELD_SCIENCE" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_AERODROME" YieldType="YIELD_PRODUCTION" YieldChangeAsDomesticDestination="1"/>
+		<Row DistrictType="DISTRICT_AERODROME" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="3"/>
+		<Row DistrictType="DISTRICT_AQUEDUCT" YieldType="YIELD_FOOD" YieldChangeAsDomesticDestination="1"/>
+		<Row DistrictType="DISTRICT_AQUEDUCT" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="3"/>
+		<Row DistrictType="DISTRICT_BATH" YieldType="YIELD_FOOD" YieldChangeAsDomesticDestination="1"/>
+		<Row DistrictType="DISTRICT_BATH" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="3"/>
+		<Row DistrictType="DISTRICT_NEIGHBORHOOD" YieldType="YIELD_FOOD" YieldChangeAsDomesticDestination="1"/>
+		<Row DistrictType="DISTRICT_NEIGHBORHOOD" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="3"/>
+		<Row DistrictType="DISTRICT_MBANZA" YieldType="YIELD_FOOD" YieldChangeAsDomesticDestination="1"/>
+		<Row DistrictType="DISTRICT_MBANZA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="3"/>
+		<Row DistrictType="DISTRICT_CANAL" YieldType="YIELD_PRODUCTION" YieldChangeAsDomesticDestination="1"/>
+		<Row DistrictType="DISTRICT_CANAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="3"/>
+		<Row DistrictType="DISTRICT_DAM" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_DAM" YieldType="YIELD_FOOD" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 	<TraitModifiers>
 		<Row>

@@ -94,5 +94,4 @@
 		<Row ListType="ExpansionOperations" Item="OP_SETTLE" Value="1" />
 		<Row ListType="ExpansionistOperations" Item="OP_SETTLE" Value="1" />
 	</AiFavoredItems>
-
 </GameData>
