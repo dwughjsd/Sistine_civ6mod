@@ -23,9 +23,9 @@
 	</AiOperationTeams>
 	<OpTeamRequirements>
 		<!--Attacking Barb Camps-->
-		<Replace TeamName="Simple Early Attack Force" AiType="UNITAI_COMBAT" MinNumber="1" MaxNumber="" />
+		<Replace TeamName="Simple Early Attack Force" AiType="UNITAI_COMBAT" MinNumber="1" />
 		<Delete TeamName="Simple Early Attack Force" AiType="UNITTYPE_MELEE" MinNumber="1" />
-		<Replace TeamName="Simple Early Attack Force" AiType="UNITTYPE_RANGED" MinNumber="0" MaxNumber="" />
+		<Replace TeamName="Simple Early Attack Force" AiType="UNITTYPE_RANGED" MinNumber="0" />
 		<Replace TeamName="Simple Early Attack Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
 		<Replace TeamName="Simple Early Attack Force" AiType="UNITTYPE_CIVILIAN" MaxNumber="0" />
 		<Row TeamName="Simple Early Attack Force" AiType="UNITTYPE_SIEGE" MaxNumber="0" />
@@ -33,7 +33,7 @@
 		<Row TeamName="Simple Early Attack Force" AiType="UNITTYPE_SIEGE_ALL" MaxNumber="0" />
 		<!--Attack unwalled cities-->
 		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_MELEE" MinNumber="2" />
-		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_RANGED" MinNumber="0" />
+		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_RANGED" MinNumber="1" />
 		<Replace TeamName="Simple City Attack Force" AiType="UNITAI_COMBAT" MinNumber="5" />
 		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_SIEGE" MaxNumber="1" />
 		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
@@ -47,7 +47,7 @@
 		<Replace TeamName="City Naval Attack Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
 		<!--Attack walled cities-->
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_MELEE" MinNumber="2" />
-		<Replace TeamName="City Attack Force" AiType="UNITTYPE_RANGED" MinNumber="0" />
+		<Replace TeamName="City Attack Force" AiType="UNITTYPE_RANGED" MinNumber="2" />
 		<Replace TeamName="City Attack Force" AiType="UNITAI_COMBAT" MinNumber="6" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE" MinPercentage="15" MaxPercentage="30"/>
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_AIR_SIEGE" MinNumber="0" MaxNumber="3" />
@@ -65,6 +65,8 @@
 		<!--Defenses-->
 		<Replace TeamName="City Defense" AiType="UNITTYPE_CIVILIAN" MaxNumber="0" />
 		<Replace TeamName="City Defense" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
+		<Replace TeamName="City Defense" AiType="UNITTYPE_RANGED" MinPercentage="30" />
+		<Replace TeamName="City Defense" AiType="UNITTYPE_SIEGE_ALL" MaxNumber="1" />
 		<Replace TeamName="City Defense" AiType="UNITTYPE_NAVAL" MaxNumber="0" />
 		<Replace TeamName="City Defense" AiType="UNITAI_COMBAT" MinNumber="0" />
 		<Replace TeamName="City Defense" AiType="UNITAI_EXPLORE" MinNumber="0" />
