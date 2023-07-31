@@ -11,6 +11,7 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST"/>	
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_ARMY_UPGRADE_DISCOUNT_SST"/>
 		<!--We all know AI never use these policies. So why not give them?-->
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SERFDOM"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_PUBLIC_WORKS"/>
@@ -49,6 +50,11 @@
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_ARMY_UPGRADE_DISCOUNT_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
 		</Row>
 		<Row>
@@ -102,15 +108,15 @@
 			<ModifierId>HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>-10</Value>
-			<Extra>10</Extra>
+			<Value>-5</Value>
+			<Extra>5</Extra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_CIVIC_BOOST_BONUS_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>-10</Value>
-			<Extra>10</Extra>
+			<Value>-5</Value>
+			<Extra>5</Extra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>
@@ -162,6 +168,13 @@
 			<Extra>10</Extra>
 		</Row>
 		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_ARMY_UPGRADE_DISCOUNT_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-10</Value>
+			<Extra>10</Extra>
+		</Row>
+		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_SERFDOM</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
@@ -189,12 +202,16 @@
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_PROFESSIONAL_ARMY</ModifierId>
 			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
 			<Value>50</Value>
+			<Extra>-5</Extra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_FORCE_MODERNIZATION_GOLD</ModifierId>
 			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
 			<Value>50</Value>
+			<Extra>-5</Extra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_FORCE_MODERNIZATION</ModifierId>
