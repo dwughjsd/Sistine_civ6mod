@@ -9,9 +9,9 @@
 		<Replace Name="EXPERIENCE_MAX_BARB_LEVEL" Value="3" />
 		<Replace Name="BARBARIAN_TECH_PERCENT" Value="75" />
 		<!--This param seems to be not working. Next one works.-->
-		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT" Value="1" />
-		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT_OWNER_BEFORE_OCCUPATION" Value="1" />
-		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="20" />
+		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT" Value="20" />
+		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT_OWNER_BEFORE_OCCUPATION" Value="20" />
+		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="15" />
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MIN" Value="0" />
 		<!--I guess it will make AI smarter. Let's see!-->
 		<Replace Name="CIVIC_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
