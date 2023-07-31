@@ -54,7 +54,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" />
-			<Set DefaultValue="20" />
+			<Set DefaultValue="3" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
@@ -65,20 +65,32 @@
 			<Set DefaultValue="400" />
 		</Update>
 		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_DIPLOMATIC_BONUS" />
+			<Set DefaultValue="0.2" />
+		</Update>
+		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" />
-			<Set DefaultValue="200" />
+			<Set DefaultValue="150" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.75" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" />
-			<Set DefaultValue="15.0" />
+			<Set DefaultValue="20.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" />
-			<Set DefaultValue="20" />
+			<Set DefaultValue="30" />
+		</Update>
+		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
+			<Set DefaultValue="1.5" />
+		</Update>
+		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_TOURISM" />
+			<Set DefaultValue="0.5" />
 		</Update>
 	</PseudoYields>
 
@@ -182,6 +194,25 @@
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" Value="20"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
+
+		<!--Try to improve Culture Victory ability of AI-->
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="600"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_LANDSCAPE" Value="100"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_RELIGIOUS" Value="100"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_ARTIFACT" Value="100"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_WRITING" Value="100"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_MUSIC" Value="100"/>
+
+		<!--Also Conquest Victory-->
+		<Delete ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_CITY_DEFENSES" Value="-25"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_CITY_BASE" Value="150"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" Value="150"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_NUCLEAR_WEAPON" Value="20"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_COMBAT" Value="100"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_NAVAL_COMBAT" Value="20"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="20"/>
 	</AiFavoredItems>
 
 	<Strategy_Priorities>
