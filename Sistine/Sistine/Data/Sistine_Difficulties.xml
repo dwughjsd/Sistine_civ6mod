@@ -17,6 +17,7 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_CONSCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_LEVEE_EN_MASSE"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_PROFESSIONAL_ARMY"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_FORCE_MODERNIZATION_GOLD"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_FORCE_MODERNIZATION"/>
 	</TraitModifiers>
 	<Modifiers>
@@ -75,7 +76,12 @@
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_PROFESSIONAL_ARMY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
-			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES</OwnerRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES_NO_URBANIZATION</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_FORCE_MODERNIZATION_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_URBANIZATION</OwnerRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_FORCE_MODERNIZATION</ModifierId>
@@ -186,6 +192,11 @@
 			<Value>50</Value>
 		</Row>
 		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_FORCE_MODERNIZATION_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_FORCE_MODERNIZATION</ModifierId>
 			<Name>Amount</Name>
 			<Value>50</Value>
@@ -209,7 +220,7 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES</RequirementSetId>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES_NO_URBANIZATION</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
@@ -267,16 +278,20 @@
 			<RequirementId>REQUIRES_HAS_MOBILIZATION_CIVIC_SST</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES</RequirementSetId>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES_NO_URBANIZATION</RequirementSetId>
 			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES</RequirementSetId>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES_NO_URBANIZATION</RequirementSetId>
 			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES</RequirementSetId>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES_NO_URBANIZATION</RequirementSetId>
 			<RequirementId>REQUIRES_HAS_MERCENARIES_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MERCENARIES_NO_URBANIZATION</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_NO_URBANIZATION_CIVIC_SST</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_URBANIZATION</RequirementSetId>
@@ -313,6 +328,11 @@
 			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
 		</Row>
 		<Row>
+			<RequirementId>REQUIRES_HAS_NO_URBANIZATION_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
 			<RequirementId>REQUIRES_HAS_URBANIZATION_CIVIC_SST</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
 		</Row>
@@ -342,6 +362,11 @@
 			<RequirementId>REQUIRES_HAS_MERCENARIES_CIVIC_SST</RequirementId>
 			<Name>CivicType</Name>
 			<Value>CIVIC_MERCENARIES</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_URBANIZATION_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_URBANIZATION</Value>
 		</Row>
 		<Row>
 			<RequirementId>REQUIRES_HAS_URBANIZATION_CIVIC_SST</RequirementId>
