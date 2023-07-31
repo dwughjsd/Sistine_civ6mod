@@ -83,4 +83,10 @@
 			<Set ResourceCost="10" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 	</Units_XP2>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_BUILDER" />
+			<Set PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
+		</Update>
+	</Units>
 </GameData>

@@ -2,6 +2,12 @@
 <GameData>
 	<PseudoYields>
 		<!--Replacing PseudoYields will cause issues. Be sure not to replace but only use update-->
+		<!--
+		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_ENVIRONMENT" />
+			<Set DefaultValue="0.25" />
+		</Update>
+		-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_GENERAL" />
 			<Set DefaultValue="2.0" />
@@ -50,11 +56,11 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
-			<Set DefaultValue="15.0" />
+			<Set DefaultValue="10.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" />
-			<Set DefaultValue="15.0" />
+			<Set DefaultValue="10.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
@@ -78,7 +84,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" />
-			<Set DefaultValue="15.0" />
+			<Set DefaultValue="20.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" />
@@ -89,6 +95,10 @@
 			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
+			<Set DefaultValue="0.5" />
+		</Update>
+		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_TOURISM" />
 			<Set DefaultValue="0.5" />
 		</Update>
@@ -97,15 +107,22 @@
 	<AiListTypes>
 		<Row ListType="DefaultTechsSST"/>
 		<Row ListType="DefaultCivicsSST"/>
+		<Row ListType="DefaultFavorGovernmentBuildings"/>
 	</AiListTypes>
 	<AiLists>
 		<Row ListType="DefaultTechsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Technologies"/>
 		<Row ListType="DefaultTechsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Technologies"/>
 		<Row ListType="DefaultCivicsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Civics"/>
 		<Row ListType="DefaultCivicsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Civics"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" AgendaType="TRAIT_LEADER_MAJOR_CIV" System="Buildings"/>
 	</AiLists>
 
 	<AiFavoredItems>
+		<!--
+		<Replace ListType="ExploitationLoverExploitationPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="-100"/>
+		<Replace ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="15"/>
+		<Replace ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
+		-->
 		<Delete ListType="DefaultYieldBias" Item="YIELD_PRODUCTION"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_CULTURE"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_GOLD"/>
@@ -147,37 +164,48 @@
 		<Row ListType="DefaultYieldBias" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="40"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="25"/>
-		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FAITH" Value="-25"/>
 
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="5"/>
 		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="15"/>
-		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="10"/>
+		<Row ListType="ClassicalDistricts" Item="DISTRICT_GOVERNMENT" Favored="true"/>
+		<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_CONSULATE" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_CHANCERY" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_TALL" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_WIDE" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_FAITH" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_MILITARY" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_CULTURE" Favored="true"/>
+		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_SCIENCE" Favored="true"/>
+
 
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="5"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
-		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-30"/>
+		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-50"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
 		
 		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="5"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-5"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
 
 
 		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="5"/>
 		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="10"/>
-		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="5"/>		
+		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="5"/>
+		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-20"/>
 
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="5"/>
 		<Row ListType="ModernYields" Item="YIELD_CULTURE" Value="5"/>
-		<Row ListType="ModernYields" Item="YIELD_FOOD" Value="-10"/>
 
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
 		<Replace ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
@@ -188,7 +216,7 @@
 
 		<!--C'mon it's the era of Gathering Storm-->
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true" Value="100"/>
-		<Row ListType="ScienceVictoryProjects" Item="PROJECT_TERRESTRIAL_LASER" Favored="true" Value="100"/>
+		<Row ListType="ScienceVictoryProjects" Item="PROJECT_TERRESTRIAL_LASER" Favored="true" Value="1000"/>
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies-->
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" Value="20"/>
@@ -197,8 +225,8 @@
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
 
 		<!--Try to improve Culture Victory ability of AI-->
-		<Replace ListType="CultureVictoryYields" Item="YIELD_CULTURE" Value="20"/>
-		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_WONDER" Value="50"/>
+		<Replace ListType="CultureVictoryYields" Item="YIELD_CULTURE" Value="10"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_WONDER" Value="200"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="400"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>
@@ -212,10 +240,11 @@
 		<Delete ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_CITY_DEFENSES" Value="-25"/>
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_CITY_BASE" Value="150"/>
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" Value="150"/>
-		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_NUCLEAR_WEAPON" Value="20"/>
-		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_COMBAT" Value="100"/>
-		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_NAVAL_COMBAT" Value="20"/>
-		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="20"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_NUCLEAR_WEAPON" Value="25"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_COMBAT" Value="10"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_NAVAL_COMBAT" Value="10"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="10"/>
+		<Delete ListType="MilitaryVictoryYields" Item="YIELD_PRODUCTION" Value="25"/>
 	</AiFavoredItems>
 
 	<Strategy_Priorities>
