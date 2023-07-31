@@ -78,7 +78,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" />
-			<Set DefaultValue="20.0" />
+			<Set DefaultValue="15.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" />
@@ -196,7 +196,9 @@
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
 
 		<!--Try to improve Culture Victory ability of AI-->
-		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="600"/>
+		<Replace ListType="CultureVictoryYields" Item="YIELD_CULTURE" Value="20"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_WONDER" Value="50"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="400"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_LANDSCAPE" Value="100"/>

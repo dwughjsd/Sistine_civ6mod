@@ -4,83 +4,83 @@
 		<!--So that you silly AIs won't use up all your fxxking resources!-->
 		<Update>
 			<Where UnitType="UNIT_IRONCLAD" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_BATTLESHIP" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_INFANTRY" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_ARTILLERY" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_TANK" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_DESTROYER" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_BIPLANE" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_SUBMARINE" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_FIGHTER" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_BOMBER" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_HELICOPTER" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_MECHANIZED_INFANTRY" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_MODERN_ARMOR" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_ROCKET_ARTILLERY" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_JET_FIGHTER" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_JET_BOMBER" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_MISSILE_CRUISER" />
-			<Set ResourceCost="20"/>
+			<Set ResourceCost="20" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_GIANT_DEATH_ROBOT" />
-			<Set ResourceCost="60"/>
+			<Set ResourceCost="60" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES" />
-			<Set ResourceCost="10"/>
+			<Set ResourceCost="10" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_AMERICAN_P51" />
-			<Set ResourceCost="10"/>
+			<Set ResourceCost="10" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 	</Units_XP2>
 </GameData>

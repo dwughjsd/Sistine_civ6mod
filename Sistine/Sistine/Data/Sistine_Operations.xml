@@ -5,11 +5,11 @@
 		<Replace TeamName="Simple Early Attack Force" OperationName="Attack Barb Camp" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="0.5" />
 		<Replace TeamName="Simple Early Attack Force" OperationName="Barb Camp Tech Boost" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="0.5" />
 		<!--Attack unwalled cities-->
-		<Replace TeamName="Simple City Attack Force" OperationName="Wartime Attack Enemy City" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="1" />
-		<Replace TeamName="City Naval Attack Force" OperationName="Wartime Attack Enemy City" InitialStrengthAdvantage="-5" OngoingStrengthAdvantage="2" Condition="IsCoastalTarget" />
+		<Replace TeamName="Simple City Attack Force" OperationName="Wartime Attack Enemy City" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="0.5" />
+		<Replace TeamName="City Naval Attack Force" OperationName="Wartime Attack Enemy City" InitialStrengthAdvantage="-5" OngoingStrengthAdvantage="1" Condition="IsCoastalTarget" />
 		<!--Attack walled cities-->
-		<Replace TeamName="City Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="1" OngoingStrengthAdvantage="2" />
-		<Replace TeamName="City Naval Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="-5" OngoingStrengthAdvantage="2" Condition="IsCoastalTarget" />
+		<Replace TeamName="City Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="1" OngoingStrengthAdvantage="1.5" />
+		<Replace TeamName="City Naval Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="-5" OngoingStrengthAdvantage="1" Condition="IsCoastalTarget" />
 		<!--Settle new cities-->
 		<Replace TeamName="Settle City Team" OperationName="Settle New City" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="0.5" SafeRallyPoint="true" />
 		<!--Defenses-->
@@ -125,10 +125,10 @@
 		<Row ListType="Default Tactical" Item="Gather Goody Hut" Value="20" />
 		<Row ListType="Default Tactical" Item="Make Military Formation" Value="30" />
 		<Row ListType="Default Tactical" Item="Promotion" Value="40"/>
-	    <Row ListType="Default Tactical" Item="Attack High Priority" Value="50" />
-	    <Row ListType="Default Tactical" Item="Attack Camps" Value="60"/>
-		<Row ListType="Default Tactical" Item="Attack Medium Priority" Value="70" />
-	    <Row ListTYpe="Default Tactical" Item="Attack District" Value="80" />
+		<Row ListTYpe="Default Tactical" Item="Attack District" Value="50" />
+	    <Row ListType="Default Tactical" Item="Attack High Priority" Value="60" />
+	    <Row ListType="Default Tactical" Item="Attack Camps" Value="70"/>
+		<Row ListType="Default Tactical" Item="Attack Medium Priority" Value="80" />
 		<Row ListType="Default Tactical" Item="Attack Civilians" Value="90" />
 		<Row ListType="Default Tactical" Item="Move to Safety" Value="100" />
 		<Row ListType="Default Tactical" Item="Heal" Value="110" />
