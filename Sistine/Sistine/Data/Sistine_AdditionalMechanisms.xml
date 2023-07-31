@@ -157,7 +157,7 @@
 		<Row>
 			<ModifierId>CURRENCY_TRADE_ROUTE_LENGTH_GOLD</ModifierId>
 			<Name>Amount</Name>
-			<Value>0.25</Value>
+			<Value>0.2</Value>
 		</Row>
 		<Row>
 			<ModifierId>CURRENCY_TRADE_ROUTE_LENGTH_GOLD</ModifierId>
@@ -167,7 +167,7 @@
 		<Row>
 			<ModifierId>STEAM_POWER_TRADE_ROUTE_LENGTH_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
-			<Value>0.25</Value>
+			<Value>0.1</Value>
 		</Row>
 		<Row>
 			<ModifierId>STEAM_POWER_TRADE_ROUTE_LENGTH_PRODUCTION</ModifierId>
