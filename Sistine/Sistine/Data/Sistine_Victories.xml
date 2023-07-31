@@ -50,11 +50,11 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
-			<Set DefaultValue="10.0" />
+			<Set DefaultValue="15.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" />
-			<Set DefaultValue="8.0" />
+			<Set DefaultValue="15.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
@@ -158,8 +158,8 @@
 
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="5"/>
-		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="15"/>
-		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-10"/>
+		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-30"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
 		
 		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
@@ -172,11 +172,12 @@
 
 		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="5"/>
 		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="10"/>
-		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="15"/>		
+		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="5"/>		
 
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="5"/>
 		<Row ListType="ModernYields" Item="YIELD_CULTURE" Value="5"/>
+		<Row ListType="ModernYields" Item="YIELD_FOOD" Value="-10"/>
 
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
 		<Replace ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
