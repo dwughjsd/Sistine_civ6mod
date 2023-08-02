@@ -83,9 +83,6 @@
 		<Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>魅力为迷人或惊艳的单元格提供的 [ICON_Faith] 信仰值+1。</Text>
 		</Replace>
-		<Replace Tag="LOC_BELIEF_GOD_OF_HEALING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>位于宗教单位或相邻单元格的单位每回合多恢复10点生命值。</Text>
-		</Replace>
 		<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>选择后在首都中获得1个建造者，城市人口增长速度提升25%。</Text>
 		</Replace>
@@ -102,7 +99,7 @@
 			<Text>从以下区域获得+1 [ICON_GreatPerson] 伟人点数：圣地（大预言家）、学院（大科学家）、剧院广场（大作家）。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>地热裂缝和火山土提供+1 [ICON_FAITH] 生产力、+1 [ICON_Science] 科技值。</Text>
+			<Text>地热裂缝和火山土提供+1 [ICON_Production] 生产力、+1 [ICON_Science] 科技值。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

@@ -134,10 +134,10 @@
 			<Text>对众神的崇拜引出关于精神力量更深层次的问题。</Text>
 		</Replace>
 		<Replace Tag="LOC_ACTION_PANEL_NEEDS_PANTHEON" Language="zh_Hans_CN">
-			<Text>选择众神</Text>
+			<Text>选择众神信仰</Text>
 		</Replace>
 		<Replace Tag="LOC_ACTION_PANEL_NEEDS_PANTHEON_TOOLTIP" Language="zh_Hans_CN">
-			<Text>您需要为国民选择一种众神。</Text>
+			<Text>您需要为国民选择一种众神信仰。</Text>
 		</Replace>
 		<Replace Tag="LOC_HUD_CITY_OVERVIEW_RELIGION_TOOLTIP" Language="zh_Hans_CN">
 			<Text>众神信仰和信教公民</Text>
@@ -155,13 +155,16 @@
 			<Text>选择您的众神信仰。</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_RELIGION_MY_PANTHEON" Language="zh_Hans_CN">
-			<Text>我的众神</Text>
+			<Text>我的众神信仰</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_RELIGION_NO_PANTHEON" Language="zh_Hans_CN">
-			<Text>没有已创立的众神</Text>
+			<Text>没有已创立的众神信仰</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_RELIGION_WORKING_TOWARDS_PANTHEON" Language="zh_Hans_CN">
-			<Text>致力创立众神信仰</Text>
+			<Text>正在创立众神信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_RELIGION_WORKING_TOWARDS_RELIGION" Language="zh_Hans_CN">
+			<Text>正在创立宗教</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_RELIGION_NO_PANTHEON_BELIEF" Language="zh_Hans_CN">
 			<Text>无众神信仰。</Text>
@@ -170,13 +173,13 @@
 			<Text>城市的众神信仰：</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_RELIGION_CHOOSING_PANTHEON" Language="zh_Hans_CN">
-			<Text>选择一个众神</Text>
+			<Text>选择一种众神信仰</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_RELIGION_CHOOSE_PANTHEON_BELIEF" Language="zh_Hans_CN">
-			<Text>选择一个众神信仰：</Text>
+			<Text>选择一种众神信仰：</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_RELIGION_PANTHEON_EFFECT" Language="zh_Hans_CN">
-			<Text>众神效果：</Text>
+			<Text>众神信仰效果：</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_RELIGION_FOUND_PANTHEON" Language="zh_Hans_CN">
 			<Text>建立该众神信仰</Text>
@@ -188,22 +191,22 @@
 			<Text>宗教[NEWLINE][NEWLINE]查看您的众神或宗教，以及其他已经建立的宗教。</Text>
 		</Replace>
 		<Replace Tag="LOC_NOTIFICATION_CHOOSE_PANTHEON_MESSAGE" Language="zh_Hans_CN">
-			<Text>选择众神</Text>
+			<Text>选择众神信仰</Text>
 		</Replace>
 		<Replace Tag="LOC_REPLAYDATASET_TOTALPANTHEONSFOUNDED_NAME" Language="zh_Hans_CN">
-			<Text>已建成的众神总数</Text>
+			<Text>已创立的众神信仰总数</Text>
 		</Replace>
 		<Replace Tag="LOC_GOSSIP_CREATE_PANTHEON" Language="zh_Hans_CN">
 			<Text>{1_CivName}正在崇拜以{2_BeliefName}为中心的众神。</Text>
 		</Replace>
 		<Replace Tag="LOC_HUD_CITY_PANTHEON_TT" Language="zh_Hans_CN">
-			<Text>众神：{1_PantheonName}</Text>
+			<Text>众神信仰：{1_PantheonName}</Text>
 		</Replace>
 		<Replace Tag="LOC_RELIGIONPANEL_NEXT_STEP_FOUND_PANTHEON" Language="zh_Hans_CN">
-			<Text>累积{1_Number} [ICON_Faith] 信仰值来建立一种众神信仰。</Text>
+			<Text>累积{1_Number} [ICON_Faith] 信仰值以创立一种众神信仰。</Text>
 		</Replace>
 		<Replace Tag="LOC_UI_RELIGION_PANTHEON_NAME" Language="zh_Hans_CN">
-			<Text>众神：{1_BeliefName}</Text>
+			<Text>众神信仰：{1_BeliefName}</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED" Language="zh_Hans_CN">
 			<Text>创立众神信仰</Text>

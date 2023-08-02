@@ -273,9 +273,8 @@
 	</BeliefModifiers>
 	<Modifiers>
 		<Update><Where ModifierId="EARTH_GODDESS_APPEAL_FAITH_MODIFIER" /><Set SubjectRequirementSetId="PLOT_CHARMING_APPEAL"/></Update>
-		<Update><Where ModifierId="DIVINE_SPARK_SCIENTIST_MODIFIER" /><Set SubjectRequirementSetId="DISTRICT_IS_CAMPUS"/></Update>
-		<Update><Where ModifierId="DIVINE_SPARK_WRITER_MODIFIER" /><Set SubjectRequirementSetId="DISTRICT_IS_THEATER"/></Update>
-		<Update><Where ModifierId="GOD_OF_HEALING_UNIT_HEALING_MODIFIER" /><Set SubjectRequirementSetId="CONQUISTADOR_SPECIFIC_UNIT_REQUIREMENTS"/></Update>
+		<Update><Where ModifierId="DIVINE_SPARK_SCIENTIST_MODIFIER" /><Set ModifierType="MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="DISTRICT_IS_CAMPUS"/></Update>
+		<Update><Where ModifierId="DIVINE_SPARK_WRITER_MODIFIER" /><Set ModifierType="MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="DISTRICT_IS_THEATER"/></Update>
 		<Row>
 			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE</ModifierId>
 			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
@@ -345,7 +344,6 @@
 		<Update><Where ModifierId="RELIGIOUS_IDOLS_BONUS_MINE_FAITH_MODIFIER" Name="Amount"/><Set Value="1"/></Update>
 		<Update><Where ModifierId="RELIGIOUS_IDOLS_LUXURY_MINE_FAITH_MODIFIER" Name="Amount"/><Set Value="1"/></Update>
 		<Update><Where ModifierId="STONE_CIRCLES_QUARRY_FAITH_MODIFIER" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="GOD_OF_HEALING_UNIT_HEALING_MODIFIER" Name="Amount"/><Set Value="10"/></Update>
 		<Row>
 			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE</ModifierId>
 			<Name>ModifierId</Name>
