@@ -25,5 +25,60 @@
 		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>发射火箭让人类登陆月球的太空竞赛项目。赠予一次等同于您每回合 [ICON_Culture] 文化值10倍的 [ICON_Culture] 文化值加成，标志着科技胜利的第二步。</Text>
 		</Replace>
+		<!--City-states-->
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>[ICON_Capital] 首都+1 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>每座大学和领事馆+1 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>每座研究实验室和外交办+1 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>[ICON_Capital] 首都+1 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>每座寺庙和领事馆+1 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>每座祭祀建筑和外交办+1 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>[ICON_Capital] 首都+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>每座银行、造船厂和领事馆+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>每座证券交易所、码头和外交办+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>[ICON_Capital] 首都+1 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>每座艺术博物馆、考古博物馆和领事馆+1 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>每座广播中心和外交办+1 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>生产单位时，[ICON_Capital] 首都+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>在拥有兵工厂或领事馆的城市中生产单位时+1 [ICON_Production] 生产力。如城市同时拥有这两个建筑，则+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>在拥有军事学院或外交办的城市中生产单位时+1 [ICON_Production] 生产力。如城市同时拥有这两个建筑，则+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>建造奇观、建筑和区域时，[ICON_Capital] 首都+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>在拥有工厂或领事馆的城市中建造奇观、建筑和区域时+1 [ICON_Production] 生产力。如城市同时拥有这两个建筑，则+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
+		  <Text>在拥有外交办或发电厂的城市中建造奇观、建筑和区域时+1 [ICON_Production] 生产力。如城市同时拥有外交办和发电厂，则+2 [ICON_Production] 生产力。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
