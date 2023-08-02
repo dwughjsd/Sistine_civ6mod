@@ -90,7 +90,7 @@
 			<Text>精密制造厂</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_PRODUCTION_15_SST}此城建造城市项目时+100% [ICON_Production] 生产力。[ICON_Power] 供电充足的 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+			<Text>{LOC_PRODUCTION_15_SST}此城建造城市项目时+50% [ICON_Production] 生产力。[ICON_Power] 供电充足的 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城生产的所有海军单位+25%战斗经验值。此城的所有海岸单元格+1 [ICON_FOOD] 食物。此城的 [ICON_RESOURCE_FISH] 鱼、 [ICON_RESOURCE_CRABS] 螃蟹、 [ICON_RESOURCE_PEARLS] 珍珠及 [ICON_RESOURCE_TURTLES] 海龟提供的 [ICON_Food] 食物+1。如此城与海岸相邻，则+2 [ICON_HOUSING] 住房。如此城尚无市场，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>

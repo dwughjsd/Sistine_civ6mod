@@ -60,7 +60,7 @@
 		<Row ModifierId="PRODUCTIONBULIDING_PRODUCTION_10" Name="YieldType" Value="YIELD_PRODUCTION"/>
 		<Row ModifierId="PRODUCTIONBULIDING_PRODUCTION_15" Name="Amount" Value="15"/>
 		<Row ModifierId="PRODUCTIONBULIDING_PRODUCTION_15" Name="YieldType" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION" Name="Amount" Value="100"/>
+		<Row ModifierId="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION" Name="Amount" Value="50"/>
 		<Row ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM" Name="Amount" Value="5"/>
 		<Row ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM_POWERED" Name="Amount" Value="5"/>
 		<Row ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP" Name="Amount" Value="0.5"/>
