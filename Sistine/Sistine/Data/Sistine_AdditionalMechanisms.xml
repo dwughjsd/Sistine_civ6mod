@@ -248,4 +248,228 @@
 		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
 		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
 	</ModifierArguments>
+	
+	<!--Pantheon-->
+	<BeliefModifiers>
+		<Row BeliefType="BELIEF_MONUMENT_TO_THE_GODS">
+			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE</ModifierId>
+		</Row>
+		<Row BeliefType="BELIEF_RELIGIOUS_IDOLS">
+			<ModifierId>RELIGIOUS_IDOLS_BONUS_MINE_CULTURE</ModifierId>
+		</Row>
+		<Row BeliefType="BELIEF_RELIGIOUS_IDOLS">
+			<ModifierId>RELIGIOUS_IDOLS_LUXURY_MINE_CULTURE</ModifierId>
+		</Row>
+		<Row BeliefType="BELIEF_STONE_CIRCLES">
+			<ModifierId>STONE_CIRCLES_QUARRY_PRODUCTION</ModifierId>
+		</Row>
+		<Row BeliefType="BELIEF_GODDESS_OF_FIRE">
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_PRODUCTION</ModifierId>
+		</Row>
+		<Row BeliefType="BELIEF_GODDESS_OF_FIRE">
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_SCIENCE</ModifierId>
+		</Row>
+		<Delete ModifierId="GODDESS_OF_FIRE_FEATURES_FAITH"/>	
+	</BeliefModifiers>
+	<Modifiers>
+		<Update><Where ModifierId="EARTH_GODDESS_APPEAL_FAITH_MODIFIER" /><Set SubjectRequirementSetId="PLOT_CHARMING_APPEAL"/></Update>
+		<Update><Where ModifierId="DIVINE_SPARK_SCIENTIST_MODIFIER" /><Set SubjectRequirementSetId="DISTRICT_IS_CAMPUS"/></Update>
+		<Update><Where ModifierId="DIVINE_SPARK_WRITER_MODIFIER" /><Set SubjectRequirementSetId="DISTRICT_IS_THEATER"/></Update>
+		<Update><Where ModifierId="GOD_OF_HEALING_UNIT_HEALING_MODIFIER" /><Set SubjectRequirementSetId="CONQUISTADOR_SPECIFIC_UNIT_REQUIREMENTS"/></Update>
+		<Row>
+			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_WONDER_ERA_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_IMPROVED_MARBLE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_BONUS_MINE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_BONUS_MINE_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_BONUS_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_LUXURY_MINE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_LUXURY_MINE_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_LUXURY_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STONE_CIRCLES_QUARRY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STONE_CIRCLES_QUARRY_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_QUARRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_GODDES_FIRE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_GODDES_FIRE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Delete ModifierId="GODDESS_OF_FIRE_FEATURES_FAITH"/>
+		<Delete ModifierId="GODDESS_OF_FIRE_FEATURES_FAITH_MODIFIER"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Update><Where ModifierId="FERTILITY_RITES_GROWTH" Name="Amount"/><Set Value="25"/></Update>
+		<Update><Where ModifierId="MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MODIFIER" Name="Amount"/><Set Value="20"/></Update>
+		<Update><Where ModifierId="RELIGIOUS_IDOLS_BONUS_MINE_FAITH_MODIFIER" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="RELIGIOUS_IDOLS_LUXURY_MINE_FAITH_MODIFIER" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="STONE_CIRCLES_QUARRY_FAITH_MODIFIER" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="GOD_OF_HEALING_UNIT_HEALING_MODIFIER" Name="Amount"/><Set Value="10"/></Update>
+		<Row>
+			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE_MODIFIER</ModifierId>
+			<Name>IsWonder</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE_MODIFIER</ModifierId>
+			<Name>StartEra</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE_MODIFIER</ModifierId>
+			<Name>EndEra</Name>
+			<Value>ERA_CLASSICAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_BONUS_MINE_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>RELIGIOUS_IDOLS_BONUS_MINE_CULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_BONUS_MINE_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_BONUS_MINE_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_LUXURY_MINE_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>RELIGIOUS_IDOLS_LUXURY_MINE_CULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_LUXURY_MINE_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_LUXURY_MINE_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONE_CIRCLES_QUARRY_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>STONE_CIRCLES_QUARRY_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONE_CIRCLES_QUARRY_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONE_CIRCLES_QUARRY_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GODDESS_OF_FIRE_FEATURES_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_SCIENCE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GODDESS_OF_FIRE_FEATURES_SCIENCE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FIRE_FEATURES_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_MARBLE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_MARBLE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_MARBLE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_MARBLE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_MARBLE</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_MARBLE</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>
