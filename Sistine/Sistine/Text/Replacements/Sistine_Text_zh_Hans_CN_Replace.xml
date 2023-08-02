@@ -99,7 +99,7 @@
 		<Replace Tag="LOC_BELIEF_GOD_OF_HEALING_NAME" Language="zh_Hans_CN" Text="疗愈之神"/>
 		<Replace Tag="LOC_BELIEF_DIVINE_INSPIRATION_NAME" Language="zh_Hans_CN" Text="神圣启示"/>
 		<Replace Tag="LOC_BELIEF_LAY_MINISTRY_NAME" Language="zh_Hans_CN" Text="教友职务"/>
-		<Replace Tag="LOC_BELIEF_HOLY_ORDER_NAME" Language="zh_Hans_CN" Text="圣骑士团"/>
+		<Replace Tag="LOC_BELIEF_HOLY_ORDER_NAME" Language="zh_Hans_CN" Text="神圣教团"/>
 		<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_NAME" Language="zh_Hans_CN" Text="巡回宣教"/>
 		<Replace Tag="LOC_BELIEF_JUST_WAR_NAME" Language="zh_Hans_CN" Text="正义之战"/>
 		<Replace Tag="LOC_BELIEF_MONASTIC_ISOLATION_NAME" Language="zh_Hans_CN" Text="避世隐修"/>
@@ -146,7 +146,7 @@
 			<Text>众神信仰是您文明里所有城市的核心信仰。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNITOPERATION_FOUND_RELIGION_REQUIRES_PANTHEON" Language="zh_Hans_CN">
-			<Text>必须先建立一种众神信仰。</Text>
+			<Text>必须先创立一种众神信仰。</Text>
 		</Replace>
 		<Replace Tag="LOC_RELIGIONPANEL_PANTHEON_LABEL" Language="zh_Hans_CN">
 			<Text>[COLOR_LIGHTBLUE]众神信仰：[ENDCOLOR]</Text>

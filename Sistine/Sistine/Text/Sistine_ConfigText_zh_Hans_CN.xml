@@ -160,7 +160,7 @@
 			<Text>葡萄牙特色建筑。{LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST}在此城中生产海军单位时+25%生产力。此城中每拥有2个海岸或湖泊单元格，则+1 [ICON_SCiENCE] 科技值。每回合+1 [ICON_GreatAdmiral] 海军统帅点数、+1 [ICON_GreatScientist] 大科学家点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>波兰特色建筑。{LOC_BUILDING_BANK_DESCRIPTION_SST}从此城开始的国际 [ICON_TradeRoute] 贸易路线+2 [ICON_Production] 生产力；国内 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币。{LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION}</Text>
+			<Text>波兰特色建筑。{LOC_BUILDING_BANK_DESCRIPTION_SST}从此城开始的国际 [ICON_TradeRoute] 贸易路线+2 [ICON_Production] 生产力；国内 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币。如此城尚未建有灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>匈牙利特色建筑。+3点 [ICON_Amenities] 宜居度与+2点 [ICON_PRODUCTION] 生产力，可扩展到6个单元格内的每个市中心。城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。此城中若包含至少1处地热裂缝，则该城市的 [ICON_TOURISM] 旅游业绩+3，同时 [ICON_AMENITIES] 宜居度额外+2。</Text>
