@@ -32,6 +32,7 @@
 		<Row ModifierId="RECYCLING_CENTER_FREE_URANIUM" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION" SubjectRequirementSetId="BUILDING_IS_POWER_PLANT_SST"/>
 		<Row ModifierId="RECYCLING_CENTER_FREE_OIL" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION" SubjectRequirementSetId="BUILDING_IS_FOSSIL_FUEL_POWER_PLANT_SST"/>
 		<Row ModifierId="RECYCLING_CENTER_FREE_COAL" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION" SubjectRequirementSetId="BUILDING_IS_COAL_POWER_PLANT_SST"/>
+		<Row ModifierId="STABLE_PASTURE_PRODUCTION" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="PLOT_HAS_PASTURE_REQUIREMENTS"/>
 	</Modifiers>
 	<ModifierArguments>
 		<Row ModifierId="CULTUREBUILDING_WONDER_CULTURE" Name="Amount" Value="2"/>
@@ -87,6 +88,8 @@
 		<Row ModifierId="RECYCLING_CENTER_FREE_OIL" Name="ResourceType" Value="RESOURCE_OIL"/>
 		<Row ModifierId="RECYCLING_CENTER_FREE_COAL" Name="Amount" Value="1"/>
 		<Row ModifierId="RECYCLING_CENTER_FREE_COAL" Name="ResourceType" Value="RESOURCE_COAL"/>
+		<Row ModifierId="STABLE_PASTURE_PRODUCTION" Name="Amount" Value="1"/>
+		<Row ModifierId="STABLE_PASTURE_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
 	</ModifierArguments>
 	
 	<RequirementSets>
