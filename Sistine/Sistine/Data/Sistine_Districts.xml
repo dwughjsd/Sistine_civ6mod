@@ -252,9 +252,12 @@
 		<Row DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_THANH" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_DIPLOMATIC_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<!--
 		<Row DistrictType="DISTRICT_PRESERVE" YieldType="YIELD_FOOD" YieldChangeAsDomesticDestination="1"/>
 		<Row DistrictType="DISTRICT_PRESERVE" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="3"/>
+		-->
 		<!--Non-specialty district-->
+		<!--
 		<Row DistrictType="DISTRICT_SPACEPORT" YieldType="YIELD_PRODUCTION" YieldChangeAsDomesticDestination="1"/>
 		<Row DistrictType="DISTRICT_SPACEPORT" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_SPACEPORT" YieldType="YIELD_SCIENCE" YieldChangeAsInternationalDestination="1"/>
@@ -272,6 +275,7 @@
 		<Row DistrictType="DISTRICT_CANAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="3"/>
 		<Row DistrictType="DISTRICT_DAM" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_DAM" YieldType="YIELD_FOOD" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		-->
 	</District_TradeRouteYields>
 	<TraitModifiers>
 		<Row>
