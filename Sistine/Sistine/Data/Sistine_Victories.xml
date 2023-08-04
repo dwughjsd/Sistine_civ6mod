@@ -10,19 +10,19 @@
 		-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_GENERAL" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<!--Really no need to spam prophet. Let fewer civs build it-->
 		<Update>
@@ -31,23 +31,23 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
-			<Set DefaultValue="12.0" />
+			<Set DefaultValue="10.0" />
 		</Update>
 		<!--Let's see if this can become a good heuristic to advance goverment tier. Don't let it be too high or AI will stuck at Monarchy. TODO: Overhaul Monarchy to prevent this issue forever-->
 		<Update>
@@ -60,7 +60,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" />
-			<Set DefaultValue="10.0" />
+			<Set DefaultValue="6.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
@@ -84,7 +84,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" />
-			<Set DefaultValue="20.0" />
+			<Set DefaultValue="15.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" />
@@ -160,16 +160,18 @@
 		<Delete ListType="ModernYields" Item="YIELD_FAITH"/>
 		<Delete ListType="ModernYields" Item="YIELD_SCIENCE"/>
 		
-		<Row ListType="DefaultYieldBias" Item="YIELD_PRODUCTION" Value="50"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_PRODUCTION" Value="30"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="40"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="25"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FAITH" Value="-25"/>
 
-		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="10"/>
+		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="5"/>
 		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="15"/>
+		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-20"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_GOVERNMENT" Favored="true"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>
 		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_CONSULATE" Favored="true"/>
@@ -184,27 +186,28 @@
 		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_CULTURE" Favored="true"/>
 		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_SCIENCE" Favored="true"/>
 
-
+		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="5"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
-		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-40"/>
+		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-30"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
 		
 		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="10"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="5"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-20"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
 
 		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="5"/>
 		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="10"/>
-		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="5"/>
+		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="-10"/>
 
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="5"/>
 		<Row ListType="ModernYields" Item="YIELD_CULTURE" Value="5"/>
+		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_FOOD" Value="-10"/>
 
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
@@ -258,6 +261,5 @@
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_MANUFACTURING_PLANT" Favored="true"/>
-		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_RECYCLING_CENTER" Favored="true"/>
 	</AiFavoredItems>
 </GameData>
