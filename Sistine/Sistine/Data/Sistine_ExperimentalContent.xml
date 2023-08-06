@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Projects>
+		<!--Lower its index so that AI will prefer using power to send their rockets-->
+		<Replace ProjectType="PROJECT_ORBITAL_LASER" Name="LOC_PROJECT_ORBITAL_LASER_NAME" ShortName="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME" Description="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION" PopupText="LOC_PROJECT_ORBITAL_LASER_POPUP" PrereqDistrict="DISTRICT_SPACEPORT" PrereqTech="TECH_OFFWORLD_MISSION" Cost="600" AdvisorType="ADVISOR_TECHNOLOGY" SpaceRace="true" VisualBuildingType="BUILDING_SMALL_ROCKET"/>
+	</Projects>
+</GameData>

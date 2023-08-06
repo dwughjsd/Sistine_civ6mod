@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<TraitModifiers>
-		<!--
 		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_SCIENCE_SCALING"/>
 		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_CULTURE_SCALING"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST"/>
@@ -13,8 +12,7 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST"/>
 		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_SCALING"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST"/>
-		-->
-		<!--We all know AI never use these policies. So why not give them?
+		<!--We all know AI never use these policies. So why not give them?-->
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SERFDOM"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_PUBLIC_WORKS"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_CONSCRIPTION"/>
@@ -22,7 +20,6 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_PROFESSIONAL_ARMY"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_FORCE_MODERNIZATION_GOLD"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_FORCE_MODERNIZATION"/>
-		-->
 	</TraitModifiers>
 	<Modifiers>
 		<Row>

@@ -96,8 +96,8 @@
 		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO" Cost="540"/></Update>
 		<Row BuildingType="BUILDING_VISITOR_CENTER" Name="LOC_BUILDING_VISITOR_CENTER_NAME" Description="LOC_BUILDING_VISITOR_CENTER_DESCRIPTION" PrereqTech="TECH_ADVANCED_FLIGHT" PrereqDistrict="DISTRICT_AERODROME" PurchaseYield="YIELD_GOLD" Cost="650" AdvisorType="ADVISOR_CULTURE" Maintenance="3"/>
 		<!--Neighborhood-->
-		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Cost="300"/></Update>
-		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" Cost="430"/></Update>
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Cost="300" Housing="3"/></Update>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" Housing="3" Cost="430"/></Update>
 		<!--Dam-->
 		<Update><Where BuildingType="BUILDING_HYDROELECTRIC_DAM" /><Set Cost="430"/></Update>
 		<!--Goverment Plaza and Diplomatic Quarter-->
