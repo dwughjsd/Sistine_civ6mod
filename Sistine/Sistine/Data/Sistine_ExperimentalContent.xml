@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Types>
+		<Delete Type="PROJECT_TERRESTRIAL_LASER" Kind="KIND_PROJECT" />
+	</Types>
 	<Projects>
-		<!--Lower its index so that AI will prefer using power to send their rockets-->
-		<Replace ProjectType="PROJECT_ORBITAL_LASER" Name="LOC_PROJECT_ORBITAL_LASER_NAME" ShortName="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME" Description="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION" PopupText="LOC_PROJECT_ORBITAL_LASER_POPUP" PrereqDistrict="DISTRICT_SPACEPORT" PrereqTech="TECH_OFFWORLD_MISSION" Cost="600" AdvisorType="ADVISOR_TECHNOLOGY" SpaceRace="true" VisualBuildingType="BUILDING_SMALL_ROCKET"/>
+		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER"/>
+		<Update><Where ProjectType="PROJECT_ORBITAL_LASER" /><Set Name="LOC_PROJECT_ORBITAL_LASER_NAME" ShortName="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME" Description="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION" PopupText="LOC_PROJECT_ORBITAL_LASER_POPUP" PrereqDistrict="DISTRICT_SPACEPORT" PrereqTech="TECH_SMART_MATERIALS" Cost="1200" AdvisorType="ADVISOR_TECHNOLOGY" SpaceRace="true" VisualBuildingType="BUILDING_MEDIUM_ROCKET" MaxPlayerInstances="5"/></Update>
+		<Update><Where ProjectType="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" /><Set PrereqTech="TECH_OFFWORLD_MISSION" /></Update>
 	</Projects>
+	<ProjectPrereqs>
+		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER"/>
+		<Update><Where ProjectType="PROJECT_ORBITAL_LASER" /><Set PrereqProjectType="PROJECT_LAUNCH_MARS_BASE"/></Update>
+	</ProjectPrereqs>
+	<Project_ResourceCosts>
+		<Delete ProjectType="PROJECT_ORBITAL_LASER" />
+	</Project_ResourceCosts>
+	<ProjectCompletionModifiers>
+		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER" ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_SCIENCE_VP" />
+		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER" ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_REQUIRED_POWER" />
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_SCIENCE_VP" />
+		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_REQUIRED_POWER" />
+		<Update><Where ModifierId="PROJECT_COMPLETION_ORBITAL_LASER_SCIENCE_VP" /><Set SubjectRequirementSetId="ISS_SPACESHIP_SPEED_REQUIREMENTS"/></Update>
+	</Modifiers>
+	<ModifierArguments>
+		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_SCIENCE_VP" />
+		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_REQUIRED_POWER" />
+	</ModifierArguments>
 </GameData>
