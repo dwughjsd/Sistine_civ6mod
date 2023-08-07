@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+    <!-- slots -->
+    <Government_SlotCounts>
+        <Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_MILITARY"/>
+			<Set NumSlots="2" />
+		</Update>
+        <Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_ECONOMIC"/>
+			<Set NumSlots="2" />
+		</Update>
+         <Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+			<Set NumSlots="2" />
+		</Update>
+         <Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="2" />
+		</Update>
+        
+        <Update>
+			<Where GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_MILITARY"/>
+			<Set NumSlots="3" />
+		</Update>
+        <Update>
+			<Where GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_ECONOMIC"/>
+			<Set NumSlots="2" />
+		</Update>
+
+        <Update>
+			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_MILITARY"/>
+			<Set NumSlots="2" />
+		</Update>
+         <Update>
+			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+			<Set NumSlots="2" />
+		</Update>
+
+        <Update>
+			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_ECONOMIC"/>
+			<Set NumSlots="2" />
+		</Update>
+         <Update>
+			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+			<Set NumSlots="2" />
+		</Update>
+
+        <Update>
+			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_MILITARY"/>
+			<Set NumSlots="2" />
+		</Update>
+         <Update>
+			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_ECONOMIC"/>
+			<Set NumSlots="2" />
+		</Update>
+	</Government_SlotCounts>
+	<GovernmentModifiers>
+		<!--AUTOCRACY-->
+		<Delete GovernmentType="GOVERNMENT_AUTOCRACY" 
+				ModifierId="AUTOCRACY_CAPITAL"
+				/>
+		<Delete GovernmentType="GOVERNMENT_AUTOCRACY" 
+				ModifierId="AUTOCRACY_TIER1"
+				/>
+		<Delete GovernmentType="GOVERNMENT_AUTOCRACY" 
+				ModifierId="AUTOCRACY_TIER2"
+				/>
+		<Delete GovernmentType="GOVERNMENT_AUTOCRACY" 
+				ModifierId="AUTOCRACY_TIER3"
+				/>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY" 
+			 ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
+			 />
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY" 
+			 ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
+			 />
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY" 
+			 ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
+			 />
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY"
+			 ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
+			 />
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY"
+			 ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
+			 />
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY"
+			 ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
+			 />
+		<!--CLASSICAL_REPUBLIC-->
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC"
+			 ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
+			 />
+		<!--OLIGARCHY-->
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY"
+			 ModifierId="UNIQUE_LEADER_CULTURE_KILLS"
+			 />
+	</GovernmentModifiers>
+
+	<Modifiers>
+		<!--AUTOCRACY-->
+		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST" 
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" 
+			 SubjectRequirementSetId="BUILDING_IS_PALACE"
+			 />
+		<Row ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST" 
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" 
+			 SubjectRequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST" 
+			 />
+		<Row ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST" 
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" 
+			 SubjectRequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
+			 />
+		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
+			 SubjectRequirementSetId="BUILDING_IS_PALACE"
+			 />
+		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
+			 SubjectRequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST"
+			 />
+		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
+			 SubjectRequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
+			 />
+		<!--CLASSICAL_REPUBLIC-->
+		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" 
+			 SubjectRequirementSetId="CITY_HAS_1_SPECIALTY_DISTRICT"
+			 />
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--AUTOCRACY-->
+		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
+			 Name="YieldType"
+			 Value="YIELD_CULTURE"
+			 />
+		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
+			 Name="Amount"
+			 Value="3"
+			 />
+		<Row ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
+			 Name="YieldType"
+			 Value="YIELD_CULTURE"
+			 />
+		<Row ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
+			 Name="Amount"
+			 Value="3"
+			 />
+		<Row ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
+			 Name="YieldType"
+			 Value="YIELD_CULTURE"
+			 />
+		<Row ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
+			 Name="Amount"
+			 Value="3"
+			 />
+
+		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
+			 Name="YieldType"
+			 Value="YIELD_GOLD"
+			 />
+		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
+			 Name="Amount"
+			 Value="2"
+			 />
+		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
+			 Name="YieldType"
+			 Value="YIELD_GOLD"
+			 />
+		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
+			 Name="Amount"
+			 Value="2"
+			 />
+		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
+			 Name="YieldType"
+			 Value="YIELD_GOLD"
+			 />
+		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
+			 Name="Amount"
+			 Value="2"
+			 />
+		<!--CLASSICAL_REPUBLIC-->
+		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
+			 Name="YieldType"
+			 Value="YIELD_CULTURE"
+			 />
+		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
+			 Name="Amount"
+			 Value="1"
+			 />
+		<!--OLIGARCHY-->
+		<Update>
+			<Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="Amount"/>
+			<Set Value="25" />
+		</Update>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST"
+			 RequirementSetType="REQUIREMENTSET_TEST_ALL"	
+			 />
+		<Row RequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
+			 RequirementSetType="REQUIREMENTSET_TEST_ALL"
+			 />
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST"
+			 RequirementId="CITY_HAS_DISTRICT_GOVERNMENT_SST_REQUIREMENT"	
+			 />
+		<Row RequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
+			 RequirementId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST_REQUIREMENT"
+			 />
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="CITY_HAS_DISTRICT_GOVERNMENT_SST_REQUIREMENT"
+			 RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"	
+			 />
+		<Row RequirementId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST_REQUIREMENT"
+			 RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"
+			 />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="CITY_HAS_DISTRICT_GOVERNMENT_SST_REQUIREMENT"
+			 Name="DistrictType"
+			 Value="DISTRICT_GOVERNMENT"
+		/>
+		<Row RequirementId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST_REQUIREMENT"
+			 Name="DistrictType"
+			 Value="DISTRICT_DIPLOMATIC_QUARTER"
+		/>
+	</RequirementArguments>
+</GameInfo>
