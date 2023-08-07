@@ -244,8 +244,12 @@
 		<Row ListType="ScienceVictoryYields" Item="YIELD_FAITH" Value="-75"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
+		<Delete ListType="ScienceVictoryProjects"/>
+		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EARTH_SATELLITE" Favored="true"/>
+		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MOON_LANDING" Favored="true"/>
+		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MARS_BASE" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
-		<Replace ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" Favored="true"/>
+		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" Favored="true"/>
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies-->
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" Value="20"/>
