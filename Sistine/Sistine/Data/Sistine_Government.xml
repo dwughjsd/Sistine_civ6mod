@@ -209,7 +209,39 @@
 		<Delete GovernmentType="GOVERNMENT_FASCISM"
 				ModifierId="FASCISM_WAR_WEARINESS"
 				/>
-		
+		<!--CORPORATE_LIBERTARIANISM-->
+		<Delete GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"
+				ModifierId="CORPORATE_LIBERTARIANISM_SCIENCE_PENALTY"
+				/>
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"
+			 ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_GOLD_SST"
+			 />
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"
+			 ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_GOLD_SST"
+			 />
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"
+			 ModifierId="CORPORATE_LIBERTARIANISM_CAPTURE_CITY_ALWAYS_LOYAL_SST"
+			 />
+		<!--SYNTHETIC_TECHNOCRACY-->
+		<Delete GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY"
+				ModifierId="SYNTHETIC_TECHNOCRACY_TOURISM_PENALTY"
+				/>
+		<Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY"
+			 ModifierId="SYNTHETIC_TECHNOCRACY_SCIENCE_VICTORY_POINT_SST"
+			 />
+		<!--DIGITAL_DEMOCRACY-->
+		<Delete GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"
+				ModifierId="DIGITAL_DEMOCRACY_COMBAT_STRENGTH_PENALTY"
+				/>
+		<Delete GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"
+				ModifierId="DIGITAL_DEMOCRACY_DISTRICT_CULTURE"
+				/>
+		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"
+			 ModifierId="DIGITAL_DEMOCRACY_DISTRICT_TOURISM_SST"
+			 />
+		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"
+			 ModifierId="DIGITAL_DEMOCRACY_ROCK_BAND_40_OFF_SST"
+			 />
 	</GovernmentModifiers>
 
 	<Modifiers>
@@ -321,6 +353,32 @@
 		
 		<Row ModifierId="FASCISM_MOVEMENT_SST"
 			 ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT"
+			 />
+		<!--CORPORATE_LIBERTARIANISM-->
+		<Row ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_GOLD_SST"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
+			 SubjectRequirementSetId="CITY_HAS_COMMERCIAL_HUB"
+			 />
+		<Row ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_GOLD_SST"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
+			 SubjectRequirementSetId="CITY_HAS_ENCAMPMENT"
+			 />
+		<Row ModifierId="CORPORATE_LIBERTARIANISM_CAPTURE_CITY_ALWAYS_LOYAL_SST"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_ALWAYS_LOYAL"
+			 SubjectRequirementSetId="CITY_NOT_FOUNDED"
+			 />
+		
+		<!--SYNTHETIC_TECHNOCRACY-->
+		<Row ModifierId="SYNTHETIC_TECHNOCRACY_SCIENCE_VICTORY_POINT_SST"
+			 ModifierType="MODIFIER_PLAYER_ADJUST_SCIENCE_VICTORY_POINTS_PER_TURN"
+			 SubjectRequirementSetId="TECHNOLOGY_VICTORY_EXOPLANET_EXPEDITION_HAS_COMPLETED_SST"
+			 />
+		<!--DIGITAL_DEMOCRACY-->
+		<Row ModifierId="DIGITAL_DEMOCRACY_DISTRICT_TOURISM_SST"
+			 ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE"
+			 />
+		<Row ModifierId="DIGITAL_DEMOCRACY_ROCK_BAND_40_OFF_SST"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"
 			 />
 		
 	</Modifiers>
@@ -532,6 +590,70 @@
 			 Name="Amount"
 			 Value="1"
 			 />
+		<!--CORPORATE_LIBERTARIANISM-->
+		<Row ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_GOLD_SST"
+			 Name="YieldType"
+			 Value="YIELD_GOLD"
+			 />
+		<Row ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_GOLD_SST"
+			 Name="Amount"
+			 Value="20"
+			 />
+		<Row ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_GOLD_SST"
+			 Name="YieldType"
+			 Value="YIELD_GOLD"
+			 />
+		<Row ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_GOLD_SST"
+			 Name="Amount"
+			 Value="20"
+			 />
+		<Update>
+			<Where ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_PRODUCTION" Name="Amount"/>
+			<Set Value="20" />
+		</Update>
+		<Update>
+			<Where ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_PRODUCTION" Name="Amount"/>
+			<Set Value="20" />
+		</Update>
+		<Update>
+			<Where ModifierId="CORPORATE_LIBERTARIANISM_RESOURCE_EXTRACTION" Name="Amount"/>
+			<Set Value="3" />
+		</Update>
+		<Row ModifierId="CORPORATE_LIBERTARIANISM_CAPTURE_CITY_ALWAYS_LOYAL_SST"
+			 Name="AlwaysLoyal"
+			 Value="true"
+			 />
+		<!--SYNTHETIC_TECHNOCRACY-->
+		<Update>
+			<Where ModifierId="SYNTHETIC_TECHNOCRACY_CITY_POWER" Name="Amount"/>
+			<Set Value="6" />
+		</Update>
+		<Update>
+			<Where ModifierId="SYNTHETIC_TECHNOCRACY_CITY_PROJECT_PRODUCTION" Name="Amount"/>
+			<Set Value="40" />
+		</Update>
+		<Row ModifierId="SYNTHETIC_TECHNOCRACY_SCIENCE_VICTORY_POINT_SST"
+			 Name="Amount"
+			 Value="2"
+			 />
+		<!--DIGITAL_DEMOCRACY-->
+		<Update>
+			<Where ModifierId="DIGITAL_DEMOCRACY_CITY_AMENITIES" Name="Amount"/>
+			<Set Value="3" />
+		</Update>
+		<Row ModifierId="DIGITAL_DEMOCRACY_DISTRICT_TOURISM_SST"
+			 Name="Amount"
+			 Value="10"
+			 />
+		<Row ModifierId="DIGITAL_DEMOCRACY_ROCK_BAND_40_OFF_SST"
+			 Name="UnitType"
+			 Value="UNIT_ROCK_BAND"
+			 />
+		<Row ModifierId="DIGITAL_DEMOCRACY_ROCK_BAND_40_OFF_SST"
+			 Name="Amount"
+			 Value="-40"
+			 />
+		
 	</ModifierArguments>
 
 	<RequirementSets>
@@ -541,7 +663,10 @@
 		<Row RequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
 			 RequirementSetType="REQUIREMENTSET_TEST_ALL"
 			 />
-
+		<Row>
+			<RequirementSetId>TECHNOLOGY_VICTORY_EXOPLANET_EXPEDITION_HAS_COMPLETED_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST"
@@ -550,6 +675,10 @@
 		<Row RequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
 			 RequirementId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST_REQUIREMENT"
 			 />
+		<Row>
+			<RequirementSetId>TECHNOLOGY_VICTORY_EXOPLANET_EXPEDITION_HAS_COMPLETED_SST</RequirementSetId>
+			<RequirementId>TECHNOLOGY_VICTORY_EXOPLANET_EXPEDITION</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row RequirementId="CITY_HAS_DISTRICT_GOVERNMENT_SST_REQUIREMENT"
