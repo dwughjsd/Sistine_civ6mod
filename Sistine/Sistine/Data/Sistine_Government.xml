@@ -556,6 +556,10 @@
 			 Name="Amount"
 			 Value="2"
 			 />
+		<Update>
+			<Where ModifierId="DEMOCRACY_ALLIANCEPOINTS" Name="Amount"/>
+			<Set Value="4" />
+		</Update>
 		<!--COMMUNISM-->
 		<Row ModifierId="COMMUNISM_PRODUCTION_SST"
 			 Name="YieldType"
