@@ -80,20 +80,27 @@
 		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
 			<Text>在拥有外交办或发电厂的城市中建造奇观、建筑和区域时+1 [ICON_Production] 生产力。如城市同时拥有外交办和发电厂，则+2 [ICON_Production] 生产力。</Text>
 		</Replace>
+		<!--Beliefs-->
 		<Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>魅力为迷人或惊艳的单元格提供的 [ICON_Faith] 信仰值+1。</Text>
+			<Text>迷人单元格提供的 [ICON_Faith] 信仰值+1，惊艳单元格额外+1。位于迷人或惊艳单元格上的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
 		</Replace>
+		<Replace Tag="LOC_BELIEF_GOD_OF_HEALING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在您的圣地区域、市中心以及与其相邻的单元格上，单位每回合多回复 +30 生命值。</Text>
+		  </Replace>
 		<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>选择后在首都中获得1个建造者，城市人口增长速度提升25%。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>改良后的战略资源提供的 [ICON_Production] 生产力和 [ICON_Faith] 信仰值+1。改良了 [ICON_RESOURCE_HORSES] 马或 [ICON_RESOURCE_IRON] 铁的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建造远古和古典奇观时+20% [ICON_Production] 生产力。若城市有已改良的 [ICON_Resource_Marble] 大理石，此加成翻倍。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>采集奢侈资源和加成资源的矿山+1 [ICON_Culture] 文化值、+1 [ICON_Faith] 信仰值。</Text>
+			<Text>采集奢侈资源和加成资源的矿山+1 [ICON_Culture] 文化值、+1 [ICON_Faith] 信仰值。改良了 [ICON_RESOURCE_COPPER] 铜、 [ICON_RESOURCE_SILVER] 银或 [ICON_RESOURCE_JADE] 玉的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>采石场+1 [ICON_Production] 生产力、+1 [ICON_Faith] 信仰值。</Text>
+			<Text>采石场+1 [ICON_Production] 生产力、+1 [ICON_Faith] 信仰值。改良了 [ICON_RESOURCE_STONE] 石头、 [ICON_RESOURCE_GYPSUM] 石膏或 [ICON_RESOURCE_MARBLE] 大理石的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_DIVINE_SPARK_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>从以下区域获得+1 [ICON_GreatPerson] 伟人点数：圣地（大预言家）、学院（大科学家）、剧院广场（大作家）。</Text>
@@ -101,6 +108,7 @@
 		<Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>地热裂缝和火山土提供+1 [ICON_Production] 生产力、+1 [ICON_Science] 科技值。</Text>
 		</Replace>
+		<!--Space Race Projects-->
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>太空竞赛项目，使您发射的系外行星探索飞船提速1光年每回合，加快您的科技胜利速度。一位玩家最多可完成5次。</Text>
 		</Replace>

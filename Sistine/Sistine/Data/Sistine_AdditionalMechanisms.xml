@@ -269,10 +269,27 @@
 		<Row BeliefType="BELIEF_GODDESS_OF_FIRE">
 			<ModifierId>GODDESS_OF_FIRE_FEATURES_SCIENCE</ModifierId>
 		</Row>
-		<Delete ModifierId="GODDESS_OF_FIRE_FEATURES_FAITH"/>	
+		<Delete ModifierId="GODDESS_OF_FIRE_FEATURES_FAITH"/>
+		<!--Modifiers for Great Prophet points-->
+		<Row BeliefType="BELIEF_EARTH_GODDESS">
+			<ModifierId>EARTH_GODDESS_BREATHTAKING_FAITH</ModifierId>
+		</Row>
+		<Row BeliefType="BELIEF_EARTH_GODDESS">
+			<ModifierId>EARTH_GODDESS_APPEAL_GREAT_PROPHET</ModifierId>
+		</Row>
+		<Row BeliefType="BELIEF_GOD_OF_CRAFTSMEN">
+			<ModifierId>GOD_OF_CRAFTSMEN_GREAT_PROPHET</ModifierId>
+		</Row>
+		<Row BeliefType="BELIEF_RELIGIOUS_IDOLS">
+			<ModifierId>RELIGIOUS_IDOLS_GREAT_PROPHET</ModifierId>
+		</Row>
+		<Row BeliefType="BELIEF_STONE_CIRCLES">
+			<ModifierId>STONE_CIRCLES_GREAT_PROPHET</ModifierId>
+		</Row>
 	</BeliefModifiers>
 	<Modifiers>
 		<Update><Where ModifierId="EARTH_GODDESS_APPEAL_FAITH_MODIFIER" /><Set SubjectRequirementSetId="PLOT_CHARMING_APPEAL"/></Update>
+		<Update><Where ModifierId="GOD_OF_HEALING_UNIT_HEALING_MODIFIER" /><Set SubjectRequirementSetId="PLOT_ADJACENT_INCLUDE_HOLY_SITE_OR_CITY_CENTER"/></Update>
 		<Update><Where ModifierId="DIVINE_SPARK_SCIENTIST_MODIFIER" /><Set ModifierType="MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="DISTRICT_IS_CAMPUS"/></Update>
 		<Update><Where ModifierId="DIVINE_SPARK_WRITER_MODIFIER" /><Set ModifierType="MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS" SubjectRequirementSetId="DISTRICT_IS_THEATER"/></Update>
 		<Row>
@@ -337,6 +354,56 @@
 		</Row>
 		<Delete ModifierId="GODDESS_OF_FIRE_FEATURES_FAITH"/>
 		<Delete ModifierId="GODDESS_OF_FIRE_FEATURES_FAITH_MODIFIER"/>
+		<Row>
+			<ModifierId>EARTH_GODDESS_BREATHTAKING_FAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>EARTH_GODDESS_BREATHTAKING_FAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_BREATHTAKING_APPEAL</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>EARTH_GODDESS_APPEAL_GREAT_PROPHET</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>EARTH_GODDESS_APPEAL_GREAT_PROPHET_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>PLOT_CHARMING_APPEAL</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOD_OF_CRAFTSMEN_GREAT_PROPHET</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOD_OF_CRAFTSMEN_GREAT_PROPHET_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>CITY_HAS_IMPROVED_HORSES_IRON</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_GREAT_PROPHET</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_GREAT_PROPHET_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>CITY_HAS_IMPROVED_COPPER_SILVER_JADE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STONE_CIRCLES_GREAT_PROPHET</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STONE_CIRCLES_GREAT_PROPHET_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>CITY_HAS_IMPROVED_STONE_GYPSUM_MARBLE</OwnerRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Update><Where ModifierId="FERTILITY_RITES_GROWTH" Name="Amount"/><Set Value="25"/></Update>
@@ -444,30 +511,216 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>EARTH_GODDESS_BREATHTAKING_FAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>EARTH_GODDESS_BREATHTAKING_FAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>EARTH_GODDESS_BREATHTAKING_FAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>EARTH_GODDESS_BREATHTAKING_FAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>EARTH_GODDESS_APPEAL_GREAT_PROPHET</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>EARTH_GODDESS_APPEAL_GREAT_PROPHET_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>EARTH_GODDESS_APPEAL_GREAT_PROPHET_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>EARTH_GODDESS_APPEAL_GREAT_PROPHET_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOD_OF_CRAFTSMEN_GREAT_PROPHET</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOD_OF_CRAFTSMEN_GREAT_PROPHET_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOD_OF_CRAFTSMEN_GREAT_PROPHET_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOD_OF_CRAFTSMEN_GREAT_PROPHET_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_GREAT_PROPHET</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>RELIGIOUS_IDOLS_GREAT_PROPHET_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_GREAT_PROPHET_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUS_IDOLS_GREAT_PROPHET_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONE_CIRCLES_GREAT_PROPHET</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>STONE_CIRCLES_GREAT_PROPHET_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONE_CIRCLES_GREAT_PROPHET_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONE_CIRCLES_GREAT_PROPHET_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_INCLUDE_HOLY_SITE_OR_CITY_CENTER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
 		<Row>
 			<RequirementSetId>CITY_HAS_IMPROVED_MARBLE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_COPPER_SILVER_JADE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_STONE_GYPSUM_MARBLE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_HORSES_IRON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_INCLUDE_HOLY_SITE_OR_CITY_CENTER</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_HOLY_SITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_INCLUDE_HOLY_SITE_OR_CITY_CENTER</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_INCLUDE_CITY_CENTER</RequirementId>
+		</Row>
 		<Row>
 			<RequirementSetId>CITY_HAS_IMPROVED_MARBLE</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_MARBLE</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_COPPER_SILVER_JADE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_COPPER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_COPPER_SILVER_JADE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_SILVER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_COPPER_SILVER_JADE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_JADE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_STONE_GYPSUM_MARBLE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_STONE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_STONE_GYPSUM_MARBLE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_GYPSUM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_STONE_GYPSUM_MARBLE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_MARBLE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_HORSES_IRON</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_HORSES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_IMPROVED_HORSES_IRON</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_IRON</RequirementId>
+		</Row>		
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_INCLUDE_CITY_CENTER</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_MARBLE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_COPPER</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_SILVER</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_JADE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_STONE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_GYPSUM</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_INCLUDE_CITY_CENTER</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_INCLUDE_CITY_CENTER</RequirementId>
+			<Name>MinRange</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_MARBLE</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_MARBLE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_COPPER</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COPPER</Value>
+		</Row>		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_SILVER</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SILVER</Value>
+		</Row>		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_JADE</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_JADE</Value>
+		</Row>		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_STONE</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_STONE</Value>
+		</Row>		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_GYPSUM</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_GYPSUM</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>
