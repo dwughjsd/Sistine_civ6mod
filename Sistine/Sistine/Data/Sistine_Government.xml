@@ -416,7 +416,7 @@
 			 />
 		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
 			 Name="Amount"
-			 Value="2"
+			 Value="1"
 			 />
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
 			 Name="YieldType"
@@ -424,7 +424,7 @@
 			 />
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
 			 Name="Amount"
-			 Value="2"
+			 Value="1"
 			 />
 		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
 			 Name="YieldType"
@@ -432,7 +432,7 @@
 			 />
 		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
 			 Name="Amount"
-			 Value="2"
+			 Value="1"
 			 />
 		<!--CLASSICAL_REPUBLIC-->
 		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"

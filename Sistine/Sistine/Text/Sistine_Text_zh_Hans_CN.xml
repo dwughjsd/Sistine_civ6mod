@@ -114,7 +114,7 @@
 		</Replace>
 		<!--Policies-->
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="zh_Hans_CN">
-			<Text>宫殿、市政广场和外交区提供+3 [ICON_Culture] 文化及每 [ICON_Citizen] 人口2 [ICON_Gold] 金币。</Text>
+			<Text>宫殿、市政广场和外交区提供+3 [ICON_Culture] 文化及每 [ICON_Citizen] 人口1 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST" Language="zh_Hans_CN">
 			<Text>建设奇观时+10% [ICON_Production] 生产力。</Text>
