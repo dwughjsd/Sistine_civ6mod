@@ -711,4 +711,304 @@
 			 ModifierId="IGNOREZOC_IGNORE_ZOC"
 		/>
 	</UnitAbilityModifiers>
+	<UnitAbilities>
+		<Update>
+			<Where UnitAbilityType="ABILITY_FASCISM_ATTACK_BUFF" />
+			<Set Description="LOC_ABILITY_FASCISM_ATTACK_DESCRIPTION_SST"/>
+		</Update>
+	</UnitAbilities>
+	<PolicyModifiers>
+		<!--AUTOCRACY-->
+		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
+				ModifierId="AUTOCRACY_CAPITAL"
+				/>
+		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
+				ModifierId="AUTOCRACY_TIER1"
+				/>
+		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
+				ModifierId="AUTOCRACY_TIER2"
+				/>
+		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
+				ModifierId="AUTOCRACY_TIER3"
+				/>
+		<Row PolicyType="POLICY_GOV_AUTOCRACY"
+			 ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_AUTOCRACY"
+			 ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_AUTOCRACY"
+			 ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_AUTOCRACY"
+			 ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_AUTOCRACY"
+			 ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_AUTOCRACY"
+			 ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
+			 />
+		<!--CLASSICAL_REPUBLIC-->
+		<Row PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC"
+			 ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
+			 />
+		<!--OLIGARCHY-->
+		<Row PolicyType="POLICY_GOV_OLIGARCHY"
+			 ModifierId="UNIQUE_LEADER_CULTURE_KILLS"
+			 />
+		<!--MONARCHY-->
+		<Delete PolicyType="POLICY_GOV_MONARCHY"
+				ModifierId="MONARCHY_WALLS_HOUSING"
+				/>
+		<Delete PolicyType="POLICY_GOV_MONARCHY"
+				ModifierId="MONARCHY_CASTLE_HOUSING"
+				/>
+		<Delete PolicyType="POLICY_GOV_MONARCHY"
+				ModifierId="MONARCHY_STARFORT_HOUSING"
+				/>
+		<Delete PolicyType="POLICY_GOV_MONARCHY"
+				ModifierId="MONARCHY_STARFORT_FAVOR"
+				/>
+		<Delete PolicyType="POLICY_GOV_MONARCHY"
+				ModifierId="MONARCHY_ENVOYS"
+				/>
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_FAITH_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_GOLD_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_CULTURE_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONUNITS_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONBUILDINGS_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONDISTRICTS_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			 ModifierId="GOVERNMENT_MONARCHY_GOVERNER_PRODUCTION_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			 ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
+			 />
+		<!--THEOCRACY-->
+		<Row PolicyType="POLICY_GOV_THEOCRACY"
+			 ModifierId="WARS_OF_RELIGION_COMBAT"
+			 />
+		<!--MERCHANT_REPUBLIC-->
+		<Delete PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
+				ModifierId="MERCHANT_REPUBLIC_GOLD_MODIFIER"
+				/>
+		<Delete PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
+				ModifierId="MERCHANT_REPUBLIC_DISTRICTS"
+				/>
+		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
+			 ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
+			 ModifierId="MERCHANT_REPUBLIC_HARBOR_GOLD_TO_PRODUCTION_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
+			 ModifierId="MERCHANT_REPUBLIC_COMMERCIAL_HUB_GOLD_TO_PRODUCTION_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
+			 ModifierId="MERCHANT_REPUBLIC_ATTACH_TRADE_ROUTE_BONUS_SST"
+			 />
+		<!--DEMOCRACY-->
+		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
+				ModifierId="DEMOCRACY_TRADEROUTEFOODTOALLY"
+				/>
+		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
+				ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONTOALLY"
+				/>
+		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
+				ModifierId="DEMOCRACY_TRADEROUTEFOODFROMALLY"
+				/>
+		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
+				ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY"
+				/>
+		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
+				ModifierId="DEMOCRACY_TRADEROUTEFOODTOSUZERAIN"
+				/>
+		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
+				ModifierId="DEMOCRACY_TRADEROUTEFOODFROMSUZERAIN"
+				/>
+		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
+				ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN"
+				/>
+		<Row PolicyType="POLICY_GOV_DEMOCRACY"
+			 ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_CULTURE_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_DEMOCRACY"
+			 ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_GOLD_SST"
+			 />
+		<!--COMMUNISM-->
+		<Delete PolicyType="POLICY_GOV_COMMUNISM"
+				ModifierId="COMMUNISM_SCIENCE"
+				/>
+		<Delete PolicyType="POLICY_GOV_COMMUNISM"
+				ModifierId="COMMUNISM_PRODUCTIVE_PEOPLE"
+				/>
+		<Row PolicyType="POLICY_GOV_COMMUNISM"
+			 ModifierId="COMMUNISM_PRODUCTION_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_COMMUNISM"
+			 ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
+			 />
+		<Row PolicyType="POLICY_GOV_COMMUNISM"
+			 ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
+			 />
+		<!--FASCISM-->
+		<Delete PolicyType="POLICY_GOV_FASCISM"
+				ModifierId="FASCISM_WAR_WEARINESS"
+				/>
+	</PolicyModifiers>
+	
+	<Policies>
+		<Update>
+			<Where PolicyType="POLICY_GOV_AUTOCRACY" />
+			<Set Description="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_GOV_OLIGARCHY" />
+			<Set Description="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC" />
+			<Set Description="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_GOV_MONARCHY" />
+			<Set Description="LOC_GOVT_INHERENT_BONUS_MONARCHY_SST"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_GOV_THEOCRACY" />
+			<Set Description="LOC_GOVT_INHERENT_BONUS_THEOCRACY_SST"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_GOV_MERCHANT_REPUBLIC" />
+			<Set Description="LOC_GOVT_INHERENT_BONUS_MERCHREP_SST"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_GOV_FASCISM" />
+			<Set Description="LOC_GOVT_INHERENT_BONUS_FASCISM_SST"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_GOV_COMMUNISM" />
+			<Set Description="LOC_GOVT_INHERENT_BONUS_COMMUNISM_SST"/>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_GOV_DEMOCRACY" />
+			<Set Description="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST"/>
+		</Update>
+	</Policies>
+	<Governments>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_AUTOCRACY" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_OLIGARCHY" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_MONARCHY" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MONARCHY_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_THEOCRACY" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_THEOCRACY_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MERCHREP_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_FASCISM" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_FASCISM_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_COMMUNISM_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_COMMUNISM_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_DEMOCRACY" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_CORPORATE_LIBERTARIANISM_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_DIGITAL_DEMOCRACY_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY_SST"
+				 />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" />
+			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_SYNTHETIC_TECHNOCRACY_SST"
+				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST"
+				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST"
+				 />
+		</Update>	
+	</Governments>
+	
+	<ModifierStrings>
+		<Update>
+			<Where ModifierId="FASCISM_ATTACK_BUFF" />
+			<Set Text="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" />
+		</Update>
+	</ModifierStrings>
 </GameInfo>
