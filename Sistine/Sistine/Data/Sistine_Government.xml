@@ -917,6 +917,7 @@
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST"
 				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST"
 				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST"
+				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
 				 />
 		</Update>
 		<Update>
@@ -924,6 +925,7 @@
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST"
 				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST"
 				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST"
+				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
 				 />
 		</Update>
 		<Update>
@@ -931,6 +933,7 @@
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST"
 				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_SST"
 				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_SST"
+				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
 				 />
 		</Update>
 		<Update>
@@ -938,6 +941,7 @@
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MONARCHY_SST"
 				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST"
 				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST"
+				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
 				 />
 		</Update>
 		<Update>
@@ -945,6 +949,7 @@
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_THEOCRACY_SST"
 				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_SST"
 				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_SST"
+				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
 				 />
 		</Update>
 		<Update>
@@ -952,6 +957,7 @@
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MERCHREP_SST"
 				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST"
 				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST"
+				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
 				 />
 		</Update>
 		<Update>
@@ -959,6 +965,7 @@
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_FASCISM_SST"
 				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST"
 				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST"
+				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
 				 />
 		</Update>
 		<Update>
@@ -966,20 +973,16 @@
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_COMMUNISM_SST"
 				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
 				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
+				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
 				 />
 		</Update>
-		<Update>
-			<Where GovernmentType="GOVERNMENT_COMMUNISM" />
-			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_COMMUNISM_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
-				 />
-		</Update>
+		
 		<Update>
 			<Where GovernmentType="GOVERNMENT_DEMOCRACY" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST"
 				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_SST"
 				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_SST"
+				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
 				 />
 		</Update>
 		<Update>
