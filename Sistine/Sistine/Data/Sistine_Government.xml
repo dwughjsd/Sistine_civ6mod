@@ -247,8 +247,7 @@
 	<Modifiers>
 		<!--AUTOCRACY-->
 		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST" 
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" 
-			 SubjectRequirementSetId="BUILDING_IS_PALACE"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE" 
 			 />
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST" 
 			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" 
@@ -343,8 +342,11 @@
 			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
 			 />
 		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
 			 SubjectRequirementSetId="BUILDING_IS_FACTORY"
+			 />
+		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
+			 ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER"
 			 />
 		<Row ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
 			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION"
@@ -385,6 +387,10 @@
 
 	<ModifierArguments>
 		<!--AUTOCRACY-->
+		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
+			 Name="BuildingType"
+			 Value="BUILDING_PALACE"
+			 />
 		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
 			 Name="YieldType"
 			 Value="YIELD_CULTURE"
@@ -569,13 +575,17 @@
 			 Name="Amount"
 			 Value="15"
 			 />
-		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
+		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
 			 Name="YieldType"
 			 Value="YIELD_SCIENCE"
 			 />
-		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
+		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
 			 Name="Amount"
 			 Value="25"
+			 />
+		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
+			 Name="ModifierId"
+			 Value="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
 			 />
 		<Row ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
 			 Name="DistrictType"
@@ -1014,4 +1024,13 @@
 			<Set Text="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" />
 		</Update>
 	</ModifierStrings>
+
+	<Policy_GovernmentExclusives_XP2>
+		<Delete PolicyType="POLICY_FINEST_HOUR" GovernmentType="GOVERNMENT_DEMOCRACY"/>
+		<Delete PolicyType="POLICY_NEW_DEAL" GovernmentType="GOVERNMENT_DEMOCRACY"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" GovernmentType="GOVERNMENT_FASCISM"/>
+		<Delete PolicyType="POLICY_MARTIAL_LAW" GovernmentType="GOVERNMENT_FASCISM"/>
+		<Delete PolicyType="POLICY_COLLECTIVIZATION" GovernmentType="GOVERNMENT_COMMUNISM"/>
+		<Delete PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" GovernmentType="GOVERNMENT_COMMUNISM"/>
+	</Policy_GovernmentExclusives_XP2>
 </GameInfo>
