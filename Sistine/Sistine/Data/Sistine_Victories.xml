@@ -124,6 +124,7 @@
 		<Row ListType="DefaultFavorBuildings"/>
 		<Row ListType="ScienceVictoryBuildings"/>
 		<Row ListType="CultureVictoryBuildings"/>
+		<Row ListType="CultureVictoryDistricts"/>
 		<Row ListType="ReligiousVictoryBuildings"/>
 		<Row ListType="MilitaryVictoryBuildings"/>		
 	</AiListTypes>
