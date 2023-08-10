@@ -449,4 +449,61 @@
 		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="3" YieldType="YIELD_GOLD" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_VIVARIUM"/>
 	</Adjacent_AppealYieldChanges>
 
+	<!--Wonders-->
+	<Buildings>
+		<Update><Where BuildingType="BUILDING_STONEHENGE" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_HANGING_GARDENS" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_TEMPLE_ARTEMIS" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_BATH" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_PYRAMIDS" /><Set Cost="160"/></Update>
+		<Update><Where BuildingType="BUILDING_ETEMENANKI" /><Set Cost="160"/></Update>
+		<Update><Where BuildingType="BUILDING_ORACLE" /><Set Cost="210"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_LIGHTHOUSE" /><Set Cost="210"/></Update>
+		<Update><Where BuildingType="BUILDING_COLOSSUS" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_PETRA" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_COLOSSEUM" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_LIBRARY" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_MAHABODHI_TEMPLE" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_TERRACOTTA_ARMY" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_JEBEL_BARKAL" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_APADANA" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_HALICARNASSUS_MAUSOLEUM" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_MACHU_PICCHU" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_STATUE_OF_ZEUS" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_HAGIA_SOPHIA" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_ALHAMBRA" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_CHICHEN_ITZA" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_MONT_ST_MICHEL" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_HUEY_TEOCALLI" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_ANGKOR_WAT" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_KILWA_KISIWANI" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_KOTOKU_IN" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_MEENAKSHI_TEMPLE" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY_SANKORE" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_VENETIAN_ARSENAL" /><Set Cost="500"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_ZIMBABWE" /><Set Cost="500"/></Update>
+		<Update><Where BuildingType="BUILDING_FORBIDDEN_CITY" /><Set Cost="500"/></Update>
+		<Update><Where BuildingType="BUILDING_CASA_DE_CONTRATACION" /><Set Cost="500"/></Update>
+		<Update><Where BuildingType="BUILDING_ST_BASILS_CATHEDRAL" /><Set Cost="500"/></Update>
+		<Update><Where BuildingType="BUILDING_TAJ_MAHAL" /><Set Cost="500"/></Update>
+		<Update><Where BuildingType="BUILDING_ORSZAGHAZ" /><Set Cost="500"/></Update>
+		<Update><Where BuildingType="BUILDING_PANAMA_CANAL" /><Set Cost="500"/></Update>
+		<Update><Where BuildingType="BUILDING_TORRE_DE_BELEM" /><Set Cost="500"/></Update>
+		<Update><Where BuildingType="BUILDING_POTALA_PALACE" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_RUHR_VALLEY" /><Set Cost="700"/></Update>
+		<Update><Where BuildingType="BUILDING_BOLSHOI_THEATRE" /><Set Cost="700"/></Update>
+		<Update><Where BuildingType="BUILDING_OXFORD_UNIVERSITY" /><Set Cost="700"/></Update>
+		<Update><Where BuildingType="BUILDING_STATUE_LIBERTY" /><Set Cost="700"/></Update>
+		<Update><Where BuildingType="BUILDING_BIG_BEN" /><Set Cost="825"/></Update>
+		<Update><Where BuildingType="BUILDING_HERMITAGE" /><Set Cost="825"/></Update>
+		<Update><Where BuildingType="BUILDING_EIFFEL_TOWER" /><Set Cost="1075"/></Update>
+		<Update><Where BuildingType="BUILDING_BROADWAY" /><Set Cost="1075"/></Update>
+		<Update><Where BuildingType="BUILDING_CRISTO_REDENTOR" /><Set Cost="1075"/></Update>
+		<Update><Where BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" /><Set Cost="1075"/></Update>
+		<Update><Where BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" /><Set Cost="1075"/></Update>
+		<Update><Where BuildingType="BUILDING_ESTADIO_DO_MARACANA" /><Set Cost="1150"/></Update>
+		<Update><Where BuildingType="BUILDING_BIOSPHERE" /><Set Cost="1150"/></Update>
+		<Update><Where BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" /><Set Cost="1350"/></Update>
+	</Buildings>
+
 </GameData>
