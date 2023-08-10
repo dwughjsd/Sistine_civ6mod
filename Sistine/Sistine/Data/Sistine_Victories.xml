@@ -121,22 +121,42 @@
 	<AiListTypes>
 		<Row ListType="DefaultTechsSST"/>
 		<Row ListType="DefaultCivicsSST"/>
-		<Row ListType="DefaultFavorGovernmentBuildings"/>
+		<Row ListType="DefaultFavorBuildings"/>
+		<Row ListType="ScienceVictoryBuildings"/>
+		<Row ListType="CultureVictoryBuildings"/>
+		<Row ListType="ReligiousVictoryBuildings"/>
+		<Row ListType="MilitaryVictoryBuildings"/>		
 	</AiListTypes>
 	<AiLists>
 		<Row ListType="DefaultTechsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Technologies"/>
 		<Row ListType="DefaultTechsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Technologies"/>
 		<Row ListType="DefaultCivicsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Civics"/>
 		<Row ListType="DefaultCivicsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Civics"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Buildings"/>
+		<Row ListType="DefaultFavorBuildings" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Buildings"/>
+		<Row ListType="ScienceVictoryBuildings" System="Buildings"/>
+		<Row ListType="CultureVictoryBuildings" System="Buildings"/>
+		<Row ListType="CultureVictoryDistricts" System="Districts"/>
+		<Row ListType="ReligiousVictoryBuildings" System="Buildings"/>
+		<Row ListType="MilitaryVictoryBuildings" System="Buildings"/>
 	</AiLists>
 
+	<Strategy_Priorities>
+		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ListType="ScienceVictoryBuildings"/>
+		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ListType="CultureVictoryBuildings"/>
+		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ListType="CultureVictoryDistricts"/>
+		<Row StrategyType="VICTORY_STRATEGY_RELIGIOUS_VICTORY" ListType="ReligiousVictoryBuildings"/>
+		<Row StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryBuildings"/>
+	</Strategy_Priorities>
+
+
 	<AiFavoredItems>
-		<!--
-		<Replace ListType="ExploitationLoverExploitationPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="-100"/>
-		<Replace ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="15"/>
-		<Replace ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
-		-->
+		<Delete ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
+		<Delete ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
+
+		<Row ListType="ExploitationLoverExploitationPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="-100"/>
+		<Row ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="15"/>
+		<Row ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
+
 		<Delete ListType="DefaultYieldBias" Item="YIELD_PRODUCTION"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_CULTURE"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_GOLD"/>
@@ -189,18 +209,23 @@
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_GOVERNMENT" Favored="true"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>
 		<!--They don't know how to use it properly-->
-		<Row ListType="ClassicalDistricts" Item="DISTRICT_PRESERVE" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_CONSULATE" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_CHANCERY" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_TALL" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_WIDE" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_FAITH" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_MILITARY" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_CULTURE" Favored="true"/>
-		<Row ListType="DefaultFavorGovernmentBuildings" Item="BUILDING_GOV_SCIENCE" Favored="true"/>
+		<Row ListType="ClassicalDistricts" Item="DISTRICT_PRESERVE" Favored="false"/>
+
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_CONSULATE" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_CHANCERY" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_LIBRARY" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_UNIVERSITY" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_AMPHITHEATER" Favored="true"/>
+
+		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
+		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_FAITH" Favored="true"/>
+		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_MILITARY" Favored="true"/>
+		<Row ListType="CultureVictoryBuildings" Item="BUILDING_GOV_CULTURE" Favored="true"/>
+		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_GOV_SCIENCE" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_TALL" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_WIDE" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
 
 		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
@@ -284,18 +309,9 @@
 
 		<Replace ListType="ScienceSensitivity" Item="YIELD_SCIENCE" Value="10"/>
 		<Replace ListType="CultureSensitivity" Item="YIELD_CULTURE" Value="10"/>
-	</AiFavoredItems>
 
-	<Strategy_Priorities>
-		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ListType="ScienceVictoryBuildings"/>
-	</Strategy_Priorities>
-	<AiListTypes>
-		<Row ListType="ScienceVictoryBuildings"/>
-	</AiListTypes>
-	<AiLists>
-		<Row ListType="ScienceVictoryBuildings" System="Buildings"/>
-	</AiLists>
-	<AiFavoredItems>
-		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_MANUFACTURING_PLANT" Favored="true"/>
+		<Row ListType="CultureVictoryBuildings" Item="BUILDING_AIRPORT" Favored="true"/>
+		<Row ListType="CultureVictoryBuildings" Item="BUILDING_VISITOR_CENTER" Favored="true"/>
+		<Row ListType="CultureVictoryDistricts" Item="DISTRICT_AERODROME" Favored="true"/>
 	</AiFavoredItems>
 </GameData>
