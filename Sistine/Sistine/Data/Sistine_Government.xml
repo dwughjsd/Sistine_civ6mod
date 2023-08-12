@@ -1,682 +1,750 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
-    <!-- slots -->
-    <Government_SlotCounts>
-        <Update>
-			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_MILITARY"/>
+	<!-- slots -->
+	<Government_SlotCounts>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_MILITARY" />
 			<Set NumSlots="2" />
 		</Update>
-        <Update>
-			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_ECONOMIC" />
 			<Set NumSlots="2" />
 		</Update>
-         <Update>
-			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_DIPLOMATIC" />
 			<Set NumSlots="2" />
 		</Update>
-         <Update>
-			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_WILDCARD"/>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_WILDCARD" />
 			<Set NumSlots="2" />
 		</Update>
-        
-        <Update>
-			<Where GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_MILITARY"/>
+
+		<Update>
+			<Where GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_MILITARY" />
 			<Set NumSlots="3" />
 		</Update>
-        <Update>
-			<Where GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_ECONOMIC" />
 			<Set NumSlots="2" />
 		</Update>
 
-        <Update>
-			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_MILITARY"/>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_MILITARY" />
 			<Set NumSlots="2" />
 		</Update>
-         <Update>
-			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_DIPLOMATIC"/>
-			<Set NumSlots="2" />
-		</Update>
-
-        <Update>
-			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_ECONOMIC"/>
-			<Set NumSlots="2" />
-		</Update>
-         <Update>
-			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_DIPLOMATIC" />
 			<Set NumSlots="2" />
 		</Update>
 
-        <Update>
-			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_MILITARY"/>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_ECONOMIC" />
 			<Set NumSlots="2" />
 		</Update>
-         <Update>
-			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_DIPLOMATIC" />
+			<Set NumSlots="2" />
+		</Update>
+
+		<Update>
+			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_MILITARY" />
+			<Set NumSlots="2" />
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_ECONOMIC" />
 			<Set NumSlots="2" />
 		</Update>
 	</Government_SlotCounts>
 	<GovernmentModifiers>
 		<!--AUTOCRACY-->
-		<Delete GovernmentType="GOVERNMENT_AUTOCRACY" 
-				ModifierId="AUTOCRACY_CAPITAL"
-				/>
-		<Delete GovernmentType="GOVERNMENT_AUTOCRACY" 
-				ModifierId="AUTOCRACY_TIER1"
-				/>
-		<Delete GovernmentType="GOVERNMENT_AUTOCRACY" 
-				ModifierId="AUTOCRACY_TIER2"
-				/>
-		<Delete GovernmentType="GOVERNMENT_AUTOCRACY" 
-				ModifierId="AUTOCRACY_TIER3"
-				/>
-		<Row GovernmentType="GOVERNMENT_AUTOCRACY" 
-			 ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
-			 />
-		<Row GovernmentType="GOVERNMENT_AUTOCRACY" 
-			 ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
-			 />
-		<Row GovernmentType="GOVERNMENT_AUTOCRACY" 
-			 ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
-			 />
+		<Delete GovernmentType="GOVERNMENT_AUTOCRACY"
+			ModifierId="AUTOCRACY_CAPITAL"
+		/>
+		<Delete GovernmentType="GOVERNMENT_AUTOCRACY"
+			ModifierId="AUTOCRACY_TIER1"
+		/>
+		<Delete GovernmentType="GOVERNMENT_AUTOCRACY"
+			ModifierId="AUTOCRACY_TIER2"
+		/>
+		<Delete GovernmentType="GOVERNMENT_AUTOCRACY"
+			ModifierId="AUTOCRACY_TIER3"
+		/>
 		<Row GovernmentType="GOVERNMENT_AUTOCRACY"
-			 ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
-			 />
+			ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_AUTOCRACY"
-			 ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
-			 />
+			ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_AUTOCRACY"
-			 ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
-			 />
+			ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
+		/>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY"
+			ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
+		/>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY"
+			ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
+		/>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY"
+			ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
+		/>
 		<!--CLASSICAL_REPUBLIC-->
+		<Delete GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC"
+			ModifierId="CLASSICAL_REPUBLIC_HOUSING"
+		/>
 		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC"
-			 ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
-			 />
+			ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
+		/>
 		<!--OLIGARCHY-->
 		<Row GovernmentType="GOVERNMENT_OLIGARCHY"
-			 ModifierId="UNIQUE_LEADER_CULTURE_KILLS"
-			 />
+			ModifierId="UNIQUE_LEADER_CULTURE_KILLS"
+		/>
 		<!--MONARCHY-->
 		<Delete GovernmentType="GOVERNMENT_MONARCHY"
-				ModifierId="MONARCHY_WALLS_HOUSING"
-				/>
+			ModifierId="MONARCHY_WALLS_HOUSING"
+		/>
 		<Delete GovernmentType="GOVERNMENT_MONARCHY"
-				ModifierId="MONARCHY_CASTLE_HOUSING"
-				/>
+			ModifierId="MONARCHY_CASTLE_HOUSING"
+		/>
 		<Delete GovernmentType="GOVERNMENT_MONARCHY"
-				ModifierId="MONARCHY_STARFORT_HOUSING"
-				/>
+			ModifierId="MONARCHY_STARFORT_HOUSING"
+		/>
 		<Delete GovernmentType="GOVERNMENT_MONARCHY"
-				ModifierId="MONARCHY_STARFORT_FAVOR"
-				/>
+			ModifierId="MONARCHY_STARFORT_FAVOR"
+		/>
 		<Delete GovernmentType="GOVERNMENT_MONARCHY"
-				ModifierId="MONARCHY_ENVOYS"
-				/>
+			ModifierId="MONARCHY_ENVOYS"
+		/>
 		<Row GovernmentType="GOVERNMENT_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_FAITH_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_FAITH_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_GOLD_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_GOLD_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_CULTURE_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_CULTURE_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONUNITS_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONUNITS_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONBUILDINGS_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONBUILDINGS_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONDISTRICTS_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONDISTRICTS_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_GOVERNER_PRODUCTION_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_WALLS_FOOD_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_WALLS_PRODUCTION_SST"
+		/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY"
+			ModifierId="GOVERNMENT_MONARCHY_CASTLE_FOOD_SST"
+		/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY"
+			ModifierId="GOVERNMENT_MONARCHY_CASTLE_PRODUCTION_SST"
+		/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY"
+			ModifierId="GOVERNMENT_MONARCHY_STARFORT_FOOD_SST"
+		/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY"
+			ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
+		/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY"
+			ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
+		/>
 		<!--THEOCRACY-->
 		<Row GovernmentType="GOVERNMENT_THEOCRACY"
-			 ModifierId="WARS_OF_RELIGION_COMBAT"
-			 />
-		<!--MERCHANT_REPUBLIC-->
+			ModifierId="WARS_OF_RELIGION_COMBAT"
+		/>
+		<!--MERCHANT REPUBLIC-->
 		<Delete GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"
-				ModifierId="MERCHANT_REPUBLIC_GOLD_MODIFIER"
-				/>
+			ModifierId="MERCHANT_REPUBLIC_GOLD_MODIFIER"
+		/>
 		<Delete GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"
-				ModifierId="MERCHANT_REPUBLIC_DISTRICTS"
-				/>
+			ModifierId="MERCHANT_REPUBLIC_DISTRICTS"
+		/>
 		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"
-			 ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
-			 />
+			ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"
-			 ModifierId="MERCHANT_REPUBLIC_HARBOR_GOLD_TO_PRODUCTION_SST"
-			 />
+			ModifierId="MERCHANT_REPUBLIC_TRADER_DISCOUNT_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"
-			 ModifierId="MERCHANT_REPUBLIC_COMMERCIAL_HUB_GOLD_TO_PRODUCTION_SST"
-			 />
-		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"
-			 ModifierId="MERCHANT_REPUBLIC_ATTACH_TRADE_ROUTE_BONUS_SST"
-			 />
+			ModifierId="MERCHANT_REPUBLIC_GOLD_PER_DEST_LUXURY_SST"
+		/>
 		<!--DEMOCRACY-->
 		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEFOODTOALLY"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEFOODTOALLY"
+		/>
 		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONTOALLY"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONTOALLY"
+		/>
 		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEFOODFROMALLY"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEFOODFROMALLY"
+		/>
 		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY"
+		/>
 		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEFOODTOSUZERAIN"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEFOODTOSUZERAIN"
+		/>
 		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEFOODFROMSUZERAIN"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEFOODFROMSUZERAIN"
+		/>
 		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN"
+		/>
 		<Row GovernmentType="GOVERNMENT_DEMOCRACY"
-			 ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_CULTURE_SST"
-			 />
+			ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_DEMOCRACY"
-			 ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_GOLD_SST"
-			 />
+			ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_GOLD_SST"
+		/>
 		<!--COMMUNISM-->
 		<Delete GovernmentType="GOVERNMENT_COMMUNISM"
-				ModifierId="COMMUNISM_SCIENCE"
-				/>
+			ModifierId="COMMUNISM_SCIENCE"
+		/>
 		<Delete GovernmentType="GOVERNMENT_COMMUNISM"
-				ModifierId="COMMUNISM_PRODUCTIVE_PEOPLE"
-				/>
+			ModifierId="COMMUNISM_PRODUCTIVE_PEOPLE"
+		/>
 		<Row GovernmentType="GOVERNMENT_COMMUNISM"
-			 ModifierId="COMMUNISM_PRODUCTION_SST"
-			 />
+			ModifierId="COMMUNISM_PRODUCTION_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_COMMUNISM"
-			 ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
-			 />
+			ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_COMMUNISM"
-			 ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
-			 />
+			ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
+		/>
 		<!--FASCISM-->
 		<Delete GovernmentType="GOVERNMENT_FASCISM"
-				ModifierId="FASCISM_WAR_WEARINESS"
-				/>
+			ModifierId="FASCISM_WAR_WEARINESS"
+		/>
 		<!--CORPORATE_LIBERTARIANISM-->
 		<Delete GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"
-				ModifierId="CORPORATE_LIBERTARIANISM_SCIENCE_PENALTY"
-				/>
+			ModifierId="CORPORATE_LIBERTARIANISM_SCIENCE_PENALTY"
+		/>
 		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"
-			 ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_GOLD_SST"
-			 />
+			ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_GOLD_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"
-			 ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_GOLD_SST"
-			 />
+			ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_GOLD_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"
-			 ModifierId="CORPORATE_LIBERTARIANISM_CAPTURE_CITY_ALWAYS_LOYAL_SST"
-			 />
+			ModifierId="CORPORATE_LIBERTARIANISM_CAPTURE_CITY_ALWAYS_LOYAL_SST"
+		/>
 		<!--SYNTHETIC_TECHNOCRACY-->
 		<Delete GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY"
-				ModifierId="SYNTHETIC_TECHNOCRACY_TOURISM_PENALTY"
-				/>
+			ModifierId="SYNTHETIC_TECHNOCRACY_TOURISM_PENALTY"
+		/>
 		<Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY"
-			 ModifierId="SYNTHETIC_TECHNOCRACY_SCIENCE_VICTORY_POINT_SST"
-			 />
+			ModifierId="SYNTHETIC_TECHNOCRACY_SCIENCE_VICTORY_POINT_SST"
+		/>
 		<!--DIGITAL_DEMOCRACY-->
 		<Delete GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"
-				ModifierId="DIGITAL_DEMOCRACY_COMBAT_STRENGTH_PENALTY"
-				/>
+			ModifierId="DIGITAL_DEMOCRACY_COMBAT_STRENGTH_PENALTY"
+		/>
 		<Delete GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"
-				ModifierId="DIGITAL_DEMOCRACY_DISTRICT_CULTURE"
-				/>
+			ModifierId="DIGITAL_DEMOCRACY_DISTRICT_CULTURE"
+		/>
 		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"
-			 ModifierId="DIGITAL_DEMOCRACY_DISTRICT_TOURISM_SST"
-			 />
+			ModifierId="DIGITAL_DEMOCRACY_DISTRICT_TOURISM_SST"
+		/>
 		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"
-			 ModifierId="DIGITAL_DEMOCRACY_ROCK_BAND_40_OFF_SST"
-			 />
+			ModifierId="DIGITAL_DEMOCRACY_ROCK_BAND_40_OFF_SST"
+		/>
 	</GovernmentModifiers>
 
 	<Modifiers>
 		<!--AUTOCRACY-->
-		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST" 
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE" 
-			 />
-		<Row ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST" 
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" 
-			 SubjectRequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST" 
-			 />
-		<Row ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST" 
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" 
-			 SubjectRequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
-			 />
+		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE"
+			SubjectRequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST"
+		/>
+		<Row ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE"
+			SubjectRequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
+		/>
 		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
-			 SubjectRequirementSetId="BUILDING_IS_PALACE"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
+			SubjectRequirementSetId="BUILDING_IS_PALACE"
+		/>
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
-			 SubjectRequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
+			SubjectRequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST"
+		/>
 		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
-			 SubjectRequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
+			SubjectRequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
+		/>
 		<!--CLASSICAL_REPUBLIC-->
 		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" 
-			 SubjectRequirementSetId="CITY_HAS_1_SPECIALTY_DISTRICT"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE"
+			SubjectRequirementSetId="CITY_HAS_1_SPECIALTY_DISTRICT"
+		/>
 		<!--MONARCHY-->
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
-			 SubjectRequirementSetId="BUILDING_IS_PALACE"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="BUILDING_IS_PALACE"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_FAITH_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
-			 SubjectRequirementSetId="BUILDING_IS_PALACE"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="BUILDING_IS_PALACE"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_GOLD_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
-			 SubjectRequirementSetId="BUILDING_IS_PALACE"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="BUILDING_IS_PALACE"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_CULTURE_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
-			 SubjectRequirementSetId="BUILDING_IS_PALACE"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="BUILDING_IS_PALACE"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONUNITS_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
-			 SubjectRequirementSetId="BUILDING_IS_PALACE"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="BUILDING_IS_PALACE"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONBUILDINGS_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
-			 SubjectRequirementSetId="BUILDING_IS_PALACE"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="BUILDING_IS_PALACE"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONDISTRICTS_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
-			 SubjectRequirementSetId="BUILDING_IS_PALACE"
-			 />
-		<Row ModifierId="GOVERNMENT_MONARCHY_GOVERNER_PRODUCTION_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
-			 SubjectRequirementSetId="CITY_HAS_GOVERNOR"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="BUILDING_IS_PALACE"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_WALLS_FOOD_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_WALLS_PRODUCTION_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_CASTLE_FOOD_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_CASTLE_PRODUCTION_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_FOOD_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
-			 />
-		<!--MERCHANT_REPUBLIC-->
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
+		/>
+		<!--MERCHANT REPUBLIC-->
 		<Row ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
-			 />
-		<Row ModifierId="MERCHANT_REPUBLIC_HARBOR_GOLD_TO_PRODUCTION_SST"
-			 ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS"
-			 SubjectRequirementSetId="DISTRICT_IS_HARBOR"
-			 />
-		
-		<Row ModifierId="MERCHANT_REPUBLIC_COMMERCIAL_HUB_GOLD_TO_PRODUCTION_SST"
-			 ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS"
-			 SubjectRequirementSetId="DISTRICT_IS_COMMERCIAL_HUB"
-			 />
-		<Row ModifierId="MERCHANT_REPUBLIC_ATTACH_TRADE_ROUTE_BONUS_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
-			 SubjectRequirementSetId="BUILDING_IS_PALACE"
-			 />
-		<Row ModifierId="MERCHANT_REPUBLIC_TRADE_ROUTE_BONUS_SST"
-			 ModifierType="MODIFIER_PLAYER_ADJUST_INTERNATIONAL_TRADE_ROUTE_YIELD_MODIFIER"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_TRADER_DISCOUNT_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_GOLD_PER_DEST_LUXURY_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_PER_DESTINATION_LUXURY_FOR_INTERNATIONAL"
+		/>
 		<!--DEMOCRACY-->
-		<Row ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_CULTURE_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT"
-			 />
-		<Row ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_GOLD_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT"
-			 />
+		<Row ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT"
+		/>
+		<Row ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_GOLD_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT"
+		/>
 		<!--COMMUNISM-->
 		<Row ModifierId="COMMUNISM_PRODUCTION_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
+		/>
 		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
-			 SubjectRequirementSetId="BUILDING_IS_FACTORY"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="BUILDING_IS_FACTORY"
+		/>
 		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
-			 ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER"
-			 />
+			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER"
+		/>
 		<Row ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION"
+		/>
 		<!--FASCISM-->
-		
 		<Row ModifierId="FASCISM_MOVEMENT_SST"
-			 ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT"
-			 />
+			ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT"
+		/>
 		<!--CORPORATE_LIBERTARIANISM-->
 		<Row ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_GOLD_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
-			 SubjectRequirementSetId="CITY_HAS_COMMERCIAL_HUB"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
+			SubjectRequirementSetId="CITY_HAS_COMMERCIAL_HUB"
+		/>
 		<Row ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_GOLD_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
-			 SubjectRequirementSetId="CITY_HAS_ENCAMPMENT"
-			 />
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
+			SubjectRequirementSetId="CITY_HAS_ENCAMPMENT"
+		/>
 		<Row ModifierId="CORPORATE_LIBERTARIANISM_CAPTURE_CITY_ALWAYS_LOYAL_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_ALWAYS_LOYAL"
-			 SubjectRequirementSetId="CITY_NOT_FOUNDED"
-			 />
-		
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_ALWAYS_LOYAL"
+			SubjectRequirementSetId="CITY_NOT_FOUNDED"
+		/>
+
 		<!--SYNTHETIC_TECHNOCRACY-->
 		<Row ModifierId="SYNTHETIC_TECHNOCRACY_SCIENCE_VICTORY_POINT_SST"
-			 ModifierType="MODIFIER_PLAYER_ADJUST_SCIENCE_VICTORY_POINTS_PER_TURN"
-			 SubjectRequirementSetId="TECHNOLOGY_VICTORY_EXOPLANET_EXPEDITION_HAS_COMPLETED_SST"
-			 />
+			ModifierType="MODIFIER_PLAYER_ADJUST_SCIENCE_VICTORY_POINTS_PER_TURN"
+			SubjectRequirementSetId="TECHNOLOGY_VICTORY_EXOPLANET_EXPEDITION_HAS_COMPLETED_SST"
+		/>
 		<!--DIGITAL_DEMOCRACY-->
 		<Row ModifierId="DIGITAL_DEMOCRACY_DISTRICT_TOURISM_SST"
-			 ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE"
-			 />
+			ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE"
+		/>
 		<Row ModifierId="DIGITAL_DEMOCRACY_ROCK_BAND_40_OFF_SST"
-			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"
-			 />
-		
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"
+		/>
 	</Modifiers>
 
 	<ModifierArguments>
 		<!--AUTOCRACY-->
 		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
-			 Name="BuildingType"
-			 Value="BUILDING_PALACE"
-			 />
+			Name="BuildingType"
+			Value="BUILDING_PALACE"
+		/>
 		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
-			 Name="YieldType"
-			 Value="YIELD_CULTURE"
-			 />
+			Name="YieldType"
+			Value="YIELD_CULTURE"
+		/>
 		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
-			 Name="Amount"
-			 Value="3"
-			 />
+			Name="Amount"
+			Value="2"
+		/>
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
-			 Name="YieldType"
-			 Value="YIELD_CULTURE"
-			 />
+			Name="YieldType"
+			Value="YIELD_CULTURE"
+		/>
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
-			 Name="Amount"
-			 Value="3"
-			 />
+			Name="Amount"
+			Value="2"
+		/>
 		<Row ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
-			 Name="YieldType"
-			 Value="YIELD_CULTURE"
-			 />
+			Name="YieldType"
+			Value="YIELD_CULTURE"
+		/>
 		<Row ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
-			 Name="Amount"
-			 Value="3"
-			 />
+			Name="Amount"
+			Value="2"
+		/>
 
 		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
-			 Name="YieldType"
-			 Value="YIELD_GOLD"
-			 />
+			Name="YieldType"
+			Value="YIELD_GOLD"
+		/>
 		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
-			 Name="Amount"
-			 Value="1"
-			 />
+			Name="Amount"
+			Value="1"
+		/>
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
-			 Name="YieldType"
-			 Value="YIELD_GOLD"
-			 />
+			Name="YieldType"
+			Value="YIELD_GOLD"
+		/>
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
-			 Name="Amount"
-			 Value="1"
-			 />
+			Name="Amount"
+			Value="1"
+		/>
 		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
-			 Name="YieldType"
-			 Value="YIELD_GOLD"
-			 />
+			Name="YieldType"
+			Value="YIELD_GOLD"
+		/>
 		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
-			 Name="Amount"
-			 Value="1"
-			 />
+			Name="Amount"
+			Value="1"
+		/>
 		<!--CLASSICAL_REPUBLIC-->
+		<Update>
+			<Where ModifierId="CLASSICAL_REPUBLIC_GREAT_PEOPLE" Name="Amount" />
+			<Set Value="10" />
+		</Update>
 		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
-			 Name="YieldType"
-			 Value="YIELD_CULTURE"
-			 />
-		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
-			 Name="Amount"
-			 Value="1"
-			 />
+			Name="Amount"
+			Value="1"
+		/>
 		<!--OLIGARCHY-->
 		<Update>
-			<Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="Amount"/>
+			<Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="Amount" />
 			<Set Value="25" />
 		</Update>
 		<!--MONARCHY-->
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
-			 Name="ModifierId"
-			 Value="KILWA_SINGLE_ADDSCIENCEYIELD"
-			 />
+			Name="ModifierId"
+			Value="KILWA_SINGLE_ADDSCIENCEYIELD"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_FAITH_SST"
-			 Name="ModifierId"
-			 Value="KILWA_SINGLE_ADDFAITHYIELD"
-			 />
+			Name="ModifierId"
+			Value="KILWA_SINGLE_ADDFAITHYIELD"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_GOLD_SST"
-			 Name="ModifierId"
-			 Value="KILWA_SINGLE_ADDGOLDYIELD"
-			 />
+			Name="ModifierId"
+			Value="KILWA_SINGLE_ADDGOLDYIELD"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_CULTURE_SST"
-			 Name="ModifierId"
-			 Value="KILWA_SINGLE_ADDCULTUREYIELD"
-			 />
+			Name="ModifierId"
+			Value="KILWA_SINGLE_ADDCULTUREYIELD"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONUNITS_SST"
-			 Name="ModifierId"
-			 Value="KILWA_SINGLE_ADDPRODUCTIONUNITS"
-			 />
+			Name="ModifierId"
+			Value="KILWA_SINGLE_ADDPRODUCTIONUNITS"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONBUILDINGS_SST"
-			 Name="ModifierId"
-			 Value="KILWA_SINGLE_ADDPRODUCTIONBUILDINGS"
-			 />
+			Name="ModifierId"
+			Value="KILWA_SINGLE_ADDPRODUCTIONBUILDINGS"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONDISTRICTS_SST"
-			 Name="ModifierId"
-			 Value="KILWA_SINGLE_ADDPRODUCTIONDISTRICTS"
-			 />
-		<Row ModifierId="GOVERNMENT_MONARCHY_GOVERNER_PRODUCTION_SST"
-			 Name="YieldType"
-			 Value="YIELD_PRODUCTION"
-			 />
-		<Row ModifierId="GOVERNMENT_MONARCHY_GOVERNER_PRODUCTION_SST"
-			 Name="Amount"
-			 Value="10"
-			 />
+			Name="ModifierId"
+			Value="KILWA_SINGLE_ADDPRODUCTIONDISTRICTS"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_WALLS_FOOD_SST"
+			Name="YieldType"
+			Value="YIELD_FOOD"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_WALLS_FOOD_SST"
+			Name="BuildingType"
+			Value="BUILDING_WALLS"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_WALLS_FOOD_SST"
+			Name="Amount"
+			Value="1"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_WALLS_PRODUCTION_SST"
+			Name="YieldType"
+			Value="YIELD_PRODUCTION"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_WALLS_PRODUCTION_SST"
+			Name="BuildingType"
+			Value="BUILDING_WALLS"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_WALLS_PRODUCTION_SST"
+			Name="Amount"
+			Value="1"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_CASTLE_FOOD_SST"
+			Name="YieldType"
+			Value="YIELD_FOOD"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_CASTLE_FOOD_SST"
+			Name="BuildingType"
+			Value="BUILDING_CASTLE"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_CASTLE_FOOD_SST"
+			Name="Amount"
+			Value="1"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_CASTLE_PRODUCTION_SST"
+			Name="YieldType"
+			Value="YIELD_PRODUCTION"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_CASTLE_PRODUCTION_SST"
+			Name="BuildingType"
+			Value="BUILDING_CASTLE"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_CASTLE_PRODUCTION_SST"
+			Name="Amount"
+			Value="1"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
-			 Name="YieldType"
-			 Value="YIELD_FOOD"
-			 />
+			Name="YieldType"
+			Value="YIELD_FOOD"
+		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
-			 Name="Amount"
-			 Value="10"
-			 />
+			Name="Amount"
+			Value="10"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_FOOD_SST"
+			Name="YieldType"
+			Value="YIELD_FOOD"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_FOOD_SST"
+			Name="BuildingType"
+			Value="BUILDING_STAR_FORT"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_FOOD_SST"
+			Name="Amount"
+			Value="2"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
+			Name="YieldType"
+			Value="YIELD_PRODUCTION"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
+			Name="BuildingType"
+			Value="BUILDING_STAR_FORT"
+		/>
+		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
+			Name="Amount"
+			Value="2"
+		/>
 		<!--THEOCRACY-->
 		<Update>
-			<Where ModifierId="THEOCRACY_RELIGIOUS_BUFF" Name="Amount"/>
+			<Where ModifierId="THEOCRACY_RELIGIOUS_BUFF" Name="Amount" />
 			<Set Value="4" />
 		</Update>
 		<Update>
-			<Where ModifierId="THEOCRACY_FAITH_PURCHASE" Name="Amount"/>
+			<Where ModifierId="THEOCRACY_FAITH_PURCHASE" Name="Amount" />
 			<Set Value="10" />
 		</Update>
-		<!--MERCHANT_REPUBLIC-->
+		<!--MERCHANT REPUBLIC-->
+		<Row ModifierId="MERCHANT_REPUBLIC_TRADER_DISCOUNT_SST"
+			Name="UnitType"
+			Value="UNIT_TRADER"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_TRADER_DISCOUNT_SST"
+			Name="Amount"
+			Value="25"
+		/>
 		<Row ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
-			 Name="YieldType"
-			 Value="YIELD_GOLD"
-			 />
+			Name="YieldType"
+			Value="YIELD_GOLD"
+		/>
 		<Row ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
-			 Name="Amount"
-			 Value="10"
-			 />
-		<Row ModifierId="MERCHANT_REPUBLIC_HARBOR_GOLD_TO_PRODUCTION_SST"
-			 Name="YieldTypeToMirror"
-			 Value="YIELD_GOLD"
-			 />
-		<Row ModifierId="MERCHANT_REPUBLIC_HARBOR_GOLD_TO_PRODUCTION_SST"
-			 Name="YieldTypeToGrant"
-			 Value="YIELD_PRODUCTION"
-			 />
-		<Row ModifierId="MERCHANT_REPUBLIC_COMMERCIAL_HUB_GOLD_TO_PRODUCTION_SST"
-			 Name="YieldTypeToMirror"
-			 Value="YIELD_GOLD"
-			 />
-		<Row ModifierId="MERCHANT_REPUBLIC_COMMERCIAL_HUB_GOLD_TO_PRODUCTION_SST"
-			 Name="YieldTypeToGrant"
-			 Value="YIELD_PRODUCTION"
-			 />
-		<Row ModifierId="MERCHANT_REPUBLIC_ATTACH_TRADE_ROUTE_BONUS_SST"
-			 Name="ModifierId"
-			 Value="MERCHANT_REPUBLIC_TRADE_ROUTE_BONUS_SST"
-			 />
-		<Row ModifierId="MERCHANT_REPUBLIC_TRADE_ROUTE_BONUS_SST"
-			 Name="YieldType"
-			 Value="YIELD_PRODUCTION, YIELD_FOOD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_GOLD, YIELD_FAITH"
-			 />
-		<Row ModifierId="MERCHANT_REPUBLIC_TRADE_ROUTE_BONUS_SST"
-			 Name="Amount"
-			 Value="25, 25, 25, 25, 25, 25"
-			 />
+			Name="Amount"
+			Value="10"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_GOLD_PER_DEST_LUXURY_SST"
+			Name="YieldType"
+			Value="YIELD_GOLD"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_GOLD_PER_DEST_LUXURY_SST"
+			Name="Amount"
+			Value="2"
+		/>
 		<!--DEMOCRACY-->
-		<Row ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_CULTURE_SST"
-			 Name="YieldType"
-			 Value="YIELD_CULTURE"
-			 />
-		<Row ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_CULTURE_SST"
-			 Name="Amount"
-			 Value="1"
-			 />
-		<Row ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_GOLD_SST"
-			 Name="YieldType"
-			 Value="YIELD_GOLD"
-			 />
-		<Row ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_GOLD_SST"
-			 Name="Amount"
-			 Value="2"
-			 />
+		<Row ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
+			Name="YieldType"
+			Value="YIELD_CULTURE"
+		/>
+		<Row ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
+			Name="Amount"
+			Value="1"
+		/>
+		<Row ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_GOLD_SST"
+			Name="YieldType"
+			Value="YIELD_GOLD"
+		/>
+		<Row ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_GOLD_SST"
+			Name="Amount"
+			Value="2"
+		/>
 		<Update>
-			<Where ModifierId="DEMOCRACY_ALLIANCEPOINTS" Name="Amount"/>
-			<Set Value="4" />
+			<Where ModifierId="DEMOCRACY_ALLIANCEPOINTS" Name="Amount" />
+			<Set Value="2" />
 		</Update>
 		<!--COMMUNISM-->
 		<Row ModifierId="COMMUNISM_PRODUCTION_SST"
-			 Name="YieldType"
-			 Value="YIELD_PRODUCTION"
-			 />
+			Name="YieldType"
+			Value="YIELD_PRODUCTION"
+		/>
 		<Row ModifierId="COMMUNISM_PRODUCTION_SST"
-			 Name="Amount"
-			 Value="15"
-			 />
+			Name="Amount"
+			Value="15"
+		/>
 		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
-			 Name="YieldType"
-			 Value="YIELD_SCIENCE"
-			 />
+			Name="YieldType"
+			Value="YIELD_SCIENCE"
+		/>
 		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
-			 Name="Amount"
-			 Value="25"
-			 />
+			Name="Amount"
+			Value="25"
+		/>
 		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
-			 Name="ModifierId"
-			 Value="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
-			 />
+			Name="ModifierId"
+			Value="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
+		/>
 		<Row ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
-			 Name="DistrictType"
-			 Value="DISTRICT_INDUSTRIAL_ZONE"
-			 />
+			Name="DistrictType"
+			Value="DISTRICT_INDUSTRIAL_ZONE"
+		/>
 		<Row ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
-			 Name="Amount"
-			 Value="100"
-			 />
+			Name="Amount"
+			Value="100"
+		/>
 		<!--FASCISM-->
 		<Update>
-			<Where ModifierId="FASCISM_UNIT_PRODUCTION" Name="Amount"/>
+			<Where ModifierId="FASCISM_UNIT_PRODUCTION" Name="Amount" />
 			<Set Value="30" />
 		</Update>
 		<Row ModifierId="FASCISM_MOVEMENT_SST"
-			 Name="Amount"
-			 Value="1"
-			 />
+			Name="Amount"
+			Value="1"
+		/>
 		<!--CORPORATE_LIBERTARIANISM-->
 		<Row ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_GOLD_SST"
-			 Name="YieldType"
-			 Value="YIELD_GOLD"
-			 />
+			Name="YieldType"
+			Value="YIELD_GOLD"
+		/>
 		<Row ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_GOLD_SST"
-			 Name="Amount"
-			 Value="20"
-			 />
+			Name="Amount"
+			Value="20"
+		/>
 		<Row ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_GOLD_SST"
-			 Name="YieldType"
-			 Value="YIELD_GOLD"
-			 />
+			Name="YieldType"
+			Value="YIELD_GOLD"
+		/>
 		<Row ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_GOLD_SST"
-			 Name="Amount"
-			 Value="20"
-			 />
+			Name="Amount"
+			Value="20"
+		/>
 		<Update>
-			<Where ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_PRODUCTION" Name="Amount"/>
+			<Where ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_PRODUCTION" Name="Amount" />
 			<Set Value="20" />
 		</Update>
 		<Update>
-			<Where ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_PRODUCTION" Name="Amount"/>
+			<Where ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_PRODUCTION" Name="Amount" />
 			<Set Value="20" />
 		</Update>
 		<Update>
-			<Where ModifierId="CORPORATE_LIBERTARIANISM_RESOURCE_EXTRACTION" Name="Amount"/>
+			<Where ModifierId="CORPORATE_LIBERTARIANISM_RESOURCE_EXTRACTION" Name="Amount" />
 			<Set Value="3" />
 		</Update>
 		<Row ModifierId="CORPORATE_LIBERTARIANISM_CAPTURE_CITY_ALWAYS_LOYAL_SST"
-			 Name="AlwaysLoyal"
-			 Value="true"
-			 />
+			Name="AlwaysLoyal"
+			Value="true"
+		/>
 		<!--SYNTHETIC_TECHNOCRACY-->
 		<Update>
-			<Where ModifierId="SYNTHETIC_TECHNOCRACY_CITY_POWER" Name="Amount"/>
+			<Where ModifierId="SYNTHETIC_TECHNOCRACY_CITY_POWER" Name="Amount" />
 			<Set Value="6" />
 		</Update>
 		<Update>
-			<Where ModifierId="SYNTHETIC_TECHNOCRACY_CITY_PROJECT_PRODUCTION" Name="Amount"/>
+			<Where ModifierId="SYNTHETIC_TECHNOCRACY_CITY_PROJECT_PRODUCTION" Name="Amount" />
 			<Set Value="40" />
 		</Update>
 		<Row ModifierId="SYNTHETIC_TECHNOCRACY_SCIENCE_VICTORY_POINT_SST"
-			 Name="Amount"
-			 Value="2"
-			 />
+			Name="Amount"
+			Value="2"
+		/>
 		<!--DIGITAL_DEMOCRACY-->
 		<Update>
-			<Where ModifierId="DIGITAL_DEMOCRACY_CITY_AMENITIES" Name="Amount"/>
+			<Where ModifierId="DIGITAL_DEMOCRACY_CITY_AMENITIES" Name="Amount" />
 			<Set Value="3" />
 		</Update>
 		<Row ModifierId="DIGITAL_DEMOCRACY_DISTRICT_TOURISM_SST"
-			 Name="Amount"
-			 Value="10"
-			 />
+			Name="Amount"
+			Value="10"
+		/>
 		<Row ModifierId="DIGITAL_DEMOCRACY_ROCK_BAND_40_OFF_SST"
-			 Name="UnitType"
-			 Value="UNIT_ROCK_BAND"
-			 />
+			Name="UnitType"
+			Value="UNIT_ROCK_BAND"
+		/>
 		<Row ModifierId="DIGITAL_DEMOCRACY_ROCK_BAND_40_OFF_SST"
-			 Name="Amount"
-			 Value="-40"
-			 />
-		
+			Name="Amount"
+			Value="-40"
+		/>
 	</ModifierArguments>
 
 	<RequirementSets>
 		<Row RequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST"
-			 RequirementSetType="REQUIREMENTSET_TEST_ALL"	
-			 />
+			RequirementSetType="REQUIREMENTSET_TEST_ALL"
+		/>
 		<Row RequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
-			 RequirementSetType="REQUIREMENTSET_TEST_ALL"
-			 />
+			RequirementSetType="REQUIREMENTSET_TEST_ALL"
+		/>
 		<Row>
 			<RequirementSetId>TECHNOLOGY_VICTORY_EXOPLANET_EXPEDITION_HAS_COMPLETED_SST</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
@@ -684,11 +752,11 @@
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST"
-			 RequirementId="CITY_HAS_DISTRICT_GOVERNMENT_SST_REQUIREMENT"	
-			 />
+			RequirementId="CITY_HAS_DISTRICT_GOVERNMENT_SST_REQUIREMENT"
+		/>
 		<Row RequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
-			 RequirementId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST_REQUIREMENT"
-			 />
+			RequirementId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST_REQUIREMENT"
+		/>
 		<Row>
 			<RequirementSetId>TECHNOLOGY_VICTORY_EXOPLANET_EXPEDITION_HAS_COMPLETED_SST</RequirementSetId>
 			<RequirementId>TECHNOLOGY_VICTORY_EXOPLANET_EXPEDITION</RequirementId>
@@ -696,328 +764,343 @@
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row RequirementId="CITY_HAS_DISTRICT_GOVERNMENT_SST_REQUIREMENT"
-			 RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"	
-			 />
+			RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"
+		/>
 		<Row RequirementId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST_REQUIREMENT"
-			 RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"
-			 />
+			RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"
+		/>
 	</Requirements>
 	<RequirementArguments>
 		<Row RequirementId="CITY_HAS_DISTRICT_GOVERNMENT_SST_REQUIREMENT"
-			 Name="DistrictType"
-			 Value="DISTRICT_GOVERNMENT"
+			Name="DistrictType"
+			Value="DISTRICT_GOVERNMENT"
 		/>
 		<Row RequirementId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST_REQUIREMENT"
-			 Name="DistrictType"
-			 Value="DISTRICT_DIPLOMATIC_QUARTER"
+			Name="DistrictType"
+			Value="DISTRICT_DIPLOMATIC_QUARTER"
 		/>
 	</RequirementArguments>
 
 	<UnitAbilityModifiers>
 		<Row UnitAbilityType="ABILITY_FASCISM_ATTACK_BUFF"
-			 ModifierId="FASCISM_MOVEMENT_SST"
+			ModifierId="FASCISM_MOVEMENT_SST"
 		/>
 		<Row UnitAbilityType="ABILITY_FASCISM_ATTACK_BUFF"
-			 ModifierId="IGNOREZOC_IGNORE_ZOC"
+			ModifierId="IGNOREZOC_IGNORE_ZOC"
 		/>
 	</UnitAbilityModifiers>
 	<UnitAbilities>
 		<Update>
 			<Where UnitAbilityType="ABILITY_FASCISM_ATTACK_BUFF" />
-			<Set Description="LOC_ABILITY_FASCISM_ATTACK_DESCRIPTION_SST"/>
+			<Set Description="LOC_ABILITY_FASCISM_ATTACK_DESCRIPTION_SST" />
 		</Update>
 	</UnitAbilities>
 	<PolicyModifiers>
 		<!--AUTOCRACY-->
 		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
-				ModifierId="AUTOCRACY_CAPITAL"
-				/>
+			ModifierId="AUTOCRACY_CAPITAL"
+		/>
 		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
-				ModifierId="AUTOCRACY_TIER1"
-				/>
+			ModifierId="AUTOCRACY_TIER1"
+		/>
 		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
-				ModifierId="AUTOCRACY_TIER2"
-				/>
+			ModifierId="AUTOCRACY_TIER2"
+		/>
 		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
-				ModifierId="AUTOCRACY_TIER3"
-				/>
+			ModifierId="AUTOCRACY_TIER3"
+		/>
 		<Row PolicyType="POLICY_GOV_AUTOCRACY"
-			 ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
-			 />
+			ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_AUTOCRACY"
-			 ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
-			 />
+			ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_AUTOCRACY"
-			 ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
-			 />
+			ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_AUTOCRACY"
-			 ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
-			 />
+			ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_AUTOCRACY"
-			 ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
-			 />
+			ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_AUTOCRACY"
-			 ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
-			 />
+			ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
+		/>
 		<!--CLASSICAL_REPUBLIC-->
+		<Delete PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC"
+			ModifierId="CLASSICAL_REPUBLIC_HOUSING"
+		/>
 		<Row PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC"
-			 ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
-			 />
+			ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
+		/>
 		<!--OLIGARCHY-->
 		<Row PolicyType="POLICY_GOV_OLIGARCHY"
-			 ModifierId="UNIQUE_LEADER_CULTURE_KILLS"
-			 />
+			ModifierId="UNIQUE_LEADER_CULTURE_KILLS"
+		/>
 		<!--MONARCHY-->
 		<Delete PolicyType="POLICY_GOV_MONARCHY"
-				ModifierId="MONARCHY_WALLS_HOUSING"
-				/>
+			ModifierId="MONARCHY_WALLS_HOUSING"
+		/>
 		<Delete PolicyType="POLICY_GOV_MONARCHY"
-				ModifierId="MONARCHY_CASTLE_HOUSING"
-				/>
+			ModifierId="MONARCHY_CASTLE_HOUSING"
+		/>
 		<Delete PolicyType="POLICY_GOV_MONARCHY"
-				ModifierId="MONARCHY_STARFORT_HOUSING"
-				/>
+			ModifierId="MONARCHY_STARFORT_HOUSING"
+		/>
 		<Delete PolicyType="POLICY_GOV_MONARCHY"
-				ModifierId="MONARCHY_STARFORT_FAVOR"
-				/>
+			ModifierId="MONARCHY_STARFORT_FAVOR"
+		/>
 		<Delete PolicyType="POLICY_GOV_MONARCHY"
-				ModifierId="MONARCHY_ENVOYS"
-				/>
+			ModifierId="MONARCHY_ENVOYS"
+		/>
 		<Row PolicyType="POLICY_GOV_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_FAITH_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_FAITH_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_GOLD_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_GOLD_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_CULTURE_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_CULTURE_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONUNITS_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONUNITS_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONBUILDINGS_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONBUILDINGS_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONDISTRICTS_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_PRODUCTIONDISTRICTS_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_GOVERNER_PRODUCTION_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_WALLS_FOOD_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_MONARCHY"
-			 ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
-			 />
+			ModifierId="GOVERNMENT_MONARCHY_WALLS_PRODUCTION_SST"
+		/>
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			ModifierId="GOVERNMENT_MONARCHY_CASTLE_FOOD_SST"
+		/>
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			ModifierId="GOVERNMENT_MONARCHY_CASTLE_PRODUCTION_SST"
+		/>
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			ModifierId="GOVERNMENT_MONARCHY_STARFORT_FOOD_SST"
+		/>
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
+		/>
+		<Row PolicyType="POLICY_GOV_MONARCHY"
+			ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
+		/>
 		<!--THEOCRACY-->
 		<Row PolicyType="POLICY_GOV_THEOCRACY"
-			 ModifierId="WARS_OF_RELIGION_COMBAT"
-			 />
-		<!--MERCHANT_REPUBLIC-->
+			ModifierId="WARS_OF_RELIGION_COMBAT"
+		/>
+		<!--MERCHANT REPUBLIC-->
 		<Delete PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
-				ModifierId="MERCHANT_REPUBLIC_GOLD_MODIFIER"
-				/>
+			ModifierId="MERCHANT_REPUBLIC_GOLD_MODIFIER"
+		/>
 		<Delete PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
-				ModifierId="MERCHANT_REPUBLIC_DISTRICTS"
-				/>
+			ModifierId="MERCHANT_REPUBLIC_DISTRICTS"
+		/>
 		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
-			 ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
-			 />
+			ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
-			 ModifierId="MERCHANT_REPUBLIC_HARBOR_GOLD_TO_PRODUCTION_SST"
-			 />
+			ModifierId="MERCHANT_REPUBLIC_TRADER_DISCOUNT_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
-			 ModifierId="MERCHANT_REPUBLIC_COMMERCIAL_HUB_GOLD_TO_PRODUCTION_SST"
-			 />
-		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
-			 ModifierId="MERCHANT_REPUBLIC_ATTACH_TRADE_ROUTE_BONUS_SST"
-			 />
+			ModifierId="MERCHANT_REPUBLIC_GOLD_PER_DEST_LUXURY_SST"
+		/>
 		<!--DEMOCRACY-->
 		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEFOODTOALLY"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEFOODTOALLY"
+		/>
 		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONTOALLY"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONTOALLY"
+		/>
 		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEFOODFROMALLY"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEFOODFROMALLY"
+		/>
 		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY"
+		/>
 		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEFOODTOSUZERAIN"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEFOODTOSUZERAIN"
+		/>
 		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEFOODFROMSUZERAIN"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEFOODFROMSUZERAIN"
+		/>
 		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
-				ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN"
-				/>
+			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN"
+		/>
 		<Row PolicyType="POLICY_GOV_DEMOCRACY"
-			 ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_CULTURE_SST"
-			 />
+			ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_DEMOCRACY"
-			 ModifierId="DEMOCRACY_SPECIAL_DISTRICTS_GOLD_SST"
-			 />
+			ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_GOLD_SST"
+		/>
 		<!--COMMUNISM-->
 		<Delete PolicyType="POLICY_GOV_COMMUNISM"
-				ModifierId="COMMUNISM_SCIENCE"
-				/>
+			ModifierId="COMMUNISM_SCIENCE"
+		/>
 		<Delete PolicyType="POLICY_GOV_COMMUNISM"
-				ModifierId="COMMUNISM_PRODUCTIVE_PEOPLE"
-				/>
+			ModifierId="COMMUNISM_PRODUCTIVE_PEOPLE"
+		/>
 		<Row PolicyType="POLICY_GOV_COMMUNISM"
-			 ModifierId="COMMUNISM_PRODUCTION_SST"
-			 />
+			ModifierId="COMMUNISM_PRODUCTION_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_COMMUNISM"
-			 ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
-			 />
+			ModifierId="COMMUNISM_FACTORY_SCIENCE_SST"
+		/>
 		<Row PolicyType="POLICY_GOV_COMMUNISM"
-			 ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
-			 />
+			ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
+		/>
 		<!--FASCISM-->
 		<Delete PolicyType="POLICY_GOV_FASCISM"
-				ModifierId="FASCISM_WAR_WEARINESS"
-				/>
+			ModifierId="FASCISM_WAR_WEARINESS"
+		/>
 	</PolicyModifiers>
-	
+
 	<Policies>
 		<Update>
 			<Where PolicyType="POLICY_GOV_AUTOCRACY" />
-			<Set Description="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST"/>
+			<Set Description="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" />
 		</Update>
 		<Update>
 			<Where PolicyType="POLICY_GOV_OLIGARCHY" />
-			<Set Description="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST"/>
+			<Set Description="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST" />
 		</Update>
 		<Update>
 			<Where PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC" />
-			<Set Description="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST"/>
+			<Set Description="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST" />
 		</Update>
 		<Update>
 			<Where PolicyType="POLICY_GOV_MONARCHY" />
-			<Set Description="LOC_GOVT_INHERENT_BONUS_MONARCHY_SST"/>
+			<Set Description="LOC_GOVT_INHERENT_BONUS_MONARCHY_SST" />
 		</Update>
 		<Update>
 			<Where PolicyType="POLICY_GOV_THEOCRACY" />
-			<Set Description="LOC_GOVT_INHERENT_BONUS_THEOCRACY_SST"/>
+			<Set Description="LOC_GOVT_INHERENT_BONUS_THEOCRACY_SST" />
 		</Update>
 		<Update>
 			<Where PolicyType="POLICY_GOV_MERCHANT_REPUBLIC" />
-			<Set Description="LOC_GOVT_INHERENT_BONUS_MERCHREP_SST"/>
+			<Set Description="LOC_GOVT_INHERENT_BONUS_MERCHREP_SST" />
 		</Update>
 		<Update>
 			<Where PolicyType="POLICY_GOV_FASCISM" />
-			<Set Description="LOC_GOVT_INHERENT_BONUS_FASCISM_SST"/>
+			<Set Description="LOC_GOVT_INHERENT_BONUS_FASCISM_SST" />
 		</Update>
 		<Update>
 			<Where PolicyType="POLICY_GOV_COMMUNISM" />
-			<Set Description="LOC_GOVT_INHERENT_BONUS_COMMUNISM_SST"/>
+			<Set Description="LOC_GOVT_INHERENT_BONUS_COMMUNISM_SST" />
 		</Update>
 		<Update>
 			<Where PolicyType="POLICY_GOV_DEMOCRACY" />
-			<Set Description="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST"/>
+			<Set Description="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST" />
 		</Update>
 	</Policies>
 	<Governments>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_AUTOCRACY" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST"
-				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST"
+				BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
+			/>
 		</Update>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_OLIGARCHY" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST"
-				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST"
+				BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
+			/>
 		</Update>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_SST"
-				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_SST"
+				BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
+			/>
 		</Update>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_MONARCHY" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MONARCHY_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST"
-				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST"
+				BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
+			/>
 		</Update>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_THEOCRACY" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_THEOCRACY_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_SST"
-				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_SST"
+				BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
+			/>
 		</Update>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MERCHREP_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST"
-				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST"
+				BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
+			/>
 		</Update>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_FASCISM" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_FASCISM_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST"
-				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST"
+				BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
+			/>
 		</Update>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_COMMUNISM" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_COMMUNISM_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
-				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST"
+				BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
+			/>
 		</Update>
-		
+
 		<Update>
 			<Where GovernmentType="GOVERNMENT_DEMOCRACY" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_SST"
-				 BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_SST"
+				BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"
+			/>
 		</Update>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_CORPORATE_LIBERTARIANISM_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM_SST"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM_SST"
+			/>
 		</Update>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_DIGITAL_DEMOCRACY_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY_SST"
-				 />
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY_SST"
+			/>
 		</Update>
 		<Update>
 			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" />
 			<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_SYNTHETIC_TECHNOCRACY_SST"
-				 AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST"
-				 AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST"
-				 />
-		</Update>	
+				AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST"
+				AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST"
+			/>
+		</Update>
 	</Governments>
-	
+
 	<ModifierStrings>
 		<Update>
 			<Where ModifierId="FASCISM_ATTACK_BUFF" />
@@ -1026,11 +1109,11 @@
 	</ModifierStrings>
 
 	<Policy_GovernmentExclusives_XP2>
-		<Delete PolicyType="POLICY_FINEST_HOUR" GovernmentType="GOVERNMENT_DEMOCRACY"/>
-		<Delete PolicyType="POLICY_NEW_DEAL" GovernmentType="GOVERNMENT_DEMOCRACY"/>
-		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" GovernmentType="GOVERNMENT_FASCISM"/>
-		<Delete PolicyType="POLICY_MARTIAL_LAW" GovernmentType="GOVERNMENT_FASCISM"/>
-		<Delete PolicyType="POLICY_COLLECTIVIZATION" GovernmentType="GOVERNMENT_COMMUNISM"/>
-		<Delete PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" GovernmentType="GOVERNMENT_COMMUNISM"/>
+		<Delete PolicyType="POLICY_FINEST_HOUR" GovernmentType="GOVERNMENT_DEMOCRACY" />
+		<Delete PolicyType="POLICY_NEW_DEAL" GovernmentType="GOVERNMENT_DEMOCRACY" />
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" GovernmentType="GOVERNMENT_FASCISM" />
+		<Delete PolicyType="POLICY_MARTIAL_LAW" GovernmentType="GOVERNMENT_FASCISM" />
+		<Delete PolicyType="POLICY_COLLECTIVIZATION" GovernmentType="GOVERNMENT_COMMUNISM" />
+		<Delete PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" GovernmentType="GOVERNMENT_COMMUNISM" />
 	</Policy_GovernmentExclusives_XP2>
 </GameInfo>
