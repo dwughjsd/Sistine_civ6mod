@@ -308,6 +308,8 @@
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
 
+		<Delete ListType="ScienceVictoryYields" Item="YIELD_SCIENCE" Value="50"/>
+		<Row ListType="ScienceVictoryYields" Item="YIELD_SCIENCE" Value="100"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_PRODUCTION" Value="25"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_CULTURE" Value="-25"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_FAITH" Value="-75"/>
