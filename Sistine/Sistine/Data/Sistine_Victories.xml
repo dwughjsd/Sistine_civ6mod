@@ -56,9 +56,10 @@
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
 			<Set DefaultValue="10.0" />
 		</Update>
+		<!--Much more important than spy isn't it-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" />
-			<Set DefaultValue="15.0" />
+			<Set DefaultValue="16.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
