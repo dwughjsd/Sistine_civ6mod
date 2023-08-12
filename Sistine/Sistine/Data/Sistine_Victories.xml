@@ -131,6 +131,9 @@
 		<Row ListType="DefaultDistrictsSST"/>
 		<Row ListType="MedievalBuildings"/>
 		<Row ListType="MedievalDistricts"/>
+		<Row ListType="RenaissanceDistricts"/>
+		<Row ListType="IndustrialBuildings"/>
+		<Row ListType="IndustrialDistricts"/>
 		<Row ListType="ScienceVictoryBuildings"/>
 		<Row ListType="CultureVictoryBuildings"/>
 		<Row ListType="CultureVictoryDistricts"/>
@@ -146,6 +149,9 @@
 		<Row ListType="DefaultFavorBuildings" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Buildings"/>
 		<Row ListType="MedievalBuildings" System="Buildings"/>
 		<Row ListType="MedievalDistricts" System="Districts"/>
+		<Row ListType="RenaissanceDistricts" System="Districts"/>
+		<Row ListType="IndustrialBuildings" System="Buildings"/>
+		<Row ListType="IndustrialDistricts" System="Districts"/>
 		<Row ListType="DefaultDistrictsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Districts"/>
 		<Row ListType="DefaultDistrictsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Districts"/>
 		<Row ListType="ScienceVictoryBuildings" System="Buildings"/>
@@ -158,6 +164,9 @@
 	<Strategy_Priorities>
 		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalBuildings"/>
 		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalDistricts"/>
+		<Row StrategyType="STRATEGY_RENAISSANCE_CHANGES" ListType="RenaissanceDistricts"/>
+		<Row StrategyType="STRATEGY_INDUSTRIAL_CHANGES" ListType="IndustrialBuildings"/>
+		<Row StrategyType="STRATEGY_INDUSTRIAL_CHANGES" ListType="IndustrialDistricts"/>
 		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ListType="ScienceVictoryBuildings"/>
 		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ListType="CultureVictoryBuildings"/>
 		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ListType="CultureVictoryDistricts"/>
@@ -229,8 +238,10 @@
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-20"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_GOVERNMENT" Favored="true"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>
-		<Row ListType="MedievalDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
-		<Row ListType="MedievalDistricts" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>		
+		
+		<Row ListType="RenaissanceDistricts" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>
+		<Row ListType="IndustrialDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
+
 		<!--They don't know how to use it properly-->
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_PRESERVE" Favored="false"/>
 
@@ -238,11 +249,11 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_LIBRARY" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MARKET" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_AMPHITHEATER" Favored="true"/>
-		
-		<Row ListType="MedievalBuildings" Item="BUILDING_CHANCERY" Favored="true"/>
 		<Row ListType="MedievalBuildings" Item="BUILDING_UNIVERSITY" Favored="true"/>
-		<Row ListType="MedievalBuildings" Item="BUILDING_FACTORY" Favored="true"/>
-		<Row ListType="MedievalBuildings" Item="BUILDING_COAL_POWER_PLANT" Favored="true"/>
+		
+		<Row ListType="IndustrialBuildings" Item="BUILDING_CHANCERY" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_FACTORY" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_COAL_POWER_PLANT" Favored="true"/>
 
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_FAITH" Favored="true"/>
