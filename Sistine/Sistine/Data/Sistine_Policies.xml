@@ -64,36 +64,49 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!--Don't use update, it won't work-->
+		<Delete ModifierId="CIVILPRESTIGE_GOVAMENITY" Name="Amount"/>
+		<Delete ModifierId="CIVILPRESTIGE_GOVHOUSING" Name="Amount"/>
+		<Delete ModifierId="MILITARYRESEARCH_SEAPORT_SCIENCE_MODIFIER" Name="Amount"/>
+		<Delete ModifierId="MILITARYRESEARCH_MILITARY_ACADEMY_SCIENCE_MODIFIER" Name="Amount"/>
+		<Delete ModifierId="MILITARYRESEARCH_RENAISSANCE_WALLS_SCIENCE_MODIFIER" Name="Amount"/>
+		<Delete ModifierId="LIBERALISM_SPECIALTYAMENITY" Name="Amount"/>
+
 		<Row>
 			<ModifierId>INSULAE_SPECIALTYAMENITY</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<Update>
-			<Where ModifierId="CIVILPRESTIGE_GOVAMENITY" Name="Amount"/>
-			<Set Value="2" />
-		</Update>
-		<Update>
-			<Where ModifierId="CIVILPRESTIGE_GOVHOUSING" Name="Amount"/>
-			<Set Value="1" />
-		</Update>
+		<Row>
+			<ModifierId>CIVILPRESTIGE_GOVAMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILPRESTIGE_GOVHOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 		<Row>
 			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<Update>
-			<Where ModifierId="MILITARYRESEARCH_SEAPORT_SCIENCE_MODIFIER" Name="Amount"/>
-			<Set Value="4" />
-		</Update>
-		<Update>
-			<Where ModifierId="MILITARYRESEARCH_MILITARY_ACADEMY_SCIENCE_MODIFIER" Name="Amount"/>
-			<Set Value="4" />
-		</Update>
-		<Update>
-			<Where ModifierId="MILITARYRESEARCH_RENAISSANCE_WALLS_SCIENCE_MODIFIER" Name="Amount"/>
-			<Set Value="4" />
-		</Update>
+		<Row>
+			<ModifierId>MILITARYRESEARCH_SEAPORT_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARYRESEARCH_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARYRESEARCH_RENAISSANCE_WALLS_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
 		<Row>
 			<ModifierId>THIRDALTERNATIVE_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
 			<Name>BuildingType</Name>
@@ -169,9 +182,10 @@
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
-		<Update>
-			<Where ModifierId="LIBERALISM_SPECIALTYAMENITY" Name="Amount"/>
-			<Set Value="2" />
-		</Update>
+		<Row>
+			<ModifierId>LIBERALISM_SPECIALTYAMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 	</ModifierArguments>
 </GameData>
