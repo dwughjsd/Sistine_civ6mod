@@ -14,6 +14,8 @@
 		<Replace Tag="LOC_BUILDING_SHRINE_NAME" Language="zh_Hans_CN" Text="神祠"/>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_NAME" Language="zh_Hans_CN" Text="露天剧场"/>
 		<Replace Tag="LOC_BUILDING_WORKSHOP_NAME" Language="zh_Hans_CN" Text="工坊"/>
+		<Replace Tag="LOC_BUILDING_CASTLE_NAME" Language="zh_Hans_CN" Text="中古城墙"/>
+		<Replace Tag="LOC_BUILDING_STAR_FORT_NAME" Language="zh_Hans_CN" Text="启蒙城墙"/>
 		<!--Techs and civics-->
 		<Replace Tag="LOC_TECH_POTTERY_NAME" Language="zh_Hans_CN" Text="制陶"/>
 		<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_NAME" Language="zh_Hans_CN" Text="畜牧"/>
