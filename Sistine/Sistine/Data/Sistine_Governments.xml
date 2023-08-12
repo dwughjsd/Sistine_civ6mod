@@ -351,10 +351,11 @@
 		/>
 		<!--DEMOCRACY-->
 		<Row ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
-			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT"
+			ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE"
+			 
 		/>
 		<Row ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_GOLD_SST"
-			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT"
+			ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE"
 		/>
 		<!--COMMUNISM-->
 		<Row ModifierId="COMMUNISM_PRODUCTION_SST"
@@ -692,15 +693,15 @@
 		/>
 		<Update>
 			<Where ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_PRODUCTION" Name="Amount" />
-			<Set Value="20" />
+			<Set Value="10" />
 		</Update>
 		<Update>
 			<Where ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_PRODUCTION" Name="Amount" />
-			<Set Value="20" />
+			<Set Value="10" />
 		</Update>
 		<Update>
 			<Where ModifierId="CORPORATE_LIBERTARIANISM_RESOURCE_EXTRACTION" Name="Amount" />
-			<Set Value="3" />
+			<Set Value="2" />
 		</Update>
 		<Row ModifierId="CORPORATE_LIBERTARIANISM_CAPTURE_CITY_ALWAYS_LOYAL_SST"
 			Name="AlwaysLoyal"
@@ -717,7 +718,7 @@
 		</Update>
 		<Row ModifierId="SYNTHETIC_TECHNOCRACY_SCIENCE_VICTORY_POINT_SST"
 			Name="Amount"
-			Value="2"
+			Value="3"
 		/>
 		<!--DIGITAL_DEMOCRACY-->
 		<Update>
