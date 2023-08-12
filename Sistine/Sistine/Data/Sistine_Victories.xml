@@ -118,7 +118,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DIPLOMATIC_FAVOR" />
-			<Set DefaultValue="0.25" />
+			<Set DefaultValue="0.5" />
 		</Update>
 	</PseudoYields>
 
@@ -210,6 +210,7 @@
 		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FAITH" Value="-25"/>
 
+		<!--To avoid AI selling it at a low price-->
 		<Delete ListType="AncientPseudoYields" Item="PSEUDOYIELD_DIPLOMATIC_FAVOR" Value="-100"/>
 		<Delete ListType="MedievalPseudoYields" Item="PSEUDOYIELD_DIPLOMATIC_FAVOR" Value="100"/>
 

@@ -30,9 +30,8 @@
 		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_PORTAL_USE" Value="10" />
 		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_WATER_TILE" Value="1" />
 		<!--Alliance level-->
-		<Replace Name="ALLIANCE_LEVEL_THREE_XP" Value="240" />
-		<Replace Name="ALLIANCE_LEVEL_TWO_XP" Value="80" />
-		
+		<Replace Name="ALLIANCE_LEVEL_THREE_XP" Value="360" />
+		<Replace Name="ALLIANCE_LEVEL_TWO_XP" Value="120" />
 	</GlobalParameters>
 
 	<MajorStartingUnits>
