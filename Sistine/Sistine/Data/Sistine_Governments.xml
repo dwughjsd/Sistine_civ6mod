@@ -727,7 +727,7 @@
 		</Update>
 		<Row ModifierId="DIGITAL_DEMOCRACY_DISTRICT_TOURISM_SST"
 			Name="Amount"
-			Value="10"
+			Value="3"
 		/>
 		<Row ModifierId="DIGITAL_DEMOCRACY_ROCK_BAND_40_OFF_SST"
 			Name="UnitType"
