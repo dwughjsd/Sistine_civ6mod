@@ -238,9 +238,9 @@
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-20"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_GOVERNMENT" Favored="true"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>
-		
-		<Row ListType="RenaissanceDistricts" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>
-		<Row ListType="IndustrialDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
+
+		<Row ListType="RenaissanceDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
+		<Row ListType="IndustrialDistricts" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>
 
 		<!--They don't know how to use it properly-->
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_PRESERVE" Favored="false"/>
