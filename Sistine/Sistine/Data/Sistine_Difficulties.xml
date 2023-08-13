@@ -22,6 +22,11 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_ECONOMIC_UNION"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SPORTS_MEDIA"/>
 	</TraitModifiers>
+	<TechnologyModifiers>
+		<Row TechnologyType="TECH_PRINTING">
+			<ModifierId>HIGH_DIFFICULTY_AI_REVEAL_MAP</ModifierId>
+		</Row>
+	</TechnologyModifiers>
 	<Modifiers>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST</ModifierId>
@@ -105,6 +110,12 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_STADIUM_REQUIREMENTS</SubjectRequirementSetId>
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PROFESSIONAL_SPORTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_REVEAL_MAP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_EXPLORE_ENTIRE_MAP</ModifierType>
+			<RunOnce>true</RunOnce>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</OwnerRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -286,6 +297,10 @@
 			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PROFESSIONAL_SPORTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -372,6 +387,18 @@
 			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PROFESSIONAL_SPORTS</RequirementSetId>
 			<RequirementId>REQUIRES_HAS_PROFESSIONAL_SPORTS_CIVIC_SST</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_MAJOR_SST</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
@@ -401,6 +428,10 @@
 		<Row>
 			<RequirementId>REQUIRES_HAS_PROFESSIONAL_SPORTS_CIVIC_SST</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_IS_MAJOR_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_MAJOR</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
