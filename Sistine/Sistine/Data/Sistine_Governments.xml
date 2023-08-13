@@ -160,6 +160,18 @@
 		<Row GovernmentType="GOVERNMENT_THEOCRACY"
 			ModifierId="WARS_OF_RELIGION_COMBAT"
 		/>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY"
+			ModifierId="THEOCRACY_SHRINE_FAITH"
+		/>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY"
+			ModifierId="THEOCRACY_SHRINE_CULTURE"
+		/>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY"
+			ModifierId="THEOCRACY_TEMPLE_FAITH"
+		/>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY"
+			ModifierId="THEOCRACY_TEMPLE_CULTURE"
+		/>
 		<!--MERCHANT REPUBLIC-->
 		<Delete GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"
 			ModifierId="MERCHANT_REPUBLIC_GOLD_MODIFIER"
@@ -171,10 +183,13 @@
 			ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
 		/>
 		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"
-			ModifierId="MERCHANT_REPUBLIC_TRADER_DISCOUNT_SST"
+			ModifierId="MERCHANT_REPUBLIC_GOVERNOR_GOLD_PER_POP_SST"
 		/>
 		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"
-			ModifierId="MERCHANT_REPUBLIC_GOLD_PER_DEST_LUXURY_SST"
+			ModifierId="MERCHANT_REPUBLIC_MARKET_SCIENCE"
+		/>
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"
+			ModifierId="MERCHANT_REPUBLIC_BANK_SCIENCE"
 		/>
 		<!--DEMOCRACY-->
 		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
@@ -348,6 +363,19 @@
 		<Row ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
 			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
 		/>
+		<!--THEOCRACY-->
+		<Row ModifierId="THEOCRACY_SHRINE_FAITH"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="THEOCRACY_SHRINE_CULTURE"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="THEOCRACY_TEMPLE_FAITH"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="THEOCRACY_TEMPLE_CULTURE"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
 		<!--MERCHANT REPUBLIC-->
 		<Row ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
 			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER"
@@ -358,20 +386,22 @@
 		<Row ModifierId="MERCHANT_REPUBLIC_GOLD_PER_DEST_LUXURY_SST"
 			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_PER_DESTINATION_LUXURY_FOR_INTERNATIONAL"
 		/>
-		<!--THEOCRACY-->
-		<Delete ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"
-		/>
-		<Row ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"
+		<Row ModifierId="MERCHANT_REPUBLIC_GOVERNOR_GOLD_PER_POP_SST"
 			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
 			SubjectRequirementSetId="CITY_HAS_GOVERNOR"
 		/>
-		<Row ModifierId="THEOCRACY_RELIGIOUS_MODIFIER"
+		<Row ModifierId="MERCHANT_REPUBLIC_GOVERNOR_GOLD_PER_POP_MODIFIER_SST"
 			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_MARKET_SCIENCE"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_BANK_SCIENCE"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE"
 		/>
 		<!--DEMOCRACY-->
 		<Row ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
-			ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE"
-			 
+			ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" 
 		/>
 		<Row ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_GOLD_SST"
 			ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE"
@@ -470,7 +500,7 @@
 		/>
 		<Row ModifierId="AUTOCRACY_GOLD_PER_POP_SST"
 			Name="Amount"
-			Value="1"
+			Value=".5"
 		/>
 		<!--CLASSICAL_REPUBLIC-->
 		<Update>
@@ -484,7 +514,7 @@
 		<!--OLIGARCHY-->
 		<Update>
 			<Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="Amount" />
-			<Set Value="25" />
+			<Set Value="50" />
 		</Update>
 		<!--MONARCHY-->
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
@@ -569,20 +599,56 @@
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
 			Name="Amount"
-			Value="15"
+			Value="10"
 		/>
 		<!--THEOCRACY-->
-		<Row ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"
-			Name="ModifierId"
-			Value="THEOCRACY_RELIGIOUS_MODIFIER"
+		<Row ModifierId="THEOCRACY_SHRINE_FAITH"
+			Name="YieldType"
+			Value="YIELD_FAITH"
 		/>
-		<Row ModifierId="THEOCRACY_RELIGIOUS_MODIFIER"
+		<Row ModifierId="THEOCRACY_SHRINE_FAITH"
+			Name="BuildingType"
+			Value="BUILDING_SHRINE"
+		/>
+		<Row ModifierId="THEOCRACY_SHRINE_FAITH"
+			Name="Amount"
+			Value="2"
+		/>
+		<Row ModifierId="THEOCRACY_SHRINE_CULTURE"
+			Name="YieldType"
+			Value="YIELD_CULTURE"
+		/>
+		<Row ModifierId="THEOCRACY_SHRINE_CULTURE"
+			Name="BuildingType"
+			Value="BUILDING_SHRINE"
+		/>
+		<Row ModifierId="THEOCRACY_SHRINE_CULTURE"
 			Name="Amount"
 			Value="1"
 		/>
-		<Row ModifierId="THEOCRACY_RELIGIOUS_MODIFIER"
+		<Row ModifierId="THEOCRACY_TEMPLE_FAITH"
 			Name="YieldType"
 			Value="YIELD_FAITH"
+		/>
+		<Row ModifierId="THEOCRACY_TEMPLE_FAITH"
+			Name="BuildingType"
+			Value="BUILDING_TEMPLE"
+		/>
+		<Row ModifierId="THEOCRACY_TEMPLE_FAITH"
+			Name="Amount"
+			Value="2"
+		/>
+		<Row ModifierId="THEOCRACY_TEMPLE_CULTURE"
+			Name="YieldType"
+			Value="YIELD_CULTURE"
+		/>
+		<Row ModifierId="THEOCRACY_TEMPLE_CULTURE"
+			Name="BuildingType"
+			Value="BUILDING_TEMPLE"
+		/>
+		<Row ModifierId="THEOCRACY_TEMPLE_CULTURE"
+			Name="Amount"
+			Value="1"
 		/>
 		<Update>
 			<Where ModifierId="THEOCRACY_RELIGIOUS_BUFF" Name="Amount" />
@@ -590,9 +656,45 @@
 		</Update>
 		<Update>
 			<Where ModifierId="THEOCRACY_FAITH_PURCHASE" Name="Amount" />
-			<Set Value="15" />
+			<Set Value="20" />
 		</Update>
 		<!--MERCHANT REPUBLIC-->
+		<Row ModifierId="MERCHANT_REPUBLIC_MARKET_SCIENCE"
+			Name="YieldType"
+			Value="YIELD_SCIENCE"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_MARKET_SCIENCE"
+			Name="BuildingType"
+			Value="BUILDING_MARKET"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_MARKET_SCIENCE"
+			Name="Amount"
+			Value="2"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_BANK_SCIENCE"
+			Name="YieldType"
+			Value="YIELD_SCIENCE"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_BANK_SCIENCE"
+			Name="BuildingType"
+			Value="BUILDING_BANK"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_BANK_SCIENCE"
+			Name="Amount"
+			Value="2"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_GOVERNOR_GOLD_PER_POP_SST"
+			Name="ModifierId"
+			Value="MERCHANT_REPUBLIC_GOVERNOR_GOLD_PER_POP_MODIFIER_SST"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_GOVERNOR_GOLD_PER_POP_MODIFIER_SST"
+			Name="Amount"
+			Value="1"
+		/>
+		<Row ModifierId="MERCHANT_REPUBLIC_GOVERNOR_GOLD_PER_POP_MODIFIER_SST"
+			Name="YieldType"
+			Value="YIELD_GOLD"
+		/>
 		<Row ModifierId="MERCHANT_REPUBLIC_TRADER_DISCOUNT_SST"
 			Name="UnitType"
 			Value="UNIT_TRADER"
@@ -670,7 +772,7 @@
 		<!--FASCISM-->
 		<Update>
 			<Where ModifierId="FASCISM_UNIT_PRODUCTION" Name="Amount" />
-			<Set Value="30" />
+			<Set Value="25" />
 		</Update>
 		<Row ModifierId="FASCISM_MOVEMENT_SST"
 			Name="Amount"
@@ -896,12 +998,21 @@
 		<Row PolicyType="POLICY_GOV_MONARCHY"
 			ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
 		/>
-		<Row PolicyType="POLICY_GOV_MONARCHY"
-			ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
-		/>
 		<!--THEOCRACY-->
 		<Row PolicyType="POLICY_GOV_THEOCRACY"
 			ModifierId="WARS_OF_RELIGION_COMBAT"
+		/>
+		<Row PolicyType="POLICY_GOV_THEOCRACY"
+			ModifierId="THEOCRACY_SHRINE_FAITH"
+		/>
+		<Row PolicyType="POLICY_GOV_THEOCRACY"
+			ModifierId="THEOCRACY_SHRINE_CULTURE"
+		/>
+		<Row PolicyType="POLICY_GOV_THEOCRACY"
+			ModifierId="THEOCRACY_TEMPLE_FAITH"
+		/>
+		<Row PolicyType="POLICY_GOV_THEOCRACY"
+			ModifierId="THEOCRACY_TEMPLE_CULTURE"
 		/>
 		<!--MERCHANT REPUBLIC-->
 		<Delete PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
@@ -911,13 +1022,13 @@
 			ModifierId="MERCHANT_REPUBLIC_DISTRICTS"
 		/>
 		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
-			ModifierId="MERCHANT_REPUBLIC_GOLD_SST"
+			ModifierId="MERCHANT_REPUBLIC_GOVERNOR_GOLD_PER_POP_SST"
 		/>
 		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
-			ModifierId="MERCHANT_REPUBLIC_TRADER_DISCOUNT_SST"
+			ModifierId="MERCHANT_REPUBLIC_MARKET_SCIENCE"
 		/>
 		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"
-			ModifierId="MERCHANT_REPUBLIC_GOLD_PER_DEST_LUXURY_SST"
+			ModifierId="MERCHANT_REPUBLIC_BANK_SCIENCE"
 		/>
 		<!--DEMOCRACY-->
 		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
