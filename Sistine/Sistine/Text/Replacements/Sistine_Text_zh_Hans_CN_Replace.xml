@@ -55,6 +55,7 @@
 		<Replace Tag="LOC_CIVIC_STATE_WORKFORCE_NAME" Language="zh_Hans_CN" Text="国有劳力"/>
 		<Replace Tag="LOC_CIVIC_EARLY_EMPIRE_NAME" Language="zh_Hans_CN" Text="早期帝国"/>
 		<Replace Tag="LOC_CIVIC_DIVINE_RIGHT_NAME" Language="zh_Hans_CN" Text="君权神授"/>
+		<Replace Tag="LOC_CIVIC_REFORMED_CHURCH_NAME" Language="zh_Hans_CN" Text="教会改革"/>
 		<Replace Tag="LOC_CIVIC_CONSERVATION_NAME" Language="zh_Hans_CN" Text="自然保护"/>
 		<Replace Tag="LOC_CIVIC_NUCLEAR_PROGRAM_NAME" Language="zh_Hans_CN" Text="核计划"/>
 		<Replace Tag="LOC_CIVIC_MOBILIZATION_NAME" Language="zh_Hans_CN" Text="动员"/>
@@ -82,7 +83,22 @@
 		<Replace Tag="LOC_UNIT_MACHINE_GUN_NAME" Language="zh_Hans_CN" Text="机枪"/>
 		<Replace Tag="LOC_UNIT_SWORDSMAN_NAME" Language="zh_Hans_CN" Text="剑士"/>
 		<Replace Tag="LOC_UNIT_ARTILLERY_NAME" Language="zh_Hans_CN" Text="火炮"/>
-		
+		<!--Governments-->
+		<Replace Tag="LOC_GOVERNMENT_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁制"/>
+		<Replace Tag="LOC_GOVERNMENT_OLIGARCHY_NAME" Language="zh_Hans_CN" Text="寡头制"/>
+		<Replace Tag="LOC_GOVERNMENT_CLASSICAL_REPUBLIC_NAME" Language="zh_Hans_CN" Text="古典共和制"/>
+		<Replace Tag="LOC_GOVERNMENT_MONARCHY_NAME" Language="zh_Hans_CN" Text="君主制"/>
+		<Replace Tag="LOC_GOVERNMENT_THEOCRACY_NAME" Language="zh_Hans_CN" Text="神权制"/>
+		<Replace Tag="LOC_GOVERNMENT_MERCHANT_REPUBLIC_NAME" Language="zh_Hans_CN" Text="商业共和制"/>
+		<Replace Tag="LOC_GOVERNMENT_FASCISM_NAME" Language="zh_Hans_CN" Text="法西斯主义"/>
+		<Replace Tag="LOC_GOVERNMENT_COMMUNISM_NAME" Language="zh_Hans_CN" Text="共产主义"/>
+		<Replace Tag="LOC_GOVERNMENT_DEMOCRACY_NAME" Language="zh_Hans_CN" Text="民主制"/>
+		<Replace Tag="LOC_GOVERNMENT_CORPORATE_LIBERTARIANISM_NAME" Language="zh_Hans_CN" Text="团体自由意志主义"/>
+		<Replace Tag="LOC_GOVERNMENT_DIGITAL_DEMOCRACY_NAME" Language="zh_Hans_CN" Text="数字化民主"/>
+		<Replace Tag="LOC_GOVERNMENT_SYNTHETIC_TECHNOCRACY_NAME" Language="zh_Hans_CN" Text="人工智能专家统治"/>
+		<!--Policies (incomplete)-->
+		<Replace Tag="LOC_POLICY_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁传承"/>
+		<Replace Tag="LOC_POLICY_MERCHANT_REPUBLIC_NAME" Language="zh_Hans_CN" Text="商业共和传承"/>
 		<!--In-game tooltips-->
 		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE" Language="zh_Hans_CN">
 			<Text>世界领袖目睹{1_Target}让您吃尽苦头，将对接下来您使{1_Target}产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。</Text>
