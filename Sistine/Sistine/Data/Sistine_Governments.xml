@@ -553,7 +553,7 @@
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_FOOD_SST"
 			Name="Amount"
-			Value="3"
+			Value="2"
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
 			Name="YieldType"
@@ -561,7 +561,7 @@
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
 			Name="Amount"
-			Value="3"
+			Value="2"
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
 			Name="YieldType"

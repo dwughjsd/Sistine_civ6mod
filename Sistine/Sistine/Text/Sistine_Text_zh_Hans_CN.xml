@@ -123,16 +123,16 @@
 			<Text>陆地近战、远程和抗骑兵单位+4 [ICON_Strength] 战斗力。击杀单位时可获得等于其 [ICON_Strength] 战斗力50%的 [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST" Language="zh_Hans_CN">
-			<Text>单位经验值+25%。</Text>
+			<Text>单位经验值+50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST" Language="zh_Hans_CN">
-			<Text>拥有区域的所有城市+1 [ICON_HOUSING] 住房、+1 [ICON_Culture] 文化值。</Text>
+			<Text>拥有区域的所有城市+1 [ICON_Amenities] 宜居度、+1 [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_SST" Language="zh_Hans_CN">
 			<Text> [ICON_GreatPerson] 伟人点数+10%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_SST" Language="zh_Hans_CN">
-			<Text>成为一个城邦的宗主国后，首都获得+15%该类城邦提供的产出。每级城墙提供 +2 [ICON_Food] 食物和 +2 [ICON_Production] 生产力，启蒙城墙额外 +1 [ICON_Food] 食物和 +1 [ICON_Production] 生产力。</Text>
+			<Text>成为一个城邦的宗主国后，首都获得+15%该类城邦提供的产出。每级城墙提供 +2 [ICON_Food] 食物和 +2 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST" Language="zh_Hans_CN">
 			<Text>所有城市 [ICON_Food] 食物+15%。</Text>

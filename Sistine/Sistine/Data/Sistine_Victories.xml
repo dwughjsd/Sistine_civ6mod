@@ -34,15 +34,15 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="1.2" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
-			<Set DefaultValue="1.2" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="1.2" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
@@ -51,7 +51,7 @@
 		<!--Let's see if this can become a good heuristic to advance goverment tier. -->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
-			<Set DefaultValue="3.0" />
+			<Set DefaultValue="5.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
@@ -60,7 +60,7 @@
 		<!--Much more important than spy isn't it-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" />
-			<Set DefaultValue="16.0" />
+			<Set DefaultValue="10.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
@@ -76,7 +76,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" />
-			<Set DefaultValue="0.75" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" />
@@ -92,19 +92,19 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_COMBAT" />
-			<Set DefaultValue="0.75" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" />
-			<Set DefaultValue="0.75" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" />
-			<Set DefaultValue="0.75" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SETTLER" />
-			<Set DefaultValue="1.25" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_RESOURCE_LUXURY" />
@@ -124,7 +124,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_SPACE_RACE" />
-			<Set DefaultValue="1000" />
+			<Set DefaultValue="500" />
 		</Update>
 	</PseudoYields>
 
@@ -164,11 +164,6 @@
 		<Row ListType="ReligiousVictoryBuildings" System="Buildings"/>
 		<Row ListType="MilitaryVictoryBuildings" System="Buildings"/>
 	</AiLists>
-
-	<StrategyConditions>
-		<Delete StrategyType="STRATEGY_EARLY_EXPLORATION" ConditionFunction="Fewer Cities" ThresholdValue="1"/>
-		<Row StrategyType="STRATEGY_EARLY_EXPLORATION" ConditionFunction="Fewer Cities" ThresholdValue="4"/>
-	</StrategyConditions>
 
 	<Strategy_Priorities>
 		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalBuildings"/>
@@ -247,9 +242,9 @@
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-20"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_GOVERNMENT" Favored="true"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>
-
+		<Row ListType="ClassicalDistricts" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>
+		
 		<Row ListType="RenaissanceDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
-		<Row ListType="IndustrialDistricts" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>
 
 		<!--They don't know how to use it properly-->
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_PRESERVE" Favored="false"/>
@@ -298,8 +293,7 @@
 		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="-10"/>
 		<!--We really need more improvements!-->
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_TRADE" Value="50"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
 
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
@@ -307,8 +301,7 @@
 		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_FOOD" Value="-10"/>
 		<!--Still, we need more and more improvements!-->
-		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
-		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_UNIT_TRADE" Value="50"/>
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
 
 
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
@@ -326,6 +319,8 @@
 
 		<Delete ListType="ScienceVictoryPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" />
 		<Row ListType="ScienceVictoryPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="ScienceVictoryPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
+
 
 		<!--C'mon it's the era of Gathering Storm-->
 		<Delete ListType="ScienceVictoryProjects"/>
@@ -366,7 +361,7 @@
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="10"/>
 		<Delete ListType="MilitaryVictoryYields" Item="YIELD_PRODUCTION" Value="25"/>
 
-		<Replace ListType="ScienceSensitivity" Item="YIELD_SCIENCE" Value="10"/>
+		<Replace ListType="ScienceSensitivity" Item="YIELD_SCIENCE" Value="25"/>
 		<Replace ListType="CultureSensitivity" Item="YIELD_CULTURE" Value="10"/>
 
 		<Row ListType="CultureVictoryBuildings" Item="BUILDING_AIRPORT" Favored="true"/>
