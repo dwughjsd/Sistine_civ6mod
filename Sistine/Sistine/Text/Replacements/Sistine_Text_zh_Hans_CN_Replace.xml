@@ -96,6 +96,21 @@
 		<Replace Tag="LOC_GOVERNMENT_CORPORATE_LIBERTARIANISM_NAME" Language="zh_Hans_CN" Text="团体自由意志主义"/>
 		<Replace Tag="LOC_GOVERNMENT_DIGITAL_DEMOCRACY_NAME" Language="zh_Hans_CN" Text="数字化民主"/>
 		<Replace Tag="LOC_GOVERNMENT_SYNTHETIC_TECHNOCRACY_NAME" Language="zh_Hans_CN" Text="人工智能专家统治"/>
+		<!--Appeal-->
+		<Replace Tag="LOC_TOOLTIP_APPEAL_BREATHTAKING" Language="zh_Hans_CN" Text="惊艳"/>
+		<Replace Tag="LOC_TOOLTIP_APPEAL_CHARMING" Language="zh_Hans_CN" Text="迷人"/>
+		<Replace Tag="LOC_TOOLTIP_APPEAL_AVERAGE" Language="zh_Hans_CN" Text="普通"/>
+		<Replace Tag="LOC_TOOLTIP_APPEAL_UNINVITING" Language="zh_Hans_CN" Text="无趣"/>
+		<Replace Tag="LOC_TOOLTIP_APPEAL_DISGUSTING" Language="zh_Hans_CN" Text="糟糕"/>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
+			<Text>无趣的社区提供3个 [ICON_Housing] 住房。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_6" Language="zh_Hans_CN">
+			<Text>糟糕的社区提供2个 [ICON_Housing] 住房。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>根据所在单元格的魅力，为您的城市提供住房的区域：[NEWLINE]惊艳：+6 [ICON_Housing] 住房。[NEWLINE]迷人：+5 [ICON_Housing] 住房。[NEWLINE]普通：+4 [ICON_Housing] 住房。[NEWLINE]无趣：+3 [ICON_Housing] 住房。[NEWLINE]糟糕：+2 [ICON_Housing] 住房。</Text>
+		</Replace>
 		<!--Policies (incomplete)-->
 		<Replace Tag="LOC_POLICY_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁传承"/>
 		<Replace Tag="LOC_POLICY_MERCHANT_REPUBLIC_NAME" Language="zh_Hans_CN" Text="商业共和传承"/>

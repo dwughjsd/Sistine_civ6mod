@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<PolicyModifiers>
+		<!--R.I.P. Public Transport, who was killed but readded for 2 times-->
+		<Delete ModifierId="PUBLICTRANSPORT_FARMREPLACEGOLD"/>
 		<Delete PolicyType="POLICY_INSULAE" ModifierId="INSULAE_SPECIALTYHOUSING"/>
 		<Row>
 			<PolicyType>POLICY_INSULAE</PolicyType>

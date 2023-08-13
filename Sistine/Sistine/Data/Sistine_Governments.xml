@@ -273,16 +273,19 @@
 			SubjectRequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
 		/>
 		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
-			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
 			SubjectRequirementSetId="BUILDING_IS_PALACE"
 		/>
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
-			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
 			SubjectRequirementSetId="CITY_HAS_DISTRICT_GOVERNMENT_SST"
 		/>
 		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
-			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"
+			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
 			SubjectRequirementSetId="CITY_HAS_DISTRICT_DIPLOMATIC_QUARTER_SST"
+		/>
+		<Row ModifierId="AUTOCRACY_GOLD_PER_POP_SST"
+			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION"			
 		/>
 		<!--CLASSICAL_REPUBLIC-->
 		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
@@ -449,28 +452,23 @@
 			Name="Amount"
 			Value="2"
 		/>
-
 		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
-			Name="YieldType"
-			Value="YIELD_GOLD"
-		/>
-		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
-			Name="Amount"
-			Value="1"
+			Name="ModifierId"
+			Value="AUTOCRACY_GOLD_PER_POP_SST"
 		/>
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
+			Name="ModifierId"
+			Value="AUTOCRACY_GOLD_PER_POP_SST"
+		/>
+		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
+			Name="ModifierId"
+			Value="AUTOCRACY_GOLD_PER_POP_SST"
+		/>
+		<Row ModifierId="AUTOCRACY_GOLD_PER_POP_SST"
 			Name="YieldType"
 			Value="YIELD_GOLD"
 		/>
-		<Row ModifierId="AUTOCRACY_DIPLOMATIC_GOLD_PER_POP_SST"
-			Name="Amount"
-			Value="1"
-		/>
-		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
-			Name="YieldType"
-			Value="YIELD_GOLD"
-		/>
-		<Row ModifierId="AUTOCRACY_GOVERNMENT_GOLD_PER_POP_SST"
+		<Row ModifierId="AUTOCRACY_GOLD_PER_POP_SST"
 			Name="Amount"
 			Value="1"
 		/>
