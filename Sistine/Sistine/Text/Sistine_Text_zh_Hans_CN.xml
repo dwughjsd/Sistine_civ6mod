@@ -132,22 +132,22 @@
 			<Text> [ICON_GreatPerson] 伟人点数+10%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_SST" Language="zh_Hans_CN">
-			<Text>成为一个城邦的宗主国后，首都获得+15%该类城邦提供的产出。每级城墙提供 +1 [ICON_Food] 食物和 +1 [ICON_Production] 生产力，启蒙城墙额外 +1 [ICON_Food] 食物和 +1 [ICON_Production] 生产力。</Text>
+			<Text>成为一个城邦的宗主国后，首都获得+15%该类城邦提供的产出。每级城墙提供 +2 [ICON_Food] 食物和 +2 [ICON_Production] 生产力，启蒙城墙额外 +1 [ICON_Food] 食物和 +1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST" Language="zh_Hans_CN">
-			<Text>所有城市 [ICON_Food] 食物+10%。</Text>
+			<Text>所有城市 [ICON_Food] 食物+15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_SST" Language="zh_Hans_CN">
-			<Text>有 [ICON_GOVERNOR] 总督的城市每位 [ICON_Citizen] 市民提供0.5 [ICON_Faith] 信仰值。军事单位对异宗教单位+4 [ICON_Strength] 战斗力。进行神学战斗时+4 [ICON_Religion] 宗教战斗力。</Text>
+			<Text>有 [ICON_GOVERNOR] 总督的城市每位 [ICON_Citizen] 市民提供+1 [ICON_Faith] 信仰值。军事单位对异宗教单位+4 [ICON_Strength] 战斗力。进行神学战斗时+4 [ICON_Religion] 宗教战斗力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_SST" Language="zh_Hans_CN">
-			<Text>使用 [ICON_Faith] 信仰值购买可享受10%折扣。</Text>
+			<Text>使用 [ICON_Faith] 信仰值购买可享受15%折扣。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_SST" Language="zh_Hans_CN">
-			<Text>国际 [ICON_TradeRoute] 贸易路线的终点城市每开发1处奢侈资源，便+2 [ICON_Gold] 金币。购买商人的价格减少25%。</Text>
+			<Text>国际 [ICON_TradeRoute] 贸易路线的终点城市每开发1处奢侈资源，便+4 [ICON_Gold] 金币。购买商人的价格减少50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST" Language="zh_Hans_CN">
-			<Text>所有城市 [ICON_Gold] 金币+10%。</Text>
+			<Text>所有城市 [ICON_Gold] 金币+15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_SST" Language="zh_Hans_CN">
 			<Text>所有单位攻击时+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区域（ZOC）。</Text>
@@ -159,7 +159,7 @@
 			<Text>工厂为城市+25% [ICON_Science] 科技值。建造工业区建筑+100% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST" Language="zh_Hans_CN">
-			<Text>所有城市 [ICON_Production] 生产力+15%。</Text>
+			<Text>所有城市 [ICON_Production] 生产力+20%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST" Language="zh_Hans_CN">
 			<Text>每个区域提供1点 [ICON_Culture] 文化和2点 [ICON_Gold] 金钱。同盟点数每回合增加0.5。</Text>
