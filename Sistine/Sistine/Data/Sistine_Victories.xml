@@ -8,20 +8,20 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_GENERAL" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="0.75" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="0.75" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<!--Trade!-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<!--Really no need to spam prophet. Let fewer civs build it-->
 		<Update>
@@ -30,19 +30,19 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="1.2" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="1.2" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="1.2" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
@@ -323,6 +323,9 @@
 		<Row ListType="ScienceVictoryYields" Item="YIELD_PRODUCTION" Value="25"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_CULTURE" Value="-25"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_FAITH" Value="-75"/>
+
+		<Delete ListType="ScienceVictoryPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" />
+		<Row ListType="ScienceVictoryPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
 		<Delete ListType="ScienceVictoryProjects"/>
