@@ -48,7 +48,7 @@
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
 			<Set DefaultValue="12.0" />
 		</Update>
-		<!--Let's see if this can become a good heuristic to advance goverment tier. Don't let it be too high or AI will stuck at Monarchy. TODO: Overhaul Monarchy to prevent this issue forever-->
+		<!--Let's see if this can become a good heuristic to advance goverment tier. -->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
 			<Set DefaultValue="3.0" />
@@ -88,7 +88,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="2" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_COMBAT" />
@@ -121,6 +121,10 @@
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DIPLOMATIC_FAVOR" />
 			<Set DefaultValue="0.5" />
+		</Update>
+		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_SPACE_RACE" />
+			<Set DefaultValue="1000" />
 		</Update>
 	</PseudoYields>
 
@@ -226,7 +230,7 @@
 		<Delete ListType="ModernYields" Item="YIELD_SCIENCE"/>
 		
 		<Row ListType="DefaultYieldBias" Item="YIELD_PRODUCTION" Value="30"/>
-		<Row ListType="DefaultYieldBias" Item="YIELD_SCIENCE" Value="20"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="40"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="25"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="20"/>
@@ -283,13 +287,14 @@
 
 
 		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
 
 		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="5"/>
+		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="-10"/>
 		<!--We really need more improvements!-->
@@ -297,7 +302,7 @@
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_TRADE" Value="50"/>
 
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="10"/>
-		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="5"/>
+		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_CULTURE" Value="5"/>
 		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_FOOD" Value="-10"/>
