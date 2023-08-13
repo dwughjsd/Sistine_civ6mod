@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_BUILDER" />
+			<Set PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RANGER" />
+			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SCOTTISH_HIGHLANDER" />
+			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CREE_OKIHTCITAW" />
+			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPEC_OPS" />
+			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SKIRMISHER" />
+			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_INCA_WARAKAQ" />
+			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ROCK_BAND" />
+			<Set PseudoYieldType="" />
+		</Update>
+	</Units>
 	<Units_XP2>
 		<!--So that you silly AIs won't use up all your fxxking resources!-->
 		<Update>
@@ -83,16 +117,7 @@
 			<Set ResourceCost="10" ResourceMaintenanceType="" ResourceMaintenanceAmount="0"/>
 		</Update>
 	</Units_XP2>
-	<Units>
-		<Update>
-			<Where UnitType="UNIT_BUILDER" />
-			<Set PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
-		</Update>
-		<Update>
-			<Where UnitType="UNIT_ROCK_BAND" />
-			<Set PseudoYieldType="" />
-		</Update>
-	</Units>
+
 	<UnitOperations>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_DISRUPT_ROCKETRY" />

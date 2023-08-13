@@ -161,6 +161,11 @@
 		<Row ListType="MilitaryVictoryBuildings" System="Buildings"/>
 	</AiLists>
 
+	<StrategyConditions>
+		<Delete StrategyType="STRATEGY_EARLY_EXPLORATION" ConditionFunction="Fewer Cities" ThresholdValue="1"/>
+		<Row StrategyType="STRATEGY_EARLY_EXPLORATION" ConditionFunction="Fewer Cities" ThresholdValue="4"/>
+	</StrategyConditions>
+
 	<Strategy_Priorities>
 		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalBuildings"/>
 		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalDistricts"/>

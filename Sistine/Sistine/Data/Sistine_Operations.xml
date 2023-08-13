@@ -47,12 +47,12 @@
 		<Replace TeamName="City Naval Attack Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
 		<!--Attack walled cities-->
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_MELEE" MinNumber="2" />
-		<Replace TeamName="City Attack Force" AiType="UNITTYPE_RANGED" MinNumber="2" MaxPercentage="40"/>
+		<Replace TeamName="City Attack Force" AiType="UNITTYPE_RANGED" MinNumber="2" MaxNumber="8" MaxPercentage="40"/>
 		<Replace TeamName="City Attack Force" AiType="UNITAI_COMBAT" MinNumber="6" MaxNumber="16"/>
-		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE" MinPercentage="10" MaxPercentage="20"/>
+		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE" MaxPercentage="20" MaxNumber="3"/>
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_AIR_SIEGE" MinNumber="0" MaxNumber="3" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE_SUPPORT" AiTypeDependence="UNITTYPE_MELEE" MinNumber="0" MaxNumber="2" />
-		<Delete TeamName="City Attack Force" AiType="UNITTYPE_SIEGE_ALL" MinNumber="1" />
+		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE_ALL" MinNumber="1"/>
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_CIVILIAN" MaxNumber="0" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_AIR" MaxNumber="0" />
@@ -122,27 +122,27 @@
 	    <Delete ListType="Default Tactical" Item="Wander Near City" />
 		<Delete ListType="Default Tactical" Item="Wander" />
 
-		<Row ListType="Default Tactical" Item="Leader Formation" Value="1" />
-		<Row ListType="Default Tactical" Item="Support Formation" Value="10" />
-		<Row ListType="Default Tactical" Item="Gather Goody Hut" Value="20" />
-		<Row ListType="Default Tactical" Item="Make Military Formation" Value="30" />
-		<Row ListType="Default Tactical" Item="Promotion" Value="40"/>
-		<Row ListTYpe="Default Tactical" Item="Attack District" Value="50" />
-	    <Row ListType="Default Tactical" Item="Attack High Priority" Value="60" />
-	    <Row ListType="Default Tactical" Item="Attack Camps" Value="70"/>
-		<Row ListType="Default Tactical" Item="Attack Medium Priority" Value="80" />
-		<Row ListType="Default Tactical" Item="Attack Civilians" Value="90" />
-		<Row ListType="Default Tactical" Item="Move to Safety" Value="100" />
-		<Row ListType="Default Tactical" Item="Heal" Value="110" />
-		<Row ListType="Default Tactical" Item="Attack Low Priority" Value="120" />
-		<Row ListType="Default Tactical" Item="Air Assault" Value="130" />
-		<Row ListType="Default Tactical" Item="Air Rebase" Value="140" />
-		<Row ListType="Default Tactical" Item="Air Deploy" Value="150" />
-	    <Row ListTYpe="Default Tactical" Item="Pillage District" Value="160" />
-	    <Row ListTYpe="Default Tactical" Item="Pillage Improvement" Value="170" />
-	    <Row ListType="Default Tactical" Item="Coastal Raid" Value="180" />
-		<Row ListType="Default Tactical" Item="Chase Target" Value="190" />
-	    <Row ListType="Default Tactical" Item="Wander Near City" Value="200" />
-		<Row ListType="Default Tactical" Item="Wander" Value="210" />
+		<Row ListType="Default Tactical" Item="Leader Formation" />
+		<Row ListType="Default Tactical" Item="Support Formation" />
+		<Row ListType="Default Tactical" Item="Gather Goody Hut" />
+		<Row ListType="Default Tactical" Item="Make Military Formation" />
+		<Row ListType="Default Tactical" Item="Promotion" />
+		<Row ListTYpe="Default Tactical" Item="Attack District" />
+	    <Row ListType="Default Tactical" Item="Attack High Priority" />
+	    <Row ListType="Default Tactical" Item="Attack Camps" />
+		<Row ListType="Default Tactical" Item="Attack Medium Priority" />
+		<Row ListType="Default Tactical" Item="Attack Civilians" />
+		<Row ListType="Default Tactical" Item="Move to Safety" />
+		<Row ListType="Default Tactical" Item="Heal" />
+		<Row ListType="Default Tactical" Item="Attack Low Priority" />
+		<Row ListType="Default Tactical" Item="Air Assault" />
+		<Row ListType="Default Tactical" Item="Air Rebase" />
+		<Row ListType="Default Tactical" Item="Air Deploy" />
+	    <Row ListTYpe="Default Tactical" Item="Pillage District" />
+	    <Row ListTYpe="Default Tactical" Item="Pillage Improvement" />
+	    <Row ListType="Default Tactical" Item="Coastal Raid" />
+		<Row ListType="Default Tactical" Item="Chase Target" />
+	    <Row ListType="Default Tactical" Item="Wander Near City" />
+		<Row ListType="Default Tactical" Item="Wander" />
 	</AiFavoredItems>
 </GameData>
