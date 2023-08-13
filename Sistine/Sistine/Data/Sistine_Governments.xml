@@ -431,7 +431,7 @@
 		/>
 		<Row ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
 			Name="Amount"
-			Value="3"
+			Value="2"
 		/>
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
 			Name="YieldType"
@@ -439,7 +439,7 @@
 		/>
 		<Row ModifierId="AUTOCRACY_DIPLOMATIC_CULTURE_SST"
 			Name="Amount"
-			Value="3"
+			Value="2"
 		/>
 		<Row ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
 			Name="YieldType"
@@ -447,7 +447,7 @@
 		/>
 		<Row ModifierId="AUTOCRACY_GOVERNMENT_CULTURE_SST"
 			Name="Amount"
-			Value="3"
+			Value="2"
 		/>
 
 		<Row ModifierId="AUTOCRACY_CAPITAL_GOLD_PER_POP_SST"
