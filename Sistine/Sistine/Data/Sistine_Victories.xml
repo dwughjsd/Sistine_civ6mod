@@ -23,7 +23,6 @@
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" />
 			<Set DefaultValue="1.5" />
 		</Update>
-		<!--Really no need to spam prophet. Let fewer civs build it-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
 			<Set DefaultValue="0.5" />
@@ -51,7 +50,7 @@
 		<!--Let's see if this can become a good heuristic to advance goverment tier. -->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
-			<Set DefaultValue="5.0" />
+			<Set DefaultValue="7.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
@@ -60,7 +59,7 @@
 		<!--Much more important than spy isn't it-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" />
-			<Set DefaultValue="10.0" />
+			<Set DefaultValue="8.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
@@ -87,12 +86,8 @@
 			<Set DefaultValue="30" />
 		</Update>
 		<Update>
-			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
-			<Set DefaultValue="2" />
-		</Update>
-		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_COMBAT" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.6" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" />
@@ -227,7 +222,7 @@
 		<Row ListType="DefaultYieldBias" Item="YIELD_PRODUCTION" Value="30"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="40"/>
-		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="25"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FAITH" Value="-25"/>
 
@@ -236,16 +231,16 @@
 		<Delete ListType="MedievalPseudoYields" Item="PSEUDOYIELD_DIPLOMATIC_FAVOR" Value="100"/>
 
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
-		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="10"/>
-		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="5"/>
-		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="15"/>
+		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="20"/>
+		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="10"/>
+		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-20"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_GOVERNMENT" Favored="true"/>
 		<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>
-		<Row ListType="ClassicalDistricts" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>
 		
-		<Row ListType="RenaissanceDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
-
+		<!--Too late-->
+		<Row ListType="ClassicalDistricts" Item="DISTRICT_HOLY_SITE" Favored="false"/>
+		
 		<!--They don't know how to use it properly-->
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_PRESERVE" Favored="false"/>
 
@@ -258,6 +253,7 @@
 		<Row ListType="IndustrialBuildings" Item="BUILDING_CHANCERY" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_FACTORY" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_PUBLIC_SCHOOL" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_RESEARCH_LAB" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_COAL_POWER_PLANT" Favored="true"/>
 
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
@@ -271,56 +267,44 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
 
 		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="10"/>
-		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
-		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="5"/>
+		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-30"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
+		
 		<!--We need more improvements!-->
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_UNIT_TRADE" Value="50"/>
 
-
-		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="30"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
 
-		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="5"/>
-		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="20"/>
+		<Row ListType="IndustrialYields" Item="YIELD_PRODUCTION" Value="10"/>
+		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="10"/>
-		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="-10"/>
+		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
+		
 		<!--We really need more improvements!-->
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
 
-		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="10"/>
-		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="ModernYields" Item="YIELD_CULTURE" Value="5"/>
 		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
-		<Row ListType="ModernYields" Item="YIELD_FOOD" Value="-10"/>
-		<!--Still, we need more and more improvements!-->
-		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
-
 
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
-		<Replace ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
-		<Replace ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="5"/>
+		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER"/>
+		<Row ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-10"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
 
 		<Delete ListType="ScienceVictoryYields" Item="YIELD_SCIENCE" Value="50"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_SCIENCE" Value="100"/>
-		<Row ListType="ScienceVictoryYields" Item="YIELD_PRODUCTION" Value="25"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_CULTURE" Value="-25"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_FAITH" Value="-75"/>
-
-		<Delete ListType="ScienceVictoryPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" />
-		<Row ListType="ScienceVictoryPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
-		<Row ListType="ScienceVictoryPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
-
 
 		<!--C'mon it's the era of Gathering Storm-->
 		<Delete ListType="ScienceVictoryProjects"/>
@@ -331,8 +315,8 @@
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" Favored="true"/>
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies-->
-		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" Value="20"/>
-		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" Value="20"/>
+		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
 
@@ -341,6 +325,7 @@
 		<Replace ListType="CultureVictoryYields" Item="YIELD_FAITH" Value="25"/>
 		<Replace ListType="CultureLoverCulturePreference" Item="YIELD_CULTURE" Value="10"/>
 		<Replace ListType="GreeceYields" Item="YIELD_CULTURE" Value="10"/>
+		
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_WONDER" Value="200"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="400"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
