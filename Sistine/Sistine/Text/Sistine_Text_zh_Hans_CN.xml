@@ -174,16 +174,16 @@
 			<Text>商业中心和军营向城市提供10% [ICON_Production] 生产力和10% [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_DIGITAL_DEMOCRACY_SST" Language="zh_Hans_CN">
-			<Text>所有城市+3 [ICON_Amenities] 宜居度。所有城市的每个专业化区域提供+3 [ICON_Tourism] 旅游业绩。</Text>
+			<Text>所有城市+3 [ICON_Amenities] 宜居度。所有城市的每个区域提供+3 [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY_SST" Language="zh_Hans_CN">
-			<Text>购买摇滚乐队需要的 [ICON_Faith] 信仰-40%。</Text>
+			<Text>+25% [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_SYNTHETIC_TECHNOCRACY_SST" Language="zh_Hans_CN">
 			<Text>所有城市获得+6 [ICON_Power] 电力。您发射的系外行星探索飞船提速3光年每回合。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST" Language="zh_Hans_CN">
-			<Text>建造城市项目时城市的 [ICON_Production] 生产力+40%。</Text>
+			<Text>学院和工业区向城市提供20% [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>法西斯主义提供+5 [ICON_Strength] 战斗力</Text>
