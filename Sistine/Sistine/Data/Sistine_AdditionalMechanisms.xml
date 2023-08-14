@@ -244,6 +244,7 @@
 		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
 		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_FACTORY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
 		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_FACTORY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
 		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
 		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
 		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
