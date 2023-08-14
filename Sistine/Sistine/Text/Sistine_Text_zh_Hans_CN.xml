@@ -191,9 +191,6 @@
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>法西斯主义提供+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区。</Text>
 		</Replace>
-		<Replace Tag="LOC_POLICY_INSULAE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有拥有2个区域以上的城市+1 [ICON_Amenities] 宜居度。</Text>
-		</Replace>
 		<Replace Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有拥有至少3个独立区域的城市+2 [ICON_Housing] 住房，+1 [ICON_Amenities] 宜居度。</Text>
 		</Replace>

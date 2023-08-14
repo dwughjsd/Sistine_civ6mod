@@ -3,11 +3,6 @@
 	<PolicyModifiers>
 		<!--R.I.P. Public Transport, who was killed but readded for 2 times-->
 		<Delete ModifierId="PUBLICTRANSPORT_FARMREPLACEGOLD"/>
-		<Delete PolicyType="POLICY_INSULAE" ModifierId="INSULAE_SPECIALTYHOUSING"/>
-		<Row>
-			<PolicyType>POLICY_INSULAE</PolicyType>
-			<ModifierId>INSULAE_SPECIALTYAMENITY</ModifierId>
-		</Row>
 		<Row>
 			<PolicyType>POLICY_MEDINA_QUARTER</PolicyType>
 			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
@@ -34,11 +29,6 @@
 		</Row>
 	</PolicyModifiers>
 	<Modifiers>
-		<Row>
-			<ModifierId>INSULAE_SPECIALTYAMENITY</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
-			<SubjectRequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
 		<Row>
 			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
@@ -73,12 +63,6 @@
 		<Delete ModifierId="MILITARYRESEARCH_MILITARY_ACADEMY_SCIENCE_MODIFIER" Name="Amount"/>
 		<Delete ModifierId="MILITARYRESEARCH_RENAISSANCE_WALLS_SCIENCE_MODIFIER" Name="Amount"/>
 		<Delete ModifierId="LIBERALISM_SPECIALTYAMENITY" Name="Amount"/>
-
-		<Row>
-			<ModifierId>INSULAE_SPECIALTYAMENITY</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
 		<Row>
 			<ModifierId>CIVILPRESTIGE_GOVAMENITY</ModifierId>
 			<Name>Amount</Name>
