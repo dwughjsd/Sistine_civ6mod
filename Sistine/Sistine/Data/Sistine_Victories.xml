@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Strategies>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" />
+			<Set NumConditionsNeeded="2" />
+		</Update>
+	</Strategies>
+
+	<StrategyConditions>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Good Culture"/>
+			<Set ThresholdValue="20" />
+		</Update>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Great Writer"/>
+			<Set ThresholdValue="2" />
+		</Update>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Great Artist"/>
+			<Set ThresholdValue="2" />
+		</Update>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Great Musician"/>
+			<Set ThresholdValue="2" />
+		</Update>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Great Works"/>
+			<Set ThresholdValue="5" />
+		</Update>
+		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Exclusive="true"/>
+	</StrategyConditions>
 	<PseudoYields>
 		<!--Replacing PseudoYields will cause issues. Be sure not to replace but only use update-->
 		<Update>
@@ -317,8 +347,8 @@
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EARTH_SATELLITE" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MOON_LANDING" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MARS_BASE" Favored="true"/>
-		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" Favored="true"/>
+		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies-->
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" />
@@ -332,7 +362,7 @@
 		<Replace ListType="CultureLoverCulturePreference" Item="YIELD_CULTURE" Value="10"/>
 		<Replace ListType="GreeceYields" Item="YIELD_CULTURE" Value="10"/>
 		
-		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_WONDER" Value="200"/>
+		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_WONDER" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="400"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>
