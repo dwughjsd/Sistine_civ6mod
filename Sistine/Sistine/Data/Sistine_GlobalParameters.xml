@@ -18,6 +18,8 @@
 		<Replace Name="CIVIC_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
+		<!--Slightly ramp up tourism from wonders-->
+		<Replace Name="TOURISM_BASE_FROM_WONDER" Value="4" />
 		<!--Eras tweaks-->
 		<!--
 		<Replace Name="DARK_AGE_SCORE_BASE_THRESHOLD" Value="12" />
