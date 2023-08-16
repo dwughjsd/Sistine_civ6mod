@@ -74,7 +74,7 @@
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_DAM" />
-			<Set Cost="60" CostProgressionParam1="400"/>
+			<Set Cost="60" CostProgressionParam1="400" PlunderAmount="50"/>
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_SPACEPORT" />
