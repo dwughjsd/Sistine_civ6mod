@@ -367,12 +367,12 @@
 		<!--Theater Square-->
 		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="1"/>
 		<!--Temporalily set all non-unique person yield to Firaxis value-->
-		<Update><Where BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" GreatWorkSlotType="GREATWORKSLOT_ART"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="2"/></Update>
-		<Update><Where BuildingType="BUILDING_HERMITAGE" GreatWorkSlotType="GREATWORKSLOT_ART"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="2"/></Update>
-		<Update><Where BuildingType="BUILDING_PALACE" GreatWorkSlotType="GREATWORKSLOT_PALACE"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="2"/></Update>
-		<Update><Where BuildingType="BUILDING_MUSEUM_ART" GreatWorkSlotType="GREATWORKSLOT_ART"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="2"/></Update>
-		<Update><Where BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="2"/></Update>
-		<Update><Where BuildingType="BUILDING_APADANA" GreatWorkSlotType="GREATWORKSLOT_PALACE"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="2"/></Update>
+		<Update><Where BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" GreatWorkSlotType="GREATWORKSLOT_ART"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<Update><Where BuildingType="BUILDING_HERMITAGE" GreatWorkSlotType="GREATWORKSLOT_ART"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<Update><Where BuildingType="BUILDING_PALACE" GreatWorkSlotType="GREATWORKSLOT_PALACE"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<Update><Where BuildingType="BUILDING_MUSEUM_ART" GreatWorkSlotType="GREATWORKSLOT_ART"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<Update><Where BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<Update><Where BuildingType="BUILDING_APADANA" GreatWorkSlotType="GREATWORKSLOT_PALACE"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
 		<!--Holy Site-->
 		<Delete BuildingType="BUILDING_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
 		<Delete BuildingType="BUILDING_PRASAT" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>

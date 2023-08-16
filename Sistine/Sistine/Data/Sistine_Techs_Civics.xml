@@ -442,7 +442,7 @@
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_HUMANISM" />
-			<Set Cost="660"/>
+			<Set Cost="660" Description="LOC_CIVIC_HUMANISM_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_DIPLOMATIC_SERVICE" />
@@ -478,7 +478,7 @@
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_NATURAL_HISTORY" />
-			<Set Cost="1230"/>
+			<Set Cost="1230" Description="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_SCORCHED_EARTH" />
@@ -502,7 +502,7 @@
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_MASS_MEDIA" />
-			<Set Cost="1580"/>
+			<Set Cost="1580" Description="LOC_CIVIC_MASS_MEDIA_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_MOBILIZATION" />
@@ -534,7 +534,7 @@
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CULTURAL_HERITAGE" />
-			<Set Cost="2400"/>
+			<Set Cost="2400" Description="LOC_CIVIC_CULTURAL_HERITAGE_DESCRIPTION"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_RAPID_DEPLOYMENT" />
@@ -550,7 +550,7 @@
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_SOCIAL_MEDIA" />
-			<Set Cost="3600"/>
+			<Set Cost="3600" Description="LOC_CIVIC_SOCIAL_MEDIA_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_FUTURE_CIVIC" />
@@ -558,7 +558,8 @@
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_ENVIRONMENTALISM" />
-			<Set Cost="3600"/>
+			<!--Temp disable it. TODO: Fix-->
+			<Set Cost="3600" Description=""/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" />
@@ -633,27 +634,9 @@
 		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_CULTURAL_HEGEMONY"/>
 	</CivicPrereqs>
 
-	<Civics>
-		<Update>
-			<Where CivicType="CIVIC_HUMANISM" />
-			<Set>
-				<Description>LOC_CIVIC_HUMANISM_DESCRIPTION_SST</Description>
-			</Set>
-		</Update>
-		<Update>
-			<Where CivicType="CIVIC_MASS_MEDIA" />
-			<Set>
-				<Description>LOC_CIVIC_MASS_MEDIA_DESCRIPTION_SST</Description>
-			</Set>
-		</Update>
-		<Update>
-			<Where CivicType="CIVIC_SOCIAL_MEDIA" />
-			<Set>
-				<Description>LOC_CIVIC_SOCIAL_MEDIA_DESCRIPTION_SST</Description>
-			</Set>
-		</Update>
-	</Civics>
 	<CivicModifiers>
+		<Row CivicType="CIVIC_HUMANISM" ModifierId="CIVIC_GENERATE_LAND_ANTIQUITIES" />
+		<Delete CivicType="CIVIC_NATURAL_HISTORY" ModifierId="CIVIC_GENERATE_LAND_ANTIQUITIES" />
 		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="HERITAGE_SCULPTURETOURISM" />
 		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="HERITAGE_PORTRAITTOURISM" />
 		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="HERITAGE_LANDSCAPETOURISM" />
@@ -662,7 +645,9 @@
 		<Row CivicType="CIVIC_CULTURAL_HERITAGE" ModifierId="HERITAGE_ARTIFACTTOURISM" />
 		<Row CivicType="CIVIC_CONSERVATION" ModifierId="CONSERVATION_NATIONAL_PARKS_TOURISM" />
 		<Delete CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
+		<!-- Doesn't work. Needs fix
 		<Row CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_GREEN_ENERGY_TOURISM" />
+		-->
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="CRISTOREDENTOR_BEACHTOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
 	</CivicModifiers>
@@ -698,13 +683,14 @@
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
-		<!--TODO: Move it to wonder overhaul-->
+		<!--TODO: Try to fix it
 		<Update>
 			<Where ModifierId="BIOSPHERE_GREEN_ENERGY_TOURISM" Name="Amount"/>
 			<Set>
-				<Value>50</Value>
+				<Value>100</Value>
 			</Set>
 		</Update>
+		 -->
 		<Row>
 			<ModifierId>CONSERVATION_NATIONAL_PARKS_TOURISM</ModifierId>
 			<Name>Amount</Name>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<GreatWork_YieldChanges>
+		<Update><Where GreatWorkType="GREATWORK_BHASA_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BHASA_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_HOMER_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_HOMER_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_OVID_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_OVID_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_QU_YUAN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_QU_YUAN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CHAUCER_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CHAUCER_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LI_BAI_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LI_BAI_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MURASAKI_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MURASAKI_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CAVENDISH_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CAVENDISH_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CERVANTES_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CERVANTES_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MACHIAVELLI_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MACHIAVELLI_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SHAKESPEARE_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SHAKESPEARE_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_D_AULNOY_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_D_AULNOY_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_PUSHKIN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_PUSHKIN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_POE_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_POE_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_AUSTEN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_AUSTEN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOETHE_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOETHE_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SHELLEY_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SHELLEY_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_JOYCE_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_JOYCE_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DICKINSON_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DICKINSON_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TOLSTOY_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TOLSTOY_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TWAIN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TWAIN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_FITZGERALD_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_FITZGERALD_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_WELLS_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_WELLS_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TAGORE_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TAGORE_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CAPEK_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CAPEK_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SUN_TZU" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RUBLEV_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RUBLEV_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RUBLEV_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BOSCH_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BOSCH_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BOSCH_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DONATELLO_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DONATELLO_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DONATELLO_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MICHELANGELO_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MICHELANGELO_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MICHELANGELO_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_YING_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_YING_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_YING_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TITIAN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TITIAN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TITIAN_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GRECO_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GRECO_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GRECO_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_REMBRANDT_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_REMBRANDT_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_REMBRANDT_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ANGUISSOLA_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ANGUISSOLA_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ANGUISSOLA_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KAUFFMAN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KAUFFMAN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KAUFFMAN_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_HOKUSAI_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_HOKUSAI_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_HOKUSAI_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_EOP_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_EOP_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_EOP_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOGH_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOGH_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOGH_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LEWIS_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LEWIS_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LEWIS_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_COLLOT_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_COLLOT_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_COLLOT_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MONET_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MONET_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MONET_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ORLOVSKY_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ORLOVSKY_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ORLOVSKY_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KLIMT_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KLIMT_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KLIMT_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GIL_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GIL_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GIL_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CASSATT_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CASSATT_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CASSATT_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_VIVALDI_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_VIVALDI_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BACH_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BACH_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BEETHOVEN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BEETHOVEN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MOZART_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MOZART_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KENGYO_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KENGYO_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOMEZ_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOMEZ_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LISZT_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LISZT_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CHOPIN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CHOPIN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TCHAIKOVSKY_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TCHAIKOVSKY_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TIANHUA_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TIANHUA_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DVORAK_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DVORAK_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SCHUMANN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SCHUMANN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ROSAS_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ROSAS_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LILIUOKALANI_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LILIUOKALANI_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_JAAN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_JAAN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LEONTOVYCH_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LEONTOVYCH_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_1" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_2" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_3" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_4" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_5" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_6" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_7" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_8" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_9" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_10" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_11" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_12" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_13" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_14" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_15" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_16" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_17" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_18" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_19" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_20" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_21" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_22" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_23" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_24" YieldType="YIELD_FAITH" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_4" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_5" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_6" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_7" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_8" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_9" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_10" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_11" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_12" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_13" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_14" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_15" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_16" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_17" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_18" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_19" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_20" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_21" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_22" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_23" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_24" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_25" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BEHZAD_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BEHZAD_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BEHZAD_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TOHAKU_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TOHAKU_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TOHAKU_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KANDINSKY_1" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KANDINSKY_2" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KANDINSKY_3" YieldType="YIELD_CULTURE" /><Set YieldChange="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_CANTEMIR_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_CANTEMIR_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_CANTEMIR_3" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_JOPLIN_1" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_JOPLIN_2" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_JOPLIN_3" YieldType="YIELD_CULTURE" /><Set YieldChange="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_BEATRIX_POTTER_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_BEATRIX_POTTER_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_VALMIKI_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_VALMIKI_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_RUMI_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_RUMI_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_GABRIELA_MISTRAL_1" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_GABRIELA_MISTRAL_2" YieldType="YIELD_CULTURE" /><Set YieldChange="4" /></Update>		
+	</GreatWork_YieldChanges>
+	<GreatWorks>
+		<Update><Where GreatWorkType="GREATWORK_BHASA_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BHASA_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_HOMER_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_HOMER_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_OVID_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_OVID_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_QU_YUAN_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_QU_YUAN_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CHAUCER_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CHAUCER_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LI_BAI_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LI_BAI_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MURASAKI_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MURASAKI_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CAVENDISH_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CAVENDISH_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CERVANTES_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CERVANTES_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MACHIAVELLI_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MACHIAVELLI_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SHAKESPEARE_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SHAKESPEARE_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_D_AULNOY_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_D_AULNOY_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_PUSHKIN_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_PUSHKIN_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_POE_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_POE_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_AUSTEN_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_AUSTEN_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOETHE_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOETHE_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SHELLEY_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SHELLEY_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_JOYCE_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_JOYCE_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DICKINSON_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DICKINSON_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TOLSTOY_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TOLSTOY_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TWAIN_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TWAIN_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_FITZGERALD_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_FITZGERALD_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_WELLS_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_WELLS_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TAGORE_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TAGORE_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CAPEK_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CAPEK_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SUN_TZU" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RUBLEV_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RUBLEV_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RUBLEV_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BOSCH_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BOSCH_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BOSCH_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DONATELLO_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DONATELLO_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DONATELLO_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MICHELANGELO_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MICHELANGELO_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MICHELANGELO_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_YING_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_YING_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_YING_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TITIAN_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TITIAN_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TITIAN_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GRECO_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GRECO_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GRECO_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_REMBRANDT_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_REMBRANDT_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_REMBRANDT_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ANGUISSOLA_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ANGUISSOLA_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ANGUISSOLA_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KAUFFMAN_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KAUFFMAN_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KAUFFMAN_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_HOKUSAI_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_HOKUSAI_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_HOKUSAI_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_EOP_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_EOP_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_EOP_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOGH_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOGH_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOGH_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LEWIS_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LEWIS_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LEWIS_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_COLLOT_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_COLLOT_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_COLLOT_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MONET_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MONET_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MONET_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ORLOVSKY_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ORLOVSKY_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ORLOVSKY_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KLIMT_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KLIMT_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KLIMT_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GIL_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GIL_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GIL_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CASSATT_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CASSATT_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CASSATT_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_VIVALDI_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_VIVALDI_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BACH_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BACH_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BEETHOVEN_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BEETHOVEN_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MOZART_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_MOZART_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KENGYO_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KENGYO_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOMEZ_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_GOMEZ_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LISZT_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LISZT_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CHOPIN_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_CHOPIN_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TCHAIKOVSKY_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TCHAIKOVSKY_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TIANHUA_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TIANHUA_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DVORAK_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_DVORAK_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SCHUMANN_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_SCHUMANN_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ROSAS_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ROSAS_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LILIUOKALANI_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LILIUOKALANI_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_JAAN_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_JAAN_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LEONTOVYCH_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_LEONTOVYCH_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_1" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_2" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_3" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_4" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_5" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_6" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_7" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_8" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_9" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_10" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_11" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_12" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_13" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_14" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_15" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_16" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_17" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_18" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_19" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_20" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_21" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_22" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_23" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_RELIC_24" /><Set Tourism="8" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_4" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_5" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_6" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_7" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_8" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_9" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_10" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_11" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_12" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_13" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_14" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_15" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_16" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_17" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_18" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_19" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_20" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_21" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_22" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_23" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_24" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_ARTIFACT_25" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BEHZAD_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BEHZAD_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BEHZAD_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TOHAKU_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TOHAKU_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_TOHAKU_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KANDINSKY_1" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KANDINSKY_2" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_KANDINSKY_3" /><Set Tourism="3" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_CANTEMIR_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_CANTEMIR_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_CANTEMIR_3" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_JOPLIN_1" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_JOPLIN_2" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_JOPLIN_3" /><Set Tourism="6" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_BEATRIX_POTTER_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_BEATRIX_POTTER_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_VALMIKI_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_VALMIKI_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_RUMI_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_RUMI_2" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_GABRIELA_MISTRAL_1" /><Set Tourism="4" /></Update>
+		<Update><Where GreatWorkType="GREATWORK_BABYLON_GABRIELA_MISTRAL_2" /><Set Tourism="4" /></Update>		
+	</GreatWorks>
+</GameData>
