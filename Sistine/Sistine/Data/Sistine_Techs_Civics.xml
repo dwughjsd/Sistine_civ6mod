@@ -632,4 +632,93 @@
 		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_EXODUS_IMPERATIVE"/>
 		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_CULTURAL_HEGEMONY"/>
 	</CivicPrereqs>
+
+	<Civics>
+		<Update>
+			<Where CivicType="CIVIC_HUMANISM" />
+			<Set>
+				<Description>LOC_CIVIC_HUMANISM_DESCRIPTION_SST</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_MASS_MEDIA" />
+			<Set>
+				<Description>LOC_CIVIC_MASS_MEDIA_DESCRIPTION_SST</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_SOCIAL_MEDIA" />
+			<Set>
+				<Description>LOC_CIVIC_SOCIAL_MEDIA_DESCRIPTION_SST</Description>
+			</Set>
+		</Update>
+	</Civics>
+	<CivicModifiers>
+		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="HERITAGE_SCULPTURETOURISM" />
+		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="HERITAGE_PORTRAITTOURISM" />
+		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="HERITAGE_LANDSCAPETOURISM" />
+		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="HERITAGE_RELIGIOUSTOURISM" />
+		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="MASSMEDIA_MUSICTOURISM" />
+		<Row CivicType="CIVIC_CULTURAL_HERITAGE" ModifierId="HERITAGE_ARTIFACTTOURISM" />
+		<Row CivicType="CIVIC_CONSERVATION" ModifierId="CONSERVATION_NATIONAL_PARKS_TOURISM" />
+		<Delete CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
+		<Row CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_GREEN_ENERGY_TOURISM" />
+		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="CRISTOREDENTOR_BEACHTOURISM" />
+		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
+	</CivicModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ENVIRONMENTALISM_GREEN_ENERGY_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREEN_ENERGY_TOURISM_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CONSERVATION_NATIONAL_PARKS_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TOURISM_FROM_NATIONAL_PARKS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MASSMEDIA_MUSICTOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="COMPUTERS_BOOST_ALL_TOURISM" Name="Amount"/>
+			<Set>
+				<Value>50</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" Name="Amount"/>
+			<Set>
+				<Value>50</Value>
+			</Set>
+		</Update>
+		<Row>
+			<ModifierId>ENVIRONMENTALISM_GREEN_ENERGY_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!--TODO: Move it to wonder overhaul-->
+		<Update>
+			<Where ModifierId="BIOSPHERE_GREEN_ENERGY_TOURISM" Name="Amount"/>
+			<Set>
+				<Value>50</Value>
+			</Set>
+		</Update>
+		<Row>
+			<ModifierId>CONSERVATION_NATIONAL_PARKS_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MASSMEDIA_MUSICTOURISM</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>MASSMEDIA_MUSICTOURISM</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>200</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>

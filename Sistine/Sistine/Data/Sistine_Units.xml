@@ -2,6 +2,14 @@
 <GameData>
 	<Units>
 		<Update>
+			<Where UnitType="UNIT_ARCHAEOLOGIST" />
+			<Set PrereqCivic="CIVIC_HUMANISM" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NATURALIST" />
+			<Set PrereqCivic="CIVIC_NATURAL_HISTORY" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_BUILDER" />
 			<Set PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
 		</Update>

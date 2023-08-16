@@ -97,31 +97,21 @@
 		<Replace Tag="LOC_GOVERNMENT_DIGITAL_DEMOCRACY_NAME" Language="zh_Hans_CN" Text="数字化民主"/>
 		<Replace Tag="LOC_GOVERNMENT_SYNTHETIC_TECHNOCRACY_NAME" Language="zh_Hans_CN" Text="人工智能专家统治"/>
 		<!--Appeal-->
+		<Replace Tag="LOC_TOOLTIP_PLOT_WOODS_OLD_GROWTH" Language="zh_Hans_CN" Text="（原始林）"/>
 		<Replace Tag="LOC_TOOLTIP_APPEAL_BREATHTAKING" Language="zh_Hans_CN" Text="惊艳"/>
 		<Replace Tag="LOC_TOOLTIP_APPEAL_CHARMING" Language="zh_Hans_CN" Text="迷人"/>
 		<Replace Tag="LOC_TOOLTIP_APPEAL_AVERAGE" Language="zh_Hans_CN" Text="普通"/>
 		<Replace Tag="LOC_TOOLTIP_APPEAL_UNINVITING" Language="zh_Hans_CN" Text="无趣"/>
 		<Replace Tag="LOC_TOOLTIP_APPEAL_DISGUSTING" Language="zh_Hans_CN" Text="糟糕"/>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
-			<Text>无趣的社区提供3个 [ICON_Housing] 住房。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_6" Language="zh_Hans_CN">
-			<Text>糟糕的社区提供2个 [ICON_Housing] 住房。</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>根据所在单元格的魅力，为您的城市提供住房的区域：[NEWLINE]惊艳：+6 [ICON_Housing] 住房。[NEWLINE]迷人：+5 [ICON_Housing] 住房。[NEWLINE]普通：+4 [ICON_Housing] 住房。[NEWLINE]无趣：+3 [ICON_Housing] 住房。[NEWLINE]糟糕：+2 [ICON_Housing] 住房。</Text>
-		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN" Text="无趣的社区提供3个 [ICON_Housing] 住房。"/>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_6" Language="zh_Hans_CN" Text="糟糕的社区提供2个 [ICON_Housing] 住房。"/>
+		<Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="zh_Hans_CN" Text="根据所在单元格的魅力，为您的城市提供住房的区域：[NEWLINE]惊艳：+6 [ICON_Housing] 住房。[NEWLINE]迷人：+5 [ICON_Housing] 住房。[NEWLINE]普通：+4 [ICON_Housing] 住房。[NEWLINE]无趣：+3 [ICON_Housing] 住房。[NEWLINE]糟糕：+2 [ICON_Housing] 住房。"/>
 		<!--Policies (incomplete)-->
 		<Replace Tag="LOC_POLICY_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁传承"/>
 		<Replace Tag="LOC_POLICY_MERCHANT_REPUBLIC_NAME" Language="zh_Hans_CN" Text="商业共和传承"/>
 		<!--In-game tooltips-->
-		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE" Language="zh_Hans_CN">
-			<Text>世界领袖目睹{1_Target}让您吃尽苦头，将对接下来您使{1_Target}产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。</Text>
-		</Replace>
-		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_NEGATIVE" Language="zh_Hans_CN">
-			<Text>世界领袖目睹您让{1_Target}吃尽苦头，将对接下来{1_Target}使您产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。</Text>
-		</Replace>
-
+		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE" Language="zh_Hans_CN" Text="世界领袖目睹{1_Target}让您吃尽苦头，将对接下来您使{1_Target}产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。"/>
+		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_NEGATIVE" Language="zh_Hans_CN" Text="世界领袖目睹您让{1_Target}吃尽苦头，将对接下来{1_Target}使您产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。"/>
 		<!--Beliefs-->
 		<Replace Tag="LOC_BELIEF_RIVER_GODDESS_NAME" Language="zh_Hans_CN" Text="河流女神"/>
 		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_NAME" Language="zh_Hans_CN" Text="众神丰碑"/>
@@ -137,7 +127,6 @@
 		<Replace Tag="LOC_BELIEF_JUST_WAR_NAME" Language="zh_Hans_CN" Text="正义之战"/>
 		<Replace Tag="LOC_BELIEF_MONASTIC_ISOLATION_NAME" Language="zh_Hans_CN" Text="避世隐修"/>
 		<Replace Tag="LOC_BELIEF_SCRIPTURE_NAME" Language="zh_Hans_CN" Text="宗教圣典"/>		
-
 		<!--Luxury Resources-->
 		<Replace Tag="LOC_DIPLOMACY_DEAL_LUXURY_RESOURCES" Language="zh_Hans_CN" Text="奢侈资源"/>
 		<Replace Tag="LOC_TOOLTIP_LUXURY_RESOURCE" Language="zh_Hans_CN" Text="奢侈资源"/>
@@ -146,112 +135,41 @@
 		<Replace Tag="LOC_HUD_REPORTS_LUXURY_RESOURCES_AND_BONUSES" Language="zh_Hans_CN" Text="奢侈资源和加成"/>
 		<Replace Tag="LOC_REPORTS_LUXURY_RESOURCES" Language="zh_Hans_CN" Text="奢侈资源"/>
 		<Replace Tag="LOC_HUD_CITY_AMENITIES_LUXURIES" Language="zh_Hans_CN" Text="{1_Num} = 来自奢侈资源设施的宜居度[NEWLINE]"/>
-
 		<!--Pantheon-->
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_3_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
-			<Text>众神</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGEGROUP_PANTHEON_BELIEFS_NAME" Language="zh_Hans_CN">
-			<Text>众神信仰</Text>
-		</Replace>
-		<Replace Tag="LOC_RELIGION_PANTHEON" Language="zh_Hans_CN">
-			<Text>众神</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_CLASS_PANTHEON_NAME" Language="zh_Hans_CN">
-			<Text>众神</Text>
-		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_MYSTICISM" Language="zh_Hans_CN">
-			<Text>创立众神信仰。</Text>
-		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MYSTICISM" Language="zh_Hans_CN">
-			<Text>对众神的崇拜引出关于精神力量更深层次的问题。</Text>
-		</Replace>
-		<Replace Tag="LOC_ACTION_PANEL_NEEDS_PANTHEON" Language="zh_Hans_CN">
-			<Text>选择众神信仰</Text>
-		</Replace>
-		<Replace Tag="LOC_ACTION_PANEL_NEEDS_PANTHEON_TOOLTIP" Language="zh_Hans_CN">
-			<Text>您需要为国民选择一种众神信仰。</Text>
-		</Replace>
-		<Replace Tag="LOC_HUD_CITY_OVERVIEW_RELIGION_TOOLTIP" Language="zh_Hans_CN">
-			<Text>众神信仰和信教公民</Text>
-		</Replace>
-		<Replace Tag="LOC_HUD_CITY_PANTHEONBELIEF_EXPLANATION" Language="zh_Hans_CN">
-			<Text>众神信仰是您文明里所有城市的核心信仰。</Text>
-		</Replace>
-		<Replace Tag="LOC_UNITOPERATION_FOUND_RELIGION_REQUIRES_PANTHEON" Language="zh_Hans_CN">
-			<Text>必须先创立一种众神信仰。</Text>
-		</Replace>
-		<Replace Tag="LOC_RELIGIONPANEL_PANTHEON_LABEL" Language="zh_Hans_CN">
-			<Text>[COLOR_LIGHTBLUE]众神信仰：[ENDCOLOR]</Text>
-		</Replace>
-		<Replace Tag="LOC_RELIGIONPANEL_NEXT_STEP_CHOOSE_PANTHEON" Language="zh_Hans_CN">
-			<Text>选择您的众神信仰。</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_MY_PANTHEON" Language="zh_Hans_CN">
-			<Text>我的众神信仰</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_NO_PANTHEON" Language="zh_Hans_CN">
-			<Text>没有已创立的众神信仰</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_WORKING_TOWARDS_PANTHEON" Language="zh_Hans_CN">
-			<Text>正在创立众神信仰</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_WORKING_TOWARDS_RELIGION" Language="zh_Hans_CN">
-			<Text>正在创立宗教</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_NO_PANTHEON_BELIEF" Language="zh_Hans_CN">
-			<Text>无众神信仰。</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_CITIES_PANTHEON_BELIEF" Language="zh_Hans_CN">
-			<Text>城市的众神信仰：</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_CHOOSING_PANTHEON" Language="zh_Hans_CN">
-			<Text>选择一种众神信仰</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_CHOOSE_PANTHEON_BELIEF" Language="zh_Hans_CN">
-			<Text>选择一种众神信仰：</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_PANTHEON_EFFECT" Language="zh_Hans_CN">
-			<Text>众神信仰效果：</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_FOUND_PANTHEON" Language="zh_Hans_CN">
-			<Text>建立该众神信仰</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_RESELECT_PANTHEON" Language="zh_Hans_CN">
-			<Text>重新选择众神</Text>
-		</Replace>
-		<Replace Tag="LOC_HUD_RELIGION_TOOLTIP" Language="zh_Hans_CN">
-			<Text>宗教[NEWLINE][NEWLINE]查看您的众神或宗教，以及其他已经建立的宗教。</Text>
-		</Replace>
-		<Replace Tag="LOC_NOTIFICATION_CHOOSE_PANTHEON_MESSAGE" Language="zh_Hans_CN">
-			<Text>选择众神信仰</Text>
-		</Replace>
-		<Replace Tag="LOC_REPLAYDATASET_TOTALPANTHEONSFOUNDED_NAME" Language="zh_Hans_CN">
-			<Text>已创立的众神信仰总数</Text>
-		</Replace>
-		<Replace Tag="LOC_GOSSIP_CREATE_PANTHEON" Language="zh_Hans_CN">
-			<Text>{1_CivName}正在崇拜以{2_BeliefName}为中心的众神。</Text>
-		</Replace>
-		<Replace Tag="LOC_HUD_CITY_PANTHEON_TT" Language="zh_Hans_CN">
-			<Text>众神信仰：{1_PantheonName}</Text>
-		</Replace>
-		<Replace Tag="LOC_RELIGIONPANEL_NEXT_STEP_FOUND_PANTHEON" Language="zh_Hans_CN">
-			<Text>累积{1_Number} [ICON_Faith] 信仰值以创立一种众神信仰。</Text>
-		</Replace>
-		<Replace Tag="LOC_UI_RELIGION_PANTHEON_NAME" Language="zh_Hans_CN">
-			<Text>众神信仰：{1_BeliefName}</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED" Language="zh_Hans_CN">
-			<Text>创立众神信仰</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您的人民从众神中选择了一种信仰。</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED_FIRST_IN_WORLD" Language="zh_Hans_CN">
-			<Text>世界首个众神信仰</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED_FIRST_IN_WORLD_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您的人民成为了世界上首批在众神中选择信仰的人。</Text>
-		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_3_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN" Text="众神"/>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGEGROUP_PANTHEON_BELIEFS_NAME" Language="zh_Hans_CN" Text="众神信仰"/>
+		<Replace Tag="LOC_RELIGION_PANTHEON" Language="zh_Hans_CN" Text="众神"/>
+		<Replace Tag="LOC_BELIEF_CLASS_PANTHEON_NAME" Language="zh_Hans_CN" Text="众神"/>
+		<Replace Tag="LOC_BOOST_TRIGGER_MYSTICISM" Language="zh_Hans_CN" Text="创立众神信仰。"/>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MYSTICISM" Language="zh_Hans_CN" Text="对众神的崇拜引出关于精神力量更深层次的问题。"/>
+		<Replace Tag="LOC_ACTION_PANEL_NEEDS_PANTHEON" Language="zh_Hans_CN" Text="选择众神信仰"/>
+		<Replace Tag="LOC_ACTION_PANEL_NEEDS_PANTHEON_TOOLTIP" Language="zh_Hans_CN" Text="您需要为国民选择一种众神信仰。"/>
+		<Replace Tag="LOC_HUD_CITY_OVERVIEW_RELIGION_TOOLTIP" Language="zh_Hans_CN" Text="众神信仰和信教公民"/>
+		<Replace Tag="LOC_HUD_CITY_PANTHEONBELIEF_EXPLANATION" Language="zh_Hans_CN" Text="众神信仰是您文明里所有城市的核心信仰。"/>
+		<Replace Tag="LOC_UNITOPERATION_FOUND_RELIGION_REQUIRES_PANTHEON" Language="zh_Hans_CN" Text="必须先创立一种众神信仰。"/>
+		<Replace Tag="LOC_RELIGIONPANEL_PANTHEON_LABEL" Language="zh_Hans_CN" Text="[COLOR_LIGHTBLUE]众神信仰：[ENDCOLOR]"/>
+		<Replace Tag="LOC_RELIGIONPANEL_NEXT_STEP_CHOOSE_PANTHEON" Language="zh_Hans_CN" Text="选择您的众神信仰。"/>
+		<Replace Tag="LOC_UI_RELIGION_MY_PANTHEON" Language="zh_Hans_CN" Text="我的众神信仰"/>
+		<Replace Tag="LOC_UI_RELIGION_NO_PANTHEON" Language="zh_Hans_CN" Text="没有已创立的众神信仰"/>
+		<Replace Tag="LOC_UI_RELIGION_WORKING_TOWARDS_PANTHEON" Language="zh_Hans_CN" Text="正在创立众神信仰"/>
+		<Replace Tag="LOC_UI_RELIGION_WORKING_TOWARDS_RELIGION" Language="zh_Hans_CN" Text="正在创立宗教"/>
+		<Replace Tag="LOC_UI_RELIGION_NO_PANTHEON_BELIEF" Language="zh_Hans_CN" Text="无众神信仰。"/>
+		<Replace Tag="LOC_UI_RELIGION_CITIES_PANTHEON_BELIEF" Language="zh_Hans_CN" Text="城市的众神信仰："/>
+		<Replace Tag="LOC_UI_RELIGION_CHOOSING_PANTHEON" Language="zh_Hans_CN" Text="选择一种众神信仰"/>
+		<Replace Tag="LOC_UI_RELIGION_CHOOSE_PANTHEON_BELIEF" Language="zh_Hans_CN" Text="选择一种众神信仰："/>
+		<Replace Tag="LOC_UI_RELIGION_PANTHEON_EFFECT" Language="zh_Hans_CN" Text="众神信仰效果："/>
+		<Replace Tag="LOC_UI_RELIGION_FOUND_PANTHEON" Language="zh_Hans_CN" Text="建立该众神信仰"/>
+		<Replace Tag="LOC_UI_RELIGION_RESELECT_PANTHEON" Language="zh_Hans_CN" Text="重新选择众神"/>
+		<Replace Tag="LOC_HUD_RELIGION_TOOLTIP" Language="zh_Hans_CN" Text="宗教[NEWLINE][NEWLINE]查看您的众神或宗教，以及其他已经建立的宗教。"/>
+		<Replace Tag="LOC_NOTIFICATION_CHOOSE_PANTHEON_MESSAGE" Language="zh_Hans_CN" Text="选择众神信仰"/>
+		<Replace Tag="LOC_REPLAYDATASET_TOTALPANTHEONSFOUNDED_NAME" Language="zh_Hans_CN" Text="已创立的众神信仰总数"/>
+		<Replace Tag="LOC_GOSSIP_CREATE_PANTHEON" Language="zh_Hans_CN" Text="{1_CivName}正在崇拜以{2_BeliefName}为中心的众神。"/>
+		<Replace Tag="LOC_HUD_CITY_PANTHEON_TT" Language="zh_Hans_CN" Text="众神信仰：{1_PantheonName}"/>
+		<Replace Tag="LOC_RELIGIONPANEL_NEXT_STEP_FOUND_PANTHEON" Language="zh_Hans_CN" Text="累积{1_Number} [ICON_Faith] 信仰值以创立一种众神信仰。"/>
+		<Replace Tag="LOC_UI_RELIGION_PANTHEON_NAME" Language="zh_Hans_CN" Text="众神信仰：{1_BeliefName}"/>
+		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED" Language="zh_Hans_CN" Text="创立众神信仰"/>
+		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED_DESCRIPTION" Language="zh_Hans_CN" Text="您的人民从众神中选择了一种信仰。"/>
+		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED_FIRST_IN_WORLD" Language="zh_Hans_CN" Text="世界首个众神信仰"/>
+		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED_FIRST_IN_WORLD_DESCRIPTION" Language="zh_Hans_CN" Text="您的人民成为了世界上首批在众神中选择信仰的人。"/>
 	</LocalizedText>
 </GameData>

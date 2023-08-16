@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Resources>
+		<Update>
+			<Where ResourceType="RESOURCE_ANTIQUITY_SITE" />
+			<Set PrereqCivic="CIVIC_HUMANISM" />
+		</Update>
+	</Resources>
 	<Tags>
 		<!-- Building Effects Based-->
 		<Row Tag="CLASS_FOOD_MARKET" Vocabulary="RESOURCE_CLASS"/>

@@ -27,6 +27,13 @@
 			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
 			<ModifierId>THIRDALTERNATIVE_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
 		</Row>
+		<!--Cultural Victory overhaul-->
+		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_SCULPTURETOURISM"/>
+		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_PORTRAITTOURISM"/>
+		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_LANDSCAPETOURISM"/>
+		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_RELIGIOUSTOURISM"/>
+		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_ARTIFACTTOURISM"/>
+		<Row PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="TRAIT_WONDER_DOUBLETOURISM"/>
 	</PolicyModifiers>
 	<Modifiers>
 		<Row>
