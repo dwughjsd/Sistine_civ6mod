@@ -559,7 +559,7 @@
 		<Update>
 			<Where CivicType="CIVIC_ENVIRONMENTALISM" />
 			<!--Temp disable it. TODO: Fix-->
-			<Set Cost="3600" Description=""/>
+			<Set Cost="3600" />
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" />
@@ -645,9 +645,7 @@
 		<Row CivicType="CIVIC_CULTURAL_HERITAGE" ModifierId="HERITAGE_ARTIFACTTOURISM" />
 		<Row CivicType="CIVIC_CONSERVATION" ModifierId="CONSERVATION_NATIONAL_PARKS_TOURISM" />
 		<Delete CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
-		<!-- Doesn't work. Needs fix
 		<Row CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_GREEN_ENERGY_TOURISM" />
-		-->
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="CRISTOREDENTOR_BEACHTOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
 	</CivicModifiers>
@@ -683,14 +681,7 @@
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
-		<!--TODO: Try to fix it
-		<Update>
-			<Where ModifierId="BIOSPHERE_GREEN_ENERGY_TOURISM" Name="Amount"/>
-			<Set>
-				<Value>100</Value>
-			</Set>
-		</Update>
-		 -->
+		<!--TODO: Try to fix UI-->
 		<Row>
 			<ModifierId>CONSERVATION_NATIONAL_PARKS_TOURISM</ModifierId>
 			<Name>Amount</Name>
@@ -707,4 +698,7 @@
 			<Value>200</Value>
 		</Row>
 	</ModifierArguments>
+	<BuildingModifiers>
+		<Delete BuildingType="BUILDING_BIOSPHERE" ModifierId="BIOSPHERE_GREEN_ENERGY_TOURISM" />
+	</BuildingModifiers>
 </GameData>

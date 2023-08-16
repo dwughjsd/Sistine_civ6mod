@@ -232,10 +232,10 @@
 			<Text>显示 [ICON_RESOURCE_SHIPWRECK] 海难遗址，考古学家可从此处挖掘 [ICON_GreatWork_Artifact] 文物。奖励3位 [ICON_Envoy] 使者。[ICON_GreatWork_Artifact] 文物 +100% [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_ENVIRONMENTALISM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>离岸风力发电厂、太阳能农场、风力发电厂、地热发电厂将提供等同于其 [ICON_POWER] 电力的50%的 [ICON_TOURISM] 旅游业绩。</Text>
+			<Text>离岸风力发电厂、太阳能农场、风力发电厂、地热发电厂将提供等同于其 [ICON_POWER] 电力的 [ICON_TOURISM] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BIOSPHERE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有离岸风力发电厂、太阳能农场、风力发电厂、地热发电厂和水力发电坝产出的 [ICON_POWER] 电力+200%。改良设施将提供等同于其 [ICON_POWER] 电力的50%的 [ICON_TOURISM] 旅游业绩。帝国中与雨林和沼泽相邻的单元格+1魅力。必须建在与“社区”区域相邻的河流旁。</Text>
+			<Text>所有离岸风力发电厂、太阳能农场、风力发电厂、地热发电厂和水力发电坝产出的 [ICON_POWER] 电力+200%。帝国中与雨林和沼泽相邻的单元格+1魅力。必须建在与“社区”区域相邻的河流旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_HERITAGE_TOURISM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有奇观的 [ICON_Tourism] 旅游业绩+100%。</Text>
