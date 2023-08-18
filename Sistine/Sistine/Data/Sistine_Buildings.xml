@@ -25,7 +25,7 @@
 		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="65"/></Update>
 		<Row BuildingType="BUILDING_STONE_WORKS" Name="LOC_BUILDING_STONE_WORKS_NAME" Description="LOC_BUILDING_STONE_WORKS_DESCRIPTION" PrereqTech="TECH_MASONRY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_GENERIC" />
 		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Cost="100" Housing="0" Maintenance="1"/></Update>
-		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_GENERIC" Maintenance="2"/>
+		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_GENERIC" Housing="3" Maintenance="2"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="430" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Maintenance="3"/>
 		<Row BuildingType="BUILDING_RECYCLING_CENTER" Name="LOC_BUILDING_RECYCLING_CENTER_NAME" Description="LOC_BUILDING_RECYCLING_CENTER_DESCRIPTION" PrereqCivic="CIVIC_CONSERVATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="430" AdvisorType="ADVISOR_GENERIC" Maintenance="3"/>
 		<!--Theater Square-->
@@ -96,8 +96,8 @@
 		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO" Cost="540"/></Update>
 		<Row BuildingType="BUILDING_VISITOR_CENTER" Name="LOC_BUILDING_VISITOR_CENTER_NAME" Description="LOC_BUILDING_VISITOR_CENTER_DESCRIPTION" PrereqTech="TECH_ADVANCED_FLIGHT" PrereqDistrict="DISTRICT_AERODROME" PurchaseYield="YIELD_GOLD" Cost="650" AdvisorType="ADVISOR_CULTURE" Maintenance="3"/>
 		<!--Neighborhood-->
-		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Cost="300" Housing="3"/></Update>
-		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" Housing="3" Cost="430"/></Update>
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Cost="300" Housing="2"/></Update>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" Housing="2" Cost="430"/></Update>
 		<!--Dam-->
 		<Update><Where BuildingType="BUILDING_HYDROELECTRIC_DAM" /><Set Cost="430"/></Update>
 		<!--Goverment Plaza and Diplomatic Quarter-->
@@ -169,7 +169,7 @@
 	<Building_YieldChanges>
 		<!--City Center-->
 		<Row BuildingType="BUILDING_STONE_WORKS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
-		<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="5"/>
+		<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="6"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="3"/>
 		<!--Theater Square-->
 		<Delete BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE"/>
