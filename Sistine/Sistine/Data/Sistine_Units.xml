@@ -37,10 +37,6 @@
 			<Where UnitType="UNIT_INCA_WARAKAQ" />
 			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
 		</Update>
-		<Update>
-			<Where UnitType="UNIT_ROCK_BAND" />
-			<Set PseudoYieldType="" />
-		</Update>
 	</Units>
 	<Units_XP2>
 		<!--So that you silly AIs won't use up all your fxxking resources!-->

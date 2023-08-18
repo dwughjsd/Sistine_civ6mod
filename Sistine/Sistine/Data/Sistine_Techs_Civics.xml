@@ -695,7 +695,7 @@
 		<Row>
 			<ModifierId>MASSMEDIA_MUSICTOURISM</ModifierId>
 			<Name>ScalingFactor</Name>
-			<Value>200</Value>
+			<Value>100</Value>
 		</Row>
 	</ModifierArguments>
 	<BuildingModifiers>
