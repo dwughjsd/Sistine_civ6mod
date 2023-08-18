@@ -246,5 +246,9 @@
 		<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造海滨度假区的能力。[NEWLINE][NEWLINE]提供等于此单元格魅力的 [ICON_Tourism] 旅游业绩和 [ICON_Gold] 金币。只能建在海岸沙漠、海岸平原，或海岸草原单元格上。所在单元格魅力必须达到惊艳以上。</Text>
 		</Replace>
+		<!-- Beliefs -->
+		<Replace Tag="LOC_BELIEF_WORK_ETHIC_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>神社和寺庙提供的 [ICON_Production] 生产力等于其固定产出的 [ICON_Faith] 信仰值。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

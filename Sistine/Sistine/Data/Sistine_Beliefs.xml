@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sistine_Beliefs -->
+<!-- Author: mousesju -->
+<!-- DateCreated: 8/18/2023 10:20:42 AM -->
+<GameData>
+	<Beliefs>
+		<Update>
+			<Where BeliefType="BELIEF_WORK_ETHIC"/>
+			<Set>
+				<Description>LOC_BELIEF_WORK_ETHIC_DESCRIPTION_SST</Description>
+			</Set>
+		</Update>
+	</Beliefs>
+	<BeliefModifiers>
+		<Delete BeliefType="BELIEF_WORK_ETHIC"
+			ModifierId="WORK_ETHIC_ADJACENCY_PRODUCTION_2"
+		/>
+		<Row BeliefType="BELIEF_WORK_ETHIC"
+			ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_SHRINE_PRODUCTION_SST"
+		/>
+		<Row BeliefType="BELIEF_WORK_ETHIC"
+			ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_TEMPLE_PRODUCTION_SST"
+		/>
+	</BeliefModifiers>
+	<Modifiers>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_SHRINE_PRODUCTION_SST"
+			ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"
+		/>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_TEMPLE_PRODUCTION_SST"
+			ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"
+		/>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_SHRINE_PRODUCTION_MODIFIER_SST"
+			ModifierType="MODIFIER_BUILDING_YIELD_CHANGE"
+		/>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_TEMPLE_PRODUCTION_MODIFIER_SST"
+			ModifierType="MODIFIER_BUILDING_YIELD_CHANGE"
+		/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_SHRINE_PRODUCTION_SST"
+			Name="ModifierId"
+			Value="WORK_ETHIC_TO_CHORAL_MUSIC_SHRINE_PRODUCTION_MODIFIER_SST"
+		/>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_TEMPLE_PRODUCTION_SST"
+			Name="ModifierId"
+			Value="WORK_ETHIC_TO_CHORAL_MUSIC_TEMPLE_PRODUCTION_MODIFIER_SST"
+		/>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_SHRINE_PRODUCTION_MODIFIER_SST"
+			Name="BuildingType"
+			Value="BUILDING_SHRINE"
+		/>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_SHRINE_PRODUCTION_MODIFIER_SST"
+			Name="YieldType"
+			Value="YIELD_PRODUCTION"
+		/>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_SHRINE_PRODUCTION_MODIFIER_SST"
+			Name="Amount"
+			Value="2"
+		/>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_TEMPLE_PRODUCTION_MODIFIER_SST"
+			Name="BuildingType"
+			Value="BUILDING_TEMPLE"
+		/>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_TEMPLE_PRODUCTION_MODIFIER_SST"
+			Name="YieldType"
+			Value="YIELD_PRODUCTION"
+		/>
+		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_TEMPLE_PRODUCTION_MODIFIER_SST"
+			Name="Amount"
+			Value="4"
+		/>
+	</ModifierArguments>
+</GameData>
