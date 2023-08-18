@@ -12,7 +12,6 @@
 			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Good Culture"/>
 			<Set ThresholdValue="25" />
 		</Update>
-		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Good Culture" ThresholdValue="10" Exclusive="true"/>
 		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Exclusive="true"/>
 	</StrategyConditions>
 	<PseudoYields>
@@ -303,8 +302,8 @@
 		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
 		
 		<!--We really need more improvements!-->
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="100"/>
 		<!--No need to promote military academy. Build more Campus instead.-->
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="50"/>
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="50"/>
@@ -324,7 +323,7 @@
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
 
 		<Delete ListType="ScienceVictoryYields" Item="YIELD_SCIENCE" Value="50"/>
-		<Row ListType="ScienceVictoryYields" Item="YIELD_SCIENCE" Value="100"/>
+		<Row ListType="ScienceVictoryYields" Item="YIELD_SCIENCE" Value="150"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_CULTURE" Value="-25"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_FAITH" Value="-75"/>
 
