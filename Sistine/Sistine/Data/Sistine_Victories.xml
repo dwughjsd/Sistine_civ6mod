@@ -69,7 +69,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
-			<Set DefaultValue="10.0" />
+			<Set DefaultValue="9.0" />
 		</Update>
 		<!--Much more important than spy-->
 		<Update>
@@ -287,7 +287,7 @@
 		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-30"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
 		<!--We need more improvements!-->
-		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_UNIT_TRADE" Value="50"/>
 
 		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="20"/>
@@ -303,6 +303,7 @@
 		
 		<!--We really need more improvements!-->
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
 		<!--No need to promote military academy. Build more Campus instead.-->
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="50"/>
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="50"/>
@@ -341,7 +342,6 @@
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
 
 		<!--Try to improve Culture Victory ability of AI-->		
-		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_WONDER" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>
