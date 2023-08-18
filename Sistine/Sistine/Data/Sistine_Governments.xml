@@ -2,58 +2,18 @@
 <GameInfo>
 	<!-- slots -->
 	<Government_SlotCounts>
-		<Update>
-			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_MILITARY" />
-			<Set NumSlots="2" />
-		</Update>
-		<Update>
-			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_ECONOMIC" />
-			<Set NumSlots="2" />
-		</Update>
-		<Update>
-			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_DIPLOMATIC" />
-			<Set NumSlots="2" />
-		</Update>
-		<Update>
-			<Where GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_WILDCARD" />
-			<Set NumSlots="2" />
-		</Update>
-
-		<Update>
-			<Where GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_MILITARY" />
-			<Set NumSlots="3" />
-		</Update>
-		<Update>
-			<Where GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_ECONOMIC" />
-			<Set NumSlots="2" />
-		</Update>
-
-		<Update>
-			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_MILITARY" />
-			<Set NumSlots="2" />
-		</Update>
-		<Update>
-			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_DIPLOMATIC" />
-			<Set NumSlots="2" />
-		</Update>
-
-		<Update>
-			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_ECONOMIC" />
-			<Set NumSlots="2" />
-		</Update>
-		<Update>
-			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_DIPLOMATIC" />
-			<Set NumSlots="2" />
-		</Update>
-
-		<Update>
-			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_MILITARY" />
-			<Set NumSlots="2" />
-		</Update>
-		<Update>
-			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_ECONOMIC" />
-			<Set NumSlots="2" />
-		</Update>
+		<Replace GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_MILITARY" NumSlots="2" />
+		<Replace GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="2" />
+		<Replace GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="2" />
+		<Replace GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_WILDCARD" NumSlots="2" />
+		<Replace GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_MILITARY" NumSlots="3" />
+		<Replace GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="2" />
+		<Replace GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_MILITARY" NumSlots="2" />
+		<Replace GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="2" />
+		<Replace GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="2" />
+		<Replace GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="2" />
+		<Replace GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_MILITARY" NumSlots="2" />
+		<Replace GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="2" />
 	</Government_SlotCounts>
 	<GovernmentModifiers>
 		<!--AUTOCRACY-->
