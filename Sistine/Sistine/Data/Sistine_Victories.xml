@@ -206,7 +206,8 @@
 		<Row ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="15"/>
 		<Row ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
 
-		<Row ListType="GilgameshSciencePreference" Item="YIELD_FOOD" Value="15"/>
+		<!--To compensate AI yield bias so that they will build some farm -->
+		<Row ListType="GilgameshSciencePreference" Item="YIELD_FOOD" Value="25"/>
 
 
 		<Delete ListType="DefaultYieldBias" Item="YIELD_PRODUCTION"/>
@@ -328,6 +329,7 @@
 		<Row ListType="ScienceVictoryYields" Item="YIELD_FAITH" Value="-75"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
+		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
 		<Delete ListType="ScienceVictoryProjects"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EARTH_SATELLITE" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MOON_LANDING" Favored="true"/>
@@ -341,7 +343,8 @@
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
 
-		<!--Try to improve Culture Victory ability of AI-->		
+		<!--Try to improve Culture Victory ability of AI-->
+		<Row ListType="CultureVictoryDistricts" Item="DISTRICT_THEATER" Favored="true"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>

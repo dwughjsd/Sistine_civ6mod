@@ -83,10 +83,10 @@
 		<Update><Where BuildingType="BUILDING_SHIPYARD" /><Set Cost="240"/></Update>
 		<Update><Where BuildingType="BUILDING_SEAPORT" /><Set Cost="430"/></Update>
 		<!--Entertainment Complex and Water Park-->
-		<Update><Where BuildingType="BUILDING_ARENA" /><Set Cost="110" Entertainment="1"/></Update>
-		<Update><Where BuildingType="BUILDING_TLACHTLI" /><Set Cost="105"/></Update>
+		<Update><Where BuildingType="BUILDING_ARENA" /><Set Cost="110" /></Update>
+		<Update><Where BuildingType="BUILDING_TLACHTLI" /><Set Cost="105" /></Update>
 		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="2" Cost="230"/></Update>
-		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="3" Cost="230"/></Update>
+		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="2" Cost="230"/></Update>
 		<Update><Where BuildingType="BUILDING_STADIUM" /><Set PrereqCivic="CIVIC_MASS_MEDIA" Entertainment="2" Cost="450"/></Update>
 		<Update><Where BuildingType="BUILDING_FERRIS_WHEEL" /><Set Entertainment="2" Cost="240"/></Update>
 		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Entertainment="3" Cost="350"/></Update>
