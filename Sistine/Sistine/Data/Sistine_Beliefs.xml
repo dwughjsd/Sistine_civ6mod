@@ -513,6 +513,18 @@
 				<Description>LOC_BELIEF_WORK_ETHIC_DESCRIPTION_SST</Description>
 			</Set>
 		</Update>
+		<Update>
+			<Where BeliefType="BELIEF_RELIGIOUS_COMMUNITY" />
+			<Set>
+				<Description>LOC_BELIEF_RELIGIOUS_COMMUNITY_DESCRIPTION_SST</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where BeliefType="BELIEF_JESUIT_EDUCATION"/>
+			<Set>
+				<Description>LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION_SST</Description>
+			</Set>
+		</Update>
 	</Beliefs>
 	<BeliefModifiers>
 		<Delete BeliefType="BELIEF_WORK_ETHIC"
@@ -523,6 +535,32 @@
 		/>
 		<Row BeliefType="BELIEF_WORK_ETHIC"
 			ModifierId="WORK_ETHIC_TEMPLE_PRODUCTION_SST"
+		/>
+
+		<Delete BeliefType="BELIEF_RELIGIOUS_COMMUNITY"
+			ModifierId="RELIGIOUS_COMMUNITY_HOLY_SITE_TRADING"
+		/>
+		<Delete BeliefType="BELIEF_RELIGIOUS_COMMUNITY"
+			ModifierId="RELIGIOUS_COMMUNITY_SHRINE_TRADING"
+		/>
+		<Delete BeliefType="BELIEF_RELIGIOUS_COMMUNITY"
+			ModifierId="RELIGIOUS_COMMUNITY_TEMPLE_TRADING"
+		/>
+		<Delete BeliefType="BELIEF_RELIGIOUS_COMMUNITY"
+			ModifierId="RELIGIOUS_COMMUNITY_TIER3_TRADING"
+		/>
+		<Row BeliefType="BELIEF_RELIGIOUS_COMMUNITY"
+			ModifierId="RELIGIOUS_COMMUNITY_GAIN_PRODUCTION_SST"
+		/>
+
+		<Delete BeliefType="BELIEF_JESUIT_EDUCATION"
+			ModifierId="JESUIT_EDUCATION_CULTURE_BUILDINGS"
+		/>
+		<Row BeliefType="BELIEF_JESUIT_EDUCATION"
+			ModifierId="JESUIT_EDUCATION_ATTACH_TEMPLE_SCIENCE_SST"
+		/>
+		<Row BeliefType="BELIEF_JESUIT_EDUCATION"
+			ModifierId="JESUIT_EDUCATION_ATTACH_TEMPLE_SCIENCE_WITHOUT_UNIVERSITY_SST"
 		/>
 	</BeliefModifiers>
 	<Modifiers>
@@ -540,6 +578,31 @@
 		<Row ModifierId="WORK_ETHIC_TO_CHORAL_MUSIC_TEMPLE_PRODUCTION_MODIFIER_SST"
 			ModifierType="MODIFIER_BUILDING_YIELD_CHANGE"
 		/>
+
+		<Row ModifierId="RELIGIOUS_COMMUNITY_GAIN_PRODUCTION_SST"
+			ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"
+		/>
+		<Row ModifierId="RELIGIOUS_COMMUNITY_PRODUCTION_SST"
+			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"
+			SubjectRequirementSetId="CITY_HAS_1_SPECIALTY_DISTRICT"
+		/>
+		<Row ModifierId="JESUIT_EDUCATION_ATTACH_TEMPLE_SCIENCE_SST"
+			ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_HAS_TEMPLE"
+		/>
+		<Row ModifierId="JESUIT_EDUCATION_ATTACH_TEMPLE_SCIENCE_WITHOUT_UNIVERSITY_SST"
+			ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_HAS_TEMPLE"
+		/>
+		<Row ModifierId="JESUIT_EDUCATION_TEMPLE_SCIENCE_SST"
+			 ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER"
+		/>
+		<Row ModifierId="JESUIT_EDUCATION_TEMPLE_SCIENCE_WITHOUT_UNIVERSITY_SST" 
+			 ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" 
+			 SubjectRequirementSetId="CITY_HAS_NOT_UNIVERSITY_REQUIREMENTS_SST"
+		/>
+
 	</Modifiers>
 
 	<ModifierArguments>
@@ -575,5 +638,66 @@
 			Name="Amount"
 			Value="4"
 		/>
+
+		<Row ModifierId="RELIGIOUS_COMMUNITY_GAIN_PRODUCTION_SST"
+			Name="ModifierId"
+			Value="RELIGIOUS_COMMUNITY_PRODUCTION_SST"
+		/>
+		<Row ModifierId="RELIGIOUS_COMMUNITY_PRODUCTION_SST"
+			Name="Amount"
+			Value="2"
+		/>
+		<Row ModifierId="RELIGIOUS_COMMUNITY_PRODUCTION_SST"
+			Name="YieldType"
+			Value="YIELD_PRODUCTION"
+		/>
+
+		<Row ModifierId="JESUIT_EDUCATION_ATTACH_TEMPLE_SCIENCE_SST"
+			Name="ModifierId"
+			Value="JESUIT_EDUCATION_TEMPLE_SCIENCE_SST"
+		/>
+		<Row ModifierId="JESUIT_EDUCATION_ATTACH_TEMPLE_SCIENCE_WITHOUT_UNIVERSITY_SST"
+			Name="ModifierId"
+			Value="JESUIT_EDUCATION_TEMPLE_SCIENCE_WITHOUT_UNIVERSITY_SST"
+		/>
+		<Row ModifierId="JESUIT_EDUCATION_TEMPLE_SCIENCE_SST" 
+			 Name="Amount" 
+			 Value="10"
+		/>
+		<Row ModifierId="JESUIT_EDUCATION_TEMPLE_SCIENCE_SST" 
+			 Name="YieldType" 
+			 Value="YIELD_SCIENCE"
+		/>
+		<Row ModifierId="JESUIT_EDUCATION_TEMPLE_SCIENCE_WITHOUT_UNIVERSITY_SST" 
+			 Name="Amount" 
+			 Value="15"
+		/>
+		<Row ModifierId="JESUIT_EDUCATION_TEMPLE_SCIENCE_WITHOUT_UNIVERSITY_SST"
+			 Name="YieldType" 
+			 Value="YIELD_SCIENCE"
+		/>
 	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="CITY_HAS_NOT_UNIVERSITY_REQUIREMENTS_SST"
+			RequirementSetType="REQUIREMENTSET_TEST_ALL"
+		/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="CITY_HAS_NOT_UNIVERSITY_REQUIREMENTS_SST"
+			RequirementId="CITY_HAS_NOT_UNIVERSITY_REQUIREMENT_SST"
+		/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="CITY_HAS_NOT_UNIVERSITY_REQUIREMENT_SST"
+			RequirementType="REQUIREMENT_CITY_HAS_BUILDING"
+			Inverse="true"
+		/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="CITY_HAS_NOT_UNIVERSITY_REQUIREMENT_SST"
+			Name="BuildingType"
+			Value="BUILDING_UNIVERSITY"
+		/>
+	</RequirementArguments>
 </GameData>
