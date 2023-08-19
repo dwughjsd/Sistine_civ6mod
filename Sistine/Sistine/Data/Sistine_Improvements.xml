@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
+<GameData>
+	<Improvements>
+		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" Name="LOC_IMPROVEMENT_SEASTEAD_NAME" Description="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Icon="ICON_IMPROVEMENT_SEASTEAD" PlunderType="PLUNDER_HEAL" PlunderAmount="50" PrereqTech="TECH_SEASTEADS" Housing="1" TilesRequired="1" Domain="DOMAIN_SEA" SameAdjacentValid="false"/>
+	</Improvements>
+
+	<Improvement_Adjacencies>
+		<!--
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" YieldChangeId="SolarFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" YieldChangeId="WindFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" YieldChangeId="OffshoreWindFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" YieldChangeId="GeothermalPlant_Production"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" YieldChangeId="SolarFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" YieldChangeId="WindFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" YieldChangeId="OffshoreWindFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" YieldChangeId="GeothermalPlant_Production"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" YieldChangeId="SolarFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" YieldChangeId="WindFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" YieldChangeId="OffshoreWindFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" YieldChangeId="GeothermalPlant_Production"/>
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldChangeId="SolarFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldChangeId="WindFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldChangeId="OffshoreWindFarm_Production"/>
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldChangeId="GeothermalPlant_Production"/>
+		-->
+	</Improvement_Adjacencies>
+
+	<Improvement_YieldChanges>
+		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Replace ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Replace ImprovementType="IMPROVEMENT_SOLAR_FARM" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Replace ImprovementType="IMPROVEMENT_SOLAR_FARM" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Replace ImprovementType="IMPROVEMENT_WIND_FARM" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Replace ImprovementType="IMPROVEMENT_WIND_FARM" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Replace ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_GOLD" YieldChange="4"/>
+	</Improvement_YieldChanges>
+
+	<Adjacency_YieldChanges>
+		<Row ID="SolarFarm_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_SOLAR_FARM"/>
+		<Row ID="WindFarm_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_WIND_FARM"/>
+		<Row ID="OffshoreWindFarm_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OFFSHORE_WIND_FARM"/>
+		<Row ID="GeothermalPlant_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_GEOTHERMAL_PLANT"/>
+		<Update>
+			<Where ID="TradingDome_LuxuryAdjacency" />
+			<Set YieldChange="2"/>
+		</Update>
+	</Adjacency_YieldChanges>
+
+	
+	<Modifiers>
+		<!--So that all players benefit from it-->
+		<Update>
+			<Where ModifierId="MINOR_CIV_SAMARKAND_TRADE_GOLD" />
+			<Set SubjectRequirementSetId=""/>
+		</Update>
+	</Modifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="MINOR_CIV_SAMARKAND_TRADE_GOLD_MODIFIER" Name="Amount" />
+			<Set Value="2"/>
+		</Update>
+	</ModifierArguments>
+</GameData>

@@ -8,9 +8,26 @@
 	</Strategies>
 
 	<StrategyConditions>
+		<!--Sad AI do terribly in building up Tourism, so we'd better forbid them to be too easy into the chase of Cultural Victory-->
 		<Update>
 			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Good Culture"/>
-			<Set ThresholdValue="25" />
+			<Set ThresholdValue="10" />
+		</Update>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Great Writer"/>
+			<Set ThresholdValue="3" />
+		</Update>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Great Artist"/>
+			<Set ThresholdValue="3" />
+		</Update>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Great Musician"/>
+			<Set ThresholdValue="3" />
+		</Update>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Great Works"/>
+			<Set ThresholdValue="10" />
 		</Update>
 		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Exclusive="true"/>
 	</StrategyConditions>
@@ -43,23 +60,23 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="2.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="1.2" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="1.2" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="1.2" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
-			<Set DefaultValue="12.0" />
+			<Set DefaultValue="8.0" />
 		</Update>
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
@@ -68,12 +85,12 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
-			<Set DefaultValue="9.0" />
+			<Set DefaultValue="10.0" />
 		</Update>
 		<!--Much more important than spy-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" />
-			<Set DefaultValue="8.0" />
+			<Set DefaultValue="15.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
@@ -121,11 +138,11 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.25" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_TOURISM" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.25" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DIPLOMATIC_FAVOR" />
@@ -188,7 +205,7 @@
 	</Strategy_Priorities>
 
 	<AiFavoredItems>
-		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
+		<!--<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_FAITH" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_MILITARY" Favored="true"/>
 		<Row ListType="CultureVictoryBuildings" Item="BUILDING_GOV_CULTURE" Favored="true"/>
@@ -196,7 +213,7 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_TALL" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_WIDE" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>-->
 
 		<Delete ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
 		<Delete ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
@@ -261,37 +278,37 @@
 		<Delete ListType="MedievalPseudoYields" Item="PSEUDOYIELD_DIPLOMATIC_FAVOR" Value="100"/>
 
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
-		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="20"/>
-		<Row ListType="ClassicalYields" Item="YIELD_CULTURE" Value="10"/>
-		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="20"/>
+		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="30"/>
+		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-20"/>
-		<Row ListType="ClassicalDistricts" Item="DISTRICT_GOVERNMENT" Favored="true"/>
-		<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>
-		<!--Too late-->
-		<Row ListType="ClassicalDistricts" Item="DISTRICT_HOLY_SITE" Favored="false"/>
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_CONSULATE" Favored="true"/>
+		<!--<Row ListType="ClassicalDistricts" Item="DISTRICT_GOVERNMENT" Favored="true"/>
+		<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>-->
+		<!--Don't build these-->
+		<Row ListType="ClassicalDistricts" Item="DISTRICT_AERODROME" Favored="false"/>
+		<Row ListType="ClassicalDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
+		<!--<Row ListType="DefaultFavorBuildings" Item="BUILDING_CONSULATE" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_CHANCERY" Favored="true"/>-->
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_LIBRARY" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MARKET" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_AMPHITHEATER" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_HOSPITAL" Favored="false"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MEDICAL_LAB" Favored="false"/>
 		<Row ListType="MedievalBuildings" Item="BUILDING_UNIVERSITY" Favored="true"/>
-		
-		<Row ListType="IndustrialBuildings" Item="BUILDING_CHANCERY" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_FACTORY" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_PUBLIC_SCHOOL" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_RESEARCH_LAB" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_COAL_POWER_PLANT" Favored="true"/>
 
-		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="10"/>
-		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="20"/>
-		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="20"/>
+		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
+		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="10"/>
+		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-30"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
 		<!--We need more improvements!-->
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
-		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_UNIT_TRADE" Value="50"/>
 
-		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="20"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
@@ -303,18 +320,19 @@
 		
 		<!--We really need more improvements!-->
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
 		<!--No need to promote military academy. Build more Campus instead.-->
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="50"/>
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="50"/>
+		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="50"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 
-		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="20"/>
-		<Row ListType="ModernYields" Item="YIELD_CULTURE" Value="5"/>
+		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
 		<!--No need to promote military academy. Build more Campus instead.-->
 		<Delete ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="50"/>
 		<Delete ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="50"/>
-		
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
 		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER"/>
 		<Row ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
@@ -323,12 +341,11 @@
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
 
 		<Delete ListType="ScienceVictoryYields" Item="YIELD_SCIENCE" Value="50"/>
-		<Row ListType="ScienceVictoryYields" Item="YIELD_SCIENCE" Value="150"/>
+		<Row ListType="ScienceVictoryYields" Item="YIELD_SCIENCE" Value="100"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_CULTURE" Value="-25"/>
 		<Row ListType="ScienceVictoryYields" Item="YIELD_FAITH" Value="-75"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
-		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
 		<Delete ListType="ScienceVictoryProjects"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EARTH_SATELLITE" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MOON_LANDING" Favored="true"/>
@@ -342,8 +359,7 @@
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
 
-		<!--Try to improve Culture Victory ability of AI-->
-		<Row ListType="CultureVictoryDistricts" Item="DISTRICT_THEATER" Favored="true"/>
+		<!--Culture Victory-->
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>
@@ -362,8 +378,5 @@
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_NAVAL_COMBAT" Value="10"/>
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="10"/>
 		<Delete ListType="MilitaryVictoryYields" Item="YIELD_PRODUCTION" Value="25"/>
-
-		<Replace ListType="ScienceSensitivity" Item="YIELD_SCIENCE" Value="25"/>
-		<Replace ListType="CultureSensitivity" Item="YIELD_CULTURE" Value="10"/>
 	</AiFavoredItems>
 </GameData>
