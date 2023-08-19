@@ -83,7 +83,7 @@
 		<Row ListType="ExpansionistOperations"/>
 	</AiListTypes>
 	<Strategy_Priorities>
-		<Row StrategyType="STRATEGY_RAPID_EXPANSION" ListType="ExpansionOperations"/>
+		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ListType="ExpansionOperations"/>
 	</Strategy_Priorities>
 	<AiLists>
 		<Row ListType="ExpansionOperations" System="AiOperationTypes"/>
@@ -91,9 +91,7 @@
 	</AiLists>
 	<AiFavoredItems>
 		<Replace ListType="BaseOperationsLimits" Item="ATTACK_BARBARIANS" Value="2" />
-		<!--
 		<Row ListType="ExpansionOperations" Item="OP_SETTLE" Value="1" />
-		-->
 		<Row ListType="ExpansionistOperations" Item="OP_SETTLE" Value="1" />
 	</AiFavoredItems>
 

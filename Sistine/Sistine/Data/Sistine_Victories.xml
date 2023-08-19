@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Types>
+		<Row Type="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" Kind="KIND_VICTORY_STRATEGY"/>
+	</Types>
 	<Strategies>
 		<Update>
 			<Where StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" />
 			<Set NumConditionsNeeded="2" />
 		</Update>
+		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" NumConditionsNeeded="3"/>
 	</Strategies>
 
 	<StrategyConditions>
@@ -30,6 +34,11 @@
 			<Set ThresholdValue="10" />
 		</Update>
 		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Exclusive="true"/>
+		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Has Settle Spot" ThresholdValue="0"/>
+		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Cities Under Threat" ThresholdValue="1"/>
+		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Major Civ Wars" ThresholdValue="1"/>
+		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Not Major" Disqualifier="true"/>
+		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Handicap at or below" ThresholdValue="6" Disqualifier="true"/>
 	</StrategyConditions>
 	<PseudoYields>
 		<!--Replacing PseudoYields will cause issues. Be sure not to replace but only use update-->
