@@ -86,7 +86,7 @@
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_HEALING_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在您的圣地区域、市中心以及与其相邻的单元格上，单位每回合多回复 +30 生命值。</Text>
-		  </Replace>
+		</Replace>
 		<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>选择后在首都中获得1个建造者，城市人口增长速度提升25%。</Text>
 		</Replace>
@@ -107,6 +107,15 @@
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>地热裂缝和火山土提供+1 [ICON_Production] 生产力、+1 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_WORK_ETHIC_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>神社和寺庙提供的 [ICON_Production] 生产力等于其固定产出的 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>拥有专业化区域的城市+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>寺庙为城市提供+10% [ICON_Science] 科技值，如城市没有大学则额外+15% [ICON_Science] 科技值。允许使用 [ICON_Faith] 信仰值购买学院建筑。</Text>
 		</Replace>
 		<!--Space Race Projects-->
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION" Language="zh_Hans_CN">
@@ -192,7 +201,7 @@
 			<Text>法西斯主义提供+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有拥有至少3个独立区域的城市+2 [ICON_Housing] 住房，+1 [ICON_Amenities] 宜居度。</Text>
+			<Text>所有拥有至少3个专业化区域的城市+2 [ICON_Housing] 住房，+1 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>每座研究实验室、军事学院、燃煤发电厂、燃油发电厂和核电站产出的 [ICON_Science] 科技值+2、 [ICON_Culture] 文化值+2、[ICON_Gold] 金币+4。</Text>
@@ -204,7 +213,7 @@
 			<Text>军事学院、码头和启蒙城墙提供的 [ICON_Science] 科技值+4。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_LIBERALISM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有至少两个独立区域的所有城市+2 [ICON_Amenities] 宜居度。</Text>
+			<Text>拥有至少2个专业化区域的所有城市+2 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
 		<!--Cultural Victory overhaul-->
 		<Replace Tag="LOC_GREAT_WORKS_TOOLTIP_DUPLICATE" Language="zh_Hans_CN">
@@ -245,16 +254,6 @@
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造海滨度假区的能力。[NEWLINE][NEWLINE]提供等于此单元格魅力的 [ICON_Tourism] 旅游业绩和 [ICON_Gold] 金币。只能建在海岸沙漠、海岸平原，或海岸草原单元格上。所在单元格魅力必须达到惊艳以上。</Text>
-		</Replace>
-		<!-- Beliefs -->
-		<Replace Tag="LOC_BELIEF_WORK_ETHIC_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>神社和寺庙提供的 [ICON_Production] 生产力等于其固定产出的 [ICON_Faith] 信仰值。</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>拥有专业化区域的城市+2 [ICON_Production] 生产力</Text>
-		</Replace>
-		<Replace Tag="LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>寺庙为城市提供+10% [ICON_Science] 科技值，如果城市没有大学则额外提供15%。允许使用信仰值购买学院建筑。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
