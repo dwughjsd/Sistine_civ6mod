@@ -8,7 +8,7 @@
 		<Replace TeamName="Simple City Attack Force" OperationName="Wartime Attack Enemy City" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="0.5" />
 		<Replace TeamName="City Naval Attack Force" OperationName="Wartime Attack Enemy City" InitialStrengthAdvantage="-5" OngoingStrengthAdvantage="1" Condition="IsCoastalTarget" />
 		<!--Attack walled cities-->
-		<Replace TeamName="City Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="1" OngoingStrengthAdvantage="0.5" />
+		<Replace TeamName="City Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="0.5" />
 		<Replace TeamName="City Naval Attack Force" OperationName="Wartime Attack Walled City" InitialStrengthAdvantage="-5" OngoingStrengthAdvantage="1" Condition="IsCoastalTarget" />
 		<!--Settle new cities-->
 		<Replace TeamName="Settle City Team" OperationName="Settle New City" InitialStrengthAdvantage="0" OngoingStrengthAdvantage="0.5" SafeRallyPoint="true" />
@@ -115,9 +115,9 @@
 		<Delete ListType="Default Tactical" Item="Air Rebase" />
 		<Delete ListType="Default Tactical" Item="Air Assault" />
 		<Delete ListType="Default Tactical" Item="Air Deploy" />
-	    <Delete ListTYpe="Default Tactical" Item="Pillage District" />
-	    <Delete ListTYpe="Default Tactical" Item="Pillage Improvement" />
-	    <Delete ListTYpe="Default Tactical" Item="Attack District" />
+	    <Delete ListType="Default Tactical" Item="Pillage District" />
+	    <Delete ListType="Default Tactical" Item="Pillage Improvement" />
+	    <Delete ListType="Default Tactical" Item="Attack District" />
 		<Delete ListType="Default Tactical" Item="Chase Target" />
 	    <Delete ListType="Default Tactical" Item="Wander Near City" />
 		<Delete ListType="Default Tactical" Item="Wander" />
@@ -127,7 +127,7 @@
 		<Row ListType="Default Tactical" Item="Gather Goody Hut" />
 		<Row ListType="Default Tactical" Item="Make Military Formation" />
 		<Row ListType="Default Tactical" Item="Promotion" />
-		<Row ListTYpe="Default Tactical" Item="Attack District" />
+		<Row ListType="Default Tactical" Item="Attack District" />
 	    <Row ListType="Default Tactical" Item="Attack High Priority" />
 	    <Row ListType="Default Tactical" Item="Attack Camps" />
 		<Row ListType="Default Tactical" Item="Attack Medium Priority" />
@@ -138,8 +138,8 @@
 		<Row ListType="Default Tactical" Item="Air Assault" />
 		<Row ListType="Default Tactical" Item="Air Rebase" />
 		<Row ListType="Default Tactical" Item="Air Deploy" />
-	    <Row ListTYpe="Default Tactical" Item="Pillage District" />
-	    <Row ListTYpe="Default Tactical" Item="Pillage Improvement" />
+	    <Row ListType="Default Tactical" Item="Pillage District" />
+	    <Row ListType="Default Tactical" Item="Pillage Improvement" />
 	    <Row ListType="Default Tactical" Item="Coastal Raid" />
 		<Row ListType="Default Tactical" Item="Chase Target" />
 	    <Row ListType="Default Tactical" Item="Wander Near City" />
