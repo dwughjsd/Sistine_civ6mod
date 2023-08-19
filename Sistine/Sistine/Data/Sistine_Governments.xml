@@ -484,7 +484,7 @@
 		/>
 		<Row ModifierId="AUTOCRACY_GOLD_PER_POP_SST"
 			Name="Amount"
-			Value=".5"
+			Value="1"
 		/>
 		<!--CLASSICAL_REPUBLIC-->
 		<Update>
@@ -494,6 +494,10 @@
 		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
 			Name="Amount"
 			Value="1"
+		/>
+		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
+			Name="YieldType"
+			Value="YIELD_CULTURE"
 		/>
 		<!--OLIGARCHY-->
 		<Update>
