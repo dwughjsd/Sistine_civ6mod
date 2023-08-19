@@ -1,6 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-
+		<!--Generic Buildings-->
+		<Row Tag="LOC_BUILDING_STONE_WORKS_NAME">
+				<Text>Stone Works</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STONE_WORKS_DESCRIPTION">
+				<Text>+1 [ICON_Production] Production from [ICON_RESOURCE_STONE] stone and [ICON_RESOURCE_MARBLE] marble in this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SEWER_DESCRIPTION_SST" >
+			<Text>Increases [ICON_Citizen] growth by 50% in this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HOSPITAL_NAME" >
+			<Text>Hospital</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MEDICAL_LAB_NAME" >
+			<Text>Medical Lab</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" >
+			<Text>Increases [ICON_Citizen] growth by 50% in this city, +50% additionally when [ICON_Power] powered. Its base [ICON_Food] Food bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_RECYCLING_CENTER_NAME" >
+			<Text>Recycling Center</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_RECYCLING_CENTER_DESCRIPTION" >
+			<Text>Provide 1 resource of the Power Plant in this city per turn. Provide 1 [ICON_RESOURCE_ALUMINUM] Aluminum when [ICON_Power] powered.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" >
+			<Text>+1 [ICON_CULTURE] Culture for every specialty district in this city. +2 [ICON_CULTURE] Culture for every world wonder in this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" >
+			<Text>+1 [ICON_CULTURE] Culture for every specialty district in this city. +2 [ICON_CULTURE] Culture for every world wonder in this city. Holds [ICON_GreatWork_Landscape] Great Works of Art. May not be built in a Theater Square district that already has an Archaeological Museum.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" >
+			<Text>+1 [ICON_CULTURE] Culture for every specialty district in this city. +2 [ICON_CULTURE] Culture for every world wonder in this city. Holds [ICON_GreatWork_Artifact] Artifacts. May not be built in a Theater Square district that already has an Art Museum.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPERA_HOUSE_NAME" >
+			<Text>Opera House</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" >
+			<Text>+33% [ICON_Culture] Culture in this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST" >
+			<Text>+33% [ICON_Culture] Culture in this city, +34% additionally when [ICON_Power] powered. Its [ICON_Power] powered [ICON_Culture] Culture bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LIBRARY_DESCRIPTION_SST" >
+			<Text>+0.5 [ICON_SCIENCE] Science per [ICON_Citizen] Citizen in this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST" >
+			<Text>+33% [ICON_SCIENCE] Science in this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PUBLIC_SCHOOL_NAME" >
+			<Text>Public School</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" >
+			<Text>+0.5 [ICON_SCIENCE] Science per [ICON_Citizen] Citizen in this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST" >
+			<Text>+33% [ICON_SCIENCE] Science in this city, +34% additionally when [ICON_Power] powered. Its [ICON_Power] powered [ICON_SCIENCE] Science bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STABLE_EXPANSION2_DESCRIPTION" >
+			<Text>+25% combat experience for all cavalry and siege class units trained in this city. +1 [ICON_Production] from Pastures in this city.[NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed).[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Barracks.</Text>
+		  </Row>
+		<Row Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION_SST" >
+			<Text>{LOC_BUILDING_BANK_DESCRIPTION_SST}{LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BANK_DESCRIPTION_SST" >
+			<Text>+25% [ICON_Gold] Gold in this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" >
+			<Text>+25% [ICON_Gold] Gold in this city, +25% additionally when [ICON_Power] powered. Its [ICON_Power] powered [ICON_Gold] Gold bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
+		</Row>
+		<Row Tag="LOC_PRODUCTION_10_SST" >
+			<Text>+10% [ICON_Production] Production in this city.</Text>
+		</Row>
+		<Row Tag="LOC_PRODUCTION_15_SST" >
+			<Text>+15% [ICON_Production] Production in this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" >
+			<Text>+10% [ICON_Production] Production in this city. Its base [ICON_Production] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" >
+			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_SST" >
+			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" >
+			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MANUFACTURING_PLANT_NAME" >
+			<Text>Manufacturing Plant</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" >
+			<Text>{LOC_PRODUCTION_15_SST} Get +50% [ICON_Production] Production towards city projects in this city. Its [ICON_Power] powered [ICON_Gold] Gold bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" >
+			<Text>+25% combat experience for all naval units trained in this city. +1 [ICON_FOOD] Food on all Coast tiles for this city. +1 [ICON_FOOD] Food from [ICON_RESOURCE_FISH] Fish, [ICON_RESOURCE_CRABS] crabs, [ICON_RESOURCE_PEARLS] Pearls and [ICON_RESOURCE_TURTLES] Turtles in this city. +2 [ICON_HOUSING] Housing if this city is adjacent to coast. +1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Market building.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" >
+			<Text>+25% combat experience for all naval units trained in this city. Bonus [ICON_PRODUCTION] Production equal to the adjacency bonus of the Harbor district. +1 [ICON_PRODUCTION] Production on all Coast and Lake tiles for this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SEAPORT_DESCRIPTION" >
+			<Text>+25% combat experience for all naval units trained in this city. Allows Fleets and Armadas to be trained directly. Fleet and Armada training costs reduced 25%. +2 [ICON_Gold] Gold and +1 [ICON_PRODUCTION] Production on all Coast tiles for this city.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_AQUATICS_CENTER_DESCRIPTION" >
+			<Text>Bonus [ICON_Amenities] Amenities extend to each city center within 9 tiles. This bonus applies once to a city, and multiple copies of this building within 9 tiles of a city center do not provide additional bonuses. +5 [ICON_Tourism] Tourism for each Wonder built in this city on or adjacent to a Coast tile.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STADIUM_EXPANSION1_DESCRIPTION" >
+			<Text>Bonus [ICON_Amenities] Amenities extend to each city center within 6 tiles. This bonus applies once to a city, and multiple copies of this building within 6 tiles of a city center do not provide additional bonuses. +10 [ICON_Tourism] Tourism if the city population is 10 or higher and +10 additional [ICON_Tourism] Tourism if the city population is 20 or higher.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" >
+			<Text>{LOC_PRODUCTION_15_SST} Provides each city center within 6 tiles +6 [ICON_Power] Power from renewable water sources.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" >
+			<Text>+5% [ICON_Tourism] Tourism across your empire. +50% combat experience for air units trained in this city. +1 air unit slot in Aerodrome district. Allows the ability to airlift land units between Aerodrome districts with Airports after the Rapid Deployment civic is unlocked.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_VISITOR_CENTER_NAME" >
+			<Text>Visitor Center</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_VISITOR_CENTER_DESCRIPTION" >
+			<Text>+5% [ICON_Tourism] Tourism across your empire, +5% additionally when [ICON_Power] powered.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" >
+			<Text>+0.5 [ICON_Gold] Gold per [ICON_Citizen] Citizen in this city. +1 [ICON_FOOD] Food from [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_SPICES] Spices, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_SALT] Salt and [ICON_RESOURCE_OLIVES] Olives in this city. Can only be built once in a city, even if the city has multiple Neighborhoods.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" >
+			<Text>+0.5 [ICON_Gold] Gold per [ICON_Citizen] Citizen in this city, +0.5 additionally when [ICON_Power] powered. +1 [ICON_FOOD] Food from [ICON_RESOURCE_CATTLE] Cattle, [ICON_RESOURCE_DEER] Deer, [ICON_RESOURCE_SHEEP] Sheep, [ICON_RESOURCE_TRUFFLES] Truffles and [ICON_RESOURCE_HONEY] Honey. +4 [ICON_Tourism] Tourism. +10 [ICON_Tourism] Tourism if the city population is 10 or higher and +10 additional [ICON_Tourism] Tourism if the city population is 20 or higher. Can only be built once in a city, even if the city has multiple Neighborhoods.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GROVE_DESCRIPTION" >
+			<Text>Grants +2 [ICON_FAITH] Faith to adjacent unimproved Charming tiles. Increased to +3 [ICON_FAITH] Faith, +3 [ICON_CULTURE] Culture for adjacent unimproved Breathtaking tiles.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SANCTUARY_DESCRIPTION" >
+			<Text>Grants +2 [ICON_FOOD] Food to adjacent unimproved Charming tiles. Increased to +3 [ICON_FOOD] Food, +3 [ICON_PRODUCTION] Production for adjacent unimproved Breathtaking tiles.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_VIVARIUM_NAME" >
+			<Text>Vivarium</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_VIVARIUM_DESCRIPTION" >
+			<Text>Grants +2 [ICON_SCIENCE] Science to adjacent unimproved Charming tiles. Increased to +3 [ICON_SCIENCE] Science, +3 [ICON_Gold] Gold for adjacent unimproved Breathtaking tiles.</Text>
+		</Row>
+		<!--Unique Buildings-->
+		<Row Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" >
+			<Text>A building unique to Japan. {LOC_PRODUCTION_10_SST} Provides +4 [ICON_Culture] Culture to this city after researching the Electricity technology. Its [ICON_PRODUCTION] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION" >
+			<Text>A building unique to America. +100% [ICON_Tourism] Tourism pressure from this city towards other civilizations when the game enters the Modern era. {LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST}</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION" >
+			<Text>A building unique to the Ottomans. {LOC_BUILDING_BANK_DESCRIPTION_SST} Accumulate 1 extra Strategic resource for every different type of Strategic resource this city has improved. Receive 1 [ICON_AMENITIES] Amenity for every Luxury resource this city has improved.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MADRASA_DESCRIPTION" >
+			<Text>A building unique to Arabia. {LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST} Bonus [ICON_FAITH] Faith equal to the adjacency bonus of the Campus district.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MARAE_DESCRIPTION" >
+			<Text>A building unique to the Māori. {LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST} +1 [ICON_CULTURE] Culture and [ICON_FAITH] Faith to all of this city's tiles with a passable feature or natural wonder. After Flight is researched receive +1 [ICON_TOURISM] Tourism to all of this city's tiles with a feature or natural wonder. Costs no maintenance. Has no Great Work slots.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NAVIGATION_SCHOOL_DESCRIPTION" >
+			<Text>A building unique to Portugal. {LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST} +25% Production towards naval units in this city. +1 [ICON_SCiENCE] Science for every two coast or lake tiles in this city. +1 [ICON_GreatAdmiral] Great Admiral and +1 [ICON_GreatScientist] Great Scientist point per turn.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION" >
+			<Text>A building unique to Poland. {LOC_BUILDING_BANK_DESCRIPTION_SST} International [ICON_TradeRoute] Trade Routes from this city gain +2 [ICON_Production] Production; domestic [ICON_TradeRoute] Trade Routes gain +4 [ICON_Gold] Gold. +1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Lighthouse building.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" >
+			<Text>A building unique to Hungary. +3 [ICON_Amenities] Amenities and +2 Production extends to each city center within 6 tiles. These bonuses apply once to a city, and multiple copies of this building within 6 tiles of a city center do not provide additional bonuses. [NEWLINE][NEWLINE]This city receives +3 [ICON_TOURISM] Tourism and +2 additional [ICON_Amenities] Amenities if there is at least one Geothermal Fissure in this city's borders.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
