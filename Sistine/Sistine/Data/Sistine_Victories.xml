@@ -137,6 +137,10 @@
 			<Set DefaultValue="1" />
 		</Update>
 		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
+			<Set DefaultValue="2" />
+		</Update>
+		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
 			<Set DefaultValue="0.25" />
 		</Update>
@@ -364,9 +368,7 @@
 		
 		<!--Don't build these too much - which means let them build some at very first-->
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_AERODROME" Favored="false"/>
-		<Row ListType="RenaissanceDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
-		<Row ListType="RenaissanceDistricts" Item="DISTRICT_ENTERTAINMENT_COMPLEX" Favored="false"/>
-		<Row ListType="RenaissanceDistricts" Item="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" Favored="false"/>
+		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
 
 		<!--AI is PRETTY BAD at achieving other types of victory-->
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>
