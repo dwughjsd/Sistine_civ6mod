@@ -61,7 +61,7 @@
 		<!--Trade!-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
@@ -73,15 +73,15 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="1.2" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
-			<Set DefaultValue="1.2" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="1.2" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
@@ -235,9 +235,6 @@
 		<Row ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="15"/>
 		<Row ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
 
-		<!--To compensate AI yield bias so that they will build some farm -->
-		<Row ListType="GilgameshSciencePreference" Item="YIELD_FOOD" Value="50"/>
-
 		<Delete ListType="DefaultYieldBias" Item="YIELD_PRODUCTION"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_CULTURE"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_GOLD"/>
@@ -374,7 +371,6 @@
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
-		
 		<!--Don't build these too much - which means let them build some at very first-->
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_AERODROME" Favored="false"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
