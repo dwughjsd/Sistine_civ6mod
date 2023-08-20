@@ -2,7 +2,10 @@
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
 <GameData>
 	<Improvements>
-		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" Name="LOC_IMPROVEMENT_SEASTEAD_NAME" Description="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Icon="ICON_IMPROVEMENT_SEASTEAD" PlunderType="PLUNDER_HEAL" PlunderAmount="50" PrereqTech="TECH_SEASTEADS" Housing="1" TilesRequired="1" Domain="DOMAIN_SEA" SameAdjacentValid="false"/>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_SEASTEAD" />
+			<Set Housing="1" />
+		</Update>
 		<Update>
 			<Where ImprovementType="IMPROVEMENT_ZIGGURAT" />
 			<Set SameAdjacentValid="false" />
