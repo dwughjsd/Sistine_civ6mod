@@ -325,14 +325,17 @@
 		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="10"/>
+		<!--
 		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="-10"/>
+		-->
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
 
 		<Row ListType="IndustrialYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="10"/>
+		<!--
 		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
-		
+		-->
 		<!--We really need more improvements!-->
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
