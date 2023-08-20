@@ -235,6 +235,9 @@
 		<Row ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="15"/>
 		<Row ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
 
+		<!--To compensate AI yield bias so that they will build some farm -->
+		<Row ListType="GilgameshSciencePreference" Item="YIELD_FOOD" Value="50"/>
+
 		<Delete ListType="DefaultYieldBias" Item="YIELD_PRODUCTION"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_CULTURE"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_GOLD"/>
