@@ -3,6 +3,10 @@
 <GameData>
 	<Improvements>
 		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" Name="LOC_IMPROVEMENT_SEASTEAD_NAME" Description="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Icon="ICON_IMPROVEMENT_SEASTEAD" PlunderType="PLUNDER_HEAL" PlunderAmount="50" PrereqTech="TECH_SEASTEADS" Housing="1" TilesRequired="1" Domain="DOMAIN_SEA" SameAdjacentValid="false"/>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_ZIGGURAT" />
+			<Set SameAdjacentValid="false" />
+		</Update>
 	</Improvements>
 
 	<Improvement_Adjacencies>
@@ -26,6 +30,18 @@
 		-->
 	</Improvement_Adjacencies>
 
+	<Improvement_BonusYieldChanges>
+		<Update>
+			<Where Id="18" /> <!--ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"-->
+			<Set PrereqCivic="CIVIC_COLONIALISM"/>
+		</Update>
+		<Update>
+			<Where Id="21" />
+			<!--ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"-->
+			<Set PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		</Update>
+	</Improvement_BonusYieldChanges>
+
 	<Improvement_YieldChanges>
 		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_CULTURE" YieldChange="3"/>
 		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_FOOD" YieldChange="3"/>
@@ -38,6 +54,7 @@
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Replace ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Replace ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" YieldChange="3"/>
 	</Improvement_YieldChanges>
 
 	<Adjacency_YieldChanges>
@@ -49,14 +66,20 @@
 			<Where ID="TradingDome_LuxuryAdjacency" />
 			<Set YieldChange="2"/>
 		</Update>
-	</Adjacency_YieldChanges>
-
-	
+	</Adjacency_YieldChanges>	
 	<Modifiers>
 		<!--So that all players benefit from it-->
 		<Update>
 			<Where ModifierId="MINOR_CIV_SAMARKAND_TRADE_GOLD" />
 			<Set SubjectRequirementSetId=""/>
+		</Update>
+		<Update>
+			<Where ModifierId="MOUND_AMENITY_MAX_ONE" />
+			<Set SubjectRequirementSetId="PLAYER_DOES_NOT_HAVE_COLONIALISM_REQUIREMENTS"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MOUND_AMENITY_MAX_TWO" />
+			<Set SubjectRequirementSetId="PLAYER_HAS_COLONIALISM_REQUIREMENTS"/>
 		</Update>
 	</Modifiers>
 	<ModifierArguments>
@@ -64,5 +87,35 @@
 			<Where ModifierId="MINOR_CIV_SAMARKAND_TRADE_GOLD_MODIFIER" Name="Amount" />
 			<Set Value="2"/>
 		</Update>
+		<Update>
+			<Where ModifierId="ZIGGURAT_RIVERADJACENCY_CULTURE" Name="Amount" />
+			<Set Value="2"/>
+		</Update>
 	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_DOES_NOT_HAVE_COLONIALISM_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_DOES_NOT_HAVE_COLONIALISM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_DOES_NOT_HAVE_COLONIALISM</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DOES_NOT_HAVE_COLONIALISM</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DOES_NOT_HAVE_COLONIALISM</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_COLONIALISM</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>

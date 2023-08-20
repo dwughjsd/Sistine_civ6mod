@@ -502,7 +502,7 @@
 		<Update><Where BuildingType="BUILDING_OXFORD_UNIVERSITY" /><Set Cost="700"/></Update>
 		<Update><Where BuildingType="BUILDING_STATUE_LIBERTY" /><Set Cost="700"/></Update>
 		<Update><Where BuildingType="BUILDING_BIG_BEN" /><Set Cost="825"/></Update>
-		<Update><Where BuildingType="BUILDING_HERMITAGE" /><Set Cost="825"/></Update>
+		<Update><Where BuildingType="BUILDING_HERMITAGE" /><Set Cost="825" PrereqCivic="CIVIC_NATIONALISM"/></Update>
 		<Update><Where BuildingType="BUILDING_EIFFEL_TOWER" /><Set Cost="1075"/></Update>
 		<Update><Where BuildingType="BUILDING_BROADWAY" /><Set Cost="1075"/></Update>
 		<Update><Where BuildingType="BUILDING_CRISTO_REDENTOR" /><Set Cost="1075"/></Update>
