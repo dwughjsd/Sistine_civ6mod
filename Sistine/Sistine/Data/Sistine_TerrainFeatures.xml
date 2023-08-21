@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Terrain_YieldChanges>
+		<Update>
+			<Where TerrainType="TERRAIN_GRASS_HILLS" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="1" />
+		</Update>
+		<Delete TerrainType="TERRAIN_PLAINS_HILLS" YieldType="YIELD_FOOD" />
+		<Delete TerrainType="TERRAIN_TUNDRA_HILLS" YieldType="YIELD_FOOD" />
+	</Terrain_YieldChanges>
+	<Feature_YieldChanges>
+		<!--We might need to grant all players a hidden bonus so that they won't have negative Food on Rainforests-->
+		<Delete FeatureType="FEATURE_JUNGLE" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Update>
+			<Where FeatureType="FEATURE_MARSH" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="-1" />
+		</Update>
+	</Feature_YieldChanges>
+</GameData>
