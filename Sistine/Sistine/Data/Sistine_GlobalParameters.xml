@@ -23,10 +23,8 @@
 		<Replace Name="NATIONAL_PARK_GOLD_YIELD_PER_TOURISM" Value="1" />
 		<Replace Name="GREATWORK_ART_LOCK_TIME" Value="0" />
 		<!--Eras tweaks-->
-		<!--
-		<Replace Name="DARK_AGE_SCORE_BASE_THRESHOLD" Value="12" />
-		<Replace Name="GOLDEN_AGE_SCORE_BASE_THRESHOLD" Value="24" />
-		-->
+		<Replace Name="THRESHOLD_SHIFT_PER_CITY" Value="3" />
+		<Replace Name="THRESHOLD_SHIFT_PER_MISSING_AMENITY" Value="1" />
 		<Replace Name="THRESHOLD_SHIFT_PER_PAST_DARK_AGE" Value="-8" />
 		<Replace Name="THRESHOLD_SHIFT_PER_PAST_GOLDEN_AGE" Value="8" />
 		<!--Trade route-->
