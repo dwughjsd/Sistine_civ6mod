@@ -71,7 +71,7 @@
 		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" /><Set Cost="190"/></Update>
 		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Description="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" RegionalRange="6" Cost="330"/></Update>
 		<!--Industrial Zone-->
-		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Description="LOC_PRODUCTION_10_SST" Cost="160" PrereqTech="TECH_IRON_WORKING"/></Update>
+		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Description="LOC_PRODUCTION_10_SST" Cost="110" PrereqTech="TECH_IRON_WORKING"/></Update>
 		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Description="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" Cost="330"/></Update>
 		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" /><Set Cost="330"/></Update>
 		<Update><Where BuildingType="BUILDING_POWER_PLANT" /><Set Description="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" Cost="540"/></Update>
