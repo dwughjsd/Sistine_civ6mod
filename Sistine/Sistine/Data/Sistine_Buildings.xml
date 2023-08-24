@@ -171,6 +171,10 @@
 		<Row BuildingType="BUILDING_STONE_WORKS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="6"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_CULTURE"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_SCIENCE"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_GOLD"/><Set YieldChange="6"/></Update>
 		<!--Theater Square-->
 		<Delete BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="3"/>
