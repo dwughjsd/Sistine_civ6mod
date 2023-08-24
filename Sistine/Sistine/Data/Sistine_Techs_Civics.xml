@@ -727,7 +727,7 @@
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN</ModifierId>
+			<ModifierId>REFORMED_CHURCH_PURCHASE_CIVILIAN</ModifierId>
 			<Name>Tag</Name>
 			<Value>CLASS_LANDCIVILIAN</Value>
 		</Row>
