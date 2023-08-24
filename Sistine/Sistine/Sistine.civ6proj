@@ -78,6 +78,9 @@
     <Content Include="Data\Sistine_Districts.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Data\Sistine_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\Sistine_Improvements.xml">
       <SubType>Content</SubType>
     </Content>

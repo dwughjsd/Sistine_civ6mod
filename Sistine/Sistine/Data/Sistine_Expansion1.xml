@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CommemorationModifiers>
+		<Delete CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN"/>
+	</CommemorationModifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_SETTLER_DISCOUNT_MODIFIER" Name="Amount"/>
+			<Set>
+				<Value>20</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_BUILDER_DISCOUNT_MODIFIER" Name="Amount"/>
+			<Set>
+				<Value>20</Value>
+			</Set>
+		</Update>
+	</ModifierArguments>
+</GameData>

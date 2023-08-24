@@ -386,6 +386,10 @@
 	</TechnologyPrereqs>
 	<Civics>
 		<Update>
+			<Where CivicType="CIVIC_REFORMED_CHURCH" />
+			<Set Description="LOC_CIVIC_REFORMED_CHURCH_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
 			<Where CivicType="CIVIC_HUMANISM" />
 			<Set Description="LOC_CIVIC_HUMANISM_DESCRIPTION_SST"/>
 		</Update>
@@ -687,6 +691,7 @@
 	</CivicPrereqs>
 
 	<CivicModifiers>
+		<Row CivicType="CIVIC_REFORMED_CHURCH" ModifierId="REFORMED_CHURCH_PURCHASE_CIVILIAN" />
 		<Row CivicType="CIVIC_HUMANISM" ModifierId="CIVIC_GENERATE_LAND_ANTIQUITIES" />
 		<Delete CivicType="CIVIC_NATURAL_HISTORY" ModifierId="CIVIC_GENERATE_LAND_ANTIQUITIES" />
 		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="HERITAGE_SCULPTURETOURISM" />
@@ -700,8 +705,13 @@
 		<Row CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_GREEN_ENERGY_TOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="CRISTOREDENTOR_BEACHTOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
+
 	</CivicModifiers>
 	<Modifiers>
+		<Row>
+			<ModifierId>REFORMED_CHURCH_PURCHASE_CIVILIAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>ENVIRONMENTALISM_GREEN_ENERGY_TOURISM</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREEN_ENERGY_TOURISM_MODIFIER</ModifierType>
@@ -716,6 +726,11 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LANDCIVILIAN</Value>
+		</Row>
 		<Update>
 			<Where ModifierId="COMPUTERS_BOOST_ALL_TOURISM" Name="Amount"/>
 			<Set>
