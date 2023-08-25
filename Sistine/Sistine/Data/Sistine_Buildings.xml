@@ -15,15 +15,15 @@
 	<Buildings>
 		<!--City Center-->
 		<Update><Where BuildingType="BUILDING_MONUMENT" /><Set Cost="40"/></Update>
-		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Cost="55"/></Update>
-		<Update><Where BuildingType="BUILDING_WATER_MILL" /><Set Cost="65"/></Update>
-		<Update><Where BuildingType="BUILDING_PALGUM" /><Set Cost="65"/></Update>
-		<Update><Where BuildingType="BUILDING_WALLS" /><Set Cost="65"/></Update>
+		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Cost="50"/></Update>
+		<Update><Where BuildingType="BUILDING_WATER_MILL" /><Set Cost="60"/></Update>
+		<Update><Where BuildingType="BUILDING_PALGUM" /><Set Cost="60"/></Update>
+		<Update><Where BuildingType="BUILDING_WALLS" /><Set Cost="60"/></Update>
 		<Update><Where BuildingType="BUILDING_CASTLE" /><Set Cost="180"/></Update>
 		<Update><Where BuildingType="BUILDING_STAR_FORT" /><Set Cost="250"/></Update>
 		<Update><Where BuildingType="BUILDING_TSIKHE" /><Set Cost="200"/></Update>
-		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="65"/></Update>
-		<Row BuildingType="BUILDING_STONE_WORKS" Name="LOC_BUILDING_STONE_WORKS_NAME" Description="LOC_BUILDING_STONE_WORKS_DESCRIPTION" PrereqTech="TECH_MASONRY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_GENERIC" />
+		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="60"/></Update>
+		<Row BuildingType="BUILDING_STONE_WORKS" Name="LOC_BUILDING_STONE_WORKS_NAME" Description="LOC_BUILDING_STONE_WORKS_DESCRIPTION" PrereqTech="TECH_MASONRY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_GENERIC" />
 		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Cost="100" Housing="0" Maintenance="1"/></Update>
 		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_GENERIC" Housing="3" Maintenance="2"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="430" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Maintenance="3"/>
@@ -37,14 +37,14 @@
 		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" /><Set Maintenance="4" RegionalRange="6" Cost="430" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST"/></Update>
 		<Update><Where BuildingType="BUILDING_FILM_STUDIO" /><Set Maintenance="4" RegionalRange="6" Cost="430" /></Update>
 		<!--Campus-->
-		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Description="LOC_BUILDING_LIBRARY_DESCRIPTION_SST" Cost="75"/></Update>
+		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Description="LOC_BUILDING_LIBRARY_DESCRIPTION_SST" Cost="70"/></Update>
 		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set Description="LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST" Cost="200"/></Update>
 		<Update><Where BuildingType="BUILDING_MADRASA" /><Set Cost="200"/></Update>
 		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" /><Set Cost="200"/></Update>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" Name="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Description="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="3" CitizenSlots="1"/>
 		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Maintenance="4" RegionalRange="6" Cost="430" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST"/></Update>
 		<!--Holy Site-->
-		<Update><Where BuildingType="BUILDING_SHRINE" /><Set Cost="60"/></Update>
+		<Update><Where BuildingType="BUILDING_SHRINE" /><Set Cost="55"/></Update>
 		<Update><Where BuildingType="BUILDING_TEMPLE" /><Set Cost="100"/></Update>
 		<Update><Where BuildingType="BUILDING_PRASAT" /><Set Cost="100"/></Update>	
 		<Update><Where BuildingType="BUILDING_STAVE_CHURCH" /><Set Cost="100"/></Update>	
@@ -58,8 +58,8 @@
 		<Update><Where BuildingType="BUILDING_SYNAGOGUE" /><Set Cost="160"/></Update>
 		<Update><Where BuildingType="BUILDING_WAT" /><Set Cost="160"/></Update>
 		<!--Encampment-->
-		<Update><Where BuildingType="BUILDING_BARRACKS" /><Set Cost="75"/></Update>
-		<Update><Where BuildingType="BUILDING_BASILIKOI_PAIDES" /><Set Cost="75"/></Update>
+		<Update><Where BuildingType="BUILDING_BARRACKS" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_BASILIKOI_PAIDES" /><Set Cost="70"/></Update>
 		<Update><Where BuildingType="BUILDING_STABLE" /><Set Cost="100"/></Update>
 		<Update><Where BuildingType="BUILDING_ORDU" /><Set Cost="100"/></Update>
 		<Update><Where BuildingType="BUILDING_ARMORY" /><Set Cost="160"/></Update>
@@ -71,7 +71,7 @@
 		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" /><Set Cost="190"/></Update>
 		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Description="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" RegionalRange="6" Cost="330"/></Update>
 		<!--Industrial Zone-->
-		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Description="LOC_PRODUCTION_10_SST" Cost="110" PrereqTech="TECH_IRON_WORKING"/></Update>
+		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Description="LOC_PRODUCTION_10_SST" Cost="160" /></Update>
 		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Description="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" Cost="330"/></Update>
 		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" /><Set Cost="330"/></Update>
 		<Update><Where BuildingType="BUILDING_POWER_PLANT" /><Set Description="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" Cost="540"/></Update>

@@ -53,7 +53,7 @@
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE" />
-			<Set Cost="40" PrereqTech="TECH_IRON_WORKING" />
+			<Set Cost="40" />
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_NEIGHBORHOOD" />
