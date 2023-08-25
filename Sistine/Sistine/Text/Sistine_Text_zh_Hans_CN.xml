@@ -100,7 +100,7 @@
 			<Text>采集奢侈资源和加成资源的矿山+1 [ICON_Culture] 文化值、+1 [ICON_Faith] 信仰值。改良了 [ICON_RESOURCE_COPPER] 铜、 [ICON_RESOURCE_SILVER] 银或 [ICON_RESOURCE_JADE] 玉的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>采石场+1 [ICON_Production] 生产力、+1 [ICON_Faith] 信仰值。改良了 [ICON_RESOURCE_STONE] 石头、 [ICON_RESOURCE_GYPSUM] 石膏或 [ICON_RESOURCE_MARBLE] 大理石的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
+			<Text>采石场+2 [ICON_Faith] 信仰值。改良了 [ICON_RESOURCE_STONE] 石头、 [ICON_RESOURCE_GYPSUM] 石膏或 [ICON_RESOURCE_MARBLE] 大理石的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_DIVINE_SPARK_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>从以下区域获得+1 [ICON_GreatPerson] 伟人点数：圣地（大预言家）、学院（大科学家）、剧院广场（大作家）。</Text>

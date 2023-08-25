@@ -11,9 +11,11 @@
 		<Row BeliefType="BELIEF_RELIGIOUS_IDOLS">
 			<ModifierId>RELIGIOUS_IDOLS_LUXURY_MINE_CULTURE</ModifierId>
 		</Row>
+		<!--
 		<Row BeliefType="BELIEF_STONE_CIRCLES">
 			<ModifierId>STONE_CIRCLES_QUARRY_PRODUCTION</ModifierId>
 		</Row>
+		-->
 		<Row BeliefType="BELIEF_GODDESS_OF_FIRE">
 			<ModifierId>GODDESS_OF_FIRE_FEATURES_PRODUCTION</ModifierId>
 		</Row>
@@ -187,7 +189,7 @@
 		</Update>
 		<Update>
 			<Where ModifierId="STONE_CIRCLES_QUARRY_FAITH_MODIFIER" Name="Amount" />
-			<Set Value="1" />
+			<Set Value="2" />
 		</Update>
 		<Row>
 			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE</ModifierId>
