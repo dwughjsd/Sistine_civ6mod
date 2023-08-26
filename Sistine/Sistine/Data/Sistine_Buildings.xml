@@ -462,12 +462,12 @@
 
 	<!--Wonders-->
 	<Buildings>
-		<Update><Where BuildingType="BUILDING_STONEHENGE" /><Set Cost="135"/></Update>
-		<Update><Where BuildingType="BUILDING_HANGING_GARDENS" /><Set Cost="135"/></Update>
-		<Update><Where BuildingType="BUILDING_TEMPLE_ARTEMIS" /><Set Cost="135"/></Update>
-		<Update><Where BuildingType="BUILDING_GREAT_BATH" /><Set Cost="135"/></Update>
-		<Update><Where BuildingType="BUILDING_PYRAMIDS" /><Set Cost="160"/></Update>
-		<Update><Where BuildingType="BUILDING_ETEMENANKI" /><Set Cost="160"/></Update>
+		<Update><Where BuildingType="BUILDING_STONEHENGE" /><Set Cost="125"/></Update>
+		<Update><Where BuildingType="BUILDING_HANGING_GARDENS" /><Set Cost="125"/></Update>
+		<Update><Where BuildingType="BUILDING_TEMPLE_ARTEMIS" /><Set Cost="125"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_BATH" /><Set Cost="125"/></Update>
+		<Update><Where BuildingType="BUILDING_PYRAMIDS" /><Set Cost="150"/></Update>
+		<Update><Where BuildingType="BUILDING_ETEMENANKI" /><Set Cost="150"/></Update>
 		<Update><Where BuildingType="BUILDING_ORACLE" /><Set Cost="210"/></Update>
 		<Update><Where BuildingType="BUILDING_GREAT_LIGHTHOUSE" /><Set Cost="210"/></Update>
 		<Update><Where BuildingType="BUILDING_COLOSSUS" /><Set Cost="250"/></Update>
