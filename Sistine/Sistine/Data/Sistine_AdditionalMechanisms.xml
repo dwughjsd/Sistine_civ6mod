@@ -130,6 +130,17 @@
 		</Row>
 	</Requirements>
 
+	<Adjacency_YieldChanges>
+		<Update>
+			<Where ID="Farms_MedievalAdjacency" />
+			<Set PrereqCivic="" PrereqTech="TECH_REPLACEABLE_PARTS" ObsoleteTech="TECH_SATELLITES" />
+		</Update>
+		<Update>
+			<Where ID="Farms_MechanizedAdjacency" />
+			<Set PrereqTech="TECH_SATELLITES" />
+		</Update>
+	</Adjacency_YieldChanges>
+
 	<!--Gold reform-->
 	<CivicModifiers>
 		<Row>

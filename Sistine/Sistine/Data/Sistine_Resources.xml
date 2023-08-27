@@ -12,7 +12,6 @@
 		<Row Tag="CLASS_LIGHTHOUSE" Vocabulary="RESOURCE_CLASS"/>
 		<Row Tag="CLASS_WORKSHOP" Vocabulary="RESOURCE_CLASS"/>
 		<Row Tag="CLASS_FARMS" Vocabulary="RESOURCE_CLASS"/>
-		<Row Tag="CLASS_GRANARY" Vocabulary="RESOURCE_CLASS"/>
 	</Tags>
     <TypeTags>
 		<!-- Bonus-->
@@ -58,7 +57,6 @@
 		<Row ResourceType="RESOURCE_TURTLES" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row ResourceType="RESOURCE_ALUMINUM" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row ResourceType="RESOURCE_IRON" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
-		<Update><Where ResourceType="RESOURCE_NITER" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
 	</Resource_YieldChanges>
 
 	<RequirementSets>

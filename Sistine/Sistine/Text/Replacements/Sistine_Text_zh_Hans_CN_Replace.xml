@@ -112,6 +112,9 @@
 		<!--In-game tooltips-->
 		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE" Language="zh_Hans_CN" Text="世界领袖目睹{1_Target}让您吃尽苦头，将对接下来您使{1_Target}产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。"/>
 		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_NEGATIVE" Language="zh_Hans_CN" Text="世界领袖目睹您让{1_Target}吃尽苦头，将对接下来{1_Target}使您产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。"/>
+		<Replace Tag="LOC_TYPE_TRAIT_ADJACENT_BONUS_OBSOLETE_WITH_TECH_OR_CIVIC" Language="zh_Hans_CN">
+			<Text>{1_TechOrCivicName}出现后过时。</Text>
+		</Replace>
 		<!--Beliefs-->
 		<Replace Tag="LOC_BELIEF_RIVER_GODDESS_NAME" Language="zh_Hans_CN" Text="河流女神"/>
 		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_NAME" Language="zh_Hans_CN" Text="众神丰碑"/>
