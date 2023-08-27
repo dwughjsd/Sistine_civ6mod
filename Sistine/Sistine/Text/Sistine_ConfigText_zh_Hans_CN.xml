@@ -17,12 +17,6 @@
 		<Replace Tag="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城 [ICON_Citizen] 人口增长加速50%，供电充足时额外+50%。基础 [ICON_Food] 食物加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_RECYCLING_CENTER_NAME" Language="zh_Hans_CN">
-			<Text>回收中心</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_RECYCLING_CENTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>提供1份此城的发电站使用的战略资源。若城市 [ICON_Power] 供电充足，提供1份 [ICON_RESOURCE_ALUMINUM] 铝。</Text>
-		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。城市中每拥有1座奇观，则+2 [ICON_CULTURE] 文化值。</Text>
 		</Replace>

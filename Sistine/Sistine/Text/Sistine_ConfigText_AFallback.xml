@@ -14,12 +14,6 @@
 		<Replace Tag="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" Language="en_US">
 			<Text>Increases growth of this city by 50%. Additional +50% when [ICON_Power] Powered. Its base [ICON_Food] Food bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_RECYCLING_CENTER_NAME" Language="en_US">
-			<Text>Recycling Center</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_RECYCLING_CENTER_DESCRIPTION" Language="en_US">
-			<Text>Provides 1 copy of resource the Power Plant in this city consumes per turn. Provides 1 [ICON_RESOURCE_ALUMINUM] Aluminum when [ICON_Power] Powered.</Text>
-		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Language="en_US">
 			<Text>+1 [ICON_CULTURE] Culture for each specialty district in this city. +2 [ICON_CULTURE] Culture for each Wonder in this city.</Text>
 		</Replace>
