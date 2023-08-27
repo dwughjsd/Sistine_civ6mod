@@ -2,12 +2,6 @@
 <GameData>
 	<LocalizedText>
 		<!--Generic Buildings-->
-		<Replace Tag="LOC_BUILDING_STONE_WORKS_NAME" Language="en_US">
-			<Text>Stone Works</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_STONE_WORKS_DESCRIPTION" Language="en_US">
-			<Text>Each improved [ICON_RESOURCE_STONE] Stone and [ICON_RESOURCE_MARBLE] Marble in this city gains +1 [ICON_Production] Production.</Text>
-		</Replace>
 		<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION_SST" Language="en_US">
 			<Text>Increases growth of this city by 50%.</Text>
 		</Replace>

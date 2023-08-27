@@ -2,11 +2,8 @@
 <GameData>
 	<LocalizedText>
 		<!--Generic Buildings-->
-		<Replace Tag="LOC_BUILDING_STONE_WORKS_NAME" Language="zh_Hans_CN">
-			<Text>石工坊</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_STONE_WORKS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城的 [ICON_RESOURCE_STONE] 石头和 [ICON_RESOURCE_MARBLE] 大理石提供的 [ICON_Production] 生产力+1。</Text>
+		<Replace Tag="LOC_BUILDING_GRANARY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>此城的 [ICON_RESOURCE_BANANAS] 香蕉和 [ICON_RESOURCE_DEER] 鹿提供的 [ICON_Food] 食物+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>此城 [ICON_Citizen] 人口增长加速50%。</Text>
@@ -77,8 +74,11 @@
 		<Replace Tag="LOC_PRODUCTION_15_SST" Language="zh_Hans_CN">
 			<Text>为此城+15% [ICON_Production] 生产力。</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_WORKSHOP_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>{LOC_PRODUCTION_10_SST}此城的 [ICON_RESOURCE_STONE] 石头和 [ICON_RESOURCE_COPPER] 铜提供的 [ICON_Production] 生产力+1。</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>为此城+10% [ICON_Production] 生产力。基础 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+			<Text>{LOC_PRODUCTION_10_SST}基础 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION}</Text>
@@ -96,7 +96,7 @@
 			<Text>{LOC_PRODUCTION_15_SST}此城建造城市项目时+50% [ICON_Production] 生产力。[ICON_Power] 供电充足的 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城生产的所有海军单位+25%战斗经验值。此城的所有海岸单元格+1 [ICON_FOOD] 食物。此城的 [ICON_RESOURCE_FISH] 鱼、 [ICON_RESOURCE_CRABS] 螃蟹、 [ICON_RESOURCE_PEARLS] 珍珠及 [ICON_RESOURCE_TURTLES] 海龟提供的 [ICON_Food] 食物+1。如此城与海岸相邻，则+2 [ICON_HOUSING] 住房。如此城尚无市场，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+			<Text>此城生产的所有海军单位+25%战斗经验值。此城的所有海岸单元格+1 [ICON_FOOD] 食物。此城的 [ICON_RESOURCE_FISH] 鱼和 [ICON_RESOURCE_CRABS] 螃蟹提供的 [ICON_Food] 食物+1。如此城与海岸相邻，则+2 [ICON_HOUSING] 住房。如此城尚无市场，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城中生产的所有海军单位+25%战斗经验值。[ICON_Production] 生产力加成等于港口区域的相邻加成。此城所有海岸单元格提供的 [ICON_PRODUCTION] 生产力+1。</Text>
@@ -123,10 +123,10 @@
 			<Text>帝国全境+5% [ICON_Tourism] 旅游业绩，[ICON_Power] 供电充足时额外+5% [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币。此城的 [ICON_RESOURCE_BANANAS] 香蕉、 [ICON_RESOURCE_CITRUS] 柑橘、 [ICON_RESOURCE_SPICES] 香料、 [ICON_RESOURCE_SUGAR] 糖、 [ICON_RESOURCE_SALT] 盐和 [ICON_RESOURCE_OLIVES] 橄榄提供的 [ICON_Food] 食物+1。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+0.5 [ICON_Gold] 金币。此城的 [ICON_RESOURCE_CATTLE] 牛、 [ICON_RESOURCE_DEER] 鹿 [ICON_RESOURCE_SHEEP] 羊、[ICON_RESOURCE_TRUFFLES] 松露和 [ICON_RESOURCE_HONEY] 蜂蜜提供的 [ICON_Food] 食物+1。+4 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于10，则+10 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+20 [ICON_Tourism] 旅游业绩。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+0.5 [ICON_Gold] 金币。+4 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于10，则+10 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+20 [ICON_Tourism] 旅游业绩。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GROVE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为相邻未改良迷人单元格+2 [ICON_FAITH] 信仰值。为相邻未改良惊艳单元格+3 [ICON_FAITH] 信仰值、+3 [ICON_CULTURE] 文化值。</Text>

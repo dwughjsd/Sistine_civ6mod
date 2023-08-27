@@ -8,38 +8,30 @@
 	</Resources>
 	<Tags>
 		<!-- Building Effects Based-->
-		<Row Tag="CLASS_FOOD_MARKET" Vocabulary="RESOURCE_CLASS"/>
-		<Row Tag="CLASS_SHOPPING_MALL" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_GRANARY" Vocabulary="RESOURCE_CLASS"/>
 		<Row Tag="CLASS_LIGHTHOUSE" Vocabulary="RESOURCE_CLASS"/>
-		<Row Tag="CLASS_STONE_WORKS" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_WORKSHOP" Vocabulary="RESOURCE_CLASS"/>
 		<Row Tag="CLASS_FARMS" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_GRANARY" Vocabulary="RESOURCE_CLASS"/>
 	</Tags>
     <TypeTags>
 		<!-- Bonus-->
 		<Row Type="RESOURCE_CRABS" Tag="CLASS_LIGHTHOUSE"/>
 		<Row Type="RESOURCE_FISH" Tag="CLASS_LIGHTHOUSE"/>
+		<!--
 		<Row Type="RESOURCE_PEARLS" Tag="CLASS_LIGHTHOUSE"/>
 		<Row Type="RESOURCE_TURTLES" Tag="CLASS_LIGHTHOUSE"/>
+		-->
+
+		<Row Type="RESOURCE_DEER" Tag="CLASS_GRANARY"/>
+		<Row Type="RESOURCE_BANANAS" Tag="CLASS_GRANARY"/>
 
 		<Row Type="RESOURCE_RICE" Tag="CLASS_FARMS"/>
 		<Row Type="RESOURCE_WHEAT" Tag="CLASS_FARMS"/>
 		<Row Type="RESOURCE_MAIZE" Tag="CLASS_FARMS"/>
 
-		<Row Type="RESOURCE_OLIVES" Tag="CLASS_FOOD_MARKET"/>
-		<Row Type="RESOURCE_BANANAS" Tag="CLASS_FOOD_MARKET"/>
-		<Row Type="RESOURCE_CITRUS" Tag="CLASS_FOOD_MARKET"/>
-		<Row Type="RESOURCE_SPICES" Tag="CLASS_FOOD_MARKET"/>
-		<Row Type="RESOURCE_SUGAR" Tag="CLASS_FOOD_MARKET"/>
-		<Row Type="RESOURCE_SALT" Tag="CLASS_FOOD_MARKET"/>
-
-		<Row Type="RESOURCE_HONEY" Tag="CLASS_SHOPPING_MALL"/>
-		<Row Type="RESOURCE_TRUFFLES" Tag="CLASS_SHOPPING_MALL"/>
-		<Row Type="RESOURCE_CATTLE" Tag="CLASS_SHOPPING_MALL"/>
-		<Row Type="RESOURCE_DEER" Tag="CLASS_SHOPPING_MALL"/>
-		<Row Type="RESOURCE_SHEEP" Tag="CLASS_SHOPPING_MALL"/>
-
-		<Row Type="RESOURCE_MARBLE" Tag="CLASS_STONE_WORKS"/>
-		<Row Type="RESOURCE_STONE" Tag="CLASS_STONE_WORKS"/>
+		<Row Type="RESOURCE_COPPER" Tag="CLASS_WORKSHOP"/>
+		<Row Type="RESOURCE_STONE" Tag="CLASS_WORKSHOP"/>
 
 		<!--We don't really need a mint-->
 		<!--
@@ -57,11 +49,7 @@
 
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>PLOT_HAS_FOOD_MARKET_TAG_REQUIREMENTS</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>PLOT_HAS_SHOPPING_MALL_TAG_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_HAS_GRANARY_TAG_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
@@ -69,35 +57,27 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>PLOT_HAS_STONE_WORKS_TAG_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_HAS_WORKSHOP_TAG_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>PLOT_HAS_FOOD_MARKET_TAG_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_FOOD_MARKET</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>PLOT_HAS_SHOPPING_MALL_TAG_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_SHOPPING_MALL</RequirementId>
+			<RequirementSetId>PLOT_HAS_GRANARY_TAG_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_GRANARY</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>PLOT_HAS_LIGHTHOUSE_TAG_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_TAG_LIGHTHOUSE</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLOT_HAS_STONE_WORKS_TAG_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_STONE_WORKS</RequirementId>
+			<RequirementSetId>PLOT_HAS_WORKSHOP_TAG_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_WORKSHOP</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_FOOD_MARKET</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_SHOPPING_MALL</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_GRANARY</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
 		</Row>
 		<Row>
@@ -105,20 +85,15 @@
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_STONE_WORKS</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_WORKSHOP</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_FOOD_MARKET</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_GRANARY</RequirementId>
 			<Name>Tag</Name>
-			<Value>CLASS_FOOD_MARKET</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_SHOPPING_MALL</RequirementId>
-			<Name>Tag</Name>
-			<Value>CLASS_SHOPPING_MALL</Value>
+			<Value>CLASS_GRANARY</Value>
 		</Row>
 		<Row>
 			<RequirementId>REQUIRES_PLOT_HAS_TAG_LIGHTHOUSE</RequirementId>
@@ -126,9 +101,9 @@
 			<Value>CLASS_LIGHTHOUSE</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_TAG_STONE_WORKS</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_WORKSHOP</RequirementId>
 			<Name>Tag</Name>
-			<Value>CLASS_STONE_WORKS</Value>
+			<Value>CLASS_WORKSHOP</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>
