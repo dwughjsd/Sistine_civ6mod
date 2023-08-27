@@ -10,6 +10,10 @@
 			<Where TechnologyType="TECH_CHEMISTRY" />
 			<Set Description="LOC_TECH_CHEMISTRY_DESCRIPTION_SST" />
 		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SATELLITES" />
+			<Set Description="LOC_TECH_SATELLITES_DESCRIPTION_SST" />
+		</Update>
 	</Technologies>
 	<TechnologyModifiers>
 		<Row>
