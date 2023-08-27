@@ -3,10 +3,19 @@
 	<LocalizedText>
 		<!--Irrigation-->
 		<Replace Tag="LOC_TECH_IRRIGATION_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>{LOC_TECH_IRRIGATION_DESCRIPTION}淡水单元格的农场改良设施提供的 [ICON_Food] 食物+1。</Text>
+			<Text>{LOC_TECH_IRRIGATION_DESCRIPTION}允许在沙漠地形上上建造农场。解锁“土木工程”后，即可在沙漠丘陵上建造农场。</Text>
 		</Replace>
-		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CIVIC_FEUDALISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>淡水单元格的农场改良设施提供的 [ICON_Food] 食物+1。种植园改良设施提供的 [ICON_Food] 食物+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CHEMISTRY_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>无淡水单元格的农场改良设施提供的 [ICON_Food] 食物+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将农场改良设施升级为机械化农业，与每2个农场改良设施相邻时，农场提供的 [ICON_Food] 食物+1。牧场改良设施提供的 [ICON_Production] 生产力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SATELLITES_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>将农场改良设施升级为现代农业，为相邻的每个农场改良设施+1 [ICON_Food] 食物。</Text>
 		</Replace>
 		<!--Gold reform-->
 		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="zh_Hans_CN">
@@ -224,7 +233,7 @@
 		</Replace>
 		<Replace Tag="LOC_CIVIC_REFORMED_CHURCH_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>允许使用 [ICON_Faith] 信仰值购买平民单位。</Text>
-		</Replace>	
+		</Replace>
 		<Replace Tag="LOC_CIVIC_HUMANISM_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>显示 [ICON_RESOURCE_ANTIQUITY_SITE] 历史古迹。允许生产考古学家。</Text>
 		</Replace>

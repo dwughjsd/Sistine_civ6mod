@@ -1,56 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<!--Irrigation-->
+	<!--FEUDALISM-->
 	<Technologies>
 		<Update>
 			<Where TechnologyType="TECH_IRRIGATION" />
 			<Set Description="LOC_TECH_IRRIGATION_DESCRIPTION_SST" />
 		</Update>
 		<Update>
-			<Where TechnologyType="TECH_ELECTRICITY" />
-			<Set Description="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" />
+			<Where TechnologyType="TECH_CHEMISTRY" />
+			<Set Description="LOC_TECH_CHEMISTRY_DESCRIPTION_SST" />
 		</Update>
 	</Technologies>
 	<TechnologyModifiers>
 		<Row>
 			<TechnologyType>TECH_IRRIGATION</TechnologyType>
-			<ModifierId>IRRIGATION_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
 		</Row>
 		<Row>
-			<TechnologyType>TECH_ELECTRICITY</TechnologyType>
-			<ModifierId>ELECTRICITY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+			<TechnologyType>TECH_IRRIGATION</TechnologyType>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_CHEMISTRY</TechnologyType>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
 		</Row>
 	</TechnologyModifiers>
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_FEUDALISM</CivicType>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
+		</Row>
+	</CivicModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>IRRIGATION_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_FARM_FRESHWATER_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>ELECTRICITY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_FARM_NONFRESHWATER_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>IRRIGATION_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FOOD</Value>
 		</Row>
 		<Row>
-			<ModifierId>IRRIGATION_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>ELECTRICITY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FOOD</Value>
 		</Row>
 		<Row>
-			<ModifierId>ELECTRICITY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
