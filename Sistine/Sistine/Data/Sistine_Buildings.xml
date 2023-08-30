@@ -38,7 +38,7 @@
 		<Update><Where BuildingType="BUILDING_MADRASA" /><Set Cost="200"/></Update>
 		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" /><Set Cost="200"/></Update>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" Name="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Description="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="3" CitizenSlots="1"/>
-		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Maintenance="4" RegionalRange="6" Cost="430" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Maintenance="4" RegionalRange="6" Cost="430" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST" PrereqTech="TECH_COMPUTERS"/></Update>
 		<!--Holy Site-->
 		<Update><Where BuildingType="BUILDING_SHRINE" /><Set Cost="55"/></Update>
 		<Update><Where BuildingType="BUILDING_TEMPLE" /><Set Cost="100"/></Update>
