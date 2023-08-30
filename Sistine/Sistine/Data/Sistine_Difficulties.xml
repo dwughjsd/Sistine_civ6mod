@@ -131,15 +131,15 @@
 			<ModifierId>HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>-5</Value>
-			<Extra>5</Extra>
+			<Value>-8</Value>
+			<Extra>8</Extra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_CIVIC_BOOST_BONUS_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>-5</Value>
-			<Extra>5</Extra>
+			<Value>-8</Value>
+			<Extra>8</Extra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>

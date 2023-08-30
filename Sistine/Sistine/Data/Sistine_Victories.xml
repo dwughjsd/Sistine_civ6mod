@@ -368,7 +368,9 @@
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
-		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies-->
+		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies. No need to rush rocketry, but pursuing satellite can still be beneficial-->
+		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROCKETRY" Favored="true" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPUTERS" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
