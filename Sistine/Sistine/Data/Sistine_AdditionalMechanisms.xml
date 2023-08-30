@@ -303,4 +303,79 @@
 		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
 		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
 	</ModifierArguments>
+	<!--Wide play science & culture penalty-->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CITY_CENTER_TECH_BOOST_PENALTY"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CITY_CENTER_CIVIC_BOOST_PENALTY"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>CITY_CENTER_TECH_BOOST_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_NOT_PALACE_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_CIVIC_BOOST_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_NOT_PALACE_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_TECH_BOOST_PENALTY_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST</ModifierType>
+			<SubjectStackLimit>20</SubjectStackLimit>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_CIVIC_BOOST_PENALTY_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CIVIC_BOOST</ModifierType>
+			<SubjectStackLimit>20</SubjectStackLimit>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>CITY_CENTER_TECH_BOOST_PENALTY</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CITY_CENTER_TECH_BOOST_PENALTY_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_CIVIC_BOOST_PENALTY</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CITY_CENTER_CIVIC_BOOST_PENALTY_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_TECH_BOOST_PENALTY_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_CIVIC_BOOST_PENALTY_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>BUILDING_IS_NOT_PALACE_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>BUILDING_IS_NOT_PALACE_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_NO_PALACE_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_NO_PALACE_SST</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_NO_PALACE_SST</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>
