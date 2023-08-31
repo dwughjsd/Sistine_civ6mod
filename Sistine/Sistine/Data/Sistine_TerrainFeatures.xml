@@ -15,5 +15,7 @@
 			<Where FeatureType="FEATURE_MARSH" YieldType="YIELD_FOOD"/>
 			<Set YieldChange="-1" />
 		</Update>
+		<Row FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row FeatureType="FEATURE_FLOODPLAINS_PLAINS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</Feature_YieldChanges>
 </GameData>
