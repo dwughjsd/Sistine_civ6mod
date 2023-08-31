@@ -39,7 +39,7 @@
 		<Update><Where ResourceType="RESOURCE_GYPSUM" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
 		<Update><Where ResourceType="RESOURCE_INCENSE" YieldType="YIELD_FAITH"/><Set YieldChange="2"/></Update>
 		<Row ResourceType="RESOURCE_INCENSE" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		<Update><Where ResourceType="RESOURCE_IVORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
+		<Update><Where ResourceType="RESOURCE_IVORY" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
 		<Row ResourceType="RESOURCE_JADE" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row ResourceType="RESOURCE_MARBLE" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row ResourceType="RESOURCE_MERCURY" YieldType="YIELD_GOLD" YieldChange="2"/>
