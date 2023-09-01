@@ -19,37 +19,37 @@
 	</ModifierArguments>
 	<Moments>
 		<Update>
-			<Where MomentType="MOMENT_GREAT_PERSON_CREATED_GAME_ERA" Name="Amount"/>
+			<Where MomentType="MOMENT_GREAT_PERSON_CREATED_GAME_ERA" />
 			<Set>
 				<EraScore>4</EraScore>
 			</Set>
 		</Update>
 		<Update>
-			<Where MomentType="MOMENT_GREAT_PERSON_CREATED_PAST_ERA" Name="Amount"/>
+			<Where MomentType="MOMENT_GREAT_PERSON_CREATED_PAST_ERA"/>
 			<Set>
 				<EraScore>3</EraScore>
 			</Set>
 		</Update>
 		<Update>
-			<Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FIRST_UNIQUE" Name="Amount"/>
+			<Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FIRST_UNIQUE"/>
 			<Set>
 				<EraScore>2</EraScore>
 			</Set>
 		</Update>
 		<Update>
-			<Where MomentType="MOMENT_IMPROVEMENT_CONSTRUCTED_FIRST_UNIQUE" Name="Amount"/>
+			<Where MomentType="MOMENT_IMPROVEMENT_CONSTRUCTED_FIRST_UNIQUE"/>
 			<Set>
 				<EraScore>2</EraScore>
 			</Set>
 		</Update>
 		<Update>
-			<Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_FIRST_UNIQUE" Name="Amount"/>
+			<Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_FIRST_UNIQUE"/>
 			<Set>
 				<EraScore>2</EraScore>
 			</Set>
 		</Update>
 		<Update>
-			<Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FIRST_UNIQUE" Name="Amount"/>
+			<Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FIRST_UNIQUE"/>
 			<Set>
 				<EraScore>2</EraScore>
 			</Set>

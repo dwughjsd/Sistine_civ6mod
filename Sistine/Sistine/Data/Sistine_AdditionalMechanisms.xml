@@ -378,4 +378,32 @@
 			<Value>BUILDING_PALACE</Value>
 		</Row>
 	</RequirementArguments>
+	<!--Era score-->
+	<GameModifiers>
+		<Row ModifierId="SISTINEERA_SCORE_PER_CURRENT_CIVIC_COMPLETIONS"/>
+		<Row ModifierId="SISTINEERA_SCORE_PER_CURRENT_TECH_COMPLETIONS"/>
+	</GameModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>SISTINEERA_SCORE_PER_CURRENT_CIVIC_COMPLETIONS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ADJUST_ERA_SCORE_PER_CURRENT_CIVIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SISTINEERA_SCORE_PER_CURRENT_TECH_COMPLETIONS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ADJUST_ERA_SCORE_PER_CURRENT_TECH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SISTINEERA_SCORE_PER_CURRENT_CIVIC_COMPLETIONS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SISTINEERA_SCORE_PER_CURRENT_TECH_COMPLETIONS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
 </GameData>
