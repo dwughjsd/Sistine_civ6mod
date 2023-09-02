@@ -17,6 +17,78 @@
 		<Replace Tag="LOC_TECH_SATELLITES_DESCRIPTION_SST" Language="en_US">
 			<Text>Upgrades Farm improvements to Modern Agriculture. +1 [ICON_Food] Food Adjacency bonus for every Farm improvement they are adjacent to.</Text>
 		</Replace>
+		<!--Gold reform-->
+		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="en_US">
+			<Text>Allows the creation of [ICON_TradeRoute] Trade Routes. +1 [ICON_Gold] Gold to all tiles beside a river.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SAILING_DESCRIPTION" Language="en_US">
+			<Text>Allows Builders to embark. Coast, Lake, and Ocean tiles receive +1 [ICON_Gold] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 5 tiles they travel.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Movement] Movement for embarked units. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Production] Production for every 10 tiles they travel.</Text>
+		</Replace>
+		<!--Science Victory-->
+		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="en_US">
+			<Text>Space Race project which launches a large rocket to land a human on the moon. Grants a one time [ICON_Culture] Culture bonus equal to 10 times your [ICON_Culture] Culture per turn, and marks the second step towards the Science Victory.</Text>
+		</Replace>
+		<!--City-states-->
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Science] Science in your [ICON_Capital] Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Science] Science in every University and Consulate building.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Science] Science in every Research Lab and Chancery building.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Faith] Faith in the [ICON_Capital] Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Faith] Faith in every Temple and Consulate building.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Faith] Faith in every worship and Chancery building.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold in the [ICON_Capital] Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold in every Bank, Shipyard, and Consulate building.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold in every Stock Exchange, Seaport, and Chancery building.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture in the [ICON_Capital] Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture in every Art Museum, Archeological Museum, and Consulate building.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture in every Broadcast Center and Chancery building.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Production] Production in the [ICON_Capital] Capital when producing units.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Production] Production in every city with an Armory or Consulate building when producing units. Receive +2 [ICON_Production] Production if it has both these buildings.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Production] Production in every city with an Armory or Consulate building when producing units. Receive +2 [ICON_Production] Production if it has both these buildings.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Production] Production in the [ICON_Capital] Capital when producing wonders, buildings, and districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Production] Production in every city with a Factory or Consulate building when producing wonders, buildings, and districts. Receive +2 [ICON_Production] Production if it has both these buildings.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>+3 [ICON_Production] Production in every city with a Chancery or Power Plant building when producing wonders, buildings, and districts. Receive +6 [ICON_Production] Production if it has both a Chancery and a Power Plant building.</Text>
+		</Replace>
 		<!--Governments & Policies-->
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="en_US">
 			<Text>+2 [ICON_Culture] Culture from the Palace, Government Plaza, and Diplomatic Quarter. +1 [ICON_Gold] Gold for every [ICON_Citizen] Population in cities with a Palace, Government Plaza, or Diplomatic Quarter.</Text>
