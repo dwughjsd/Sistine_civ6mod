@@ -6,6 +6,30 @@
 			<Set Description="LOC_TECH_CURRENCY_DESCRIPTION"/>
 		</Update>
 		<Update>
+			<Where TechnologyType="TECH_INDUSTRIALIZATION" />
+			<Set Description=""/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SYNTHETIC_MATERIALS" />
+			<Set Description=""/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_PLASTICS" />
+			<Set Description=""/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ROCKETRY" />
+			<Set Description=""/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ELECTRICITY" />
+			<Set Description="LOC_TECH_ELECTRICITY_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MACHINERY" />
+			<Set Description="LOC_TECH_MACHINERY_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_STEALTH_TECHNOLOGY" />
 			<Set Critical="0"/>
 		</Update>
@@ -408,6 +432,18 @@
 		<Update>
 			<Where CivicType="CIVIC_SOCIAL_MEDIA" />
 			<Set Description="LOC_CIVIC_SOCIAL_MEDIA_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_GUILDS" />
+			<Set Description="LOC_CIVIC_GUILDS_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_URBANIZATION" />
+			<Set Description="LOC_CIVIC_URBANIZATION_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_MEDIEVAL_FAIRES" />
+			<Set Description="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION_SST"/>
 		</Update>
 		<!--Cost: Don't add other info here, queries are auto generated-->
 		<Update>

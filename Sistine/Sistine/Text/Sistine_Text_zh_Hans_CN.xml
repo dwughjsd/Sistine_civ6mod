@@ -11,11 +11,74 @@
 		<Replace Tag="LOC_TECH_CHEMISTRY_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>无淡水单元格的农场改良设施提供的 [ICON_Food] 食物+1。</Text>
 		</Replace>
-		<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>将农场改良设施升级为机械化农业，与每2个农场改良设施相邻时，农场提供的 [ICON_Food] 食物+1。牧场改良设施提供的 [ICON_Production] 生产力+1。</Text>
-		</Replace>
 		<Replace Tag="LOC_TECH_SATELLITES_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>将农场改良设施升级为现代农业，为相邻的每个农场改良设施+1 [ICON_Food] 食物。</Text>
+		</Replace>
+		<!--Improvement update-->
+		<Replace Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>营地改良设施提供的 [ICON_Production] 生产力和 [ICON_Food] 食物+1。</Text>
+		</Replace>
+		<!--
+		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		-->
+		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>水运单位+2 [ICON_Movement] 移动力。矿山改良设施+1 [ICON_Production] 生产力。您的 [ICON_TradeRoute] 贸易路线每经过10个单元格，其提供的 [ICON_Production] 生产力便+1。</Text>
+		</Replace>
+		<!--<Replace Tag="LOC_TECH_ROCKETRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>-->
+		<Replace Tag="LOC_CIVIC_GUILDS_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>采石场+1 [ICON_Production] 生产力。伐木场可建在雨林上。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_GUNPOWDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为苏莱曼一世（立法者）解锁1个 [ICON_GOVERNOR] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>采石场+1 [ICON_Production] 生产力。可以在草原丘陵和平原丘陵上建造农场。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_STIRRUPS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>牧场+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ROBOTICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>牧场+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将农场改良设施升级为机械化农业，与每2个农场改良设施相邻时，农场提供的 [ICON_Food] 食物+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_URBANIZATION_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>采石场+1 [ICON_Production] 生产力。牧场+1 [ICON_Food] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造伐木场的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。只能建在树林上。解锁“公会”市政后也能建造雨林上。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造牧场的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物。只能在有效资源上建造。[NEWLINE][NEWLINE]如果建在战略资源上，城市则可以利用该资源。</Text>
+		</Replace>
+		<!--<Replace Tag="LOC_TECH_SYNTHETIC_MATERIALS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>-->
+		<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>奖励3位 [ICON_Envoy] 使者。允许建造者种植森林（人造林）。营地产出的 [ICON_Gold] 金币+2。您领土上从未被移除的森林（原始林）获得+1魅力。获得城墙的 [ICON_TOURISM] 旅游业绩。所有国家公园提供的 [ICON_TOURISM] 旅游业绩+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有海军和水运单位可在海洋单元格上航行。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>渔船+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<!--<Replace Tag="LOC_TECH_PLASTICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>-->
+		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>渔船+1 [ICON_Food] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MACHINERY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>伐木场+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SMART_MATERIALS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>矿山+1 [ICON_Production] 生产力。解锁末日机甲升级：强力装甲[NEWLINE]防御陆地与海军单位时+10 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<!--Gold reform-->
 		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="zh_Hans_CN">
@@ -26,9 +89,6 @@
 		</Replace>
 		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您的 [ICON_TradeRoute] 贸易路线每经过5个单元格，其提供的 [ICON_Gold] 金币便+1。</Text>
-		</Replace>
-		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>水运单位+2 [ICON_Movement] 移动力。您的 [ICON_TradeRoute] 贸易路线每经过10个单元格，其提供的 [ICON_Production] 生产力便+1。</Text>
 		</Replace>
 		<!--Science Victory-->
 		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="zh_Hans_CN">
@@ -246,9 +306,6 @@
 		<Replace Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>允许使用 [ICON_Faith] 信仰值购买自然学家以及建造国家公园。奖励2位 [ICON_Envoy] 使者。</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>奖励3位 [ICON_Envoy] 使者。允许建造者种植森林（人造林）。您领土上从未被移除的森林（原始林）获得+1魅力。获得城墙的 [ICON_TOURISM] 旅游业绩。所有国家公园提供的 [ICON_TOURISM] 旅游业绩+100%。</Text>
-		</Replace>
 		<Replace Tag="LOC_CIVIC_CULTURAL_HERITAGE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>显示 [ICON_RESOURCE_SHIPWRECK] 海难遗址，考古学家可从此处挖掘 [ICON_GreatWork_Artifact] 文物。奖励3位 [ICON_Envoy] 使者。[ICON_GreatWork_Artifact] 文物 +100% [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
@@ -286,6 +343,16 @@
 		<!--Ages-->
 		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
 			<Text>“雄伟壮丽”黄金时代：[NEWLINE]所有建造者+2 [ICON_Movement] 移动力。用 [ICON_FAITH] 信仰值和 [ICON_GOLD] 黄金购买建造者和开拓者的费用降低20%。</Text>
+		</Replace>
+		<!--Features-->
+		<Replace Tag="LOC_FEATURE_FLOODPLAINS_DESERT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通沙漠单元格的 [ICON_Food] 食物产量更高。如果江河再次泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FLOODPLAINS_GRASSLAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通草原单元格的 [ICON_Production] 生产力产量更高。如果江河泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FLOODPLAINS_PLAINS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通平原单元格的 [ICON_Production] 生产力产量更高。如果江河泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
