@@ -471,4 +471,65 @@
 			<Value>CIVIC_PROFESSIONAL_SPORTS</Value>
 		</Row>
 	</RequirementArguments>
+
+	<MajorStartingUnits>
+		<Replace Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_CLASSICAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_MEDIEVAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_RENAISSANCE" Unit="UNIT_PIKEMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_INDUSTRIAL" Unit="UNIT_PIKE_AND_SHOT" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_MODERN" Unit="UNIT_RANGER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_ATOMIC" Unit="UNIT_AT_CREW" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_INFORMATION" Unit="UNIT_AT_CREW" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Update>
+			<Where Unit="UNIT_SETTLER" AiOnly="true" OnDistrictCreated="true" />
+			<Set OnDistrictCreated="false"/>
+		</Update>
+	</MajorStartingUnits>
+
+	<BonusMinorStartingUnits>
+		<Replace Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_CLASSICAL" Unit="UNIT_WARRIOR" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_MEDIEVAL" Unit="UNIT_SWORDSMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_RENAISSANCE" Unit="UNIT_SWORDSMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_INDUSTRIAL" Unit="UNIT_MUSKETMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_MODERN" Unit="UNIT_MUSKETMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_ATOMIC" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+	</BonusMinorStartingUnits>
+
+	<Eras_XP1>
+		<Update>
+			<Where EraType="ERA_ANCIENT" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_CLASSICAL" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_MEDIEVAL" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_RENAISSANCE" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_INDUSTRIAL" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_MODERN" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_ATOMIC" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_INFORMATION" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+	</Eras_XP1>
 </GameData>

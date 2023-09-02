@@ -38,39 +38,6 @@
 		<Replace Name="ALLIANCE_LEVEL_TWO_XP" Value="120" />
 	</GlobalParameters>
 
-	<MajorStartingUnits>
-		<Replace Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-		<Replace Era="ERA_CLASSICAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-		<Replace Era="ERA_MEDIEVAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-		<Replace Era="ERA_RENAISSANCE" Unit="UNIT_PIKEMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-		<Replace Era="ERA_INDUSTRIAL" Unit="UNIT_PIKE_AND_SHOT" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-		<Replace Era="ERA_MODERN" Unit="UNIT_RANGER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-		<Replace Era="ERA_ATOMIC" Unit="UNIT_AT_CREW" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-		<Replace Era="ERA_INFORMATION" Unit="UNIT_AT_CREW" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
-	</MajorStartingUnits>
-
-	<BonusMinorStartingUnits>
-		<Replace Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
-		<Replace Era="ERA_CLASSICAL" Unit="UNIT_WARRIOR" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
-		<Replace Era="ERA_MEDIEVAL" Unit="UNIT_SWORDSMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
-		<Replace Era="ERA_RENAISSANCE" Unit="UNIT_SWORDSMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
-		<Replace Era="ERA_INDUSTRIAL" Unit="UNIT_MUSKETMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
-		<Replace Era="ERA_MODERN" Unit="UNIT_MUSKETMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
-		<Replace Era="ERA_ATOMIC" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
-		<Replace Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
-	</BonusMinorStartingUnits>
-
-	<Eras_XP1>
-		<Update><Where EraType="ERA_ANCIENT" /><Set GameEraMinimumTurns="30"/></Update>
-		<Update><Where EraType="ERA_CLASSICAL" /><Set GameEraMinimumTurns="30"/></Update>
-		<Update><Where EraType="ERA_MEDIEVAL" /><Set GameEraMinimumTurns="30"/></Update>
-		<Update><Where EraType="ERA_RENAISSANCE" /><Set GameEraMinimumTurns="30"/></Update>
-		<Update><Where EraType="ERA_INDUSTRIAL" /><Set GameEraMinimumTurns="30"/></Update>
-		<Update><Where EraType="ERA_MODERN" /><Set GameEraMinimumTurns="30"/></Update>
-		<Update><Where EraType="ERA_ATOMIC" /><Set GameEraMinimumTurns="30"/></Update>
-		<Update><Where EraType="ERA_INFORMATION" /><Set GameEraMinimumTurns="30"/></Update>
-	</Eras_XP1>
-
 	<BarbarianAttackForces>
 		<!--Fix of high difficulty barb heavy cavalry-->
 		<Replace AttackForceType="LowDifficultyStandardRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_MELEE" NumMeleeUnits="1" RaidingForce="true"/>
