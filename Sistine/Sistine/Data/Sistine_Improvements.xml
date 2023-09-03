@@ -85,7 +85,7 @@
 		<Delete ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_FOOD" YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
-		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" />
+		<Delete ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" />
 		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_CULTURE" YieldChange="3"/>
 		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_FOOD" YieldChange="3"/>
