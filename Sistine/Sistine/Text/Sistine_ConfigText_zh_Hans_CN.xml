@@ -18,10 +18,10 @@
 			<Text>此城 [ICON_Citizen] 人口增长加速50%，供电充足时额外+50%。基础 [ICON_Food] 食物加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。城市中每拥有1座奇观，则+2 [ICON_CULTURE] 文化值。</Text>
+			<Text>城市每拥有1处特色区域，则+2 [ICON_CULTURE] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。城市中每拥有1座奇观，则+2 [ICON_CULTURE] 文化值。可存放 [ICON_GreatWork_Landscape] 艺术巨作。如果在剧院广场区域已经有一座考古博物馆则无法修建。</Text>
+			<Text>城市每拥有1处特色区域，则+2 [ICON_CULTURE] 文化值。可存放 [ICON_GreatWork_Landscape] 艺术巨作。如果在剧院广场区域已经有一座考古博物馆则无法修建。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。城市中每拥有1座奇观，则+2 [ICON_CULTURE] 文化值。可存放 [ICON_GreatWork_Artifact] 文物。如果在剧院广场区域已经有一座艺术博物馆则无法修建。</Text>

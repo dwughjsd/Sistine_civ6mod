@@ -445,6 +445,10 @@
 			<Where CivicType="CIVIC_MEDIEVAL_FAIRES" />
 			<Set Description="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION_SST"/>
 		</Update>
+		<Update>
+			<Where CivicType="CIVIC_DRAMA_POETRY" />
+			<Set Description="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST"/>
+		</Update>
 		<!--Cost: Don't add other info here, queries are auto generated-->
 		<Update>
 			<Where CivicType="CIVIC_CODE_OF_LAWS" />

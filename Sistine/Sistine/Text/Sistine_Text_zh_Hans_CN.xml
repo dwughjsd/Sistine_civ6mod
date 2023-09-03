@@ -357,5 +357,8 @@
 		<Replace Tag="LOC_FEATURE_FLOODPLAINS_PLAINS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通平原单元格的 [ICON_Production] 生产力产量更高。如果江河泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
 		</Replace>
+		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>世界奇观+4 [ICON_Culture] 文化值。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

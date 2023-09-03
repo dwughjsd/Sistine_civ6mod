@@ -405,5 +405,29 @@
 			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
-
+	<!--Wonder Culture-->
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_DRAMA_POETRY</CivicType>
+			<ModifierId>DRAMA_POETRY_WONDER_CULTURE</ModifierId>
+		</Row>
+	</CivicModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DRAMA_POETRY_WONDER_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_WONDER_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DRAMA_POETRY_WONDER_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>DRAMA_POETRY_WONDER_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>
