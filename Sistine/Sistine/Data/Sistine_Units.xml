@@ -166,8 +166,8 @@
 		<Update><Where UnitType="UNIT_MODERN_ARMOR" /><Set Cost="590"/></Update>
 
 		<Update><Where UnitType="UNIT_TRADER" /><Set Cost="30" /></Update>
-		<Update><Where UnitType="UNIT_BUILDER" /><Set Cost="60" CostProgressionParam1="10" /></Update>
-		<Update><Where UnitType="UNIT_SETTLER" /><Set Cost="100"  CostProgressionParam1="40" /></Update>
+		<Update><Where UnitType="UNIT_BUILDER" /><Set Cost="40" CostProgressionParam1="10" /></Update>
+		<Update><Where UnitType="UNIT_SETTLER" /><Set Cost="80"  CostProgressionParam1="40" /></Update>
 		<Update><Where UnitType="UNIT_MISSIONARY" /><Set Cost="75"  CostProgressionParam1="10" /></Update>
 		<Update><Where UnitType="UNIT_INQUISITOR" /><Set Cost="75"  CostProgressionParam1="10" /></Update>
 		<Update><Where UnitType="UNIT_GURU" /><Set Cost="100"  CostProgressionParam1="15" /></Update>
