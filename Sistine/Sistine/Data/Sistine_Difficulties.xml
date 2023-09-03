@@ -23,9 +23,11 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SPORTS_MEDIA"/>
 	</TraitModifiers>
 	<TechnologyModifiers>
+		<!--
 		<Row TechnologyType="TECH_PRINTING">
 			<ModifierId>HIGH_DIFFICULTY_AI_REVEAL_MAP</ModifierId>
 		</Row>
+		-->
 	</TechnologyModifiers>
 	<Modifiers>
 		<Row>
