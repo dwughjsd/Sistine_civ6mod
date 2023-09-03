@@ -43,6 +43,7 @@
 			<Set BuildCharges="4" />
 		</Update>
 		-->
+		<!--
 		<Update><Where UnitType="UNIT_SCOUT" /><Set Cost="25"/></Update>
 		<Update><Where UnitType="UNIT_SLINGER" /><Set Cost="30"/></Update>
 		<Update><Where UnitType="UNIT_BARBARIAN_HORSE_ARCHER" /><Set Cost="30"/></Update>
@@ -166,16 +167,35 @@
 		<Update><Where UnitType="UNIT_MODERN_ARMOR" /><Set Cost="590"/></Update>
 
 		<Update><Where UnitType="UNIT_TRADER" /><Set Cost="30" /></Update>
-		<Update><Where UnitType="UNIT_BUILDER" /><Set Cost="40" CostProgressionParam1="10" /></Update>
-		<Update><Where UnitType="UNIT_SETTLER" /><Set Cost="80"  CostProgressionParam1="40" /></Update>
-		<Update><Where UnitType="UNIT_MISSIONARY" /><Set Cost="75"  CostProgressionParam1="10" /></Update>
-		<Update><Where UnitType="UNIT_INQUISITOR" /><Set Cost="75"  CostProgressionParam1="10" /></Update>
-		<Update><Where UnitType="UNIT_GURU" /><Set Cost="100"  CostProgressionParam1="15" /></Update>
-		<Update><Where UnitType="UNIT_APOSTLE" /><Set Cost="170"  CostProgressionParam1="15" /></Update>
 		<Update><Where UnitType="UNIT_ROCK_BAND" /><Set Cost="250"/></Update>
 		<Update><Where UnitType="UNIT_NATURALIST" /><Set Cost="250"/></Update>
 		<Update><Where UnitType="UNIT_ARCHAEOLOGIST" /><Set Cost="350"/></Update>
 		<Update><Where UnitType="UNIT_SPY" /><Set Cost="200"/></Update>
+		-->
+		<Update>
+			<Where UnitType="UNIT_BUILDER" />
+			<Set Cost="40" CostProgressionParam1="10" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SETTLER" />
+			<Set Cost="80"  CostProgressionParam1="40" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MISSIONARY" />
+			<Set CostProgressionParam1="10" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_INQUISITOR" />
+			<Set CostProgressionParam1="10" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GURU" />
+			<Set CostProgressionParam1="15" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_APOSTLE" />
+			<Set CostProgressionParam1="15" />
+		</Update>
 	</Units>
 	<Units_XP2>
 		<!--So that you silly AIs won't use up all your fxxking resources!-->

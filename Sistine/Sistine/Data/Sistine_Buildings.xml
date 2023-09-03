@@ -12,107 +12,48 @@
 	
 	<Buildings>
 		<!--City Center-->
-		<Update><Where BuildingType="BUILDING_MONUMENT" /><Set Cost="40"/></Update>
-		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Cost="50" Description="LOC_BUILDING_GRANARY_DESCRIPTION_SST"/></Update>
-		<Update><Where BuildingType="BUILDING_WATER_MILL" /><Set Cost="60"/></Update>
-		<Update><Where BuildingType="BUILDING_PALGUM" /><Set Cost="60"/></Update>
-		<Update><Where BuildingType="BUILDING_WALLS" /><Set Cost="60"/></Update>
-		<Update><Where BuildingType="BUILDING_CASTLE" /><Set Cost="180"/></Update>
-		<Update><Where BuildingType="BUILDING_STAR_FORT" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_TSIKHE" /><Set Cost="200"/></Update>
-		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="60"/></Update>
-		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Cost="100" Housing="0" Maintenance="1"/></Update>
-		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_GENERIC" Housing="3" Maintenance="2"/>
-		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="430" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Maintenance="3"/>
+		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Description="LOC_BUILDING_GRANARY_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Housing="0" Maintenance="1"/></Update>
+		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC" Housing="3" Maintenance="2"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="520" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Maintenance="3"/>
 		<!--Theater Square-->
-		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Cost="110"/></Update>
-		<Update><Where BuildingType="BUILDING_MARAE" /><Set Cost="110"/></Update>
-		<Update><Where BuildingType="BUILDING_MUSEUM_ART" /><Set Cost="240"/></Update>
-		<Update><Where BuildingType="BUILDING_MUSEUM_ARTIFACT" /><Set Cost="240"/></Update>
-		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
-		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" /><Set Maintenance="4" RegionalRange="6" Cost="430" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST"/></Update>
-		<Update><Where BuildingType="BUILDING_FILM_STUDIO" /><Set Maintenance="4" RegionalRange="6" Cost="430" /></Update>
+		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/></Update>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" /><Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_FILM_STUDIO" /><Set Maintenance="4" RegionalRange="6" /></Update>
 		<!--Campus-->
-		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Description="LOC_BUILDING_LIBRARY_DESCRIPTION_SST" Cost="70"/></Update>
-		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set Description="LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST" Cost="200"/></Update>
-		<Update><Where BuildingType="BUILDING_MADRASA" /><Set Cost="200"/></Update>
-		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" /><Set Cost="200"/></Update>
-		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" Name="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Description="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="330" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="3" CitizenSlots="1"/>
-		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Maintenance="4" RegionalRange="6" Cost="540" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST" PrereqTech="TECH_COMPUTERS"/></Update>
-		<!--Holy Site-->
-		<Update><Where BuildingType="BUILDING_SHRINE" /><Set Cost="55"/></Update>
-		<Update><Where BuildingType="BUILDING_TEMPLE" /><Set Cost="100"/></Update>
-		<Update><Where BuildingType="BUILDING_PRASAT" /><Set Cost="100"/></Update>	
-		<Update><Where BuildingType="BUILDING_STAVE_CHURCH" /><Set Cost="100"/></Update>	
-		<Update><Where BuildingType="BUILDING_CATHEDRAL" /><Set Cost="160"/></Update>
-		<Update><Where BuildingType="BUILDING_DAR_E_MEHR" /><Set Cost="160"/></Update>
-		<Update><Where BuildingType="BUILDING_GURDWARA" /><Set Cost="160"/></Update>
-		<Update><Where BuildingType="BUILDING_MEETING_HOUSE" /><Set Cost="160"/></Update>
-		<Update><Where BuildingType="BUILDING_MOSQUE" /><Set Cost="160"/></Update>
-		<Update><Where BuildingType="BUILDING_PAGODA" /><Set Cost="160"/></Update>
-		<Update><Where BuildingType="BUILDING_STUPA" /><Set Cost="160"/></Update>
-		<Update><Where BuildingType="BUILDING_SYNAGOGUE" /><Set Cost="160"/></Update>
-		<Update><Where BuildingType="BUILDING_WAT" /><Set Cost="160"/></Update>
-		<!--Encampment-->
-		<Update><Where BuildingType="BUILDING_BARRACKS" /><Set Cost="70"/></Update>
-		<Update><Where BuildingType="BUILDING_BASILIKOI_PAIDES" /><Set Cost="70"/></Update>
-		<Update><Where BuildingType="BUILDING_STABLE" /><Set Cost="100"/></Update>
-		<Update><Where BuildingType="BUILDING_ORDU" /><Set Cost="100"/></Update>
-		<Update><Where BuildingType="BUILDING_ARMORY" /><Set Cost="160"/></Update>
-		<Update><Where BuildingType="BUILDING_MILITARY_ACADEMY" /><Set Cost="330"/></Update>
+		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Description="LOC_BUILDING_LIBRARY_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set Description="LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST" /></Update>
+		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" Name="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Description="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="3" CitizenSlots="1"/>
+		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST" PrereqTech="TECH_COMPUTERS"/></Update>
 		<!--Commercial Hub-->
-		<Update><Where BuildingType="BUILDING_MARKET" /><Set Description="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION_SST" Cost="100"/></Update>
-		<Update><Where BuildingType="BUILDING_SUKIENNICE" /><Set Cost="100"/></Update>
-		<Update><Where BuildingType="BUILDING_BANK" /><Set Description="LOC_BUILDING_BANK_DESCRIPTION_SST" Cost="240"/></Update>
-		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" /><Set Cost="190"/></Update>
-		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Description="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" RegionalRange="6" Cost="330"/></Update>
+		<Update><Where BuildingType="BUILDING_MARKET" /><Set Description="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_BANK" /><Set Description="LOC_BUILDING_BANK_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Description="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" RegionalRange="6" /></Update>
 		<!--Industrial Zone-->
-		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Description="LOC_BUILDING_WORKSHOP_DESCRIPTION_SST" Cost="160" /></Update>
-		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Description="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" Cost="330"/></Update>
-		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" /><Set Cost="330"/></Update>
-		<Update><Where BuildingType="BUILDING_POWER_PLANT" /><Set Description="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" Cost="540"/></Update>
-		<Update><Where BuildingType="BUILDING_COAL_POWER_PLANT" /><Set Description="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_SST" Cost="330"/></Update>
-		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" /><Set Description="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" Cost="430"/></Update>
-		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" Name="LOC_BUILDING_MANUFACTURING_PLANT_NAME" Description="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" PrereqTech="TECH_ROBOTICS" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="650" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" RegionalRange="6"/>
-		<!--Harbor-->
-		<Update><Where BuildingType="BUILDING_LIGHTHOUSE" /><Set Cost="100"/></Update>
-		<Update><Where BuildingType="BUILDING_SHIPYARD" /><Set Cost="240"/></Update>
-		<Update><Where BuildingType="BUILDING_SEAPORT" /><Set Cost="430"/></Update>
+		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Description="LOC_BUILDING_WORKSHOP_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Description="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_POWER_PLANT" /><Set Description="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_COAL_POWER_PLANT" /><Set Description="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" /><Set Description="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" /></Update>
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" Name="LOC_BUILDING_MANUFACTURING_PLANT_NAME" Description="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" PrereqTech="TECH_ROBOTICS" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" RegionalRange="6" Cost="785"/>
+
 		<!--Entertainment Complex and Water Park-->
-		<Update><Where BuildingType="BUILDING_ARENA" /><Set Cost="110" /></Update>
-		<Update><Where BuildingType="BUILDING_TLACHTLI" /><Set Cost="105" /></Update>
-		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="2" Cost="230"/></Update>
-		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="3" Cost="230"/></Update>
-		<Update><Where BuildingType="BUILDING_STADIUM" /><Set PrereqCivic="CIVIC_MASS_MEDIA" Entertainment="2" Cost="450"/></Update>
-		<Update><Where BuildingType="BUILDING_FERRIS_WHEEL" /><Set Entertainment="2" Cost="240"/></Update>
-		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Entertainment="3" Cost="350"/></Update>
-		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set Entertainment="3" Cost="540"/></Update>
+		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="2" /></Update>
+		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="3" /></Update>
+		<Update><Where BuildingType="BUILDING_STADIUM" /><Set PrereqCivic="CIVIC_MASS_MEDIA" Entertainment="2" /></Update>
+		<Update><Where BuildingType="BUILDING_FERRIS_WHEEL" /><Set Entertainment="2" /></Update>
+		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Entertainment="3" /></Update>
+		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set Entertainment="3" /></Update>
 		<!--Aerodrome-->
-		<Update><Where BuildingType="BUILDING_HANGAR" /><Set Cost="370"/></Update>
-		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO" Cost="540"/></Update>
-		<Row BuildingType="BUILDING_VISITOR_CENTER" Name="LOC_BUILDING_VISITOR_CENTER_NAME" Description="LOC_BUILDING_VISITOR_CENTER_DESCRIPTION" PrereqTech="TECH_ADVANCED_FLIGHT" PrereqDistrict="DISTRICT_AERODROME" PurchaseYield="YIELD_GOLD" Cost="650" AdvisorType="ADVISOR_CULTURE" Maintenance="3"/>
+		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO" /></Update>
+		<Row BuildingType="BUILDING_VISITOR_CENTER" Name="LOC_BUILDING_VISITOR_CENTER_NAME" Description="LOC_BUILDING_VISITOR_CENTER_DESCRIPTION" PrereqTech="TECH_ADVANCED_FLIGHT" PrereqDistrict="DISTRICT_AERODROME" PurchaseYield="YIELD_GOLD" Cost="785" AdvisorType="ADVISOR_CULTURE" Maintenance="3"/>
 		<!--Neighborhood-->
-		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Cost="300" Housing="2"/></Update>
-		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" Housing="2" Cost="430"/></Update>
-		<!--Dam-->
-		<Update><Where BuildingType="BUILDING_HYDROELECTRIC_DAM" /><Set Cost="430"/></Update>
-		<!--Goverment Plaza and Diplomatic Quarter-->
-		<Update><Where BuildingType="BUILDING_GOV_TALL" /><Set Cost="110"/></Update>
-		<Update><Where BuildingType="BUILDING_GOV_WIDE" /><Set Cost="110"/></Update>
-		<Update><Where BuildingType="BUILDING_GOV_CONQUEST" /><Set Cost="110"/></Update>
-		<Update><Where BuildingType="BUILDING_GOV_CITYSTATES" /><Set Cost="240"/></Update>
-		<Update><Where BuildingType="BUILDING_GOV_SPIES" /><Set Cost="240"/></Update>
-		<Update><Where BuildingType="BUILDING_GOV_FAITH" /><Set Cost="240"/></Update>
-		<Update><Where BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" /><Set Cost="180"/></Update>		
-		<Update><Where BuildingType="BUILDING_GOV_MILITARY" /><Set Cost="430"/></Update>
-		<Update><Where BuildingType="BUILDING_GOV_CULTURE" /><Set Cost="430"/></Update>
-		<Update><Where BuildingType="BUILDING_GOV_SCIENCE" /><Set Cost="430"/></Update>
-		<Update><Where BuildingType="BUILDING_CONSULATE" /><Set Cost="110"/></Update>
-		<Update><Where BuildingType="BUILDING_CHANCERY" /><Set Cost="240"/></Update>
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Housing="2"/></Update>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" Housing="2" /></Update>
 		<!--Preserve-->
-		<Update><Where BuildingType="BUILDING_GROVE" /><Set Cost="90"/></Update>
-		<Update><Where BuildingType="BUILDING_SANCTUARY" /><Set PrereqTech="TECH_SCIENTIFIC_THEORY" Cost="330" PrereqCivic=""/></Update>
-		<Row BuildingType="BUILDING_VIVARIUM" Name="LOC_BUILDING_VIVARIUM_NAME" Description="LOC_BUILDING_VIVARIUM_DESCRIPTION" PrereqCivic="CIVIC_CONSERVATION" PrereqDistrict="DISTRICT_PRESERVE" PurchaseYield="YIELD_GOLD" Cost="430" AdvisorType="ADVISOR_CULTURE"/>
+		<Update><Where BuildingType="BUILDING_SANCTUARY" /><Set PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqCivic=""/></Update>
+		<Row BuildingType="BUILDING_VIVARIUM" Name="LOC_BUILDING_VIVARIUM_NAME" Description="LOC_BUILDING_VIVARIUM_DESCRIPTION" PrereqCivic="CIVIC_CONSERVATION" PrereqDistrict="DISTRICT_PRESERVE" PurchaseYield="YIELD_GOLD" Cost="520" AdvisorType="ADVISOR_CULTURE"/>
 	</Buildings>
 	
 	<Buildings_XP2>
@@ -468,61 +409,143 @@
 		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="3" YieldType="YIELD_GOLD" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_VIVARIUM"/>
 	</Adjacent_AppealYieldChanges>
 
-	<!--Wonders-->
+	<!--Costs-->
 	<Buildings>
-		<Update><Where BuildingType="BUILDING_STONEHENGE" /><Set Cost="125"/></Update>
-		<Update><Where BuildingType="BUILDING_HANGING_GARDENS" /><Set Cost="125"/></Update>
-		<Update><Where BuildingType="BUILDING_TEMPLE_ARTEMIS" /><Set Cost="125"/></Update>
-		<Update><Where BuildingType="BUILDING_GREAT_BATH" /><Set Cost="125"/></Update>
-		<Update><Where BuildingType="BUILDING_PYRAMIDS" /><Set Cost="150"/></Update>
-		<Update><Where BuildingType="BUILDING_ETEMENANKI" /><Set Cost="150"/></Update>
-		<Update><Where BuildingType="BUILDING_ORACLE" /><Set Cost="210"/></Update>
-		<Update><Where BuildingType="BUILDING_GREAT_LIGHTHOUSE" /><Set Cost="210"/></Update>
-		<Update><Where BuildingType="BUILDING_COLOSSUS" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_PETRA" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_COLOSSEUM" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_GREAT_LIBRARY" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_MAHABODHI_TEMPLE" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_TERRACOTTA_ARMY" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_JEBEL_BARKAL" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_APADANA" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_HALICARNASSUS_MAUSOLEUM" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_MACHU_PICCHU" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_STATUE_OF_ZEUS" /><Set Cost="250"/></Update>
-		<Update><Where BuildingType="BUILDING_HAGIA_SOPHIA" /><Set Cost="400"/></Update>
-		<Update><Where BuildingType="BUILDING_ALHAMBRA" /><Set Cost="400"/></Update>
-		<Update><Where BuildingType="BUILDING_CHICHEN_ITZA" /><Set Cost="400"/></Update>
-		<Update><Where BuildingType="BUILDING_MONT_ST_MICHEL" /><Set Cost="400"/></Update>
-		<Update><Where BuildingType="BUILDING_HUEY_TEOCALLI" /><Set Cost="400"/></Update>
-		<Update><Where BuildingType="BUILDING_ANGKOR_WAT" /><Set Cost="400"/></Update>
-		<Update><Where BuildingType="BUILDING_KILWA_KISIWANI" /><Set Cost="400"/></Update>
-		<Update><Where BuildingType="BUILDING_KOTOKU_IN" /><Set Cost="400"/></Update>
-		<Update><Where BuildingType="BUILDING_MEENAKSHI_TEMPLE" /><Set Cost="400"/></Update>
-		<Update><Where BuildingType="BUILDING_UNIVERSITY_SANKORE" /><Set Cost="400"/></Update>
-		<Update><Where BuildingType="BUILDING_VENETIAN_ARSENAL" /><Set Cost="500"/></Update>
-		<Update><Where BuildingType="BUILDING_GREAT_ZIMBABWE" /><Set Cost="500"/></Update>
-		<Update><Where BuildingType="BUILDING_FORBIDDEN_CITY" /><Set Cost="500"/></Update>
-		<Update><Where BuildingType="BUILDING_CASA_DE_CONTRATACION" /><Set Cost="500"/></Update>
-		<Update><Where BuildingType="BUILDING_ST_BASILS_CATHEDRAL" /><Set Cost="500"/></Update>
-		<Update><Where BuildingType="BUILDING_TAJ_MAHAL" /><Set Cost="500"/></Update>
-		<Update><Where BuildingType="BUILDING_ORSZAGHAZ" /><Set Cost="500"/></Update>
-		<Update><Where BuildingType="BUILDING_PANAMA_CANAL" /><Set Cost="500"/></Update>
-		<Update><Where BuildingType="BUILDING_TORRE_DE_BELEM" /><Set Cost="500"/></Update>
-		<Update><Where BuildingType="BUILDING_POTALA_PALACE" /><Set Cost="600"/></Update>
-		<Update><Where BuildingType="BUILDING_RUHR_VALLEY" /><Set Cost="700"/></Update>
-		<Update><Where BuildingType="BUILDING_BOLSHOI_THEATRE" /><Set Cost="700"/></Update>
-		<Update><Where BuildingType="BUILDING_OXFORD_UNIVERSITY" /><Set Cost="700"/></Update>
-		<Update><Where BuildingType="BUILDING_STATUE_LIBERTY" /><Set Cost="700"/></Update>
-		<Update><Where BuildingType="BUILDING_BIG_BEN" /><Set Cost="825"/></Update>
-		<Update><Where BuildingType="BUILDING_HERMITAGE" /><Set Cost="825" PrereqCivic="CIVIC_NATIONALISM"/></Update>
-		<Update><Where BuildingType="BUILDING_EIFFEL_TOWER" /><Set Cost="1075"/></Update>
-		<Update><Where BuildingType="BUILDING_BROADWAY" /><Set Cost="1075"/></Update>
-		<Update><Where BuildingType="BUILDING_CRISTO_REDENTOR" /><Set Cost="1075"/></Update>
-		<Update><Where BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" /><Set Cost="1075"/></Update>
-		<Update><Where BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" /><Set Cost="1075"/></Update>
-		<Update><Where BuildingType="BUILDING_ESTADIO_DO_MARACANA" /><Set Cost="1150"/></Update>
-		<Update><Where BuildingType="BUILDING_BIOSPHERE" /><Set Cost="1150"/></Update>
-		<Update><Where BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" /><Set Cost="1350"/></Update>
+		<Update><Where BuildingType="BUILDING_MONUMENT" /><Set Cost="50"/></Update>
+		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Cost="60"/></Update>
+		<Update><Where BuildingType="BUILDING_SHRINE" /><Set Cost="65"/></Update>
+		<Update><Where BuildingType="BUILDING_WALLS" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_WATER_MILL" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_PALGUM" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_BARRACKS" /><Set Cost="85"/></Update>
+		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Cost="85"/></Update>
+		<Update><Where BuildingType="BUILDING_BASILIKOI_PAIDES" /><Set Cost="85"/></Update>
+		<Update><Where BuildingType="BUILDING_GROVE" /><Set Cost="110"/></Update>
+		<Update><Where BuildingType="BUILDING_LIGHTHOUSE" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_MARKET" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_STABLE" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_TEMPLE" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_STAVE_CHURCH" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_SEWER" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_PRASAT" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_SUKIENNICE" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_ORDU" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_TLACHTLI" /><Set Cost="125"/></Update>
+		<Update><Where BuildingType="BUILDING_ARENA" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_TALL" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_WIDE" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_CONQUEST" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_MARAE" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_CONSULATE" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_ARMORY" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_CATHEDRAL" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_GURDWARA" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_MEETING_HOUSE" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_MOSQUE" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_PAGODA" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_SYNAGOGUE" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_WAT" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_STUPA" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_DAR_E_MEHR" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_CASTLE" /><Set Cost="215"/></Update>
+		<Update><Where BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" /><Set Cost="215"/></Update>
+		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" /><Set Cost="230"/></Update>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set Cost="240"/></Update>
+		<Update><Where BuildingType="BUILDING_MADRASA" /><Set Cost="240"/></Update>
+		<Update><Where BuildingType="BUILDING_TSIKHE" /><Set Cost="240"/></Update>
+		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" /><Set Cost="240"/></Update>
+		<Update><Where BuildingType="BUILDING_ZOO" /><Set Cost="275"/></Update>
+		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set Cost="275"/></Update>
+		<Update><Where BuildingType="BUILDING_SHIPYARD" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_BANK" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_MUSEUM_ART" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_MUSEUM_ARTIFACT" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_FERRIS_WHEEL" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_CITYSTATES" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_SPIES" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_FAITH" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_CHANCERY" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_STAR_FORT" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Cost="360"/></Update>
+		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_MILITARY_ACADEMY" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_COAL_POWER_PLANT" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_SANCTUARY" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Cost="420"/></Update>
+		<Update><Where BuildingType="BUILDING_HANGAR" /><Set Cost="445"/></Update>
+		<Update><Where BuildingType="BUILDING_SEAPORT" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_FILM_STUDIO" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_MILITARY" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_CULTURE" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_SCIENCE" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_HYDROELECTRIC_DAM" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_STADIUM" /><Set Cost="540"/></Update>
+		<Update><Where BuildingType="BUILDING_POWER_PLANT" /><Set Cost="650"/></Update>
+		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Cost="650"/></Update>
+		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Cost="650"/></Update>
+		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set Cost="650"/></Update>
+
+		<Update><Where BuildingType="BUILDING_STONEHENGE" /><Set Cost="150"/></Update>
+		<Update><Where BuildingType="BUILDING_HANGING_GARDENS" /><Set Cost="150"/></Update>
+		<Update><Where BuildingType="BUILDING_TEMPLE_ARTEMIS" /><Set Cost="150"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_BATH" /><Set Cost="150"/></Update>
+		<Update><Where BuildingType="BUILDING_PYRAMIDS" /><Set Cost="175"/></Update>
+		<Update><Where BuildingType="BUILDING_ETEMENANKI" /><Set Cost="175"/></Update>
+		<Update><Where BuildingType="BUILDING_ORACLE" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_LIGHTHOUSE" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_COLOSSUS" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_PETRA" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_COLOSSEUM" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_LIBRARY" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_MAHABODHI_TEMPLE" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_TERRACOTTA_ARMY" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_JEBEL_BARKAL" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_APADANA" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_HALICARNASSUS_MAUSOLEUM" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_MACHU_PICCHU" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_STATUE_OF_ZEUS" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_HAGIA_SOPHIA" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_ALHAMBRA" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_CHICHEN_ITZA" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_MONT_ST_MICHEL" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_HUEY_TEOCALLI" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_ANGKOR_WAT" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_KILWA_KISIWANI" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_KOTOKU_IN" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_MEENAKSHI_TEMPLE" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY_SANKORE" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_VENETIAN_ARSENAL" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_ZIMBABWE" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_FORBIDDEN_CITY" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_CASA_DE_CONTRATACION" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_ST_BASILS_CATHEDRAL" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_TAJ_MAHAL" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_ORSZAGHAZ" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_PANAMA_CANAL" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_TORRE_DE_BELEM" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_POTALA_PALACE" /><Set Cost="725"/></Update>
+		<Update><Where BuildingType="BUILDING_RUHR_VALLEY" /><Set Cost="850"/></Update>
+		<Update><Where BuildingType="BUILDING_BOLSHOI_THEATRE" /><Set Cost="850"/></Update>
+		<Update><Where BuildingType="BUILDING_OXFORD_UNIVERSITY" /><Set Cost="850"/></Update>
+		<Update><Where BuildingType="BUILDING_STATUE_LIBERTY" /><Set Cost="850"/></Update>
+		<Update><Where BuildingType="BUILDING_BIG_BEN" /><Set Cost="1000"/></Update>
+		<Update><Where BuildingType="BUILDING_HERMITAGE" /><Set Cost="1000"/></Update>
+		<Update><Where BuildingType="BUILDING_EIFFEL_TOWER" /><Set Cost="1280"/></Update>
+		<Update><Where BuildingType="BUILDING_BROADWAY" /><Set Cost="1280"/></Update>
+		<Update><Where BuildingType="BUILDING_CRISTO_REDENTOR" /><Set Cost="1280"/></Update>
+		<Update><Where BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" /><Set Cost="1280"/></Update>
+		<Update><Where BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" /><Set Cost="1280"/></Update>
+		<Update><Where BuildingType="BUILDING_ESTADIO_DO_MARACANA" /><Set Cost="1365"/></Update>
+		<Update><Where BuildingType="BUILDING_BIOSPHERE" /><Set Cost="1365"/></Update>
+		<Update><Where BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" /><Set Cost="1625"/></Update>		
 	</Buildings>
 
 </GameData>
