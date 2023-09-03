@@ -38,33 +38,35 @@
 		<Replace Name="ALLIANCE_LEVEL_TWO_XP" Value="120" />
 	</GlobalParameters>
 
+	<BarbarianTribes>
+		<Update>
+			<Where TribeType="TRIBE_NAVAL" />
+			<Set TurnsToWarriorSpawn="40" />
+		</Update>
+	</BarbarianTribes>
+
 	<BarbarianAttackForces>
-		<!--Fix of high difficulty barb heavy cavalry-->
+		<!--Standard-->
 		<Replace AttackForceType="LowDifficultyStandardRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_MELEE" NumMeleeUnits="1" RaidingForce="true"/>
 		<Replace AttackForceType="StandardRaid" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_MELEE" NumMeleeUnits="1" RangeTag="CLASS_RANGED" NumRangeUnits="1" RaidingForce="true"/>
 		<Replace AttackForceType="HighDifficultyStandardRaid" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_MELEE" NumMeleeUnits="2" RangeTag="CLASS_RANGED" NumRangeUnits="1" RaidingForce="true"/>
 		<Replace AttackForceType="LowDifficultyStandardAttack" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_MELEE" NumMeleeUnits="1" RangeTag="CLASS_RANGED" NumRangeUnits="1" SiegeTag="CLASS_SIEGE" NumSiegeUnits="1"/>
 		<Replace AttackForceType="StandardAttack" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_MELEE" NumMeleeUnits="2" RangeTag="CLASS_RANGED" NumRangeUnits="1" SiegeTag="CLASS_SIEGE" NumSiegeUnits="1" SupportTag="CLASS_BATTERING_RAM" NumSupportUnits="1"/>
 		<Replace AttackForceType="HighDifficultyStandardAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_MELEE" NumMeleeUnits="3" RangeTag="CLASS_RANGED" NumRangeUnits="2" SiegeTag="CLASS_SIEGE" NumSiegeUnits="2" SupportTag="CLASS_BATTERING_RAM" NumSupportUnits="1"/>
+		<!--Cavalry-->
 		<Replace AttackForceType="LowDifficultyCavalryRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="1" RaidingForce="true"/>
 		<Replace AttackForceType="CavalryRaid" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="1" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="1" RaidingForce="true"/>
 		<Replace AttackForceType="HighDifficultyCavalryRaid" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="2" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="1" RaidingForce="true"/>
 		<Replace AttackForceType="LowDifficultyCavalryAttack" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="1" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="1" SiegeTag="CLASS_HEAVY_CAVALRY" NumSiegeUnits="1"/>
 		<Replace AttackForceType="CavalryAttack" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="2" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="1" SiegeTag="CLASS_HEAVY_CAVALRY" NumSiegeUnits="1"/>
 		<Replace AttackForceType="HighDifficultyCavalryAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="3" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="2" SiegeTag="CLASS_HEAVY_CAVALRY" NumSiegeUnits="2"/>
+		<!--Naval-->
 		<Replace AttackForceType="LowDifficultyNavalRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="1" RaidingForce="true"/>
 		<Replace AttackForceType="NavalRaid" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="1" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="1" RaidingForce="true"/>
-		<Replace AttackForceType="HighDifficultyNavalRaid" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="2" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="1" RaidingForce="true"/>
-		<Replace AttackForceType="LowDifficultyNavalAttack" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="1" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="1" SiegeTag="CLASS_NAVAL_RANGED" NumSiegeUnits="1"/>
-		<Replace AttackForceType="NavalAttack" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="2" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="1" SiegeTag="CLASS_NAVAL_RANGED" NumSiegeUnits="1"/>
-		<Replace AttackForceType="HighDifficultyNavalAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="3" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2" SiegeTag="CLASS_NAVAL_RANGED" NumSiegeUnits="2"/>
+		<Replace AttackForceType="HighDifficultyNavalRaid" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="1" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2" RaidingForce="true"/>
+		<Replace AttackForceType="LowDifficultyNavalAttack" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="1" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2" />
+		<Replace AttackForceType="NavalAttack" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="2" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2" />
+		<Replace AttackForceType="HighDifficultyNavalAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="2" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2"/>
 	</BarbarianAttackForces>
-
-	<ModifierArguments>
-		<Update>
-			<Where ModifierId="PROJECT_COMPLETION_GRANT_CULTURE_BASED_ON_SCIENCE_RATE" Name="YieldToBaseOn"/>
-			<Set Value="YIELD_CULTURE"/>
-		</Update>
-	</ModifierArguments>
 
 </GameData>
