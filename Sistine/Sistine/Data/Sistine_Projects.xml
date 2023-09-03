@@ -51,5 +51,11 @@
 		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_SCIENCE_VP" />
 		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_REQUIRED_POWER" />
 	</ModifierArguments>
-	
+
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="PROJECT_COMPLETION_GRANT_CULTURE_BASED_ON_SCIENCE_RATE" Name="YieldToBaseOn"/>
+			<Set Value="YIELD_CULTURE"/>
+		</Update>
+	</ModifierArguments>
 </GameData>
