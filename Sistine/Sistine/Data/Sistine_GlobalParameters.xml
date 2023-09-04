@@ -19,7 +19,6 @@
 		<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
 		<!--Cultural Victory overhaul-->
-		<Replace Name="TOURISM_BASE_FROM_WONDER" Value="4" />
 		<Replace Name="NATIONAL_PARK_GOLD_YIELD_PER_TOURISM" Value="1" />
 		<Replace Name="GREATWORK_ART_LOCK_TIME" Value="0" />
 		<!--Eras tweaks-->

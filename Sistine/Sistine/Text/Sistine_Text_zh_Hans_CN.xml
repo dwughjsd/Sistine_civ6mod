@@ -321,9 +321,6 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
 			<Text>国家公园的 [ICON_Gold] 金币和 [ICON_Tourism] 旅游业绩输出等于公园所含全部单元格的总魅力。此外，拥有公园的城市获得2点 [ICON_Amenities] 宜居度，且与此城市最近的4座城市获得1点 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_1_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
-			<Text>要取得文化胜利，[ICON_Tourism] 旅游业绩是关键所在。您能通过巨作、奇观、圣城、[ICON_GreatWork_Relic] 遗物、[ICON_GreatWork_Artifact] 文物、海滨度假区和国家公园产生 [ICON_Tourism] 旅游业绩。您能通过 [ICON_TradeRoute] 贸易路线、开放边界、伟人、政策和具有相似特质的（或相矛盾的）游戏后期政体来提升您的 [ICON_Tourism] 旅游业绩。[NEWLINE][NEWLINE]初期获得 [ICON_Tourism] 旅游业绩的方法之一是修建奇观。每个奇观每回合提供4点 [ICON_Tourism] 旅游业绩。奇观修建起后每经历一个时代，旅游业绩+1。以此计算，远古时代奇观巨石阵在游戏后期时每回合可提供9点 [ICON_Tourism] 旅游业绩。[NEWLINE][NEWLINE]旅游业绩分为宗教旅游业绩（通过创建圣城和遗物所得）和非宗教旅游业绩。部分市政（启蒙运动）和奇观（救世基督像）对宗教旅游业绩的产生影响较大。</Text>
-		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造海滨度假区的能力。[NEWLINE][NEWLINE]提供等于此单元格魅力的 [ICON_Tourism] 旅游业绩和 [ICON_Gold] 金币。只能建在海岸沙漠、海岸平原，或海岸草原单元格上。所在单元格魅力必须达到惊艳以上。</Text>
 		</Replace>
@@ -358,7 +355,7 @@
 			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通平原单元格的 [ICON_Production] 生产力产量更高。如果江河泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>世界奇观+4 [ICON_Culture] 文化值。</Text>
+			<Text>世界奇观+2 [ICON_Culture] 文化值。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
