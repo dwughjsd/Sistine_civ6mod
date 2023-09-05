@@ -25,6 +25,11 @@
 
 	<Improvement_BonusYieldChanges>
 		<Update>
+			<Where Id="6" />
+			<!--ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION"-->
+			<Set PrereqTech="" PrereqCivic="CIVIC_CIVIL_SERVICE"/>
+		</Update>
+		<Update>
 			<Where Id="18" /> <!--ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"-->
 			<Set PrereqCivic="CIVIC_COLONIALISM"/>
 		</Update>
@@ -77,7 +82,7 @@
 			<!--ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_GOLD" PrereqTech="TECH_PLASTICS"-->
 			<Set PrereqTech="TECH_ELECTRICITY"/>
 		</Update>
-		<Row Id="501" ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_MACHINERY"/>
+		<Row Id="501" ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_MILITARY_ENGINEERING"/>
 	</Improvement_BonusYieldChanges>
 
 	<Improvement_YieldChanges>

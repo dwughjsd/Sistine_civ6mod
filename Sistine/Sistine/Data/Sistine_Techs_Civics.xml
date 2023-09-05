@@ -6,6 +6,10 @@
 			<Set Description="LOC_TECH_CURRENCY_DESCRIPTION"/>
 		</Update>
 		<Update>
+			<Where TechnologyType="TECH_APPRENTICESHIP" />
+			<Set Description=""/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_INDUSTRIALIZATION" />
 			<Set Description=""/>
 		</Update>
@@ -26,8 +30,8 @@
 			<Set Description="LOC_TECH_ELECTRICITY_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
-			<Where TechnologyType="TECH_MACHINERY" />
-			<Set Description="LOC_TECH_MACHINERY_DESCRIPTION_SST"/>
+			<Where TechnologyType="TECH_MILITARY_ENGINEERING" />
+			<Set Description="LOC_TECH_MILITARY_ENGINEERING_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_STEALTH_TECHNOLOGY" />
@@ -448,6 +452,10 @@
 		<Update>
 			<Where CivicType="CIVIC_DRAMA_POETRY" />
 			<Set Description="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CIVIL_SERVICE" />
+			<Set Description="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST"/>
 		</Update>
 		<!--Cost: Don't add other info here, queries are auto generated-->
 		<Update>

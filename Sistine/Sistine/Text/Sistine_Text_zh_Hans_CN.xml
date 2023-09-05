@@ -74,11 +74,14 @@
 		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>渔船+1 [ICON_Food] 食物。</Text>
 		</Replace>
-		<Replace Tag="LOC_TECH_MACHINERY_DESCRIPTION_SST" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TECH_MILITARY_ENGINEERING_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>伐木场+1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_SMART_MATERIALS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>矿山+1 [ICON_Production] 生产力。解锁末日机甲升级：强力装甲[NEWLINE]防御陆地与海军单位时+10 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>矿山+1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<!--Gold reform-->
 		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="zh_Hans_CN">
