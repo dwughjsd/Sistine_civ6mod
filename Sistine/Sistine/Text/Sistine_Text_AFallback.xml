@@ -284,5 +284,78 @@
 		<Replace Tag="LOC_POLICY_LIBERALISM_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_Amenities] Amenity to all cities with at least 2 specialty districts.</Text>
 		</Replace>
+		<!--Cultural Victory overhaul-->
+		<Replace Tag="LOC_GREAT_WORKS_TOOLTIP_DUPLICATE" Language="en_US">
+			<Text>{1_name} ({2_type})[NEWLINE]Created by {3_author}[NEWLINE]Created in {4_date}[NEWLINE]Provides 3 [ICON_Culture] Culture 3 [ICON_Tourism] Tourism per turn when authored by an artist who already has art displayed here.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMPUTERS_DESCRIPTION" Language="en_US">
+			<Text>Grants the ability to construct an additional Spy. +50% [ICON_Tourism] Tourism across your empire.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_REFORMED_CHURCH_DESCRIPTION_SST" Language="en_US">
+			<Text>Allows the purchase of civilian units with [ICON_Faith] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_HUMANISM_DESCRIPTION_SST" Language="en_US">
+			<Text>Reveals [ICON_RESOURCE_ANTIQUITY_SITE] Antiquity Sites. Allows construction of Archaeologists.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MASS_MEDIA_DESCRIPTION_SST" Language="en_US">
+			<Text>+100% [ICON_Tourism] Tourism from [ICON_GreatWork_Landscape] Great Works of Art and [ICON_GreatWork_Music] Music.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_SOCIAL_MEDIA_DESCRIPTION_SST" Language="en_US">
+			<Text>+50% [ICON_Tourism] Tourism across your empire. +100% [ICON_Tourism] Tourism from Seaside Resorts.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION" Language="en_US">
+			<Text>Allows the building of National Parks and the purchase of Naturalists with [ICON_Faith] Faith. Awards 2 [ICON_Envoy] Envoys. </Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_CULTURAL_HERITAGE_DESCRIPTION" Language="en_US">
+			<Text>Reveals [ICON_RESOURCE_SHIPWRECK] Shipwrecks, and allows Archaeologists to extract [ICON_GreatWork_Artifact] Artifacts from them. Awards 3 [ICON_Envoy] Envoys. +100% [ICON_Tourism] Tourism from [ICON_GreatWork_Artifact] Artifacts.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_ENVIRONMENTALISM_DESCRIPTION" Language="en_US">
+			<Text>Offshore Wind Farms, Solar Farms, Wind Farms, and Geothermal Power Plants provide [ICON_Tourism] Tourism equal to its [ICON_Power] Power.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BIOSPHERE_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+200% [ICON_POWER] Power for all Offshore Windfarms, Solar Farms, Wind Farms, Geothermal Plants, and Hydroelectric Dams. +1 Appeal to tiles adjacent to Rainforest and Marsh in your empire. Must be built along a River adjacent to a Neighborhood district.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_HERITAGE_TOURISM_DESCRIPTION" Language="en_US">
+			<Text>+100% [ICON_Tourism] Tourism to all wonders.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_5" Language="en_US">
+			<Text>A National Park's [ICON_Gold] Gold and [ICON_Tourism] Tourism output is equal to the total Appeal of all the tiles included in the park. Additionally, the city that owns the park receives 2 [ICON_Amenities] Amenities, and the four closest cities in your civilization receive 1 [ICON_Amenities] Amenity.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Seaside Resorts.[NEWLINE][NEWLINE]Provides [ICON_Tourism] Tourism and [ICON_Gold] Gold equal to the tile's Appeal. Can only be built on Coastal Desert, Coastal Plains, or Coastal Grassland tiles. Minimum Appeal of Breathtaking.</Text>
+		</Replace>
+		<!--Improvements-->
+		<Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Geothermal Plant.[NEWLINE][NEWLINE]+2 [ICON_Science] Science. +4 [ICON_Production] Production. Provides 4 [ICON_Power] Power per turn. Must be built on a Geothermal Fissure.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SOLAR_FARM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Solar Farm.[NEWLINE][NEWLINE]+2 [ICON_Gold] Gold. +3 [ICON_Production] Production. Provides 2 [ICON_Power] Power per turn. Must be built on flat terrain. Cannot be built on Snow.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Wind Farm.[NEWLINE][NEWLINE]+2 [ICON_Gold] Gold. +3 [ICON_Production] Production. Provides 2 [ICON_Power] Power per turn. Must be built on Hills terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct an Offshore Wind Farm.[NEWLINE][NEWLINE]+4 [ICON_Production] Production. Provides 2 [ICON_Power] Power per turn. Must be built on Coast or Lake terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Seastead.[NEWLINE][NEWLINE]+3 [ICON_Food] Food, +3 [ICON_Production] Production, and +3 [ICON_Culture] Culture. +1 [ICON_Production] Production for each adjacent Fishing Boats. Fishing Boats receive +1 [ICON_Production] Production for each adjacent Seastead. +1 [ICON_Culture] Culture and [ICON_Tourism] Tourism for every adjacent Reef. +1 [ICON_HOUSING] Housing. Must be built on Coast, Lake or Ocean terrain. Cannot be placed adjacent to another Seastead. </Text>
+		</Replace>
+		<!--Ages-->
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>Monumentality Golden Age:[NEWLINE]+2 [ICON_Movement] Movement for all Builders. May purchase civilian units with [ICON_Faith] Faith. Builders and Settlers are 20% cheaper to purchase with [ICON_FAITH] Faith and [ICON_GOLD] Gold.</Text>
+		</Replace>
+		<!--Features-->
+		<Replace Tag="LOC_FEATURE_FLOODPLAINS_DESERT_DESCRIPTION" Language="en_US">
+			<Text>This low-lying area adjacent to a River has flooded before, giving it more [ICON_Food] Food production than a usual Desert tile. If the River floods again structures built on this tile may be damaged or destroyed, but the tile is also likely to gain additional yields.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FLOODPLAINS_GRASSLAND_DESCRIPTION" Language="en_US">
+			<Text>This low-lying area adjacent to a River has not yet flooded so it starts the game with the same yields as a flat Grasslands tile. If the River floods again structures built on this tile may be damaged or destroyed, but the tile is also likely to gain additional yields.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FLOODPLAINS_PLAINS_DESCRIPTION" Language="en_US">
+			<Text>This low-lying area adjacent to a River has not yet flooded so it starts the game with the same yields as a flat Plains tile. If the River floods again structures built on this tile may be damaged or destroyed, but the tile is also likely to gain additional yields.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="en_US">
+			<Text>+2 [ICON_Culture] Culture from world wonders.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
