@@ -2,6 +2,9 @@
 <GameData>
 	<LocalizedText>
 		<!--Generic Buildings-->
+		<Replace Tag="LOC_BUILDING_GRANARY_DESCRIPTION_SST" Language="en_US">
+			<Text>+1 [ICON_Food] Food to [ICON_Resource_Bananas] Bananas and [ICON_Resource_Deer] Deer resources in this city.</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION_SST" Language="en_US">
 			<Text>Increases growth of this city by 50%.</Text>
 		</Replace>
@@ -64,6 +67,9 @@
 		</Replace>
 		<Replace Tag="LOC_PRODUCTION_15_SST" Language="en_US">
 			<Text>+15% [ICON_Production] Production in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WORKSHOP_DESCRIPTION_SST" Language="en_US">
+			<Text>{LOC_PRODUCTION_10_SST} +1 [ICON_Production] Production to [ICON_Resource_Stone] Stone and[LOC_Resource_Copper] Copper resources in this city.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" Language="en_US">
 			<Text>+10% [ICON_Production] Production in this city. Its base [ICON_Production] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
@@ -152,6 +158,18 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" Language="en_US">
 			<Text>A building unique to Hungary. +3 [ICON_Amenities] Amenities and +2 Production extends to each city center within 6 tiles. These bonuses apply once to a city, and multiple copies of this building within 6 tiles of a city center do not provide additional bonuses. [NEWLINE][NEWLINE]This city receives +3 [ICON_TOURISM] Tourism and +2 additional [ICON_Amenities] Amenities if there is at least one Geothermal Fissure in this city's borders.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_TRADING_DOME_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Trading Dome.[NEWLINE][NEWLINE]+4 [ICON_GOLD] Gold. +2 [ICON_Gold] Gold for every adjacent Luxury resource. Your outgoing international [ICON_TradeRoute] Trade Routes grant +2 [ICON_GOLD] Gold per Trading Dome at the origin. Cannot be built next to another Trading Dome.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Ziggurat, unique to Sumeria.[NEWLINE][NEWLINE]+3 [ICON_Science] Science. +2 [ICON_Culture] Culture if next to River. Researching Civil Engineering grants additional [ICON_Culture] Culture. Cannot be built on Hills but may be built on Floodplains. Cannot be built adjacent to another Ziggurat.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Cahokia Mounds.[NEWLINE][NEWLINE]+3 [ICON_GOLD] Gold. Cities receive +1 [ICON_AMENITIES] Amenity from their first Cahokia Mound improvement. Upon discovering Colonialism, cities receive +1 [ICON_AMENITIES] Amenity from their second Cahokia Mound improvement. +1 [ICON_FOOD] Food for every 2 adjacent Districts once Feudalism is discovered or for every adjacent District once Replaceable Parts is researched. Provides +1 [ICON_HOUSING] Housing. Receive an additional [ICON_HOUSING] Housing once Cultural Heritage is discovered. Cannot be built adjacent to other Cahokia Mounds.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Sphinx, unique to Egypt.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith and +1 [ICON_Culture] Culture. +2 Appeal. +2 [ICON_Faith] Faith if next to a wonder. +1 [ICON_CULTURE] Culture if built on Floodplains. Additional [ICON_CULTURE] Culture once Colonialism is discovered. Provides [ICON_TOURISM] Tourism after researching Flight. Cannot be built next to another Sphinx. Cannot be built on Snow or Snow Hills.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
