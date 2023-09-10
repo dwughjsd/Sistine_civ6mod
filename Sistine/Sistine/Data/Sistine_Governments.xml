@@ -1256,4 +1256,64 @@
 		<Row Type="ABILITY_OLIGARCHY_MELEE_BUFF" Tag="CLASS_RANGED" />
 		<Row Type="ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF" Tag="CLASS_RANGED" />
 	</TypeTags>
+	
+	<!--government buildings-->
+	<BuildingModifiers>
+		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_LOYALTY_DEBUFF" />
+		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_HOUSING_BUFF" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_HOUSING_BUFF_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_SST" />
+		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_GRANT_BUILDER" />
+		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_COST_REDUCTION" />
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_PRODUCTION_SST" />
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="PYRAMID_GRANT_BUILDERS" />
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_GRANT_SETTLER_SST" />
+	</BuildingModifiers>
+	<Modifiers>
+		<Row ModifierId="GOV_TALL_HOUSING_BUFF_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING"
+			SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"
+		/>
+		
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST"
+			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH"
+			SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"
+		/>
+
+		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
+			ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION"
+		/>
+		<Row ModifierId="GOV_GRANT_SETTLER_SST"
+			ModifierType="MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY"
+			RunOnce="true"
+			Permanent="true"
+		/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="GOV_TALL_HOUSING_BUFF_SST"
+			Name="Amount"
+			Value="3"
+		/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST" 
+			Name="Amount" 
+			Value="50"
+		/>
+		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
+			Name="UnitType"
+			Value="UNIT_SETTLER"
+		/>
+		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
+			Name="Amount"
+			Value="15"
+		/>
+		<Row ModifierId="GOV_GRANT_SETTLER_SST"
+			Name="UnitType"
+			Value="UNIT_SETTLER"
+		/>
+		<Row ModifierId="GOV_GRANT_SETTLER_SST"
+			Name="Amount"
+			Value="1"
+		/>
+	</ModifierArguments>
 </GameInfo>
