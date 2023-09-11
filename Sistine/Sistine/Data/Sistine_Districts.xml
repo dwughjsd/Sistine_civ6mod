@@ -271,4 +271,34 @@
 			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT</ModifierId>
 		</Row>
 	</TraitModifiers>
+	<DistrictModifiers>
+		<Delete>
+			<DistrictType>DISTRICT_GOVERNMENT</DistrictType>
+			<ModifierId>GOVERNMENT_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+		</Delete>
+		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_SCIENCE" />
+		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_CULTURE" />
+		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_GOLD" />
+		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_FAITH" />
+		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_PRODUCTION" />
+	</DistrictModifiers>
+	<Modifiers>
+		<Row ModifierId="GOVERNMENT_10_SCIENCE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		<Row ModifierId="GOVERNMENT_10_CULTURE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		<Row ModifierId="GOVERNMENT_10_GOLD" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		<Row ModifierId="GOVERNMENT_10_FAITH" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		<Row ModifierId="GOVERNMENT_10_PRODUCTION" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="GOVERNMENT_10_SCIENCE" Name="Amount" Value="10"/>
+		<Row ModifierId="GOVERNMENT_10_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="GOVERNMENT_10_CULTURE" Name="Amount" Value="10"/>
+		<Row ModifierId="GOVERNMENT_10_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="GOVERNMENT_10_GOLD" Name="Amount" Value="10"/>
+		<Row ModifierId="GOVERNMENT_10_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GOVERNMENT_10_FAITH" Name="Amount" Value="10"/>
+		<Row ModifierId="GOVERNMENT_10_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="Amount" Value="10"/>
+		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
+	</ModifierArguments>
 </GameData>
