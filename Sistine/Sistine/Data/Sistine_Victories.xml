@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" Kind="KIND_VICTORY_STRATEGY"/>
+		<Row Type="PSEUDOYIELD_GOLDENAGE_POINT" Kind="KIND_PSEUDOYIELD"/>
 	</Types>
 	<Strategies>
 		<Update>
@@ -164,6 +165,18 @@
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_SPACE_RACE" />
 			<Set DefaultValue="500" />
+		</Update>
+		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_SPACE_RACE" />
+			<Set DefaultValue="500" />
+		</Update>
+		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_GOLDENAGE_POINT" />
+			<Set DefaultValue="2" />
+		</Update>
+		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_GOVERNOR" />
+			<Set DefaultValue="12" />
 		</Update>
 	</PseudoYields>
 

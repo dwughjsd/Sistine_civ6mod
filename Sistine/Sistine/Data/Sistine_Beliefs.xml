@@ -173,7 +173,7 @@
 	<ModifierArguments>
 		<Update>
 			<Where ModifierId="FERTILITY_RITES_GROWTH" Name="Amount" />
-			<Set Value="25" />
+			<Set Value="15" />
 		</Update>
 		<Update>
 			<Where ModifierId="MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MODIFIER" Name="Amount" />

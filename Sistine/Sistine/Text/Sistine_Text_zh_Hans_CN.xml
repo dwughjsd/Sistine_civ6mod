@@ -160,7 +160,7 @@
 			<Text>在您的圣地区域、市中心以及与其相邻的单元格上，单位每回合多回复 +30 生命值。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>选择后在首都中获得1个建造者，城市人口增长速度提升25%。</Text>
+			<Text>选择后在首都中获得1个建造者，城市人口增长速度提升15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>改良后的战略资源提供的 [ICON_Production] 生产力和 [ICON_Faith] 信仰值+1。改良了 [ICON_RESOURCE_HORSES] 马或 [ICON_RESOURCE_IRON] 铁的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
@@ -359,6 +359,13 @@
 		</Replace>
 		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>世界奇观+2 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<!--Government Plaza-->
+		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Amenities] 宜居度、+3 [ICON_Housing] 住房，+25%人口增长速度。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产开拓者时 [ICON_Production] 生产力+25%。[NEWLINE]获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
