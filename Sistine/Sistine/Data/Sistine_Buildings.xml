@@ -4,7 +4,6 @@
 		<Row Type="BUILDING_OPERA_HOUSE" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_PUBLIC_SCHOOL" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_MANUFACTURING_PLANT" Kind="KIND_BUILDING"/>
-		<Row Type="BUILDING_VISITOR_CENTER" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_VIVARIUM" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_HOSPITAL" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_MEDICAL_LAB" Kind="KIND_BUILDING"/>
@@ -47,7 +46,6 @@
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set Entertainment="3" /></Update>
 		<!--Aerodrome-->
 		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO" /></Update>
-		<Row BuildingType="BUILDING_VISITOR_CENTER" Name="LOC_BUILDING_VISITOR_CENTER_NAME" Description="LOC_BUILDING_VISITOR_CENTER_DESCRIPTION" PrereqTech="TECH_ADVANCED_FLIGHT" PrereqDistrict="DISTRICT_AERODROME" PurchaseYield="YIELD_GOLD" Cost="785" AdvisorType="ADVISOR_CULTURE" Maintenance="3"/>
 		<!--Neighborhood-->
 		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Housing="2"/></Update>
 		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" Housing="2" /></Update>
@@ -60,7 +58,6 @@
 		<Row BuildingType="BUILDING_MEDICAL_LAB" RequiredPower="3"/>
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set EntertainmentBonusWithPower="3" /></Update>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" RequiredPower="3"/>
-		<Row BuildingType="BUILDING_VISITOR_CENTER" RequiredPower="2"/>
 		<Delete BuildingType="BUILDING_FOOD_MARKET"/>
 		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set RequiredPower="3" EntertainmentBonusWithPower="1" /></Update>
 	</Buildings_XP2>
@@ -86,13 +83,10 @@
 		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_UNIVERSITY"/>
 		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_MADRASA"/>
 		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_NAVIGATION_SCHOOL"/>
-
 		<!--Industrial Zone-->
 		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_POWER_PLANT"/>
 		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_COAL_POWER_PLANT"/>
 		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
-		<!--Aerodrome-->
-		<Row Building="BUILDING_VISITOR_CENTER" PrereqBuilding="BUILDING_AIRPORT"/>
 		<!--Neighborhood-->
 		<Row Building="BUILDING_SHOPPING_MALL" PrereqBuilding="BUILDING_FOOD_MARKET"/>
 	</BuildingPrereqs>
@@ -289,9 +283,9 @@
 		<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX"/>
 		<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
 		<!--Aerodrome-->
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM"/>
 		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM"/>
-		<Row BuildingType="BUILDING_VISITOR_CENTER" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM"/>
-		<Row BuildingType="BUILDING_VISITOR_CENTER" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM_POWERED"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_SINGLE_CITY_TOURISM_POWERED"/>
 		<!--Neighborhood-->
 		<Row BuildingType="BUILDING_FOOD_MARKET" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP"/>
 		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP"/>
