@@ -34,7 +34,10 @@
 			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Great Works"/>
 			<Set ThresholdValue="10" />
 		</Update>
+		<Delete StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Tourists Taken" ThresholdValue="75" Exclusive="true"/>
+		<Delete StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ConditionFunction="Has Taken Capital" ThresholdValue="2" Exclusive="true"/>
 		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Exclusive="true"/>
+		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Is Modern" Exclusive="true"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Has Settle Spot" ThresholdValue="0"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Cities Under Threat" ThresholdValue="1"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Major Civ Wars" ThresholdValue="1"/>
@@ -231,7 +234,8 @@
 	</Strategy_Priorities>
 
 	<AiFavoredItems>
-		<!--<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
+		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_GOVERNMENT" Favored="true"/>
+		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_FAITH" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_MILITARY" Favored="true"/>
 		<Row ListType="CultureVictoryBuildings" Item="BUILDING_GOV_CULTURE" Favored="true"/>
@@ -239,7 +243,11 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_TALL" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_WIDE" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>-->
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
+
+		<!--<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_CONSULATE" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_CHANCERY" Favored="true"/>-->
 
 		<Delete ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
 		<Delete ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
@@ -306,11 +314,6 @@
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-20"/>
-
-		<!--<Row ListType="ClassicalDistricts" Item="DISTRICT_GOVERNMENT" Favored="true"/>
-		<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>-->
-		<!--<Row ListType="DefaultFavorBuildings" Item="BUILDING_CONSULATE" Favored="true"/>
-		<Row ListType="IndustrialBuildings" Item="BUILDING_CHANCERY" Favored="true"/>-->
 
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_LIBRARY" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MARKET" Favored="true"/>
