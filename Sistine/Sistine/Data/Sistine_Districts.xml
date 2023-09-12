@@ -256,21 +256,83 @@
 	<TraitModifiers>
 		<Row>
 			<TraitType>TRAIT_LEADER_MAJOR_CIV</TraitType>
-			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT</ModifierId>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_MAJOR_CIV</TraitType>
-			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT</ModifierId>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>MINOR_CIV_DEFAULT_TRAIT</TraitType>
-			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT</ModifierId>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>MINOR_CIV_DEFAULT_TRAIT</TraitType>
-			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT</ModifierId>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
 		</Row>
 	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>RequiredAppeal</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_APPEAL_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>RequiredAppeal</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_APPEAL_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
 	<DistrictModifiers>
 		<Delete>
 			<DistrictType>DISTRICT_GOVERNMENT</DistrictType>
@@ -301,4 +363,36 @@
 		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="Amount" Value="10"/>
 		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
 	</ModifierArguments>
-</GameData>
+	<District_Adjacencies>
+		<Delete DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Strategic_Production"/>
+		<Delete DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production2"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Minel_HalfProduction"/>
+	</District_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Update>
+			<Where ID="Minel_HalfProduction" />
+			<Set TilesRequired="1" />
+		</Update>
+		<Update>
+			<Where ID="LumberMill_HalfProduction" />
+			<Set TilesRequired="1" />
+		</Update>
+		<Update>
+			<Where ID="Aqueduct_Production" />
+			<Set YieldChange="1" />
+		</Update>
+		<Update>
+			<Where ID="Bath_Production" />
+			<Set YieldChange="1" />
+		</Update>
+		<Update>
+			<Where ID="Canal_Production" />
+			<Set YieldChange="1" />
+		</Update>
+		<Update>
+			<Where ID="Dam_Production" />
+			<Set YieldChange="1" />
+		</Update>
+	</Adjacency_YieldChanges>
+	</GameData>
