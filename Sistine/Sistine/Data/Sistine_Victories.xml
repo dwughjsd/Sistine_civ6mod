@@ -250,6 +250,18 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_CONSULATE" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_CHANCERY" Favored="true"/>-->
 
+		<Row ListType="DefaultTechsSST" Item="TECH_APPRENTICESHIP" Favored="true" />
+		<Row ListType="DefaultTechsSST" Item="TECH_EDUCATION" Favored="true" />
+		<Row ListType="DefaultTechsSST" Item="TECH_STIRRUPS" Favored="true" />
+		<Row ListType="DefaultTechsSST" Item="TECH_MILITARY_ENGINEERING" Favored="true" />
+		<Row ListType="DefaultTechsSST" Item="TECH_INDUSTRIALIZATION" Favored="true" />
+		<Row ListType="DefaultTechsSST" Item="TECH_SCIENTIFIC_THEORY" Favored="true" />
+		<Row ListType="DefaultTechsSST" Item="TECH_COMPUTERS" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_RECORDED_HISTORY" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_FEUDALISM" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_OPERA_BALLET" Favored="true" />
+
 		<Delete ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
 		<Delete ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
 
