@@ -69,7 +69,7 @@
 			<Text>+15% [ICON_Production] Production in this city.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_WORKSHOP_DESCRIPTION_SST" Language="en_US">
-			<Text>{LOC_PRODUCTION_10_SST} +1 [ICON_Production] Production to [ICON_Resource_Stone] Stone and[LOC_Resource_Copper] Copper resources in this city.</Text>
+			<Text>{LOC_PRODUCTION_10_SST} +1 [ICON_Production] Production to [ICON_Resource_Stone] Stone and [ICON_Resource_Copper] Copper resources in this city.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" Language="en_US">
 			<Text>+10% [ICON_Production] Production in this city. Its base [ICON_Production] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
