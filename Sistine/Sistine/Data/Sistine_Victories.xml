@@ -213,7 +213,6 @@
 		<Row ListType="IndustrialBuildings" System="Buildings"/>
 		<Row ListType="IndustrialDistricts" System="Districts"/>
 		<Row ListType="DefaultDistrictsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Districts"/>
-		<Row ListType="DefaultDistrictsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Districts"/>
 		<Row ListType="ScienceVictoryBuildings" System="Buildings"/>
 		<Row ListType="CultureVictoryBuildings" System="Buildings"/>
 		<Row ListType="CultureVictoryDistricts" System="Districts"/>
