@@ -592,5 +592,40 @@
 			Value="1"
 		/>
 	</ModifierArguments>
-
+	
+	<!--Wonders-->
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_HANGING_GARDENS" YieldType="YIELD_FOOD" YieldChange="6"/>
+		<Row BuildingType="BUILDING_STONEHENGE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_ETEMENANKI" ModifierId="ETEMENANKI_FOOD_MARSH"/>
+		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_TECHNOLOGY_BOOST"/>
+		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_CIVIC_BOOST"/>
+	</BuildingModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MARSH_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="HANGING_GARDEN_ADDGROWTH" Name="Amount"/>
+			<Set Value="25"/>
+		</Update>
+	</ModifierArguments>
 </GameData>
