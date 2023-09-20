@@ -243,7 +243,7 @@
 			<Text>所有城市 [ICON_Production] 生产力+20%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST" Language="zh_Hans_CN">
-			<Text>每个区域提供1点 [ICON_Culture] 文化和2点 [ICON_Gold] 金钱。同盟点数每回合增加0.5。</Text>
+			<Text>每个区域提供1点 [ICON_Culture] 文化和2点 [ICON_Gold] 金币。同盟点数每回合增加0.5。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_SST" Language="zh_Hans_CN">
 			<Text>使用 [ICON_Gold] 金币购买时可享受15%折扣。</Text>
@@ -386,6 +386,60 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>赞助伟人消耗的 [ICON_Faith] 信仰值减少25%。[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发额外提供10%的科技或市政成本。该城市的区域提供的对应类型的 [ICON_GreatPerson] 伟人点数+2（比如，剧院广场区的 [ICON_GreatWriter] 大作家点数）。必须建在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MACHU_PICCHU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>山脉单元格为所有城市的剧院广场及工业区提供标准相邻加成，为所有城市的商业中心提供大量相邻加成。[NEWLINE][NEWLINE]必须修建在无火山的山脉单元格中。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>立即获得2名 [ICON_ENVOY] 使者。在此城市中建造奇观（包括阿帕达纳宫）时+1 [ICON_ENVOY] 使者。[NEWLINE][NEWLINE]必须建造在 [ICON_CAPITAL] 首都旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。获得1个商人单位。海岸与湖泊以及海洋单元格+1 [ICON_Gold] 金币。必须建在邻近陆地和港口的海岸上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得所有中古时代以前科技的 [ICON_TechBoosted] 尤里卡。其他玩家招募 [ICON_GreatScientist] 大科学家时将随机获得1个 [ICON_TechBoosted] 尤里卡。必须建在与已有图书馆的学院相邻的平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有海军单位+1 [ICON_Movement] 移动力，获得进入海洋单元格的能力。[NEWLINE][NEWLINE]必须建在海岸上，且必须与陆地和已有灯塔的港口相邻。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAHABODHI_TEMPLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建成后+2外交胜利点数，并提供3个使徒。此城市对相邻城市释放的宗教压力强度加倍。[NEWLINE][NEWLINE]必须建在与圣地区域（此区域中须建有寺庙）相邻的树林中，前提还须已创立宗教。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为该城市所有沙漠单元格（非泛滥平原）+1 [ICON_Food] 食物、+2 [ICON_Gold] 金币、+1 [ICON_Production] 生产力。+1 [ICON_TradeRoute] 贸易路线容量。获得1个商人单位。必须建在没有丘陵的沙漠或沙漠泛滥平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STATUE_OF_ZEUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供3名骑手、3名枪兵，以及1台破城槌。生产抗骑兵单位时+50% [ICON_PRODUCTION] 生产力。必须建在与军营区域（须拥有兵营）相邻的平地上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供3名弩手、3名剑士。目前所有单位获得1级强化升级。所拥有的考古学家可在没有开放边界的情况下进入外国。必须建在平坦的草原或平原上，且靠近带有兵营或马厩的军营区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTOKU_IN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城+20% [ICON_Faith] 信仰值。赠送4名武僧。武僧初始便拥有1次免费升级。[NEWLINE][NEWLINE]必须建在拥有寺庙的圣地区域旁。获得武僧的前提条件是玩家创立了宗教，或此玩家/城市拥有主流宗教。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WARRIOR_MONK_KOTOKU_IN_NAME" Language="zh_Hans_CN">
+			<Text>高德院</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WARRIOR_MONK_KOTOKU_IN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>初始便拥有1次免费升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神祠和寺庙+2 [ICON_Science] 科技值。与该城连接的其他文明 [ICON_TradeRoute] 贸易路线向城市提供+1 [ICON_SCIENCE] 科技值与+1 [ICON_GOLD] 金币。与该城连接的每条 [ICON_TradeRoute] 贸易路线提供+2 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须修建在沙漠或沙漠丘陵之上，同时必须与大学区域相邻。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神祠和寺庙+2 [ICON_Science] 科技值。与该城连接的其他文明 [ICON_TradeRoute] 贸易路线向城市提供+1 [ICON_SCIENCE] 科技值与+1 [ICON_GOLD] 金币。与该城连接的每条 [ICON_TradeRoute] 贸易路线提供+2 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须修建在沙漠或沙漠丘陵之上，同时必须与大学区域相邻。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 军事政策槽位[NEWLINE][NEWLINE]为此城+20% [ICON_Culture] 文化值。提供同堡垒改良设施一样的防御加成。必须建立在邻近军营区的丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市所有雨林单元格+2 [ICON_Culture] 文化值、+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物。必须建在雨林。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>传教士和使徒可以额外传播2次宗教。您必须已经创立了一个宗教，[NEWLINE]此外，还必须建在靠近圣地的平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在休伊神庙一个单元格以内的每个湖泊单元格为娱乐设施+1 [ICON_Amenities] 宜居度。为您帝国内的每个湖泊单元格+1 [ICON_Food] 食物、+1 [ICON_Production] 生产力、2 [ICON_Gold] 金币。必须建在靠近陆地的湖泊单元格上。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

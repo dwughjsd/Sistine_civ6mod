@@ -597,12 +597,32 @@
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_HANGING_GARDENS" YieldType="YIELD_FOOD" YieldChange="6"/>
 		<Row BuildingType="BUILDING_STONEHENGE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_PETRA" YieldType="YIELD_CULTURE" YieldChange="3"/>
+
 	</Building_YieldChanges>
 	
 	<BuildingModifiers>
 		<Row BuildingType="BUILDING_ETEMENANKI" ModifierId="ETEMENANKI_FOOD_MARSH"/>
 		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_TECHNOLOGY_BOOST"/>
 		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_CIVIC_BOOST"/>
+		<Row BuildingType="BUILDING_APADANA" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Row BuildingType="BUILDING_COLOSSUS" ModifierId="COLOSSUS_WATER_GOLD"/>
+		<Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" ModifierId="CARTOGRAPHY_GRANT_OCEAN_NAVIGATION"/>
+		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" ModifierId="CARDINAL_BISHOP_PRESSURE"/>
+		<Row BuildingType="BUILDING_PETRA" ModifierId="COLOSSUS_GRANT_TRADER"/>
+		<Row BuildingType="BUILDING_PETRA" ModifierId="COLOSSUS_ADDTRADEROUTE"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" ModifierId="TERRACOTTAARMY_GRANT_SWORDSMAN"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" ModifierId="TERRACOTTAARMY_GRANT_CROSSBOWMAN"/>
+		<Row BuildingType="BUILDING_KOTOKU_IN" ModifierId="KOTOKUIN_WARRIOR_MONK_ABILITY"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_SHRINE_SCIENCE"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TEMPLE_SCIENCE"/>
+		<Delete BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TRADE_DOMESTIC_FAITH"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
+		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
+		<Row BuildingType="BUILDING_CHICHEN_ITZA" ModifierId="CHICHEN_ITZA_JUNGLE_FOOD"/>
+		<Row BuildingType="BUILDING_HUEY_TEOCALLI" ModifierId="HUEY_LAKE_GOLD"/>
 	</BuildingModifiers>
 	
 	<Modifiers>
@@ -610,6 +630,60 @@
 			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_MARSH_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_WATER_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_OCEAN_OR_COAST_REQUIREMENTS_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_SWORDSMAN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_CROSSBOWMAN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKUIN_WARRIOR_MONK_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_CHICHEN_ITZA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>FOODHUEY_PLAYER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>FOODHUEY_PLOT_IS_LAKE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -627,5 +701,159 @@
 			<Where ModifierId="HANGING_GARDEN_ADDGROWTH" Name="Amount"/>
 			<Set Value="25"/>
 		</Update>
+		<Update>
+			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_GRASSMOUNTAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_PLAINSMOUNTAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_DESERTMOUNTAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_TUNDRAMOUNTAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_SNOWMOUNTAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="APADANA_AWARD_TWO_INFLUENCE_TOKEN_MODIFIER" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Row>
+			<ModifierId>COLOSSUS_WATER_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_WATER_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="GREAT_LIBRARY_ANCIENT_CLASSICAL_TECH_BOOSTS" Name="EndEraType"/>
+			<Set Value="ERA_MEDIEVAL"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MAHABODHITEMPLE_APOSTLE" Name="Amount"/>
+			<Set Value="3"/>
+		</Update>
+		<Update>
+			<Where ModifierId="PETRA_YIELD_MODIFIER" Name="Amount"/>
+			<Set Value="1,2,1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="STAUEZEUS_GRANT_ARCHERS" Name="UnitType"/>
+			<Set Value="UNIT_HORSEMAN"/>
+		</Update>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_SWORDSMAN</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SWORDSMAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_SWORDSMAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_CROSSBOWMAN</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_CROSSBOWMAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_CROSSBOWMAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKUIN_WARRIOR_MONK_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_WARRIOR_MONK_KOTOKU_IN</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SHRINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TEMPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_FOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CHICHEN_ITZA_JUNGLE_FOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_FOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_FOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="HAGIA_SOPHIA_ADJUST_RELIGIOUS_CHARGES" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>HUEY_LAKE_GOLD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 	</ModifierArguments>
+	<Types>
+		<Row Type="ABILITY_WARRIOR_MONK_KOTOKU_IN" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_WARRIOR_MONK_KOTOKU_IN" Name="LOC_ABILITY_WARRIOR_MONK_KOTOKU_IN_NAME" Description="LOC_ABILITY_WARRIOR_MONK_KOTOKU_IN_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<TypeTags>
+		<Row Type="ABILITY_WARRIOR_MONK_KOTOKU_IN" Tag="CLASS_WARRIOR_MONK"/>
+	</TypeTags>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_WARRIOR_MONK_KOTOKU_IN</UnitAbilityType>
+			<ModifierId>CORBACI_FREE_PROMOTION</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
 </GameData>
