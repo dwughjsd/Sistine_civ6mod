@@ -9,7 +9,7 @@
 			<Where StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" />
 			<Set NumConditionsNeeded="2" />
 		</Update>
-		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" NumConditionsNeeded="3"/>
+		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" NumConditionsNeeded="4"/>
 	</Strategies>
 
 	<StrategyConditions>
@@ -41,6 +41,7 @@
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Has Settle Spot" ThresholdValue="0"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Cities Under Threat" ThresholdValue="1"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Major Civ Wars" ThresholdValue="1"/>
+		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Classical" />
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Medieval" Disqualifier="true"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Not Major" Disqualifier="true"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Handicap at or below" ThresholdValue="6" Disqualifier="true"/>
@@ -165,10 +166,6 @@
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DIPLOMATIC_FAVOR" />
 			<Set DefaultValue="0.25" />
-		</Update>
-		<Update>
-			<Where PseudoYieldType="PSEUDOYIELD_SPACE_RACE" />
-			<Set DefaultValue="500" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_SPACE_RACE" />
@@ -384,7 +381,9 @@
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
 		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER"/>
 		<Row ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
-		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-10"/>
+		<Row ListType="AncientPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="25"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-10"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
 
