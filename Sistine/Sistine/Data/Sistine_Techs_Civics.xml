@@ -813,7 +813,4 @@
 			<Value>100</Value>
 		</Row>
 	</ModifierArguments>
-	<BuildingModifiers>
-		<Delete BuildingType="BUILDING_BIOSPHERE" ModifierId="BIOSPHERE_GREEN_ENERGY_TOURISM" />
-	</BuildingModifiers>
 </GameData>

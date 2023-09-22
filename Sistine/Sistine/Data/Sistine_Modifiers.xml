@@ -111,6 +111,14 @@
 		<Row RequirementSetId="BUILDING_IS_POWER_PLANT_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="BUILDING_IS_FOSSIL_FUEL_POWER_PLANT_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="BUILDING_IS_COAL_POWER_PLANT_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GREAT_SCIENTIST_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GREAT_ENGINEER_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GREAT_MERCHANT_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GREAT_WRITER_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GREAT_ARTIST_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GREAT_MUSICIAN_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_SST" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
+
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
@@ -120,12 +128,26 @@
 		<Row RequirementSetId="BUILDING_IS_POWER_PLANT_SST" RequirementId="REQUIRES_CITY_HAS_POWER_PLANT" />
 		<Row RequirementSetId="BUILDING_IS_FOSSIL_FUEL_POWER_PLANT_SST" RequirementId="REQUIRES_CITY_HAS_FOSSIL_FUEL_POWER_PLANT" />
 		<Row RequirementSetId="BUILDING_IS_COAL_POWER_PLANT_SST" RequirementId="REQUIRES_CITY_HAS_COAL_POWER_PLANT" />
+		<Row RequirementSetId="GREAT_SCIENTIST_SST" RequirementId="CAN_EVER_EARN_GREAT_SCIENTIST_SST" />
+		<Row RequirementSetId="GREAT_ENGINEER_SST" RequirementId="CAN_EVER_EARN_GREAT_ENGINEER_SST" />
+		<Row RequirementSetId="GREAT_MERCHANT_SST" RequirementId="CAN_EVER_EARN_GREAT_MERCHANT_SST" />
+		<Row RequirementSetId="GREAT_WRITER_SST" RequirementId="CAN_EVER_EARN_GREAT_WRITER_SST" />
+		<Row RequirementSetId="GREAT_ARTIST_SST" RequirementId="CAN_EVER_EARN_GREAT_ARTIST_SST" />
+		<Row RequirementSetId="GREAT_MUSICIAN_SST" RequirementId="CAN_EVER_EARN_GREAT_MUSICIAN_SST" />
+		<Row RequirementSetId="DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_SST" RequirementId="REQUIRES_DISTRICT_IS_ENTERTAINMENT_COMPLEX" />
+		<Row RequirementSetId="DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_SST" RequirementId="REQUIRES_DISTRICT_IS_WATER_PARK" />
 	</RequirementSetRequirements>
 	
 	<Requirements>
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" RequirementType="REQUIREMENT_CITY_HAS_BUILDING" />
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" RequirementType="REQUIREMENT_CITY_HAS_BUILDING" />
 		<Row RequirementId="REQUIRES_CITY_IS_WITHIN_6_HEXES" RequirementType="REQUIREMENT_PLOT_ADJACENT_TO_OWNER" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_SCIENTIST_SST" RequirementType="REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_ENGINEER_SST" RequirementType="REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_MERCHANT_SST" RequirementType="REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_WRITER_SST" RequirementType="REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_ARTIST_SST" RequirementType="REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_MUSICIAN_SST" RequirementType="REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS" />
 	</Requirements>
 	
 	<RequirementArguments>
@@ -133,6 +155,12 @@
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" Name="BuildingType" Value="BUILDING_MANUFACTURING_PLANT" />
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_IS_WITHIN_6_HEXES" Name="MinDistance" Value="0" />
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_IS_WITHIN_6_HEXES" Name="MaxDistance" Value="6" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_SCIENTIST_SST" Name="GreatPersonClass" Value="GREAT_PERSON_CLASS_SCIENTIST" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_ENGINEER_SST" Name="GreatPersonClass" Value="GREAT_PERSON_CLASS_ENGINEER" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_MERCHANT_SST" Name="GreatPersonClass" Value="GREAT_PERSON_CLASS_MERCHANT" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_WRITER_SST" Name="GreatPersonClass" Value="GREAT_PERSON_CLASS_WRITER" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_ARTIST_SST" Name="GreatPersonClass" Value="GREAT_PERSON_CLASS_ARTIST" />
+		<Row RequirementId="CAN_EVER_EARN_GREAT_MUSICIAN_SST" Name="GreatPersonClass" Value="GREAT_PERSON_CLASS_MUSICIAN" />
 	</RequirementArguments>
 	
 </GameData>

@@ -600,7 +600,8 @@
 		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Row BuildingType="BUILDING_PETRA" YieldType="YIELD_CULTURE" YieldChange="3"/>
-
+		<Row BuildingType="BUILDING_PANAMA_CANAL" YieldType="YIELD_PRODUCTION" YieldChange="5"/>
+		<Row BuildingType="BUILDING_BROADWAY" YieldType="YIELD_CULTURE" YieldChange="6"/>
 	</Building_YieldChanges>
 	
 	<BuildingModifiers>
@@ -623,6 +624,33 @@
 		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
 		<Row BuildingType="BUILDING_CHICHEN_ITZA" ModifierId="CHICHEN_ITZA_JUNGLE_FOOD"/>
 		<Row BuildingType="BUILDING_HUEY_TEOCALLI" ModifierId="HUEY_LAKE_GOLD"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_SCIENCE"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_CULTURE"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_PRODUCTION"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_FAITH"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_GOLD"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" ModifierId="FORBIDDENCITY_DIPLOVP"/>
+		<Row BuildingType="BUILDING_GREAT_ZIMBABWE" ModifierId="COLOSSUS_GRANT_TRADER"/>
+		<Row BuildingType="BUILDING_TORRE_DE_BELEM" ModifierId="BELEM_FOREIGN_CITY_BUILDER"/>
+		<Row BuildingType="BUILDING_VENETIAN_ARSENAL" ModifierId="VENETIANARSENAL_GRANT_ENGINEER"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" ModifierId="STATUELIBERTY_GRANTBUILDERS"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" ModifierId="STATUELIBERTY_PRODUCTION_PER_POP"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_SCIENCEPERTRIBUTARY"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_CULTUREPERTRIBUTARY"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_FAITHPERTRIBUTARY"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_GOLDPERTRIBUTARY"/>
+		<Row BuildingType="BUILDING_HERMITAGE" ModifierId="HERMITAGE_ADDCULTUREYIELD"/>
+		<Row BuildingType="BUILDING_RUHR_VALLEY" ModifierId="RUHRVALLEY_WORKSHOPPRODUCTION"/>
+		<Row BuildingType="BUILDING_RUHR_VALLEY" ModifierId="RUHRVALLEY_FACTORYPRODUCTION"/>
+		<Row BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_GREAT_WRITER"/>
+		<Row BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_GREAT_MUSICIAN"/>
+		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BUILDING_BROADWAY_RANDOMCIVICBOOST"/>
+		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" ModifierId="BUILDING_BROADWAY_RANDOMCIVICBOOST"/>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" ModifierId="AMUNDSENSCOTT_GREAT_SCIENTIST"/>
+		<Delete BuildingType="BUILDING_BIOSPHERE" ModifierId="BIOSPHERE_GREEN_ENERGY_TOURISM" />
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" ModifierId="MARACANA_ENTERTAINMENT_TOURISM"/>
+		<Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" ModifierId="SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS"/>
 	</BuildingModifiers>
 	
 	<Modifiers>
@@ -684,6 +712,129 @@
 			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>FOODHUEY_PLOT_IS_LAKE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Update>
+			<Where ModifierId="CONTRATACION_FOREIGNFAITH" />
+			<Set SubjectRequirementSetId="CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS"/>
+		</Update>
+		<Update>
+			<Where ModifierId="CONTRATACION_FOREIGNGOLD" />
+			<Set SubjectRequirementSetId="CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS"/>
+		</Update>
+		<Update>
+			<Where ModifierId="CONTRATACION_FOREIGNPRODUCTION" />
+			<Set SubjectRequirementSetId="CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS"/>
+		</Update>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOLDEN_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOLDEN_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOLDEN_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOLDEN_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOLDEN_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDENCITY_DIPLOVP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>BELEM_FOREIGN_CITY_BUILDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>BELEM_FOREIGN_CITY_BUILDER_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>VENETIANARSENAL_GRANT_ENGINEER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>GREAT_ENGINEER_SST</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_GRANTBUILDERS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_PRODUCTION_PER_POP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADDCULTUREYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_WORKSHOPPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_FACTORYPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_WRITER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>GREAT_WRITER_SST</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_MUSICIAN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>GREAT_MUSICIAN_SST</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSENSCOTT_GREAT_SCIENTIST</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>GREAT_SCIENTIST_SST</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MARACANA_ENTERTAINMENT_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_SST</SubjectRequirementSetId>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -839,6 +990,209 @@
 			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="STBASILS_ADDFOOD_MODIFIER" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDENCITY_DIPLOVP</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDENCITY_DIPLOVP</ModifierId>
+			<Name>Tooltip</Name>
+			<Value>LOC_DVP_TOOLTIP_OTHER_SOURCES</Value>
+		</Row>
+		<Row>
+			<ModifierId>BELEM_FOREIGN_CITY_BUILDER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>BELEM_FOREIGN_CITY_BUILDER_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>BELEM_FOREIGN_CITY_BUILDER_MODIFIER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>BELEM_FOREIGN_CITY_BUILDER_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>VENETIANARSENAL_GRANT_ENGINEER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>VENETIANARSENAL_GRANT_ENGINEER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_GRANTBUILDERS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_GRANTBUILDERS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_PRODUCTION_PER_POP</ModifierId>
+			<Name>Amount</Name>
+			<Value>.5</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_PRODUCTION_PER_POP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADDCULTUREYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADDCULTUREYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_WORKSHOPPRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WORKSHOP</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_WORKSHOPPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_WORKSHOPPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_FACTORYPRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FACTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_FACTORYPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_FACTORYPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_WRITER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_WRITER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_MUSICIAN</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_MUSICIAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="BUILDING_BROADWAY_RANDOMCIVICBOOST" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Row>
+			<ModifierId>AMUNDSENSCOTT_GREAT_SCIENTIST</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSENSCOTT_GREAT_SCIENTIST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MARACANA_ENTERTAINMENT_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
 		</Row>
 	</ModifierArguments>
 	<Types>

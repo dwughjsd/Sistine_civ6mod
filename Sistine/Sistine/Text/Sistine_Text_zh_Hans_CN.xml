@@ -426,9 +426,6 @@
 		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>神祠和寺庙+2 [ICON_Science] 科技值。与该城连接的其他文明 [ICON_TradeRoute] 贸易路线向城市提供+1 [ICON_SCIENCE] 科技值与+1 [ICON_GOLD] 金币。与该城连接的每条 [ICON_TradeRoute] 贸易路线提供+2 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须修建在沙漠或沙漠丘陵之上，同时必须与大学区域相邻。</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>神祠和寺庙+2 [ICON_Science] 科技值。与该城连接的其他文明 [ICON_TradeRoute] 贸易路线向城市提供+1 [ICON_SCIENCE] 科技值与+1 [ICON_GOLD] 金币。与该城连接的每条 [ICON_TradeRoute] 贸易路线提供+2 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须修建在沙漠或沙漠丘陵之上，同时必须与大学区域相邻。</Text>
-		</Replace>
 		<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+1 军事政策槽位[NEWLINE][NEWLINE]为此城+20% [ICON_Culture] 文化值。提供同堡垒改良设施一样的防御加成。必须建立在邻近军营区的丘陵上。</Text>
 		</Replace>
@@ -440,6 +437,54 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在休伊神庙一个单元格以内的每个湖泊单元格为娱乐设施+1 [ICON_Amenities] 宜居度。为您帝国内的每个湖泊单元格+1 [ICON_Food] 食物、+1 [ICON_Production] 生产力、2 [ICON_Gold] 金币。必须建在靠近陆地的湖泊单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得3次 [ICON_Governor] 总督升级。所有与原始 [ICON_Capital] 首都不在同一大陆的城市 [ICON_Production] 生产力+15%、[ICON_Faith] 信仰值+15%、[ICON_Gold] 金币+15%。必须建造在市政广场旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城市产出的 [ICON_Tourism] 宗教旅游业绩+100%。此城市所有冻土单元格产出的 [ICON_Food] 食物+2、[ICON_Production] 生产力+1、[ICON_Culture] 文化值+1。必须建在市中心旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此奇观建成后，提供2点或以上时代得分的历史时刻所提供的时代得分+1。处于黄金时代时，所有城市的非食物产出+15%。必须建在河流旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 通配符政策槽位[NEWLINE][NEWLINE]+4外交胜利点数。必须建在靠近市中心的平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_TradeRoute] 贸易路线容量+1。获得1个商人单位。[NEWLINE][NEWLINE]城市领土中3个单元格以内的每个加成资源将为从此城市发源的 [ICON_TradeRoute] 贸易路线+2 [ICON_Gold] 金币。必须建在与商业中心区域（要求拥有市场）和 [ICON_RESOURCE_CATTLE] 牛资源相邻的单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TORRE_DE_BELEM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>目的地城市每有1处奢侈品资源，从此城起源的国际 [ICON_TradeRoute] 贸易路线便+2 [ICON_GOLD] 金币。贝伦塔建造完成后，不在首都所处大陆的城市将直接获得当前所能建造、[ICON_PRODUCTION] 生产力花费最低的市中心建筑和1个建造者。[NEWLINE][NEWLINE]必须建造在与港口区域相邻的海岸单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每训练一个海军单位，便会获得第二个海军单位。免费获得1个 [ICON_GreatEngineer] 大工程师。必须建在靠近工业区的海岸单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STATUE_LIBERTY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建成后+4外交胜利点数。获得3名建造者。城市中每位 [ICON_Citizen] 公民提供0.5点 [ICON_Production] 生产力。6个单元格内的所有城市忠诚度固定为100%。[NEWLINE][NEWLINE]必须建造在与陆地和港口区域相邻的海岸单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>成为一座城邦的宗主国后，每回合从此城邦获得的 [ICON_Favor] 外交支持+100%。每座以您为宗主国的城邦为您+2 [ICON_Science] 科技值、 [ICON_Culture] 文化值、 [ICON_Faith] 信仰值、和 [ICON_Gold] 金币。[NEWLINE][NEWLINE]必须修建在河边。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为此城+50% [ICON_Culture] 文化值。必须沿河建造。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>工坊和工厂+2 [ICON_Production] 生产力。该城市+20% [ICON_Production] 生产力，此城中每个矿山和采石场+1 [ICON_Production] 生产力。必须沿河而建，且与拥有工厂的工业区区域相邻。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BROADWAY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>免费获得1个 [ICON_GreatWriter] 大作家和 [ICON_GreatMusician] 大音乐家。必须建在邻近剧院广场区域的平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>免费获得2个随机的原子时代 [ICON_CivicBoosted] 启发。[ICON_GreatWork_Relic] 遗物和圣城的 [ICON_Tourism] 旅游业绩产值不会被其他研究了“启蒙运动”市政的文明削弱。您文明中“海滨度假区”产出的 [ICON_Tourism] 旅游业绩+100%。必须建在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>免费获得1个 [ICON_GreatScientist] 大科学家。所有城市 [ICON_SCIENCE] 科技值+20%、[ICON_PRODUCTION] 生产力+10%。若一座城市的3个单元格范围内有5个雪地或雪地丘陵单元格，且这些单元格为玩家所拥有，这些产出则会加倍。必须建造在雪地或雪地丘陵单元格上的学院旁（其中须建有“研究实验室”）。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您文明的每座城市+2 [ICON_Amenities] 宜居度。娱乐中心和水上乐园+10 [ICON_Tourism] 旅游业绩。必须建在靠近带有体育场的娱乐中心的平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得所有原子时代和信息时代的 [ICON_CivicBoosted] 启发。必须建在海岸上，且需要靠近陆地和一个港口。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
