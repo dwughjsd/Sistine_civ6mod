@@ -80,6 +80,9 @@
 		<Replace Tag="LOC_TECH_SMART_MATERIALS_DESCRIPTION" Language="en_US">
 			<Text>+1 Production [ICON_Production] from Mines. Unlocks Giant Death Robot upgrade: Reinforced Armor Plating[NEWLINE]+10 [ICON_Strength] Combat Strength when defending against land and naval units.</Text>
 		</Replace>
+		<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>+1 Production to Mines.</Text>
+		</Replace>
 		<!--Gold reform-->
 		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="en_US">
 			<Text>Allows the creation of [ICON_TradeRoute] Trade Routes. +1 [ICON_Gold] Gold to all tiles beside a river.</Text>
@@ -345,15 +348,6 @@
 			<Text>Monumentality Golden Age:[NEWLINE]+2 [ICON_Movement] Movement for all Builders. May purchase civilian units with [ICON_Faith] Faith. Builders and Settlers are 20% cheaper to purchase with [ICON_FAITH] Faith and [ICON_GOLD] Gold.</Text>
 		</Replace>
 		<!--Features-->
-		<Replace Tag="LOC_FEATURE_FLOODPLAINS_DESERT_DESCRIPTION" Language="en_US">
-			<Text>This low-lying area adjacent to a River has flooded before, giving it more [ICON_Food] Food production than a usual Desert tile. If the River floods again structures built on this tile may be damaged or destroyed, but the tile is also likely to gain additional yields.</Text>
-		</Replace>
-		<Replace Tag="LOC_FEATURE_FLOODPLAINS_GRASSLAND_DESCRIPTION" Language="en_US">
-			<Text>This low-lying area adjacent to a River has not yet flooded so it starts the game with the same yields as a flat Grasslands tile. If the River floods again structures built on this tile may be damaged or destroyed, but the tile is also likely to gain additional yields.</Text>
-		</Replace>
-		<Replace Tag="LOC_FEATURE_FLOODPLAINS_PLAINS_DESCRIPTION" Language="en_US">
-			<Text>This low-lying area adjacent to a River has not yet flooded so it starts the game with the same yields as a flat Plains tile. If the River floods again structures built on this tile may be damaged or destroyed, but the tile is also likely to gain additional yields.</Text>
-		</Replace>
 		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="en_US">
 			<Text>+2 [ICON_Culture] Culture from world wonders.</Text>
 		</Replace>
