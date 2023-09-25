@@ -406,7 +406,7 @@
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
 		<!--Don't build these too much - which means let them build some at very first-->
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_AERODROME" Favored="false"/>
-		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
+		<Row ListType="IndustrialDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
 
 		<!--AI is PRETTY BAD at achieving other types of victory-->
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>

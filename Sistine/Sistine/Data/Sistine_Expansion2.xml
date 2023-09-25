@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<GlobalParameters>
+		<!--Let it starts later than Industrial Era-->
+		<Replace Name="WORLD_CONGRESS_INITIAL_ERA" Value="4" />
+		<!--And when someone sees all major civs-->
+		<!--Yes, to effectively kill the annoying mechanism-->
+		<Replace Name="WORLD_CONGRESS_MAJORITY_LEADER_MINIMUM" Value="100.0" />
+		<Replace Name="WORLD_CONGRESS_MIN_TIME_BETWEEN_SPECIAL_SESSIONS" Value="30" />
+	</GlobalParameters>
+	<AiListTypes>
+		<Row ListType="DefaultDiscussions"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="DefaultDiscussions" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Discussions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_MILITARY" Favored="false"/>
+		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_CITY_STATE" Favored="false"/>
+		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_RELIGIOUS" Favored="false"/>
+		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_NUCLEAR" Favored="false"/>
+		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_BACKSTAB" Favored="false"/>
+	</AiFavoredItems>
+</GameData>
