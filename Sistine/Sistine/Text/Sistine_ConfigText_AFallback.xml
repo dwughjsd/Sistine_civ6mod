@@ -107,8 +107,11 @@
 		<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" Language="en_US">
 			<Text>{LOC_PRODUCTION_15_SST} City Centers within 6 tiles receive +6 [ICON_Power] Power from renewable water sources.</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_HANGAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+50% [ICON_Tourism] Tourism from this city's Great Works, Wonders, Improvements, and National Parks. +25% combat experience for air units trained in this city. +1 air unit slot in Aerodrome district.</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" Language="en_US">
-			<Text>+5% [ICON_Tourism] Tourism across your empire. +50% combat experience for air units trained in this city. +1 air unit slot in Aerodrome district. Allows the ability to airlift land units between Aerodrome districts with Airports after the Rapid Deployment civic is unlocked.</Text>
+			<Text>+50% [ICON_Tourism] Tourism from this city's Great Works, Wonders, Improvements, and National Parks. +50% combat experience for air units trained in this city. +1 air unit slot in Aerodrome district. Allows the ability to airlift land units between Aerodrome districts with Airports after the Rapid Deployment civic is unlocked.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="en_US">
 			<Text>+0.5 [ICON_Gold] Gold per [ICON_Citizen] Citizen in this city. +1 [ICON_FOOD] Food on [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_SPICES] Spices, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_SALT] Salt and [ICON_RESOURCE_OLIVES] Olives in this city. Can only be built once in a city, even if the city has multiple Neighborhoods.</Text>
