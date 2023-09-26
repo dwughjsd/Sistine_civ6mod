@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<GlobalParameters>
+		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="60" />
+		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="40" />
+		<Replace Name="GAME_COST_ESCALATION" Value="400" />
+		<Replace Name="TOURISM_CULTURE_PER_CITIZEN" Value="200" />
+		<Replace Name="TOURISM_TOURISM_TO_MOVE_CITIZEN" Value="200" />
+		<Replace Name="EXPERIENCE_MAX_BARB_LEVEL" Value="3" />
+		<Replace Name="BARBARIAN_TECH_PERCENT" Value="75" />
+		<!--This param seems to be not working. Next one works.-->
+		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT" Value="20" />
+		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT_OWNER_BEFORE_OCCUPATION" Value="20" />
+		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="15" />
+		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MIN" Value="0" />
+		<!--I guess it will make AI smarter. Let's see!-->
+		<Replace Name="CIVIC_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
+		<Replace Name="CIVIC_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
+		<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
+		<Replace Name="TECH_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
+		<!--Cultural Victory overhaul-->
+		<Replace Name="NATIONAL_PARK_GOLD_YIELD_PER_TOURISM" Value="1" />
+		<Replace Name="GREATWORK_ART_LOCK_TIME" Value="0" />
+		<!--Eras tweaks-->
+		<Replace Name="THRESHOLD_SHIFT_PER_CITY" Value="3" />
+		<Replace Name="THRESHOLD_SHIFT_PER_MISSING_AMENITY" Value="0" />
+		<Replace Name="THRESHOLD_SHIFT_PER_PAST_DARK_AGE" Value="-14" />
+		<Replace Name="THRESHOLD_SHIFT_PER_PAST_GOLDEN_AGE" Value="7" />
+		<!--Trade route-->
+		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_MAX_RATIO" Value="1.0" />
+		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_BEST_ROUTE_TILE" Value="3" />
+		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_MULTIPLE_DOMAINS" Value="10" />
+		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_PORTAL_USE" Value="10" />
+		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_WATER_TILE" Value="1" />
+		<!--Alliance level-->
+		<Replace Name="ALLIANCE_LEVEL_THREE_XP" Value="360" />
+		<Replace Name="ALLIANCE_LEVEL_TWO_XP" Value="120" />
+		<!--Religion-->
+		<Replace Name="RELIGION_SPREAD_ADJACENT_PER_TURN_PRESSURE" Value="2" />
+		<Replace Name="RELIGION_SPREAD_HOLY_CITY_PRESSURE_MULTIPLIER" Value="8" />
+		<Replace Name="RELIGION_SPREAD_TRADE_ROUTE_PRESSURE_FOR_DESTINATION" Value="4.0" />
+		<Replace Name="RELIGION_SPREAD_TRADE_ROUTE_PRESSURE_FOR_ORIGIN" Value="2.0" />
+	</GlobalParameters>
+
+	<BarbarianTribes>
+		<Update>
+			<Where TribeType="TRIBE_NAVAL" />
+			<Set TurnsToWarriorSpawn="40" />
+		</Update>
+	</BarbarianTribes>
+
+	<BarbarianAttackForces>
+		<!--Standard-->
+		<Replace AttackForceType="LowDifficultyStandardRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_MELEE" NumMeleeUnits="1" RaidingForce="true"/>
+		<Replace AttackForceType="StandardRaid" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_MELEE" NumMeleeUnits="1" RangeTag="CLASS_RANGED" NumRangeUnits="1" RaidingForce="true"/>
+		<Replace AttackForceType="HighDifficultyStandardRaid" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_MELEE" NumMeleeUnits="2" RangeTag="CLASS_RANGED" NumRangeUnits="1" RaidingForce="true"/>
+		<Replace AttackForceType="LowDifficultyStandardAttack" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_MELEE" NumMeleeUnits="1" RangeTag="CLASS_RANGED" NumRangeUnits="1" SiegeTag="CLASS_SIEGE" NumSiegeUnits="1"/>
+		<Replace AttackForceType="StandardAttack" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_MELEE" NumMeleeUnits="2" RangeTag="CLASS_RANGED" NumRangeUnits="1" SiegeTag="CLASS_SIEGE" NumSiegeUnits="1" SupportTag="CLASS_BATTERING_RAM" NumSupportUnits="1"/>
+		<Replace AttackForceType="HighDifficultyStandardAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_MELEE" NumMeleeUnits="3" RangeTag="CLASS_RANGED" NumRangeUnits="2" SiegeTag="CLASS_SIEGE" NumSiegeUnits="2" SupportTag="CLASS_BATTERING_RAM" NumSupportUnits="1"/>
+		<!--Cavalry-->
+		<Replace AttackForceType="LowDifficultyCavalryRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="1" RaidingForce="true"/>
+		<Replace AttackForceType="CavalryRaid" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="1" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="1" RaidingForce="true"/>
+		<Replace AttackForceType="HighDifficultyCavalryRaid" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="2" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="1" RaidingForce="true"/>
+		<Replace AttackForceType="LowDifficultyCavalryAttack" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="1" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="1" SiegeTag="CLASS_HEAVY_CAVALRY" NumSiegeUnits="1"/>
+		<Replace AttackForceType="CavalryAttack" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="2" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="1" SiegeTag="CLASS_HEAVY_CAVALRY" NumSiegeUnits="1"/>
+		<Replace AttackForceType="HighDifficultyCavalryAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="3" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="2" SiegeTag="CLASS_HEAVY_CAVALRY" NumSiegeUnits="2"/>
+		<!--Naval-->
+		<Replace AttackForceType="LowDifficultyNavalRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="1" RaidingForce="true"/>
+		<Replace AttackForceType="NavalRaid" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="1" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="1" RaidingForce="true"/>
+		<Replace AttackForceType="HighDifficultyNavalRaid" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="1" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2" RaidingForce="true"/>
+		<Replace AttackForceType="LowDifficultyNavalAttack" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="5" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="1" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2" />
+		<Replace AttackForceType="NavalAttack" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="3" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="2" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2" />
+		<Replace AttackForceType="HighDifficultyNavalAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="2" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2"/>
+	</BarbarianAttackForces>
+
+</GameData>

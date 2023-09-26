@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Resources>
+		<Update>
+			<Where ResourceType="RESOURCE_ANTIQUITY_SITE" />
+			<Set PrereqCivic="CIVIC_HUMANISM" />
+		</Update>
+	</Resources>
+	<Tags>
+		<!-- Building Effects Based-->
+		<Row Tag="CLASS_GRANARY" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_LIGHTHOUSE" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_WORKSHOP" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_FARMS" Vocabulary="RESOURCE_CLASS"/>
+	</Tags>
+    <TypeTags>
+		<!-- Bonus-->
+		<Row Type="RESOURCE_CRABS" Tag="CLASS_LIGHTHOUSE"/>
+		<Row Type="RESOURCE_FISH" Tag="CLASS_LIGHTHOUSE"/>
+
+		<Row Type="RESOURCE_DEER" Tag="CLASS_GRANARY"/>
+		<Row Type="RESOURCE_BANANAS" Tag="CLASS_GRANARY"/>
+
+		<Row Type="RESOURCE_RICE" Tag="CLASS_FARMS"/>
+		<Row Type="RESOURCE_WHEAT" Tag="CLASS_FARMS"/>
+		<Row Type="RESOURCE_MAIZE" Tag="CLASS_FARMS"/>
+
+		<Row Type="RESOURCE_COPPER" Tag="CLASS_WORKSHOP"/>
+		<Row Type="RESOURCE_STONE" Tag="CLASS_WORKSHOP"/>
+    </TypeTags>
+
+	<Resource_YieldChanges>
+		<Update><Where ResourceType="RESOURCE_COCOA" YieldType="YIELD_GOLD"/><Set YieldChange="5"/></Update>
+		<Row ResourceType="RESOURCE_COFFEE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Update><Where ResourceType="RESOURCE_COTTON" YieldType="YIELD_GOLD"/><Set YieldChange="4"/></Update>
+		<Update><Where ResourceType="RESOURCE_DIAMONDS" YieldType="YIELD_GOLD"/><Set YieldChange="6"/></Update>
+		<Row ResourceType="RESOURCE_DYES" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Update><Where ResourceType="RESOURCE_FURS" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
+		<Update><Where ResourceType="RESOURCE_GYPSUM" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
+		<Update><Where ResourceType="RESOURCE_INCENSE" YieldType="YIELD_FAITH"/><Set YieldChange="2"/></Update>
+		<Row ResourceType="RESOURCE_INCENSE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Update><Where ResourceType="RESOURCE_IVORY" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
+		<Row ResourceType="RESOURCE_JADE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_MARBLE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_MERCURY" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Update><Where ResourceType="RESOURCE_SALT" YieldType="YIELD_FOOD"/><Set YieldChange="2"/></Update>
+		<Row ResourceType="RESOURCE_SILK" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Update><Where ResourceType="RESOURCE_SILVER" YieldType="YIELD_GOLD"/><Set YieldChange="6"/></Update>
+		<Row ResourceType="RESOURCE_TEA" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_TOBACCO" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Update><Where ResourceType="RESOURCE_TRUFFLES" YieldType="YIELD_GOLD"/><Set YieldChange="4"/></Update>
+		<Update><Where ResourceType="RESOURCE_WHALES" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
+		<Update><Where ResourceType="RESOURCE_WINE" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
+		<Row ResourceType="RESOURCE_AMBER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Update><Where ResourceType="RESOURCE_OLIVES" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
+		<Row ResourceType="RESOURCE_TURTLES" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_ALUMINUM" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_IRON" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Resource_YieldChanges>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRANARY_TAG_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_LIGHTHOUSE_TAG_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_WORKSHOP_TAG_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRANARY_TAG_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_GRANARY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_LIGHTHOUSE_TAG_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_LIGHTHOUSE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_WORKSHOP_TAG_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_WORKSHOP</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_GRANARY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_LIGHTHOUSE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_WORKSHOP</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_GRANARY</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_GRANARY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_LIGHTHOUSE</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_LIGHTHOUSE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_TAG_WORKSHOP</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_WORKSHOP</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

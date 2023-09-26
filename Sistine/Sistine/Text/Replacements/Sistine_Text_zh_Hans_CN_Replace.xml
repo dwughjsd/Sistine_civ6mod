@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!--Eras-->
+		<Replace Tag="LOC_ERA_CLASSICAL_NAME" Language="zh_Hans_CN" Text="古典时代"/>
+		<Replace Tag="LOC_ERA_MEDIEVAL_NAME" Language="zh_Hans_CN" Text="中古时代"/>
+		<Replace Tag="LOC_ERA_RENAISSANCE_NAME" Language="zh_Hans_CN" Text="启蒙时代"/>
+		<Replace Tag="LOC_ERA_MODERN_NAME" Language="zh_Hans_CN" Text="电气时代"/>
+		<Replace Tag="LOC_ERA_ATOMIC_NAME" Language="zh_Hans_CN" Text="原子时代"/>
+		<!--Districts and buildings (incomplete)-->
+		<Replace Tag="LOC_DISTRICT_AERODROME_NAME" Language="zh_Hans_CN" Text="飞行场"/>
+		<Replace Tag="LOC_BUILDING_AIRPORT_NAME" Language="zh_Hans_CN" Text="空港"/>
+		<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_NAME" Language="zh_Hans_CN" Text="水力发电坝"/>
+		<Replace Tag="LOC_BUILDING_SHRINE_NAME" Language="zh_Hans_CN" Text="神祠"/>
+		<Replace Tag="LOC_BUILDING_AMPHITHEATER_NAME" Language="zh_Hans_CN" Text="露天剧场"/>
+		<Replace Tag="LOC_BUILDING_WORKSHOP_NAME" Language="zh_Hans_CN" Text="工坊"/>
+		<Replace Tag="LOC_BUILDING_CASTLE_NAME" Language="zh_Hans_CN" Text="中古城墙"/>
+		<Replace Tag="LOC_BUILDING_STAR_FORT_NAME" Language="zh_Hans_CN" Text="启蒙城墙"/>
+		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_NAME" Language="zh_Hans_CN" Text="阿蒙森-斯科特研究站"/>
+
+		<!--Techs and civics-->
+		<Replace Tag="LOC_TECH_POTTERY_NAME" Language="zh_Hans_CN" Text="制陶"/>
+		<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_NAME" Language="zh_Hans_CN" Text="畜牧"/>
+		<Replace Tag="LOC_TECH_MINING_NAME" Language="zh_Hans_CN" Text="采矿"/>
+		<Replace Tag="LOC_TECH_SAILING_NAME" Language="zh_Hans_CN" Text="航海"/>
+		<Replace Tag="LOC_TECH_WRITING_NAME" Language="zh_Hans_CN" Text="书写"/>
+		<Replace Tag="LOC_TECH_MASONRY_NAME" Language="zh_Hans_CN" Text="砌筑"/>
+		<Replace Tag="LOC_TECH_BRONZE_WORKING_NAME" Language="zh_Hans_CN" Text="青铜加工"/>
+		<Replace Tag="LOC_TECH_IRON_WORKING_NAME" Language="zh_Hans_CN" Text="铁器加工"/>
+		<Replace Tag="LOC_TECH_SHIPBUILDING_NAME" Language="zh_Hans_CN" Text="造船"/>
+		<Replace Tag="LOC_TECH_MATHEMATICS_NAME" Language="zh_Hans_CN" Text="数学"/>
+		<Replace Tag="LOC_TECH_CONSTRUCTION_NAME" Language="zh_Hans_CN" Text="建设工法"/>
+		<Replace Tag="LOC_TECH_ENGINEERING_NAME" Language="zh_Hans_CN" Text="工程学"/>
+		<Replace Tag="LOC_TECH_MILITARY_TACTICS_NAME" Language="zh_Hans_CN" Text="军事战术"/>
+		<Replace Tag="LOC_TECH_APPRENTICESHIP_NAME" Language="zh_Hans_CN" Text="学徒制度"/>
+		<Replace Tag="LOC_TECH_MACHINERY_NAME" Language="zh_Hans_CN" Text="机械"/>
+		<Replace Tag="LOC_TECH_EDUCATION_NAME" Language="zh_Hans_CN" Text="教育学"/>
+		<Replace Tag="LOC_TECH_STIRRUPS_NAME" Language="zh_Hans_CN" Text="马镫"/>
+		<Replace Tag="LOC_TECH_MASS_PRODUCTION_NAME" Language="zh_Hans_CN" Text="大规模生产"/>
+		<Replace Tag="LOC_TECH_SQUARE_RIGGING_NAME" Language="zh_Hans_CN" Text="横帆索具"/>
+		<Replace Tag="LOC_TECH_SIEGE_TACTICS_NAME" Language="zh_Hans_CN" Text="围攻战术"/>
+		<Replace Tag="LOC_TECH_MILITARY_SCIENCE_NAME" Language="zh_Hans_CN" Text="军事科学"/>
+		<Replace Tag="LOC_TECH_SANITATION_NAME" Language="zh_Hans_CN" Text="公共卫生"/>
+		<Replace Tag="LOC_TECH_ECONOMICS_NAME" Language="zh_Hans_CN" Text="经济学"/>
+		<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_NAME" Language="zh_Hans_CN" Text="可更换部件"/>
+		<Replace Tag="LOC_TECH_COMBUSTION_NAME" Language="zh_Hans_CN" Text="内燃机"/>
+		<Replace Tag="LOC_TECH_ROCKETRY_NAME" Language="zh_Hans_CN" Text="火箭技术"/>
+		<Replace Tag="LOC_TECH_ADVANCED_BALLISTICS_NAME" Language="zh_Hans_CN" Text="先进弹道学"/>
+		<Replace Tag="LOC_TECH_COMPUTERS_NAME" Language="zh_Hans_CN" Text="计算机"/>
+		<Replace Tag="LOC_TECH_SATELLITES_NAME" Language="zh_Hans_CN" Text="人造卫星"/>
+		<Replace Tag="LOC_TECH_GUIDANCE_SYSTEMS_NAME" Language="zh_Hans_CN" Text="导航系统"/>
+		<Replace Tag="LOC_TECH_ADVANCED_AI_NAME" Language="zh_Hans_CN" Text="先进人工智能"/>
+		<Replace Tag="LOC_TECH_ADVANCED_POWER_CELLS_NAME" Language="zh_Hans_CN" Text="先进电池装置"/>
+		<Replace Tag="LOC_TECH_PREDICTIVE_SYSTEMS_NAME" Language="zh_Hans_CN" Text="预测系统"/>
+		<Replace Tag="LOC_TECH_OFFWORLD_MISSION_NAME" Language="zh_Hans_CN" Text="地外任务"/>
+		<Replace Tag="LOC_CIVIC_CRAFTSMANSHIP_NAME" Language="zh_Hans_CN" Text="工匠技艺"/>
+		<Replace Tag="LOC_CIVIC_STATE_WORKFORCE_NAME" Language="zh_Hans_CN" Text="国有劳力"/>
+		<Replace Tag="LOC_CIVIC_EARLY_EMPIRE_NAME" Language="zh_Hans_CN" Text="早期帝国"/>
+		<Replace Tag="LOC_CIVIC_DIVINE_RIGHT_NAME" Language="zh_Hans_CN" Text="君权神授"/>
+		<Replace Tag="LOC_CIVIC_REFORMED_CHURCH_NAME" Language="zh_Hans_CN" Text="教会改革"/>
+		<Replace Tag="LOC_CIVIC_CONSERVATION_NAME" Language="zh_Hans_CN" Text="自然保护"/>
+		<Replace Tag="LOC_CIVIC_NUCLEAR_PROGRAM_NAME" Language="zh_Hans_CN" Text="核计划"/>
+		<Replace Tag="LOC_CIVIC_MOBILIZATION_NAME" Language="zh_Hans_CN" Text="动员"/>
+		<Replace Tag="LOC_CIVIC_SUFFRAGE_NAME" Language="zh_Hans_CN" Text="普选权"/>
+		<Replace Tag="LOC_CIVIC_RAPID_DEPLOYMENT_NAME" Language="zh_Hans_CN" Text="快速部署"/>
+		<Replace Tag="LOC_CIVIC_CORPORATE_LIBERTARIANISM_NAME" Language="zh_Hans_CN" Text="风投政治"/>
+		<Replace Tag="LOC_CIVIC_SYNTHETIC_TECHNOCRACY_NAME" Language="zh_Hans_CN" Text="优化必要论"/>
+		<Replace Tag="LOC_CIVIC_GLOBAL_WARMING_MITIGATION_NAME" Language="zh_Hans_CN" Text="全球变暖缓解"/>
+		<Replace Tag="LOC_CIVIC_SMART_POWER_DOCTRINE_NAME" Language="zh_Hans_CN" Text="巧实力学说"/>
+		<Replace Tag="LOC_CIVIC_EXODUS_IMPERATIVE_NAME" Language="zh_Hans_CN" Text="远征必要论"/>
+		<!--Unit classes-->
+		<Replace Tag="LOC_FORMATION_CLASS_NAVAL_NAME" Language="zh_Hans_CN" Text="海上战斗"/>
+		<Replace Tag="LOC_FORMATION_CLASS_AIR_NAME" Language="zh_Hans_CN" Text="空中战斗"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_RAIDER_NAME" Language="zh_Hans_CN" Text="海军掠袭"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_AIR_FIGHTER_NAME" Language="zh_Hans_CN" Text="空中格斗"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_RANGED_NAME" Language="zh_Hans_CN" Text="海军远程"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_RANGED_NAME" Language="zh_Hans_CN" Text="远程"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_CARRIER_NAME" Language="zh_Hans_CN" Text="海军母舰"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_APOSTLE_NAME" Language="zh_Hans_CN" Text="宗教使徒"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_SPY_NAME" Language="zh_Hans_CN" Text="间谍"/>
+		<!--Units (incomplete)-->
+		<Replace Tag="LOC_UNIT_BATTLESHIP_NAME" Language="zh_Hans_CN" Text="战列舰"/>
+		<Replace Tag="LOC_UNIT_IRONCLAD_NAME" Language="zh_Hans_CN" Text="铁甲舰"/>
+		<Replace Tag="LOC_UNIT_GERMAN_UBOAT_NAME" Language="zh_Hans_CN" Text="U型潜艇"/>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_NAME" Language="zh_Hans_CN" Text="机枪"/>
+		<Replace Tag="LOC_UNIT_SWORDSMAN_NAME" Language="zh_Hans_CN" Text="剑士"/>
+		<Replace Tag="LOC_UNIT_ARTILLERY_NAME" Language="zh_Hans_CN" Text="火炮"/>
+		<!--Governments-->
+		<Replace Tag="LOC_GOVERNMENT_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁制"/>
+		<Replace Tag="LOC_GOVERNMENT_OLIGARCHY_NAME" Language="zh_Hans_CN" Text="寡头制"/>
+		<Replace Tag="LOC_GOVERNMENT_CLASSICAL_REPUBLIC_NAME" Language="zh_Hans_CN" Text="古典共和制"/>
+		<Replace Tag="LOC_GOVERNMENT_MONARCHY_NAME" Language="zh_Hans_CN" Text="君主制"/>
+		<Replace Tag="LOC_GOVERNMENT_THEOCRACY_NAME" Language="zh_Hans_CN" Text="神权制"/>
+		<Replace Tag="LOC_GOVERNMENT_MERCHANT_REPUBLIC_NAME" Language="zh_Hans_CN" Text="商业共和制"/>
+		<Replace Tag="LOC_GOVERNMENT_FASCISM_NAME" Language="zh_Hans_CN" Text="法西斯主义"/>
+		<Replace Tag="LOC_GOVERNMENT_COMMUNISM_NAME" Language="zh_Hans_CN" Text="共产主义"/>
+		<Replace Tag="LOC_GOVERNMENT_DEMOCRACY_NAME" Language="zh_Hans_CN" Text="民主制"/>
+		<Replace Tag="LOC_GOVERNMENT_CORPORATE_LIBERTARIANISM_NAME" Language="zh_Hans_CN" Text="团体自由意志主义"/>
+		<Replace Tag="LOC_GOVERNMENT_DIGITAL_DEMOCRACY_NAME" Language="zh_Hans_CN" Text="数字化民主"/>
+		<Replace Tag="LOC_GOVERNMENT_SYNTHETIC_TECHNOCRACY_NAME" Language="zh_Hans_CN" Text="人工智能专家统治"/>
+		<!--Appeal-->
+		<Replace Tag="LOC_TOOLTIP_PLOT_WOODS_OLD_GROWTH" Language="zh_Hans_CN" Text="（原始林）"/>
+		<Replace Tag="LOC_TOOLTIP_APPEAL_BREATHTAKING" Language="zh_Hans_CN" Text="惊艳"/>
+		<Replace Tag="LOC_TOOLTIP_APPEAL_CHARMING" Language="zh_Hans_CN" Text="迷人"/>
+		<Replace Tag="LOC_TOOLTIP_APPEAL_AVERAGE" Language="zh_Hans_CN" Text="普通"/>
+		<Replace Tag="LOC_TOOLTIP_APPEAL_UNINVITING" Language="zh_Hans_CN" Text="无趣"/>
+		<Replace Tag="LOC_TOOLTIP_APPEAL_DISGUSTING" Language="zh_Hans_CN" Text="糟糕"/>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN" Text="无趣的社区提供3个 [ICON_Housing] 住房。"/>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_6" Language="zh_Hans_CN" Text="糟糕的社区提供2个 [ICON_Housing] 住房。"/>
+		<Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="zh_Hans_CN" Text="根据所在单元格的魅力，为您的城市提供住房的区域：[NEWLINE]惊艳：+6 [ICON_Housing] 住房。[NEWLINE]迷人：+5 [ICON_Housing] 住房。[NEWLINE]普通：+4 [ICON_Housing] 住房。[NEWLINE]无趣：+3 [ICON_Housing] 住房。[NEWLINE]糟糕：+2 [ICON_Housing] 住房。"/>
+		<!--Policies (incomplete)-->
+		<Replace Tag="LOC_POLICY_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁传承"/>
+		<Replace Tag="LOC_POLICY_MERCHANT_REPUBLIC_NAME" Language="zh_Hans_CN" Text="商业共和传承"/>
+		<!--In-game tooltips-->
+		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE" Language="zh_Hans_CN" Text="世界领袖目睹{1_Target}让您吃尽苦头，将对接下来您使{1_Target}产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。"/>
+		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_NEGATIVE" Language="zh_Hans_CN" Text="世界领袖目睹您让{1_Target}吃尽苦头，将对接下来{1_Target}使您产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。"/>
+		<Replace Tag="LOC_TYPE_TRAIT_ADJACENT_BONUS_OBSOLETE_WITH_TECH_OR_CIVIC" Language="zh_Hans_CN">
+			<Text>{1_TechOrCivicName}出现后过时。</Text>
+		</Replace>
+		<!--Beliefs-->
+		<Replace Tag="LOC_BELIEF_RIVER_GODDESS_NAME" Language="zh_Hans_CN" Text="河流女神"/>
+		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_NAME" Language="zh_Hans_CN" Text="众神丰碑"/>
+		<Replace Tag="LOC_BELIEF_DIVINE_SPARK_NAME" Language="zh_Hans_CN" Text="神圣火花"/>
+		<Replace Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_NAME" Language="zh_Hans_CN" Text="芦沼女神"/>
+		<Replace Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_NAME" Language="zh_Hans_CN" Text="苍天之神"/>
+		<Replace Tag="LOC_BELIEF_INITIATION_RITES_NAME" Language="zh_Hans_CN" Text="入教仪式"/>
+		<Replace Tag="LOC_BELIEF_GOD_OF_HEALING_NAME" Language="zh_Hans_CN" Text="疗愈之神"/>
+		<Replace Tag="LOC_BELIEF_DIVINE_INSPIRATION_NAME" Language="zh_Hans_CN" Text="神圣启示"/>
+		<Replace Tag="LOC_BELIEF_LAY_MINISTRY_NAME" Language="zh_Hans_CN" Text="教友职务"/>
+		<Replace Tag="LOC_BELIEF_HOLY_ORDER_NAME" Language="zh_Hans_CN" Text="神圣教团"/>
+		<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_NAME" Language="zh_Hans_CN" Text="巡回宣教"/>
+		<Replace Tag="LOC_BELIEF_JUST_WAR_NAME" Language="zh_Hans_CN" Text="正义之战"/>
+		<Replace Tag="LOC_BELIEF_MONASTIC_ISOLATION_NAME" Language="zh_Hans_CN" Text="避世隐修"/>
+		<Replace Tag="LOC_BELIEF_SCRIPTURE_NAME" Language="zh_Hans_CN" Text="宗教圣典"/>		
+		<!--Luxury Resources-->
+		<Replace Tag="LOC_DIPLOMACY_DEAL_LUXURY_RESOURCES" Language="zh_Hans_CN" Text="奢侈资源"/>
+		<Replace Tag="LOC_TOOLTIP_LUXURY_RESOURCE" Language="zh_Hans_CN" Text="奢侈资源"/>
+		<Replace Tag="LOC_HUD_REPORTS_LUXURIES" Language="zh_Hans_CN" Text="奢侈资源"/>
+		<Replace Tag="LOC_HUD_REPORTS_LUXURY_RESOURCES_AND_BONUSES" Language="zh_Hans_CN" Text="奢侈和加成资源"/>
+		<Replace Tag="LOC_HUD_REPORTS_LUXURY_RESOURCES_AND_BONUSES" Language="zh_Hans_CN" Text="奢侈资源和加成"/>
+		<Replace Tag="LOC_REPORTS_LUXURY_RESOURCES" Language="zh_Hans_CN" Text="奢侈资源"/>
+		<Replace Tag="LOC_HUD_CITY_AMENITIES_LUXURIES" Language="zh_Hans_CN" Text="{1_Num} = 来自奢侈资源设施的宜居度[NEWLINE]"/>
+		<!--Pantheon-->
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_3_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN" Text="众神"/>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGEGROUP_PANTHEON_BELIEFS_NAME" Language="zh_Hans_CN" Text="众神信仰"/>
+		<Replace Tag="LOC_RELIGION_PANTHEON" Language="zh_Hans_CN" Text="众神"/>
+		<Replace Tag="LOC_BELIEF_CLASS_PANTHEON_NAME" Language="zh_Hans_CN" Text="众神"/>
+		<Replace Tag="LOC_BOOST_TRIGGER_MYSTICISM" Language="zh_Hans_CN" Text="创立众神信仰。"/>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MYSTICISM" Language="zh_Hans_CN" Text="对众神的崇拜引出关于精神力量更深层次的问题。"/>
+		<Replace Tag="LOC_ACTION_PANEL_NEEDS_PANTHEON" Language="zh_Hans_CN" Text="选择众神信仰"/>
+		<Replace Tag="LOC_ACTION_PANEL_NEEDS_PANTHEON_TOOLTIP" Language="zh_Hans_CN" Text="您需要为国民选择一种众神信仰。"/>
+		<Replace Tag="LOC_HUD_CITY_OVERVIEW_RELIGION_TOOLTIP" Language="zh_Hans_CN" Text="众神信仰和信教公民"/>
+		<Replace Tag="LOC_HUD_CITY_PANTHEONBELIEF_EXPLANATION" Language="zh_Hans_CN" Text="众神信仰是您文明里所有城市的核心信仰。"/>
+		<Replace Tag="LOC_UNITOPERATION_FOUND_RELIGION_REQUIRES_PANTHEON" Language="zh_Hans_CN" Text="必须先创立一种众神信仰。"/>
+		<Replace Tag="LOC_RELIGIONPANEL_PANTHEON_LABEL" Language="zh_Hans_CN" Text="[COLOR_LIGHTBLUE]众神信仰：[ENDCOLOR]"/>
+		<Replace Tag="LOC_RELIGIONPANEL_NEXT_STEP_CHOOSE_PANTHEON" Language="zh_Hans_CN" Text="选择您的众神信仰。"/>
+		<Replace Tag="LOC_UI_RELIGION_MY_PANTHEON" Language="zh_Hans_CN" Text="我的众神信仰"/>
+		<Replace Tag="LOC_UI_RELIGION_NO_PANTHEON" Language="zh_Hans_CN" Text="没有已创立的众神信仰"/>
+		<Replace Tag="LOC_UI_RELIGION_WORKING_TOWARDS_PANTHEON" Language="zh_Hans_CN" Text="正在创立众神信仰"/>
+		<Replace Tag="LOC_UI_RELIGION_WORKING_TOWARDS_RELIGION" Language="zh_Hans_CN" Text="正在创立宗教"/>
+		<Replace Tag="LOC_UI_RELIGION_NO_PANTHEON_BELIEF" Language="zh_Hans_CN" Text="无众神信仰。"/>
+		<Replace Tag="LOC_UI_RELIGION_CITIES_PANTHEON_BELIEF" Language="zh_Hans_CN" Text="城市的众神信仰："/>
+		<Replace Tag="LOC_UI_RELIGION_CHOOSING_PANTHEON" Language="zh_Hans_CN" Text="选择一种众神信仰"/>
+		<Replace Tag="LOC_UI_RELIGION_CHOOSE_PANTHEON_BELIEF" Language="zh_Hans_CN" Text="选择一种众神信仰："/>
+		<Replace Tag="LOC_UI_RELIGION_PANTHEON_EFFECT" Language="zh_Hans_CN" Text="众神信仰效果："/>
+		<Replace Tag="LOC_UI_RELIGION_FOUND_PANTHEON" Language="zh_Hans_CN" Text="建立该众神信仰"/>
+		<Replace Tag="LOC_UI_RELIGION_RESELECT_PANTHEON" Language="zh_Hans_CN" Text="重新选择众神"/>
+		<Replace Tag="LOC_HUD_RELIGION_TOOLTIP" Language="zh_Hans_CN" Text="宗教[NEWLINE][NEWLINE]查看您的众神或宗教，以及其他已经建立的宗教。"/>
+		<Replace Tag="LOC_NOTIFICATION_CHOOSE_PANTHEON_MESSAGE" Language="zh_Hans_CN" Text="选择众神信仰"/>
+		<Replace Tag="LOC_REPLAYDATASET_TOTALPANTHEONSFOUNDED_NAME" Language="zh_Hans_CN" Text="已创立的众神信仰总数"/>
+		<Replace Tag="LOC_GOSSIP_CREATE_PANTHEON" Language="zh_Hans_CN" Text="{1_CivName}正在崇拜以{2_BeliefName}为中心的众神。"/>
+		<Replace Tag="LOC_HUD_CITY_PANTHEON_TT" Language="zh_Hans_CN" Text="众神信仰：{1_PantheonName}"/>
+		<Replace Tag="LOC_RELIGIONPANEL_NEXT_STEP_FOUND_PANTHEON" Language="zh_Hans_CN" Text="累积{1_Number} [ICON_Faith] 信仰值以创立一种众神信仰。"/>
+		<Replace Tag="LOC_UI_RELIGION_PANTHEON_NAME" Language="zh_Hans_CN" Text="众神信仰：{1_BeliefName}"/>
+		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED" Language="zh_Hans_CN" Text="创立众神信仰"/>
+		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED_DESCRIPTION" Language="zh_Hans_CN" Text="您的人民从众神中选择了一种信仰。"/>
+		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED_FIRST_IN_WORLD" Language="zh_Hans_CN" Text="世界首个众神信仰"/>
+		<Replace Tag="LOC_MOMENT_PANTHEON_FOUNDED_FIRST_IN_WORLD_DESCRIPTION" Language="zh_Hans_CN" Text="您的人民成为了世界上首批在众神中选择信仰的人。"/>
+		<!--Inspiration-->
+		<Replace Tag="LOC_POLICY_INSPIRATION_NAME" Language="zh_Hans_CN" Text="启发"/>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CULTURE_3_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN" Text="启发时刻"/>
+		<Replace Tag="LOC_CIVILIZATION_VILNIUS_BONUS" Language="zh_Hans_CN" Text="当您进入一个新时代时，从该时代随机获得1个 [ICON_CivicBoosted] 启发。"/>
+		<Replace Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE" Language="zh_Hans_CN" Text="获得2个随机科技的 [ICON_TechBoosted] 尤里卡，获得1个随机的中古时代或启蒙时代市政的 [ICON_CivicBoosted] 启发。"/>
+		<Replace Tag="LOC_HUD_POPUP_CIVIC_BOOST_UNLOCKED" Language="zh_Hans_CN" Text="启发！"/>
+		<Replace Tag="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN" Text="征服非自由城市的城市后，其中每个军营或学院将启动1个 [ICON_TechBoosted] 尤里卡、每个圣地或剧院广场则将带来1次 [ICON_CivicBoosted] 启发。"/>
+		<Replace Tag="LOC_TRAIT_LEADER_KUBLAI_DESCRIPTION" Language="zh_Hans_CN" Text="任意政体中额外增加一个经济政策槽位。首次在另一个文明的城市中建立 [ICON_TradingPost] 贸易站时随机获得一项 [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发。"/>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN" Text="[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发额外提供科技与市政成本的10%。建成奇观时将获得奇观所处时代的一项随机[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发（如可用）。"/>
+		<Replace Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CIVIC_BOOSTS" Language="zh_Hans_CN" Text="着力点加成：触发启发（每个+{1_ScoreIncrement}）"/>
+		<Replace Tag="LOC_CIVIC_BOOST_DEDICATION_NOTIFICATION" Language="zh_Hans_CN" Text="您触发了1次 [ICON_CivicBoosted] 启发。"/>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN" Text="“百花齐放”黄金时代：[NEWLINE][ICON_CivicBoosted] 启发额外提供10%的市政开销。城市每拥有1处特色区域，则+1 [ICON_Culture] 文化值。"/>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN" Text="“百花齐放”着力点加成：[NEWLINE]每次触发 [ICON_CivicBoosted] 启发+1时代得分。建成拥有巨作槽位的建筑+1时代得分。"/>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="zh_Hans_CN" Text="{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE}"/>
+	</LocalizedText>
+</GameData>

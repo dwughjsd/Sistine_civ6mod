@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<PolicyModifiers>
+		<!--R.I.P. Public Transport, who was killed but readded for 2 times-->
+		<Delete ModifierId="PUBLICTRANSPORT_FARMREPLACEGOLD"/>
+		<Row>
+			<PolicyType>POLICY_MEDINA_QUARTER</PolicyType>
+			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>THIRDALTERNATIVE_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>THIRDALTERNATIVE_RESEARCH_LAB_SCIENCE_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>THIRDALTERNATIVE_COAL_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>THIRDALTERNATIVE_FOSSIL_FUEL_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>THIRDALTERNATIVE_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+		</Row>
+		<!--Cultural Victory overhaul-->
+		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_SCULPTURETOURISM"/>
+		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_PORTRAITTOURISM"/>
+		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_LANDSCAPETOURISM"/>
+		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_RELIGIOUSTOURISM"/>
+		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_ARTIFACTTOURISM"/>
+		<Row PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="TRAIT_WONDER_DOUBLETOURISM"/>
+	</PolicyModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_3_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_RESEARCH_LAB_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_COAL_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_FOSSIL_FUEL_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--Don't use update, it won't work-->
+		<Delete ModifierId="CIVILPRESTIGE_GOVAMENITY" Name="Amount"/>
+		<Delete ModifierId="CIVILPRESTIGE_GOVHOUSING" Name="Amount"/>
+		<Delete ModifierId="MILITARYRESEARCH_SEAPORT_SCIENCE_MODIFIER" Name="Amount"/>
+		<Delete ModifierId="MILITARYRESEARCH_MILITARY_ACADEMY_SCIENCE_MODIFIER" Name="Amount"/>
+		<Delete ModifierId="MILITARYRESEARCH_RENAISSANCE_WALLS_SCIENCE_MODIFIER" Name="Amount"/>
+		<Delete ModifierId="LIBERALISM_SPECIALTYAMENITY" Name="Amount"/>
+		<Row>
+			<ModifierId>CIVILPRESTIGE_GOVAMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVILPRESTIGE_GOVHOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARYRESEARCH_SEAPORT_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARYRESEARCH_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARYRESEARCH_RENAISSANCE_WALLS_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MILITARY_ACADEMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_RESEARCH_LAB_SCIENCE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_RESEARCH_LAB</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_RESEARCH_LAB_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_RESEARCH_LAB_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_COAL_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_COAL_POWER_PLANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_COAL_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_COAL_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_FOSSIL_FUEL_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FOSSIL_FUEL_POWER_PLANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_FOSSIL_FUEL_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_FOSSIL_FUEL_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_POWER_PLANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>THIRDALTERNATIVE_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>LIBERALISM_SPECIALTYAMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CommemorationModifiers>
+		<Delete CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN" />
+	</CommemorationModifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_SETTLER_DISCOUNT_MODIFIER" Name="Amount" />
+			<Set>
+				<Value>20</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_BUILDER_DISCOUNT_MODIFIER" Name="Amount" />
+			<Set>
+				<Value>20</Value>
+			</Set>
+		</Update>
+	</ModifierArguments>
+	<Moments>
+		<Update>
+			<Where MomentType="MOMENT_GREAT_PERSON_CREATED_GAME_ERA" />
+			<Set>
+				<EraScore>4</EraScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where MomentType="MOMENT_GREAT_PERSON_CREATED_PAST_ERA" />
+			<Set>
+				<EraScore>3</EraScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FIRST_UNIQUE" />
+			<Set>
+				<EraScore>2</EraScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where MomentType="MOMENT_IMPROVEMENT_CONSTRUCTED_FIRST_UNIQUE" />
+			<Set>
+				<EraScore>2</EraScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_FIRST_UNIQUE" />
+			<Set>
+				<EraScore>2</EraScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FIRST_UNIQUE" />
+			<Set>
+				<EraScore>2</EraScore>
+			</Set>
+		</Update>
+		<Update><Where MomentType="MOMENT_ARTIFACT_EXTRACTED_SHIPWRECK_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_BARBARIAN_CAMP_DESTROYED_NEAR_YOUR_CITY"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_BELIEF_ADDED_MAX_BELIEFS_REACHED"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FULL_AERODROME_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FULL_ENCAMPMENT_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FULL_ENTERTAINMENT_COMPLEX_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FULL_WATER_ENTERTAINMENT_COMPLEX_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_BUILT_NEAR_NATURAL_WONDER"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_BUILT_NEW_CONTINENT"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_CHANGED_RELIGION_ENEMY_CITY_DURING_WAR"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_SIZE_EXTRA_LARGE_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_SIZE_LARGE_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_SIZE_MEDIUM_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_SIZE_SMALL_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_TRANSFERRED_DISLOYAL_FREE_CITY"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CIVIC_CULTURVATED_IN_ERA_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_CAMPUS"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_COMMERCIAL_HUB"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_HARBOR"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_HOLY_SITE"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_INDUSTRIAL_ZONE"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_HIGH_ADJACENCY_THEATER_SQUARE"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_NEIGHBORHOOD_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_EMERGENCY_WON_AS_MEMBER"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_EMERGENCY_WON_AS_TARGET"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_GOVERNMENT_ENACTED_TIER_1_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_GOVERNMENT_ENACTED_TIER_2_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_GOVERNMENT_ENACTED_TIER_3_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_GOVERNOR_ALL_APPOINTED_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_GOVERNOR_FULLY_PROMOTED_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_GREAT_PERSON_CREATED_PATRONAGE_FAITH_OVER_HALF"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_GREAT_PERSON_CREATED_PATRONAGE_GOLD_OVER_HALF"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_IMPROVEMENT_CONSTRUCTED_SEASIDE_RESORT_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_INQUISITION_LAUNCHED"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_NATIONAL_PARK_CREATED"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_PLAYER_GAVE_ENVOY_CANCELED_LEVY"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_PLAYER_GAVE_ENVOY_CANCELED_SUZERAIN_DURING_WAR"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_PLAYER_LEVIED_MILITARY_NEAR_ENEMY_CITY"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_RELIGION_FOUNDED"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_SPY_MAX_LEVEL_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_TECH_RESEARCHED_IN_ERA_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_TRADING_POST_CONSTRUCTED_IN_EVERY_CIV"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_UNIT_CREATED_FIRST_DOMAIN_AIR"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_UNIT_CREATED_FIRST_DOMAIN_SEA"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_UNIT_HIGH_LEVEL_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_UNIT_KILLED_ASSISTED_BY_ADMIRAL"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_UNIT_KILLED_ASSISTED_BY_GENERAL"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_UNIT_KILLED_UNDERDOG_MILITARY_FORMATION"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_UNIT_KILLED_UNDERDOG_PROMOTIONS"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_WORLD_CIRCUMNAVIGATED"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_BUILT_NEAR_FLOODABLE_RIVER"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_BUILT_NEAR_VOLCANO"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_CITY_POWER_GENERATED_FROM_RESOURCE_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_DISTRICT_CONSTRUCTED_CANAL"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_GOVERNMENT_ENACTED_TIER_4_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_IMPROVEMENT_CONSTRUCTED_MOUNTAIN_TUNNEL_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_IMPROVEMENT_CONSTRUCTED_ON_DISASTER_YIELD_TILE_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_IMPROVEMENT_CONSTRUCTED_RENEWABLE_ENERGY_FIRST"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_PROJECT_FOUNDED_EXOPLANET"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+		<Update><Where MomentType="MOMENT_ROUTE_CREATED_RAILROAD_CONNECTS_TWO_CITIES"/><Set><InterestLevel>2</InterestLevel></Set></Update>
+	</Moments>
+</GameData>

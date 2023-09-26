@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Delete Type="PROJECT_TERRESTRIAL_LASER" Kind="KIND_PROJECT" />
+	</Types>
+	
+	<Projects>
+		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER"/>
+		<Update>
+			<Where ProjectType="PROJECT_ORBITAL_LASER" />
+			<Set PrereqTech="TECH_SMART_MATERIALS" Cost="1200" MaxPlayerInstances="5"/>
+		</Update>
+		<Update>
+			<Where ProjectType="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" />
+			<Set PrereqTech="TECH_OFFWORLD_MISSION" />
+		</Update>
+	</Projects>
+	<ProjectPrereqs>
+		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER"/>
+		<Update>
+			<Where ProjectType="PROJECT_ORBITAL_LASER" />
+			<Set PrereqProjectType="PROJECT_LAUNCH_MARS_BASE"/>
+		</Update>
+	</ProjectPrereqs>
+	
+	<Project_ResourceCosts>
+		<Delete ProjectType="PROJECT_ORBITAL_LASER" />
+	</Project_ResourceCosts>
+
+	<ProjectPrereqs>
+		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER"/>
+		<Update>
+			<Where ProjectType="PROJECT_ORBITAL_LASER" />
+			<Set PrereqProjectType="PROJECT_LAUNCH_MARS_BASE"/>
+		</Update>
+	</ProjectPrereqs>
+
+	<ProjectCompletionModifiers>
+		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER" ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_SCIENCE_VP" />
+		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER" ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_REQUIRED_POWER" />
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_SCIENCE_VP" />
+		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_REQUIRED_POWER" />
+		<Update>
+			<Where ModifierId="PROJECT_COMPLETION_ORBITAL_LASER_SCIENCE_VP" />
+			<Set SubjectRequirementSetId="ISS_SPACESHIP_SPEED_REQUIREMENTS"/>
+		</Update>
+	</Modifiers>
+	<ModifierArguments>
+		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_SCIENCE_VP" />
+		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_REQUIRED_POWER" />
+	</ModifierArguments>
+
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="PROJECT_COMPLETION_GRANT_CULTURE_BASED_ON_SCIENCE_RATE" Name="YieldToBaseOn"/>
+			<Set Value="YIELD_CULTURE"/>
+		</Update>
+	</ModifierArguments>
+</GameData>

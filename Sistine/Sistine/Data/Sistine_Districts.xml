@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Districts>
+		<!--Low cost districts-->
+		<Update>
+			<Where DistrictType="DISTRICT_GOVERNMENT" />
+			<Set CostProgressionParam1="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_DIPLOMATIC_QUARTER" />
+			<Set CostProgressionParam1="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_AQUEDUCT" />
+			<Set Cost="30" CostProgressionParam1="400"/>
+		</Update>
+		<!--Standard cost districts-->
+		<Update>
+			<Where DistrictType="DISTRICT_CITY_CENTER" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HOLY_SITE" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_CAMPUS" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ENCAMPMENT" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_AERODROME" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_COMMERCIAL_HUB" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_THEATER" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_NEIGHBORHOOD" />
+			<Set Cost="40" CostProgressionParam1="400"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" />
+			<Set Cost="40" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_PRESERVE" />
+			<Set Cost="40" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40"/>
+		</Update>
+		<!--High cost districts-->
+		<Update>
+			<Where DistrictType="DISTRICT_CANAL" />
+			<Set Cost="60" CostProgressionParam1="400"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_DAM" />
+			<Set Cost="60" CostProgressionParam1="400" PlunderAmount="50"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_SPACEPORT" />
+			<Set Cost="1600" />
+		</Update>
+		<!--Unique districts-->
+		<Update>
+			<Where DistrictType="DISTRICT_BATH" />
+			<Set Cost="15" CostProgressionParam1="400"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ACROPOLIS" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HANSA" />
+			<Set Cost="20" PrereqTech="TECH_IRON_WORKING"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_LAVRA" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_MBANZA" />
+			<Set Cost="20" CostProgressionParam1="400"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_STREET_CARNIVAL" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_IKANDA" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_SEOWON" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_WATER_STREET_CARNIVAL" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_COTHON" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_SUGUBA" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_OBSERVATORY" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HIPPODROME" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_OPPIDUM" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_THANH" />
+			<Set Cost="20" />
+		</Update>
+	</Districts>
+	<District_CitizenYieldChanges>
+		<Update>
+			<Where DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_CULTURE"/>
+			<Set YieldChange="3" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="3" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="6" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_COTHON" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="2" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="2" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HANSA" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="3" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="2" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH"/>
+			<Set YieldChange="3" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_IKANDA" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="2" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="3" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_LAVRA" YieldType="YIELD_FAITH"/>
+			<Set YieldChange="3" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_OBSERVATORY" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="3" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="3" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="2" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_SEOWON" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="3" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_SUGUBA" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="6" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_THANH" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="2" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_THEATER" YieldType="YIELD_CULTURE"/>
+			<Set YieldChange="3" />
+		</Update>
+	</District_CitizenYieldChanges>
+	<District_GreatPersonPoints>
+		<Update>
+			<Where DistrictType="DISTRICT_LAVRA" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/>
+			<Set PointsPerTurn="1" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL"/>
+			<Set PointsPerTurn="1" />
+		</Update>
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+		<!--Specialty districts-->
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_THEATER" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_IKANDA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT" YieldType="YIELD_CULTURE" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_OBSERVATORY" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_THANH" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_DIPLOMATIC_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_MAJOR_CIV</TraitType>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_MAJOR_CIV</TraitType>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>MINOR_CIV_DEFAULT_TRAIT</TraitType>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>MINOR_CIV_DEFAULT_TRAIT</TraitType>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>RequiredAppeal</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CHARMING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_APPEAL_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>RequiredAppeal</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BREATHTAKING_THEATER_DISTRICT_SST</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_APPEAL_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
+	<DistrictModifiers>
+		<Delete>
+			<DistrictType>DISTRICT_GOVERNMENT</DistrictType>
+			<ModifierId>GOVERNMENT_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+		</Delete>
+		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_SCIENCE" />
+		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_CULTURE" />
+		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_GOLD" />
+		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_FAITH" />
+		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_PRODUCTION" />
+	</DistrictModifiers>
+	<Modifiers>
+		<Row ModifierId="GOVERNMENT_10_SCIENCE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		<Row ModifierId="GOVERNMENT_10_CULTURE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		<Row ModifierId="GOVERNMENT_10_GOLD" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		<Row ModifierId="GOVERNMENT_10_FAITH" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		<Row ModifierId="GOVERNMENT_10_PRODUCTION" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="GOVERNMENT_10_SCIENCE" Name="Amount" Value="10"/>
+		<Row ModifierId="GOVERNMENT_10_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="GOVERNMENT_10_CULTURE" Name="Amount" Value="10"/>
+		<Row ModifierId="GOVERNMENT_10_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="GOVERNMENT_10_GOLD" Name="Amount" Value="10"/>
+		<Row ModifierId="GOVERNMENT_10_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GOVERNMENT_10_FAITH" Name="Amount" Value="10"/>
+		<Row ModifierId="GOVERNMENT_10_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="Amount" Value="10"/>
+		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
+	</ModifierArguments>
+	<District_Adjacencies>
+		<Delete DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Strategic_Production"/>
+		<Delete DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production2"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Minel_HalfProduction"/>
+	</District_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Update>
+			<Where ID="Minel_HalfProduction" />
+			<Set TilesRequired="1" />
+		</Update>
+		<Update>
+			<Where ID="LumberMill_HalfProduction" />
+			<Set TilesRequired="1" />
+		</Update>
+		<Update>
+			<Where ID="Aqueduct_Production" />
+			<Set YieldChange="1" />
+		</Update>
+		<Update>
+			<Where ID="Bath_Production" />
+			<Set YieldChange="1" />
+		</Update>
+		<Update>
+			<Where ID="Canal_Production" />
+			<Set YieldChange="1" />
+		</Update>
+		<Update>
+			<Where ID="Dam_Production" />
+			<Set YieldChange="1" />
+		</Update>
+	</Adjacency_YieldChanges>
+	</GameData>

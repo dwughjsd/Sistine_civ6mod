@@ -1,0 +1,35 @@
+免责声明：本模组正处于开发早期阶段，仅供有能力的玩家进行初步测试。本模组将会频繁更新，毁坏存档，出现严重错误，无法保证任何功能的可用性。本模组随时可能会在没有正式版本的情况下被取消开发。如果你并非有能力处理各种程序问题的资深玩家，请不要订阅本作品。
+
+本模组需要[b]全部[/b]DLC才能正常工作。
+
+本模组目前仅支持简体中文，我们正在寻求翻译人员，否则其它语言支持在短期内不会完成。如果你愿意提供本模组的翻译，欢迎在我的GitHub上提交pull request。
+
+[h1]什么是Project Sistine（Dev通道）？[/h1]
+
+Project Sistine是一款制作中的《文明6》中等规模大修mod，意在通过部分引用《文明》系列旧作的内容来提升本游戏的策略深度和可玩性。由于这个作品涉及内容众多，工作量十分巨大，我们决定以公开的测试版招募新的开发人员，并收集早期反馈意见。
+
+[h1]在现有的Dev通道中可以玩到什么？[/h1]
+
+Dev通道截至发布时已基本完成了建筑、区域和地形地貌的重做，AI能力的提升和少量新内容。Shimamura et al. 现有的领袖 mod 与本作品不兼容，尽管游戏能够正常进行，但会遇上数值问题。
+
+[h1]下一步计划是什么样的？[/h1]
+
+近期我们将继续以游戏性改动为主，并且仍需要美术、文本、翻译、测试等方面的援助。你们的帮助有助于我们将其改进得更好。
+
+DISCLAIMER: This mod is in its early development stage and is FOR ADVANCED PLAYERS ONLY. This mod is prone to update and break saving games FREQUENTLY and may contain critical errors, and we DO NOT guarantee ANY function availability in future updates. The development of this mod might be cancelled at any time without any public release. If you are not a skilled player able to resolve software malfunctions, PLEASE DO NOT SUBSCRIBE.
+
+This mod needs [b]ALL[/b] DLCs to work.
+
+THIS MOD CURRENTLY SUPPORT ONLY SIMPLIFIED CHINESE. WE ARE IN SEARCH OF TRANSLATORS, OR OTHER LANGUAGES WILL NOT BE SUPPORTED IN NEAR FUTURE. IF YOU ARE WILLING TO PROVIDE TRANSLATIONS FOR THIS MOD, FEEL FREE TO CREATE A PULL REQUEST ON MY GITHUB.
+
+[h1]What is Project Sistine (Dev Channel)?[/h1]
+
+Project Sistine is a medium-scale overhaul mod for Civilization VI under development. This mod aims to partially revive contents from previous titles from Civilization franchise to improve strategic depth and gameplay of this game. Since this mod is a massive project and needs a lot of work, we decided to release a public test version to attract new developers and collect early feedback of this mod.
+
+[h1]What is available now in Dev Channel?[/h1]
+
+The Dev channel includes overhaul of buildings, districts, terrains, features, improvements on AI performance and minor new mechanisms. Leader mods by Shimamura et al. are currently incompatible with this mod and will have some gameplay balancing issues, though a complete game can be finished.
+
+[h1]What's the plan of next update?[/h1]
+
+We will continue wokring on gameplay in near future, and your support on arts, text, localization and tesing can definitely help us.

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--FEUDALISM-->
+	<Technologies>
+		<Update>
+			<Where TechnologyType="TECH_IRRIGATION" />
+			<Set Description="LOC_TECH_IRRIGATION_DESCRIPTION_SST" />
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CHEMISTRY" />
+			<Set Description="LOC_TECH_CHEMISTRY_DESCRIPTION_SST" />
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SATELLITES" />
+			<Set Description="LOC_TECH_SATELLITES_DESCRIPTION_SST" />
+		</Update>
+	</Technologies>
+	<TechnologyModifiers>
+		<Row>
+			<TechnologyType>TECH_IRRIGATION</TechnologyType>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_IRRIGATION</TechnologyType>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_CHEMISTRY</TechnologyType>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+		</Row>
+	</TechnologyModifiers>
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_FEUDALISM</CivicType>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
+		</Row>
+	</CivicModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FARM_FRESHWATER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FARM_NONFRESHWATER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_FRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_NONFRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_FRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_FRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_FRESH_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_NONFRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_NONFRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FRESH_WATER_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FRESH_WATER_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_FRESH_WATER</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+
+	<Adjacency_YieldChanges>
+		<Update>
+			<Where ID="Farms_MedievalAdjacency" />
+			<Set PrereqCivic="" PrereqTech="TECH_REPLACEABLE_PARTS" ObsoleteTech="TECH_SATELLITES" />
+		</Update>
+		<Update>
+			<Where ID="Farms_MechanizedAdjacency" />
+			<Set PrereqTech="TECH_SATELLITES" />
+		</Update>
+	</Adjacency_YieldChanges>
+
+	<!--Gold reform-->
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_FOREIGN_TRADE</CivicType>
+			<ModifierId>FOREIGN_TRADE_RIVER_GOLD</ModifierId>
+		</Row>
+	</CivicModifiers>
+	<TechnologyModifiers>
+		<Row>
+			<TechnologyType>TECH_SAILING</TechnologyType>
+			<ModifierId>SAILING_WATER_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_CURRENCY</TechnologyType>
+			<ModifierId>CURRENCY_TRADE_ROUTE_LENGTH_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_STEAM_POWER</TechnologyType>
+			<ModifierId>STEAM_POWER_TRADE_ROUTE_LENGTH_PRODUCTION</ModifierId>
+		</Row>
+	</TechnologyModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>FOREIGN_TRADE_RIVER_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SAILING_WATER_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_OCEAN_OR_COAST_REQUIREMENTS_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CURRENCY_TRADE_ROUTE_LENGTH_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>STEAM_POWER_TRADE_ROUTE_LENGTH_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>FOREIGN_TRADE_RIVER_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FOREIGN_TRADE_RIVER_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SAILING_WATER_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>SAILING_WATER_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>CURRENCY_TRADE_ROUTE_LENGTH_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CURRENCY_TRADE_ROUTE_LENGTH_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEAM_POWER_TRADE_ROUTE_LENGTH_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEAM_POWER_TRADE_ROUTE_LENGTH_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_IS_OCEAN_OR_COAST_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_IS_OCEAN_OR_COAST_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementId>REQUIRES_TERRAIN_OCEAN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_OCEAN_OR_COAST_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementId>REQUIRES_TERRAIN_COAST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<!--Reset city-state bonus-->
+	<TraitModifiers>
+		<Delete TraitType="MINOR_CIV_SCIENTIFIC_TRAIT" ModifierId="MINOR_CIV_SCIENTIFIC_SMALL_INFLUENCE_ETHIOPIA"/>
+		<Delete TraitType="MINOR_CIV_RELIGIOUS_TRAIT" ModifierId="MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_ETHIOPIA"/>
+		<Delete TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_SMALL_INFLUENCE_ETHIOPIA"/>
+		<Delete TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_SMALL_INFLUENCE_LIGHTHOUSE"/>
+		<Delete TraitType="MINOR_CIV_CULTURAL_TRAIT" ModifierId="MINOR_CIV_CULTURAL_SMALL_INFLUENCE_ETHIOPIA"/>
+		<Delete TraitType="MINOR_CIV_MILITARISTIC_TRAIT" ModifierId="MINOR_CIV_MILITARISTIC_SMALL_INFLUENCE_ETHIOPIA"/>
+		<Delete TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_ETHIOPIA_BUILDING"/>
+		<Delete TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_ETHIOPIA_DISTRICT"/>
+	</TraitModifiers>
+	<ModifierArguments>
+		<Update><Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_UNIVERSITY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_RESEARCH_LAB" Name="Amount"/><Set Value="1"/></Update>
+	
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_CATHEDRAL" Name="Amount"/><Set Value="1"/></Update>	
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_DAR_E_MEHR" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_GURDWARA" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_MEETING_HOUSE" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_MOSQUE" Name="Amount"/><Set Value="1"/></Update>	
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_PAGODA" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_STUPA" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_SYNAGOGUE" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_WAT" Name="Amount"/><Set Value="1"/></Update>
+
+		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_CONSULATE" Name="Amount"/><Set Value="2"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_BANK_ETHIOPIA" Name="Amount"/><Set Value="2"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_SHIPYARD_ETHIOPIA" Name="Amount"/><Set Value="2"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_CHANCERY" Name="Amount"/><Set Value="2"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_STOCK_EXCHANGE" Name="Amount"/><Set Value="2"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_SEAPORT" Name="Amount"/><Set Value="2"/></Update>
+
+		<Update><Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_MUSEUM_ART" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_MUSEUM_ARTIFACT" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_BROADCAST_CENTER" Name="Amount"/><Set Value="1"/></Update>
+
+		<Update><Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_ARMORY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_MILITARY_ACADEMY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
+
+		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_FACTORY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_FACTORY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
+	</ModifierArguments>
+	<!--Wide play science & culture penalty-->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CITY_CENTER_TECH_BOOST_PENALTY"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CITY_CENTER_CIVIC_BOOST_PENALTY"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>CITY_CENTER_TECH_BOOST_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_NOT_PALACE_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_CIVIC_BOOST_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_NOT_PALACE_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_TECH_BOOST_PENALTY_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST</ModifierType>
+			<SubjectStackLimit>20</SubjectStackLimit>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_CIVIC_BOOST_PENALTY_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CIVIC_BOOST</ModifierType>
+			<SubjectStackLimit>20</SubjectStackLimit>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>CITY_CENTER_TECH_BOOST_PENALTY</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CITY_CENTER_TECH_BOOST_PENALTY_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_CIVIC_BOOST_PENALTY</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CITY_CENTER_CIVIC_BOOST_PENALTY_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_TECH_BOOST_PENALTY_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CITY_CENTER_CIVIC_BOOST_PENALTY_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>BUILDING_IS_NOT_PALACE_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>BUILDING_IS_NOT_PALACE_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_NO_PALACE_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_NO_PALACE_SST</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_NO_PALACE_SST</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+	</RequirementArguments>
+	<!--Wonder Culture-->
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_DRAMA_POETRY</CivicType>
+			<ModifierId>DRAMA_POETRY_WONDER_CULTURE</ModifierId>
+		</Row>
+	</CivicModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>DRAMA_POETRY_WONDER_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_WONDER_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>DRAMA_POETRY_WONDER_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>DRAMA_POETRY_WONDER_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- The requirement is not usable. All your cities meet the requirement when you capture one city, and there is no way back.
+	<GameModifiers>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_SCIENCE"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_CULTURE"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_GOLD"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_PRODUCTION"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_FAITH"/>
+	</GameModifiers>
+	<Modifiers>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_SCIENCE" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_CULTURE" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_GOLD" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_PRODUCTION" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_FAITH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_SCIENCE_MODIFIER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_IS_OCCUPIED_REQUIREMENTS"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_CULTURE_MODIFIER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_IS_OCCUPIED_REQUIREMENTS"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_GOLD_MODIFIER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_IS_OCCUPIED_REQUIREMENTS"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_PRODUCTION_MODIFIER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_IS_OCCUPIED_REQUIREMENTS"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_FAITH_MODIFIER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_IS_OCCUPIED_REQUIREMENTS"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_SCIENCE" Name="ModifierId" Value="OCCUPIED_CITY_PENALTY_SCIENCE_MODIFIER"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_CULTURE" Name="ModifierId" Value="OCCUPIED_CITY_PENALTY_CULTURE_MODIFIER"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_GOLD" Name="ModifierId" Value="OCCUPIED_CITY_PENALTY_GOLD_MODIFIER"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_PRODUCTION" Name="ModifierId" Value="OCCUPIED_CITY_PENALTY_PRODUCTION_MODIFIER"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_FAITH" Name="ModifierId" Value="OCCUPIED_CITY_PENALTY_FAITH_MODIFIER"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_SCIENCE_MODIFIER" Name="YieldType" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_SCIENCE_MODIFIER" Name="Amount" Value="-75"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_CULTURE_MODIFIER" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_CULTURE_MODIFIER" Name="Amount" Value="-75"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_FAITH_MODIFIER" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_FAITH_MODIFIER" Name="Amount" Value="-75"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_GOLD_MODIFIER" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_GOLD_MODIFIER" Name="Amount" Value="-50"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_PRODUCTION_MODIFIER" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="OCCUPIED_CITY_PENALTY_PRODUCTION_MODIFIER" Name="Amount" Value="-50"/>
+	</ModifierArguments>
+	-->
+</GameData>

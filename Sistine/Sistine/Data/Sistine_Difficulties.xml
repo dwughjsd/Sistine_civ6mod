@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_SCIENCE_SCALING"/>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_CULTURE_SCALING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_ARMY_UPGRADE_DISCOUNT_SST"/>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_SCALING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_CIVIC_BOOST_BONUS_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST"/>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_SCALING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST"/>
+		<!--We all know AI never use these policies. So why not give them?-->
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SERFDOM"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_PUBLIC_WORKS"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_NATURAL_PHILOSOPHY"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_AESTHETICS"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_CRAFTSMEN"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_TOWN_CHARTERS"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_ECONOMIC_UNION"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SPORTS_MEDIA"/>
+	</TraitModifiers>
+	<TechnologyModifiers>
+		<!--
+		<Row TechnologyType="TECH_PRINTING">
+			<ModifierId>HIGH_DIFFICULTY_AI_REVEAL_MAP</ModifierId>
+		</Row>
+		-->
+	</TechnologyModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_CIVIC_BOOST_BONUS_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CIVIC_BOOST</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_ON_NEW_ERA</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_ON_NEW_ERA</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_ARMY_UPGRADE_DISCOUNT_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_SERFDOM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_TRAINED_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_SERFDOM</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_PUBLIC_WORKS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_NATURAL_PHILOSOPHY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_RECORDED_HISTORY</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_AESTHETICS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MEDIEVAL_FAIRES</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_CRAFTSMEN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_GUILDS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_TOWN_CHARTERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_GUILDS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_ECONOMIC_UNION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_IDEOLOGY</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_SPORTS_MEDIA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_STADIUM_REQUIREMENTS</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PROFESSIONAL_SPORTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_REVEAL_MAP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_EXPLORE_ENTIRE_MAP</ModifierType>
+			<RunOnce>true</RunOnce>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_PRODUCTION_SCALING" Name="Amount"/>
+			<Set Type="LinearScaleFromDefaultHandicap" Value="-25" Extra="25"/>
+		</Update>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_UNIT_XP_SCALING" Name="Amount"/>
+			<Set Type="LinearScaleFromDefaultHandicap" Value="-10" Extra="10"/>
+		</Update>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-8</Value>
+			<Extra>8</Extra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_CIVIC_BOOST_BONUS_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-8</Value>
+			<Extra>8</Extra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-1</Value>
+			<Extra>1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>
+			<Name>ApplyImmediately</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>0</Value>
+			<Extra>1</Extra>
+			<SecondExtra>DIFFICULTY_KING</SecondExtra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST</ModifierId>
+			<Name>ApplyImmediately</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GOLD_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-10</Value>
+			<Extra>10</Extra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_FAITH_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-10</Value>
+			<Extra>10</Extra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_ARMY_UPGRADE_DISCOUNT_SST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-10</Value>
+			<Extra>10</Extra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_SERFDOM</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_PUBLIC_WORKS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_PUBLIC_WORKS</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_NATURAL_PHILOSOPHY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_NATURAL_PHILOSOPHY</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_AESTHETICS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_AESTHETICS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_CRAFTSMEN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_CRAFTSMEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_TOWN_CHARTERS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_TOWN_CHARTERS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_ECONOMIC_UNION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_ECONOMIC_UNION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_AI_SPORTS_MEDIA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_SERFDOM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_RECORDED_HISTORY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MEDIEVAL_FAIRES</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_GUILDS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_IDEOLOGY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PROFESSIONAL_SPORTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_SERFDOM</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_SERFDOM</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_SERFDOM</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_PUBLIC_WORKS_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_RECORDED_HISTORY</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_RECORDED_HISTORY</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_RECORDED_HISTORY</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_RECORDED_HISTORY_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MEDIEVAL_FAIRES</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MEDIEVAL_FAIRES</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MEDIEVAL_FAIRES</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_MEDIEVAL_FAIRES_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_GUILDS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_GUILDS</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_GUILDS</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_GUILDS_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_IDEOLOGY</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_IDEOLOGY</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_IDEOLOGY</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_IDEOLOGY_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PROFESSIONAL_SPORTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PROFESSIONAL_SPORTS</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PROFESSIONAL_SPORTS</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_PROFESSIONAL_SPORTS_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_MAJOR_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_PUBLIC_WORKS_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_RECORDED_HISTORY_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_MEDIEVAL_FAIRES_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_GUILDS_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_IDEOLOGY_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_PROFESSIONAL_SPORTS_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_IS_MAJOR_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_MAJOR</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_FEUDALISM</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_PUBLIC_WORKS_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CIVIL_ENGINEERING</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_RECORDED_HISTORY_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_RECORDED_HISTORY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_MEDIEVAL_FAIRES_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_MEDIEVAL_FAIRES</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_GUILDS_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_GUILDS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_IDEOLOGY_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_IDEOLOGY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_PROFESSIONAL_SPORTS_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_PROFESSIONAL_SPORTS</Value>
+		</Row>
+	</RequirementArguments>
+
+	<MajorStartingUnits>
+		<Replace Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_CLASSICAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_MEDIEVAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_RENAISSANCE" Unit="UNIT_PIKEMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_INDUSTRIAL" Unit="UNIT_PIKE_AND_SHOT" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_MODERN" Unit="UNIT_RANGER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_ATOMIC" Unit="UNIT_AT_CREW" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Replace Era="ERA_INFORMATION" Unit="UNIT_AT_CREW" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" NotStartTile="true"/>
+		<Update>
+			<Where Unit="UNIT_SETTLER" AiOnly="true" OnDistrictCreated="true" />
+			<Set OnDistrictCreated="false"/>
+		</Update>
+	</MajorStartingUnits>
+
+	<BonusMinorStartingUnits>
+		<Replace Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_CLASSICAL" Unit="UNIT_WARRIOR" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_MEDIEVAL" Unit="UNIT_SWORDSMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_RENAISSANCE" Unit="UNIT_SWORDSMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_INDUSTRIAL" Unit="UNIT_MUSKETMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_MODERN" Unit="UNIT_MUSKETMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_ATOMIC" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+		<Replace Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5"/>
+	</BonusMinorStartingUnits>
+
+	<Eras_XP1>
+		<Update>
+			<Where EraType="ERA_ANCIENT" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_CLASSICAL" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_MEDIEVAL" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_RENAISSANCE" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_INDUSTRIAL" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_MODERN" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_ATOMIC" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_INFORMATION" />
+			<Set GameEraMinimumTurns="25"/>
+		</Update>
+	</Eras_XP1>
+</GameData>

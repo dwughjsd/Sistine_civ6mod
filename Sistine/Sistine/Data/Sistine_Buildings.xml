@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_OPERA_HOUSE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PUBLIC_SCHOOL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MANUFACTURING_PLANT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HOSPITAL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MEDICAL_LAB" Kind="KIND_BUILDING"/>
+	</Types>
+	
+	<Buildings>
+		<!--City Center-->
+		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Description="LOC_BUILDING_GRANARY_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Housing="0" Maintenance="1"/></Update>
+		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC" Housing="3" Maintenance="2"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="520" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Maintenance="3"/>
+		<!--Theater Square-->
+		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/></Update>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" /><Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_FILM_STUDIO" /><Set Maintenance="4" RegionalRange="6" /></Update>
+		<!--Campus-->
+		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Description="LOC_BUILDING_LIBRARY_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set Description="LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST" /></Update>
+		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" Name="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Description="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="3" CitizenSlots="1"/>
+		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Maintenance="4" RegionalRange="6" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_SST" PrereqTech="TECH_COMPUTERS"/></Update>
+		<!--Commercial Hub-->
+		<Update><Where BuildingType="BUILDING_MARKET" /><Set Description="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_BANK" /><Set Description="LOC_BUILDING_BANK_DESCRIPTION_SST"/></Update>
+		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Description="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION_SST" RegionalRange="6" /></Update>
+		<!--Industrial Zone-->
+		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Description="LOC_BUILDING_WORKSHOP_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Description="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_POWER_PLANT" /><Set Description="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_COAL_POWER_PLANT" /><Set Description="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_SST" /></Update>
+		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" /><Set Description="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" /></Update>
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" Name="LOC_BUILDING_MANUFACTURING_PLANT_NAME" Description="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" PrereqTech="TECH_ROBOTICS" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" RegionalRange="6" Cost="785"/>
+
+		<!--Entertainment Complex and Water Park-->
+		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="2" /></Update>
+		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="3" /></Update>
+		<Update><Where BuildingType="BUILDING_STADIUM" /><Set PrereqCivic="CIVIC_MASS_MEDIA" Entertainment="2" /></Update>
+		<Update><Where BuildingType="BUILDING_FERRIS_WHEEL" /><Set Entertainment="2" /></Update>
+		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Entertainment="3" /></Update>
+		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set Entertainment="3" /></Update>
+		<!--Aerodrome-->
+		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO" /></Update>
+		<!--Neighborhood-->
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Housing="2"/></Update>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" Housing="2" /></Update>
+		<!--Preserve-->
+		<Update><Where BuildingType="BUILDING_SANCTUARY" /><Set PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqCivic=""/></Update>
+	</Buildings>
+	
+	<Buildings_XP2>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" RequiredPower="3"/>
+		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set EntertainmentBonusWithPower="3" /></Update>
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" RequiredPower="3"/>
+		<Delete BuildingType="BUILDING_FOOD_MARKET"/>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set RequiredPower="3" EntertainmentBonusWithPower="1" /></Update>
+	</Buildings_XP2>
+	
+	<BuildingPrereqs>
+		<!--City Center-->
+		<Row Building="BUILDING_HOSPITAL" PrereqBuilding="BUILDING_SEWER"/>
+		<Row Building="BUILDING_MEDICAL_LAB" PrereqBuilding="BUILDING_HOSPITAL"/>
+		<!--Theater Square-->
+		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ART"/>
+		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+		<Delete Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_MUSEUM_ART"/>
+		<Delete Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>	
+		<Row Building="BUILDING_OPERA_HOUSE" PrereqBuilding="BUILDING_MUSEUM_ART"/>
+		<Row Building="BUILDING_OPERA_HOUSE" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_OPERA_HOUSE"/>
+		<Row Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_OPERA_HOUSE"/>
+		<!--Campus-->
+		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_UNIVERSITY"/>
+		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_MADRASA"/>
+		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_NAVIGATION_SCHOOL"/>
+		<Row Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_PUBLIC_SCHOOL"/>
+		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_UNIVERSITY"/>
+		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_MADRASA"/>
+		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_NAVIGATION_SCHOOL"/>
+		<!--Industrial Zone-->
+		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_POWER_PLANT"/>
+		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_COAL_POWER_PLANT"/>
+		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
+		<!--Neighborhood-->
+		<Row Building="BUILDING_SHOPPING_MALL" PrereqBuilding="BUILDING_FOOD_MARKET"/>
+	</BuildingPrereqs>
+
+	<MutuallyExclusiveBuildings>
+		<Delete Building="BUILDING_FOOD_MARKET" MutuallyExclusiveBuilding="BUILDING_SHOPPING_MALL"/>
+		<Delete Building="BUILDING_SHOPPING_MALL" MutuallyExclusiveBuilding="BUILDING_FOOD_MARKET"/>
+	</MutuallyExclusiveBuildings>
+
+	<Building_YieldChanges>
+		<!--City Center-->
+		<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="6"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_CULTURE"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_SCIENCE"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_GOLD"/><Set YieldChange="6"/></Update>
+		<!--Theater Square-->
+		<Delete BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE"/>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Delete BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/>
+		<Delete BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_CULTURE"/>
+		<!--Campus-->
+		<Delete BuildingType="BUILDING_LIBRARY" YieldType="YIELD_SCIENCE"/>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE"/><Set YieldChange="2"/></Update>		
+		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Delete BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
+		<!--Commercial Hub-->
+		<Update><Where BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD"/><Set YieldChange="1"/></Update>
+		<Update><Where BuildingType="BUILDING_SUKIENNICE" YieldType="YIELD_GOLD"/><Set YieldChange="1"/></Update>
+		<Update><Where BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
+		<Delete BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/>
+		<!--Industrial Zone-->
+		<Update><Where BuildingType="BUILDING_WORKSHOP" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="1"/></Update>
+		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="1"/></Update>
+		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
+		<Update><Where BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="5"/></Update>
+		<!--Harbor-->
+		<Delete BuildingType="BUILDING_SEAPORT" YieldType="YIELD_FOOD"/>
+		<!--Aerodrome-->
+		<Update><Where BuildingType="BUILDING_AIRPORT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
+		<!--Neighborhood-->
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>	<Set YieldChange="2"/></Update>
+	</Building_YieldChanges>
+
+	<Building_YieldChangesBonusWithPower>
+		<!--City Center-->
+		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="5"/>
+		<!--Theater Square-->
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
+		<!--Campus-->
+		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/><Set YieldChange="4"/></Update>
+		<!--Commercial Hub-->
+		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/><Set YieldChange="3"/></Update>
+		<!--Industrial Zone-->
+		<Update><Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<!--Neighborhood-->
+		<Delete BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>
+	</Building_YieldChangesBonusWithPower>
+
+	<Building_CitizenYieldChanges>
+		<!--Theater Square-->
+		<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Delete BuildingType="BUILDING_BROADCAST_CENTER"/>
+		<Delete BuildingType="BUILDING_FILM_STUDIO"/>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<!--Campus-->
+		<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Delete BuildingType="BUILDING_RESEARCH_LAB"/>
+		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<!--Holy Site-->
+		<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Delete BuildingType="BUILDING_CATHEDRAL"/>
+		<Delete BuildingType="BUILDING_DAR_E_MEHR"/>
+		<Delete BuildingType="BUILDING_GURDWARA"/>
+		<Delete BuildingType="BUILDING_MEETING_HOUSE"/>
+		<Delete BuildingType="BUILDING_MOSQUE"/>
+		<Delete BuildingType="BUILDING_PAGODA"/>
+		<Delete BuildingType="BUILDING_STUPA"/>
+		<Delete BuildingType="BUILDING_SYNAGOGUE"/>
+		<Delete BuildingType="BUILDING_WAT"/>
+		<Row BuildingType="BUILDING_CATHEDRAL" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_DAR_E_MEHR" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_GURDWARA" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MEETING_HOUSE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MOSQUE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_PAGODA" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_STUPA" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SYNAGOGUE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_WAT" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<!--Encampment-->
+		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Delete BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" />
+		<Row BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<!--Commercial Hub-->
+		<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Delete BuildingType="BUILDING_STOCK_EXCHANGE"/>
+		<Row BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<!--Industrial Zone-->
+		<Row BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Delete BuildingType="BUILDING_POWER_PLANT"/>
+		<Delete BuildingType="BUILDING_COAL_POWER_PLANT" />
+		<Delete BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
+		<Row BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_COAL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<!--Harbor-->
+		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Delete BuildingType="BUILDING_SEAPORT"/>
+		<Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_FOOD" YieldChange="1"/>
+	</Building_CitizenYieldChanges>
+
+	<Building_YieldDistrictCopies>
+		<!--Theater Square-->
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" OldYieldType="YIELD_CULTURE" NewYieldType="YIELD_CULTURE" />
+		<Row BuildingType="BUILDING_FILM_STUDIO" OldYieldType="YIELD_CULTURE" NewYieldType="YIELD_CULTURE" />
+		<!--Campus-->
+		<Row BuildingType="BUILDING_RESEARCH_LAB" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_SCIENCE" />
+		<!--Commercial Hub-->
+		<Row BuildingType="BUILDING_STOCK_EXCHANGE" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_GOLD" />
+		<!--Industrial Zone-->
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" OldYieldType="YIELD_PRODUCTION" NewYieldType="YIELD_PRODUCTION" />
+		<!--Harbor-->
+		<Row BuildingType="BUILDING_SEAPORT" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_FOOD" />
+	</Building_YieldDistrictCopies>
+
+	<BuildingModifiers>
+		<!--City Center-->
+		<Row BuildingType="BUILDING_GRANARY" ModifierId="BUILDING_GRANARY_FOOD"/>
+		<Row BuildingType="BUILDING_SEWER" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_POWERED"/>
+		<!--Theater Square-->
+		<!--<Row BuildingType="BUILDING_AMPHITHEATER" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
+		<Row BuildingType="BUILDING_MARAE" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
+		<Row BuildingType="BUILDING_MUSEUM_ART" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>-->
+		<Row BuildingType="BUILDING_OPERA_HOUSE" ModifierId="CULTUREBUILDING_CULTURE_33"/>
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_33"/>
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_34_POWERED"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" ModifierId="CULTUREBUILDING_CULTURE_33"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" ModifierId="CULTUREBUILDING_CULTURE_34_POWERED"/>		
+		<!--Campus-->
+		<Row BuildingType="BUILDING_LIBRARY" ModifierId="SCIENCEBULIDING_SCIENCE_PER_POP"/>
+		<Row BuildingType="BUILDING_UNIVERSITY" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
+		<Row BuildingType="BUILDING_MADRASA" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
+		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
+		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" ModifierId="SCIENCEBULIDING_SCIENCE_PER_POP"/>
+		<Row BuildingType="BUILDING_RESEARCH_LAB" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
+		<Row BuildingType="BUILDING_RESEARCH_LAB" ModifierId="SCIENCEBULIDING_SCIENCE_34_POWERED"/>
+		<!--Encampment-->
+		<Row BuildingType="BUILDING_STABLE" ModifierId="STABLE_PASTURE_PRODUCTION"/>
+		<!--Commercial Hub-->
+		<Row BuildingType="BUILDING_MARKET" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+		<Row BuildingType="BUILDING_SUKIENNICE" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+		<Row BuildingType="BUILDING_BANK" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+		<Row BuildingType="BUILDING_STOCK_EXCHANGE" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+		<Row BuildingType="BUILDING_STOCK_EXCHANGE" ModifierId="COMMERCIALBULIDING_GOLD_25_POWERED"/>
+		<!--Industrial Zone-->
+		<Row BuildingType="BUILDING_WORKSHOP" ModifierId="BUILDING_WORKSHOP_BONUS_RESOURCE_PRODUCTION"/>
+		<Row BuildingType="BUILDING_WORKSHOP" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
+		<Row BuildingType="BUILDING_FACTORY" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
+		<Row BuildingType="BUILDING_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<Row BuildingType="BUILDING_COAL_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<!--Harbor-->
+		<Row BuildingType="BUILDING_LIGHTHOUSE" ModifierId="BUILDING_LIGHTHOUSE_FOOD"/>
+		<Delete BuildingType="BUILDING_SHIPYARD" ModifierId="SHIPYARD_UNIMPROVED_COAST_PRODUCTION"/>
+		<Row BuildingType="BUILDING_SHIPYARD" ModifierId="HARBORBUILDING_COAST_PRODUCTION"/>
+		<Row BuildingType="BUILDING_SEAPORT" ModifierId="HARBORBUILDING_COAST_PRODUCTION"/>
+		<!--Dam-->
+		<Delete BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="HYDROELECTRIC_DAM_FREE_POWER"/>
+		<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX"/>
+		<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<!--Aerodrome-->
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_SCULPTURE_TOURISM"/>
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_PORTRAIT_TOURISM"/>
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_LANDSCAPE_TOURISM"/>
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_RELIGIOUS_TOURISM"/>
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_WRITING_TOURISM"/>
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_MUSIC_TOURISM"/>
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_ARTIFACT_TOURISM"/>
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_RELIC_TOURISM"/>
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_IMPROVEMENT_TOURISM"/>
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_NATIONAL_PARK_TOURISM"/>
+		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_WONDER_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_SCULPTURE_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_PORTRAIT_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_LANDSCAPE_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_RELIGIOUS_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_WRITING_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_MUSIC_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_ARTIFACT_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_RELIC_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_IMPROVEMENT_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_NATIONAL_PARK_TOURISM"/>
+		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_WONDER_TOURISM"/>
+		<!--Neighborhood-->
+		<Row BuildingType="BUILDING_FOOD_MARKET" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP"/>
+		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP"/>
+		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP_POWERED"/>
+		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="STADIUM_10_POPULATION_TOURISM"/>
+		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="STADIUM_20_POPULATION_TOURISM"/>
+	</BuildingModifiers>
+	
+	<Building_GreatPersonPoints>
+		<!--Theater Square-->
+		<Update><Where BuildingType="BUILDING_AMPHITHEATER" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/><Set PointsPerTurn="2" /></Update>
+		<Delete BuildingType="BUILDING_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
+		<Delete BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+		<Delete BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="1" /></Update>
+		<Delete BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
+		<Update><Where BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="1" /></Update>
+		<!--Campus-->
+		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<!--Industrial Zone-->
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatWorks>
+		<!--Theater Square-->
+		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="1"/>
+		<!--Temporalily set all non-unique person yield to Firaxis value-->
+		<Update><Where BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" GreatWorkSlotType="GREATWORKSLOT_ART"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<Update><Where BuildingType="BUILDING_HERMITAGE" GreatWorkSlotType="GREATWORKSLOT_ART"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<Update><Where BuildingType="BUILDING_PALACE" GreatWorkSlotType="GREATWORKSLOT_PALACE"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<Update><Where BuildingType="BUILDING_MUSEUM_ART" GreatWorkSlotType="GREATWORKSLOT_ART"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<Update><Where BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<Update><Where BuildingType="BUILDING_APADANA" GreatWorkSlotType="GREATWORKSLOT_PALACE"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
+		<!--Holy Site-->
+		<Delete BuildingType="BUILDING_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
+		<Delete BuildingType="BUILDING_PRASAT" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
+		<Delete BuildingType="BUILDING_STAVE_CHURCH" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
+		<Row BuildingType="BUILDING_CATHEDRAL" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_DAR_E_MEHR" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_GURDWARA" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_MEETING_HOUSE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_MOSQUE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_PAGODA" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_STUPA" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_SYNAGOGUE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_WAT" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+	</Building_GreatWorks>
+
+	<Building_TourismBombs_XP2>
+		<Row BuildingType="BUILDING_OPERA_HOUSE" TourismBombValue="500" />
+	</Building_TourismBombs_XP2>
+	
+	<GameModifiers>
+		<!--Theater Square-->
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT_ATTACH"/>
+		<!--Industrial Zone-->
+		<Row ModifierId="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION_ATTACH"/>
+	</GameModifiers>
+	
+	<Modifiers>
+		<!--Theater Square-->
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<!--Industrial Zone-->
+		<Row ModifierId="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<!--Dam-->
+		<Delete ModifierId="HYDROELECTRIC_DAM_FREE_POWER"/>
+		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER" SubjectRequirementSetId="CITY_IS_WITHIN_6_HEXES_SST"/>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<!--Theater Square-->
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART"/>
+		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT"/>
+		<!--Industrial Zone-->
+		<Row ModifierId="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION_ATTACH" Name="ModifierId" Value="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION"/>
+		<!--Entertainment Complex-->
+		<Update><Where ModifierId="STADIUM_10_POPULATION_TOURISM" Name="Amount"/><Set Value="10"/></Update>
+		<Update><Where ModifierId="STADIUM_20_POPULATION_TOURISM" Name="Amount"/><Set Value="10"/></Update>
+		<Update><Where ModifierId="AQUATICS_CENTER_WONDER_TOURISM" Name="Amount"/><Set Value="5"/></Update>
+		<!--Dam-->
+		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX" Name="Amount" Value="6"/>
+		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX" Name="SourceType" Value="FREE_POWER_SOURCE_WATER"/>
+	</ModifierArguments>
+
+	<!--Costs-->
+	<Buildings>
+		<Update><Where BuildingType="BUILDING_MONUMENT" /><Set Cost="50"/></Update>
+		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Cost="60"/></Update>
+		<Update><Where BuildingType="BUILDING_SHRINE" /><Set Cost="65"/></Update>
+		<Update><Where BuildingType="BUILDING_WALLS" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_WATER_MILL" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_PALGUM" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_BARRACKS" /><Set Cost="85"/></Update>
+		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Cost="85"/></Update>
+		<Update><Where BuildingType="BUILDING_BASILIKOI_PAIDES" /><Set Cost="85"/></Update>
+		<Update><Where BuildingType="BUILDING_GROVE" /><Set Cost="110"/></Update>
+		<Update><Where BuildingType="BUILDING_LIGHTHOUSE" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_MARKET" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_STABLE" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_TEMPLE" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_STAVE_CHURCH" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_SEWER" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_PRASAT" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_SUKIENNICE" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_ORDU" /><Set Cost="120"/></Update>
+		<Update><Where BuildingType="BUILDING_TLACHTLI" /><Set Cost="125"/></Update>
+		<Update><Where BuildingType="BUILDING_ARENA" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_TALL" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_WIDE" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_CONQUEST" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_MARAE" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_CONSULATE" /><Set Cost="135"/></Update>
+		<Update><Where BuildingType="BUILDING_WORKSHOP" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_ARMORY" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_CATHEDRAL" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_GURDWARA" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_MEETING_HOUSE" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_MOSQUE" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_PAGODA" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_SYNAGOGUE" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_WAT" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_STUPA" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_DAR_E_MEHR" /><Set Cost="195"/></Update>
+		<Update><Where BuildingType="BUILDING_CASTLE" /><Set Cost="215"/></Update>
+		<Update><Where BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" /><Set Cost="215"/></Update>
+		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" /><Set Cost="230"/></Update>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set Cost="240"/></Update>
+		<Update><Where BuildingType="BUILDING_MADRASA" /><Set Cost="240"/></Update>
+		<Update><Where BuildingType="BUILDING_TSIKHE" /><Set Cost="240"/></Update>
+		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" /><Set Cost="240"/></Update>
+		<Update><Where BuildingType="BUILDING_ZOO" /><Set Cost="275"/></Update>
+		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set Cost="275"/></Update>
+		<Update><Where BuildingType="BUILDING_SHIPYARD" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_BANK" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_MUSEUM_ART" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_MUSEUM_ARTIFACT" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_FERRIS_WHEEL" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_CITYSTATES" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_SPIES" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_FAITH" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_CHANCERY" /><Set Cost="290"/></Update>
+		<Update><Where BuildingType="BUILDING_STAR_FORT" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Cost="360"/></Update>
+		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_MILITARY_ACADEMY" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_COAL_POWER_PLANT" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_SANCTUARY" /><Set Cost="400"/></Update>
+		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Cost="420"/></Update>
+		<Update><Where BuildingType="BUILDING_HANGAR" /><Set Cost="445"/></Update>
+		<Update><Where BuildingType="BUILDING_SEAPORT" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_FILM_STUDIO" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_MILITARY" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_CULTURE" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_GOV_SCIENCE" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_HYDROELECTRIC_DAM" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" /><Set Cost="520"/></Update>
+		<Update><Where BuildingType="BUILDING_STADIUM" /><Set Cost="540"/></Update>
+		<Update><Where BuildingType="BUILDING_POWER_PLANT" /><Set Cost="650"/></Update>
+		<Update><Where BuildingType="BUILDING_RESEARCH_LAB" /><Set Cost="650"/></Update>
+		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Cost="650"/></Update>
+		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set Cost="650"/></Update>
+
+		<Update><Where BuildingType="BUILDING_STONEHENGE" /><Set Cost="150"/></Update>
+		<Update><Where BuildingType="BUILDING_HANGING_GARDENS" /><Set Cost="150"/></Update>
+		<Update><Where BuildingType="BUILDING_TEMPLE_ARTEMIS" /><Set Cost="150"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_BATH" /><Set Cost="150"/></Update>
+		<Update><Where BuildingType="BUILDING_PYRAMIDS" /><Set Cost="175"/></Update>
+		<Update><Where BuildingType="BUILDING_ETEMENANKI" /><Set Cost="175"/></Update>
+		<Update><Where BuildingType="BUILDING_ORACLE" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_LIGHTHOUSE" /><Set Cost="250"/></Update>
+		<Update><Where BuildingType="BUILDING_COLOSSUS" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_PETRA" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_COLOSSEUM" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_LIBRARY" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_MAHABODHI_TEMPLE" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_TERRACOTTA_ARMY" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_JEBEL_BARKAL" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_APADANA" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_HALICARNASSUS_MAUSOLEUM" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_MACHU_PICCHU" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_STATUE_OF_ZEUS" /><Set Cost="300"/></Update>
+		<Update><Where BuildingType="BUILDING_HAGIA_SOPHIA" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_ALHAMBRA" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_CHICHEN_ITZA" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_MONT_ST_MICHEL" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_HUEY_TEOCALLI" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_ANGKOR_WAT" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_KILWA_KISIWANI" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_KOTOKU_IN" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_MEENAKSHI_TEMPLE" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_UNIVERSITY_SANKORE" /><Set Cost="480"/></Update>
+		<Update><Where BuildingType="BUILDING_VENETIAN_ARSENAL" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_GREAT_ZIMBABWE" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_FORBIDDEN_CITY" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_CASA_DE_CONTRATACION" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_ST_BASILS_CATHEDRAL" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_TAJ_MAHAL" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_ORSZAGHAZ" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_PANAMA_CANAL" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_TORRE_DE_BELEM" /><Set Cost="600"/></Update>
+		<Update><Where BuildingType="BUILDING_POTALA_PALACE" /><Set Cost="725"/></Update>
+		<Update><Where BuildingType="BUILDING_RUHR_VALLEY" /><Set Cost="850"/></Update>
+		<Update><Where BuildingType="BUILDING_BOLSHOI_THEATRE" /><Set Cost="850"/></Update>
+		<Update><Where BuildingType="BUILDING_OXFORD_UNIVERSITY" /><Set Cost="850"/></Update>
+		<Update><Where BuildingType="BUILDING_STATUE_LIBERTY" /><Set Cost="850"/></Update>
+		<Update><Where BuildingType="BUILDING_BIG_BEN" /><Set Cost="1000"/></Update>
+		<Update><Where BuildingType="BUILDING_HERMITAGE" /><Set Cost="1000"/></Update>
+		<Update><Where BuildingType="BUILDING_EIFFEL_TOWER" /><Set Cost="1280"/></Update>
+		<Update><Where BuildingType="BUILDING_BROADWAY" /><Set Cost="1280"/></Update>
+		<Update><Where BuildingType="BUILDING_CRISTO_REDENTOR" /><Set Cost="1280"/></Update>
+		<Update><Where BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" /><Set Cost="1280"/></Update>
+		<Update><Where BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" /><Set Cost="1280"/></Update>
+		<Update><Where BuildingType="BUILDING_ESTADIO_DO_MARACANA" /><Set Cost="1365"/></Update>
+		<Update><Where BuildingType="BUILDING_BIOSPHERE" /><Set Cost="1365"/></Update>
+		<Update><Where BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" /><Set Cost="1625"/></Update>		
+	</Buildings>
+
+
+	<!--Government Plaza-->
+	<BuildingModifiers>
+		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_LOYALTY_DEBUFF" />
+		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_HOUSING_BUFF" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_HOUSING_BUFF_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_SST" />
+		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_GRANT_BUILDER" />
+		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_COST_REDUCTION" />
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_PRODUCTION_SST" />
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="PYRAMID_GRANT_BUILDERS" />
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_GRANT_SETTLER_SST" />
+	</BuildingModifiers>
+	<Modifiers>
+		<Row ModifierId="GOV_TALL_HOUSING_BUFF_SST"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING"
+			SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"
+		/>
+
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST"
+			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH"
+			SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"
+		/>
+
+		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
+			ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION"
+		/>
+		<Row ModifierId="GOV_GRANT_SETTLER_SST"
+			ModifierType="MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY"
+			RunOnce="true"
+			Permanent="true"
+		/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="GOV_TALL_HOUSING_BUFF_SST"
+			Name="Amount"
+			Value="3"
+		/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST"
+			Name="Amount"
+			Value="25"
+		/>
+		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
+			Name="UnitType"
+			Value="UNIT_SETTLER"
+		/>
+		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
+			Name="Amount"
+			Value="25"
+		/>
+		<Row ModifierId="GOV_GRANT_SETTLER_SST"
+			Name="UnitType"
+			Value="UNIT_SETTLER"
+		/>
+		<Row ModifierId="GOV_GRANT_SETTLER_SST"
+			Name="Amount"
+			Value="1"
+		/>
+	</ModifierArguments>
+	
+	<!--Wonders-->
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_HANGING_GARDENS" YieldType="YIELD_FOOD" YieldChange="6"/>
+		<Row BuildingType="BUILDING_STONEHENGE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_PETRA" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_PANAMA_CANAL" YieldType="YIELD_PRODUCTION" YieldChange="5"/>
+		<Row BuildingType="BUILDING_BROADWAY" YieldType="YIELD_CULTURE" YieldChange="6"/>
+	</Building_YieldChanges>
+	
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_ETEMENANKI" ModifierId="ETEMENANKI_FOOD_MARSH"/>
+		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_TECHNOLOGY_BOOST"/>
+		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_CIVIC_BOOST"/>
+		<Row BuildingType="BUILDING_APADANA" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Row BuildingType="BUILDING_COLOSSUS" ModifierId="COLOSSUS_WATER_GOLD"/>
+		<Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" ModifierId="CARTOGRAPHY_GRANT_OCEAN_NAVIGATION"/>
+		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" ModifierId="CARDINAL_BISHOP_PRESSURE"/>
+		<Row BuildingType="BUILDING_PETRA" ModifierId="COLOSSUS_GRANT_TRADER"/>
+		<Row BuildingType="BUILDING_PETRA" ModifierId="COLOSSUS_ADDTRADEROUTE"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" ModifierId="TERRACOTTAARMY_GRANT_SWORDSMAN"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" ModifierId="TERRACOTTAARMY_GRANT_CROSSBOWMAN"/>
+		<Row BuildingType="BUILDING_KOTOKU_IN" ModifierId="KOTOKUIN_WARRIOR_MONK_ABILITY"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_SHRINE_SCIENCE"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TEMPLE_SCIENCE"/>
+		<Delete BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TRADE_DOMESTIC_FAITH"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
+		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
+		<Row BuildingType="BUILDING_CHICHEN_ITZA" ModifierId="CHICHEN_ITZA_JUNGLE_FOOD"/>
+		<Row BuildingType="BUILDING_HUEY_TEOCALLI" ModifierId="HUEY_LAKE_GOLD"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_SCIENCE"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_CULTURE"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_PRODUCTION"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_FAITH"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_GOLD"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" ModifierId="FORBIDDENCITY_DIPLOVP"/>
+		<Row BuildingType="BUILDING_GREAT_ZIMBABWE" ModifierId="COLOSSUS_GRANT_TRADER"/>
+		<Row BuildingType="BUILDING_TORRE_DE_BELEM" ModifierId="BELEM_FOREIGN_CITY_BUILDER"/>
+		<Row BuildingType="BUILDING_VENETIAN_ARSENAL" ModifierId="VENETIANARSENAL_GRANT_ENGINEER"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" ModifierId="STATUELIBERTY_GRANTBUILDERS"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" ModifierId="STATUELIBERTY_PRODUCTION_PER_POP"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_SCIENCEPERTRIBUTARY"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_CULTUREPERTRIBUTARY"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_FAITHPERTRIBUTARY"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_GOLDPERTRIBUTARY"/>
+		<Row BuildingType="BUILDING_HERMITAGE" ModifierId="HERMITAGE_ADDCULTUREYIELD"/>
+		<Row BuildingType="BUILDING_RUHR_VALLEY" ModifierId="RUHRVALLEY_WORKSHOPPRODUCTION"/>
+		<Row BuildingType="BUILDING_RUHR_VALLEY" ModifierId="RUHRVALLEY_FACTORYPRODUCTION"/>
+		<Row BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_GREAT_WRITER"/>
+		<Row BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_GREAT_MUSICIAN"/>
+		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BUILDING_BROADWAY_RANDOMCIVICBOOST"/>
+		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" ModifierId="BUILDING_BROADWAY_RANDOMCIVICBOOST"/>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" ModifierId="AMUNDSENSCOTT_GREAT_SCIENTIST"/>
+		<Delete BuildingType="BUILDING_BIOSPHERE" ModifierId="BIOSPHERE_GREEN_ENERGY_TOURISM" />
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" ModifierId="MARACANA_ENTERTAINMENT_TOURISM"/>
+		<Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" ModifierId="SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS"/>
+	</BuildingModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MARSH_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_WATER_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_OCEAN_OR_COAST_REQUIREMENTS_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_SWORDSMAN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_CROSSBOWMAN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKUIN_WARRIOR_MONK_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_CHICHEN_ITZA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>FOODHUEY_PLAYER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>FOODHUEY_PLOT_IS_LAKE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Update>
+			<Where ModifierId="CONTRATACION_FOREIGNFAITH" />
+			<Set SubjectRequirementSetId="CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS"/>
+		</Update>
+		<Update>
+			<Where ModifierId="CONTRATACION_FOREIGNGOLD" />
+			<Set SubjectRequirementSetId="CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS"/>
+		</Update>
+		<Update>
+			<Where ModifierId="CONTRATACION_FOREIGNPRODUCTION" />
+			<Set SubjectRequirementSetId="CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS"/>
+		</Update>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOLDEN_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOLDEN_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOLDEN_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOLDEN_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOLDEN_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDENCITY_DIPLOVP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>BELEM_FOREIGN_CITY_BUILDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>BELEM_FOREIGN_CITY_BUILDER_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>VENETIANARSENAL_GRANT_ENGINEER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>GREAT_ENGINEER_SST</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_GRANTBUILDERS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_PRODUCTION_PER_POP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADDCULTUREYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_WORKSHOPPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_FACTORYPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_WRITER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>GREAT_WRITER_SST</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_MUSICIAN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>GREAT_MUSICIAN_SST</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSENSCOTT_GREAT_SCIENTIST</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>GREAT_SCIENTIST_SST</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MARACANA_ENTERTAINMENT_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_SST</SubjectRequirementSetId>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="HANGING_GARDEN_ADDGROWTH" Name="Amount"/>
+			<Set Value="25"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_GRASSMOUNTAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_PLAINSMOUNTAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_DESERTMOUNTAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_TUNDRAMOUNTAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_SNOWMOUNTAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="APADANA_AWARD_TWO_INFLUENCE_TOKEN_MODIFIER" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Row>
+			<ModifierId>COLOSSUS_WATER_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_WATER_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="GREAT_LIBRARY_ANCIENT_CLASSICAL_TECH_BOOSTS" Name="EndEraType"/>
+			<Set Value="ERA_MEDIEVAL"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MAHABODHITEMPLE_APOSTLE" Name="Amount"/>
+			<Set Value="3"/>
+		</Update>
+		<Update>
+			<Where ModifierId="PETRA_YIELD_MODIFIER" Name="Amount"/>
+			<Set Value="1,2,1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="STAUEZEUS_GRANT_ARCHERS" Name="UnitType"/>
+			<Set Value="UNIT_HORSEMAN"/>
+		</Update>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_SWORDSMAN</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SWORDSMAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_SWORDSMAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_CROSSBOWMAN</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_CROSSBOWMAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACOTTAARMY_GRANT_CROSSBOWMAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKUIN_WARRIOR_MONK_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_WARRIOR_MONK_KOTOKU_IN</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SHRINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TEMPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_FOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CHICHEN_ITZA_JUNGLE_FOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_FOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_FOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="HAGIA_SOPHIA_ADJUST_RELIGIOUS_CHARGES" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>HUEY_LAKE_GOLD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="STBASILS_ADDFOOD_MODIFIER" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_GOLDEN_AGE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDENCITY_DIPLOVP</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDENCITY_DIPLOVP</ModifierId>
+			<Name>Tooltip</Name>
+			<Value>LOC_DVP_TOOLTIP_OTHER_SOURCES</Value>
+		</Row>
+		<Row>
+			<ModifierId>BELEM_FOREIGN_CITY_BUILDER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>BELEM_FOREIGN_CITY_BUILDER_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>BELEM_FOREIGN_CITY_BUILDER_MODIFIER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>BELEM_FOREIGN_CITY_BUILDER_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>VENETIANARSENAL_GRANT_ENGINEER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>VENETIANARSENAL_GRANT_ENGINEER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_GRANTBUILDERS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_GRANTBUILDERS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_PRODUCTION_PER_POP</ModifierId>
+			<Name>Amount</Name>
+			<Value>.5</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_PRODUCTION_PER_POP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADDCULTUREYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>HERMITAGE_ADDCULTUREYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_WORKSHOPPRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WORKSHOP</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_WORKSHOPPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_WORKSHOPPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_FACTORYPRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FACTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_FACTORYPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_FACTORYPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_WRITER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_WRITER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_MUSICIAN</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_GREAT_MUSICIAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="BUILDING_BROADWAY_RANDOMCIVICBOOST" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Row>
+			<ModifierId>AMUNDSENSCOTT_GREAT_SCIENTIST</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSENSCOTT_GREAT_SCIENTIST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MARACANA_ENTERTAINMENT_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+	</ModifierArguments>
+	<Types>
+		<Row Type="ABILITY_WARRIOR_MONK_KOTOKU_IN" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_WARRIOR_MONK_KOTOKU_IN" Name="LOC_ABILITY_WARRIOR_MONK_KOTOKU_IN_NAME" Description="LOC_ABILITY_WARRIOR_MONK_KOTOKU_IN_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<TypeTags>
+		<Row Type="ABILITY_WARRIOR_MONK_KOTOKU_IN" Tag="CLASS_WARRIOR_MONK"/>
+	</TypeTags>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_WARRIOR_MONK_KOTOKU_IN</UnitAbilityType>
+			<ModifierId>CORBACI_FREE_PROMOTION</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+</GameData>

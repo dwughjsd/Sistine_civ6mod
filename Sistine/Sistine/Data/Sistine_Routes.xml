@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Routes>
+		<Update>
+			<Where RouteType="ROUTE_RAILROAD" />
+			<Set MovementCost="0.1" />
+		</Update>
+	</Routes>
+	<Route_ResourceCosts>
+		<Delete RouteType="ROUTE_RAILROAD" ResourceType="RESOURCE_COAL" BuildWithUnitCost="1"/>
+	</Route_ResourceCosts>
+	<Route_ValidBuildUnits>
+		<Row RouteType="ROUTE_RAILROAD" UnitType="UNIT_BUILDER"/>
+	</Route_ValidBuildUnits>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+</GameData>
