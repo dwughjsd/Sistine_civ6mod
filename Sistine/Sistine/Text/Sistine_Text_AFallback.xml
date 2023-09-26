@@ -351,5 +351,125 @@
 		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="en_US">
 			<Text>+2 [ICON_Culture] Culture from world wonders.</Text>
 		</Replace>
+		<!--Government Plaza-->
+		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Amenities] Amenity, +3 [ICON_Housing] Housing, and +25% Growth in Cities with [ICON_Governor] Governors[NEWLINE]-2 Loyalty in Cities without [ICON_Governor] Governors.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
+			<Text>生产开拓者时 [ICON_Production] 生产力+25%。[NEWLINE]获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="en_US">
+			<Text>25% increased [ICON_Production] Production toward Settlers in this city.[NEWLINE]Receive a free Settler and Builder.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Replace>
+		<!--Districts-->
+		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="en_US">
+			<Text>A district in your city for cultural sites.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture when built on Charming tiles, +3 Culture when built on Breathtaking tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Greece for cultural sites. Replaces the Theater Square district and cheaper to build. Awards 1 [ICON_Envoy] Envoy when completed.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture when built on Charming tiles, +3 Culture when built on Breathtaking tiles. +1  [ICON_Culture] Culture bonus for each adjacent district and an additional +1 [ICON_Culture] Culture bonus for adjacent City Center. +2 [ICON_Culture] Culture bonus for each adjacent wonder, Entertainment Complex, and Water Park. Can only be built on Hills.</Text>
+		</Replace>
+		<!--Wonders-->
+		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_SCIENCE] Science, +1 [ICON_PRODUCTION] Production, and +2 [ICON_Food] Food to all Marsh tiles in your empire. +1 [ICON_SCIENCE] Science and +1 [ICON_PRODUCTION] Production on all Floodplains tiles for this city.[NEWLINE][NEWLINE]Must be built on Floodplains or Marsh.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="en_US">
+			<Text>Increases growth by 25% in all cities. Must be built next to a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="en_US">
+			<Text>Patronage of Great People costs 25% less [ICON_Faith] Faith. [ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide an extra 10% of the Science and Culture cost for researching technologies and civics. Districts in this city provide +2 [ICON_GreatPerson] Great Person points of their type (for example, [ICON_GreatWriter] Great Writer points from the Theater Square district). Must be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MACHU_PICCHU_DESCRIPTION" Language="en_US">
+			<Text>Mountain tiles provide a standard adjacency bonus to Theater Square and Industrial Zone districts, and a major adjacency bonus to Commercial Hub districts in all cities.[NEWLINE][NEWLINE]Must be built on a Mountain tile that does not contain a Volcano.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="en_US">
+			<Text>Receive +2 [ICON_Envoy] Envoys. +1 [ICON_ENVOY] Envoy when you build a wonder, including Apadana, in this city.[NEWLINE][NEWLINE]Must be built adjacent to your [ICON_CAPITAL] Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity. Grants a Trader unit. +1 [ICON_Gold] to Coast, Lake, and Ocean tiles. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="en_US">
+			<Text>Receive [ICON_TechBoosted] Eurekas to all Ancient and Classical era technologies. Receive a random [ICON_TechBoosted] Eureka after another player recruits a [ICON_GreatScientist] Great Scientist. Must be built on flat land adjacent to a Campus district with a Library.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="en_US">
+			<Text>Naval units receive +1 [ICON_Movement] Movement and gain the ability to enter Ocean tiles.[NEWLINE][NEWLINE]Must be built on the Coast, and adjacent to land and a Harbor district with a Lighthouse.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAHABODHI_TEMPLE_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+2 Diplomatic Victory Points and grants 3 Apostles when built. Religious pressure to adjacent cities is 100% stronger from this city.[NEWLINE][NEWLINE]Must be built on Woods adjacent to a Holy Site district with a Temple, and you must have founded a Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food, +2 [ICON_Gold] Gold, and +1 [ICON_Production] Production on all Desert tiles for this city (non-Floodplains). +1 [ICON_TradeRoute] Trade Route capacity. Grants a Trader unit. Must be built on Desert or Desert Floodplains without Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="en_US">
+			<Text>Grants 3 Crossbowmen and 3 Swordsmen. All current units gain a promotion level. All Archaeologists from the owner may enter foreign lands without Open Borders. Must be built on flat Grassland or Plains adjacent to an Encampment district with a Barracks or Stable.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTOKU_IN_DESCRIPTION" Language="en_US">
+			<Text>+20% [ICON_Faith] Faith in this city. Grants 4 Warrior Monks. These Warrior Monks start with a free promotion.[NEWLINE][NEWLINE]Must be built adjacent to a Holy Site district with a Temple. Warrior Monks can only be received if player has founded a religion or if there is a majority religion for this player or city.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WARRIOR_MONK_KOTOKU_IN_NAME" Language="en_US">
+			<Text>Kotoku-In</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WARRIOR_MONK_KOTOKU_IN_DESCRIPTION" Language="en_US">
+			<Text>Starts with a free promotion.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Science] Science from Shrines and Temples. Other Civilizations' [ICON_TradeRoute] Trade Routes to this city provide +1 [ICON_SCIENCE] Science and +1 [ICON_GOLD] Gold for them. +2 [ICON_SCIENCE] Science for every [ICON_TradeRoute] Trade Route to this city.[NEWLINE][NEWLINE]Must be built on the Desert or Desert Hills, and adjacent to a Campus district with a University.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="en_US">
+			<Text>+1 Military policy slot[NEWLINE][NEWLINE]+20% [ICON_Culture] to this city. Provides the same defensive bonuses as the Fort improvement. Must be built on Hills adjacent to an Encampment district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Culture] Culture, +1 [ICON_Production] Production, and +1 [ICON_Food] Food to all Rainforest tiles for this city. +1 [ICON_Production] Production to all Rainforest tiles for this city. Must be built on Rainforest.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION" Language="en_US">
+			<Text>Missionaries and Apostles can spread Religion 2 extra times. Must be built on flat land adjacent to a Holy Site district, and you must have founded a Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Amenities] Amenity from entertainment for each Lake tile within one tile of Huey Teocalli. +1 [ICON_Food] Food and +1 [ICON_Production] Production, and +2 [ICON_Gold] Gold for each Lake tile in your empire. Must be built on a Lake tile adjacent to land.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION" Language="en_US">
+			<Text>+100% [ICON_Tourism] Religious Tourism from this city. +2 [ICON_Food] Food, +1 [ICON_Production] Production, and +1 [ICON_Culture] Culture on all Tundra tiles for this city. Must be built adjacent to a City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION" Language="en_US">
+			<Text>+1 Era Score from Historic Moment earned after this wonder is complete if that Moment is usually worth 2 or more Era Score. +15% to all non-Food yields in all cities when in a Golden Age. Must be built next to a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="en_US">
+			<Text>+1 Wildcard policy slot[NEWLINE][NEWLINE]+4 Diplomatic Victory points. Must be built on flat land adjacent to the City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity. Grants a Trader unit.[NEWLINE][NEWLINE]Your [ICON_TradeRoute] Trade Routes from this city get +2 [ICON_Gold] Gold for every Bonus resource within 3 tiles of the city and in this city's territory. Must be built adjacent to a Commercial Hub district with a Market and adjacent to [ICON_RESOURCE_CATTLE] Cattle.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TORRE_DE_BELEM_DESCRIPTION" Language="en_US">
+			<Text>International [ICON_TradeRoute] Trade Routes from this city receive +2 [ICON_GOLD] Gold for every Luxury Resource at the destination. When the Torre de Belém is constructed, cities not on your home continent receive the lowest [ICON_PRODUCTION] Production cost city center building they can currently construct, as well as a free Builder.[NEWLINE][NEWLINE]Must be built on a Coast tile that is adjacent to a Harbor district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="en_US">
+			<Text>Receive a second naval unit each time you train a naval unit. Grants a free [ICON_GreatEngineer] Great Engineer. Must be built on a Coast tile that is adjacent to an Industrial Zone district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STATUE_LIBERTY_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+4 Diplomatic Victory Points when built. Grants 3 Builders. +0.5 [ICON_Production] Production per [ICON_Citizen] Citizen in this city. All your cities within 6 tiles are always 100% Loyal. [NEWLINE][NEWLINE]Must be built on the Coast, adjacent to land and a Harbor district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION" Language="en_US">
+			<Text>+100% [ICON_Favor] Diplomatic Favor per turn from starting a turn as Suzerain of a City-State. +2 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Faith] Faith, and [ICON_Gold] Gold from each city-state you are Suzerain of.[NEWLINE][NEWLINE]Must be built on a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Culture] Culture to this city. Must be built along a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Production] Production from Workshops and Factories. +20% [ICON_Production] Production in this city, and +1 [ICON_Production] Production for each Mine and Quarry in this city. Must be built along a River adjacent to an Industrial Zone district with a Factory.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BROADWAY_DESCRIPTION" Language="en_US">
+			<Text>Grants a free [ICON_GreatWriter] Great Writer and [ICON_GreatMusician] Great Musician. Must be built on flat land adjacent to a Theater Square district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="en_US">
+			<Text>2 free random Atomic era [ICON_CivicBoosted] Inspirations. [ICON_Tourism] Tourism output from [ICON_GreatWork_Relic] Relics and Holy Cities is not diminished by other civilizations who have researched The Enlightenment civic. +100% [ICON_Tourism] Tourism from Seaside Resorts across your civilization. Must be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_DESCRIPTION" Language="en_US">
+			<Text>Grants a free [ICON_GreatScientist] Great Scientist. +20% [ICON_SCIENCE] Science and 10% [ICON_PRODUCTION] Production in all cities. If there are 5 Snow or Snow Hills tiles within 3 tiles of a city and owned by this player these yields are doubled. Must be built next to a Campus with a Research Lab on a Snow or Snow Hills tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Amenities] Amenities in each city in your civilization. +10 [ICON_Tourism] Tourism to Entertainment Complexes and Water Parks. Must be built on flat land adjacent to an Entertainment Complex district with a Stadium.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="en_US">
+			<Text>Receive [ICON_CivicBoosted] Inspirations to all Atomic and Information civics. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
