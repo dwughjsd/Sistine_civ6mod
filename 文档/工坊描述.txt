@@ -2,11 +2,11 @@
 
 本模组需要[b]全部[/b]DLC才能正常工作。
 
-本模组目前仅支持简体中文，我们正在寻求翻译人员，否则其它语言支持在短期内不会完成。如果你愿意提供本模组的翻译，欢迎在我的GitHub上提交pull request。
+本模组目前仅支持简体中文（英文文本存在但未经校对），我们正在寻求翻译人员，否则其它语言支持无法完成。如果你愿意提供本模组的翻译，欢迎在我的GitHub上提交pull request。
 
 [h1]什么是Project Sistine（Dev通道）？[/h1]
 
-Project Sistine是一款制作中的《文明6》中等规模大修mod，意在通过部分引用《文明》系列旧作的内容来提升本游戏的策略深度和可玩性。由于这个作品涉及内容众多，工作量十分巨大，我们决定以公开的测试版招募新的开发人员，并收集早期反馈意见。
+Project Sistine是一款制作中的《文明6》中等规模大修mod，意在通过部分引用《文明》系列旧作的内容来提升本游戏的策略深度和可玩性。由于这个作品涉及内容众多，工作量十分巨大，我们决定以公开的测试版招募新的开发人员，并收集早期反馈意见。我们的AI也许是工坊中最擅长科技胜利的——许多时候作弊低于原版的神难度能在240回合内取得胜利，比原版游戏中快超过100回合（而熟练的玩家赢得胜利的时间却比原版更长）！
 
 [h1]在现有的Dev通道中可以玩到什么？[/h1]
 
@@ -16,15 +16,17 @@ Dev通道截至发布时已基本完成了建筑、区域和地形地貌的重�
 
 近期我们将继续以游戏性改动为主，并且仍需要美术、文本、翻译、测试等方面的援助。你们的帮助有助于我们将其改进得更好。
 
+近期改动列表详见讨论区（仅简体中文，可能过时）
+
 DISCLAIMER: This mod is in its early development stage and is FOR ADVANCED PLAYERS ONLY. This mod is prone to update and break saving games FREQUENTLY and may contain critical errors, and we DO NOT guarantee ANY function availability in future updates. The development of this mod might be cancelled at any time without any public release. If you are not a skilled player able to resolve software malfunctions, PLEASE DO NOT SUBSCRIBE.
 
 This mod needs [b]ALL[/b] DLCs to work.
 
-THIS MOD CURRENTLY SUPPORT ONLY SIMPLIFIED CHINESE. WE ARE IN SEARCH OF TRANSLATORS, OR OTHER LANGUAGES WILL NOT BE SUPPORTED IN NEAR FUTURE. IF YOU ARE WILLING TO PROVIDE TRANSLATIONS FOR THIS MOD, FEEL FREE TO CREATE A PULL REQUEST ON MY GITHUB.
+THIS MOD CURRENTLY SUPPORT ONLY SIMPLIFIED CHINESE (ENGLISH TEXT PRESENTS BUT NOT VERIFIED). WE ARE IN SEARCH OF TRANSLATORS, OR OTHER LANGUAGES CANNOT BE SUPPORTED. IF YOU ARE WILLING TO PROVIDE TRANSLATIONS FOR THIS MOD, FEEL FREE TO CREATE A PULL REQUEST ON MY GITHUB.
 
 [h1]What is Project Sistine (Dev Channel)?[/h1]
 
-Project Sistine is a medium-scale overhaul mod for Civilization VI under development. This mod aims to partially revive contents from previous titles from Civilization franchise to improve strategic depth and gameplay of this game. Since this mod is a massive project and needs a lot of work, we decided to release a public test version to attract new developers and collect early feedback of this mod.
+Project Sistine is a medium-scale overhaul mod for Civilization VI under development. This mod aims to partially revive contents from previous titles from Civilization franchise to improve strategic depth and gameplay of this game. Since this mod is a massive project and needs a lot of work, we decided to release a public test version to attract new developers and collect early feedback of this mod. We provide maybe the best AI in pursuing a Science Victory - it's not hard to see them win in 240 turns at Deity difficulty WITH LESS CHEATING, which means they are >100 turns faster than vanilla AI (while expert players are slowed down)!
 
 [h1]What is available now in Dev Channel?[/h1]
 
@@ -33,3 +35,5 @@ The Dev channel includes overhaul of buildings, districts, terrains, features, i
 [h1]What's the plan of next update?[/h1]
 
 We will continue wokring on gameplay in near future, and your support on arts, text, localization and tesing can definitely help us.
+
+See Discussions for recent changelog (Simplified Chinese only, might be outdated)
