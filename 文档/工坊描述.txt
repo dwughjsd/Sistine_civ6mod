@@ -16,7 +16,7 @@ Dev通道截至发布时已基本完成了建筑、区域和地形地貌的重�
 
 近期我们将继续以游戏性改动为主，并且仍需要美术、文本、翻译、测试等方面的援助。你们的帮助有助于我们将其改进得更好。
 
-近期改动列表详见讨论区（仅简体中文，可能过时）
+改动列表详见讨论区（仅简体中文，可能过时）
 
 DISCLAIMER: This mod is in its early development stage and is FOR ADVANCED PLAYERS ONLY. This mod is prone to update and break saving games FREQUENTLY and may contain critical errors, and we DO NOT guarantee ANY function availability in future updates. The development of this mod might be cancelled at any time without any public release. If you are not a skilled player able to resolve software malfunctions, PLEASE DO NOT SUBSCRIBE.
 
@@ -36,4 +36,4 @@ The Dev channel includes overhaul of buildings, districts, terrains, features, i
 
 We will continue wokring on gameplay in near future, and your support on arts, text, localization and tesing can definitely help us.
 
-See Discussions for recent changelog (Simplified Chinese only, might be outdated)
+See Discussions for changelog (Simplified Chinese only, might be outdated)

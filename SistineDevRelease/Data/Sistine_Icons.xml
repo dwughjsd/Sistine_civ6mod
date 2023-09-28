@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_OPERA_HOUSE"           Atlas="ICON_ATLAS_BUILDINGS" Index="25"/>
+		<Row Name="ICON_BUILDING_PUBLIC_SCHOOL"           Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
+		<Row Name="ICON_BUILDING_MANUFACTURING_PLANT"              Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
+		<Row Name="ICON_BUILDING_HOSPITAL"           Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
+		<Row Name="ICON_BUILDING_MEDICAL_LAB"         Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
+	</IconDefinitions>
+</GameData>
