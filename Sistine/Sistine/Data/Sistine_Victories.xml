@@ -13,7 +13,7 @@
 	</Strategies>
 
 	<StrategyConditions>
-		<!--Sad AI do terribly in building up Tourism, so we'd better forbid them to be too easy into the chase of Cultural Victory-->
+		<!--Sadly AI do terribly in building up Tourism, so we'd better forbid them to be too easy into the chase of Cultural Victory-->
 		<Update>
 			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Good Culture"/>
 			<Set ThresholdValue="10" />
@@ -41,6 +41,7 @@
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Has Settle Spot" ThresholdValue="0"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Cities Under Threat" ThresholdValue="1"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Major Civ Wars" ThresholdValue="1"/>
+		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Fewer Cities" ThresholdValue="2"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Classical" />
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Medieval" Disqualifier="true"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Not Major" Disqualifier="true"/>
