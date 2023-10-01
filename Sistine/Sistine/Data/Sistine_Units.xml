@@ -14,164 +14,13 @@
 			<Set PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
 		</Update>
 		<Update>
-			<Where UnitType="UNIT_RANGER" />
-			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
-		</Update>
-		<Update>
-			<Where UnitType="UNIT_SCOTTISH_HIGHLANDER" />
-			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
-		</Update>
-		<Update>
 			<Where UnitType="UNIT_CREE_OKIHTCITAW" />
 			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
 		</Update>
 		<Update>
-			<Where UnitType="UNIT_SPEC_OPS" />
-			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
+			<Where UnitType="UNIT_AIRCRAFT_CARRIER" />
+			<Set RangedCombat="50" Range="6" />
 		</Update>
-		<Update>
-			<Where UnitType="UNIT_SKIRMISHER" />
-			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
-		</Update>
-		<Update>
-			<Where UnitType="UNIT_INCA_WARAKAQ" />
-			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
-		</Update>
-		<!--
-		<Update>
-			<Where UnitType="UNIT_BUILDER" />
-			<Set BuildCharges="4" />
-		</Update>
-		-->
-		<!--
-		<Update><Where UnitType="UNIT_SCOUT" /><Set Cost="25"/></Update>
-		<Update><Where UnitType="UNIT_SLINGER" /><Set Cost="30"/></Update>
-		<Update><Where UnitType="UNIT_BARBARIAN_HORSE_ARCHER" /><Set Cost="30"/></Update>
-		<Update><Where UnitType="UNIT_BABYLONIAN_SABUM_KIBITTUM" /><Set Cost="30"/></Update>
-		<Update><Where UnitType="UNIT_WARRIOR" /><Set Cost="35"/></Update>
-		<Update><Where UnitType="UNIT_BARBARIAN_HORSEMAN" /><Set Cost="35"/></Update>
-		<Update><Where UnitType="UNIT_CREE_OKIHTCITAW" /><Set Cost="35"/></Update>
-		<Update><Where UnitType="UNIT_SUMERIAN_WAR_CART" /><Set Cost="50"/></Update>
-		<Update><Where UnitType="UNIT_ARCHER" /><Set Cost="50"/></Update>
-		<Update><Where UnitType="UNIT_MAYAN_HULCHE" /><Set Cost="50"/></Update>
-		<Update><Where UnitType="UNIT_GAUL_GAESATAE" /><Set Cost="50"/></Update>
-		<Update><Where UnitType="UNIT_GALLEY" /><Set Cost="55"/></Update>
-		<Update><Where UnitType="UNIT_NORWEGIAN_LONGSHIP" /><Set Cost="55"/></Update>
-		<Update><Where UnitType="UNIT_SPEARMAN" /><Set Cost="55"/></Update>
-		<Update><Where UnitType="UNIT_HEAVY_CHARIOT" /><Set Cost="55"/></Update>
-		<Update><Where UnitType="UNIT_BATTERING_RAM" /><Set Cost="55"/></Update>
-		<Update><Where UnitType="UNIT_GREEK_HOPLITE" /><Set Cost="55"/></Update>
-		<Update><Where UnitType="UNIT_AZTEC_EAGLE_WARRIOR" /><Set Cost="55"/></Update>
-		<Update><Where UnitType="UNIT_PHOENICIA_BIREME" /><Set Cost="55"/></Update>
-		<Update><Where UnitType="UNIT_NUBIAN_PITATI" /><Set Cost="60"/></Update>
-		<Update><Where UnitType="UNIT_HORSEMAN" /><Set Cost="70"/></Update>
-		<Update><Where UnitType="UNIT_SWORDSMAN" /><Set Cost="80"/></Update>
-		<Update><Where UnitType="UNIT_EGYPTIAN_CHARIOT_ARCHER" /><Set Cost="80"/></Update>
-		<Update><Where UnitType="UNIT_WARRIOR_MONK" /><Set Cost="85"/></Update>
-		<Update><Where UnitType="UNIT_SCYTHIAN_HORSE_ARCHER" /><Set Cost="85"/></Update>
-		<Update><Where UnitType="UNIT_SIEGE_TOWER" /><Set Cost="85"/></Update>
-		<Update><Where UnitType="UNIT_MACEDONIAN_HYPASPIST" /><Set Cost="85"/></Update>
-		<Update><Where UnitType="UNIT_MACEDONIAN_HETAIROI" /><Set Cost="85"/></Update>
-		<Update><Where UnitType="UNIT_PERSIAN_IMMORTAL" /><Set Cost="85"/></Update>
-		<Update><Where UnitType="UNIT_LAHORE_NIHANG" /><Set Cost="85"/></Update>
-		<Update><Where UnitType="UNIT_ROMAN_LEGION" /><Set Cost="95"/></Update>
-		<Update><Where UnitType="UNIT_KONGO_SHIELD_BEARER" /><Set Cost="95"/></Update>
-		<Update><Where UnitType="UNIT_CATAPULT" /><Set Cost="105"/></Update>
-		<Update><Where UnitType="UNIT_QUADRIREME" /><Set Cost="105"/></Update>
-		<Update><Where UnitType="UNIT_INDIAN_VARU" /><Set Cost="105"/></Update>
-		<Update><Where UnitType="UNIT_MAORI_TOA" /><Set Cost="105"/></Update>
-		<Update><Where UnitType="UNIT_SULEIMAN_JANISSARY" /><Set Cost="105"/></Update>
-		<Update><Where UnitType="UNIT_BYZANTINE_DROMON" /><Set Cost="105"/></Update>
-		<Update><Where UnitType="UNIT_ZULU_IMPI" /><Set Cost="110"/></Update>
-		<Update><Where UnitType="UNIT_CHINESE_CROUCHING_TIGER" /><Set Cost="120"/></Update>
-		<Update><Where UnitType="UNIT_SKIRMISHER" /><Set Cost="130"/></Update>
-		<Update><Where UnitType="UNIT_JAPANESE_SAMURAI" /><Set Cost="140"/></Update>
-		<Update><Where UnitType="UNIT_NORWEGIAN_BERSERKER" /><Set Cost="140"/></Update>
-		<Update><Where UnitType="UNIT_MAN_AT_ARMS" /><Set Cost="140"/></Update>
-		<Update><Where UnitType="UNIT_MONGOLIAN_KESHIG" /><Set Cost="140"/></Update>
-		<Update><Where UnitType="UNIT_GEORGIAN_KHEVSURETI" /><Set Cost="140"/></Update>
-		<Update><Where UnitType="UNIT_INCA_WARAKAQ" /><Set Cost="145"/></Update>
-		<Update><Where UnitType="UNIT_MILITARY_ENGINEER" /><Set Cost="150"/></Update>
-		<Update><Where UnitType="UNIT_CROSSBOWMAN" /><Set Cost="155"/></Update>
-		<Update><Where UnitType="UNIT_PIKEMAN" /><Set Cost="155"/></Update>
-		<Update><Where UnitType="UNIT_TREBUCHET" /><Set Cost="175"/></Update>
-		<Update><Where UnitType="UNIT_KHMER_DOMREY" /><Set Cost="175"/></Update>
-		<Update><Where UnitType="UNIT_COURSER" /><Set Cost="175"/></Update>
-		<Update><Where UnitType="UNIT_VIETNAMESE_VOI_CHIEN" /><Set Cost="175"/></Update>
-		<Update><Where UnitType="UNIT_ETHIOPIAN_OROMO_CAVALRY" /><Set Cost="175"/></Update>
-		<Update><Where UnitType="UNIT_HUNGARY_BLACK_ARMY" /><Set Cost="180"/></Update>
-		<Update><Where UnitType="UNIT_KNIGHT" /><Set Cost="190"/></Update>
-		<Update><Where UnitType="UNIT_ARABIAN_MAMLUK" /><Set Cost="190"/></Update>
-		<Update><Where UnitType="UNIT_MALI_MANDEKALU_CAVALRY" /><Set Cost="190"/></Update>
-		<Update><Where UnitType="UNIT_BYZANTINE_TAGMA" /><Set Cost="190"/></Update>
-		<Update><Where UnitType="UNIT_MAPUCHE_MALON_RAIDER" /><Set Cost="200"/></Update>
-		<Update><Where UnitType="UNIT_MUSKETMAN" /><Set Cost="210"/></Update>
-		<Update><Where UnitType="UNIT_CARAVEL" /><Set Cost="210"/></Update>
-		<Update><Where UnitType="UNIT_OBSERVATION_BALLOON" /><Set Cost="210"/></Update>
-		<Update><Where UnitType="UNIT_OTTOMAN_BARBARY_CORSAIR" /><Set Cost="210"/></Update>
-		<Update><Where UnitType="UNIT_PORTUGUESE_NAU" /><Set Cost="210"/></Update>
-		<Update><Where UnitType="UNIT_SPANISH_CONQUISTADOR" /><Set Cost="220"/></Update>
-		<Update><Where UnitType="UNIT_KOREAN_HWACHA" /><Set Cost="220"/></Update>
-		<Update><Where UnitType="UNIT_PIKE_AND_SHOT" /><Set Cost="220"/></Update>
-		<Update><Where UnitType="UNIT_SWEDEN_CAROLEAN" /><Set Cost="220"/></Update>
-		<Update><Where UnitType="UNIT_BOMBARD" /><Set Cost="245"/></Update>
-		<Update><Where UnitType="UNIT_FRIGATE" /><Set Cost="245"/></Update>
-		<Update><Where UnitType="UNIT_PRIVATEER" /><Set Cost="245"/></Update>
-		<Update><Where UnitType="UNIT_ENGLISH_SEADOG" /><Set Cost="245"/></Update>
-		<Update><Where UnitType="UNIT_DE_ZEVEN_PROVINCIEN" /><Set Cost="245"/></Update>
-		<Update><Where UnitType="UNIT_CANADA_MOUNTIE" /><Set Cost="250"/></Update>
-		<Update><Where UnitType="UNIT_INDONESIAN_JONG" /><Set Cost="260"/></Update>
-		<Update><Where UnitType="UNIT_FIELD_CANNON" /><Set Cost="285"/></Update>
-		<Update><Where UnitType="UNIT_CAVALRY" /><Set Cost="285"/></Update>
-		<Update><Where UnitType="UNIT_POLISH_HUSSAR" /><Set Cost="285"/></Update>
-		<Update><Where UnitType="UNIT_CUIRASSIER" /><Set Cost="285"/></Update>
-		<Update><Where UnitType="UNIT_COLOMBIAN_LLANERO" /><Set Cost="285"/></Update>
-		<Update><Where UnitType="UNIT_HUNGARY_HUSZAR" /><Set Cost="290"/></Update>
-		<Update><Where UnitType="UNIT_RUSSIAN_COSSACK" /><Set Cost="295"/></Update>
-		<Update><Where UnitType="UNIT_ENGLISH_REDCOAT" /><Set Cost="315"/></Update>
-		<Update><Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE" /><Set Cost="315"/></Update>
-		<Update><Where UnitType="UNIT_LINE_INFANTRY" /><Set Cost="315"/></Update>
-		<Update><Where UnitType="UNIT_MEDIC" /><Set Cost="320"/></Update>
-		<Update><Where UnitType="UNIT_IRONCLAD" /><Set Cost="330"/></Update>
-		<Update><Where UnitType="UNIT_RANGER" /><Set Cost="330"/></Update>
-		<Update><Where UnitType="UNIT_SCOTTISH_HIGHLANDER" /><Set Cost="330"/></Update>
-		<Update><Where UnitType="UNIT_AMERICAN_ROUGH_RIDER" /><Set Cost="335"/></Update>
-		<Update><Where UnitType="UNIT_AT_CREW" /><Set Cost="350"/></Update>
-		<Update><Where UnitType="UNIT_DRONE" /><Set Cost="365"/></Update>
-		<Update><Where UnitType="UNIT_BIPLANE" /><Set Cost="375"/></Update>
-		<Update><Where UnitType="UNIT_INFANTRY" /><Set Cost="375"/></Update>
-		<Update><Where UnitType="UNIT_ARTILLERY" /><Set Cost="375"/></Update>
-		<Update><Where UnitType="UNIT_BATTLESHIP" /><Set Cost="375"/></Update>
-		<Update><Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES" /><Set Cost="375"/></Update>
-		<Update><Where UnitType="UNIT_GERMAN_UBOAT" /><Set Cost="375"/></Update>
-		<Update><Where UnitType="UNIT_DIGGER" /><Set Cost="375"/></Update>
-		<Update><Where UnitType="UNIT_SUPPLY_CONVOY" /><Set Cost="390"/></Update>
-		<Update><Where UnitType="UNIT_ANTIAIR_GUN" /><Set Cost="395"/></Update>
-		<Update><Where UnitType="UNIT_SUBMARINE" /><Set Cost="420"/></Update>
-		<Update><Where UnitType="UNIT_TANK" /><Set Cost="420"/></Update>
-		<Update><Where UnitType="UNIT_FIGHTER" /><Set Cost="450"/></Update>
-		<Update><Where UnitType="UNIT_AMERICAN_P51" /><Set Cost="450"/></Update>
-		<Update><Where UnitType="UNIT_SPEC_OPS" /><Set Cost="450"/></Update>
-		<Update><Where UnitType="UNIT_MACHINE_GUN" /><Set Cost="470"/></Update>
-		<Update><Where UnitType="UNIT_AIRCRAFT_CARRIER" /><Set Cost="470"/></Update>
-		<Update><Where UnitType="UNIT_DESTROYER" /><Set Cost="470"/></Update>
-		<Update><Where UnitType="UNIT_BOMBER" /><Set Cost="485"/></Update>
-		<Update><Where UnitType="UNIT_MODERN_AT" /><Set Cost="505"/></Update>
-		<Update><Where UnitType="UNIT_MOBILE_SAM" /><Set Cost="515"/></Update>
-		<Update><Where UnitType="UNIT_HELICOPTER" /><Set Cost="520"/></Update>
-		<Update><Where UnitType="UNIT_MECHANIZED_INFANTRY" /><Set Cost="565"/></Update>
-		<Update><Where UnitType="UNIT_JET_FIGHTER" /><Set Cost="565"/></Update>
-		<Update><Where UnitType="UNIT_NUCLEAR_SUBMARINE" /><Set Cost="590"/></Update>
-		<Update><Where UnitType="UNIT_ROCKET_ARTILLERY" /><Set Cost="590"/></Update>
-		<Update><Where UnitType="UNIT_MISSILE_CRUISER" /><Set Cost="590"/></Update>
-		<Update><Where UnitType="UNIT_MODERN_ARMOR" /><Set Cost="590"/></Update>
-
-		<Update><Where UnitType="UNIT_TRADER" /><Set Cost="30" /></Update>
-		<Update><Where UnitType="UNIT_ROCK_BAND" /><Set Cost="250"/></Update>
-		<Update><Where UnitType="UNIT_NATURALIST" /><Set Cost="250"/></Update>
-		<Update><Where UnitType="UNIT_ARCHAEOLOGIST" /><Set Cost="350"/></Update>
-		<Update><Where UnitType="UNIT_SPY" /><Set Cost="200"/></Update>
-		-->
 		<Update>
 			<Where UnitType="UNIT_BUILDER" />
 			<Set Cost="40" CostProgressionParam1="10" />
@@ -197,6 +46,14 @@
 			<Set CostProgressionParam1="15" />
 		</Update>
 	</Units>
+
+	<TypeTags>
+		<Row Type="ABILITY_EXPERT_MARKSMAN" Tag="CLASS_NAVAL_CARRIER"/>
+	</TypeTags>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_AIRCRAFT_CARRIER" AiType="UNITTYPE_RANGED"/>
+	</UnitAiInfos>
 	<Units_XP2>
 		<!--So that you silly AIs won't use up all your fxxking resources!-->
 		<Update>
