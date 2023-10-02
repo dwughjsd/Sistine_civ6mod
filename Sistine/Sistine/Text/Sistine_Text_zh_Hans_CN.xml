@@ -486,5 +486,18 @@
 		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>获得所有原子时代和信息时代的 [ICON_CivicBoosted] 启发。必须建在海岸上，且需要靠近陆地和一个港口。</Text>
 		</Replace>
+		<!--Combat units-->
+		<Replace Tag="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_NAME" Language="zh_Hans_CN">
+			<Text>分散阵型</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>防御远程攻击时+17 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_NAME" Language="zh_Hans_CN">
+			<Text>潜艇</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击区域防御时-17 [ICON_Strength] 战斗力。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

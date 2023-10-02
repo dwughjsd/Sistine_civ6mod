@@ -17,9 +17,64 @@
 			<Where UnitType="UNIT_CREE_OKIHTCITAW" />
 			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
 		</Update>
+		<!--Land Ranged-->
+		<Update>
+			<Where UnitType="UNIT_MACHINE_GUN" />
+			<Set Combat="65" RangedCombat="75" />
+		</Update>
+		<!--Land Recon-->
+		<Update>
+			<Where UnitType="UNIT_SKIRMISHER" />
+			<Set Combat="20" RangedCombat="25" Range="2" PrereqCivic="CIVIC_DEFENSIVE_TACTICS" PrereqTech=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RANGER" />
+			<Set Combat="50" RangedCombat="55" Range="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPEC_OPS" />
+			<Set Combat="65" RangedCombat="70" Range="2"/>
+		</Update>
+		<!--Land Anti-Cavalry-->
+		<!--Land Light Cavalry-->
+		<!--Land Heavy Cavalry-->
+		<!--Land Ranged Cavalry-->
+		<!--Land Siege-->
+		<!--Naval Melee-->
+		<Update>
+			<Where UnitType="UNIT_GALLEY" />
+			<Set Combat="25" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_DESTROYER" />
+			<Set BaseMoves="5" />
+		</Update>
+		<!--Naval Ranged-->
+		<Update>
+			<Where UnitType="UNIT_QUADRIREME" />
+			<Set Combat="25" RangedCombat="30" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BATTLESHIP" />
+			<Set Combat="65" RangedCombat="" Bombard="75"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MISSILE_CRUISER" />
+			<Set Combat="75" RangedCombat="" Bombard="85"/>
+		</Update>
+		<!--Naval Raid-->
+		<Update>
+			<Where UnitType="UNIT_SUBMARINE" />
+			<Set Combat="55" RangedCombat="85" BaseMoves="4"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NUCLEAR_SUBMARINE" />
+			<Set Combat="65" RangedCombat="95" />
+		</Update>
+		<!--Naval Carrier-->
 		<Update>
 			<Where UnitType="UNIT_AIRCRAFT_CARRIER" />
-			<Set RangedCombat="50" Range="6" />
+			<Set RangedCombat="50" Range="6" BaseMoves="4"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_BUILDER" />
@@ -180,4 +235,62 @@
 			<Set BaseProbability="16" />
 		</Update>
 	</UnitOperations>
+	<TypeTags>
+		<Delete Type="ABILITY_ANTI_SPEAR" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_RECON_DEFENSE_BONUS_VS_RANGED" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
+		<Row Type="UNIT_INCA_WARAKAQ" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
+		<Row Type="UNIT_RANGER" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
+		<Row Type="UNIT_SCOTTISH_HIGHLANDER" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
+		<Row Type="UNIT_SKIRMISHER" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
+		<Row Type="UNIT_SPEC_OPS" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
+		<Row Type="ABILITY_SUBMARINES_VS_DISTRICT_PENALTY" Tag="CLASS_SUBMARINES"/>
+		<Row Type="UNIT_SUBMARINE" Tag="CLASS_SUBMARINES"/>
+		<Row Type="UNIT_NUCLEAR_SUBMARINE" Tag="CLASS_SUBMARINES"/>
+	</TypeTags>
+	<Types>
+		<Row Type="ABILITY_RECON_DEFENSE_BONUS_VS_RANGED" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SUBMARINES_VS_DISTRICT_PENALTY" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_RECON_DEFENSE_BONUS_VS_RANGED" Name="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_NAME" Description="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SUBMARINES_VS_DISTRICT_PENALTY" Name="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_NAME" Description="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_RECON_DEFENSE_BONUS_VS_RANGED</UnitAbilityType>
+			<ModifierId>RECON_DEFENSE_BONUS_VS_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SUBMARINES_VS_DISTRICT_PENALTY</UnitAbilityType>
+			<ModifierId>SUBMARINES_VS_DISTRICT_PENALTY</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>RECON_DEFENSE_BONUS_VS_RANGED</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>TORTOISE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SUBMARINES_VS_DISTRICT_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ROLLING_BARRAGE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>RECON_DEFENSE_BONUS_VS_RANGED</ModifierId>
+			<Name>Amount</Name>
+			<Value>17</Value>
+		</Row>
+		<Row>
+			<ModifierId>SUBMARINES_VS_DISTRICT_PENALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-17</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="RECON_DEFENSE_BONUS_VS_RANGED" Context="Preview" Text="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_DESCRIPTION"/>
+		<Row ModifierId="SUBMARINES_VS_DISTRICT_PENALTY" Context="Preview" Text="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_DESCRIPTION"/>
+	</ModifierStrings>
 </GameData>

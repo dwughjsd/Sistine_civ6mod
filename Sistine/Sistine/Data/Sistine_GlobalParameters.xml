@@ -40,6 +40,9 @@
 		<Replace Name="RELIGION_SPREAD_HOLY_CITY_PRESSURE_MULTIPLIER" Value="8" />
 		<Replace Name="RELIGION_SPREAD_TRADE_ROUTE_PRESSURE_FOR_DESTINATION" Value="4.0" />
 		<Replace Name="RELIGION_SPREAD_TRADE_ROUTE_PRESSURE_FOR_ORIGIN" Value="2.0" />
+		<!--Warfare-->
+		<Replace Name="COMBAT_BOMBARD_VS_UNIT_STRENGTH_MODIFIER" Value="0" />
+		<Replace Name="COMBAT_RANGED_VS_DISTRICT_STRENGTH_MODIFIER" Value="0" />
 	</GlobalParameters>
 
 	<BarbarianTribes>
