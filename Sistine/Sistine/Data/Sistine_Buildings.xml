@@ -10,6 +10,10 @@
 	
 	<Buildings>
 		<!--City Center-->
+		<Update><Where BuildingType="BUILDING_WALLS" /><Set OuterDefenseHitPoints="50"/></Update>
+		<Update><Where BuildingType="BUILDING_CASTLE" /><Set OuterDefenseHitPoints="50"/></Update>
+		<Update><Where BuildingType="BUILDING_STAR_FORT" /><Set OuterDefenseHitPoints="50"/></Update>
+		<Update><Where BuildingType="BUILDING_TSIKHE" /><Set OuterDefenseHitPoints="100"/></Update>
 		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Description="LOC_BUILDING_GRANARY_DESCRIPTION_SST"/></Update>
 		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Housing="0" Maintenance="1"/></Update>
 		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC" Housing="3" Maintenance="2"/>
