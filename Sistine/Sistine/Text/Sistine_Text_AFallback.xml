@@ -471,5 +471,18 @@
 		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="en_US">
 			<Text>Receive [ICON_CivicBoosted] Inspirations to all Atomic and Information civics. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
 		</Replace>
+		<!--Combat units-->
+		<Replace Tag="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_NAME" Language="en_US">
+			<Text>Skirmisher</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_DESCRIPTION" Language="en_US">
+			<Text>+17 [ICON_Strength] Combat Strength when defending against ranged attacks.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_NAME" Language="en_US">
+			<Text>Submarine</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_DESCRIPTION" Language="en_US">
+			<Text>-17 [ICON_Strength] Combat Strength vs. district defenses.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
