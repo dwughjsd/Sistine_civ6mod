@@ -36,10 +36,82 @@
 			<Set Combat="65" RangedCombat="70" Range="2"/>
 		</Update>
 		<!--Land Anti-Cavalry-->
+		<Update>
+			<Where UnitType="UNIT_SPEARMAN" />
+			<Set Combat="22" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PIKEMAN" />
+			<Set Combat="42" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PIKE_AND_SHOT" />
+			<Set Combat="52" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AT_CREW" />
+			<Set Combat="72" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_AT" />
+			<Set Combat="82" />
+		</Update>
 		<!--Land Light Cavalry-->
+		<Update>
+			<Where UnitType="UNIT_HORSEMAN" />
+			<Set Combat="33" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_COURSER" />
+			<Set Combat="43" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CAVALRY" />
+			<Set Combat="63" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_HELICOPTER" />
+			<Set Combat="78" BaseMoves="5"/>
+		</Update>
 		<!--Land Heavy Cavalry-->
+		<Update>
+			<Where UnitType="UNIT_KNIGHT" />
+			<Set BaseMoves="3" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CUIRASSIER" />
+			<Set Combat="70" BaseMoves="3" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TANK" />
+			<Set Combat="80" BaseMoves="3" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_ARMOR" />
+			<Set Combat="90" BaseMoves="3"/>
+		</Update>
 		<!--Land Ranged Cavalry-->
 		<!--Land Siege-->
+		<Update>
+			<Where UnitType="UNIT_CATAPULT" />
+			<Set Combat="20" Bombard="25" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TREBUCHET" />
+			<Set Combat="30" Bombard="35" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBARD" />
+			<Set Combat="40" Bombard="45" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARTILLERY" />
+			<Set Bombard="70" Range="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ROCKET_ARTILLERY" />
+			<Set RangedCombat="85" />
+		</Update>
 		<!--Naval Melee-->
 		<Update>
 			<Where UnitType="UNIT_GALLEY" />
@@ -56,11 +128,11 @@
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_BATTLESHIP" />
-			<Set Combat="65" RangedCombat="" Bombard="75"/>
+			<Set Combat="65" RangedCombat="0" Bombard="75"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_MISSILE_CRUISER" />
-			<Set Combat="75" RangedCombat="" Bombard="85"/>
+			<Set Combat="75" RangedCombat="0" Bombard="85"/>
 		</Update>
 		<!--Naval Raid-->
 		<Update>
@@ -101,6 +173,21 @@
 			<Set CostProgressionParam1="15" />
 		</Update>
 	</Units>
+
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_FLIGHT_DECK</UnitPromotionType>
+			<ModifierId>EXPERT_MARKSMAN_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_HANGAR_DECK</UnitPromotionType>
+			<ModifierId>EXPERT_MARKSMAN_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_FOLDING_WINGS</UnitPromotionType>
+			<ModifierId>EXPERT_MARKSMAN_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
 
 	<TypeTags>
 		<Row Type="ABILITY_EXPERT_MARKSMAN" Tag="CLASS_NAVAL_CARRIER"/>
@@ -237,6 +324,10 @@
 	</UnitOperations>
 	<TypeTags>
 		<Delete Type="ABILITY_ANTI_SPEAR" Tag="CLASS_MELEE"/>
+		<Delete Type="ABILITY_HEAVY_CHARIOT" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Delete Type="ABILITY_RANGED_ATTACK_DISTRICT_DEBUFF" Tag="CLASS_RANGED"/>
+		<Delete Type="ABILITY_BOMBARD_ATTACK_UNIT_DEBUFF" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_HEAVY_CHARIOT" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="ABILITY_RECON_DEFENSE_BONUS_VS_RANGED" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
 		<Row Type="UNIT_INCA_WARAKAQ" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
 		<Row Type="UNIT_RANGER" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
@@ -246,14 +337,31 @@
 		<Row Type="ABILITY_SUBMARINES_VS_DISTRICT_PENALTY" Tag="CLASS_SUBMARINES"/>
 		<Row Type="UNIT_SUBMARINE" Tag="CLASS_SUBMARINES"/>
 		<Row Type="UNIT_NUCLEAR_SUBMARINE" Tag="CLASS_SUBMARINES"/>
+		<Row Type="ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY" Tag="CLASS_PRE_TANK_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_HEAVY_CHARIOT" Tag="CLASS_PRE_TANK_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_KNIGHT" Tag="CLASS_PRE_TANK_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_CUIRASSIER" Tag="CLASS_PRE_TANK_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_SIEGE_VS_DISTRICT_BONUS" Tag="CLASS_SIEGE"/>
 	</TypeTags>
+	<Tags>
+		<Row Tag="CLASS_SUBMARINES" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_PRE_TANK_HEAVY_CAVALRY" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_RECON_DEFENSE_VS_RANGED" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
 	<Types>
 		<Row Type="ABILITY_RECON_DEFENSE_BONUS_VS_RANGED" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_SUBMARINES_VS_DISTRICT_PENALTY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SIEGE_VS_DISTRICT_BONUS" Kind="KIND_ABILITY"/>
 	</Types>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_RECON_DEFENSE_BONUS_VS_RANGED" Name="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_NAME" Description="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_SUBMARINES_VS_DISTRICT_PENALTY" Name="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_NAME" Description="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS" Name="LOC_ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS_NAME" Description="LOC_ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY" Name="LOC_ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY_NAME" Description="LOC_ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SIEGE_VS_DISTRICT_BONUS" Name="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_NAME" Description="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row>
@@ -263,6 +371,18 @@
 		<Row>
 			<UnitAbilityType>ABILITY_SUBMARINES_VS_DISTRICT_PENALTY</UnitAbilityType>
 			<ModifierId>SUBMARINES_VS_DISTRICT_PENALTY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS</UnitAbilityType>
+			<ModifierId>LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY</UnitAbilityType>
+			<ModifierId>HEAVY_CAVALRY_DISTRICT_PENALTY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SIEGE_VS_DISTRICT_BONUS</UnitAbilityType>
+			<ModifierId>SIEGE_VS_DISTRICT_BONUS</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
@@ -276,6 +396,21 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>ROLLING_BARRAGE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>COURSERS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HEAVY_CAVALRY_DISTRICT_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>URBAN_RAIDER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SIEGE_VS_DISTRICT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SHELLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -288,9 +423,27 @@
 			<Name>Amount</Name>
 			<Value>-17</Value>
 		</Row>
+		<Row>
+			<ModifierId>LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>HEAVY_CAVALRY_DISTRICT_PENALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-7</Value>
+		</Row>
+		<Row>
+			<ModifierId>SIEGE_VS_DISTRICT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>17</Value>
+		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
 		<Row ModifierId="RECON_DEFENSE_BONUS_VS_RANGED" Context="Preview" Text="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_DESCRIPTION"/>
 		<Row ModifierId="SUBMARINES_VS_DISTRICT_PENALTY" Context="Preview" Text="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_DESCRIPTION"/>
+		<Row ModifierId="LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS" Context="Preview" Text="LOC_ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS_DESCRIPTION"/>
+		<Row ModifierId="HEAVY_CAVALRY_DISTRICT_PENALTY" Context="Preview" Text="LOC_ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY_DESCRIPTION"/>
+		<Row ModifierId="SIEGE_VS_DISTRICT_BONUS" Context="Preview" Text="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_DESCRIPTION"/>
 	</ModifierStrings>
 </GameData>

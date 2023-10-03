@@ -488,7 +488,7 @@
 		</Replace>
 		<!--Combat units-->
 		<Replace Tag="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_NAME" Language="zh_Hans_CN">
-			<Text>分散阵型</Text>
+			<Text>散兵</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>防御远程攻击时+17 [ICON_Strength] 战斗力。</Text>
@@ -499,5 +499,33 @@
 		<Replace Tag="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>攻击区域防御时-17 [ICON_Strength] 战斗力。</Text>
 		</Replace>
+		<Replace Tag="LOC_ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS_NAME" Language="zh_Hans_CN">
+			<Text>轻骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击远程和攻城单位时+7 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY_NAME" Language="zh_Hans_CN">
+			<Text>重骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在区域内战斗时-7 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_NAME" Language="zh_Hans_CN">
+			<Text>攻城</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击区域防御时+17 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1额外飞机槽位。{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
+		  </Replace>
+		  <Replace Tag="LOC_PROMOTION_HANGAR_DECK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1额外飞机槽位。{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
+		  </Replace>
+		  <Replace Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1额外飞机槽位。{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
+		  </Replace>
 	</LocalizedText>
 </GameData>
