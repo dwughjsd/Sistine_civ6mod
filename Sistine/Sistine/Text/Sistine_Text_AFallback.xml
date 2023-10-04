@@ -484,5 +484,33 @@
 		<Replace Tag="LOC_ABILITY_SUBMARINES_VS_DISTRICT_PENALTY_DESCRIPTION" Language="en_US">
 			<Text>-17 [ICON_Strength] Combat Strength vs. district defenses.</Text>
 		</Replace>
+		<Replace Tag="LOC_ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS_NAME" Language="en_US">
+			<Text>Light Cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LIGHT_CAVALRY_VS_RANGED_SIEGE_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when attacking ranged and siege units.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY_NAME" Language="en_US">
+			<Text>Heavy Cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY_DESCRIPTION" Language="en_US">
+			<Text>-7 [ICON_Strength] Combat Strength when fighting in a district.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_NAME" Language="en_US">
+			<Text>Siege</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+17 [ICON_Strength] Combat Strength when attacking district defenses.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION" Language="en_US">
+			<Text>+1 additional aircraft slot.{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
+		  </Replace>
+		  <Replace Tag="LOC_PROMOTION_HANGAR_DECK_DESCRIPTION" Language="en_US">
+			<Text>+1 additional aircraft slot.{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
+		  </Replace>
+		  <Replace Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION" Language="en_US">
+			<Text>+1 additional aircraft slot.{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
+		  </Replace>
 	</LocalizedText>
 </GameData>
