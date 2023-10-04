@@ -71,24 +71,28 @@
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_HELICOPTER" />
-			<Set Combat="78" BaseMoves="5"/>
+			<Set Combat="78" BaseMoves="5" StrategicResource="RESOURCE_OIL"/>
 		</Update>
 		<!--Land Heavy Cavalry-->
 		<Update>
+			<Where UnitType="UNIT_HEAVY_CHARIOT" />
+			<Set Combat="28" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_KNIGHT" />
-			<Set BaseMoves="3" />
+			<Set Combat="48" BaseMoves="3" />
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_CUIRASSIER" />
-			<Set Combat="70" BaseMoves="3" />
+			<Set Combat="68" BaseMoves="3" />
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_TANK" />
-			<Set Combat="80" BaseMoves="3" />
+			<Set Combat="78" BaseMoves="3" />
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_MODERN_ARMOR" />
-			<Set Combat="90" BaseMoves="3"/>
+			<Set Combat="88" BaseMoves="3" StrategicResource="RESOURCE_ALUMINUM"/>
 		</Update>
 		<!--Land Ranged Cavalry-->
 		<!--Land Siege-->
