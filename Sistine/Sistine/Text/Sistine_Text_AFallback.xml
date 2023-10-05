@@ -356,10 +356,10 @@
 			<Text>+2 [ICON_Amenities] Amenity, +3 [ICON_Housing] Housing, and +25% Growth in Cities with [ICON_Governor] Governors[NEWLINE]-2 Loyalty in Cities without [ICON_Governor] Governors.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
-			<Text>生产开拓者时 [ICON_Production] 生产力+25%。[NEWLINE]获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>25% increased [ICON_Production] Production toward Settlers in this city.[NEWLINE]Receive a free Settler and Builder.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="en_US">
-			<Text>25% increased [ICON_Production] Production toward Settlers in this city.[NEWLINE]Receive a free Settler and Builder.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+			<Text>A district placed once in your empire to commemorate your government choices. Provides +10% non-Food yields to this city, and an increase of +1 to the adjacency bonuses being earned by any adjacent district. Awards +1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<!--Districts-->
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="en_US">
