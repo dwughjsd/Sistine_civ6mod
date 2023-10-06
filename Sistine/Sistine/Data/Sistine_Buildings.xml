@@ -318,7 +318,7 @@
 		<Delete BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
-		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="1" /></Update>
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="2" /></Update>
 		<Delete BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
 		<Update><Where BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="1" /></Update>
 		<!--Campus-->

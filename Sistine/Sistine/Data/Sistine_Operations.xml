@@ -49,9 +49,9 @@
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_MELEE" MinNumber="2" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_RANGED" MinNumber="2" MaxNumber="8" MaxPercentage="40"/>
 		<Replace TeamName="City Attack Force" AiType="UNITAI_COMBAT" MinNumber="6" MaxNumber="16"/>
-		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE" MaxPercentage="20" MaxNumber="3"/>
+		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE" MaxNumber="3"/>
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_AIR_SIEGE" MinNumber="0" MaxNumber="3" />
-		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE_SUPPORT" AiTypeDependence="UNITTYPE_MELEE" MinNumber="0" MaxNumber="2" />
+		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE_SUPPORT" AiTypeDependence="UNITTYPE_MELEE" MinNumber="0" MaxNumber="1" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE_ALL" MinNumber="1"/>
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_CIVILIAN" MaxNumber="0" />

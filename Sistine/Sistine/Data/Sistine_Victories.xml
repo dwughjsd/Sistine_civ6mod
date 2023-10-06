@@ -55,15 +55,15 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_GENERAL" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="2.0" />
 		</Update>
 		<!--Trade!-->
 		<Update>
@@ -76,23 +76,24 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="2.5" />
 		</Update>
+		<!--Great artists GPP should be divided by 2 or AI will feel that it is VERY important. As now we have wonders to provide culture, Theaters are not that important-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="0.8" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="0.8" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="0.8" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
-			<Set DefaultValue="12.0" />
+			<Set DefaultValue="20.0" />
 		</Update>
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
@@ -101,7 +102,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
-			<Set DefaultValue="9.0" />
+			<Set DefaultValue="10.0" />
 		</Update>
 		<!--Much more important than spy-->
 		<Update>
@@ -110,7 +111,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
-			<Set DefaultValue="10.0" />
+			<Set DefaultValue="8.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_BASE" />
@@ -121,10 +122,6 @@
 			<Set DefaultValue="100" />
 		</Update>
 		<Update>
-			<Where PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" />
-			<Set DefaultValue="0.5" />
-		</Update>
-		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" />
 			<Set DefaultValue="15.0" />
 		</Update>
@@ -133,16 +130,20 @@
 			<Set DefaultValue="30" />
 		</Update>
 		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" />
+			<Set DefaultValue="0.6" />
+		</Update>
+		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_COMBAT" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.6" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.6" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.6" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SETTLER" />
@@ -154,11 +155,11 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
-			<Set DefaultValue="2" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
-			<Set DefaultValue="0.25" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_TOURISM" />
@@ -231,7 +232,54 @@
 		<Row StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryBuildings"/>
 	</Strategy_Priorities>
 
+	<PlotEvalConditions>
+		<Delete />
+		<Row ConditionType="Nearest Enemy City" Value="0" PoorTooltipString="LOC_PLACEHOLDER_BAD" GoodTooltipString="LOC_PLACEHOLDER_GOOD"/>
+		<Row ConditionType="Nearest Friendly City" Value="1" PoorValue="-50" GoodValue="-20" PoorTooltipString="LOC_SETTLEMENT_RECOMMENDATION_POOR_NEAREST_CITY" GoodTooltipString="LOC_SETTLEMENT_RECOMMENDATION_GOOD_NEAREST_CITY"/>
+		<Row ConditionType="New Resources" Value="2" PoorValue="0" GoodValue="4" PoorTooltipString="LOC_SETTLEMENT_RECOMMENDATION_POOR_NEW_RESOURCES" GoodTooltipString="LOC_SETTLEMENT_RECOMMENDATION_GOOD_NEW_RESOURCES"/>
+		<Row ConditionType="Inner Ring Yield" Value="3" PoorValue="24" GoodValue="36" PoorTooltipString="LOC_SETTLEMENT_RECOMMENDATION_POOR_INNER_YIELD" GoodTooltipString="LOC_SETTLEMENT_RECOMMENDATION_GOOD_INNER_YIELD"/>
+		<Row ConditionType="Total Yield" Value="4" PoorValue="30" GoodValue="50" PoorTooltipString="LOC_SETTLEMENT_RECOMMENDATION_POOR_TOTAL_YIELD" GoodTooltipString="LOC_SETTLEMENT_RECOMMENDATION_GOOD_TOTAL_YIELD"/>
+		<Row ConditionType="Coastal" Value="5" PoorValue="-1" GoodValue="10" PoorTooltipString="LOC_SETTLEMENT_RECOMMENDATION_POOR_COAST" GoodTooltipString="LOC_SETTLEMENT_RECOMMENDATION_GOOD_COAST"/>
+		<Row ConditionType="Fresh Water" Value="6" PoorValue="0" GoodValue="30" PoorTooltipString="LOC_SETTLEMENT_RECOMMENDATION_POOR_FRESH_WATER" GoodTooltipString="LOC_SETTLEMENT_RECOMMENDATION_GOOD_FRESH_WATER"/>
+		<Row ConditionType="Specific Resource" Value="7" PoorValue="-1" GoodValue="6" PoorTooltipString="LOC_SETTLEMENT_RECOMMENDATION_POOR_RESOURCES" GoodTooltipString="LOC_SETTLEMENT_RECOMMENDATION_GOOD_RESOURCES"/>
+		<Row ConditionType="Specific Feature" Value="8" PoorValue="-5" GoodValue="4" PoorTooltipString="LOC_SETTLEMENT_RECOMMENDATION_POOR_FEATURES" GoodTooltipString="LOC_SETTLEMENT_RECOMMENDATION_GOOD_FEATURES"/>
+		<Row ConditionType="Resource Class" Value="9" PoorValue="2" GoodValue="6" PoorTooltipString="LOC_SETTLEMENT_RECOMMENDATION_POOR_STRATEGIC_RESOURCES" GoodTooltipString="LOC_SETTLEMENT_RECOMMENDATION_GOOD_STRATEGIC_RESOURCES"/>
+		<Row ConditionType="Foreign Continent" Value="10" PoorValue="-2" GoodValue="50" PoorTooltipString="LOC_SETTLEMENT_RECOMMENDATION_POOR_FOREIGN_CONTINENT" GoodTooltipString="LOC_SETTLEMENT_RECOMMENDATION_GOOD_FOREIGN_CONTINENT"/>
+		<Row ConditionType="Cultural Pressure" Value="11"/>
+	</PlotEvalConditions>
+
 	<AiFavoredItems>
+		<Delete ListType="StandardSettlePlot" />
+		<Row ListType="StandardSettlePlot" Item="Total Yield" Favored="false" Value="2" StringVal="YIELD_PRODUCTION" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_TOTAL_YIELD"/>
+		<Row ListType="StandardSettlePlot" Item="Total Yield" Favored="false" Value="1" StringVal="YIELD_FOOD" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_TOTAL_YIELD"/>
+		<Row ListType="StandardSettlePlot" Item="Total Yield" Favored="false" Value="1" StringVal="YIELD_SCIENCE" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_TOTAL_YIELD"/>
+		<Row ListType="StandardSettlePlot" Item="Total Yield" Favored="false" Value="1" StringVal="YIELD_CULTURE" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_TOTAL_YIELD"/>
+		<Row ListType="StandardSettlePlot" Item="Total Yield" Favored="false" Value="1" StringVal="YIELD_FAITH" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_TOTAL_YIELD"/>
+		<Row ListType="StandardSettlePlot" Item="Inner Ring Yield" Favored="false" Value="3" StringVal="YIELD_FOOD" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_INNER_YIELD"/>
+		<Row ListType="StandardSettlePlot" Item="Inner Ring Yield" Favored="false" Value="2" StringVal="YIELD_PRODUCTION" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_INNER_YIELD"/>
+		<Row ListType="StandardSettlePlot" Item="Inner Ring Yield" Favored="false" Value="1" StringVal="YIELD_SCIENCE" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_INNER_YIELD"/>
+		<Row ListType="StandardSettlePlot" Item="Inner Ring Yield" Favored="false" Value="1" StringVal="YIELD_CULTURE" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_INNER_YIELD"/>
+		<Row ListType="StandardSettlePlot" Item="Inner Ring Yield" Favored="false" Value="1" StringVal="YIELD_FAITH" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_INNER_YIELD"/>
+		<Row ListType="StandardSettlePlot" Item="Fresh Water" Favored="false" Value="30" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_FRESH_WATER"/>
+		<!--Maya-->
+		<Delete ListType="MayanEmpire" Item="Fresh Water" Favored="false"/>
+		<Row ListType="MayanEmpire" Item="Fresh Water" Favored="false" Value="-30" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_FRESH_WATER"/>
+		
+		<Row ListType="StandardSettlePlot" Item="New Resources" Favored="false" Value="4" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_NEW_RESOURCES"/>
+		<Row ListType="StandardSettlePlot" Item="Coastal" Favored="false" Value="10" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_COAST"/>
+		<Row ListType="StandardSettlePlot" Item="Specific Resource" Favored="false" Value="3" StringVal="RESOURCE_HORSES" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_RESOURCES"/>
+		<Row ListType="StandardSettlePlot" Item="Specific Resource" Favored="false" Value="5" StringVal="RESOURCE_IRON" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_RESOURCES"/>
+		<Row ListType="StandardSettlePlot" Item="Specific Resource" Favored="false" Value="2" StringVal="RESOURCE_NITER" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_RESOURCES"/>
+		<Row ListType="StandardSettlePlot" Item="Resource Class" Favored="false" Value="2" StringVal="RESOURCECLASS_LUXURY" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_LUXURY_RESOURCES"/>
+		<Row ListType="StandardSettlePlot" Item="Resource Class" Favored="false" Value="2" StringVal="RESOURCECLASS_STRATEGIC" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_STRATEGIC_RESOURCES"/>
+		<Row ListType="StandardSettlePlot" Item="Specific Feature" Favored="false" Value="-5" StringVal="FEATURE_ICE" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_FEATURES"/>
+		<!-- HACK NOTE: If the specific feature is a natural wonder, that value will apply to all natural wonders. -->
+		<Row ListType="StandardSettlePlot" Item="Specific Feature" Favored="false" Value="4" StringVal="FEATURE_DEAD_SEA" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_FEATURES"/>
+		<Row ListType="StandardSettlePlot" Item="Foreign Continent" Favored="true" Value="-2" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_FOREIGN_CONTINENT"/>
+		<Row ListType="StandardSettlePlot" Item="Nearest Friendly City" Favored="false" Value="-10" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_NEAREST_CITY"/>
+		<Row ListType="StandardSettlePlot" Item="Cultural Pressure" Favored="false" Value="1"/>
+		<Row ListType="StandardSettlePlot" Item="Cultural Pressure" Favored="true" Value="-6"/>
+		
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_GOVERNMENT" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_FAITH" Favored="true"/>
@@ -321,6 +369,10 @@
 		<Delete ListType="AncientPseudoYields" Item="PSEUDOYIELD_DIPLOMATIC_FAVOR" Value="-100"/>
 		<Delete ListType="MedievalPseudoYields" Item="PSEUDOYIELD_DIPLOMATIC_FAVOR" Value="100"/>
 
+		<!--For wonder obsessed civs to build more wonders-->
+		<Row ListType="AncientPseudoYields" Item="PSEUDOYIELD_WONDER" Value="-50"/>
+
+
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="10"/>
@@ -375,6 +427,7 @@
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
+		
 		<!--No need to promote military academy. Build more Campus instead.-->
 		<Delete ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="50"/>
 		<Delete ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="50"/>
@@ -383,9 +436,7 @@
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
 		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER"/>
 		<Row ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
-		<Row ListType="AncientPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="25"/>
-		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-10"/>
-		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-10"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
 
@@ -397,6 +448,7 @@
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
+		
 		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies. No need to rush rocketry, but pursuing satellite can still be beneficial-->
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROCKETRY" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPUTERS" Favored="true" />
@@ -406,10 +458,7 @@
 		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
-		<!--Don't build these too much - which means let them build some at very first-->
-		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_AERODROME" Favored="false"/>
-		<Row ListType="IndustrialDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
-
+		
 		<!--AI is PRETTY BAD at achieving other types of victory-->
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>
 		<!--Maybe it can help AI to build more National Parks.-->

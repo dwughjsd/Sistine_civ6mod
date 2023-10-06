@@ -229,6 +229,8 @@
 			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL"/>
 			<Set PointsPerTurn="1" />
 		</Update>
+		<Delete DistrictType="DISTRICT_THEATER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/>
+		<Delete DistrictType="DISTRICT_ACROPOLIS" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/>
 	</District_GreatPersonPoints>
 	<District_TradeRouteYields>
 		<!--Specialty districts-->
