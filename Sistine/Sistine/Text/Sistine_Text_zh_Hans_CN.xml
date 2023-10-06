@@ -517,6 +517,9 @@
 		<Replace Tag="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>攻击区域防御时+17 [ICON_Strength] 战斗力。</Text>
 		</Replace>
+		<Replace Tag="LOC_PROMOTION_GARRISON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占领一个区域或一个提供 [ICON_Strength] 防御力的改良设施时，对战单位+10 [ICON_Strength] 战斗力。</Text>
+		</Replace>
 
 		<Replace Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+1额外飞机槽位。{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>

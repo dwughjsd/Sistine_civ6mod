@@ -450,4 +450,15 @@
 		<Row ModifierId="HEAVY_CAVALRY_DISTRICT_PENALTY" Context="Preview" Text="LOC_ABILITY_HEAVY_CAVALRY_DISTRICT_PENALTY_DESCRIPTION"/>
 		<Row ModifierId="SIEGE_VS_DISTRICT_BONUS" Context="Preview" Text="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_DESCRIPTION"/>
 	</ModifierStrings>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>GARRISON_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_IS_NOT_DISTRICT_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ARROW_STORM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_IS_NOT_DISTRICT_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 </GameData>
