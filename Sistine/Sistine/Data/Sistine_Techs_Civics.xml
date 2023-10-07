@@ -34,6 +34,10 @@
 			<Set Description="LOC_TECH_MILITARY_ENGINEERING_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
+			<Where TechnologyType="TECH_OFFWORLD_MISSION" />
+			<Set Description="LOC_TECH_OFFWORLD_MISSION_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_STEALTH_TECHNOLOGY" />
 			<Set Critical="0"/>
 		</Update>

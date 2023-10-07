@@ -172,14 +172,23 @@
 			<Text>寺庙为城市提供+10% [ICON_Science] 科技值，如城市没有大学则额外+15% [ICON_Science] 科技值。允许使用 [ICON_Faith] 信仰值购买学院建筑。</Text>
 		</Replace>
 		<!--Space Race Projects-->
+		<Replace Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME" Language="zh_Hans_CN" Text="组装系外行星探索飞船"/>
+		<Replace Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_4" Language="zh_Hans_CN" Text="组装系外行星探索飞船。"/>
+		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET" Language="zh_Hans_CN" Text="组装系外行星探索飞船"/>
+		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_DESCRIPTION" Language="zh_Hans_CN" Text="您的文明已组装系外行星探索飞船。"/>
+		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_FIRST_IN_WORLD" Language="zh_Hans_CN" Text="世界首个组装系外行星探索飞船"/>
+		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_FIRST_IN_WORLD_DESCRIPTION" Language="zh_Hans_CN" Text="您成为了世界上首个组装系外行星探索飞船的文明。"/>
 		<Replace Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_POPUP" Language="zh_Hans_CN">
-			<Text>您的播种飞船即将前往另一个星系！飞船每回合前进1光年，可通过其他项目加速。当飞船抵达后，您会赢得科技胜利。</Text>
+			<Text>您的播种飞船即将前往另一个星系！研究“地外任务”科技后，飞船每回合前进1光年，可通过其他项目加速。当飞船抵达后，您会赢得科技胜利。</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>太空竞赛项目，将以每回合1光年的速度驶于深空，将人类送往另一个星系。一旦抵达，您便赢得科技胜利。可通过其他项目加速。</Text>
+			<Text>太空竞赛项目，研究“地外任务”科技后，将以每回合1光年的速度驶于深空，将人类送往另一个星系。一旦抵达，您便赢得科技胜利。可通过其他项目加速。</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>太空竞赛项目，使您的系外行星探索提速1光年每回合，加快您的科技胜利速度。一位玩家最多可完成5次。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_OFFWORLD_MISSION_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>启动您的系外行星探索。</Text>
 		</Replace>
 		<!--Governments & Policies-->
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="zh_Hans_CN">

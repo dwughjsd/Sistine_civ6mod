@@ -10,17 +10,9 @@
 			<Where ProjectType="PROJECT_ORBITAL_LASER" />
 			<Set PrereqTech="TECH_SMART_MATERIALS" Cost="1200" MaxPlayerInstances="5"/>
 		</Update>
-		<Update>
-			<Where ProjectType="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" />
-			<Set PrereqTech="TECH_OFFWORLD_MISSION" />
-		</Update>
 	</Projects>
 	<ProjectPrereqs>
 		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER"/>
-		<Update>
-			<Where ProjectType="PROJECT_ORBITAL_LASER" />
-			<Set PrereqProjectType="PROJECT_LAUNCH_MARS_BASE"/>
-		</Update>
 	</ProjectPrereqs>
 	
 	<Project_ResourceCosts>
@@ -29,10 +21,6 @@
 
 	<ProjectPrereqs>
 		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER"/>
-		<Update>
-			<Where ProjectType="PROJECT_ORBITAL_LASER" />
-			<Set PrereqProjectType="PROJECT_LAUNCH_MARS_BASE"/>
-		</Update>
 	</ProjectPrereqs>
 
 	<ProjectCompletionModifiers>
@@ -43,10 +31,20 @@
 		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_SCIENCE_VP" />
 		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_REQUIRED_POWER" />
 		<Update>
+			<Where ModifierId="PROJECT_COMPLETION_EXOPLANET_SCIENCE_VP" />
+			<Set SubjectRequirementSetId="ISS_SPACESHIP_SPEED_REQUIREMENTS"/>
+		</Update>
+		<Update>
 			<Where ModifierId="PROJECT_COMPLETION_ORBITAL_LASER_SCIENCE_VP" />
 			<Set SubjectRequirementSetId="ISS_SPACESHIP_SPEED_REQUIREMENTS"/>
 		</Update>
 	</Modifiers>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="ISS_SPACESHIP_SPEED_REQUIREMENTS" RequirementId="REQUIRES_HAS_OFFWORLD_MISSION_TECH_SST" />
+	</RequirementSetRequirements>
+	
+	
 	<ModifierArguments>
 		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_SCIENCE_VP" />
 		<Delete ModifierId="PROJECT_COMPLETION_TERRESTRIAL_LASER_REQUIRED_POWER" />

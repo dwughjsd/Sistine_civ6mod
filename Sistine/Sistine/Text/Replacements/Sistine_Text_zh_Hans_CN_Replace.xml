@@ -244,8 +244,8 @@
 		<!--Projects-->
 		<Replace Tag="LOC_PROJECT_LAUNCH_MARS_BASE_NAME" Language="zh_Hans_CN" Text="发射火星殖民地"/>
 		<Replace Tag="LOC_PROJECT_LAUNCH_MARS_BASE_SHORT_NAME" Language="zh_Hans_CN" Text="发射火星殖民地"/>
-		<Replace Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME" Language="zh_Hans_CN" Text="启动系外行星探索"/>
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_NAME" Language="zh_Hans_CN" Text="发射拉格朗日点激光站"/>
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME" Language="zh_Hans_CN" Text="拉格朗日点激光站"/>
+		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_FIRST_IN_WORLD_INSTANCE_DESCRIPTION" Language="zh_Hans_CN" Text="{ActingPlayerCivName}的宇宙飞船缓缓远离地球引力，满载着人类、补给与希望，将要降落在遥远的世界。"/>
 	</LocalizedText>
 </GameData>

@@ -453,6 +453,10 @@
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
+			<RequirementId>REQUIRES_HAS_OFFWORLD_MISSION_TECH_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
 			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
 		</Row>
@@ -486,6 +490,11 @@
 		</Row>
 	</Requirements>
 	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_OFFWORLD_MISSION_TECH_SST</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_OFFWORLD_MISSION</Value>
+		</Row>
 		<Row>
 			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
 			<Name>CivicType</Name>
