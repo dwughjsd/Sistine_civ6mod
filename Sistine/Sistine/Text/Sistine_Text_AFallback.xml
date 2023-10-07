@@ -14,21 +14,9 @@
 		<Replace Tag="LOC_TECH_SATELLITES_DESCRIPTION_SST" Language="en_US">
 			<Text>Upgrades Farm improvements to Modern Agriculture. +1 [ICON_Food] Food Adjacency bonus for every Farm improvement they are adjacent to.</Text>
 		</Replace>
-		<!--Improvement update-->
-		<Replace Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION" Language="en_US">
-			<Text>Camp improvements receive +1 [ICON_Production] Production and +1 [ICON_Food] Food. </Text>
-		</Replace>
-		<!--
-		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="en_US">
-			<Text></Text>
-		</Replace>
-		-->
 		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_Movement] Movement for embarked units. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Production] Production for every 10 tiles they travel.</Text>
 		</Replace>
-		<!--<Replace Tag="LOC_TECH_ROCKETRY_DESCRIPTION" Language="en_US">
-			<Text></Text>
-		</Replace>-->
 		<Replace Tag="LOC_CIVIC_GUILDS_DESCRIPTION_SST" Language="en_US">
 			<Text>Quarry improvements receive +1 [ICON_Production] Production. Lumber Mills may be built on Rainforests.</Text>
 		</Replace>
@@ -56,9 +44,6 @@
 		<Replace Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct Pastures.[NEWLINE][NEWLINE]+1 [ICON_Food] Food. Can only be built on valid resources.[NEWLINE][NEWLINE]If built on Strategic resources, the city will gain use of that resource.</Text>
 		</Replace>
-		<!--<Replace Tag="LOC_TECH_SYNTHETIC_MATERIALS_DESCRIPTION" Language="en_US">
-			<Text></Text>
-		</Replace>-->
 		<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="en_US">
 			<Text>Awards 3 [ICON_Envoy] Envoys. Allows Builders to plant Woods (second-growth). Quarry improvements receive +1 [ICON_Production] Production. Pasture improvements receive +1 [ICON_Gold] Gold. Woods in your territory that have never been removed (old-growth) gain +1 Appeal. Receive [ICON_TOURISM] Tourism from Walls. +100% [ICON_Tourism] Tourism from National Parks.</Text>
 		</Replace>
@@ -68,9 +53,6 @@
 		<Replace Tag="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION_SST" Language="en_US">
 			<Text>+2 [ICON_Gold] Gold from Fishing Boats.</Text>
 		</Replace>
-		<!--<Replace Tag="LOC_TECH_PLASTICS_DESCRIPTION" Language="en_US">
-			<Text></Text>
-		</Replace>-->
 		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="en_US">
 			<Text>+1 [ICON_Food] Food from Fishing Boats.</Text>
 		</Replace>
@@ -328,6 +310,9 @@
 			<Text>Unlocks the Builder ability to construct Seaside Resorts.[NEWLINE][NEWLINE]Provides [ICON_Tourism] Tourism and [ICON_Gold] Gold equal to the tile's Appeal. Can only be built on Coastal Desert, Coastal Plains, or Coastal Grassland tiles. Minimum Appeal of Breathtaking.</Text>
 		</Replace>
 		<!--Improvements-->
+		<Replace Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION" Language="en_US">
+			<Text>Camp improvements receive +1 [ICON_Production] Production and +1 [ICON_Food] Food. </Text>
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct a Geothermal Plant.[NEWLINE][NEWLINE]+2 [ICON_Science] Science. +4 [ICON_Production] Production. Provides 4 [ICON_Power] Power per turn. Must be built on a Geothermal Fissure.</Text>
 		</Replace>
@@ -342,6 +327,12 @@
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct a Seastead.[NEWLINE][NEWLINE]+3 [ICON_Food] Food, +3 [ICON_Production] Production, and +3 [ICON_Culture] Culture. +1 [ICON_Production] Production for each adjacent Fishing Boats. Fishing Boats receive +1 [ICON_Production] Production for each adjacent Seastead. +1 [ICON_Culture] Culture and [ICON_Tourism] Tourism for every adjacent Reef. +1 [ICON_HOUSING] Housing. Must be built on Coast, Lake or Ocean terrain. Cannot be placed adjacent to another Seastead. </Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_OFFSHORE_OIL_RIG_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Offshore Oil Rig; other?Offshore Oil Rigs;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_OIL_WELL_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Oil Well; other?Oil Wells;}.</Text>
 		</Replace>
 		<!--Ages-->
 		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="en_US">
