@@ -819,6 +819,10 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Update>
+			<Where ModifierId="STEEL_UNLOCK_URBAN_DEFENSES" Name="DefenseValue"/>
+			<Set Value="200" />
+		</Update>
 		<Row>
 			<ModifierId>STEEL_URBAN_OUTERDEFENSE</ModifierId>
 			<Name>Amount</Name>
