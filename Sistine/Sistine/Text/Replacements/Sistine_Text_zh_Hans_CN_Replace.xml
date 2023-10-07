@@ -17,7 +17,6 @@
 		<Replace Tag="LOC_BUILDING_CASTLE_NAME" Language="zh_Hans_CN" Text="中古城墙"/>
 		<Replace Tag="LOC_BUILDING_STAR_FORT_NAME" Language="zh_Hans_CN" Text="启蒙城墙"/>
 		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_NAME" Language="zh_Hans_CN" Text="阿蒙森-斯科特研究站"/>
-
 		<!--Techs and civics-->
 		<Replace Tag="LOC_TECH_POTTERY_NAME" Language="zh_Hans_CN" Text="制陶"/>
 		<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_NAME" Language="zh_Hans_CN" Text="畜牧"/>
@@ -242,5 +241,11 @@
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN" Text="“百花齐放”黄金时代：[NEWLINE][ICON_CivicBoosted] 启发额外提供10%的市政开销。城市每拥有1处特色区域，则+1 [ICON_Culture] 文化值。"/>
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN" Text="“百花齐放”着力点加成：[NEWLINE]每次触发 [ICON_CivicBoosted] 启发+1时代得分。建成拥有巨作槽位的建筑+1时代得分。"/>
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="zh_Hans_CN" Text="{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE}"/>
+		<!--Projects-->
+		<Replace Tag="LOC_PROJECT_LAUNCH_MARS_BASE_NAME" Language="zh_Hans_CN" Text="发射火星殖民地"/>
+		<Replace Tag="LOC_PROJECT_LAUNCH_MARS_BASE_SHORT_NAME" Language="zh_Hans_CN" Text="发射火星殖民地"/>
+		<Replace Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME" Language="zh_Hans_CN" Text="启动系外行星探索"/>
+		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_NAME" Language="zh_Hans_CN" Text="发射拉格朗日点激光站"/>
+		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME" Language="zh_Hans_CN" Text="拉格朗日点激光站"/>
 	</LocalizedText>
 </GameData>
