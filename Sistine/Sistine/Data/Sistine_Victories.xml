@@ -141,9 +141,10 @@
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" />
 			<Set DefaultValue="0.6" />
 		</Update>
+		<!--Just don't waste production-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" />
-			<Set DefaultValue="0.6" />
+			<Set DefaultValue="0.25" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SETTLER" />
@@ -155,7 +156,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="2.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
@@ -197,9 +198,9 @@
 		<Row ListType="CultureVictoryBuildings"/>
 		<Row ListType="CultureVictoryDistricts"/>
 		<Row ListType="ReligiousVictoryBuildings"/>
-		<Row ListType="MilitaryVictoryBuildings"/>		
-		
+		<Row ListType="MilitaryVictoryBuildings"/>
 	</AiListTypes>
+	
 	<AiLists>
 		<Row ListType="DefaultTechsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Technologies"/>
 		<Row ListType="DefaultTechsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Technologies"/>
@@ -324,7 +325,6 @@
 
 		<!--For wonder obsessed civs to build more wonders-->
 		<Row ListType="AncientPseudoYields" Item="PSEUDOYIELD_WONDER" Value="-50"/>
-
 
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="30"/>
