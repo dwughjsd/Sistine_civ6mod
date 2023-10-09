@@ -261,7 +261,8 @@
 		<Row ListType="DefaultTechsSST" Item="TECH_EDUCATION" Favored="true" />
 		<Row ListType="DefaultTechsSST" Item="TECH_STIRRUPS" Favored="true" />
 		<Row ListType="DefaultTechsSST" Item="TECH_MILITARY_ENGINEERING" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_INDUSTRIALIZATION" Favored="true" />
+		<!--Somewhat balance AI tech choices to make them faster to acquire new units-->
+		<Row ListType="DefaultTechsSST" Item="TECH_BALLISTICS" Favored="true" />
 		<Row ListType="DefaultTechsSST" Item="TECH_SCIENTIFIC_THEORY" Favored="true" />
 		<Row ListType="DefaultTechsSST" Item="TECH_COMPUTERS" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true" />
