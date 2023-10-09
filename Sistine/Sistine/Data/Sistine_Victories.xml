@@ -199,6 +199,7 @@
 		<Row ListType="CultureVictoryDistricts"/>
 		<Row ListType="ReligiousVictoryBuildings"/>
 		<Row ListType="MilitaryVictoryBuildings"/>
+		<Row ListType="MilitaryVictoryDistricts"/>
 	</AiListTypes>
 	
 	<AiLists>
@@ -218,6 +219,7 @@
 		<Row ListType="CultureVictoryDistricts" System="Districts"/>
 		<Row ListType="ReligiousVictoryBuildings" System="Buildings"/>
 		<Row ListType="MilitaryVictoryBuildings" System="Buildings"/>
+		<Row ListType="MilitaryVictoryDistricts" System="Districts"/>
 	</AiLists>
 
 	<Strategy_Priorities>
@@ -231,6 +233,7 @@
 		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ListType="CultureVictoryDistricts"/>
 		<Row StrategyType="VICTORY_STRATEGY_RELIGIOUS_VICTORY" ListType="ReligiousVictoryBuildings"/>
 		<Row StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryBuildings"/>
+		<Row StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryDistricts"/>
 	</Strategy_Priorities>
 
 	<AiFavoredItems>		
@@ -245,10 +248,6 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
 
-		<!--<Row ListType="ClassicalDistricts" Item="DISTRICT_DIPLOMATIC_QUARTER" Favored="true"/>
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_CONSULATE" Favored="true"/>
-		<Row ListType="IndustrialBuildings" Item="BUILDING_CHANCERY" Favored="true"/>-->
-		<!--HORSES!-->
 		<Row ListType="DefaultTechsSST" Item="TECH_ANIMAL_HUSBANDRY" Favored="true" />
 		<Row ListType="DefaultTechsSST" Item="TECH_APPRENTICESHIP" Favored="true" />
 		<Row ListType="DefaultTechsSST" Item="TECH_EDUCATION" Favored="true" />
@@ -413,10 +412,12 @@
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
 		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_MANUFACTURING_PLANT" Favored="true"/>
 		
-		<!--AI is PRETTY BAD at achieving other types of victory-->
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>
-		<!--Maybe it can help AI to build more National Parks.-->
 		<Row ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
+		<Row ListType="CultureVictoryDistricts" Item="DISTRICT_THEATER" Favored="true"/>
+		<Row ListType="CultureVictoryDistricts" Item="DISTRICT_AERODROME" Favored="true"/>
+		<Row ListType="CultureVictoryBuildings" Item="BUILDING_HANGAR" Favored="true"/>
+		<Row ListType="CultureVictoryBuildings" Item="BUILDING_AIRPORT" Favored="true"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_LANDSCAPE" Value="100"/>
@@ -425,7 +426,6 @@
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_WRITING" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_MUSIC" Value="100"/>
 
-		<!--Also Conquest Victory-->
 		<Delete ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_CITY_DEFENSES" Value="-25"/>
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_CITY_BASE" Value="200"/>
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" Value="150"/>
@@ -433,6 +433,13 @@
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_COMBAT" Value="10"/>
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_NAVAL_COMBAT" Value="10"/>
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="10"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="200"/>
+		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="100"/>
+		<Row ListType="MilitaryVictoryDistricts" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
+		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_STABLE" Favored="true"/>
+		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_BARRACKS" Favored="true"/>
+		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_ARMORY" Favored="true"/>
 		<Delete ListType="MilitaryVictoryYields" Item="YIELD_PRODUCTION" Value="25"/>
+		<Row ListType="MilitaryVictoryYields" Item="YIELD_PRODUCTION" Value="10"/>
 	</AiFavoredItems>
 </GameData>
