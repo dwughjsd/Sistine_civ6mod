@@ -9,6 +9,10 @@
 			<Where StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" />
 			<Set NumConditionsNeeded="2" />
 		</Update>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" />
+			<Set NumConditionsNeeded="2" />
+		</Update>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" NumConditionsNeeded="4"/>
 	</Strategies>
 
@@ -32,6 +36,10 @@
 		</Update>
 		<Update>
 			<Where StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Great Works"/>
+			<Set ThresholdValue="10" />
+		</Update>
+		<Update>
+			<Where StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ConditionFunction="Leads Military"/>
 			<Set ThresholdValue="10" />
 		</Update>
 		<Delete StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Tourists Taken" ThresholdValue="75" Exclusive="true"/>
