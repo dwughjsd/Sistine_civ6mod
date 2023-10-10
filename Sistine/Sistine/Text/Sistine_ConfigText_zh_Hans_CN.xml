@@ -156,5 +156,72 @@
 		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造埃及特色狮身人面像的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值、+1 [ICON_Culture] 文化值。+2魅力。如果与奇观相邻，+2 [ICON_Faith] 信仰值。如建在泛滥平原上，+1 [ICON_CULTURE] 文化值。获得“殖民主义”市政后将产出更多 [ICON_CULTURE] 文化值。研究完“飞行”后其将提供 [ICON_TOURISM] 旅游业绩。无法建在另一个狮身人面像旁。无法建在雪地或雪地丘陵上。</Text>
 		</Replace>
+		<!--Natural Wonders-->
+		<Replace Tag="LOC_FEATURE_KILIMANJARO_XP2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地1单元格的不可通行自然奇观。视为火山，为相邻单元格+3 [ICON_Food] 食物。喷发时提供少量产出，最有可能破坏建筑与区域。不常喷发，但始终处于活跃状态。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_PANTANAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地4单元格的自然奇观。提供+3 [ICON_Food] 食物、+1 [ICON_Production] 生产力及+2 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_LYSEFJORDEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地3单元格的不可通行自然奇观。移动到相邻单元格的海军战斗单位获得一次晋升。为相邻单元格+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的不可通行自然奇观。移动到相邻单元格的陆地战斗单位获得“巨人之矛”能力（+5 [ICON_Strength] 战斗力）。为相邻单元格+1 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_CHOCOLATEHILLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地4单元格的自然奇观。提供+2 [ICON_Food] 食物、+3 [ICON_Production] 生产力、+1 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_CRATER_LAKE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地1单元格的自然奇观。视为湖泊，提供+5 [ICON_Faith] 信仰值、+3 [ICON_Science] 科技值，以及淡水。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DEAD_SEA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的自然奇观。视为湖泊，提供+2 [ICON_Faith] 信仰值及+4 [ICON_Culture] 文化值。与死海相邻的单位驻扎一回合即可完全恢复生命值。不提供淡水。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DELICATE_ARCH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地1单元格的不可通行自然奇观。为相邻单元格+2 [ICON_Production] 生产力、+2 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_EYE_OF_THE_SAHARA_XP2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地3单元格的自然奇观。+4 [ICON_PRODUCTION] 生产力、+1 [ICON_SCIENCE] 科技值。游戏进入工业时代后额外+1 [ICON_PRODUCTION] 生产力、+2 [ICON_SCIENCE] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GOBUSTAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地3单元格的自然奇观。提供+4 [ICON_CULTURE] 文化值与+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_BARRIER_REEF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的自然奇观，可在海岸地形发现，提供+4 [ICON_Food] 食物、+2 [ICON_Science] 科技值。向学院区域提供大量相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_HA_LONG_BAY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的自然奇观，可在海岸地形发现，提供+3 [ICON_FOOD] 食物、+2 [ICON_PRODUCTION] 生产力、+1 [ICON_CULTURE] 文化。在本单元格防御时+15 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_LAKE_RETBA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的自然奇观。视为湖泊，提供+3 [ICON_CULTURE] 文化值、+2 [ICON_GOLD] 金币、+2 [ICON_PRODUCTION] 生产力。不提供淡水。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DEVILSTOWER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地1单元格的不可通行自然奇观。为相邻单元格+2 [ICON_FAITH] 信仰值、+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MATTERHORN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地1单元格的不可通行自然奇观。为相邻单元格+2 [ICON_CULTURE] 文化值。陆地战斗单位移动到马特洪峰旁即可在本局游戏的余下时间中无视丘陵并在丘陵作战时+3 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_VESUVIUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地1单元格的不可通行自然奇观。视为火山，为相邻单元格+2 [ICON_Production] 生产力。喷发时为相邻单元格提供大量产出，但会造成大量 [ICON_Citizen] 人口损失。始终处于活跃状态。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_PAITITI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地3单元格的不可通行自然奇观。为相邻单元格+1 [ICON_Gold] 金币、+1 [ICON_Culture] 文化值。如城市拥有奇观单元格，其发起的国际 [ICON_TradeRoute] 贸易路线提供+4 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_PAMUKKALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的不可通行自然奇观。+2 [ICON_AMENITIES] 宜居度。如果与娱乐中心相邻，额外提供1点 [ICON_AMENITIES] 宜居度。向剧院广场、学院及商业中心提供大量相邻加成。向圣地提供标准相邻加成。提供淡水。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_WHITEDESERT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地4单元格的自然奇观。提供+2 [ICON_SCIENCE] 科技值、+2 [ICON_Culture] 文化值及+4 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_TSINGY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地1单元格的不可通行自然奇观。为相邻单元格+1 [ICON_Culture] 文化值、+2 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地4单元格的自然奇观。提供+2 [ICON_FAITH] 信仰值、+2 [ICON_FOOD] 食物、+2 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_ZHANGYE_DANXIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地3单元格的不可通行自然奇观。为相邻单元格+2 [ICON_Culture] 文化值。若您拥有这些单元格的至少一个，提供2点 [ICON_GREATGENERAL] 大将军点数和2点 [ICON_GREATMERCHANT] 大商人点数。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

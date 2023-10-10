@@ -526,15 +526,14 @@
 		<Replace Tag="LOC_PROMOTION_GARRISON_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>占领一个区域或一个提供 [ICON_Strength] 防御力的改良设施时，对战单位+10 [ICON_Strength] 战斗力。</Text>
 		</Replace>
-
 		<Replace Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+1额外飞机槽位。{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
-		  </Replace>
-		  <Replace Tag="LOC_PROMOTION_HANGAR_DECK_DESCRIPTION" Language="zh_Hans_CN">
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HANGAR_DECK_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+1额外飞机槽位。{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
-		  </Replace>
-		  <Replace Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION" Language="zh_Hans_CN">
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+1额外飞机槽位。{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
-		  </Replace>
+		</Replace>
 	</LocalizedText>
 </GameData>
