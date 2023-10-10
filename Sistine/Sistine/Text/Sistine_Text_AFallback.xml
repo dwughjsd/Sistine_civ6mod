@@ -62,7 +62,7 @@
 		<Replace Tag="LOC_TECH_SMART_MATERIALS_DESCRIPTION" Language="en_US">
 			<Text>+1 Production [ICON_Production] from Mines. Unlocks Giant Death Robot upgrade: Reinforced Armor Plating[NEWLINE]+10 [ICON_Strength] Combat Strength when defending against land and naval units.</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST" Language="zh_Hans_CN">
+		<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST" Language="en_US">
 			<Text>+1 Production to Mines.</Text>
 		</Replace>
 		<!--Gold reform-->
@@ -174,6 +174,9 @@
 		<!--Space Race Projects-->
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION" Language="en_US">
 			<Text>Space Race project which speeds up your Exoplanet Expedition by +1 Light Year per turn, accelerating your progress towards a Science Victory. Can be completed up to 5 times.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_OFFWORLD_MISSION_DESCRIPTION_SST" Language="en_US">
+			<Text>Starts your Exoplanet Expedition.</Text>
 		</Replace>
 		<!--Governments & Policies-->
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="en_US">
