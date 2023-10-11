@@ -496,15 +496,14 @@
 		<Replace Tag="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_DESCRIPTION" Language="en_US">
 			<Text>+17 [ICON_Strength] Combat Strength when attacking district defenses.</Text>
 		</Replace>
-
 		<Replace Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION" Language="en_US">
 			<Text>+1 additional aircraft slot.{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
-		  </Replace>
-		  <Replace Tag="LOC_PROMOTION_HANGAR_DECK_DESCRIPTION" Language="en_US">
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HANGAR_DECK_DESCRIPTION" Language="en_US">
 			<Text>+1 additional aircraft slot.{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
-		  </Replace>
-		  <Replace Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION" Language="en_US">
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION" Language="en_US">
 			<Text>+1 additional aircraft slot.{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
-		  </Replace>
+		</Replace>
 	</LocalizedText>
 </GameData>
