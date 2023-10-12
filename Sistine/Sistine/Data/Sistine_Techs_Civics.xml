@@ -787,6 +787,10 @@
 	</DynamicModifiers>
 	<Modifiers>
 		<Row>
+			<ModifierId>CITY_INNER_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_REAL_PLAYER_CITIES_ADJUST_INNER_DEFENSE</ModifierType>
+		</Row>
+		<Row>
 			<ModifierId>STEEL_URBAN_OUTERDEFENSE</ModifierId>
 			<ModifierType>MODIFIER_REAL_PLAYER_CITIES_ADJUST_INNER_DEFENSE</ModifierType>
 		</Row>
@@ -823,10 +827,11 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
-		<Update>
-			<Where ModifierId="STEEL_UNLOCK_URBAN_DEFENSES" Name="DefenseValue"/>
-			<Set Value="200" />
-		</Update>
+		<Row>
+			<ModifierId>CITY_INNER_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
 		<Row>
 			<ModifierId>STEEL_URBAN_OUTERDEFENSE</ModifierId>
 			<Name>Amount</Name>

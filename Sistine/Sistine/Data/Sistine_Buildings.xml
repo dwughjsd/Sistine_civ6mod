@@ -10,10 +10,6 @@
 	
 	<Buildings>
 		<!--City Center-->
-		<Update><Where BuildingType="BUILDING_WALLS" /><Set OuterDefenseHitPoints="50"/></Update>
-		<Update><Where BuildingType="BUILDING_CASTLE" /><Set OuterDefenseHitPoints="50"/></Update>
-		<Update><Where BuildingType="BUILDING_STAR_FORT" /><Set OuterDefenseHitPoints="50"/></Update>
-		<Update><Where BuildingType="BUILDING_TSIKHE" /><Set OuterDefenseHitPoints="100"/></Update>
 		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Description="LOC_BUILDING_GRANARY_DESCRIPTION_SST"/></Update>
 		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Housing="0" Maintenance="1"/></Update>
 		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC" Housing="3" Maintenance="2"/>
@@ -357,6 +353,7 @@
 	</Building_TourismBombs_XP2>
 	
 	<GameModifiers>
+		<Row ModifierId="CITY_INNER_DEFENCE_ATTACH"/>
 		<!--Theater Square-->
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH"/>
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH"/>
@@ -366,6 +363,7 @@
 	</GameModifiers>
 	
 	<Modifiers>
+		<Row ModifierId="CITY_INNER_DEFENCE_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
 		<!--Theater Square-->
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
@@ -378,6 +376,7 @@
 	</Modifiers>
 	
 	<ModifierArguments>
+		<Row ModifierId="CITY_INNER_DEFENCE_ATTACH" Name="ModifierId" Value="CITY_INNER_DEFENSE"/>
 		<!--Theater Square-->
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER"/>
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART"/>
@@ -536,21 +535,14 @@
 	<!--Government Plaza-->
 	<BuildingModifiers>
 		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_LOYALTY_DEBUFF" />
-		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_HOUSING_BUFF" />
-		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_HOUSING_BUFF_SST" />
-		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_SST" />
+		<!--<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_SST" />-->
 		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_GRANT_BUILDER" />
 		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_COST_REDUCTION" />
 		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_PRODUCTION_SST" />
-		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="PYRAMID_GRANT_BUILDERS" />
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_GRANT_BUILDERS_SST" />
 		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_GRANT_SETTLER_SST" />
 	</BuildingModifiers>
 	<Modifiers>
-		<Row ModifierId="GOV_TALL_HOUSING_BUFF_SST"
-			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING"
-			SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"
-		/>
-
 		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST"
 			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH"
 			SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"
@@ -558,6 +550,11 @@
 
 		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
 			ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION"
+		/>
+		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
+			ModifierType="MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY"
+			RunOnce="true"
+			Permanent="true"
 		/>
 		<Row ModifierId="GOV_GRANT_SETTLER_SST"
 			ModifierType="MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY"
@@ -567,10 +564,6 @@
 	</Modifiers>
 
 	<ModifierArguments>
-		<Row ModifierId="GOV_TALL_HOUSING_BUFF_SST"
-			Name="Amount"
-			Value="3"
-		/>
 		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST"
 			Name="Amount"
 			Value="25"
@@ -581,7 +574,15 @@
 		/>
 		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
 			Name="Amount"
-			Value="25"
+			Value="50"
+		/>
+		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
+			Name="UnitType"
+			Value="UNIT_BUILDER"
+		/>
+		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
+			Name="Amount"
+			Value="2"
 		/>
 		<Row ModifierId="GOV_GRANT_SETTLER_SST"
 			Name="UnitType"

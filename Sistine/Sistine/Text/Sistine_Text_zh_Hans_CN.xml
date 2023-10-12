@@ -198,7 +198,7 @@
 			<Text>建设奇观时+10% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST" Language="zh_Hans_CN">
-			<Text>陆地近战、远程和抗骑兵单位+4 [ICON_Strength] 战斗力。击杀单位时可获得等于其 [ICON_Strength] 战斗力50%的 [ICON_Culture] 文化值。</Text>
+			<Text>陆地近战、反骑兵和海军近战单位+4 [ICON_Strength] 战斗力。击杀单位时可获得等于其 [ICON_Strength] 战斗力50%的 [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST" Language="zh_Hans_CN">
 			<Text>单位经验值+50%。</Text>
@@ -368,10 +368,10 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Amenities] 宜居度、+3 [ICON_Housing] 住房，+25%人口增长速度。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>生产开拓者时 [ICON_Production] 生产力+25%。[NEWLINE]获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>生产开拓者时 [ICON_Production] 生产力+50%。[NEWLINE]获得1个免费的开拓者和2个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>用于纪念您的政体选择，仅能在您的帝国中建造一次的区域。此城市的非食物产出+10%。使相邻区域获得的相邻加成+1。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>

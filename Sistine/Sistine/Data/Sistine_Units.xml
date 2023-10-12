@@ -158,7 +158,7 @@
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_BUILDER" />
-			<Set Cost="40" CostProgressionParam1="10" />
+			<Set Cost="40" CostProgressionParam1="8" />
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_SETTLER" />

@@ -186,7 +186,7 @@
 			<Text>+10% Production toward Wonders.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST" Language="en_US">
-			<Text>Land melee, ranged and anti-cavalry units gain +4 [ICON_Strength] Combat Strength. Combat victories provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+			<Text>Land melee, anti-cavalry and naval melee units gain +4 [ICON_Strength] Combat Strength. Combat victories provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST" Language="en_US">
 			<Text>+50% Unit Experience.</Text>
@@ -347,10 +347,10 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Amenities] Amenity, +3 [ICON_Housing] Housing, and +25% Growth in Cities with [ICON_Governor] Governors[NEWLINE]-2 Loyalty in Cities without [ICON_Governor] Governors.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+			<Text>+2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in Cities with [ICON_Governor] Governors.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
-			<Text>25% increased [ICON_Production] Production toward Settlers in this city.[NEWLINE]Receive a free Settler and Builder.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+			<Text>50% increased [ICON_Production] Production toward Settlers.[NEWLINE]Receive a free Settler and 2 Builders.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="en_US">
 			<Text>A district placed once in your empire to commemorate your government choices. Provides +10% non-Food yields to this city, and an increase of +1 to the adjacency bonuses being earned by any adjacent district. Awards +1 [Icon_Governor] Governor Title.</Text>

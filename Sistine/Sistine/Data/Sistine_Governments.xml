@@ -1244,10 +1244,10 @@
 		<Delete PolicyType="POLICY_COLLECTIVIZATION" GovernmentType="GOVERNMENT_COMMUNISM" />
 		<Delete PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" GovernmentType="GOVERNMENT_COMMUNISM" />
 	</Policy_GovernmentExclusives_XP2>
-	<TypeTags>
+	<!--<TypeTags>
 		<Delete Type="ABILITY_OLIGARCHY_MELEE_BUFF" Tag="CLASS_NAVAL_MELEE" />
 		<Delete Type="ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF" Tag="CLASS_NAVAL_MELEE" />
 		<Row Type="ABILITY_OLIGARCHY_MELEE_BUFF" Tag="CLASS_RANGED" />
 		<Row Type="ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF" Tag="CLASS_RANGED" />
-	</TypeTags>
+	</TypeTags>-->
 </GameInfo>
