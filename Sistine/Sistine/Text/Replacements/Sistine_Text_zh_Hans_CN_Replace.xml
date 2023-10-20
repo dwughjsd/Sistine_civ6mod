@@ -126,7 +126,7 @@
 		<Replace Tag="LOC_UNIT_PHOENICIA_BIREME_NAME" Language="zh_Hans_CN" Text="双列桨战船"/>
 		<Replace Tag="LOC_UNIT_SWEDEN_CAROLEAN_NAME" Language="zh_Hans_CN" Text="卡尔军团"/>
 		<Replace Tag="LOC_UNIT_LAHORE_NIHANG_NAME" Language="zh_Hans_CN" Text="尼昂战士"/>
-		<Replace Tag="LOC_UNIT_COMANDANTE_GENERAL_NAME" Language="zh_Hans_CN" Text="解放者司令"/>
+		<Replace Tag="LOC_UNIT_COMANDANTE_GENERAL_NAME" Language="zh_Hans_CN" Text="总司令"/>
 		<Replace Tag="LOC_UNIT_COLOMBIAN_LLANERO_NAME" Language="zh_Hans_CN" Text="亚诺斯牧民军"/>
 		<Replace Tag="LOC_UNIT_BYZANTINE_DROMON_NAME" Language="zh_Hans_CN" Text="德罗蒙战舰"/>
 		<Replace Tag="LOC_UNIT_BYZANTINE_TAGMA_NAME" Language="zh_Hans_CN" Text="拜占庭皇家近卫军"/>
