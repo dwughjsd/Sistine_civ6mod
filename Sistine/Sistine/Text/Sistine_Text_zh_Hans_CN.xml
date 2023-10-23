@@ -561,7 +561,7 @@
 			<Text>随机奖励2项免费科技。触发“数学”的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE" Language="zh_Hans_CN">
-			<Text>受伤陆地单位每回合恢复生命值+10。</Text>
+			<Text>获得2个 [ICON_TechBoosted] 尤里卡。受伤陆地单位每回合恢复生命值+10。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FAITH_INTO_SCIENCE_SST" Language="zh_Hans_CN">
 			<Text>每回合获得等同于城市所产生 [ICON_FAITH] 信仰值15%的 [ICON_SCIENCE] 科技值。</Text>
