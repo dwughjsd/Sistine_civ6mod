@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-
+		<!--Natural Wonders-->
+		<Replace Tag="LOC_UI_PEDIA_TERRAIN_IMPASSABLE" Language="zh_Hans_CN" Text="不可通行"/>
+		<Replace Tag="LOC_FEATURE_PIOPIOTAHI_NAME" Language="zh_Hans_CN" Text="皮奥皮奥塔希"/>
+		<Replace Tag="LOC_FEATURE_TORRES_DEL_PAINE_NAME" Language="zh_Hans_CN" Text="托雷德裴恩山"/>
+		<Replace Tag="LOC_FEATURE_TSINGY_NAME" Language="zh_Hans_CN" Text="黥基·德·贝马拉哈石林"/>
+		<Replace Tag="LOC_FEATURE_YOSEMITE_NAME" Language="zh_Hans_CN" Text="约塞米蒂"/>
+		<Replace Tag="LOC_FEATURE_ULURU_NAME" Language="zh_Hans_CN" Text="乌鲁鲁"/>
+		<Replace Tag="LOC_FEATURE_GOBUSTAN_NAME" Language="zh_Hans_CN" Text="戈布斯坦"/>
+		<Replace Tag="LOC_FEATURE_IKKIL_NAME" Language="zh_Hans_CN" Text="伊克·基尔天坑"/>
+		<Replace Tag="LOC_FEATURE_PAMUKKALE_NAME" Language="zh_Hans_CN" Text="帕穆卡莱"/>
+		<Replace Tag="LOC_FEATURE_BERMUDA_TRIANGLE_NAME" Language="zh_Hans_CN" Text="百慕大三角"/>
+		<Replace Tag="LOC_FEATURE_GALAPAGOS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的不可通行自然奇观。视为海岸，为相邻单元格+2 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_PIOPIOTAHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地3单元格的不可通行自然奇观。为相邻单元格+1 [ICON_Culture] 文化值及+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_BERMUDA_TRIANGLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地3单元格的自然奇观。为相邻单元格+5 [ICON_Science] 科技值。进入此奇观的单位将被传送到远方的海洋单元格，而如此做的海军单位将获得能力“谜之暗流”（+1 [ICON_Movement] 移动力）。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_CLIFFS_DOVER_XP2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的自然奇观。伴随水域旁的悬崖出现，提供+3 [ICON_Culture] 文化值、+2 [ICON_Food] 食物、+3 [ICON_Gold] 金币。为相邻单元格+4魅力（而非常见的+2）。无法在其上放置改良设施。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_EVEREST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地3单元格的不可通行自然奇观。为相邻单元格+1 [ICON_Faith] 信仰值。移动到珠穆朗玛峰旁的宗教单位可在本局游戏的余下时间中无视丘陵。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_TORRES_DEL_PAINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的不可通行自然奇观。所有相邻单元格的地形产出翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_YOSEMITE_XP2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的不可通行自然奇观。为相邻单元格+1 [ICON_Gold] 金币、+1 [ICON_Food] 食物、+1 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地2单元格的不可通行自然奇观。视为火山，提供+1 [ICON_Culture] 文化值、+1 [ICON_Food] 食物。喷发时提供中量产出，最有可能破坏建筑与区域。不常喷发，但始终处于活跃状态。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_ULURU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地1单元格的不可通行自然奇观。为相邻单元格+2 [ICON_CULTURE] 文化值、+2 [ICON_FAITH] 信仰值。为相邻单元格+4魅力（而非常见的+2）。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_RORAIMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地4单元格的不可通行自然奇观。为相邻单元格+1 [ICON_FAITH] 信仰值、+1 [ICON_SCIENCE] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_IKKIL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地1单元格的不可通行自然奇观。在相邻单元格建造奇观与区域时+50% [ICON_Production] 生产力。提供淡水。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占地1单元格的自然奇观。提供+4 [ICON_Science] 科技值、+4 [ICON_Faith] 信仰值，以及淡水。进入此奇观的陆地战斗单位获得“生命之水”能力（在任意领土中+10生命值恢复）。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

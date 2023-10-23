@@ -17,5 +17,65 @@
 		</Update>
 		<Row FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row FeatureType="FEATURE_FLOODPLAINS_PLAINS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<!--Natural Wonders-->
+		<Replace FeatureType="FEATURE_CHOCOLATEHILLS" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_CHOCOLATEHILLS" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Replace FeatureType="FEATURE_CHOCOLATEHILLS" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_CRATER_LAKE" YieldType="YIELD_FAITH" YieldChange="5"/>
+		<Replace FeatureType="FEATURE_CRATER_LAKE" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Replace FeatureType="FEATURE_DEAD_SEA" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_DEAD_SEA" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Replace FeatureType="FEATURE_EYE_OF_THE_SAHARA" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Replace FeatureType="FEATURE_EYE_OF_THE_SAHARA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_GOBUSTAN" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Replace FeatureType="FEATURE_GOBUSTAN" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_BARRIER_REEF" YieldType="YIELD_FOOD" YieldChange="4"/>
+		<Replace FeatureType="FEATURE_BARRIER_REEF" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Replace FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_LAKE_RETBA" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Replace FeatureType="FEATURE_LAKE_RETBA" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_LAKE_RETBA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_PANTANAL" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Replace FeatureType="FEATURE_PANTANAL" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row FeatureType="FEATURE_PANTANAL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_WHITEDESERT" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_WHITEDESERT" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Replace FeatureType="FEATURE_WHITEDESERT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_UBSUNUR_HOLLOW" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_UBSUNUR_HOLLOW" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_UBSUNUR_HOLLOW" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 	</Feature_YieldChanges>
+	<Feature_AdjacentYields>
+		<Replace FeatureType="FEATURE_DELICATE_ARCH" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_DELICATE_ARCH" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Delete FeatureType="FEATURE_DELICATE_ARCH" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_DEVILSTOWER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_DEVILSTOWER" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_MATTERHORN" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Replace FeatureType="FEATURE_VESUVIUS" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_PAITITI" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_PAITITI" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_TSINGY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_TSINGY" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row FeatureType="FEATURE_ZHANGYE_DANXIA" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Feature_AdjacentYields>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="EYESAHARA_SCIENCE_ATOMIC" Name="Amount"/>
+			<Set Value="2" />
+		</Update>
+		<Update>
+			<Where ModifierId="PAMUKKALE_AMENITY" Name="Amount"/>
+			<Set Value="2" />
+		</Update>
+	</ModifierArguments>
+	<RequirementArguments>
+		<Update>
+			<Where RequirementId="REQUIRES_ERA_ATLEASTEXPANSION_ATOMIC" Name="EraType"/>
+			<Set Value="ERA_INDUSTRIAL" />
+		</Update>
+	</RequirementArguments>
 </GameData>

@@ -236,10 +236,6 @@
 		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_POWERED"/>
 		<!--Theater Square-->
-		<!--<Row BuildingType="BUILDING_AMPHITHEATER" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
-		<Row BuildingType="BUILDING_MARAE" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
-		<Row BuildingType="BUILDING_MUSEUM_ART" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>
-		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" ModifierId="CULTUREBUILDING_WONDER_CULTURE"/>-->
 		<Row BuildingType="BUILDING_OPERA_HOUSE" ModifierId="CULTUREBUILDING_CULTURE_33"/>
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_33"/>
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_34_POWERED"/>
@@ -318,7 +314,7 @@
 		<Delete BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
-		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="1" /></Update>
+		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="2" /></Update>
 		<Delete BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
 		<Update><Where BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/><Set PointsPerTurn="1" /></Update>
 		<!--Campus-->
@@ -357,6 +353,7 @@
 	</Building_TourismBombs_XP2>
 	
 	<GameModifiers>
+		<Row ModifierId="CITY_INNER_DEFENCE_ATTACH"/>
 		<!--Theater Square-->
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH"/>
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH"/>
@@ -366,6 +363,7 @@
 	</GameModifiers>
 	
 	<Modifiers>
+		<Row ModifierId="CITY_INNER_DEFENCE_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
 		<!--Theater Square-->
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
@@ -378,6 +376,7 @@
 	</Modifiers>
 	
 	<ModifierArguments>
+		<Row ModifierId="CITY_INNER_DEFENCE_ATTACH" Name="ModifierId" Value="CITY_INNER_DEFENSE"/>
 		<!--Theater Square-->
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER"/>
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH" Name="ModifierId" Value="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART"/>
@@ -536,21 +535,14 @@
 	<!--Government Plaza-->
 	<BuildingModifiers>
 		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_LOYALTY_DEBUFF" />
-		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_HOUSING_BUFF" />
-		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_HOUSING_BUFF_SST" />
-		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_SST" />
+		<!--<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_SST" />-->
 		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_GRANT_BUILDER" />
 		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_COST_REDUCTION" />
 		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_PRODUCTION_SST" />
-		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="PYRAMID_GRANT_BUILDERS" />
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_GRANT_BUILDERS_SST" />
 		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_GRANT_SETTLER_SST" />
 	</BuildingModifiers>
 	<Modifiers>
-		<Row ModifierId="GOV_TALL_HOUSING_BUFF_SST"
-			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING"
-			SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"
-		/>
-
 		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST"
 			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH"
 			SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"
@@ -558,6 +550,11 @@
 
 		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
 			ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION"
+		/>
+		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
+			ModifierType="MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY"
+			RunOnce="true"
+			Permanent="true"
 		/>
 		<Row ModifierId="GOV_GRANT_SETTLER_SST"
 			ModifierType="MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY"
@@ -567,10 +564,6 @@
 	</Modifiers>
 
 	<ModifierArguments>
-		<Row ModifierId="GOV_TALL_HOUSING_BUFF_SST"
-			Name="Amount"
-			Value="3"
-		/>
 		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST"
 			Name="Amount"
 			Value="25"
@@ -581,7 +574,15 @@
 		/>
 		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
 			Name="Amount"
-			Value="25"
+			Value="50"
+		/>
+		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
+			Name="UnitType"
+			Value="UNIT_BUILDER"
+		/>
+		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
+			Name="Amount"
+			Value="2"
 		/>
 		<Row ModifierId="GOV_GRANT_SETTLER_SST"
 			Name="UnitType"

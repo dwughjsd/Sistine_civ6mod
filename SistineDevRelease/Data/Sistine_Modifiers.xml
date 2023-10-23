@@ -118,7 +118,26 @@
 		<Row RequirementSetId="GREAT_ARTIST_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="GREAT_MUSICIAN_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_SST" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_1" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_2" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_3" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_4" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_5" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_6" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_7" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_8" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_9" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_10" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_11" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_12" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_13" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_14" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_15" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_16" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_17" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_18" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_19" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_20" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
@@ -136,6 +155,26 @@
 		<Row RequirementSetId="GREAT_MUSICIAN_SST" RequirementId="CAN_EVER_EARN_GREAT_MUSICIAN_SST" />
 		<Row RequirementSetId="DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_SST" RequirementId="REQUIRES_DISTRICT_IS_ENTERTAINMENT_COMPLEX" />
 		<Row RequirementSetId="DISTRICT_IS_ENTERTAINMENT_COMPLEX_OR_WATER_PARK_SST" RequirementId="REQUIRES_DISTRICT_IS_WATER_PARK" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_1" RequirementId="REQUIRES_NON_CAPITAL_CITY_1" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_2" RequirementId="REQUIRES_NON_CAPITAL_CITY_2" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_3" RequirementId="REQUIRES_NON_CAPITAL_CITY_3" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_4" RequirementId="REQUIRES_NON_CAPITAL_CITY_4" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_5" RequirementId="REQUIRES_NON_CAPITAL_CITY_5" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_6" RequirementId="REQUIRES_NON_CAPITAL_CITY_6" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_7" RequirementId="REQUIRES_NON_CAPITAL_CITY_7" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_8" RequirementId="REQUIRES_NON_CAPITAL_CITY_8" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_9" RequirementId="REQUIRES_NON_CAPITAL_CITY_9" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_10" RequirementId="REQUIRES_NON_CAPITAL_CITY_10" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_11" RequirementId="REQUIRES_NON_CAPITAL_CITY_11" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_12" RequirementId="REQUIRES_NON_CAPITAL_CITY_12" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_13" RequirementId="REQUIRES_NON_CAPITAL_CITY_13" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_14" RequirementId="REQUIRES_NON_CAPITAL_CITY_14" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_15" RequirementId="REQUIRES_NON_CAPITAL_CITY_15" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_16" RequirementId="REQUIRES_NON_CAPITAL_CITY_16" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_17" RequirementId="REQUIRES_NON_CAPITAL_CITY_17" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_18" RequirementId="REQUIRES_NON_CAPITAL_CITY_18" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_19" RequirementId="REQUIRES_NON_CAPITAL_CITY_19" />
+		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_20" RequirementId="REQUIRES_NON_CAPITAL_CITY_20" />
 	</RequirementSetRequirements>
 	
 	<Requirements>
@@ -148,6 +187,27 @@
 		<Row RequirementId="CAN_EVER_EARN_GREAT_WRITER_SST" RequirementType="REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS" />
 		<Row RequirementId="CAN_EVER_EARN_GREAT_ARTIST_SST" RequirementType="REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS" />
 		<Row RequirementId="CAN_EVER_EARN_GREAT_MUSICIAN_SST" RequirementType="REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS" />
+		<Row RequirementId="OPPONENT_IS_NOT_DISTRICT_SST" RequirementType="REQUIREMENT_OPPONENT_IS_DISTRICT" Inverse="true"/>
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_1" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_2" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_3" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_4" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_5" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_6" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_7" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_8" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_9" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_10" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_11" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_12" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_13" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_14" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_15" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_16" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_17" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_18" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_19" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_20" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
 	</Requirements>
 	
 	<RequirementArguments>
@@ -161,6 +221,46 @@
 		<Row RequirementId="CAN_EVER_EARN_GREAT_WRITER_SST" Name="GreatPersonClass" Value="GREAT_PERSON_CLASS_WRITER" />
 		<Row RequirementId="CAN_EVER_EARN_GREAT_ARTIST_SST" Name="GreatPersonClass" Value="GREAT_PERSON_CLASS_ARTIST" />
 		<Row RequirementId="CAN_EVER_EARN_GREAT_MUSICIAN_SST" Name="GreatPersonClass" Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_1" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_1" Name="Count" Value="2" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_2" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_2" Name="Count" Value="3" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_3" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_3" Name="Count" Value="4" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_4" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_4" Name="Count" Value="5" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_5" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_5" Name="Count" Value="6" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_6" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_6" Name="Count" Value="7" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_7" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_7" Name="Count" Value="8" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_8" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_8" Name="Count" Value="9" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_9" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_9" Name="Count" Value="10" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_10" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_10" Name="Count" Value="11" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_11" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_11" Name="Count" Value="12" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_12" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_12" Name="Count" Value="13" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_13" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_13" Name="Count" Value="14" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_14" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_14" Name="Count" Value="15" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_15" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_15" Name="Count" Value="16" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_16" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_16" Name="Count" Value="17" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_17" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_17" Name="Count" Value="18" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_18" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_18" Name="Count" Value="19" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_19" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_19" Name="Count" Value="20" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_20" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
+		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_20" Name="Count" Value="21" />
 	</RequirementArguments>
 	
 </GameData>

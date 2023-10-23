@@ -91,7 +91,7 @@
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_HANSA" />
-			<Set Cost="20" PrereqTech="TECH_IRON_WORKING"/>
+			<Set Cost="20" />
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_LAVRA" />
@@ -229,6 +229,8 @@
 			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL"/>
 			<Set PointsPerTurn="1" />
 		</Update>
+		<Delete DistrictType="DISTRICT_THEATER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/>
+		<Delete DistrictType="DISTRICT_ACROPOLIS" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/>
 	</District_GreatPersonPoints>
 	<District_TradeRouteYields>
 		<!--Specialty districts-->
@@ -368,6 +370,12 @@
 		<Delete DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production2"/>
 		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production"/>
 		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Minel_HalfProduction"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="OffshoreOilRig_Production2"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="OilWell_Production2"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="OffshoreOilRig_Production"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="OilWell_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="OffshoreOilRig_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="OilWell_Production"/>
 	</District_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Update>
@@ -394,5 +402,9 @@
 			<Where ID="Dam_Production" />
 			<Set YieldChange="1" />
 		</Update>
+		<Row ID="OffshoreOilRig_Production" Description="LOC_DISTRICT_OFFSHORE_OIL_RIG_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
+		<Row ID="OffshoreOilRig_Production2" Description="LOC_DISTRICT_OFFSHORE_OIL_RIG_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
+		<Row ID="OilWell_Production" Description="LOC_DISTRICT_OIL_WELL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OIL_WELL"/>
+		<Row ID="OilWell_Production2" Description="LOC_DISTRICT_OIL_WELL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OIL_WELL"/>
 	</Adjacency_YieldChanges>
 	</GameData>

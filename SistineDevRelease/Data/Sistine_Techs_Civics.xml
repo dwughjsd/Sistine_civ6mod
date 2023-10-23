@@ -34,6 +34,10 @@
 			<Set Description="LOC_TECH_MILITARY_ENGINEERING_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
+			<Where TechnologyType="TECH_OFFWORLD_MISSION" />
+			<Set Description="LOC_TECH_OFFWORLD_MISSION_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_STEALTH_TECHNOLOGY" />
 			<Set Critical="0"/>
 		</Update>
@@ -371,6 +375,22 @@
 			<Set Cost="5400"/>
 		</Update>
 	</Technologies>
+
+	<TechnologyModifiers>
+		<Row TechnologyType="TECH_STEEL">
+			<ModifierId>STEEL_URBAN_OUTERDEFENSE</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_STEEL">
+			<ModifierId>STEEL_OUTERDEFENSE_ANCIENT</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_STEEL">
+			<ModifierId>STEEL_OUTERDEFENSE_MEDIEVAL</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_STEEL">
+			<ModifierId>STEEL_OUTERDEFENSE_RENAISSANCE</ModifierId>
+		</Row>
+	</TechnologyModifiers>
+	
 	<TechnologyRandomCosts>
 		<!--New Techs-->
 		<Delete TechnologyType="TECH_SEASTEADS" Cost="2200"/>
@@ -753,9 +773,42 @@
 		<Row CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_GREEN_ENERGY_TOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="CRISTOREDENTOR_BEACHTOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
-
 	</CivicModifiers>
+
+	<Types>
+		<Row Type="MODIFIER_REAL_PLAYER_CITIES_ADJUST_INNER_DEFENSE" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_REAL_PLAYER_CITIES_ADJUST_INNER_DEFENSE</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_INNER_DEFENSE</EffectType>
+		</Row>
+	</DynamicModifiers>
 	<Modifiers>
+		<Row>
+			<ModifierId>CITY_INNER_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_REAL_PLAYER_CITIES_ADJUST_INNER_DEFENSE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>STEEL_URBAN_OUTERDEFENSE</ModifierId>
+			<ModifierType>MODIFIER_REAL_PLAYER_CITIES_ADJUST_INNER_DEFENSE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>STEEL_OUTERDEFENSE_ANCIENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ANCIENT_WALLS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STEEL_OUTERDEFENSE_MEDIEVAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MEDIEVAL_WALLS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STEEL_OUTERDEFENSE_RENAISSANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_RENAISSANCE_WALLS</SubjectRequirementSetId>
+		</Row>
 		<Row>
 			<ModifierId>REFORMED_CHURCH_PURCHASE_CIVILIAN</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
@@ -774,6 +827,31 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>CITY_INNER_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEEL_URBAN_OUTERDEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEEL_OUTERDEFENSE_ANCIENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEEL_OUTERDEFENSE_MEDIEVAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEEL_OUTERDEFENSE_RENAISSANCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
 		<Row>
 			<ModifierId>REFORMED_CHURCH_PURCHASE_CIVILIAN</ModifierId>
 			<Name>Tag</Name>

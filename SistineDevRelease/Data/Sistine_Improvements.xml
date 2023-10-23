@@ -163,4 +163,149 @@
 			<Value>CIVIC_COLONIALISM</Value>
 		</Row>
 	</RequirementArguments>
+
+	<!--Farms-->
+	<Technologies>
+		<Update>
+			<Where TechnologyType="TECH_IRRIGATION" />
+			<Set Description="LOC_TECH_IRRIGATION_DESCRIPTION_SST" />
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CHEMISTRY" />
+			<Set Description="LOC_TECH_CHEMISTRY_DESCRIPTION_SST" />
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SATELLITES" />
+			<Set Description="LOC_TECH_SATELLITES_DESCRIPTION_SST" />
+		</Update>
+	</Technologies>
+	<TechnologyModifiers>
+		<Row>
+			<TechnologyType>TECH_IRRIGATION</TechnologyType>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_IRRIGATION</TechnologyType>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_CHEMISTRY</TechnologyType>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+		</Row>
+	</TechnologyModifiers>
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_FEUDALISM</CivicType>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
+		</Row>
+	</CivicModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FARM_FRESHWATER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FARM_NONFRESHWATER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRRIGATION_DESERT_HILLS_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FEUDALISM_FRESH_WATER_FARM_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHEMISTRY_NON_FRESH_WATER_FARM_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_FRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_NONFRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_FRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_FRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_FRESH_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_NONFRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_NONFRESHWATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FRESH_WATER_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FRESH_WATER_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_FRESH_WATER</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+
+	<Adjacency_YieldChanges>
+		<Update>
+			<Where ID="Farms_MedievalAdjacency" />
+			<Set PrereqCivic="" PrereqTech="TECH_REPLACEABLE_PARTS" ObsoleteTech="TECH_SATELLITES" />
+		</Update>
+		<Update>
+			<Where ID="Farms_MechanizedAdjacency" />
+			<Set PrereqTech="TECH_SATELLITES" />
+		</Update>
+	</Adjacency_YieldChanges>
 </GameData>

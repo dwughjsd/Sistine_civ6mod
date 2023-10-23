@@ -22,6 +22,10 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_ECONOMIC_UNION"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SPORTS_MEDIA"/>
 	</TraitModifiers>
+	<CivicModifiers>
+		<Row CivicType="CIVIC_CODE_OF_LAWS" ModifierId="CODE_OF_LAWS_HIGH_DIFF_AI_TECH_BOOST" />
+		<Row CivicType="CIVIC_CODE_OF_LAWS" ModifierId="CODE_OF_LAWS_HIGH_DIFF_AI_CIVIC_BOOST" />
+	</CivicModifiers>
 	<TechnologyModifiers>
 		<!--
 		<Row TechnologyType="TECH_PRINTING">
@@ -119,6 +123,16 @@
 			<RunOnce>true</RunOnce>
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</OwnerRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_TECH_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_CIVIC_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Update>
@@ -153,7 +167,7 @@
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST</ModifierId>
 			<Name>ApplyImmediately</Name>
-			<Value>true</Value>
+			<Value>false</Value>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST</ModifierId>
@@ -166,7 +180,7 @@
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST</ModifierId>
 			<Name>ApplyImmediately</Name>
-			<Value>true</Value>
+			<Value>false</Value>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST</ModifierId>
@@ -268,6 +282,41 @@
 			<ModifierId>HIGH_DIFFICULTY_AI_SPORTS_MEDIA</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_TECH_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-1</Value>
+			<Extra>1</Extra>
+		</Row>
+		<Row>
+			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_TECH_BOOST</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_TECH_BOOST</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_CIVIC_BOOST</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>0</Value>
+			<Extra>1</Extra>
+			<SecondExtra>DIFFICULTY_KING</SecondExtra>
+		</Row>
+		<Row>
+			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_CIVIC_BOOST</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_CIVIC_BOOST</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_ANCIENT</Value>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>
@@ -404,6 +453,10 @@
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
+			<RequirementId>REQUIRES_HAS_OFFWORLD_MISSION_TECH_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
 			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
 		</Row>
@@ -437,6 +490,11 @@
 		</Row>
 	</Requirements>
 	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_OFFWORLD_MISSION_TECH_SST</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_OFFWORLD_MISSION</Value>
+		</Row>
 		<Row>
 			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
 			<Name>CivicType</Name>
