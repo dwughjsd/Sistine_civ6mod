@@ -213,7 +213,7 @@
 		</Row>
 		<Row>
 			<ModifierId>GREAT_PERSON_INDIVIDUAL_EUREKAS_MODIFIER_SST</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_GOODY_HUT</ModifierType>
 			<Permanent>true</Permanent>
 			<RunOnce>true</RunOnce>
 		</Row>
