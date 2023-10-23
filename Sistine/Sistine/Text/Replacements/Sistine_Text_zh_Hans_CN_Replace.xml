@@ -247,5 +247,24 @@
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_NAME" Language="zh_Hans_CN" Text="发射拉格朗日点激光站"/>
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME" Language="zh_Hans_CN" Text="拉格朗日点激光站"/>
 		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_FIRST_IN_WORLD_INSTANCE_DESCRIPTION" Language="zh_Hans_CN" Text="{ActingPlayerCivName}的宇宙飞船缓缓远离地球引力，满载着人类、补给与希望，将要降落在遥远的世界。"/>
+		<!--Happiness Level-->
+		<Replace Tag="LOC_HAPPINESS_ECSTATIC_NAME" Language="zh_Hans_CN" Text="欢欣"/>
+		<Replace Tag="LOC_HAPPINESS_HAPPY_NAME" Language="zh_Hans_CN" Text="快乐"/>
+		<Replace Tag="LOC_HAPPINESS_DISPLEASED_NAME" Language="zh_Hans_CN" Text="不悦"/>
+		<Replace Tag="LOC_HAPPINESS_UNHAPPY_NAME" Language="zh_Hans_CN" Text="不满"/>
+		<Replace Tag="LOC_HAPPINESS_UNREST_NAME" Language="zh_Hans_CN" Text="动荡"/>
+		<Replace Tag="LOC_HAPPINESS_REVOLT_NAME" Language="zh_Hans_CN" Text="反叛"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_ECSTATIC" Language="zh_Hans_CN" Text="欢欣！"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_HAPPY" Language="zh_Hans_CN" Text="快乐"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_MISERABLE" Language="zh_Hans_CN" Text="悲惨"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_RESTLESS" Language="zh_Hans_CN" Text="动荡"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_SAD" Language="zh_Hans_CN" Text="失望"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_UNHAPPY" Language="zh_Hans_CN" Text="[COLOR:StatBadCS]不满[ENDCOLOR]"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_WARY" Language="zh_Hans_CN" Text="警惕"/>
+		<!--Great Scientists-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET_NAME" Language="zh_Hans_CN" Text="沙特莱侯爵夫人埃米莉"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN_NAME" Language="zh_Hans_CN" Text="希尔德加德·冯·宾根"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL_NAME" Language="zh_Hans_CN" Text="贾娜姬·安玛尔"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK_NAME" Language="zh_Hans_CN" Text="斯蒂芬妮·柯欧拉克"/>
 	</LocalizedText>
 </GameData>
