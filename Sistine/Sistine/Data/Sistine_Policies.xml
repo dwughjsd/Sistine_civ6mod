@@ -70,6 +70,7 @@
 		<Delete ModifierId="MILITARYRESEARCH_MILITARY_ACADEMY_SCIENCE_MODIFIER" Name="Amount"/>
 		<Delete ModifierId="MILITARYRESEARCH_RENAISSANCE_WALLS_SCIENCE_MODIFIER" Name="Amount"/>
 		<Delete ModifierId="LIBERALISM_SPECIALTYAMENITY" Name="Amount"/>
+		<Delete ModifierId="SATELLITEBROADCASTS_MUSICTOURISM" Name="ScalingFactor"/>
 		<Row>
 			<ModifierId>CIVILPRESTIGE_GOVAMENITY</ModifierId>
 			<Name>Amount</Name>
@@ -179,6 +180,11 @@
 			<ModifierId>LIBERALISM_SPECIALTYAMENITY</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SATELLITEBROADCASTS_MUSICTOURISM</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>200</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>

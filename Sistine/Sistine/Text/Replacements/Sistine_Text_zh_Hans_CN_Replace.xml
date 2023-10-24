@@ -185,6 +185,7 @@
 		<Replace Tag="LOC_BELIEF_SCRIPTURE_NAME" Language="zh_Hans_CN" Text="宗教圣典"/>		
 		<!--Luxury Resources-->
 		<Replace Tag="LOC_DIPLOMACY_DEAL_LUXURY_RESOURCES" Language="zh_Hans_CN" Text="奢侈资源"/>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGEGROUP_LUXURY_NAME" Language="zh_Hans_CN" Text="奢侈"/>
 		<Replace Tag="LOC_TOOLTIP_LUXURY_RESOURCE" Language="zh_Hans_CN" Text="奢侈资源"/>
 		<Replace Tag="LOC_HUD_REPORTS_LUXURIES" Language="zh_Hans_CN" Text="奢侈资源"/>
 		<Replace Tag="LOC_HUD_REPORTS_LUXURY_RESOURCES_AND_BONUSES" Language="zh_Hans_CN" Text="奢侈和加成资源"/>
@@ -266,5 +267,9 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN_NAME" Language="zh_Hans_CN" Text="希尔德加德·冯·宾根"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL_NAME" Language="zh_Hans_CN" Text="贾娜姬·安玛尔"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK_NAME" Language="zh_Hans_CN" Text="斯蒂芬妮·柯欧拉克"/>
+		<!--Great Merchants-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI_NAME" Language="zh_Hans_CN" Text="皮耶罗·德·巴尔迪"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL_NAME" Language="zh_Hans_CN" Text="托达·马尔拉贾"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN_NAME" Language="zh_Hans_CN" Text="赫莲娜·鲁宾斯坦"/>
 	</LocalizedText>
 </GameData>

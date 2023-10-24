@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!--Great Scientists-->
 	<GreatPersonIndividualActionModifiers>
 		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_CAMPUS_GRASSMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
@@ -639,4 +640,304 @@
 		<Delete ModifierId="GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS" Context="Summary" Text="LOC_GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS"/>
 		<Delete ModifierId="GREATPERSON_ADJACENT_RAINFOREST_SCIENCE" Context="Summary" Text="LOC_GREATPERSON_ADJACENT_RAINFOREST_SCIENCE"/>
 	</ModifierStrings>
+
+	<!--Great Merchants-->
+	<GreatPersonIndividuals>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_IRENE_OF_ATHENS"/>
+			<Set>
+				<ActionRequiresVisibleLuxury>true</ActionRequiresVisibleLuxury>
+				<ActionRequiresOwnedTile>false</ActionRequiresOwnedTile>
+				<ActionEffectTileHighlighting>true</ActionEffectTileHighlighting>
+				<ActionRequiresCompletedDistrictType></ActionRequiresCompletedDistrictType>
+			</Set>
+		</Update>
+	</GreatPersonIndividuals>
+	
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COLAEUS" ModifierId="GREATPERSON_GOLD_CLASSICAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHANG_QIAN" ModifierId="GREATPERSON_GOLD_CLASSICAL_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_IBN_FADLAN" ModifierId="GREATPERSON_GOLD_MEDIEVAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_IRENE_OF_ATHENS" ModifierId="GREATPERSON_GRANT_PLOT_RESOURCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_IRENE_OF_ATHENS" ModifierId="GREATPERSON_GOVERNOR_POINTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_IRENE_OF_ATHENS" ModifierId="GREATPERSON_GOVERNOR_POINTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_IRENE_OF_ATHENS" ModifierId="GREATPERSON_GOLD_MEDIEVAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI" ModifierId="GREATPERSON_GOLD_MEDIEVAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI" ModifierId="GREATPERSON_GOLD_SMALL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI" ModifierId="GREATPERSON_GOLD_INTEREST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARCO_POLO" ModifierId="GREATPERSON_GOLD_MEDIEVAL_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHOU_DAGUAN" ModifierId="GREATPERSON_GOLD_RENAISSANCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHOU_DAGUAN" ModifierId="GREATPERSON_GAIN_THREE_ENVOYS_HERE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHOU_DAGUAN" ModifierId="GREATPERSON_CITY_STATE_GRANT_ENVOYS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GIOVANNI_DE_MEDICI" ModifierId="GREATPERSON_GOLD_RENAISSANCE_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAKOB_FUGGER" ModifierId="GREATPERSON_GOLD_RENAISSANCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAKOB_FUGGER" ModifierId="GREATPERSON_GOLD_SMALL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAKOB_FUGGER" ModifierId="GREATPERSON_MINE_GOLD" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL" ModifierId="GREATPERSON_GOLD_RENAISSANCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL" ModifierId="GREATPERSON_GOLD_PER_SPECIALTY_DISTRICT_FOR_INTERNATIONAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADAM_SMITH" ModifierId="GREATPERSON_GOVERNOR_POINTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADAM_SMITH" ModifierId="GREATPERSON_GOLD_LARGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADAM_SMITH" ModifierId="GREATPERSON_ECONOMIC_POLICY_SLOT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADAM_SMITH" ModifierId="GREATPERSON_GOLD_INDUSTRIAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_JACOB_ASTOR" ModifierId="GREATPERSON_GOLD_INDUSTRIAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_JACOB_ASTOR" ModifierId="GREATPERSON_GOLD_LARGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_JACOB_ASTOR" ModifierId="GREATPERSON_INFLUENCE_TOKENS_MEDIUM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_JACOB_ASTOR" ModifierId="GREATPERSON_CITY_HOUSING_LARGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_JACOB_ASTOR" ModifierId="GREATPERSON_GOLD_PER_POP" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_SPILSBURY" ModifierId="GREATPERSON_GOLD_INDUSTRIAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARY_KATHERINE_GODDARD" ModifierId="GREATPERSON_GOLD_MODERN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_ROCKEFELLER" ModifierId="GREATPERSON_GOLD_MODERN_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STAMFORD_RAFFLES" ModifierId="GREATPERSON_GOLD_MODERN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SARAH_BREEDLOVE" ModifierId="GREATPERSON_GOLD_MODERN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARY_KATHERINE_GODDARD" ModifierId="GREATPERSON_GOLD_PER_SPECIALTY_DISTRICT_FOR_INTERNATIONAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARY_KATHERINE_GODDARD" ModifierId="GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN" ModifierId="GREATPERSON_GOLD_ATOMIC" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MELITTA_BENTZ" ModifierId="GREATPERSON_GOLD_ATOMIC" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEVI_STRAUSS" ModifierId="GREATPERSON_GOLD_ATOMIC" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ESTEE_LAUDER" ModifierId="GREATPERSON_GOLD_INFORMATION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MASARU_IBUKA" ModifierId="GREATPERSON_GOLD_INFORMATION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MASARU_IBUKA" ModifierId="GREATPERSON_INDUSTRIAL_ZONE_ADJACENCY_AS_CULTURE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MASARU_IBUKA" ModifierId="GREATPERSON_MUSIC_TOURISM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMSETJI_TATA" ModifierId="GREATPERSON_GOLD_INFORMATION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMSETJI_TATA" ModifierId="GREATPERSON_LIBRARY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMSETJI_TATA" ModifierId="GREATPERSON_UNIVERSITY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMSETJI_TATA" ModifierId="GREATPERSON_PUBLIC_SCHOOL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMSETJI_TATA" ModifierId="GREATPERSON_PUBLIC_SCHOOL_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+
+	<GreatPersonIndividuals>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMSETJI_TATA" />
+			<Set ActionEffectTextOverride="LOC_GREATPERSON_PUBLIC_SCHOOL_SCIENCE"/>
+		</Update>
+	</GreatPersonIndividuals>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_INTEREST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOLD_INTEREST_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_STATE_GRANT_ENVOYS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_BECOME_CITY_SUZERAIN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MINE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_PER_POP</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_PER_SPECIALTY_DISTRICT_FOR_INTERNATIONAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_SPECIALTY_DISTRICT_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PUBLIC_SCHOOL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PUBLIC_SCHOOL_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_ZONE_ADJACENCY_AS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MUSIC_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+		</Row>
+		<Row ModifierId="GREATPERSON_GOLD_CLASSICAL" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_MEDIEVAL" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_RENAISSANCE" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_INDUSTRIAL" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_MODERN" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_ATOMIC" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_INFORMATION" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_CLASSICAL_ACTIVE" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_MEDIEVAL_ACTIVE" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_RENAISSANCE_ACTIVE" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_INDUSTRIAL_ACTIVE" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+		<Row ModifierId="GREATPERSON_GOLD_MODERN_ACTIVE" ModifierType="MODIFIER_PLAYER_GRANT_YIELD" Permanent="true"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_INTEREST</ModifierId>
+			<Name>Percent</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_STATE_GRANT_ENVOYS</ModifierId>
+			<Name>RemoveOthers</Name>
+			<Value>False</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MINE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MINE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_PER_SPECIALTY_DISTRICT_FOR_INTERNATIONAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_PER_SPECIALTY_DISTRICT_FOR_INTERNATIONAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_PER_POP</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_PER_POP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PUBLIC_SCHOOL</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PUBLIC_SCHOOL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PUBLIC_SCHOOL_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PUBLIC_SCHOOL_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PUBLIC_SCHOOL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PUBLIC_SCHOOL_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_ZONE_ADJACENCY_AS_CULTURE</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_ZONE_ADJACENCY_AS_CULTURE</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MUSIC_TOURISM</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MUSIC_TOURISM</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>300</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="GREATPERSON_FAITH_SMALL" Name="Amount"/>
+			<Set Value="300"/>
+		</Update>
+		<Update>
+			<Where ModifierId="GREATPERSON_GOLD_TINY" Name="Amount"/>
+			<Set Value="120"/>
+		</Update>
+		<Update>
+			<Where ModifierId="GREATPERSON_INFLUENCE_TOKENS_SMALL" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="GREATPERSON_INFLUENCE_TOKENS_MEDIUM" Name="Amount"/>
+			<Set Value="3"/>
+		</Update>
+		<Update>
+			<Where ModifierId="GREATPERSON_GOVERNOR_POINTS" Name="Delta"/>
+			<Set Value="2"/>
+		</Update>
+		<Row ModifierId="GREATPERSON_GOLD_CLASSICAL" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_CLASSICAL" Name="Amount" Value="300" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_MEDIEVAL" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_MEDIEVAL" Name="Amount" Value="600" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_RENAISSANCE" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_RENAISSANCE" Name="Amount" Value="900" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_INDUSTRIAL" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_INDUSTRIAL" Name="Amount" Value="1200" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_MODERN" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_MODERN" Name="Amount" Value="1500" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_ATOMIC" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_ATOMIC" Name="Amount" Value="1800" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_INFORMATION" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_INFORMATION" Name="Amount" Value="2100" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_CLASSICAL_ACTIVE" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_CLASSICAL_ACTIVE" Name="Amount" Value="300" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_MEDIEVAL_ACTIVE" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_MEDIEVAL_ACTIVE" Name="Amount" Value="600" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_RENAISSANCE_ACTIVE" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_RENAISSANCE_ACTIVE" Name="Amount" Value="900" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_INDUSTRIAL_ACTIVE" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_INDUSTRIAL_ACTIVE" Name="Amount" Value="1200" Type="ScaleByGameSpeed"/>
+		<Row ModifierId="GREATPERSON_GOLD_MODERN_ACTIVE" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_MODERN_ACTIVE" Name="Amount" Value="1500" Type="ScaleByGameSpeed"/>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_GOLD_INTEREST" Context="Summary" Text="LOC_GREATPERSON_GOLD_INTEREST"/>
+		<Row ModifierId="GREATPERSON_CITY_STATE_GRANT_ENVOYS" Context="Summary" Text="LOC_GREATPERSON_CITY_STATE_GRANT_ENVOYS"/>
+		<Row ModifierId="GREATPERSON_MINE_GOLD" Context="Summary" Text="LOC_GREATPERSON_MINE_GOLD"/>
+		<Row ModifierId="GREATPERSON_GOLD_PER_POP" Context="Summary" Text="LOC_GREATPERSON_GOLD_PER_POP"/>
+		<Row ModifierId="GREATPERSON_INDUSTRIAL_ZONE_ADJACENCY_AS_CULTURE" Context="Summary" Text="LOC_GREATPERSON_INDUSTRIAL_ZONE_ADJACENCY_AS_CULTURE"/>
+		<Row ModifierId="GREATPERSON_GOLD_CLASSICAL" Context="Summary" Text="LOC_GREATPERSON_GOLD_SST"/>
+		<Row ModifierId="GREATPERSON_GOLD_MEDIEVAL" Context="Summary" Text="LOC_GREATPERSON_GOLD_SST"/>
+		<Row ModifierId="GREATPERSON_GOLD_RENAISSANCE" Context="Summary" Text="LOC_GREATPERSON_GOLD_SST"/>
+		<Row ModifierId="GREATPERSON_GOLD_INDUSTRIAL" Context="Summary" Text="LOC_GREATPERSON_GOLD_SST"/>
+		<Row ModifierId="GREATPERSON_GOLD_MODERN" Context="Summary" Text="LOC_GREATPERSON_GOLD_SST"/>
+		<Row ModifierId="GREATPERSON_GOLD_ATOMIC" Context="Summary" Text="LOC_GREATPERSON_GOLD_SST"/>
+		<Row ModifierId="GREATPERSON_GOLD_INFORMATION" Context="Summary" Text="LOC_GREATPERSON_GOLD_SST"/>
+	</ModifierStrings>
+	
+	<!--Great People for Great Works-->
+	<Types>
+		<Delete Type="GREATWORK_BABYLON_CANTEMIR_3" Kind="KIND_GREATWORK"/>
+		<Delete Type="GREATWORK_BABYLON_JOPLIN_3" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatWorks>
+		<Delete GreatWorkType="GREATWORK_BABYLON_CANTEMIR_3" GreatWorkObjectType="GREATWORKOBJECT_MUSIC" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DIMITRIE_CANTEMIR" Name="LOC_GREATWORK_CANTEMIR_3_NAME" Tourism="4" Audio="GMCantemirUzzusuleBeresvan"/>
+		<Delete GreatWorkType="GREATWORK_BABYLON_JOPLIN_3" GreatWorkObjectType="GREATWORKOBJECT_MUSIC" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SCOTT_JOPLIN" Name="LOC_GREATWORK_JOPLIN_3_NAME" Tourism="4" Audio="GMJoplinTheEasyWinners"/>
+		<Update>
+			<Where GreatWorkType="GREATWORK_TCHAIKOVSKY_1" />
+			<Set Audio="GMTchaikovskyRomeoAndJuliet"/>
+		</Update>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Delete GreatWorkType="GREATWORK_BABYLON_CANTEMIR_3" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Delete GreatWorkType="GREATWORK_BABYLON_JOPLIN_3" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
 </GameData>

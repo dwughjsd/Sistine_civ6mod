@@ -772,6 +772,7 @@
 		<Delete CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
 		<Row CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_GREEN_ENERGY_TOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="CRISTOREDENTOR_BEACHTOURISM" />
+		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="SOCIALMEDIA_SKITOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
 	</CivicModifiers>
 
@@ -823,6 +824,10 @@
 		</Row>
 		<Row>
 			<ModifierId>MASSMEDIA_MUSICTOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SOCIALMEDIA_SKITOURISM</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
 		</Row>
 	</Modifiers>
@@ -889,6 +894,16 @@
 			<ModifierId>MASSMEDIA_MUSICTOURISM</ModifierId>
 			<Name>ScalingFactor</Name>
 			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>SOCIALMEDIA_SKITOURISM</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_SKI_RESORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>SOCIALMEDIA_SKITOURISM</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>200</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>

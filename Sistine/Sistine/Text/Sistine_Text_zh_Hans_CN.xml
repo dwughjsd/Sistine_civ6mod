@@ -301,7 +301,7 @@
 			<Text>[ICON_GreatWork_Landscape] 艺术巨作和 [ICON_GreatWork_Music] 音乐巨作+100% [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_SOCIAL_MEDIA_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>在帝国全境内+50% [ICON_Tourism] 旅游业绩。海滨度假区产出的 [ICON_Tourism] 旅游业绩+100%。</Text>
+			<Text>在帝国全境内+50% [ICON_Tourism] 旅游业绩。海滨度假区和滑雪场产出的 [ICON_Tourism] 旅游业绩+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>允许使用 [ICON_Faith] 信仰值购买自然学家以及建造国家公园。奖励2位 [ICON_Envoy] 使者。</Text>
@@ -317,6 +317,9 @@
 		</Replace>
 		<Replace Tag="LOC_POLICY_HERITAGE_TOURISM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有奇观的 [ICON_Tourism] 旅游业绩+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SATELLITE_BROADCASTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>音乐 [ICON_GreatWork_Music] 巨作提供的 [ICON_Tourism] 旅游业绩+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
 			<Text>国家公园的 [ICON_Gold] 金币和 [ICON_Tourism] 旅游业绩输出等于公园所含全部单元格的总魅力。此外，拥有公园的城市获得2点 [ICON_Amenities] 宜居度，且与此城市最近的4座城市获得1点 [ICON_Amenities] 宜居度。</Text>
@@ -619,6 +622,59 @@
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS" Language="zh_Hans_CN">
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}触发所有信息时代科技和3个未来时代科技的 [ICON_TechBoosted] 尤里卡。</Text>
+		</Replace>
+		<!--Great Merchants-->
+		<Replace Tag="LOC_GREATPERSON_GOLD_SST" Language="zh_Hans_CN">
+			<Text>获得{Amount : number #} [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE" Language="zh_Hans_CN">
+			<Text>获得300 [ICON_Gold] 金币。增加1条 [ICON_TradeRoute] 贸易路线容量。通往该城市的外国 [ICON_TradeRoute] 贸易路线为双方城市+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_MARCO_POLO_ACTIVE" Language="zh_Hans_CN">
+			<Text>获得600 [ICON_Gold] 金币。为该城市赠予一个免费的商人单位并增加1条 [ICON_TradeRoute] 贸易路线容量。通往该城市的外国 [ICON_TradeRoute] 贸易路线为双方城市+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GOLD_INTEREST" Language="zh_Hans_CN">
+			<Text>每回合您将获得等同于国库3%的 [ICON_Gold] 金币收入。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GIOVANNI_DE_MEDICI_ACTIVE" Language="zh_Hans_CN">
+			<Text>获得900 [ICON_Gold] 金币。立即在该区域建造银行和市场。银行获得2个可放置所有类型巨作的槽位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CITY_STATE_GRANT_ENVOYS" Language="zh_Hans_CN">
+			<Text>在本城邦获得足以使您成为该城邦的宗主国的 [ICON_ENVOY] 使者。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_MINE_GOLD" Language="zh_Hans_CN">
+			<Text>矿山+1 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<!--Description of international routes is omitted. The modifier itself only represents domestic routes.-->
+		<Replace Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT" Language="zh_Hans_CN">
+			<Text>您的 [ICON_TradeRoute] 贸易路线目的地的每个专业化区域为其+{Amount} [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GOLD_PER_POP" Language="zh_Hans_CN">
+			<Text>此城市的每位 [ICON_Citizen] 市民提供+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JOHN_ROCKEFELLER_EXPANSION2_ACTIVE" Language="zh_Hans_CN">
+			<Text>获得1500 [ICON_Gold] 金币。每回合提供3点 [ICON_RESOURCE_OIL] 石油。目的地城市每拥有1点战略资源，您 [ICON_TradeRoute] 贸易路线所产出的 [ICON_Gold] 金币便+2。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="zh_Hans_CN">
+			<Text>产出{Amount}份 [ICON_RESOURCE_COSMETICS] 化妆品，一种提供+6 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_TOYS" Language="zh_Hans_CN">
+			<Text>产出{Amount}份 [ICON_RESOURCE_TOYS] 玩具，一种提供+4 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_PERFUME" Language="zh_Hans_CN">
+			<Text>产出{Amount}份 [ICON_RESOURCE_PERFUME] 香水，一种提供+8 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_JEANS" Language="zh_Hans_CN">
+			<Text>产出{Amount}份 [ICON_RESOURCE_JEANS] 牛仔裤，一种提供+6 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_PUBLIC_SCHOOL_SCIENCE" Language="zh_Hans_CN">
+			<Text>获得2100 [ICON_Gold] 金币。学院区域+10 [ICON_Tourism] 旅游业绩。立即在该区域建造图书馆、大学和公立学校。公立学校+2 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_INDUSTRIAL_ZONE_ADJACENCY_AS_CULTURE" Language="zh_Hans_CN">
+			<Text>您的工业区的 [ICON_Production] 生产力相邻加成也提供 [ICON_Culture] 文化值。[ICON_GreatWork_Music] 音乐巨作+200% [ICON_Tourism] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GOVERNOR_POINTS" Language="zh_Hans_CN">
+			<Text>提供2个 [ICON_Governor] 总督头衔。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

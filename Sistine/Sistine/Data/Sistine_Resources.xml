@@ -5,6 +5,18 @@
 			<Where ResourceType="RESOURCE_ANTIQUITY_SITE" />
 			<Set PrereqCivic="CIVIC_HUMANISM" />
 		</Update>
+		<Update>
+			<Where ResourceType="RESOURCE_JEANS" />
+			<Set Happiness="6" />
+		</Update>
+		<Update>
+			<Where ResourceType="RESOURCE_PERFUME" />
+			<Set Happiness="8" />
+		</Update>
+		<Update>
+			<Where ResourceType="RESOURCE_COSMETICS" />
+			<Set Happiness="6" />
+		</Update>
 	</Resources>
 	<Tags>
 		<!-- Building Effects Based-->
