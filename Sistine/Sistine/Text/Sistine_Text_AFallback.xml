@@ -584,5 +584,51 @@
 		<Replace Tag="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS" Language="en_US">
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eureka moment for all technologies from the Information era, and three Future era technologies.</Text>
 		</Replace>
+		<!--Great Merchants-->
+		<Replace Tag="LOC_GREATPERSON_GOLD_SST" Language="en_US">
+			<Text>Gain {Amount : number #} [ICON_Gold] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE" Language="en_US">
+			<Text>Gain 300 [ICON_Gold] Gold. Increases [ICON_TradeRoute] Trade Route capacity by 1. Foreign [ICON_TradeRoute] Trade Routes to this city provide +2 [ICON_Gold] Gold to both cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_MARCO_POLO_ACTIVE" Language="en_US">
+			<Text>Gain 600 [ICON_Gold] Gold. Grants a free Trader unit in this city, and increases [ICON_TradeRoute] Trade Route capacity by 1. Foreign [ICON_TradeRoute] Trade Routes to this city provide +2 [ICON_Gold] Gold to both cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GOLD_INTEREST" Language="en_US">
+			<Text>Each turn you receive [ICON_Gold] Gold equal to 3% of your treasury.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GIOVANNI_DE_MEDICI_ACTIVE" Language="en_US">
+			<Text>Gain 900 [ICON_Gold] Gold. Instantly builds a Bank and Market in this district. The Bank gets 2 Great Work slots, which can hold anything./Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CITY_STATE_GRANT_ENVOYS" Language="en_US">
+			<Text>Gain enough [ICON_ENVOY] Envoys in this city-state to make you its Suzerain.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_MINE_GOLD" Language="en_US">
+			<Text>+1 Gold to Mines.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GOLD_PER_POP" Language="en_US">
+			<Text>+1 [ICON_Gold] for each [ICON_Citizen] Population in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JOHN_ROCKEFELLER_EXPANSION2_ACTIVE" Language="en_US">
+			<Text>Gain 1500 [ICON_Gold] Gold. Grants 3 [ICON_RESOURCE_OIL] Oil per Turn. Your [ICON_TradeRoute] Trade Routes gain +2 [ICON_Gold] Gold for each Strategic resource at the destination city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="en_US">
+			<Text>Grants {Amount} [ICON_RESOURCE_COSMETICS] Cosmetics, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_PERFUME" Language="en_US">
+			<Text>Grants {Amount} [ICON_RESOURCE_PERFUME] Perfume, a uniquely manufactured Luxury resource which provides +8 [ICON_Amenities] Amenities.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_JEANS" Language="en_US">
+			<Text>Grants {Amount} [ICON_RESOURCE_JEANS] Jeans, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_PUBLIC_SCHOOL_SCIENCE" Language="en_US">
+			<Text>Gain 2100 [ICON_Gold] Gold. Campus districts provide +10 [ICON_Tourism] Tourism. Instantly builds a Library, University, and Public School in this district. Public Schools provide +2 [ICON_Science] Science.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_INDUSTRIAL_ZONE_ADJACENCY_AS_CULTURE" Language="en_US">
+			<Text>Your Industrial Zones' [ICON_Production] Production adjacency also provides [ICON_Culture] Culture. +200% [ICON_Tourism] Tourism from [ICON_GreatWork_Music] Great Works of Music.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GOVERNOR_POINTS" Language="en_US">
+			<Text>Grants 2 [ICON_Governor] Governor Titles.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
