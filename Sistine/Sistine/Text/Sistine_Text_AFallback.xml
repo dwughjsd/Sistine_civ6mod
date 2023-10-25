@@ -505,5 +505,84 @@
 		<Replace Tag="LOC_PROMOTION_FOLDING_WINGS_DESCRIPTION" Language="en_US">
 			<Text>+1 additional aircraft slot.{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
 		</Replace>
+		<!--Great Scientist-->
+		<Replace Tag="LOC_GREATPERSON_SCIENTIST_ACTIVE_SST" Language="en_US">
+			<Text>Grants a free random technology.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST" Language="en_US">
+			<Text>Grants a free random technology and two [ICON_TechBoosted] Eurekas.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SEPARATED_GRANT_TECH_SST" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ARYABHATA_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Campuses receive an additional +1 Science for each adjacent Mountain tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_MATHEMATICS" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers [ICON_TechBoosted] Eureka for Celestial Navigation, Mathematics, and Engineering. If they are already triggered, instead completes the tech.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LIBRARIES_SCIENCE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Libraries provide +{Amount} [ICON_Science] Science.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="en_US">
+			<Text>Grants two free technologies. Triggers [ICON_TechBoosted] Eureka for Mathematics. If they are already triggered, instead completes the tech.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE" Language="en_US">
+			<Text>Grants two [ICON_TechBoosted] Eurekas. Wounded land units can heal +10 HP each turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FAITH_INTO_SCIENCE_SST" Language="en_US">
+			<Text>Gain Science equal to 15% of this city's Faith per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE" Language="en_US">
+			<Text>Awards a free random technology and civic, as well as two [ICON_TechBoosted] Eurekas.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Chosen Campus gains 2 [ICON_Housing] Housing and 1 [ICON_AMENITIES] Amenities. Increases non-[ICON_Food]Food yield benefits of Happiness in your empire by 50%.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EMILIE_DU_CHATELET_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Universities provide +1 [ICON_Science] Science.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GALILEO_GALILEI_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}Gain 400 [ICON_Science] Science (on Standard speed) for each adjacent Mountain tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ISAAC_NEWTON_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Instantly builds a University and Library in this district. Universities provide +2 [ICON_Science] Science.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CHARLES_DARWIN_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Gain 800 [ICON_Science] Science (on Standard speed) for each natural wonder tile here or adjacent.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DMITRI_MENDELEEV_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Triggers the [ICON_TechBoosted] Eureka moment for Chemistry and Plastics. If they are already triggered, instead completes the tech.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JAMES_YOUNG_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Reveals [ICON_RESOURCE_OIL] Oil without the normal technology requirement. Triggers the [ICON_TechBoosted] Eureka moment for Refinery and Combustion. If they are already triggered, instead completes the tech.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ALAN_TURING_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Triggers the [ICON_TechBoosted] Eureka moment for Radio and Computers. If they are already triggered, instead completes the tech.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_RESEARCHLABS_BIG_SCIENCE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Research Labs provide +{Amount} [ICON_Science] Science.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GREAT_PERSON_FREE_POINTS" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Applies {Amount} free [ICON_GreatPerson] Great People points towards recruiting all current and future Great People.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JANAKI_AMMAL_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}Gain 800 [ICON_Science] Science (on Standard speed) for each Rainforest tile here or adjacent.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ERWIN_SCHRODINGER_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} [ICON_TechBoosted] Eurekas provide an extra 20% of the Science cost. Grants 2 [ICON_TechBoosted] Eurekas after researching a technology from a new era.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_GRANT_LOTSO_SCIENCE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Grants 3000 [ICON_SCIENCE] Science and [ICON_CULTURE] Culture (on Standard speed).</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eureka moment for Offworld Mission, or completes the tech if it is already triggered. Grants {Amount} [ICON_Production] Production towards Space Race project construction.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_STEPHANIE_KWOLEK_ACTIVE" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eureka moment for Composites and Smart Materials, or completes the tech if it is already triggered. +50% [ICON_Production] Production towards Space Race projects.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS" Language="en_US">
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eureka moment for all technologies from the Information era, and three Future era technologies.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
