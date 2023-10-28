@@ -271,5 +271,9 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI_NAME" Language="zh_Hans_CN" Text="皮耶罗·德·巴尔迪"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL_NAME" Language="zh_Hans_CN" Text="托达·马尔拉贾"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN_NAME" Language="zh_Hans_CN" Text="赫莲娜·鲁宾斯坦"/>
+		<!--Great Engineers-->
+		<Replace Tag="LOC_GREATPERSON_WORKSHOP_CULTURE" Language="zh_Hans_CN">
+			<Text>工坊+{Amount} [ICON_Culture] 文化值。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

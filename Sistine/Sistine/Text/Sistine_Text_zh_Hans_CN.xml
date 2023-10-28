@@ -573,7 +573,7 @@
 			<Text>随机奖励1项免费科技和1项免费市政，以及2个 [ICON_TechBoosted] 尤里卡。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="zh_Hans_CN">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}选定的学院获得2点 [ICON_Housing] 住房与1点 [ICON_AMENITIES] 宜居度。您帝国中幸福等级提供的非 [ICON_Food] 食物产出增益提升50%。</Text>
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}选定的学院获得2点 [ICON_Housing] 住房与1点 [ICON_AMENITIES] 宜居度。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EMILIE_DU_CHATELET_ACTIVE" Language="zh_Hans_CN">
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST}大学+1 [ICON_Science] 科技值。</Text>
@@ -675,6 +675,46 @@
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GOVERNOR_POINTS" Language="zh_Hans_CN">
 			<Text>提供2个 [ICON_Governor] 总督头衔。</Text>
+		</Replace>
+		<!--Great Enginers-->
+		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_1" Language="zh_Hans_CN">
+			<Text>此城市的每个区域为当前生产项目赠予 120 [ICON_Production] 生产力（上限600点）。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_SMALL_1" Language="zh_Hans_CN">
+			<Text>此城市的每个区域为当前生产项目赠予 60 [ICON_Production] 生产力（上限300点）。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_PRINTINGTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发印刷术科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CULTURE_SMALL" Language="zh_Hans_CN">
+			<Text>此城市提供+2 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_1MODERNTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发{Amount}个随机电气时代科技的 [ICON_TechBoosted] 尤里卡。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMPUTERSTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发计算机科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即在该城市中建造远古和中世纪城墙。此城市提供+2 [ICON_Culture] 文化值。此城市的每个区域为当前生产项目赠予 60 [ICON_Production] 生产力（上限300点）。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即在该区域建造工厂和工坊。工厂+2 [ICON_Production] 生产力。此城市的每个区域为当前生产项目赠予 120 [ICON_Production] 生产力（上限600点）。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CITY_WONDER_TOURISM_SMALL" Language="zh_Hans_CN">
+			<Text>此城市的奇观提供+50% [ICON_Tourism] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CITY_WONDER_TOURISM_LARGE" Language="zh_Hans_CN">
+			<Text>此城市的奇观提供+100% [ICON_Tourism] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发火箭技术和高级弹道学科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE" Language="zh_Hans_CN">
+			<Text>您帝国中幸福等级提供的非 [ICON_Food] 食物产出增益提升50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DISTRICT_SCIENCE_ADJACENCY_AS_TOURISM_ATTACH" Language="zh_Hans_CN">
+			<Text>您城市的每个区域提供等于其相邻加成的 [ICON_Tourism] 旅游业绩（[ICON_Gold] 金币加成带来的量减半）。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
