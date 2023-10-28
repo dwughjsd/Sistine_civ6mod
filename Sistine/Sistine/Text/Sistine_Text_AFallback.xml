@@ -598,7 +598,7 @@
 			<Text>Each turn you receive [ICON_Gold] Gold equal to 3% of your treasury.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GIOVANNI_DE_MEDICI_ACTIVE" Language="en_US">
-			<Text>Gain 900 [ICON_Gold] Gold. Instantly builds a Bank and Market in this district. The Bank gets 2 Great Work slots, which can hold anything./Text>
+			<Text>Gain 900 [ICON_Gold] Gold. Instantly builds a Bank and Market in this district. The Bank gets 2 Great Work slots, which can hold anything.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_CITY_STATE_GRANT_ENVOYS" Language="en_US">
 			<Text>Gain enough [ICON_ENVOY] Envoys in this city-state to make you its Suzerain.</Text>
