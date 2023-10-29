@@ -136,6 +136,13 @@
 		<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME" Language="en_US" Text="Sha-ariti"/>
 		<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME" Language="zh_Hans_CN" Text="巴比伦矛兵"/>
 		<Replace Tag="LOC_UNIT_PORTUGUESE_NAU_NAME" Language="zh_Hans_CN" Text="拿屋帆船"/>
+		<!--Unit Abilities-->
+		<Replace Tag="LOC_ABILITY_IGNORE_ZOC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不受敌人的控制区域（ZOC）影响。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IGNORE_ZOC_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不受控制区域影响</Text>
+		</Replace>
 		<!--Governments-->
 		<Replace Tag="LOC_GOVERNMENT_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁制"/>
 		<Replace Tag="LOC_GOVERNMENT_OLIGARCHY_NAME" Language="zh_Hans_CN" Text="寡头制"/>
@@ -322,6 +329,75 @@
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA" Language="zh_Hans_CN">
 			<Text>为2个单元格内的原子和信息时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_THEMISTOCLES_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个四列桨座战船单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT" Language="zh_Hans_CN">
+			<Text>在陆军单位上激活。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_SEA_UNIT" Language="zh_Hans_CN">
+			<Text>在海军单位上激活。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_AIR_UNIT" Language="zh_Hans_CN">
+			<Text>在空军单位上激活。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EL_CID_ACTIVE" Language="zh_Hans_CN">
+			<Text>把一个陆军单位变成军团。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE" Language="zh_Hans_CN">
+			<Text>把一个陆军单位变成军队。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_HANNIBAL_BARCA_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予陆军单位1次升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_TIMUR_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予陆军单位1次升级并+25%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的射石炮单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_RANI_LAKSHMIBAI_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的近代骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予陆军单位1次升级和+75%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SAMORI_TURE_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的现代步兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的坦克单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的现代反坦克单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予陆军单位1次升级和+100%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ARTEMISIA_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予海军单位1次升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予海军单位1次升级和+50%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SERGEY_GORSHKOV_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予海军单位1次升级和+100%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CLANCY_FERNANDO_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予海军单位1次升级和+200%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HIMERIOS_ACTIVE" Language="zh_Hans_CN">
+			<Text>赋予海军单位1次升级和+25%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SAMORI_TURE_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的特种部队单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FRANZ_VON_HIPPER_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的战列舰单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_VISIBLE_LUXURY" Language="zh_Hans_CN">
+			<Text>必须在拥有奢侈资源的单元格上。</Text>
 		</Replace>
 		<!--Commandante Generals-->
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_JOSE_DE_SUCRE_NAME" Language="zh_Hans_CN" Text="安东尼奥·何塞·德·苏克雷"/>

@@ -678,10 +678,10 @@
 		</Replace>
 		<!--Great Enginers-->
 		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_1" Language="zh_Hans_CN">
-			<Text>此城市的每个区域为当前生产项目赠予 120 [ICON_Production] 生产力（上限600点）。</Text>
+			<Text>此城市的每个专业化区域为当前生产项目赠予 120 [ICON_Production] 生产力（上限600点）。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_SMALL_1" Language="zh_Hans_CN">
-			<Text>此城市的每个区域为当前生产项目赠予 60 [ICON_Production] 生产力（上限300点）。</Text>
+			<Text>此城市的每个专业化区域为当前生产项目赠予 60 [ICON_Production] 生产力（上限300点）。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_PRINTINGTECHBOOST" Language="zh_Hans_CN">
 			<Text>触发印刷术科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
@@ -722,9 +722,6 @@
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND" Language="zh_Hans_CN">
 			<Text>为2个单元格内的信息和未来时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+50%夹击加成。（《孙子兵法》）</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TRUNG_TRAC_PERMANENT_ACTIVE" Language="zh_Hans_CN">
 			<Text>您帝国的厌战永久降低50%。</Text>
