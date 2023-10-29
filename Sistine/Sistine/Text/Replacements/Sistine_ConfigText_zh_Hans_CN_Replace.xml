@@ -48,5 +48,12 @@
 		<Replace Tag="LOC_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>占地1单元格的自然奇观。提供+4 [ICON_Science] 科技值、+4 [ICON_Faith] 信仰值，以及淡水。进入此奇观的陆地战斗单位获得“生命之水”能力（在任意领土中+10生命值恢复）。</Text>
 		</Replace>
+		<!--Commandante Generals-->
+		<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进入新时代后获得1名总司令。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_DESCRIPTION_XP1" Language="zh_Hans_CN">
+			<Text>游戏进入新时代后获得1名总司令。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

@@ -1403,4 +1403,446 @@
 		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE" Context="Summary" Text="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE"/>
 		<Row ModifierId="GREATPERSON_DISTRICT_SCIENCE_ADJACENCY_AS_TOURISM_ATTACH" Context="Summary" Text="LOC_GREATPERSON_DISTRICT_SCIENCE_ADJACENCY_AS_TOURISM_ATTACH"/>
 	</ModifierStrings>
+	
+	<!--Great General-->
+	<GreatWorkModifiers>
+		<!--The Art of War-->
+		<Row GreatWorkType="GREATWORK_SUN_TZU" ModifierId="GREATPERSON_GEORGY_ZHUKOV_ACTIVE"/>
+	</GreatWorkModifiers>
+
+	<GreatPersonIndividuals>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HANNIBAL_BARCA" />
+			<Set ActionCharges="2"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TIMUR" />
+			<Set ActionCharges="2"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS" />
+			<Set ActionCharges="2"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DANDARA" />
+			<Set ActionCharges="3"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI" />
+			<Set ActionCharges="2"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_MONASH" />
+			<Set ActionCharges="2"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SAMORI_TURE" />
+			<Set ActionCharges="3"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DOUGLAS_MACARTHUR" />
+			<Set ActionCharges="3"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD" />
+			<Set ActionCharges="3"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE" />
+			<Set ActionCharges="3"/>
+		</Update>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AETHELFLAED" ModifierId="GREATPERSON_AETHELFLAED_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AETHELFLAED" ModifierId="GREATPERSON_LOYALTY_PRESSURE_SMALL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR" ModifierId="GREATPERSON_SIMON_BOLIVAR_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR" ModifierId="GREATPERSON_LOYALTY_PRESSURE_MEDIUM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_SUDIRMAN_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_LOYALTY_PRESSURE_LARGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER" ModifierId="GREATPERSON_DWIGHT_EISENHOWER_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV" ModifierId="GREATPERSON_GEORGY_ZHUKOV_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER" ModifierId="GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV" ModifierId="GREATPERSON_GEORGY_ZHUKOV_ACTIVE_SST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA" ModifierId="GREATPERSON_AERODROME_DISTRICT_PRODUCTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA" ModifierId="GREATPERSON_AERODROME_BUILDINGS_PRODUCTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_LOYALTY_PRESSURE_SMALL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_CITIZEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LOYALTY_PRESSURE_MEDIUM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_CITIZEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LOYALTY_PRESSURE_LARGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_CITIZEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GEORGY_ZHUKOV_ACTIVE_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AERODROME_DISTRICT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AERODROME_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDINGS_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="GREATPERSON_ANA_NZINGA_ACTIVE" Name="Amount"/>
+			<Set Value="3"/>
+		</Update>
+		<Update>
+			<Where ModifierId="GREAT_PERSON_INDIVIDUAL_TRUNG_TRAC_PERMANENT_ACTIVE" Name="Amount"/>
+			<Set Value="-50"/>
+		</Update>
+		<Row>
+			<ModifierId>GREATPERSON_LOYALTY_PRESSURE_SMALL</ModifierId>
+			<Name>Amount</Name>
+			<Value>.3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LOYALTY_PRESSURE_MEDIUM</ModifierId>
+			<Name>Amount</Name>
+			<Value>.5</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LOYALTY_PRESSURE_LARGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_EISENHOWER_LAND_COMBAT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GEORGY_ZHUKOV_ACTIVE_SST</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_ZHUKOV_CAVALRY_COMBAT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AERODROME_DISTRICT_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AERODROME_DISTRICT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AERODROME_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AERODROME_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>AOE_CLASSICAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_ANCIENT_UNIT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INFORMATION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_FUTURE_UNIT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>AOE_REQUIRES_ANCIENT_UNIT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_ERA_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>AOE_REQUIRES_FUTURE_UNIT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_ERA_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>AOE_REQUIRES_ANCIENT_UNIT</RequirementId>
+			<Name>EraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<RequirementId>AOE_REQUIRES_FUTURE_UNIT</RequirementId>
+			<Name>EraType</Name>
+			<Value>ERA_FUTURE</Value>
+		</Row>
+	</RequirementArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_LOYALTY_PRESSURE_SMALL" Context="Summary" Text="LOC_GREATPERSON_LOYALTY_PRESSURE_SMALL"/>
+		<Row ModifierId="GREATPERSON_LOYALTY_PRESSURE_MEDIUM" Context="Summary" Text="LOC_GREATPERSON_LOYALTY_PRESSURE_MEDIUM"/>
+		<Row ModifierId="GREATPERSON_LOYALTY_PRESSURE_LARGE" Context="Summary" Text="LOC_GREATPERSON_LOYALTY_PRESSURE_LARGE"/>
+		<Row ModifierId="GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST" Context="Summary" Text="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST"/>
+		<Row ModifierId="GREATPERSON_GEORGY_ZHUKOV_ACTIVE_SST" Context="Summary" Text="LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE_SST"/>
+		<Row ModifierId="GREATPERSON_AERODROME_DISTRICT_PRODUCTION" Context="Summary" Text="LOC_GREATPERSON_AERODROME_DISTRICT_PRODUCTION"/>
+	</ModifierStrings>
+
+	<Types>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ZHUKOV_CAVALRY_COMBAT" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_WARRIOR_MONK"/>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_EISENHOWER_LAND_COMBAT" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_ZHUKOV_CAVALRY_COMBAT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_ZHUKOV_CAVALRY_COMBAT" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_ZHUKOV_CAVALRY_COMBAT" Tag="CLASS_RANGED_CAVALRY"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_EISENHOWER_LAND_COMBAT" Name="LOC_ABILITY_EISENHOWER_LAND_COMBAT_NAME" Description="LOC_ABILITY_EISENHOWER_LAND_COMBAT_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_ZHUKOV_CAVALRY_COMBAT" Name="LOC_ABILITY_ZHUKOV_CAVALRY_COMBAT_NAME" Description="LOC_ABILITY_ZHUKOV_CAVALRY_COMBAT_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_EISENHOWER_LAND_COMBAT</UnitAbilityType>
+			<ModifierId>EISENHOWER_LAND_UNITS_COMBAT_STRENGTH</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ZHUKOV_CAVALRY_COMBAT</UnitAbilityType>
+			<ModifierId>ZHUKOV_CAVALRY_UNITS_COMBAT_STRENGTH</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>EISENHOWER_LAND_UNITS_COMBAT_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZHUKOV_CAVALRY_UNITS_COMBAT_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>EISENHOWER_LAND_UNITS_COMBAT_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZHUKOV_CAVALRY_UNITS_COMBAT_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="EISENHOWER_LAND_UNITS_COMBAT_STRENGTH" Context="Preview" Text="LOC_ABILITY_EISENHOWER_LAND_COMBAT_DESCRIPTION"/>
+		<Row ModifierId="ZHUKOV_CAVALRY_UNITS_COMBAT_STRENGTH" Context="Preview" Text="LOC_ABILITY_ZHUKOV_CAVALRY_COMBAT_DESCRIPTION"/>
+	</ModifierStrings>
+	
+	<!--Great Admirals-->
+	<GreatPersonIndividualActionModifiers>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON" ModifierId="GREATPERSON_LEIF_ERIKSON_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HORATIO_NELSON" ModifierId="GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<GreatPersonIndividuals>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARTEMISIA" />
+			<Set ActionCharges="2"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HIMERIOS" />
+			<Set ActionCharges="2"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN" />
+			<Set ActionCharges="2"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HANNO_THE_NAVIGATOR" />
+			<Set ActionCharges="2"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA" />
+			<Set ActionCharges="2"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER" />
+			<Set ActionCharges="3"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ" />
+			<Set ActionCharges="3"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SERGEY_GORSHKOV" />
+			<Set ActionCharges="3"/>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO" />
+			<Set ActionCharges="3"/>
+		</Update>
+	</GreatPersonIndividuals>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_ERIKSON_NAVAL_SIGHT</UnitAbilityType>
+			<ModifierId>ERIKSON_NAVAL_UNITS_MOVEMENT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ERIKSON_NAVAL_UNITS_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Update>
+			<Where ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" />
+			<Set ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN"/>
+		</Update>
+	</Modifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="GREATPERSON_FERDINAND_MAGELLAN_ACTIVE" Name="Amount"/>
+			<Set Value="600"/>
+		</Update>
+		<Update>
+			<Where ModifierId="GREATPERSON_CHING_SHIH_ACTIVE" Name="Amount"/>
+			<Set Value="900"/>
+		</Update>
+		<Row>
+			<ModifierId>ERIKSON_NAVAL_UNITS_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SHIPYARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE" Name="Amount"/>
+			<Set Value="-50"/>
+		</Update>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST" Context="Summary" Text="LOC_GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST"/>
+	</ModifierStrings>
+	<!--Commandante Generals-->
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PAULA_SANTANDER" ModifierId="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_RANDOM_CIVIC" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PIAR" ModifierId="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_UNIT_PROMOTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA" ModifierId="GREAT_PERSON_URDANETA_UNIT_MOVEMENT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_URDANETA_UNIT_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_LAND_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_UNIT_GOLD" Name="UnitCostPercent"/>
+			<Set Value="200"/>
+		</Update>
+		<Update>
+			<Where ModifierId="COMMANDANTE_CAVALRY_BUFF" Name="Amount"/>
+			<Set Value="7"/>
+		</Update>
+		<Update>
+			<Where ModifierId="GREAT_PERSON_INDIVIDUAL_RIBAS_DAMAGE_NEARBY_UNITS" Name="Amount"/>
+			<Set Value="100"/>
+		</Update>
+		<Update>
+			<Where ModifierId="COMMANDANTE_UNIT_STRENGTH_BUFF" Name="Amount"/>
+			<Set Value="10"/>
+		</Update>
+		<Update>
+			<Where ModifierId="COMMANDANTE_MELEE_ANTICAV_BUFF" Name="Amount"/>
+			<Set Value="7"/>
+		</Update>
+		<Update>
+			<Where ModifierId="COMMANDANTE_UNIT_STR_VS_DISTRICTS" Name="Amount"/>
+			<Set Value="7"/>
+		</Update>
+		<Row>
+			<ModifierId>GREAT_PERSON_URDANETA_UNIT_MOVEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_URDANETA_UNIT_MOVEMENT</Value>
+		</Row>
+	</ModifierArguments>
+
+	<Types>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_WARRIOR_MONK"/>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_URDANETA_UNIT_MOVEMENT" Tag="CLASS_LIGHT_CHARIOT"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_URDANETA_UNIT_MOVEMENT" Name="LOC_ABILITY_URDANETA_UNIT_MOVEMENT_NAME" Description="LOC_ABILITY_URDANETA_UNIT_MOVEMENT_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_URDANETA_UNIT_MOVEMENT</UnitAbilityType>
+			<ModifierId>URDANETA_UNIT_MOVEMENT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>URDANETA_UNIT_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>URDANETA_UNIT_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="URDANETA_UNIT_MOVEMENT" Context="Preview" Text="LOC_ABILITY_URDANETA_UNIT_MOVEMENT_DESCRIPTION"/>
+	</ModifierStrings>
 </GameData>

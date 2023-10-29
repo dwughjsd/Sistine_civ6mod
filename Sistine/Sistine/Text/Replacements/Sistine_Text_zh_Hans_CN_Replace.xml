@@ -169,6 +169,7 @@
 			<Text>{1_TechOrCivicName}出现后过时。</Text>
 		</Replace>
 		<!--Beliefs-->
+		<Replace Tag="LOC_RELIGION_CUSTOM" Language="zh_Hans_CN" Text="自定义宗教"/>
 		<Replace Tag="LOC_BELIEF_RIVER_GODDESS_NAME" Language="zh_Hans_CN" Text="河流女神"/>
 		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_NAME" Language="zh_Hans_CN" Text="众神丰碑"/>
 		<Replace Tag="LOC_BELIEF_DIVINE_SPARK_NAME" Language="zh_Hans_CN" Text="神圣火花"/>
@@ -272,8 +273,127 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL_NAME" Language="zh_Hans_CN" Text="托达·马尔拉贾"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN_NAME" Language="zh_Hans_CN" Text="赫莲娜·鲁宾斯坦"/>
 		<!--Great Engineers-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE_NAME" Language="zh_Hans_CN" Text="圣乔治的詹姆斯"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_NAME" Language="zh_Hans_CN"><Text>米玛·希南</Text></Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_NAME" Language="zh_Hans_CN" Text="沙·贾汗"/>
 		<Replace Tag="LOC_GREATPERSON_WORKSHOP_CULTURE" Language="zh_Hans_CN">
 			<Text>工坊+{Amount} [ICON_Culture] 文化值。</Text>
 		</Replace>
+		<!--Great Generals-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EL_CID_NAME" Language="zh_Hans_CN" Text="熙德"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS_NAME" Language="zh_Hans_CN" Text="古斯塔夫·阿道夫"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC_NAME" Language="zh_Hans_CN" Text="贞德"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA_NAME" Language="zh_Hans_CN" Text="玛林娜·拉斯科娃"/>
+
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的中古和启蒙时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的启蒙和工业时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的工业和电气时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的电气和原子时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的原子和信息时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力</Text>
+		</Replace>
+		<!--Great Admirals-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS_NAME" Language="zh_Hans_CN" Text="盖乌斯·杜伊利乌斯"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_THEMISTOCLES_NAME" Language="zh_Hans_CN" Text="地米斯托克利"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HIMERIOS_NAME" Language="zh_Hans_CN" Text="希墨里俄斯"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE_NAME" Language="zh_Hans_CN" Text="弗朗西斯·德雷克"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SANTA_CRUZ_NAME" Language="zh_Hans_CN" Text="圣克鲁斯"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA_NAME" Language="zh_Hans_CN" Text="拉斯卡丽娜·布布丽娜"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA_NAME" Language="zh_Hans_CN" Text="若阿金·马奎斯·里斯本"/>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的中古和启蒙时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的启蒙和工业时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的工业和电气时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的电气和原子时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的原子和信息时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<!--Commandante Generals-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_JOSE_DE_SUCRE_NAME" Language="zh_Hans_CN" Text="安东尼奥·何塞·德·苏克雷"/>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_COMANDANTE_GENERAL_NAME" Language="zh_Hans_CN">
+			<Text>总司令</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_MOVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>总司令后勤</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>总司令提供+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>总司令领导</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>总司令提供+5 [ICON_Strength] 战斗力加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMANDANTE_STRENGTH_AOE_LAND" Language="zh_Hans_CN">
+			<Text>2个单元格内所有陆地单位+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<!--Artists and Great works-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMRITA_SHER_GIL_NAME" Language="zh_Hans_CN" Text="阿姆里塔·谢吉尔"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ANDREY_RUBLEV_NAME" Language="zh_Hans_CN" Text="安德烈·卢布廖夫"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ANGELICA_KAUFFMAN_NAME" Language="zh_Hans_CN" Text="安杰莉卡·考夫曼"/>
+		<Replace Tag="LOC_GREATWORK_GIL_2_NAME" Language="zh_Hans_CN" Text="《新娘的梳妆》"/>
+		<Replace Tag="LOC_GREATWORK_RUBLEV_2_NAME" Language="zh_Hans_CN" Text="《荣耀救主》"/>
+		<Replace Tag="LOC_GREATWORK_KAUFFMAN_3_NAME" Language="zh_Hans_CN" Text="《缪斯女神萨拉·哈罗普》"/>
+		<Replace Tag="LOC_GREATWORK_LEWIS_2_NAME" Language="zh_Hans_CN" Text="《海华沙与明尼哈哈之婚》"/>
+		<Replace Tag="LOC_GREATWORK_GRECO_1_NAME" Language="zh_Hans_CN" Text="《博士来拜》"/>
+		<Replace Tag="LOC_GREATWORK_GRECO_3_NAME" Language="zh_Hans_CN" Text="《托莱多之景》"/>
+		<Replace Tag="LOC_GREATWORK_KLIMT_2_NAME" Language="zh_Hans_CN" Text="《开默城堡公园中的大道》"/>
+		<Replace Tag="LOC_GREATWORK_KLIMT_3_NAME" Language="zh_Hans_CN" Text="《向日葵农场花园》"/>
+		<Replace Tag="LOC_GREATWORK_TOHAKU_1_NAME" Language="zh_Hans_CN" Text="《松林图》"/>
+		<Replace Tag="LOC_GREATWORK_TOHAKU_2_NAME" Language="zh_Hans_CN" Text="《枫图》"/>
+		<Replace Tag="LOC_GREATWORK_TOHAKU_3_NAME" Language="zh_Hans_CN" Text="《花鸟图》"/>
+		<Replace Tag="LOC_GREATWORK_EOP_1_NAME" Language="zh_Hans_CN" Text="《三人问年图》"/>
+		<Replace Tag="LOC_GREATWORK_EOP_2_NAME" Language="zh_Hans_CN" Text="《公鸡》"/>
+		<Replace Tag="LOC_GREATWORK_EOP_3_NAME" Language="zh_Hans_CN" Text="《双马人物图》"/>
+		<Replace Tag="LOC_GREATWORK_HOKUSAI_2_NAME" Language="zh_Hans_CN" Text="《信州诹访湖》"/>
+		<Replace Tag="LOC_GREATWORK_YING_2_NAME" Language="zh_Hans_CN" Text="《莲溪渔隐图》"/>
+		<Replace Tag="LOC_GREATWORK_TITIAN_2_NAME" Language="zh_Hans_CN" Text="《莎乐美和施洗约翰的头》"/>
+		<Replace Tag="LOC_GREATWORK_GOGH_1_NAME" Language="zh_Hans_CN" Text="《星夜》"/>
+		<Replace Tag="LOC_GREATWORK_GOGH_2_NAME" Language="zh_Hans_CN" Text="《夜间的露天咖啡座》"/>
+		<Replace Tag="LOC_GREATWORK_GOGH_3_NAME" Language="zh_Hans_CN" Text="《夜间咖啡馆》"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GEOFFREY_CHAUCER_NAME" Language="zh_Hans_CN" Text="杰弗雷·乔叟"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MARIE_CATHERINE_D_AULNOY_NAME" Language="zh_Hans_CN" Text="奥努瓦男爵夫人玛丽·卡特琳"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EDGAR_ALLEN_POE_NAME" Language="zh_Hans_CN" Text="埃德加·爱伦·坡"/>
+		<Replace Tag="LOC_GREATWORK_BHASA_1_NAME" Language="zh_Hans_CN" Text="《仲儿》"/>
+		<Replace Tag="LOC_GREATWORK_VALMIKI_2_NAME" Language="zh_Hans_CN" Text="《至上瑜伽》"/>
+		<Replace Tag="LOC_GREATWORK_PUSHKIN_1_NAME" Language="zh_Hans_CN" Text="《叶甫盖尼·奥涅金》"/>
+		<Replace Tag="LOC_GREATWORK_PUSHKIN_2_NAME" Language="zh_Hans_CN" Text="《鲍里斯·戈都诺夫》"/>
+		<Replace Tag="LOC_GREATWORK_POE_1_NAME" Language="zh_Hans_CN" Text="《泄密的心》"/>
+		<Replace Tag="LOC_GREATWORK_CAPEK_1_NAME" Language="zh_Hans_CN" Text="《罗素姆万能机器人》"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WOLFGANG_AMADEUS_MOZART_NAME" Language="zh_Hans_CN" Text="沃尔夫冈·阿玛多伊斯·莫扎特"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DIMITRIE_CANTEMIR_NAME" Language="zh_Hans_CN" Text="迪米特里·坎泰米尔"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FRANZ_LISZT_NAME" Language="zh_Hans_CN" Text="弗朗茨·李斯特"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ANTONIN_DVORAK_NAME" Language="zh_Hans_CN" Text="安东·德沃夏克"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MYKOLA_LEONTOVYCH_NAME" Language="zh_Hans_CN" Text="米科拉·莱昂托维奇"/>
+		<Replace Tag="LOC_GREATWORK_BACH_2_NAME" Language="zh_Hans_CN" Text="第1号大提琴组曲"/>
+		<Replace Tag="LOC_GREATWORK_VIVALDI_2_NAME" Language="zh_Hans_CN" Text="协奏曲《夜》"/>
+		<Replace Tag="LOC_GREATWORK_LISZT_1_NAME" Language="zh_Hans_CN" Text="超技练习曲第九首"/>
+		<Replace Tag="LOC_GREATWORK_ROSAS_2_NAME" Language="zh_Hans_CN" Text="《卡门华尔兹》"/>
+		<Replace Tag="LOC_GREATWORK_GOMEZ_1_NAME" Language="zh_Hans_CN" Text="《佛斯卡》第一乐章（序曲）"/>
+		<Replace Tag="LOC_GREATWORK_SCHUMANN_1_NAME" Language="zh_Hans_CN" Text="《前奏曲与赋格》（作品16）之3"/>
+		<Replace Tag="LOC_GREATWORK_SCHUMANN_2_NAME" Language="zh_Hans_CN" Text="A小调小托卡塔曲"/>	
+		<Replace Tag="LOC_GREATWORK_JAAN_1_NAME" Language="zh_Hans_CN" Text="卡纳吉·乔吉亚拉加"/>
+		<Replace Tag="LOC_GREATWORK_JAAN_2_NAME" Language="zh_Hans_CN" Text="百拉米拉加"/>
+		<Replace Tag="LOC_GREATWORK_ARTIFACT_2_NAME" Language="zh_Hans_CN" Text="石板"/>
+		<Replace Tag="LOC_GREATWORK_ARTIFACT_11_NAME" Language="zh_Hans_CN" Text="高脚杯"/>
+		<Replace Tag="LOC_GREATWORK_ARTIFACT_14_NAME" Language="zh_Hans_CN" Text="板甲"/>
+		<!--Great Prophets and Relics-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SIDDHARTHA_GAUTAMA_NAME" Language="zh_Hans_CN" Text="乔达摩·悉达多"/>
 	</LocalizedText>
 </GameData>

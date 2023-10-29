@@ -716,5 +716,108 @@
 		<Replace Tag="LOC_GREATPERSON_DISTRICT_SCIENCE_ADJACENCY_AS_TOURISM_ATTACH" Language="zh_Hans_CN">
 			<Text>您城市的每个区域提供等于其相邻加成的 [ICON_Tourism] 旅游业绩（[ICON_Gold] 金币加成带来的量减半）。</Text>
 		</Replace>
+		<!--Great Generals-->
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的远古、古典和中古时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的信息和未来时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GEORGY_ZHUKOV_FLANKING_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+50%夹击加成。（《孙子兵法》）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TRUNG_TRAC_PERMANENT_ACTIVE" Language="zh_Hans_CN">
+			<Text>您帝国的厌战永久降低50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_SMALL" Language="zh_Hans_CN">
+			<Text>城市的每位公民产生+0.3点忠诚度压力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_MEDIUM" Language="zh_Hans_CN">
+			<Text>城市的每位公民产生+0.5点忠诚度压力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_LARGE" Language="zh_Hans_CN">
+			<Text>城市的每位公民产生+1点忠诚度压力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST" Language="zh_Hans_CN">
+			<Text>所有陆地军事单位+3 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE_SST" Language="zh_Hans_CN">
+			<Text>所有骑兵单位+7 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EISENHOWER_LAND_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST}（{LOC_GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZHUKOV_CAVALRY_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE_SST}（{LOC_GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_AERODROME_DISTRICT_PRODUCTION" Language="zh_Hans_CN">
+			<Text>建设飞行场及其建筑时+100% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<!--Great Admirals-->
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的远古、古典和中古时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的信息和未来时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ERIKSON_NAVAL_SIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有海军单位视野范围+1，[ICON_Movement] 移动力+1。（{LOC_GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LEIF_ERIKSON_EXPANSION2_ACTIVE" Language="zh_Hans_CN">
+			<Text>所有海军单位视野范围+1，[ICON_Movement] 移动力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FERDINAND_MAGELLAN_ACTIVE" Language="zh_Hans_CN">
+			<Text>[ICON_Capital] 首都获得1份免费的此单元格上的奢侈资源。获得600 [ICON_Gold] 金币（标准速度下）。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CHING_SHIH_EXPANSION2_ACTIVE" Language="zh_Hans_CN">
+			<Text>获得900 [ICON_Gold] 金币（标准速度下）。军事单位掠夺海上 [ICON_TradeRoute] 贸易路线时收益+60%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST" Language="zh_Hans_CN">
+			<Text>造船厂+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE" Language="zh_Hans_CN">
+			<Text>您帝国的厌战永久降低50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" Language="zh_Hans_CN">
+			<Text>所有城市每回合的忠诚度+6。</Text>
+		</Replace>
+		<!--Commandante Generals-->
+		<Replace Tag="LOC_GREAT_PERSON_MACGREGOR_PROMOTION_PLUS_GOLD" Language="zh_Hans_CN">
+			<Text>为陆地军事单位提供1级升级、以及等同于单位购买费用200%的 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_COMMANDANTE_CAVALRY_BUFF" Language="zh_Hans_CN">
+			<Text>2单元格内的骑兵单位+7 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMANDANTE_CAVALRY_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+7 [ICON_Strength] 战斗力（{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_ANTONIO_PAEZ_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_RIBAS_DAMAGE_NEARBY_UNITS" Language="zh_Hans_CN">
+			<Text>杀死2单元格内的敌方单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_COMMANDANTE_UNIT_STRENGTH" Language="zh_Hans_CN">
+			<Text>为陆地单位提供+10 [ICON_Strength] 战斗力，以及1次升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMANDANTE_UNIT_STRENGTH_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10 [ICON_Strength] 战斗力（{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PIAR_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MELEE_ANTICAV_BUFF" Language="zh_Hans_CN">
+			<Text>2单元格内的近战和反骑兵单位+7 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMANDANTE_MELEE_ANTICAV_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+7 [ICON_Strength] 战斗力（{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MARINO_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_MONTILLA_UNIT_STR_VS_DISTRICTS" Language="zh_Hans_CN">
+			<Text>2单元格内的陆地单位攻击区域时+7 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMANDANTE_UNIT_STR_VS_DISTRICTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击区域时+7 [ICON_Strength] 战斗力（{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MONTILLA_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_COMMANDANTE_RESET_UNIT_MOVES" Language="zh_Hans_CN">
+			<Text>2单元格内的所有陆地战斗单位重新获得全额 [ICON_Movement] 移动力和攻击能力，并永久 +1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_URDANETA_UNIT_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Movement] 移动力（{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA_NAME}）</Text>
+		</Replace>
+
 	</LocalizedText>
 </GameData>
