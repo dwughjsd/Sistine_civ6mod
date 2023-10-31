@@ -519,13 +519,13 @@
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Campuses receive an additional +1 Science for each adjacent Mountain tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_MATHEMATICS" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers [ICON_TechBoosted] Eureka for Celestial Navigation, Mathematics, and Engineering. If they are already triggered, instead completes the tech.</Text>
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eureka for Celestial Navigation, Mathematics, and Engineering. If they are already triggered, instead completes the tech.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_LIBRARIES_SCIENCE" Language="en_US">
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Libraries provide +{Amount} [ICON_Science] Science.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="en_US">
-			<Text>Grants two free technologies. Triggers [ICON_TechBoosted] Eureka for Mathematics. If they are already triggered, instead completes the tech.</Text>
+			<Text>Grants two free technologies. Triggers the [ICON_TechBoosted] Eureka for Mathematics. If they are already triggered, instead completes the tech.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE" Language="en_US">
 			<Text>Grants two [ICON_TechBoosted] Eurekas. Wounded land units can heal +10 HP each turn.</Text>
@@ -629,6 +629,138 @@
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GOVERNOR_POINTS" Language="en_US">
 			<Text>Grants 2 [ICON_Governor] Governor Titles.</Text>
+		</Replace>
+		<!--Great Enginers-->
+		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_1" Language="en_US">
+			<Text>Grants 120 [ICON_Production] Production for each specialty district in this city (up to 600) towards what is currently being produced.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_SMALL_1" Language="en_US">
+			<Text>Grants 60 [ICON_Production] Production for each specialty district in this city (up to 300) towards what is currently being produced.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_PRINTINGTECHBOOST" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka for Printing. If they are already triggered, instead completes the tech.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CULTURE_SMALL" Language="en_US">
+			<Text>This city provides +2 [ICON_Culture] Culture.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMPUTERSTECHBOOST" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka for Computers. If they are already triggered, instead completes the tech.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE_ACTIVE" Language="en_US">
+			<Text>Instantly builds Ancient and Medieval Walls in this city. This city provides +2 [ICON_Culture] Culture. Grants 60[ICON_Production] Production for each specialty district in this city (up to 300) towards what is currently being produced.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE" Language="en_US">
+			<Text>Instantly builds a Factory and Workshop in this district. Factories provide +2 [ICON_Production] Production. Grants 120 [ICON_Production] Production for each specialty district in this city (up to 600) towards what is currently being produced.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CITY_WONDER_TOURISM_SMALL" Language="en_US">
+			<Text>+50% [ICON_Tourism] Tourism towards wonders in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CITY_WONDER_TOURISM_LARGE" Language="en_US">
+			<Text>+100% [ICON_Tourism] Tourism towards wonders in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka for Rocketry and Advanced Ballistics. If they are already triggered, instead completes the tech.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE" Language="en_US">
+			<Text>Increases non-[ICON_Food]Food yield benefits of Happiness in your empire by 50%.</Text>
+		<!--Great Generals-->
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Ancient, Classical, and Medieval era land units within 2 tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Information and Future era land units within 2 tiles.。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TRUNG_TRAC_PERMANENT_ACTIVE" Language="en_US">
+			<Text>Permanently reduces your empire's War Weariness by 50%.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_SMALL" Language="en_US">
+			<Text>Citizens in this city generate +0.3 Loyalty.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_MEDIUM" Language="en_US">
+			<Text>Citizens in this city generate +0.5 Loyalty.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_LARGE" Language="en_US">
+			<Text>Citizens in this city generate +1 Loyalty.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST" Language="en_US">
+			<Text>+3 [ICON_Strength] Combat Strength to all land miltary units.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE_SST" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength to all cavalry units.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_EISENHOWER_LAND_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>{LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST}（{LOC_GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZHUKOV_CAVALRY_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>{LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE_SST}（{LOC_GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_AERODROME_DISTRICT_PRODUCTION" Language="en_US">
+			<Text>+100% [ICON_Production] Production towards Aerodromes and their buildings.</Text>
+		</Replace>
+		<!--Great Admirals-->
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Ancient, Classical, and Medieval era naval units within 2 tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Information and Future era naval units within 2 tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ERIKSON_NAVAL_SIGHT_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement and sight range for all naval units.（{LOC_GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LEIF_ERIKSON_EXPANSION2_ACTIVE" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement and sight range for all naval units.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FERDINAND_MAGELLAN_ACTIVE" Language="en_US">
+			<Text>Grants 1 free copy of the Luxury resource on this tile to your [ICON_Capital] Capital city. Gain 600 [ICON_GOLD] Gold (on Standard speed).</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CHING_SHIH_EXPANSION2_ACTIVE" Language="en_US">
+			<Text>Gain 900 [ICON_Gold] Gold (on Standard speed). Military units get +60% rewards for plundering sea [ICON_TradeRoute] Trade Routes.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST" Language="en_US">
+			<Text>+2 [ICON_Production] Production from Shipyards.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE" Language="en_US">
+			<Text>Accumulate 50% less war weariness than usual.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" Language="en_US">
+			<Text>Grants +6 Loyalty per turn for this city.</Text>
+		</Replace>
+		<!--Commandante Generals-->
+		<Replace Tag="LOC_GREAT_PERSON_MACGREGOR_PROMOTION_PLUS_GOLD" Language="en_US">
+			<Text>Grants 1 promotion level to a military land unit and [ICON_Gold] Gold equal to 200% of the purchase cost of the unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_COMMANDANTE_CAVALRY_BUFF" Language="en_US">
+			<Text>Grants +7 [ICON_Strength] Combat Strength to Cavalry class units within 2 tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMANDANTE_CAVALRY_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength （{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_ANTONIO_PAEZ_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_RIBAS_DAMAGE_NEARBY_UNITS" Language="en_US">
+			<Text>Enemy units within 2 tiles are killed.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_COMMANDANTE_UNIT_STRENGTH" Language="en_US">
+			<Text>Grants +7 [ICON_Strength] Combat Strength and 1 promotion level to a land unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMANDANTE_UNIT_STRENGTH_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength （{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PIAR_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MELEE_ANTICAV_BUFF" Language="en_US">
+			<Text>Grants +7 [ICON_Strength] Combat Strength to Melee and Anti-Cavalry class units within 2 tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMANDANTE_MELEE_ANTICAV_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength （{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MARINO_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_MONTILLA_UNIT_STR_VS_DISTRICTS" Language="en_US">
+			<Text>Land units within 2 tiles gain +7 [ICON_Strength] Combat Strength when attacking districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMANDANTE_UNIT_STR_VS_DISTRICTS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when attacking districts （{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MONTILLA_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_COMMANDANTE_RESET_UNIT_MOVES" Language="en_US">
+			<Text>All land combat units within 2 tiles regain all [ICON_Movement] Movement and attack capability, and gain +1 [ICON_Movement] Movement permanently.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_URDANETA_UNIT_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement （{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA_NAME}）</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
