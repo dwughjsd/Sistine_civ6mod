@@ -835,7 +835,7 @@
 		<Row>
 			<ModifierId>CITY_INNER_DEFENSE</ModifierId>
 			<Name>Amount</Name>
-			<Value>10</Value>
+			<Value>3</Value>
 		</Row>
 		<Row>
 			<ModifierId>STEEL_URBAN_OUTERDEFENSE</ModifierId>

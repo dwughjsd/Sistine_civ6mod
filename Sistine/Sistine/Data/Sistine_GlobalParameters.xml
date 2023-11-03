@@ -45,6 +45,7 @@
 		<Replace Name="COMBAT_RANGED_VS_DISTRICT_STRENGTH_MODIFIER" Value="0" />
 		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_MELEE" Value="30" />
 		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_RANGED" Value="30" />
+		<Replace Name="COMBAT_GARRISON_MILITIA_MODIFIER" Value="3" />
 	</GlobalParameters>
 
 	<BarbarianTribes>
