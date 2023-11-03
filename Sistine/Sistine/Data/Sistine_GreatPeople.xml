@@ -464,7 +464,7 @@
 		</Update>
 		<Update>
 			<Where ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS" Name="Amount"/>
-			<Set Value="200"/>
+			<Set Value="100"/>
 		</Update>
 		<Update>
 			<Where ModifierId="GREATPERSON_ADJACENT_RAINFOREST_SCIENCE" Name="Amount"/>
