@@ -349,9 +349,6 @@
 		<Row ListType="IndustrialBuildings" Item="BUILDING_COAL_POWER_PLANT" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_FOSSIL_FUEL_POWER_PLANT" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_POWER_PLANT" Favored="true"/>
-		<!--They build too much-->
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_HOSPITAL" Favored="false"/>
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MEDICAL_LAB" Favored="false"/>
 
 		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
