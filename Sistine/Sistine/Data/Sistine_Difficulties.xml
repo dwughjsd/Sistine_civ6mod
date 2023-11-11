@@ -216,7 +216,7 @@
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_SERFDOM</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_PUBLIC_WORKS</ModifierId>
@@ -376,7 +376,7 @@
 		</Row>
 		<Row>
 			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_PUBLIC_WORKS</RequirementSetId>
-			<RequirementId>REQUIRES_HAS_PUBLIC_WORKS_CIVIC_SST</RequirementId>
+			<RequirementId>REQUIRES_HAS_SERFDOM_CIVIC_SST</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_RECORDED_HISTORY</RequirementSetId>

@@ -34,6 +34,7 @@
 		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_RELIGIOUSTOURISM"/>
 		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_ARTIFACTTOURISM"/>
 		<Row PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="TRAIT_WONDER_DOUBLETOURISM"/>
+		<Row PolicyType="POLICY_SERFDOM" ModifierId="PUBLICWORKS_BUILDERPRODUCTION"/>
 	</PolicyModifiers>
 	<Modifiers>
 		<Row>
@@ -71,6 +72,7 @@
 		<Delete ModifierId="MILITARYRESEARCH_RENAISSANCE_WALLS_SCIENCE_MODIFIER" Name="Amount"/>
 		<Delete ModifierId="LIBERALISM_SPECIALTYAMENITY" Name="Amount"/>
 		<Delete ModifierId="SATELLITEBROADCASTS_MUSICTOURISM" Name="ScalingFactor"/>
+		<Delete ModifierId="SERFDOM_BUILDERCHARGES" Name="Amount"/>
 		<Row>
 			<ModifierId>CIVILPRESTIGE_GOVAMENITY</ModifierId>
 			<Name>Amount</Name>
@@ -185,6 +187,11 @@
 			<ModifierId>SATELLITEBROADCASTS_MUSICTOURISM</ModifierId>
 			<Name>ScalingFactor</Name>
 			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>SERFDOM_BUILDERCHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>

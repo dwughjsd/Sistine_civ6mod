@@ -831,5 +831,8 @@
 		<Replace Tag="LOC_TECH_SANITATION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>梯井改良设施+1 [ICON_Housing] 住房。新城市+2初始 [ICON_Citizen] 人口，+3单元格额外领土。</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_SERFDOM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为生产建造者+30% [ICON_Production] 生产力。新训练的建造者获得1点额外劳动力。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
