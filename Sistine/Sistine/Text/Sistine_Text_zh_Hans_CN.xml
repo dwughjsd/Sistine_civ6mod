@@ -33,7 +33,7 @@
 			<Text>牧场+1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>将农场改良设施升级为机械化农业，与每2个农场改良设施相邻时，农场提供的 [ICON_Food] 食物+1。</Text>
+			<Text>将农场改良设施升级为机械化农业，与每2个农场改良设施相邻时，农场提供的 [ICON_Food] 食物+1。建造者+1额外劳动力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_URBANIZATION_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>采石场+1 [ICON_Production] 生产力。牧场+1 [ICON_Food] 食物。</Text>
@@ -815,6 +815,21 @@
 		<Replace Tag="LOC_ABILITY_URDANETA_UNIT_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+1 [ICON_Movement] 移动力（{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA_NAME}）</Text>
 		</Replace>
-
+		<!--Tech and civic adjustments-->
+		<Replace Tag="LOC_TECH_MASS_PRODUCTION_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>建造者+1额外劳动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_METAL_CASTING_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>新城市获得1个免费的建造者。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ENGINEERING_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>开拓者和建造者+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CONSTRUCTION_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>新城市+1初始 [ICON_Citizen] 人口，+3单元格额外领土。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SANITATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>梯井改良设施+1 [ICON_Housing] 住房。新城市+2初始 [ICON_Citizen] 人口，+3单元格额外领土。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

@@ -37,6 +37,34 @@
 		<Row ModifierId="GROWTHBUILDING_50_POP_GROWTH" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH" />
 		<Row ModifierId="GROWTHBUILDING_50_POP_POWERED" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH" SubjectRequirementSetId="CITY_IS_POWERED"/>
 		<Row ModifierId="STABLE_PASTURE_PRODUCTION" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="PLOT_HAS_PASTURE_REQUIREMENTS"/>
+		<!--Settler and workers-->
+		<Row>
+			<ModifierId>TECH_BUILDER_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TECH_SETTLER_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_SETTLER_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TECH_ADJUST_BUILDER_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TECH_SETTLER_ADDITION_POP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_BUILT_CITIES_GRANT_FREE_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TECH_SETTLER_ADDITION_POP_LARGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_BUILT_CITIES_GRANT_FREE_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TECH_SETTLER_ADDITIONAL_TILES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CITY_TILES</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row ModifierId="CULTUREBUILDING_WONDER_CULTURE" Name="Amount" Value="2"/>
@@ -102,6 +130,36 @@
 		<Row ModifierId="GROWTHBUILDING_50_POP_POWERED" Name="Amount" Value="50"/>
 		<Row ModifierId="STABLE_PASTURE_PRODUCTION" Name="Amount" Value="1"/>
 		<Row ModifierId="STABLE_PASTURE_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row>
+			<ModifierId>TECH_BUILDER_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TECH_SETTLER_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TECH_ADJUST_BUILDER_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TECH_SETTLER_ADDITION_POP</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TECH_SETTLER_ADDITION_POP_LARGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TECH_SETTLER_ADDITIONAL_TILES</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
 	</ModifierArguments>
 	
 	<RequirementSets>
@@ -138,6 +196,7 @@
 		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_18" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_19" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_20" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="UNIT_IS_SETTLER_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
@@ -175,6 +234,7 @@
 		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_18" RequirementId="REQUIRES_NON_CAPITAL_CITY_18" />
 		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_19" RequirementId="REQUIRES_NON_CAPITAL_CITY_19" />
 		<Row RequirementSetId="HAS_NON_CAPITAL_CITY_20" RequirementId="REQUIRES_NON_CAPITAL_CITY_20" />
+		<Row RequirementSetId="UNIT_IS_SETTLER_SST" RequirementId="REQUIRES_UNIT_IS_SETTLER_SST" />
 	</RequirementSetRequirements>
 	
 	<Requirements>
@@ -208,6 +268,7 @@
 		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_18" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
 		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_19" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
 		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_20" RequirementType="REQUIREMENT_COLLECTION_COUNT_ATLEAST" />
+		<Row RequirementId="REQUIRES_UNIT_IS_SETTLER_SST" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
 	</Requirements>
 	
 	<RequirementArguments>
@@ -261,6 +322,7 @@
 		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_19" Name="Count" Value="20" />
 		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_20" Name="CollectionType" Value="COLLECTION_PLAYER_CITIES" />
 		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_20" Name="Count" Value="21" />
+		<Row RequirementId="REQUIRES_UNIT_IS_SETTLER_SST" Name="UnitType" Value="UNIT_SETTLER" />
 	</RequirementArguments>
 	
 </GameData>

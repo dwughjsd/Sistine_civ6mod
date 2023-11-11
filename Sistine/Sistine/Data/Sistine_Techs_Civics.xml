@@ -26,6 +26,22 @@
 			<Set Description=""/>
 		</Update>
 		<Update>
+			<Where TechnologyType="TECH_MASS_PRODUCTION" />
+			<Set Description="LOC_TECH_MASS_PRODUCTION_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_METAL_CASTING" />
+			<Set Description="LOC_TECH_METAL_CASTING_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ENGINEERING" />
+			<Set Description="LOC_TECH_ENGINEERING_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CONSTRUCTION" />
+			<Set Description="LOC_TECH_CONSTRUCTION_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_ELECTRICITY" />
 			<Set Description="LOC_TECH_ELECTRICITY_DESCRIPTION_SST"/>
 		</Update>
