@@ -71,7 +71,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="2.5" />
 		</Update>
 		<!--Trade!-->
 		<Update>
@@ -89,19 +89,19 @@
 		<!--Great artists GPP should be divided by 2 or AI will feel that it is VERY important. As now we have wonders to provide culture, Theaters are not that important-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="0.8" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
-			<Set DefaultValue="0.8" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="0.8" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
-			<Set DefaultValue="20.0" />
+			<Set DefaultValue="24.0" />
 		</Update>
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
@@ -325,6 +325,10 @@
 
 		<!--They don't know how to use it properly-->
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_PRESERVE" Favored="false"/>
+		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_NEIGHBORHOOD" Favored="false"/>
+		<Row ListType="IndustrialDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
+
+
 
 		<!--To avoid AI selling it at a low price-->
 		<Delete ListType="AncientPseudoYields" Item="PSEUDOYIELD_DIPLOMATIC_FAVOR" />
