@@ -256,15 +256,14 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
 
-		<Row ListType="DefaultTechsSST" Item="TECH_ANIMAL_HUSBANDRY" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_APPRENTICESHIP" Favored="true" />
+		<Row ListType="DefaultTechsSST" Item="TECH_CONSTRUCTION" Favored="true" />
+		<Row ListType="DefaultTechsSST" Item="TECH_ENGINEERING" Favored="true" />
 		<Row ListType="DefaultTechsSST" Item="TECH_EDUCATION" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_STIRRUPS" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_MILITARY_ENGINEERING" Favored="true" />
+		<Row ListType="DefaultTechsSST" Item="TECH_MASS_PRODUCTION" Favored="true" />
+		<Row ListType="DefaultTechsSST" Item="TECH_REPLACEABLE_PARTS" Favored="true" />
 		<!--Somewhat balance AI tech choices to make them faster to acquire new units-->
 		<Row ListType="DefaultTechsSST" Item="TECH_BALLISTICS" Favored="true" />
 		<Row ListType="DefaultTechsSST" Item="TECH_SCIENTIFIC_THEORY" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_COMPUTERS" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_RECORDED_HISTORY" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_FEUDALISM" Favored="true" />
@@ -349,9 +348,6 @@
 		<Row ListType="IndustrialBuildings" Item="BUILDING_COAL_POWER_PLANT" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_FOSSIL_FUEL_POWER_PLANT" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_POWER_PLANT" Favored="true"/>
-		<!--They build too much-->
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_HOSPITAL" Favored="false"/>
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MEDICAL_LAB" Favored="false"/>
 
 		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
