@@ -510,19 +510,13 @@
 			<Text>Grants a free random technology.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST" Language="en_US">
-			<Text>Grants a free random technology and two [ICON_TechBoosted] Eurekas.</Text>
+			<Text>Grants two free [ICON_TechBoosted] Eurekas.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SEPARATED_GRANT_TECH_SST" Language="en_US">
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ARYABHATA_ACTIVE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Campuses receive an additional +1 Science for each adjacent Mountain tile.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_MATHEMATICS" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eureka for Celestial Navigation, Mathematics, and Engineering. If they are already triggered, instead completes the tech.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_LIBRARIES_SCIENCE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Libraries provide +{Amount} [ICON_Science] Science.</Text>
+			<Text>Campuses receive an additional +1 Science for each adjacent Mountain tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="en_US">
 			<Text>Grants two free technologies. Triggers the [ICON_TechBoosted] Eureka for Mathematics. If they are already triggered, instead completes the tech.</Text>
@@ -537,19 +531,16 @@
 			<Text>Awards a free random technology and civic, as well as two [ICON_TechBoosted] Eurekas.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Chosen Campus gains 2 [ICON_Housing] Housing and 1 [ICON_AMENITIES] Amenities. Increases non-[ICON_Food]Food yield benefits of Happiness in your empire by 50%.</Text>
+			<Text>Chosen Campus gains 2 [ICON_Housing] Housing and 1 [ICON_AMENITIES] Amenities.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EMILIE_DU_CHATELET_ACTIVE" Language="en_US">
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Universities provide +1 [ICON_Science] Science.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GALILEO_GALILEI_ACTIVE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}Gain 400 [ICON_Science] Science (on Standard speed) for each adjacent Mountain tile.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_ISAAC_NEWTON_ACTIVE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Instantly builds a University and Library in this district. Universities provide +2 [ICON_Science] Science.</Text>
+			<Text>Gain 400 [ICON_Science] Science (on Standard speed) for each adjacent Mountain tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_CHARLES_DARWIN_ACTIVE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Gain 800 [ICON_Science] Science (on Standard speed) for each natural wonder tile here or adjacent.</Text>
+			<Text>Gain 800 [ICON_Science] Science (on Standard speed) for each natural wonder tile here or adjacent.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_DMITRI_MENDELEEV_ACTIVE" Language="en_US">
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Triggers the [ICON_TechBoosted] Eureka moment for Chemistry and Plastics. If they are already triggered, instead completes the tech.</Text>
@@ -567,38 +558,32 @@
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Applies {Amount} free [ICON_GreatPerson] Great People points towards recruiting all current and future Great People.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_JANAKI_AMMAL_ACTIVE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}Gain 800 [ICON_Science] Science (on Standard speed) for each Rainforest tile here or adjacent.</Text>
+			<Text>Gain 800 [ICON_Science] Science (on Standard speed) for each Rainforest tile here or adjacent.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ERWIN_SCHRODINGER_ACTIVE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} [ICON_TechBoosted] Eurekas provide an extra 20% of the Science cost. Grants 2 [ICON_TechBoosted] Eurekas after researching a technology from a new era.</Text>
+			<Text>[ICON_TechBoosted] Eurekas provide an extra 20% of the Science cost. Grants 2 [ICON_TechBoosted] Eurekas after researching a technology from a new era.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_GRANT_LOTSO_SCIENCE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Grants 3000 [ICON_SCIENCE] Science and [ICON_CULTURE] Culture (on Standard speed).</Text>
+			<Text>Grants 3000 [ICON_SCIENCE] Science and [ICON_CULTURE] Culture (on Standard speed).</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eureka moment for Offworld Mission, or completes the tech if it is already triggered. Grants {Amount} [ICON_Production] Production towards Space Race project construction.</Text>
+			<Text>Triggers the [ICON_TechBoosted] Eureka moment for Offworld Mission, or completes the tech if it is already triggered. Grants {Amount} [ICON_Production] Production towards Space Race project construction.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_STEPHANIE_KWOLEK_ACTIVE" Language="en_US">
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eureka moment for Composites and Smart Materials, or completes the tech if it is already triggered. +50% [ICON_Production] Production towards Space Race projects.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eureka moment for all technologies from the Information era, and three Future era technologies.</Text>
+			<Text>Triggers the [ICON_TechBoosted] Eureka moment for all technologies from the Information era, and three Future era technologies.</Text>
 		</Replace>
 		<!--Great Merchants-->
 		<Replace Tag="LOC_GREATPERSON_GOLD_SST" Language="en_US">
 			<Text>Gain {Amount : number #} [ICON_Gold] Gold.</Text>
 		</Replace>
-		<Replace Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE" Language="en_US">
-			<Text>Gain 300 [ICON_Gold] Gold. Increases [ICON_TradeRoute] Trade Route capacity by 1. Foreign [ICON_TradeRoute] Trade Routes to this city provide +2 [ICON_Gold] Gold to both cities.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_MARCO_POLO_ACTIVE" Language="en_US">
-			<Text>Gain 600 [ICON_Gold] Gold. Grants a free Trader unit in this city, and increases [ICON_TradeRoute] Trade Route capacity by 1. Foreign [ICON_TradeRoute] Trade Routes to this city provide +2 [ICON_Gold] Gold to both cities.</Text>
-		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GOLD_INTEREST" Language="en_US">
 			<Text>Each turn you receive [ICON_Gold] Gold equal to 3% of your treasury.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GIOVANNI_DE_MEDICI_ACTIVE" Language="en_US">
-			<Text>Gain 900 [ICON_Gold] Gold. Instantly builds a Bank and Market in this district. The Bank gets 2 Great Work slots, which can hold anything.</Text>
+			<Text>Instantly builds a Bank and Market in this district. The Bank gets 2 Great Work slots, which can hold anything.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_CITY_STATE_GRANT_ENVOYS" Language="en_US">
 			<Text>Gain enough [ICON_ENVOY] Envoys in this city-state to make you its Suzerain.</Text>
@@ -608,9 +593,6 @@
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GOLD_PER_POP" Language="en_US">
 			<Text>+1 [ICON_Gold] for each [ICON_Citizen] Population in this city.</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_JOHN_ROCKEFELLER_EXPANSION2_ACTIVE" Language="en_US">
-			<Text>Gain 1500 [ICON_Gold] Gold. Grants 3 [ICON_RESOURCE_OIL] Oil per Turn. Your [ICON_TradeRoute] Trade Routes gain +2 [ICON_Gold] Gold for each Strategic resource at the destination city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="en_US">
 			<Text>Grants {Amount} [ICON_RESOURCE_COSMETICS] Cosmetics, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
@@ -622,7 +604,7 @@
 			<Text>Grants {Amount} [ICON_RESOURCE_JEANS] Jeans, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_PUBLIC_SCHOOL_SCIENCE" Language="en_US">
-			<Text>Gain 2100 [ICON_Gold] Gold. Campus districts provide +10 [ICON_Tourism] Tourism. Instantly builds a Library, University, and Public School in this district. Public Schools provide +2 [ICON_Science] Science.</Text>
+			<Text>Campus districts provide +10 [ICON_Tourism] Tourism. Instantly builds a Library, University, and Public School in this district. Public Schools provide +2 [ICON_Science] Science.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_INDUSTRIAL_ZONE_ADJACENCY_AS_CULTURE" Language="en_US">
 			<Text>Your Industrial Zones' [ICON_Production] Production adjacency also provides [ICON_Culture] Culture. +200% [ICON_Tourism] Tourism from [ICON_GreatWork_Music] Great Works of Music.</Text>
@@ -761,6 +743,25 @@
 		</Replace>
 		<Replace Tag="LOC_ABILITY_URDANETA_UNIT_MOVEMENT_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Movement] Movement （{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA_NAME}）</Text>
+		</Replace>
+		<!--Tech and civic adjustments-->
+		<Replace Tag="LOC_TECH_MASS_PRODUCTION_DESCRIPTION_SST" Language="en_US">
+			<Text>Builders gain 1 extra build action.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_METAL_CASTING_DESCRIPTION_SST" Language="en_US">
+			<Text>New cities receive a free Builder.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ENGINEERING_DESCRIPTION_SST" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement to Settlers and Builders.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CONSTRUCTION_DESCRIPTION_SST" Language="en_US">
+			<Text>Newly founded cities start with +1 additional [ICON_Citizen] Population and +3 additional tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SANITATION_DESCRIPTION" Language="en_US">
+			<Text>Stepwell improvements receive +1 [ICON_Housing] Housing. Newly founded cities start with +2 additional [ICON_Citizen] Population and +3 additional tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SERFDOM_DESCRIPTION" Language="en_US">
+			<Text>+30% [ICON_Production] Production toward Builders, and newly trained Builders gain 1 extra build action.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
