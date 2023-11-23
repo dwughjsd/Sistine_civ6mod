@@ -160,11 +160,11 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_RESOURCE_LUXURY" />
-			<Set DefaultValue="50" />
+			<Set DefaultValue="30" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="4.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
