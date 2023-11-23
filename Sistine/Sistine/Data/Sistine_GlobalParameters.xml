@@ -14,6 +14,7 @@
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="15" />
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MIN" Value="0" />
 		<Replace Name="CITY_AMENITIES_FOR_FREE" Value="1" />
+		<Replace Name="AI_BASE_LUXURY_VALUE" Value="30" />
 		<!--I guess it will make AI smarter. Let's see!-->
 		<!--Temporalily disable them to see further impacts
 		<Replace Name="CIVIC_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
