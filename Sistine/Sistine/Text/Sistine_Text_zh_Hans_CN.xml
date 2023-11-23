@@ -222,7 +222,7 @@
 			<Text>使用 [ICON_Faith] 信仰值购买可享受20%折扣。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_SST" Language="zh_Hans_CN">
-			<Text>市场和银行+2 [ICON_Science] 科技值。有 [ICON_GOVERNOR] 总督的城市每位 [ICON_Citizen] 市民提供+1 [ICON_Gold] 金币。</Text>
+			<Text>市场、银行、灯塔和造船厂+2 [ICON_Science] 科技值。有 [ICON_GOVERNOR] 总督的城市每位 [ICON_Citizen] 市民提供+1 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST" Language="zh_Hans_CN">
 			<Text>所有城市 [ICON_Gold] 金币+15%。</Text>
