@@ -847,5 +847,11 @@
 		<Replace Tag="LOC_POLICY_FUTURE_COUNTER_DOMINATION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>单位+7 [ICON_Strength] 战斗力。城市 [ICON_Strength] 防御力+6。城市 [ICON_Ranged] 远程攻击力+5。</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产所有空中单位与航空母舰时+50% [ICON_Production] 生产力。核装置每回合的 [ICON_Gold] 维护费降低50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FUTURE_VICTORY_DOMINATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位 [ICON_Movement] 移动力+2。生产所有单位时 [ICON_Production] 生产力+100%。核装置每回合的 [ICON_Gold] 维护费降低50%。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

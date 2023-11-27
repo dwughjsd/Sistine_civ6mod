@@ -13,6 +13,12 @@
 				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
 			</Set>
 		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_VICTORY_DOMINATION"/>
+			<Set>
+				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
+			</Set>
+		</Update>
 	</Policies>
 	<ObsoletePolicies>
 		<Delete PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_NATIVE_CONQUEST"/>
@@ -22,14 +28,25 @@
 		<Row PolicyType="POLICY_NATIVE_CONQUEST" ObsoletePolicy="POLICY_FUTURE_COUNTER_DOMINATION"/>
 		<Row PolicyType="POLICY_WARS_OF_RELIGION" ObsoletePolicy="POLICY_FUTURE_COUNTER_DOMINATION"/>
 		<Row PolicyType="POLICY_FINEST_HOUR" ObsoletePolicy="POLICY_FUTURE_COUNTER_DOMINATION"/>
+		<Row PolicyType="POLICY_SECOND_STRIKE_CAPABILITY" ObsoletePolicy="POLICY_STRATEGIC_AIR_FORCE"/>
+		<Row PolicyType="POLICY_MILITARY_FIRST" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Row PolicyType="POLICY_INTERNATIONAL_WATERS" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Row PolicyType="POLICY_LIGHTNING_WARFARE" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Row PolicyType="POLICY_LOGISTICS" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Row PolicyType="POLICY_STRATEGIC_AIR_FORCE" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
 	</ObsoletePolicies>
-	
 	<PolicyModifiers>
 		<Delete PolicyType="POLICY_FINEST_HOUR" ModifierId="FINEST_HOUR_FRIENDLY_TERRITORY"/>
 		<Row PolicyType="POLICY_FINEST_HOUR" ModifierId="BASTIONS_RANGEDSTRIKE"/>
 		<Row PolicyType="POLICY_FINEST_HOUR" ModifierId="FINESTHOUR_INNERDEFENSE"/>
 		<Row PolicyType="POLICY_FUTURE_COUNTER_DOMINATION" ModifierId="BASTIONS_RANGEDSTRIKE"/>
 		<Row PolicyType="POLICY_FUTURE_COUNTER_DOMINATION" ModifierId="FINESTHOUR_INNERDEFENSE"/>
+		<Row PolicyType="POLICY_STRATEGIC_AIR_FORCE" ModifierId="SECONDSTRIKE_MAINTENANCEWMDS"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="SECONDSTRIKE_MAINTENANCEWMDS"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_UNIT_PRODUCTION"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_UNIT_MOVEMENT"/>
+		<Delete PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_GDR_PRODUCTION"/>
+		<Delete PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_ENEMY_TERRITORY_MOVEMENT"/>
 		<!--R.I.P. Public Transport, who was killed but readded for 2 times-->
 		<Delete ModifierId="PUBLICTRANSPORT_FARMREPLACEGOLD"/>
 		<Row>
@@ -75,6 +92,14 @@
 			<Set SubjectRequirementSetId="" />
 		</Update>
 		<Row>
+			<ModifierId>FUTURE_VICTORY_DOMINATION_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DOMINATION_UNIT_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
 			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_3_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
@@ -101,6 +126,7 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!--Don't use update, it won't work-->
 		<Delete ModifierId="AFTERACTIONREPORTS_EXPERIENCE" Name="Amount"/>
 		<Row>
 			<ModifierId>AFTERACTIONREPORTS_EXPERIENCE</ModifierId>
@@ -112,7 +138,23 @@
 			<Name>Amount</Name>
 			<Value>6</Value>
 		</Row>
-		<!--Don't use update, it won't work-->
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DOMINATION_UNIT_PRODUCTION</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_UNIT_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DOMINATION_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DOMINATION_UNIT_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+
 		<Delete ModifierId="CIVILPRESTIGE_GOVAMENITY" Name="Amount"/>
 		<Delete ModifierId="CIVILPRESTIGE_GOVHOUSING" Name="Amount"/>
 		<Delete ModifierId="MILITARYRESEARCH_SEAPORT_SCIENCE_MODIFIER" Name="Amount"/>

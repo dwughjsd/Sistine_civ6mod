@@ -107,9 +107,6 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN" Text="无趣的社区提供3个 [ICON_Housing] 住房。"/>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_6" Language="zh_Hans_CN" Text="糟糕的社区提供2个 [ICON_Housing] 住房。"/>
 		<Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="zh_Hans_CN" Text="根据所在单元格的魅力，为您的城市提供住房的区域：[NEWLINE]惊艳：+6 [ICON_Housing] 住房。[NEWLINE]迷人：+5 [ICON_Housing] 住房。[NEWLINE]普通：+4 [ICON_Housing] 住房。[NEWLINE]无趣：+3 [ICON_Housing] 住房。[NEWLINE]糟糕：+2 [ICON_Housing] 住房。"/>
-		<!--Policies (incomplete)-->
-		<Replace Tag="LOC_POLICY_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁传承"/>
-		<Replace Tag="LOC_POLICY_MERCHANT_REPUBLIC_NAME" Language="zh_Hans_CN" Text="商业共和传承"/>
 		<!--In-game tooltips-->
 		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE" Language="zh_Hans_CN" Text="世界领袖目睹{1_Target}让您吃尽苦头，将对接下来您使{1_Target}产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。"/>
 		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_NEGATIVE" Language="zh_Hans_CN" Text="世界领袖目睹您让{1_Target}吃尽苦头，将对接下来{1_Target}使您产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。"/>
@@ -412,5 +409,64 @@
 		<Replace Tag="LOC_GREATWORK_ARTIFACT_14_NAME" Language="zh_Hans_CN" Text="板甲"/>
 		<!--Great Prophets and Relics-->
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SIDDHARTHA_GAUTAMA_NAME" Language="zh_Hans_CN" Text="乔达摩·悉达多"/>
+		<!--Policies-->
+		<Replace Tag="LOC_POLICY_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁传承"/>
+		<Replace Tag="LOC_POLICY_MERCHANT_REPUBLIC_NAME" Language="zh_Hans_CN" Text="商业共和传承"/>
+		<Replace Tag="LOC_POLICY_CHARISMATIC_LEADER_NAME" Language="zh_Hans_CN" Text="魅力领袖"/>
+		<Replace Tag="LOC_POLICY_COLONIAL_OFFICES_NAME" Language="zh_Hans_CN" Text="殖民部"/>
+		<Replace Tag="LOC_POLICY_COMMUNICATIONS_OFFICE_NAME" Language="zh_Hans_CN" Text="通讯事务处"/>
+		<Replace Tag="LOC_POLICY_CONSCRIPTION_NAME" Language="zh_Hans_CN" Text="征兵制"/>
+		<Replace Tag="LOC_POLICY_CONTAINMENT_NAME" Language="zh_Hans_CN" Text="遏制策略"/>
+		<Replace Tag="LOC_POLICY_CORVEE_NAME" Language="zh_Hans_CN" Text="徭役制"/>
+		<Replace Tag="LOC_POLICY_CRAFTSMEN_NAME" Language="zh_Hans_CN" Text="工匠阶层"/>
+		<Replace Tag="LOC_POLICY_CYBER_WARFARE_NAME" Language="zh_Hans_CN" Text="网络战"/>
+		<Replace Tag="LOC_POLICY_DISCIPLINE_NAME" Language="zh_Hans_CN" Text="军事纪律"/>
+		<Replace Tag="LOC_POLICY_DISINFORMATION_CAMPAIGN_NAME" Language="zh_Hans_CN" Text="造谣行动"/>
+		<Replace Tag="LOC_POLICY_DRILL_MANUALS_NAME" Language="zh_Hans_CN" Text="演练手册"/>
+		<Replace Tag="LOC_POLICY_ECONOMIC_UNION_NAME" Language="zh_Hans_CN" Text="经济联盟"/>
+		<Replace Tag="LOC_POLICY_EQUESTRIAN_ORDERS_NAME" Language="zh_Hans_CN" Text="骑士阶层"/>
+		<Replace Tag="LOC_POLICY_EXPROPRIATION_NAME" Language="zh_Hans_CN" Text="征地"/>
+		<Replace Tag="LOC_POLICY_FINEST_HOUR_NAME" Language="zh_Hans_CN" Text="荣光时刻"/>
+		<Replace Tag="LOC_POLICY_FRESCOES_NAME" Language="zh_Hans_CN" Text="湿绘壁画"/>
+		<Replace Tag="LOC_POLICY_FUTURE_COUNTER_DOMINATION_NAME" Language="zh_Hans_CN" Text="全球联盟"/>
+		<Replace Tag="LOC_POLICY_GOD_KING_NAME" Language="zh_Hans_CN" Text="神化君王"/>
+		<Replace Tag="LOC_POLICY_GRAND_OPERA_NAME" Language="zh_Hans_CN" Text="大型歌剧"/>
+		<Replace Tag="LOC_POLICY_ILKUM_NAME" Language="zh_Hans_CN" Text="兵徭合一"/>
+		<Replace Tag="LOC_POLICY_INQUISITION_NAME" Language="zh_Hans_CN" Text="宗教裁判"/>
+		<Replace Tag="LOC_POLICY_INSPIRATION_NAME" Language="zh_Hans_CN" Text="启发灵感"/>
+		<Replace Tag="LOC_POLICY_INSULAE_NAME" Language="zh_Hans_CN" Text="岛屋"/>
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_WATERS_NAME" Language="zh_Hans_CN" Text="国际水域"/>
+		<Replace Tag="LOC_POLICY_INVENTION_NAME" Language="zh_Hans_CN" Text="发明创造"/>
+		<Replace Tag="LOC_POLICY_LAISSEZ_FAIRE_NAME" Language="zh_Hans_CN" Text="自由放任"/>
+		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_NAME" Language="zh_Hans_CN" Text="土地勘测员"/>
+		<Replace Tag="LOC_POLICY_LETTERS_OF_MARQUE_NAME" Language="zh_Hans_CN" Text="私掠许可"/>
+		<Replace Tag="LOC_POLICY_LEVEE_EN_MASSE_NAME" Language="zh_Hans_CN" Text="大规模征兵"/>
+		<Replace Tag="LOC_POLICY_LIMES_NAME" Language="zh_Hans_CN" Text="边境工事"/>
+		<Replace Tag="LOC_POLICY_LOGISTICS_NAME" Language="zh_Hans_CN" Text="军事后勤"/>
+		<Replace Tag="LOC_POLICY_MANEUVER_NAME" Language="zh_Hans_CN" Text="战术机动"/>
+		<Replace Tag="LOC_POLICY_MARITIME_INDUSTRIES_NAME" Language="zh_Hans_CN" Text="海运行业"/>
+		<Replace Tag="LOC_POLICY_MEDINA_QUARTER_NAME" Language="zh_Hans_CN" Text="老城区"/>
+		<Replace Tag="LOC_POLICY_MILITARY_ORGANIZATION_NAME" Language="zh_Hans_CN" Text="军事机构"/>
+		<Replace Tag="LOC_POLICY_MONASTICISM_NAME" Language="zh_Hans_CN" Text="隐修制度"/>
+		<Replace Tag="LOC_POLICY_MUSIC_CENSORSHIP_NAME" Language="zh_Hans_CN" Text="音乐审查"/>
+		<Replace Tag="LOC_POLICY_NATIVE_CONQUEST_NAME" Language="zh_Hans_CN" Text="原住民征服"/>
+		<Replace Tag="LOC_POLICY_NAVAL_INFRASTRUCTURE_NAME" Language="zh_Hans_CN" Text="海军基建"/>
+		<Replace Tag="LOC_POLICY_NAVIGATION_NAME" Language="zh_Hans_CN" Text="海上导航"/>
+		<Replace Tag="LOC_POLICY_PRAETORIUM_NAME" Language="zh_Hans_CN" Text="总督府"/>
+		<Replace Tag="LOC_POLICY_PRESS_GANGS_NAME" Language="zh_Hans_CN" Text="强征海员"/>
+		<Replace Tag="LOC_POLICY_PROPAGANDA_NAME" Language="zh_Hans_CN" Text="政治宣传"/>
+		<Replace Tag="LOC_POLICY_RAID_NAME" Language="zh_Hans_CN" Text="突袭抢掠"/>
+		<Replace Tag="LOC_POLICY_RAJ_NAME" Language="zh_Hans_CN" Text="土邦制度"/>
+		<Replace Tag="LOC_POLICY_RELIGIOUS_ORDERS_NAME" Language="zh_Hans_CN" Text="宗教团体"/>
+		<Replace Tag="LOC_POLICY_RETAINERS_NAME" Language="zh_Hans_CN" Text="亲随"/>
+		<Replace Tag="LOC_POLICY_RETINUES_NAME" Language="zh_Hans_CN" Text="从士"/>
+		<Replace Tag="LOC_POLICY_REVELATION_NAME" Language="zh_Hans_CN" Text="宗教启示"/>
+		<Replace Tag="LOC_POLICY_ROGUE_STATE_NAME" Language="zh_Hans_CN" Text="流氓国家"/>
+		<Replace Tag="LOC_POLICY_SCRIPTURE_NAME" Language="zh_Hans_CN" Text="宗教经文"/>
+		<Replace Tag="LOC_POLICY_SECOND_STRIKE_CAPABILITY_NAME" Language="zh_Hans_CN" Text="二次打击能力"/>
+		<Replace Tag="LOC_POLICY_STRATEGOS_NAME" Language="zh_Hans_CN" Text="统帅制度"/>
+		<Replace Tag="LOC_POLICY_SURVEY_NAME" Language="zh_Hans_CN" Text="勘察"/>
+		<Replace Tag="LOC_POLICY_SYMPHONIES_NAME" Language="zh_Hans_CN" Text="交响乐"/>
+		<Replace Tag="LOC_POLICY_VETERANCY_NAME" Language="zh_Hans_CN" Text="退役制度"/>
 	</LocalizedText>
 </GameData>
