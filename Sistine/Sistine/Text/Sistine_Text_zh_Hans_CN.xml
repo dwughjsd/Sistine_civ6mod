@@ -853,5 +853,20 @@
 		<Replace Tag="LOC_POLICY_FUTURE_VICTORY_DOMINATION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>单位 [ICON_Movement] 移动力+2。生产所有单位时 [ICON_Production] 生产力+100%。核装置每回合的 [ICON_Gold] 维护费降低50%。</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_RETAINERS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>驻有单位的城市+1 [ICON_Amenities] 宜居度，每回合的忠诚度+4。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MARTIAL_LAW_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>驻有单位的城市+1 [ICON_Amenities] 宜居度，每回合的忠诚度+8。厌战积累降低25%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MILITARY_RESEARCH_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>有军事学院或码头的城市+15% [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INTEGRATED_SPACE_CELL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>有军事学院、码头或宇航中心的城市+15% [ICON_Science] 科技值，+15% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FUTURE_VICTORY_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>有军事学院、码头或宇航中心的城市+30% [ICON_Science] 科技值，+60% [ICON_Production] 生产力，同时+6点 [ICON_Power] 电力。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
