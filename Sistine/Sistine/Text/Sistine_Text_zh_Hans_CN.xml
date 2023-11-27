@@ -834,5 +834,18 @@
 		<Replace Tag="LOC_POLICY_SERFDOM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为生产建造者+30% [ICON_Production] 生产力。新训练的建造者获得1点额外劳动力。</Text>
 		</Replace>
+		<!--Policies-->
+		<Replace Tag="LOC_POLICY_AFTER_ACTION_REPORTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位的战斗经验值+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_BASTIONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>有防御建筑的城市 [ICON_Strength] 防御力+6。城市 [ICON_Ranged] 远程攻击力+5。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FINEST_HOUR_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>城市 [ICON_Strength] 防御力+6。城市 [ICON_Ranged] 远程攻击力+5。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FUTURE_COUNTER_DOMINATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位+7 [ICON_Strength] 战斗力。城市 [ICON_Strength] 防御力+6。城市 [ICON_Ranged] 远程攻击力+5。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

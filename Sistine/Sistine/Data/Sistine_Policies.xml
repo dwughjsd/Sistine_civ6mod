@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Policies>
+		<Update>
+			<Where PolicyType="POLICY_FINEST_HOUR"/>
+			<Set>
+				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_COUNTER_DOMINATION"/>
+			<Set>
+				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
+			</Set>
+		</Update>
+	</Policies>
+	<ObsoletePolicies>
+		<Delete PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_NATIVE_CONQUEST"/>
+		<Row PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_AFTER_ACTION_REPORTS"/>
+		<Row PolicyType="POLICY_BASTIONS" ObsoletePolicy="POLICY_FINEST_HOUR"/>
+		<Row PolicyType="POLICY_LIMES" ObsoletePolicy="POLICY_FINEST_HOUR"/>
+		<Row PolicyType="POLICY_NATIVE_CONQUEST" ObsoletePolicy="POLICY_FUTURE_COUNTER_DOMINATION"/>
+		<Row PolicyType="POLICY_WARS_OF_RELIGION" ObsoletePolicy="POLICY_FUTURE_COUNTER_DOMINATION"/>
+		<Row PolicyType="POLICY_FINEST_HOUR" ObsoletePolicy="POLICY_FUTURE_COUNTER_DOMINATION"/>
+	</ObsoletePolicies>
+	
 	<PolicyModifiers>
+		<Delete PolicyType="POLICY_FINEST_HOUR" ModifierId="FINEST_HOUR_FRIENDLY_TERRITORY"/>
+		<Row PolicyType="POLICY_FINEST_HOUR" ModifierId="BASTIONS_RANGEDSTRIKE"/>
+		<Row PolicyType="POLICY_FINEST_HOUR" ModifierId="FINESTHOUR_INNERDEFENSE"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_DOMINATION" ModifierId="BASTIONS_RANGEDSTRIKE"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_DOMINATION" ModifierId="FINESTHOUR_INNERDEFENSE"/>
 		<!--R.I.P. Public Transport, who was killed but readded for 2 times-->
 		<Delete ModifierId="PUBLICTRANSPORT_FARMREPLACEGOLD"/>
 		<Row>
@@ -38,6 +67,14 @@
 	</PolicyModifiers>
 	<Modifiers>
 		<Row>
+			<ModifierId>FINESTHOUR_INNERDEFENSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_INNER_DEFENSE</ModifierType>
+		</Row>
+		<Update>
+			<Where ModifierId="GLOBAL_COALITION_FRIENDLY_TERRITORY" />
+			<Set SubjectRequirementSetId="" />
+		</Update>
+		<Row>
 			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_3_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
@@ -64,6 +101,17 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Delete ModifierId="AFTERACTIONREPORTS_EXPERIENCE" Name="Amount"/>
+		<Row>
+			<ModifierId>AFTERACTIONREPORTS_EXPERIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>FINESTHOUR_INNERDEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
 		<!--Don't use update, it won't work-->
 		<Delete ModifierId="CIVILPRESTIGE_GOVAMENITY" Name="Amount"/>
 		<Delete ModifierId="CIVILPRESTIGE_GOVHOUSING" Name="Amount"/>
