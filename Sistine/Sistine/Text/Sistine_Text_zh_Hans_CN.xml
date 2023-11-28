@@ -269,21 +269,6 @@
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>法西斯主义提供+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区。</Text>
 		</Replace>
-		<Replace Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有拥有至少3个专业化区域的城市+2 [ICON_Housing] 住房，+1 [ICON_Amenities] 宜居度。</Text>
-		</Replace>
-		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_XP2" Language="zh_Hans_CN">
-			<Text>每座研究实验室、军事学院、燃煤发电厂、燃油发电厂和核电站产出的 [ICON_Science] 科技值+2、 [ICON_Culture] 文化值+2、[ICON_Gold] 金币+4。</Text>
-		</Replace>
-		<Replace Tag="LOC_POLICY_CIVIL_PRESTIGE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有至少2项升级的 [ICON_GOVERNOR] 总督就职后将提供+2 [ICON_Amenities] 宜居度、+1 [ICON_Housing] 住房。</Text>
-		</Replace>
-		<Replace Tag="LOC_POLICY_MILITARY_RESEARCH_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>军事学院、码头和启蒙城墙提供的 [ICON_Science] 科技值+4。</Text>
-		</Replace>
-		<Replace Tag="LOC_POLICY_LIBERALISM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有至少2个专业化区域的所有城市+2 [ICON_Amenities] 宜居度。</Text>
-		</Replace>
 		<!--Cultural Victory overhaul-->
 		<Replace Tag="LOC_GREAT_WORKS_TOOLTIP_DUPLICATE" Language="zh_Hans_CN">
 			<Text>{1_name}（{2_type}）[NEWLINE]由{3_author}创作[NEWLINE]创作于{4_date}[NEWLINE]由已有作品在此展示的艺术家创作后，每回合带来3 [ICON_Culture] 文化值、3 [ICON_Tourism] 旅游业绩。</Text>
@@ -314,12 +299,6 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BIOSPHERE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有离岸风力发电厂、太阳能农场、风力发电厂、地热发电厂和水力发电坝产出的 [ICON_POWER] 电力+200%。帝国中与雨林和沼泽相邻的单元格+1魅力。必须建在与“社区”区域相邻的河流旁。</Text>
-		</Replace>
-		<Replace Tag="LOC_POLICY_HERITAGE_TOURISM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有奇观的 [ICON_Tourism] 旅游业绩+100%。</Text>
-		</Replace>
-		<Replace Tag="LOC_POLICY_SATELLITE_BROADCASTS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>音乐 [ICON_GreatWork_Music] 巨作提供的 [ICON_Tourism] 旅游业绩+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_TOURISM_4_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
 			<Text>国家公园的 [ICON_Gold] 金币和 [ICON_Tourism] 旅游业绩输出等于公园所含全部单元格的总魅力。此外，拥有公园的城市获得2点 [ICON_Amenities] 宜居度，且与此城市最近的4座城市获得1点 [ICON_Amenities] 宜居度。</Text>
@@ -867,6 +846,58 @@
 		</Replace>
 		<Replace Tag="LOC_POLICY_FUTURE_VICTORY_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>有军事学院、码头或宇航中心的城市+30% [ICON_Science] 科技值，+60% [ICON_Production] 生产力，同时+6点 [ICON_Power] 电力。</Text>
+		</Replace>
+		<!--Renamed as Party Leadership-->
+		<Replace Tag="LOC_POLICY_DEFENSE_OF_MOTHERLAND_NAME" Language="zh_Hans_CN">
+			<Text>一党领导</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DEFENSE_OF_MOTHERLAND_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>所有城市+1非 [ICON_Faith] 信仰产出（[Icon_Gold] 金钱则是+2）。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+100%剧院广场区相邻加成，广播中心、体育场和水上运动中心+1 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建有公立学校的城市：若至少有10 [ICON_CITIZEN] 人口，+25% [ICON_SCIENCE] 科技值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建有银行或造船厂的城市：若至少有10 [ICON_CITIZEN] 人口，+25% [ICON_Gold] 金币；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建有歌剧院的城市：若至少有10 [ICON_CITIZEN] 人口，+25% [ICON_Culture] 文化值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建有祭祀建筑的城市：若至少有10 [ICON_CITIZEN] 人口，+25% [ICON_Faith] 信仰值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>每座研究实验室、军事学院、燃煤发电厂、燃油发电厂和核电站产出的 [ICON_Science] 科技值+2、 [ICON_Culture] 文化值+2、[ICON_Gold] 金币+4。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有拥有至少2个专业化区域的城市+2 [ICON_Housing] 住房。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CIVIL_PRESTIGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有至少2项升级的 [ICON_GOVERNOR] 总督就职后将提供+2 [ICON_Amenities] 宜居度、+1 [ICON_Housing] 住房。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MILITARY_RESEARCH_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>军事学院、码头和启蒙城墙提供的 [ICON_Science] 科技值+4。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LIBERALISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建有至少2个专业化区域的所有城市+1 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NEW_DEAL_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>建有至少2个专业化区域的所有城市+2 [ICON_Housing] 住房、+1 [ICON_Amenities] 宜居度。建有至少3个专业化区域的城市该加成翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_HERITAGE_TOURISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有奇观的 [ICON_Tourism] 旅游业绩+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SATELLITE_BROADCASTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>音乐 [ICON_GreatWork_Music] 巨作提供的 [ICON_Tourism] 旅游业绩+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ONLINE_COMMUNITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对您有发起 [ICON_TradeRoute] 贸易路线的文明+50% [ICON_Tourism] 旅游业绩输出。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FUTURE_VICTORY_CULTURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对您有发起 [ICON_TradeRoute] 贸易路线的文明+200% [ICON_Tourism] 旅游业绩输出。您的摇滚乐队可以选择任意一种可行的升级选项。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
