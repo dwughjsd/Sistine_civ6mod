@@ -468,5 +468,70 @@
 		<Replace Tag="LOC_POLICY_SURVEY_NAME" Language="zh_Hans_CN" Text="勘察"/>
 		<Replace Tag="LOC_POLICY_SYMPHONIES_NAME" Language="zh_Hans_CN" Text="交响乐"/>
 		<Replace Tag="LOC_POLICY_VETERANCY_NAME" Language="zh_Hans_CN" Text="退役制度"/>
+		<!--Wildcard-->
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
+			<Text>游戏中有6种不同的政策类型和4种政策槽位。所有类型的政策都必须放入政体中同类的空槽位，但通用槽位能放入任意类型的政策。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
+			<Text>通用政策：这些政策拥有各类强力效果，但只能放置在通用政策槽位中。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGEGROUP_WILDCARD_POLICIES_NAME" Language="zh_Hans_CN">
+			<Text>通用政策</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 通用政策槽位[NEWLINE][NEWLINE]必须建在靠近市中心的平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_WILDCARD" Language="zh_Hans_CN">
+			<Text>通用</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVT_FILTER_WILDCARD" Language="zh_Hans_CN">
+			<Text>通用</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVT_POLICY_TYPE_WILDCARD" Language="zh_Hans_CN">
+			<Text>通用政策</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVT_NO_WILDCARD_SLOTS" Language="zh_Hans_CN">
+			<Text>该政体不提供通用政策槽位。</Text>
+		</Replace>
+		<Replace Tag="LOC_SLOT_WILDCARD_NAME" Language="zh_Hans_CN">
+			<Text>通用</Text>
+		</Replace>
+		<Replace Tag="LOC_EMPTY_SLOT_ECONOMIC" Language="zh_Hans_CN">
+			<Text>空经济政策槽位</Text>
+		</Replace>
+		<Replace Tag="LOC_EMPTY_SLOT_MILITARY" Language="zh_Hans_CN">
+			<Text>空军事政策槽位</Text>
+		</Replace>
+		<Replace Tag="LOC_EMPTY_SLOT_DIPLOMATIC" Language="zh_Hans_CN">
+			<Text>空外交政策槽位</Text>
+		</Replace>
+		<Replace Tag="LOC_EMPTY_SLOT_WILDCARD" Language="zh_Hans_CN">
+			<Text>空通用政策槽位</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DRAMATICAGES_CHAPTER_GOLDENAGES_PARA_2" Language="zh_Hans_CN">
+			<Text>黄金时代将带来强大的黄金政策，其可放入政体的通用槽位中。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DRAMATICAGES_CHAPTER_DARKAGES_PARA_1" Language="zh_Hans_CN">
+			<Text>[ICON_GLORY_DARK_AGE] 黑暗时代将带来黑暗政策，其可放入政体的通用槽位中。这些政策极为强大，但存在负面效果。部分政策与普通政策相同，也有部分经过调整，另外也加入了全新的政策。</Text>
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_FIRST_TIME_DRAMATIC_AGES" Language="zh_Hans_CN">
+			<Text>动荡时代开启后，每个时代都会更加波澜壮阔！除最初的时代外，文明进入的每个时代都将是黄金或黑暗时代，具体依时代得分而定。解锁当前或之后时代的科技和市政来获得时代得分。进入黄金时代后，多余的时代得分将转换为额外的忠诚度压力。如果邻国正陷入黑暗时代，这将会是一项重要因素。除此之外，您还可以在政体的通用槽位中使用强大的政策；但千万注意，进入黑暗时代后部分城市会叛变！</Text>
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_DRAMATIC_AGES_FIRST_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>您进入了黄金时代！您现在可以在政体的通用槽位中使用黄金政策。另外，上个时代多余的时代得分已经转换为提高的忠诚度压力——好好利用它！</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在工业时代解锁。+1通用政策槽位。+2间谍容量。您的间谍处于本方城市的领土中时，城市每回合+4忠诚度、+1 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN">
+			<Text>玩家在黑暗时代中可以选择特殊的黑暗时代政策。这些通用槽政策能给玩家带来更多选择，以便度过艰难的黑暗时代，但其也存在一定限制。例如“孤立主义”政策会为国内 [ICON_TradeRoute] 贸易路线带来加成，但无法生产或购买开拓者，也无法建立新城市。 </Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_GAIN_WILDCARD_DESC" Language="zh_Hans_CN">
+			<Text>该政体类型获得一个通用政策槽位。</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_LOSE_WILDCARD_DESC" Language="zh_Hans_CN">
+			<Text>该政体类型失去一个通用政策槽位。</Text>
+		</Replace>
+		
 	</LocalizedText>
 </GameData>

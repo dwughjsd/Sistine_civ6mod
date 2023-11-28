@@ -114,5 +114,21 @@
 		<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME" Language="en_US" Text="Sha-ariti"/>
 		<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME" Language="zh_Hans_CN" Text="巴比伦矛兵"/>
 		<Replace Tag="LOC_UNIT_PORTUGUESE_NAU_NAME" Language="zh_Hans_CN" Text="拿屋帆船"/>
+		<!--Wildcard-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_PLATOS_REPUBLIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有类型的政体均可获得一个额外的通用政策槽位。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当前政体的所有外交政策槽位均转为通用槽位。其政体中每个通用槽位每回合提供+1 [ICON_FAVOR] 外交支持。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DRAMATIC_AGE_QUESTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进入黄金时代后将额外获得一个通用政策槽位，并能使用黑暗时代政策。建造防御性建筑时+50% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进入黄金时代后将额外获得一个通用政策槽位，并能使用黑暗时代政策。建造防御性建筑时+50% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_LIBERTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在友好领土内建成军营或堡垒后对相邻单元格施放文化炸弹。当前政体的一个军事政策槽位将转换为一个通用槽位。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
