@@ -64,6 +64,7 @@
 		<Row PolicyType="POLICY_INTEGRATED_SPACE_CELL" ObsoletePolicy="POLICY_FUTURE_VICTORY_SCIENCE"/>
 		<Delete PolicyType="POLICY_GOD_KING" ObsoletePolicy="POLICY_SCRIPTURE"/>
 		<Delete PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_COLONIAL_OFFICES"/>
+		<Delete PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_RATIONALISM"/>
 		<Row PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_DEFENSE_OF_MOTHERLAND"/>
 		<Row PolicyType="POLICY_ONLINE_COMMUNITIES" ObsoletePolicy="POLICY_FUTURE_VICTORY_CULTURE"/>
 	</ObsoletePolicies>
@@ -153,7 +154,7 @@
 			<SubjectRequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>NEWDEAL_SPECIALTYAMENITY_2</ModifierId>
+			<ModifierId>NEWDEAL_SPECIALTYHOUSING_2</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
