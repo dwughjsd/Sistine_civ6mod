@@ -468,6 +468,21 @@
 		<Replace Tag="LOC_POLICY_SURVEY_NAME" Language="zh_Hans_CN" Text="勘察"/>
 		<Replace Tag="LOC_POLICY_SYMPHONIES_NAME" Language="zh_Hans_CN" Text="交响乐"/>
 		<Replace Tag="LOC_POLICY_VETERANCY_NAME" Language="zh_Hans_CN" Text="退役制度"/>
+		<Replace Tag="LOC_POLICY_CHARISMATIC_LEADER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合+2用以获得城邦 [ICON_Envoy] 使者的影响力点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GUNBOAT_DIPLOMACY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开放所有城邦的边境，并每回合+4用以获得城邦 [ICON_Envoy] 使者的影响力点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MERCHANT_CONFEDERATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从您在城邦派驻的每位 [ICON_Envoy] 使者获得 +1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RAJ_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>从每个以您为宗主国的城邦获得+2 [ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Faith] 信仰值和 [ICON_Gold] 金币。通往城邦的 [ICON_TradeRoute] 贸易路线提供的 [ICON_GOLD] 金币+2。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CRYPTOGRAPHY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>敌方间谍在您的领土内等级降低2级，您的间谍在进攻行动时等级提升1级。</Text>
+		</Replace>
 		<!--Wildcard-->
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
 			<Text>游戏中有6种不同的政策类型和4种政策槽位。所有类型的政策都必须放入政体中同类的空槽位，但通用槽位能放入任意类型的政策。</Text>

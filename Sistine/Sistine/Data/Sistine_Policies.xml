@@ -40,6 +40,30 @@
 				<GovernmentSlotType>SLOT_ECONOMIC</GovernmentSlotType>
 			</Set>
 		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_COUNTER_SCIENCE"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_COUNTER_CULTURE"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
 	</Policies>
 	<ObsoletePolicies>
 		<Delete PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_NATIVE_CONQUEST"/>
@@ -67,6 +91,13 @@
 		<Delete PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_RATIONALISM"/>
 		<Row PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_DEFENSE_OF_MOTHERLAND"/>
 		<Row PolicyType="POLICY_ONLINE_COMMUNITIES" ObsoletePolicy="POLICY_FUTURE_VICTORY_CULTURE"/>
+		<Row PolicyType="POLICY_MACHIAVELLIANISM" ObsoletePolicy="POLICY_FUTURE_COUNTER_SCIENCE"/>
+		<Row PolicyType="POLICY_CRYPTOGRAPHY" ObsoletePolicy="POLICY_FUTURE_COUNTER_SCIENCE"/>
+		<Row PolicyType="POLICY_MUSIC_CENSORSHIP" ObsoletePolicy="POLICY_FUTURE_COUNTER_CULTURE"/>
+		<Row PolicyType="POLICY_GUNBOAT_DIPLOMACY" ObsoletePolicy="POLICY_FUTURE_VICTORY_DIPLOMATIC"/>
+		<Row PolicyType="POLICY_MERCHANT_CONFEDERATION" ObsoletePolicy="POLICY_FUTURE_VICTORY_DIPLOMATIC"/>
+		<Row PolicyType="POLICY_DIPLOMATIC_LEAGUE" ObsoletePolicy="POLICY_CONTAINMENT"/>
+		<Row PolicyType="POLICY_CONTAINMENT" ObsoletePolicy="POLICY_FUTURE_COUNTER_DIPLOMATIC"/>
 	</ObsoletePolicies>
 	<PolicyModifiers>
 		<Delete PolicyType="POLICY_FINEST_HOUR" ModifierId="FINEST_HOUR_FRIENDLY_TERRITORY"/>
@@ -113,7 +144,25 @@
 		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="FREEMARKET_TIER2_10POP_GOLD"/>
 		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="FREEMARKET_TIER2_15POP_GOLD"/>
 		<Row PolicyType="POLICY_FUTURE_VICTORY_CULTURE" ModifierId="FUTURE_VICTORY_CULTURE_TOURISM"/>
-
+		<Row PolicyType="POLICY_CONTAINMENT" ModifierId="DIPLOMATICLEAGUE_DUPLICATEFIRSTINFLUENCETOKEN"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC" ModifierId="DIPLOMATICLEAGUE_DUPLICATEFIRSTINFLUENCETOKEN"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC" ModifierId="CONTAINMENT_DUPLICATETOKENWHENRIVALGOVERNMENT"/>
+		<Delete PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC" ModifierId="FUTURE_COUNTER_DIPLOMATIC_FAVOR_PER_TURN"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="GUNBOATDIPLOMACY_OPENBORDERS"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="GUNBOATDIPLOMACY_INFLUENCEPOINTS"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="MERCHANTCONFEDERATION_INFLUENCETOKENGOLD"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENSCIENCE"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENFAITH"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENCULTURE"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_SCIENCE" ModifierId="CRYPTOGRAPHY_OFFENSE"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_SCIENCE" ModifierId="CRYPTOGRAPHY_DEFENSE"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_SCIENCE" ModifierId="MACHIAVELLIANISM_SPYPRODUCTION"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_SCIENCE" ModifierId="MACHIAVELLIANISM_OFFENSIVESPYTIME"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_CULTURE" ModifierId="MUSIC_CENSORSHIP_BLOCK_ROCK_BAND_ENTRY"/>
+		<Row PolicyType="POLICY_PRAETORIUM" ModifierId="PRAETORIUM_GOVERNORGOLD"/>
+		<Row PolicyType="POLICY_PRAETORIUM" ModifierId="PRAETORIUM_GOVERNORFAITH"/>
+		<Row PolicyType="POLICY_COMMUNICATIONS_OFFICE" ModifierId="COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_GOLD"/>
+		<Row PolicyType="POLICY_COMMUNICATIONS_OFFICE" ModifierId="COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_FAITH"/>
 		<!--R.I.P. Public Transport, who was killed but readded for 2 times-->
 		<Delete ModifierId="PUBLICTRANSPORT_FARMREPLACEGOLD"/>
 		<Row>
@@ -242,6 +291,36 @@
 		<Row>
 			<ModifierId>FUTURE_VICTORY_CULTURE_TOURISM</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_TOURISM_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENSCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENFAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENCULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORFAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>THIRDALTERNATIVE_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
@@ -452,6 +531,100 @@
 			<ModifierId>FUTURE_VICTORY_CULTURE_TOURISM</ModifierId>
 			<Name>Amount</Name>
 			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENSCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENSCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENFAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENFAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENCULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENCULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Delete ModifierId="FUTURE_COUNTER_CULTURE_TOURISM_REDUCTION" Name="Modifier"/>
+		<Row>
+			<ModifierId>FUTURE_COUNTER_CULTURE_TOURISM_REDUCTION</ModifierId>
+			<Name>Modifier</Name>
+			<Value>75</Value>
+		</Row>
+		<Delete ModifierId="COLONIALOFFICES_FOREIGNIDENTITY" Name="Amount"/>
+		<Row>
+			<ModifierId>COLONIALOFFICES_FOREIGNIDENTITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORFAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORFAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Delete ModifierId="PRAETORIUM_GOVERNORIDENTITY" Name="Amount"/>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORIDENTITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Delete ModifierId="COMMUNICATIONS_OFFICE_GOVERNOR_IDENTITY_PER_TITLE" Name="Amount"/>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_GOVERNOR_IDENTITY_PER_TITLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
 		</Row>
 		<Delete ModifierId="CIVILPRESTIGE_GOVAMENITY" Name="Amount"/>
 		<Delete ModifierId="CIVILPRESTIGE_GOVHOUSING" Name="Amount"/>
