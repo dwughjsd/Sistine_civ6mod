@@ -483,6 +483,9 @@
 		<Replace Tag="LOC_POLICY_CRYPTOGRAPHY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>敌方间谍在您的领土内等级降低2级，您的间谍在进攻行动时等级提升1级。</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_INVENTION_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>每回合+4 [ICON_GreatEngineer] 大工程师点数。每座工坊每回合+2 [ICON_GreatEngineer] 大工程师点数。</Text>
+		</Replace>
 		<!--Wildcard-->
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
 			<Text>游戏中有6种不同的政策类型和4种政策槽位。所有类型的政策都必须放入政体中同类的空槽位，但通用槽位能放入任意类型的政策。</Text>

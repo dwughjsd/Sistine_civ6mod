@@ -923,5 +923,38 @@
 		<Replace Tag="LOC_POLICY_FUTURE_VICTORY_DIPLOMATIC_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每回合+4点 [ICON_Favor] 外交支持。开放所有城邦的边境，并每回合+4用以获得城邦 [ICON_Envoy] 使者的影响力点数。从您在城邦派驻的每位 [ICON_Envoy] 使者获得+1 [ICON_Science] 科技值、 [ICON_Culture] 文化值、 [ICON_Faith] 信仰值和 [ICON_Gold] 金币。</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_STRATEGOS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合+2 [ICON_GreatGeneral] 大将军点数。每座军营或马厩每回合+2 [ICON_GreatGeneral] 大将军点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INSPIRATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合+2 [ICON_GreatScientist] 大科学家点数。每座图书馆每回合+2 [ICON_GreatScientist] 大科学家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_REVELATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合+2 [ICON_GreatProphet] 大预言家点数。每座神祠每回合+2 [ICON_GreatProphet] 大预言家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LITERARY_TRADITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合+2 [ICON_GreatWriter] 大作家点数。每座露天剧场每回合+2 [ICON_GreatWriter] 大作家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NAVIGATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合+2 [ICON_GreatAdmiral] 海军统帅点数。每座灯塔每回合+2 [ICON_GreatAdmiral] 海军统帅点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TRAVELING_MERCHANTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合+2 [ICON_GreatMerchant] 大商人点数。每座市场每回合+2 [ICON_GreatMerchant] 大商人点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FRESCOES_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>每回合+4 [ICON_GreatArtist] 大艺术家点数。每座艺术博物馆或考古博物馆每回合+2 [ICON_GreatArtist] 大艺术家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SYMPHONIES_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>每回合+4 [ICON_GreatMusician] 大音乐家点数。每座歌剧院或广播中心每回合+2 [ICON_GreatMusician] 大音乐家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MILITARY_ORGANIZATION_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>每座军营建筑每回合+2 [ICON_GreatGeneral] 大将军点数。大将军+2移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LAISSEZ_FAIRE_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>每座商业中心建筑每回合+2 [ICON_GreatMerchant] 大商人点数。每座港口建筑每回合+2 [ICON_GreatAdmiral] 海军统帅点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NOBEL_PRIZE_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>每座学院建筑每回合+2 [ICON_GreatScientist] 大科学家点数。每座工业区建筑每回合+2 [ICON_GreatEngineer] 大工程师点数。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
