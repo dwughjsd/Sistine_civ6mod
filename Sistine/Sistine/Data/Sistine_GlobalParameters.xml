@@ -16,10 +16,11 @@
 		<Replace Name="CITY_AMENITIES_FOR_FREE" Value="1" />
 		<Replace Name="AI_BASE_LUXURY_VALUE" Value="100" />
 		<!--I guess it will make AI smarter. Let's see!-->
-		<!--Temporalily disable them to see further impacts
+
 		<Replace Name="CIVIC_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
-		<Replace Name="CIVIC_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
+		<!--Temporalily disable them to see further impacts
+		<Replace Name="CIVIC_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
 		-->
 		<!--Cultural Victory overhaul-->
