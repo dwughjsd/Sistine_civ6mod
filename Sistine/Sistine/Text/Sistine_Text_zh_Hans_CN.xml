@@ -900,7 +900,7 @@
 			<Text>对您有发起 [ICON_TradeRoute] 贸易路线的文明+200% [ICON_Tourism] 旅游业绩输出。您的摇滚乐队可以选择任意一种可行的升级选项。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_CONTAINMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您向每个城邦派遣的第一个 [ICON_Envoy] 使者会被视为2个 [ICON_Envoy] 使者。如果城邦的宗主国和您的政体不同，您向城邦派遣的每个 [ICON_Envoy] 使者都被视为两个使者。</Text>
+			<Text>如果城邦的宗主国和您的政体不同，您向城邦派遣的每个 [ICON_Envoy] 使者都被视为两个使者。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_COLONIAL_OFFICES_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>不在您的初始 [ICON_Capital] 首都大陆的城市发展加速15%并每回合+6忠诚度。</Text>
@@ -918,7 +918,7 @@
 			<Text>训练间谍+50% [ICON_Production] 生产力。间谍行动时间减少25%。敌方间谍在您的领土内等级降低2级，您的间谍在进攻行动时等级提升1级。您的间谍可以选择任意一种可行的升级选项。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FUTURE_COUNTER_DIPLOMATIC_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您向每个城邦派遣的第一个 [ICON_Envoy] 使者会被视为2个 [ICON_Envoy] 使者。如果城邦的宗主国和您的政体不同，您向城邦派遣的每个 [ICON_Envoy] 使者都被视为两个使者。在世界议会中降低另一文明的外交胜利点数后，可取回所花费 [ICON_Favor] 外交支持的50%。</Text>
+			<Text>如果城邦的宗主国和您的政体不同，您向城邦派遣的每个 [ICON_Envoy] 使者都被视为两个使者。在世界议会中降低另一文明的外交胜利点数后，可取回所花费 [ICON_Favor] 外交支持的50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FUTURE_VICTORY_DIPLOMATIC_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每回合+4点 [ICON_Favor] 外交支持。开放所有城邦的边境，并每回合+4用以获得城邦 [ICON_Envoy] 使者的影响力点数。从您在城邦派驻的每位 [ICON_Envoy] 使者获得+1 [ICON_Science] 科技值、 [ICON_Culture] 文化值、 [ICON_Faith] 信仰值和 [ICON_Gold] 金币。</Text>

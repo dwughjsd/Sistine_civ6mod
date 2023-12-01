@@ -114,7 +114,7 @@
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
-			<Set DefaultValue="10.0" />
+			<Set DefaultValue="20.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
@@ -318,10 +318,10 @@
 
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_RECORDED_HISTORY" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_FEUDALISM" Favored="true" />
-		<Row ListType="DefaultCivicsSST" Item="CIVIC_OPERA_BALLET" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_EXPLORATION" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_DIVINE_RIGHT" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_REFORMED_CHURCH" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_OPERA_BALLET" Favored="true" />
 
 		<Delete ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
 		<Delete ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
@@ -388,7 +388,7 @@
 
 		<!--Avoid AI using influence policy card too early-->
 		<Row ListType="AncientPseudoYields" Item="PSEUDOYIELD_INFLUENCE" Value="-100"/>
-		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_INFLUENCE" Value="100"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_INFLUENCE" Value="300"/>
 
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="30"/>
