@@ -27,6 +27,12 @@
 				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
 			</Set>
 		</Update>
+		<Update>
+			<Where PolicyType="POLICY_MARTIAL_LAW"/>
+			<Set>
+				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
+			</Set>
+		</Update>
 		<!--Defense of Motherland is reused for the new Party Leadership policy-->
 		<Update>
 			<Where PolicyType="POLICY_DEFENSE_OF_MOTHERLAND"/>

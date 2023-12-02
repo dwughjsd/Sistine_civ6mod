@@ -2,6 +2,10 @@
 <GameData>
 	<Technologies>
 		<Update>
+			<Where TechnologyType="TECH_POTTERY" />
+			<Set UITreeRow="-1"/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_CURRENCY" />
 			<Set Description="LOC_TECH_CURRENCY_DESCRIPTION"/>
 		</Update>
@@ -440,6 +444,12 @@
 		<Delete TechnologyType="TECH_OFFWORLD_MISSION"/>
 	</Technologies_XP2>
 	<TechnologyPrereqs>
+		<Row Technology="TECH_ASTROLOGY" PrereqTech="TECH_POTTERY"/>
+		<Delete Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_BANKING"/>
+		<Delete Technology="TECH_ECONOMICS" PrereqTech="TECH_METAL_CASTING"/>
+		<Delete Technology="TECH_ROBOTICS" PrereqTech="TECH_LASERS"/>
+		<Row Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_METAL_CASTING"/>
+		<Row Technology="TECH_ECONOMICS" PrereqTech="TECH_BANKING"/>
 		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_OFFWORLD_MISSION"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_SEASTEADS"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_ADVANCED_AI"/>
@@ -449,6 +459,10 @@
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_PREDICTIVE_SYSTEMS"/>
 	</TechnologyPrereqs>
 	<Civics>
+		<Update>
+			<Where CivicType="CIVIC_THE_ENLIGHTENMENT" />
+			<Set UITreeRow="2"/>
+		</Update>
 		<Update>
 			<Where CivicType="CIVIC_REFORMED_CHURCH" />
 			<Set Description="LOC_CIVIC_REFORMED_CHURCH_DESCRIPTION_SST"/>
@@ -772,6 +786,10 @@
 		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_INFORMATION_WARFARE"/>
 		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_EXODUS_IMPERATIVE"/>
 		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_CULTURAL_HEGEMONY"/>
+		<Row Civic="CIVIC_COLONIALISM" PrereqCivic="CIVIC_EXPLORATION"/>
+		<Delete Civic="CIVIC_THE_ENLIGHTENMENT" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row Civic="CIVIC_THE_ENLIGHTENMENT" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row Civic="CIVIC_MERCANTILISM" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
 	</CivicPrereqs>
 
 	<CivicModifiers>

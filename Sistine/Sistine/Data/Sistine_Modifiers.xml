@@ -50,8 +50,9 @@
 		</Row>
 		<Row>
 			<ModifierId>TECH_ADJUST_BUILDER_CHARGES</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_TRAINED_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
 			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
 		</Row>
 		<Row>
 			<ModifierId>TECH_SETTLER_ADDITION_POP</ModifierId>
