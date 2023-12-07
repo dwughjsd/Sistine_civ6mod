@@ -404,7 +404,7 @@
 
 		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
-		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="20"/>
+		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="60"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-30"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
@@ -412,7 +412,7 @@
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
 		
 		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
-		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="30"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="50"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="10"/>
 		<!--
@@ -420,7 +420,7 @@
 		-->
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
 
-		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="50"/>
+		<Row ListType="IndustrialYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="10"/>
 		<!--
 		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
@@ -444,12 +444,11 @@
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="50"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
 
-		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
-
+		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="-50"/>
 		<!--Slow building campuses and we are going to launch spaceships!-->
-		<Row ListType="InformationTechs" Item="YIELD_SCIENCE" Value="-70"/>
-		<Row ListType="InformationTechs" Item="YIELD_PRODUCTION" Value="50"/>
+		<Row ListType="InformationYields" Item="YIELD_SCIENCE" Value="-20"/>
+		<Row ListType="InformationYields" Item="YIELD_PRODUCTION" Value="50"/>
 
 
 		<!--No need to promote military academy. Build more Campus instead.-->
