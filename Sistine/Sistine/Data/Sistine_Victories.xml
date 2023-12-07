@@ -446,6 +446,8 @@
 
 		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="-50"/>
+		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="50"/>
+
 		<!--Slow building campuses and we are going to launch spaceships!-->
 		<Row ListType="InformationYields" Item="YIELD_SCIENCE" Value="-20"/>
 		<Row ListType="InformationYields" Item="YIELD_PRODUCTION" Value="50"/>
