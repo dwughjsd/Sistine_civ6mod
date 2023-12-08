@@ -136,20 +136,20 @@
 		<!--Let AI only perform enhancing projects in late game-->
 		<Row>
 			<RequirementSetId>PLAYER_IS_HUMAN_OR_LATE</RequirementSetId>
-			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_ATOMIC</RequirementId>
+			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_INFORMATION</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
-			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_ATOMIC</RequirementId>
+			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_INFORMATION</RequirementId>
 			<RequirementType>REQUIREMENT_GAME_ERA_ATLEAST_EXPANSION</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_ATOMIC</RequirementId>
+			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_INFORMATION</RequirementId>
 			<Name>EraType</Name>
-			<Value>ERA_ATOMIC</Value>
+			<Value>ERA_INFORMATION</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>
