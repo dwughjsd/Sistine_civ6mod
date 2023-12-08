@@ -5,6 +5,36 @@
 			<Where ResourceType="RESOURCE_ANTIQUITY_SITE" />
 			<Set PrereqCivic="CIVIC_HUMANISM" />
 		</Update>
+		<Update><Where ResourceType="RESOURCE_PERFUME" /><Set Happiness="3" /></Update>
+		<Update><Where ResourceType="RESOURCE_CINNAMON" /><Set Happiness="3" /></Update>
+		<Update><Where ResourceType="RESOURCE_CLOVES" /><Set Happiness="3" /></Update>
+		<Update><Where ResourceType="RESOURCE_CITRUS" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_COCOA" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_COFFEE" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_COTTON" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_DIAMONDS" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_DYES" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_FURS" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_GYPSUM" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_INCENSE" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_IVORY" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_JADE" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_MARBLE" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_MERCURY" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_PEARLS" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_SALT" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_SILK" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_SILVER" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_SPICES" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_SUGAR" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_TEA" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_TOBACCO" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_TRUFFLES" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_WHALES" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_WINE" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_JEANS" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_COSMETICS" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_TOYS" /><Set Happiness="2" /></Update>
 	</Resources>
 	<Tags>
 		<!-- Building Effects Based-->

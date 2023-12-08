@@ -1,12 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Policies>
+		<Update>
+			<Where PolicyType="POLICY_FINEST_HOUR"/>
+			<Set>
+				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_COUNTER_DOMINATION"/>
+			<Set>
+				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_VICTORY_DOMINATION"/>
+			<Set>
+				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Delete PolicyType="POLICY_LIMITANEI" />
+		<Delete PolicyType="POLICY_PROPAGANDA" />
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_VICTORY_SCIENCE"/>
+			<Set>
+				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_MARTIAL_LAW"/>
+			<Set>
+				<GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
+			</Set>
+		</Update>
+		<!--Defense of Motherland is reused for the new Party Leadership policy-->
+		<Update>
+			<Where PolicyType="POLICY_DEFENSE_OF_MOTHERLAND"/>
+			<Set>
+				<GovernmentSlotType>SLOT_ECONOMIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_VICTORY_CULTURE"/>
+			<Set>
+				<GovernmentSlotType>SLOT_ECONOMIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_COUNTER_SCIENCE"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_COUNTER_CULTURE"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
+	</Policies>
+	<ObsoletePolicies>
+		<Delete PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_NATIVE_CONQUEST"/>
+		<Row PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_AFTER_ACTION_REPORTS"/>
+		<Row PolicyType="POLICY_BASTIONS" ObsoletePolicy="POLICY_FINEST_HOUR"/>
+		<Delete PolicyType="POLICY_BASTIONS" ObsoletePolicy="POLICY_PUBLIC_WORKS"/>
+		<Row PolicyType="POLICY_BASTIONS" ObsoletePolicy="POLICY_FUTURE_COUNTER_DOMINATION"/>
+		<Row PolicyType="POLICY_LIMES" ObsoletePolicy="POLICY_FINEST_HOUR"/>
+		<Row PolicyType="POLICY_LIMES" ObsoletePolicy="POLICY_PUBLIC_WORKS"/>
+		<Row PolicyType="POLICY_NATIVE_CONQUEST" ObsoletePolicy="POLICY_FUTURE_COUNTER_DOMINATION"/>
+		<Row PolicyType="POLICY_WARS_OF_RELIGION" ObsoletePolicy="POLICY_FUTURE_COUNTER_DOMINATION"/>
+		<Row PolicyType="POLICY_FINEST_HOUR" ObsoletePolicy="POLICY_FUTURE_COUNTER_DOMINATION"/>
+		<Row PolicyType="POLICY_SECOND_STRIKE_CAPABILITY" ObsoletePolicy="POLICY_STRATEGIC_AIR_FORCE"/>
+		<Row PolicyType="POLICY_MILITARY_FIRST" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Row PolicyType="POLICY_INTERNATIONAL_WATERS" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Row PolicyType="POLICY_LIGHTNING_WARFARE" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Row PolicyType="POLICY_LOGISTICS" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Row PolicyType="POLICY_STRATEGIC_AIR_FORCE" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Row PolicyType="POLICY_RETAINERS" ObsoletePolicy="POLICY_MARTIAL_LAW"/>
+		<Delete PolicyType="POLICY_RETAINERS" ObsoletePolicy="POLICY_PROPAGANDA"/>
+		<Delete PolicyType="POLICY_LIMITANEI" ObsoletePolicy="POLICY_MARTIAL_LAW"/>
+		<Row PolicyType="POLICY_INTEGRATED_SPACE_CELL" ObsoletePolicy="POLICY_FUTURE_VICTORY_SCIENCE"/>
+		<Delete PolicyType="POLICY_GOD_KING" ObsoletePolicy="POLICY_SCRIPTURE"/>
+		<Delete PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_COLONIAL_OFFICES"/>
+		<Delete PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_RATIONALISM"/>
+		<Row PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_DEFENSE_OF_MOTHERLAND"/>
+		<Row PolicyType="POLICY_ONLINE_COMMUNITIES" ObsoletePolicy="POLICY_FUTURE_VICTORY_CULTURE"/>
+		<Row PolicyType="POLICY_MACHIAVELLIANISM" ObsoletePolicy="POLICY_FUTURE_COUNTER_SCIENCE"/>
+		<Row PolicyType="POLICY_CRYPTOGRAPHY" ObsoletePolicy="POLICY_FUTURE_COUNTER_SCIENCE"/>
+		<Row PolicyType="POLICY_MUSIC_CENSORSHIP" ObsoletePolicy="POLICY_FUTURE_COUNTER_CULTURE"/>
+		<Row PolicyType="POLICY_GUNBOAT_DIPLOMACY" ObsoletePolicy="POLICY_FUTURE_VICTORY_DIPLOMATIC"/>
+		<Row PolicyType="POLICY_MERCHANT_CONFEDERATION" ObsoletePolicy="POLICY_FUTURE_VICTORY_DIPLOMATIC"/>
+		<Row PolicyType="POLICY_DIPLOMATIC_LEAGUE" ObsoletePolicy="POLICY_CONTAINMENT"/>
+		<Row PolicyType="POLICY_DIPLOMATIC_LEAGUE" ObsoletePolicy="POLICY_MERCHANT_CONFEDERATION"/>
+		<Row PolicyType="POLICY_CONTAINMENT" ObsoletePolicy="POLICY_FUTURE_COUNTER_DIPLOMATIC"/>
+	</ObsoletePolicies>
 	<PolicyModifiers>
+		<Delete PolicyType="POLICY_FINEST_HOUR" ModifierId="FINEST_HOUR_FRIENDLY_TERRITORY"/>
+		<Row PolicyType="POLICY_FINEST_HOUR" ModifierId="BASTIONS_RANGEDSTRIKE"/>
+		<Row PolicyType="POLICY_FINEST_HOUR" ModifierId="FINESTHOUR_INNERDEFENSE"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_DOMINATION" ModifierId="BASTIONS_RANGEDSTRIKE"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_DOMINATION" ModifierId="FINESTHOUR_INNERDEFENSE"/>
+		<Row PolicyType="POLICY_STRATEGIC_AIR_FORCE" ModifierId="SECONDSTRIKE_MAINTENANCEWMDS"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="SECONDSTRIKE_MAINTENANCEWMDS"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_UNIT_PRODUCTION"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_UNIT_MOVEMENT"/>
+		<Delete PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_GDR_PRODUCTION"/>
+		<Delete PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_ENEMY_TERRITORY_MOVEMENT"/>
+		<Row PolicyType="POLICY_RETAINERS" ModifierId="LIMITANEI_GARRISONIDENTITY"/>
+		<Row PolicyType="POLICY_MARTIAL_LAW" ModifierId="RETAINERS_AMENITYBONUS"/>
+		<Delete PolicyType="POLICY_LIMITANEI"/>
+		<Delete PolicyType="POLICY_PROPAGANDA" />
+		<Delete PolicyType="POLICY_MILITARY_RESEARCH" />
+		<Row PolicyType="POLICY_MILITARY_RESEARCH" ModifierId="MILITARY_RESEARCH_SCIENCE"/>
+		<Delete PolicyType="POLICY_INTEGRATED_SPACE_CELL" />
+		<Row PolicyType="POLICY_INTEGRATED_SPACE_CELL" ModifierId="INTEGRATED_SPACE_CELL_SCIENCE"/>
+		<Row PolicyType="POLICY_INTEGRATED_SPACE_CELL" ModifierId="INTEGRATED_SPACE_CELL_PRODUCTION"/>
+		<Delete PolicyType="POLICY_FUTURE_VICTORY_SCIENCE" ModifierId="FUTURE_VICTORY_SCIENCE_SPACEPORT_ALUMINUM"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_SCIENCE" ModifierId="FUTURE_VICTORY_SCIENCE_SCIENCE"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_SCIENCE" ModifierId="FUTURE_VICTORY_SCIENCE_PRODUCTION"/>
+		<Delete PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" />
+		<Row PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" ModifierId="URBAN_PLANNING_ALLCITYPRODUCTION"/>
+		<Row PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" ModifierId="PARTY_LEADERSHIP_ALLCITYSCIENCE"/>
+		<Row PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" ModifierId="PARTY_LEADERSHIP_ALLCITYCULTURE"/>
+		<Row PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" ModifierId="PARTY_LEADERSHIP_ALLCITYGOLD"/>
+		<Row PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" ModifierId="PARTY_LEADERSHIP_ALLCITYFOOD"/>
+		<Row PolicyType="POLICY_SPORTS_MEDIA" ModifierId="SPORTSMEDIA_BROADCASTCENTERENTERTAINMENT"/>
+		<Row PolicyType="POLICY_SPORTS_MEDIA" ModifierId="SPORTSMEDIA_AQUATICSCENTERMENTERTAINMENT"/>
+		<Delete PolicyType="POLICY_RATIONALISM" />
+		<Delete PolicyType="POLICY_GRAND_OPERA" />
+		<Delete PolicyType="POLICY_SIMULTANEUM" />
+		<Delete PolicyType="POLICY_FREE_MARKET" />
+		<Row PolicyType="POLICY_RATIONALISM" ModifierId="RATIONALISM_PUBLICSCHOOL_10POP_SCIENCE"/>
+		<Row PolicyType="POLICY_RATIONALISM" ModifierId="RATIONALISM_PUBLICSCHOOL_15POP_SCIENCE"/>
+		<Row PolicyType="POLICY_GRAND_OPERA" ModifierId="GRANDOPERA_OPERAHOUSE_10POP_CULTURE"/>
+		<Row PolicyType="POLICY_GRAND_OPERA" ModifierId="GRANDOPERA_OPERAHOUSE_15POP_CULTURE"/>
+		<Row PolicyType="POLICY_SIMULTANEUM" ModifierId="SIMULTANEUM_TIER3_10POP_FAITH"/>
+		<Row PolicyType="POLICY_SIMULTANEUM" ModifierId="SIMULTANEUM_TIER3_15POP_FAITH"/>
+		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="FREEMARKET_TIER2_10POP_GOLD"/>
+		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="FREEMARKET_TIER2_15POP_GOLD"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_CULTURE" ModifierId="FUTURE_VICTORY_CULTURE_TOURISM"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC" ModifierId="CONTAINMENT_DUPLICATETOKENWHENRIVALGOVERNMENT"/>
+		<Delete PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC" ModifierId="FUTURE_COUNTER_DIPLOMATIC_FAVOR_PER_TURN"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="GUNBOATDIPLOMACY_OPENBORDERS"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="GUNBOATDIPLOMACY_INFLUENCEPOINTS"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="MERCHANTCONFEDERATION_INFLUENCETOKENGOLD"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENSCIENCE"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENFAITH"/>
+		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENCULTURE"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_SCIENCE" ModifierId="CRYPTOGRAPHY_OFFENSE"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_SCIENCE" ModifierId="CRYPTOGRAPHY_DEFENSE"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_SCIENCE" ModifierId="MACHIAVELLIANISM_SPYPRODUCTION"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_SCIENCE" ModifierId="MACHIAVELLIANISM_OFFENSIVESPYTIME"/>
+		<Row PolicyType="POLICY_FUTURE_COUNTER_CULTURE" ModifierId="MUSIC_CENSORSHIP_BLOCK_ROCK_BAND_ENTRY"/>
+		<Row PolicyType="POLICY_PRAETORIUM" ModifierId="PRAETORIUM_GOVERNORGOLD"/>
+		<Row PolicyType="POLICY_PRAETORIUM" ModifierId="PRAETORIUM_GOVERNORFAITH"/>
+		<Row PolicyType="POLICY_COMMUNICATIONS_OFFICE" ModifierId="COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_GOLD"/>
+		<Row PolicyType="POLICY_COMMUNICATIONS_OFFICE" ModifierId="COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_FAITH"/>
 		<!--R.I.P. Public Transport, who was killed but readded for 2 times-->
 		<Delete ModifierId="PUBLICTRANSPORT_FARMREPLACEGOLD"/>
-		<Row>
-			<PolicyType>POLICY_MEDINA_QUARTER</PolicyType>
-			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
-		</Row>
 		<Row>
 			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
 			<ModifierId>THIRDALTERNATIVE_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
@@ -27,6 +190,8 @@
 			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
 			<ModifierId>THIRDALTERNATIVE_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
 		</Row>
+		<Row PolicyType="POLICY_NEW_DEAL" ModifierId="NEWDEAL_SPECIALTYAMENITY_2"/>
+		<Row PolicyType="POLICY_NEW_DEAL" ModifierId="NEWDEAL_SPECIALTYHOUSING_2"/>
 		<!--Cultural Victory overhaul-->
 		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_SCULPTURETOURISM"/>
 		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_PORTRAITTOURISM"/>
@@ -34,12 +199,148 @@
 		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_RELIGIOUSTOURISM"/>
 		<Delete PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="HERITAGE_ARTIFACTTOURISM"/>
 		<Row PolicyType="POLICY_HERITAGE_TOURISM" ModifierId="TRAIT_WONDER_DOUBLETOURISM"/>
+		<Row PolicyType="POLICY_SERFDOM" ModifierId="PUBLICWORKS_BUILDERPRODUCTION"/>
+		<Row PolicyType="POLICY_STRATEGOS" ModifierId="BARRACK_STABLE_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_INSPIRATION" ModifierId="LIBRARY_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_REVELATION" ModifierId="SHRINE_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_LITERARY_TRADITION" ModifierId="AMPHITHEATER_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_NAVIGATION" ModifierId="LIGHTHOUSE_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_TRAVELING_MERCHANTS" ModifierId="MARKET_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_FRESCOES" ModifierId="MUSEUM_ARTIFACT_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_SYMPHONIES" ModifierId="OPERA_HOUSE_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_MILITARY_ORGANIZATION" ModifierId="BARRACK_STABLE_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_NOBEL_PRIZE" ModifierId="LIBRARY_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_NOBEL_PRIZE" ModifierId="INVENTION_ENGINEER_WORKSHOP"/>
+		<Row PolicyType="POLICY_NOBEL_PRIZE" ModifierId="PUBLIC_SCHOOL_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_NOBEL_PRIZE" ModifierId="MANUFACTURING_PLANT_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_LAISSEZ_FAIRE" ModifierId="LIGHTHOUSE_ADDITIONAL_GP"/>
+		<Row PolicyType="POLICY_LAISSEZ_FAIRE" ModifierId="MARKET_ADDITIONAL_GP"/>
 	</PolicyModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
+			<ModifierId>NEWDEAL_SPECIALTYAMENITY_2</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
-			<SubjectRequirementSetId>CITY_HAS_3_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>NEWDEAL_SPECIALTYHOUSING_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FINESTHOUR_INNERDEFENSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_INNER_DEFENSE</ModifierType>
+		</Row>
+		<Update>
+			<Where ModifierId="GLOBAL_COALITION_FRIENDLY_TERRITORY" />
+			<Set SubjectRequirementSetId="" />
+		</Update>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DOMINATION_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DOMINATION_UNIT_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MILITARY_RESEARCH_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MILITARY_ACADEMY_OR_SEAPORT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>INTEGRATED_SPACE_CELL_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MILITARY_ACADEMY_SEAPORT_OR_SPACEPORT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>INTEGRATED_SPACE_CELL_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MILITARY_ACADEMY_SEAPORT_OR_SPACEPORT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_SCIENCE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MILITARY_ACADEMY_SEAPORT_OR_SPACEPORT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_SCIENCE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MILITARY_ACADEMY_SEAPORT_OR_SPACEPORT</SubjectRequirementSetId>
+		</Row>
+		<Delete ModifierId="FUTURE_VICTORY_SCIENCE_SPACEPORT_POWER" />
+		<Row>
+			<ModifierId>FUTURE_VICTORY_SCIENCE_SPACEPORT_POWER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MILITARY_ACADEMY_SEAPORT_OR_SPACEPORT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYSCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYCULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYFOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SPORTSMEDIA_BROADCASTCENTERENTERTAINMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_BROADCAST_CENTER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SPORTSMEDIA_AQUATICSCENTERMENTERTAINMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_AQUATICS_CENTER_REQUIREMENTS_SST</SubjectRequirementSetId>
+		</Row>
+		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_10POP_SCIENCE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_HAS_PUBLIC_SCHOOL_10POP"/>
+		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_15POP_SCIENCE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_HAS_PUBLIC_SCHOOL_15POP"/>
+		<Row ModifierId="GRANDOPERA_OPERAHOUSE_10POP_CULTURE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_HAS_OPERA_HOUSE_10POP"/>
+		<Row ModifierId="GRANDOPERA_OPERAHOUSE_15POP_CULTURE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_HAS_OPERA_HOUSE_15POP"/>
+		<Row ModifierId="SIMULTANEUM_TIER3_10POP_FAITH" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_HAS_WORSHIP_BUILDING_10POP"/>
+		<Row ModifierId="SIMULTANEUM_TIER3_15POP_FAITH" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_HAS_WORSHIP_BUILDING_15POP"/>
+		<Row ModifierId="FREEMARKET_TIER2_10POP_GOLD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_HAS_TIER2_ECONOMY_BUILDING_10POP"/>
+		<Row ModifierId="FREEMARKET_TIER2_15POP_GOLD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER" SubjectRequirementSetId="CITY_HAS_TIER2_ECONOMY_BUILDING_15POP"/>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_CULTURE_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_TOURISM_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENSCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENFAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENCULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORFAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>THIRDALTERNATIVE_MILITARY_ACADEMY_SCIENCE_MODIFIER</ModifierId>
@@ -64,12 +365,295 @@
 	</Modifiers>
 	<ModifierArguments>
 		<!--Don't use update, it won't work-->
+		<Delete ModifierId="NEWDEAL_SPECIALTYAMENITY" Name="Amount"/>
+		<Delete ModifierId="NEWDEAL_SPECIALTYHOUSING" Name="Amount"/>
+		<Row>
+			<ModifierId>NEWDEAL_SPECIALTYAMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>NEWDEAL_SPECIALTYHOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>NEWDEAL_SPECIALTYAMENITY_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>NEWDEAL_SPECIALTYHOUSING_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Delete ModifierId="AFTERACTIONREPORTS_EXPERIENCE" Name="Amount"/>
+		<Row>
+			<ModifierId>AFTERACTIONREPORTS_EXPERIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>FINESTHOUR_INNERDEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DOMINATION_UNIT_PRODUCTION</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_UNIT_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DOMINATION_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DOMINATION_UNIT_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Delete ModifierId="LIMITANEI_GARRISONIDENTITY" Name="Amount"/>
+		<Row>
+			<ModifierId>LIMITANEI_GARRISONIDENTITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Delete ModifierId="MARTIALLAW_GARRISONIDENTITY" Name="Amount"/>
+		<Row>
+			<ModifierId>MARTIALLAW_GARRISONIDENTITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARY_RESEARCH_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARY_RESEARCH_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>INTEGRATED_SPACE_CELL_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>INTEGRATED_SPACE_CELL_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>INTEGRATED_SPACE_CELL_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>INTEGRATED_SPACE_CELL_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_SCIENCE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_SCIENCE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_SCIENCE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_SCIENCE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>60</Value>
+		</Row>
+		<Delete ModifierId="FUTURE_VICTORY_SCIENCE_SPACEPORT_POWER_IN_CITY" Name="Amount"/>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_SCIENCE_SPACEPORT_POWER_IN_CITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYSCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYSCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYCULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYCULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>PARTY_LEADERSHIP_ALLCITYFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SPORTSMEDIA_BROADCASTCENTERENTERTAINMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SPORTSMEDIA_AQUATICSCENTERMENTERTAINMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_10POP_SCIENCE" Name="Amount" Value="25"/>
+		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_10POP_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_15POP_SCIENCE" Name="Amount" Value="25"/>
+		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_15POP_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="GRANDOPERA_OPERAHOUSE_10POP_CULTURE" Name="Amount" Value="25"/>
+		<Row ModifierId="GRANDOPERA_OPERAHOUSE_10POP_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="GRANDOPERA_OPERAHOUSE_15POP_CULTURE" Name="Amount" Value="25"/>
+		<Row ModifierId="GRANDOPERA_OPERAHOUSE_15POP_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="SIMULTANEUM_TIER3_10POP_FAITH" Name="Amount" Value="25"/>
+		<Row ModifierId="SIMULTANEUM_TIER3_10POP_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="SIMULTANEUM_TIER3_15POP_FAITH" Name="Amount" Value="25"/>
+		<Row ModifierId="SIMULTANEUM_TIER3_15POP_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="FREEMARKET_TIER2_10POP_GOLD" Name="Amount" Value="25"/>
+		<Row ModifierId="FREEMARKET_TIER2_10POP_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="FREEMARKET_TIER2_15POP_GOLD" Name="Amount" Value="25"/>
+		<Row ModifierId="FREEMARKET_TIER2_15POP_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_CULTURE_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENSCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENSCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENFAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENFAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENCULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_VICTORY_DIPLOMATIC_INFLUENCETOKENCULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Delete ModifierId="FUTURE_COUNTER_CULTURE_TOURISM_REDUCTION" Name="Modifier"/>
+		<Row>
+			<ModifierId>FUTURE_COUNTER_CULTURE_TOURISM_REDUCTION</ModifierId>
+			<Name>Modifier</Name>
+			<Value>75</Value>
+		</Row>
+		<Delete ModifierId="COLONIALOFFICES_FOREIGNIDENTITY" Name="Amount"/>
+		<Row>
+			<ModifierId>COLONIALOFFICES_FOREIGNIDENTITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORFAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORFAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Delete ModifierId="PRAETORIUM_GOVERNORIDENTITY" Name="Amount"/>
+		<Row>
+			<ModifierId>PRAETORIUM_GOVERNORIDENTITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Delete ModifierId="COMMUNICATIONS_OFFICE_GOVERNOR_IDENTITY_PER_TITLE" Name="Amount"/>
+		<Row>
+			<ModifierId>COMMUNICATIONS_OFFICE_GOVERNOR_IDENTITY_PER_TITLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 		<Delete ModifierId="CIVILPRESTIGE_GOVAMENITY" Name="Amount"/>
 		<Delete ModifierId="CIVILPRESTIGE_GOVHOUSING" Name="Amount"/>
 		<Delete ModifierId="MILITARYRESEARCH_SEAPORT_SCIENCE_MODIFIER" Name="Amount"/>
 		<Delete ModifierId="MILITARYRESEARCH_MILITARY_ACADEMY_SCIENCE_MODIFIER" Name="Amount"/>
 		<Delete ModifierId="MILITARYRESEARCH_RENAISSANCE_WALLS_SCIENCE_MODIFIER" Name="Amount"/>
 		<Delete ModifierId="LIBERALISM_SPECIALTYAMENITY" Name="Amount"/>
+		<Delete ModifierId="SATELLITEBROADCASTS_MUSICTOURISM" Name="ScalingFactor"/>
+		<Delete ModifierId="SERFDOM_BUILDERCHARGES" Name="Amount"/>
 		<Row>
 			<ModifierId>CIVILPRESTIGE_GOVAMENITY</ModifierId>
 			<Name>Amount</Name>
@@ -77,11 +661,6 @@
 		</Row>
 		<Row>
 			<ModifierId>CIVILPRESTIGE_GOVHOUSING</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>MEDINAQUARTER_SPECIALTYAMENITY</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -178,7 +757,203 @@
 		<Row>
 			<ModifierId>LIBERALISM_SPECIALTYAMENITY</ModifierId>
 			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SATELLITEBROADCASTS_MUSICTOURISM</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>SERFDOM_BUILDERCHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Delete ModifierId="LAISSEZFAIRE_MERCHANT_STOCKEXCHANGE" Name="Amount"/>
+		<Delete ModifierId="LAISSEZFAIRE_ADMIRAL_SEAPORT" Name="Amount"/>
+		<Delete ModifierId="SCIENCEFOUNDATION_SCIENTIST_RESEARCHLAB" Name="Amount"/>
+		<Delete ModifierId="SCIENCEFOUNDATION_ENGINEER_POWERPLANT" Name="Amount"/>
+		<Delete ModifierId="MILITARYORGANIZATION_GREATGENERAL_MILITARYACADEMY" Name="Amount"/>
+		<Delete ModifierId="FRESCOES_GREATARTISTPOINTS" Name="Amount"/>
+		<Row>
+			<ModifierId>LAISSEZFAIRE_MERCHANT_STOCKEXCHANGE</ModifierId>
+			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
+		<Row>
+			<ModifierId>LAISSEZFAIRE_ADMIRAL_SEAPORT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SCIENCEFOUNDATION_SCIENTIST_RESEARCHLAB</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SCIENCEFOUNDATION_ENGINEER_POWERPLANT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARYORGANIZATION_GREATGENERAL_MILITARYACADEMY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FRESCOES_GREATARTISTPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
 	</ModifierArguments>
+	<Policy_GovernmentExclusives_XP2>
+		<Delete PolicyType="POLICY_FINEST_HOUR" GovernmentType="GOVERNMENT_DEMOCRACY" />
+		<Delete PolicyType="POLICY_NEW_DEAL" GovernmentType="GOVERNMENT_DEMOCRACY" />
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" GovernmentType="GOVERNMENT_FASCISM" />
+		<Delete PolicyType="POLICY_MARTIAL_LAW" GovernmentType="GOVERNMENT_FASCISM" />
+		<Delete PolicyType="POLICY_COLLECTIVIZATION" GovernmentType="GOVERNMENT_COMMUNISM" />
+		<Delete PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" GovernmentType="GOVERNMENT_COMMUNISM" />
+	</Policy_GovernmentExclusives_XP2>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CITY_HAS_MILITARY_ACADEMY_SEAPORT_OR_SPACEPORT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_AQUATICS_CENTER_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_PUBLIC_SCHOOL_10POP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_PUBLIC_SCHOOL_15POP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_OPERA_HOUSE_10POP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_OPERA_HOUSE_15POP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_TIER2_ECONOMY_BUILDING_10POP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_TIER2_ECONOMY_BUILDING_15POP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_WORSHIP_BUILDING_10POP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_WORSHIP_BUILDING_15POP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER2_ECONOMY_BUILDING_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_PUBLIC_SCHOOL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_OPERA_HOUSE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CITY_HAS_MILITARY_ACADEMY_SEAPORT_OR_SPACEPORT</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_MILITARY_ACADEMY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_MILITARY_ACADEMY_SEAPORT_OR_SPACEPORT</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_SEAPORT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_MILITARY_ACADEMY_SEAPORT_OR_SPACEPORT</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_SPACEPORT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_AQUATICS_CENTER_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_AQUATICS_CENTER_SST</RequirementId>
+		</Row>
+		<Row RequirementSetId="CITY_HAS_PUBLIC_SCHOOL_10POP" RequirementId="REQUIRES_POPULATION_10" />
+		<Row RequirementSetId="CITY_HAS_PUBLIC_SCHOOL_10POP" RequirementId="REQUIRES_CITY_HAS_PUBLIC_SCHOOL" />
+		<!--High Population means 15 pops-->
+		<Row RequirementSetId="CITY_HAS_PUBLIC_SCHOOL_15POP" RequirementId="REQUIRES_CITY_HAS_HIGH_POPULATION" />
+		<Row RequirementSetId="CITY_HAS_PUBLIC_SCHOOL_15POP" RequirementId="REQUIRES_CITY_HAS_PUBLIC_SCHOOL" />
+		<Row RequirementSetId="CITY_HAS_OPERA_HOUSE_10POP" RequirementId="REQUIRES_POPULATION_10" />
+		<Row RequirementSetId="CITY_HAS_OPERA_HOUSE_10POP" RequirementId="REQUIRES_CITY_HAS_OPERA_HOUSE" />
+		<Row RequirementSetId="CITY_HAS_OPERA_HOUSE_15POP" RequirementId="REQUIRES_CITY_HAS_HIGH_POPULATION" />
+		<Row RequirementSetId="CITY_HAS_OPERA_HOUSE_15POP" RequirementId="REQUIRES_CITY_HAS_OPERA_HOUSE" />
+		<Row RequirementSetId="CITY_HAS_TIER2_ECONOMY_BUILDING_10POP" RequirementId="REQUIRES_POPULATION_10" />
+		<Row RequirementSetId="CITY_HAS_TIER2_ECONOMY_BUILDING_10POP" RequirementId="REQUIRES_CITY_HAS_TIER2_ECONOMY_BUILDING_SST" />
+		<Row RequirementSetId="CITY_HAS_TIER2_ECONOMY_BUILDING_15POP" RequirementId="REQUIRES_CITY_HAS_HIGH_POPULATION" />
+		<Row RequirementSetId="CITY_HAS_TIER2_ECONOMY_BUILDING_15POP" RequirementId="REQUIRES_CITY_HAS_TIER2_ECONOMY_BUILDING_SST" />
+		<Row RequirementSetId="CITY_HAS_WORSHIP_BUILDING_10POP" RequirementId="REQUIRES_POPULATION_10" />
+		<Row RequirementSetId="CITY_HAS_WORSHIP_BUILDING_10POP" RequirementId="REQUIRES_CITY_HAS_WORSHIP_BUILDING_SST" />
+		<Row RequirementSetId="CITY_HAS_WORSHIP_BUILDING_15POP" RequirementId="REQUIRES_CITY_HAS_HIGH_POPULATION" />
+		<Row RequirementSetId="CITY_HAS_WORSHIP_BUILDING_15POP" RequirementId="REQUIRES_CITY_HAS_WORSHIP_BUILDING_SST" />
+		<Row RequirementSetId="BUILDING_IS_TIER2_ECONOMY_BUILDING_SST" RequirementId="REQUIRES_CITY_HAS_SHIPYARD" />
+		<Row RequirementSetId="BUILDING_IS_TIER2_ECONOMY_BUILDING_SST" RequirementId="REQUIRES_CITY_HAS_BANK" />
+		<Row RequirementSetId="BUILDING_IS_PUBLIC_SCHOOL" RequirementId="REQUIRES_CITY_HAS_PUBLIC_SCHOOL" />
+		<Row RequirementSetId="BUILDING_IS_OPERA_HOUSE" RequirementId="REQUIRES_CITY_HAS_OPERA_HOUSE" />
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_AQUATICS_CENTER_SST</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_PUBLIC_SCHOOL</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_OPERA_HOUSE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_WORSHIP_BUILDING_SST</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_TIER2_ECONOMY_BUILDING_SST</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_AQUATICS_CENTER_SST</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_AQUATICS_CENTER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_PUBLIC_SCHOOL</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PUBLIC_SCHOOL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_OPERA_HOUSE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_OPERA_HOUSE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_WORSHIP_BUILDING_SST</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>BUILDING_IS_TIER3_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_TIER2_ECONOMY_BUILDING_SST</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>BUILDING_IS_TIER2_ECONOMY_BUILDING_SST</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>

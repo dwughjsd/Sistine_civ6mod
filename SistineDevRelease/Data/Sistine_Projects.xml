@@ -10,6 +10,34 @@
 			<Where ProjectType="PROJECT_ORBITAL_LASER" />
 			<Set PrereqTech="TECH_SMART_MATERIALS" Cost="1200" MaxPlayerInstances="5"/>
 		</Update>
+		<Update>
+			<Where ProjectType="PROJECT_ENHANCE_DISTRICT_ENCAMPMENT" />
+			<Set UnlocksFromEffect="1"/>
+		</Update>
+		<Update>
+			<Where ProjectType="PROJECT_ENHANCE_DISTRICT_HARBOR" />
+			<Set UnlocksFromEffect="1"/>
+		</Update>
+		<Update>
+			<Where ProjectType="PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE" />
+			<Set UnlocksFromEffect="1"/>
+		</Update>
+		<Update>
+			<Where ProjectType="PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB" />
+			<Set UnlocksFromEffect="1"/>
+		</Update>
+		<Update>
+			<Where ProjectType="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" />
+			<Set UnlocksFromEffect="1"/>
+		</Update>
+		<Update>
+			<Where ProjectType="PROJECT_ENHANCE_DISTRICT_CAMPUS" />
+			<Set UnlocksFromEffect="1"/>
+		</Update>
+		<Update>
+			<Where ProjectType="PROJECT_ENHANCE_DISTRICT_THEATER" />
+			<Set UnlocksFromEffect="1"/>
+		</Update>
 	</Projects>
 	<ProjectPrereqs>
 		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER"/>
@@ -56,4 +84,72 @@
 			<Set Value="YIELD_CULTURE"/>
 		</Update>
 	</ModifierArguments>
+
+	<Types>
+		<Row Type="MODIFIER_PLAYER_ALLOW_PROJECT_SST" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_SST</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADD_PLAYER_PROJECT_AVAILABILITY</EffectType>
+		</Row>
+	</DynamicModifiers>
+	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_ENCAMPMENT" ModifierId="ALLOW_ENHANCE_PROJECT_ENCAMPMENT" />
+		<Row DistrictType="DISTRICT_HARBOR" ModifierId="ALLOW_ENHANCE_PROJECT_HARBOR" />
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" ModifierId="ALLOW_ENHANCE_PROJECT_INDUSTRIAL_ZONE" />
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" ModifierId="ALLOW_ENHANCE_PROJECT_COMMERCIAL_HUB" />
+		<Row DistrictType="DISTRICT_HOLY_SITE" ModifierId="ALLOW_ENHANCE_PROJECT_HOLY_SITE" />
+		<Row DistrictType="DISTRICT_CAMPUS" ModifierId="ALLOW_ENHANCE_PROJECT_CAMPUS" />
+		<Row DistrictType="DISTRICT_THEATER" ModifierId="ALLOW_ENHANCE_PROJECT_THEATER" />
+	</DistrictModifiers>
+	<Modifiers>
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_ENCAMPMENT" ModifierType="MODIFIER_PLAYER_ALLOW_PROJECT_SST" SubjectRequirementSetId="PLAYER_IS_HUMAN_OR_LATE"/>
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_HARBOR" ModifierType="MODIFIER_PLAYER_ALLOW_PROJECT_SST" SubjectRequirementSetId="PLAYER_IS_HUMAN_OR_LATE"/>
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_INDUSTRIAL_ZONE" ModifierType="MODIFIER_PLAYER_ALLOW_PROJECT_SST" SubjectRequirementSetId="PLAYER_IS_HUMAN_OR_LATE"/>
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_ALLOW_PROJECT_SST" SubjectRequirementSetId="PLAYER_IS_HUMAN_OR_LATE"/>
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_HOLY_SITE" ModifierType="MODIFIER_PLAYER_ALLOW_PROJECT_SST" SubjectRequirementSetId="PLAYER_IS_HUMAN_OR_LATE"/>
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_CAMPUS" ModifierType="MODIFIER_PLAYER_ALLOW_PROJECT_SST" SubjectRequirementSetId="PLAYER_IS_HUMAN_OR_LATE"/>
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_THEATER" ModifierType="MODIFIER_PLAYER_ALLOW_PROJECT_SST" SubjectRequirementSetId="PLAYER_IS_HUMAN_OR_LATE"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_ENCAMPMENT" Name="ProjectType" Value="PROJECT_ENHANCE_DISTRICT_ENCAMPMENT" />
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_HARBOR" Name="ProjectType" Value="PROJECT_ENHANCE_DISTRICT_HARBOR" />
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_INDUSTRIAL_ZONE" Name="ProjectType" Value="PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE" />
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_COMMERCIAL_HUB" Name="ProjectType" Value="PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB" />
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_HOLY_SITE" Name="ProjectType" Value="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" />
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_CAMPUS" Name="ProjectType" Value="PROJECT_ENHANCE_DISTRICT_CAMPUS" />
+		<Row ModifierId="ALLOW_ENHANCE_PROJECT_THEATER" Name="ProjectType" Value="PROJECT_ENHANCE_DISTRICT_THEATER" />
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HUMAN_OR_LATE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HUMAN_OR_LATE</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_HUMAN</RequirementId>
+		</Row>
+		<!--Let AI only perform enhancing projects in late game-->
+		<Row>
+			<RequirementSetId>PLAYER_IS_HUMAN_OR_LATE</RequirementSetId>
+			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_INFORMATION</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_INFORMATION</RequirementId>
+			<RequirementType>REQUIREMENT_GAME_ERA_ATLEAST_EXPANSION</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_INFORMATION</RequirementId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>

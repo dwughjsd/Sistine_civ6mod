@@ -14,6 +14,8 @@
 			<Set NumConditionsNeeded="2" />
 		</Update>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" NumConditionsNeeded="4"/>
+		<Row StrategyType="STRATEGY_ATOMIC_CHANGES" NumConditionsNeeded="1"/>
+		<Row StrategyType="STRATEGY_INFORMATION_CHANGES" NumConditionsNeeded="1"/>
 	</Strategies>
 
 	<StrategyConditions>
@@ -46,6 +48,8 @@
 		<Delete StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ConditionFunction="Has Taken Capital" ThresholdValue="2" Exclusive="true"/>
 		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Exclusive="true"/>
 		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Is Modern" Exclusive="true"/>
+		<Delete StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Lags Military"/>
+		<Delete StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Has Science Wonders"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Has Settle Spot" ThresholdValue="0"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Cities Under Threat" ThresholdValue="1"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Major Civ Wars" ThresholdValue="1"/>
@@ -54,6 +58,10 @@
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Medieval" Disqualifier="true"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Not Major" Disqualifier="true"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Handicap at or below" ThresholdValue="6" Disqualifier="true"/>
+		<Row StrategyType="STRATEGY_ATOMIC_CHANGES" ConditionFunction="Is Atomic"/>
+		<Row StrategyType="STRATEGY_ATOMIC_CHANGES" ConditionFunction="Is Not Major" Disqualifier="true"/>
+		<Row StrategyType="STRATEGY_INFORMATION_CHANGES" ConditionFunction="Is Information"/>
+		<Row StrategyType="STRATEGY_INFORMATION_CHANGES" ConditionFunction="Is Not Major" Disqualifier="true"/>
 	</StrategyConditions>
 	<PseudoYields>
 		<!--Replacing PseudoYields will cause issues. Be sure not to replace but only use update-->
@@ -63,20 +71,20 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_GENERAL" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="4.0" />
 		</Update>
 		<!--Trade!-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
@@ -84,29 +92,29 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" />
-			<Set DefaultValue="2.5" />
+			<Set DefaultValue="6.0" />
 		</Update>
 		<!--Great artists GPP should be divided by 2 or AI will feel that it is VERY important. As now we have wonders to provide culture, Theaters are not that important-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="0.8" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
-			<Set DefaultValue="0.8" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="0.8" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
-			<Set DefaultValue="20.0" />
+			<Set DefaultValue="15.0" />
 		</Update>
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
-			<Set DefaultValue="10.0" />
+			<Set DefaultValue="30.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
@@ -123,11 +131,11 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_BASE" />
-			<Set DefaultValue="350" />
+			<Set DefaultValue="250" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" />
-			<Set DefaultValue="100" />
+			<Set DefaultValue="50" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" />
@@ -135,19 +143,19 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" />
-			<Set DefaultValue="30" />
+			<Set DefaultValue="20" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" />
-			<Set DefaultValue="0.6" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_COMBAT" />
-			<Set DefaultValue="0.6" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" />
-			<Set DefaultValue="0.6" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<!--Just don't waste production-->
 		<Update>
@@ -160,19 +168,19 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_RESOURCE_LUXURY" />
-			<Set DefaultValue="1" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="2.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.3" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_TOURISM" />
-			<Set DefaultValue="0.25" />
+			<Set DefaultValue="0.2" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DIPLOMATIC_FAVOR" />
@@ -180,7 +188,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_SPACE_RACE" />
-			<Set DefaultValue="500" />
+			<Set DefaultValue="1000" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GOLDENAGE_POINT" />
@@ -193,7 +201,15 @@
 	</PseudoYields>
 
 	<AiListTypes>
-		<Row ListType="DefaultTechsSST"/>
+		<Row ListType="AncientTechs"/>
+		<Row ListType="ClassicalTechs"/>
+		<Row ListType="MedievalTechs"/>
+		<Row ListType="RenaissanceTechs"/>
+		<Row ListType="IndustrialTechs"/>
+		<Row ListType="ModernTechs"/>
+		<Row ListType="AtomicTechs"/>
+		<Row ListType="InformationTechs"/>
+		<Row ListType="InformationYields"/>
 		<Row ListType="DefaultCivicsSST"/>
 		<Row ListType="DefaultFavorBuildings"/>
 		<Row ListType="DefaultDistrictsSST"/>
@@ -208,13 +224,22 @@
 		<Row ListType="ReligiousVictoryBuildings"/>
 		<Row ListType="MilitaryVictoryBuildings"/>
 		<Row ListType="MilitaryVictoryDistricts"/>
+		<Row ListType="DefaultProjectsSST"/>
 	</AiListTypes>
 	
 	<AiLists>
-		<Row ListType="DefaultTechsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Technologies"/>
-		<Row ListType="DefaultTechsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Technologies"/>
+		<Row ListType="AncientTechs" System="Technologies"/>
+		<Row ListType="ClassicalTechs" System="Technologies"/>
+		<Row ListType="MedievalTechs" System="Technologies"/>
+		<Row ListType="RenaissanceTechs" System="Technologies"/>
+		<Row ListType="IndustrialTechs" System="Technologies"/>
+		<Row ListType="ModernTechs" System="Technologies"/>
+		<Row ListType="AtomicTechs" System="Technologies"/>
+		<Row ListType="InformationTechs" System="Technologies"/>
+		<Row ListType="InformationYields" System="Yields"/>
 		<Row ListType="DefaultCivicsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Civics"/>
 		<Row ListType="DefaultCivicsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Civics"/>
+		<Row ListType="DefaultProjectsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Projects"/>
 		<Row ListType="DefaultFavorBuildings" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Buildings"/>
 		<Row ListType="MedievalBuildings" System="Buildings"/>
 		<Row ListType="MedievalDistricts" System="Districts"/>
@@ -231,6 +256,17 @@
 	</AiLists>
 
 	<Strategy_Priorities>
+		<Row StrategyType="STRATEGY_ANCIENT_CHANGES" ListType="AncientTechs"/>
+		<Row StrategyType="STRATEGY_CLASSICAL_CHANGES" ListType="ClassicalTechs"/>
+		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalTechs"/>
+		<Row StrategyType="STRATEGY_RENAISSANCE_CHANGES" ListType="RenaissanceTechs"/>
+		<Row StrategyType="STRATEGY_INDUSTRIAL_CHANGES" ListType="IndustrialTechs"/>
+		<Row StrategyType="STRATEGY_MODERN_CHANGES" ListType="ModernTechs"/>
+		<Row StrategyType="STRATEGY_ATOMIC_CHANGES" ListType="AtomicTechs"/>
+		<Row StrategyType="STRATEGY_INFORMATION_CHANGES" ListType="InformationTechs"/>
+		<Row StrategyType="STRATEGY_INFORMATION_CHANGES" ListType="InformationYields"/>
+
+
 		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalBuildings"/>
 		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalDistricts"/>
 		<Row StrategyType="STRATEGY_RENAISSANCE_CHANGES" ListType="RenaissanceDistricts"/>
@@ -244,7 +280,7 @@
 		<Row StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryDistricts"/>
 	</Strategy_Priorities>
 
-	<AiFavoredItems>		
+	<AiFavoredItems>
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_GOVERNMENT" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_FAITH" Favored="true"/>
@@ -255,20 +291,32 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_WIDE" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
+		
+		<Row ListType="AncientTechs" Item="TECH_ARCHERY" Favored="true" />
+		<Row ListType="ClassicalTechs" Item="TECH_CONSTRUCTION" Favored="true" />
+		<Row ListType="ClassicalTechs" Item="TECH_MILITARY_ENGINEERING" Favored="true" />
+		<Row ListType="RenaissanceTechs" Item="TECH_PRINTING" Favored="true" />
+		<Row ListType="IndustrialTechs" Item="TECH_STEAM_POWER" Favored="true" />
+		<Row ListType="ModernTechs" Item="TECH_REPLACEABLE_PARTS" Favored="true" />
+		<Row ListType="ModernTechs" Item="TECH_SANITATION" Favored="true" />
+		<Row ListType="ModernTechs" Item="TECH_BALLISTICS" Favored="true" />
+		<Row ListType="AtomicTechs" Item="TECH_ROCKETRY" Favored="true" />
+		<Row ListType="AtomicTechs" Item="TECH_COMPUTERS" Favored="true" />
+		<Row ListType="AtomicTechs" Item="TECH_REFINING" Favored="true" />
+		<Row ListType="InformationTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" />
+		<Row ListType="InformationTechs" Item="TECH_COMPOSITES" Favored="true" />
+		<Row ListType="InformationTechs" Item="TECH_NANOTECHNOLOGY" Favored="true" />
+		<Row ListType="InformationTechs" Item="TECH_SMART_MATERIALS" Favored="true" />
 
-		<Row ListType="DefaultTechsSST" Item="TECH_ANIMAL_HUSBANDRY" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_APPRENTICESHIP" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_EDUCATION" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_STIRRUPS" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_MILITARY_ENGINEERING" Favored="true" />
-		<!--Somewhat balance AI tech choices to make them faster to acquire new units-->
-		<Row ListType="DefaultTechsSST" Item="TECH_BALLISTICS" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_SCIENTIFIC_THEORY" Favored="true" />
-		<Row ListType="DefaultTechsSST" Item="TECH_COMPUTERS" Favored="true" />
-		<Row ListType="DefaultCivicsSST" Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_RECORDED_HISTORY" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_FEUDALISM" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_EXPLORATION" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_DIVINE_RIGHT" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_REFORMED_CHURCH" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_OPERA_BALLET" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_SUFFRAGE" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_TOTALITARIANISM" Favored="true" />
+		<Row ListType="DefaultCivicsSST" Item="CIVIC_CLASS_STRUGGLE" Favored="true" />
 
 		<Delete ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
 		<Delete ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
@@ -318,51 +366,53 @@
 		<Delete ListType="ModernYields" Item="YIELD_SCIENCE"/>
 		
 		<Row ListType="DefaultYieldBias" Item="YIELD_PRODUCTION" Value="30"/>
-		<Row ListType="DefaultYieldBias" Item="YIELD_SCIENCE" Value="10"/>
-		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="40"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_SCIENCE" Value="20"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="30"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FAITH" Value="-25"/>
 
 		<!--They don't know how to use it properly-->
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_PRESERVE" Favored="false"/>
+		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_NEIGHBORHOOD" Favored="false"/>
+		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_AERODROME" Favored="false"/>
+		<Row ListType="IndustrialDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
 
 		<!--To avoid AI selling it at a low price-->
 		<Delete ListType="AncientPseudoYields" Item="PSEUDOYIELD_DIPLOMATIC_FAVOR" />
 		<Delete ListType="MedievalPseudoYields" Item="PSEUDOYIELD_DIPLOMATIC_FAVOR" />
 
-		<!--For wonder obsessed civs to build more wonders-->
-		<Row ListType="AncientPseudoYields" Item="PSEUDOYIELD_WONDER" Value="-50"/>
+		<!--Avoid AI using influence policy card too early-->
+		<Row ListType="AncientPseudoYields" Item="PSEUDOYIELD_INFLUENCE" Value="-100"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_INFLUENCE" Value="300"/>
 
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
-		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="30"/>
+		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-20"/>
-
+		
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MONUMENT" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GRANARY" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_WATER_MILL" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_LIBRARY" Favored="true"/>
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MARKET" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_AMPHITHEATER" Favored="true"/>
-		<Row ListType="MedievalBuildings" Item="BUILDING_UNIVERSITY" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_UNIVERSITY" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_FACTORY" Favored="true"/>
-		<Row ListType="IndustrialBuildings" Item="BUILDING_PUBLIC_SCHOOL" Favored="true"/>
-		<Row ListType="IndustrialBuildings" Item="BUILDING_RESEARCH_LAB" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_PUBLIC_SCHOOL" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_COAL_POWER_PLANT" Favored="true"/>
-		<Row ListType="IndustrialBuildings" Item="BUILDING_FOSSIL_FUEL_POWER_PLANT" Favored="true"/>
-		<Row ListType="IndustrialBuildings" Item="BUILDING_POWER_PLANT" Favored="true"/>
-		<!--They build too much-->
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_HOSPITAL" Favored="false"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MEDICAL_LAB" Favored="false"/>
 
 		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
-		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="20"/>
+		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="60"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-30"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
 		<!--We need more improvements!-->
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
-
-		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="10"/>
+		
+		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="50"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="10"/>
 		<!--
@@ -370,8 +420,7 @@
 		-->
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
 
-		<Row ListType="IndustrialYields" Item="YIELD_PRODUCTION" Value="10"/>
-		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="10"/>
+		<Row ListType="IndustrialYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="IndustrialYields" Item="YIELD_CULTURE" Value="10"/>
 		<!--
 		<Row ListType="IndustrialYields" Item="YIELD_FOOD" Value="-10"/>
@@ -382,13 +431,29 @@
 		<!--No need to promote military academy. Build more Campus instead.-->
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" />
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" />
+		<Delete ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" />
+		<Delete ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" />
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" />
+		<Delete ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" />
+		<Delete ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" />
+		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" />
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="50"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="50"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
 
-		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="10"/>
-		<Row ListType="ModernYields" Item="YIELD_CULTURE" Value="10"/>
 		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
-		
+		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="-20"/>
+		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="20"/>
+		<Row ListType="ModernYields" Item="YIELD_FOOD" Value="-10"/>
+
+		<!--Slow building campuses and we are going to launch spaceships!-->
+		<Row ListType="InformationYields" Item="YIELD_SCIENCE" Value="-30"/>
+		<Row ListType="InformationYields" Item="YIELD_PRODUCTION" Value="30"/>
+
+
 		<!--No need to promote military academy. Build more Campus instead.-->
 		<Delete ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="50"/>
 		<Delete ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="50"/>
@@ -402,7 +467,15 @@
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
-		<Delete ListType="ScienceVictoryProjects"/>
+		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROCKETRY" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_EDUCATION" Favored="true" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_SCIENTIFIC_THEORY" Favored="true" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPUTERS" Favored="true" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_TELECOMMUNICATIONS" Favored="false" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
+		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EARTH_SATELLITE" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MOON_LANDING" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MARS_BASE" Favored="true"/>
@@ -410,13 +483,8 @@
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
 		
-		<!--Workaround it so that AI will know it is nessceary to research synthetic materials and composites to research nanotechnologies. No need to rush rocketry, but pursuing satellite can still be beneficial-->
-		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROCKETRY" Favored="true" />
-		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPUTERS" Favored="true" />
-		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" />
-		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" />
-		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
-		<Row ListType="ScienceVictoryTechs" Item="TECH_OFFWORLD_MISSION" Favored="true"/>
+		<!--Dropped ScienceVictoryTechs and try to establish a general-purpose tech tree strategy-->
+		<Delete ListType="ScienceVictoryTechs" />
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
 		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_MANUFACTURING_PLANT" Favored="true"/>
@@ -424,9 +492,9 @@
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>
 		<Row ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
 		<Row ListType="CultureVictoryDistricts" Item="DISTRICT_THEATER" Favored="true"/>
-		<Row ListType="CultureVictoryDistricts" Item="DISTRICT_AERODROME" Favored="true"/>
+		<!--<Row ListType="CultureVictoryDistricts" Item="DISTRICT_AERODROME" Favored="true"/>
 		<Row ListType="CultureVictoryBuildings" Item="BUILDING_HANGAR" Favored="true"/>
-		<Row ListType="CultureVictoryBuildings" Item="BUILDING_AIRPORT" Favored="true"/>
+		<Row ListType="CultureVictoryBuildings" Item="BUILDING_AIRPORT" Favored="true"/>-->
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_LANDSCAPE" Value="100"/>
@@ -444,10 +512,10 @@
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="10"/>
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="100"/>
 		<Replace ListType="MilitaryVictoryPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="100"/>
-		<Row ListType="MilitaryVictoryDistricts" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
+		<!--<Row ListType="MilitaryVictoryDistricts" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_STABLE" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_BARRACKS" Favored="true"/>
-		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_ARMORY" Favored="true"/>
+		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_ARMORY" Favored="true"/>-->
 		<Delete ListType="MilitaryVictoryYields" Item="YIELD_PRODUCTION" />
 		<Row ListType="MilitaryVictoryYields" Item="YIELD_PRODUCTION" Value="10"/>
 
@@ -455,5 +523,14 @@
 		<Delete ListType="AggressivePseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" />
 		<Row ListType="AggressivePseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="150"/>
 		<Row ListType="AggressivePseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="50"/>
+
+		<!--try to stop ai from endless projects-->
+		<Row ListType="DefaultProjectsSST" Item="PROJECT_ENHANCE_DISTRICT_ENCAMPMENT" Favored="false"/>
+		<Row ListType="DefaultProjectsSST" Item="PROJECT_ENHANCE_DISTRICT_HARBOR" Favored="false"/>
+		<Row ListType="DefaultProjectsSST" Item="PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE" Favored="false"/>
+		<Row ListType="DefaultProjectsSST" Item="PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB" Favored="false"/>
+		<Row ListType="DefaultProjectsSST" Item="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" Favored="false"/>
+		<Row ListType="DefaultProjectsSST" Item="PROJECT_ENHANCE_DISTRICT_CAMPUS" Favored="false"/>
+		<Row ListType="DefaultProjectsSST" Item="PROJECT_ENHANCE_DISTRICT_THEATER" Favored="false"/>
 	</AiFavoredItems>
 </GameData>

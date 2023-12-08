@@ -48,5 +48,87 @@
 		<Replace Tag="LOC_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>占地1单元格的自然奇观。提供+4 [ICON_Science] 科技值、+4 [ICON_Faith] 信仰值，以及淡水。进入此奇观的陆地战斗单位获得“生命之水”能力（在任意领土中+10生命值恢复）。</Text>
 		</Replace>
+		<!--Commandante Generals-->
+		<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进入新时代后获得1名总司令。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_DESCRIPTION_XP1" Language="zh_Hans_CN">
+			<Text>游戏进入新时代后获得1名总司令。</Text>
+		</Replace>
+		<!--Units-->
+		<Replace Tag="LOC_UNIT_SLINGER_NAME" Language="zh_Hans_CN" Text="投石手"/>
+		<Replace Tag="LOC_UNIT_SUMERIAN_WAR_CART_NAME" Language="zh_Hans_CN" Text="苏美尔战车"/>
+		<Replace Tag="LOC_UNIT_SPEARMAN_NAME" Language="zh_Hans_CN" Text="矛兵"/>
+		<Replace Tag="LOC_UNIT_GREEK_HOPLITE_NAME" Language="zh_Hans_CN" Text="希腊重步兵"/>
+		<Replace Tag="LOC_UNIT_SWORDSMAN_NAME" Language="zh_Hans_CN" Text="剑士"/>
+		<Replace Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_NAME" Language="zh_Hans_CN" Text="塞迦弓骑手"/>
+		<Replace Tag="LOC_UNIT_ROMAN_LEGION_NAME" Language="zh_Hans_CN" Text="罗马军团"/>
+		<Replace Tag="LOC_UNIT_KONGO_SHIELD_BEARER_NAME" Language="zh_Hans_CN" Text="刚果持盾兵"/>
+		<Replace Tag="LOC_UNIT_QUADRIREME_NAME" Language="zh_Hans_CN" Text="四列桨座战船"/>
+		<Replace Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_NAME" Language="zh_Hans_CN" Text="埃及贵族战车射手"/>
+		<Replace Tag="LOC_UNIT_JAPANESE_SAMURAI_NAME" Language="zh_Hans_CN" Text="日本武士"/>
+		<Replace Tag="LOC_UNIT_NORWEGIAN_BERSERKER_NAME" Language="zh_Hans_CN" Text="狂战士"/>
+		<Replace Tag="LOC_UNIT_INDIAN_VARU_NAME" Language="zh_Hans_CN" Text="印度战象"/>
+		<Replace Tag="LOC_UNIT_ARABIAN_MAMLUK_NAME" Language="zh_Hans_CN" Text="马穆鲁克"/>
+		<Replace Tag="LOC_UNIT_PIKEMAN_NAME" Language="zh_Hans_CN" Text="长枪兵"/>
+		<Replace Tag="LOC_UNIT_SPANISH_CONQUISTADOR_NAME" Language="zh_Hans_CN" Text="西班牙征服者"/>
+		<Replace Tag="LOC_UNIT_ENGLISH_SEADOG_NAME" Language="zh_Hans_CN" Text="海狗私掠船"/>
+		<Replace Tag="LOC_UNIT_CAVALRY_NAME" Language="zh_Hans_CN" Text="近代骑兵"/>
+		<Replace Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_NAME" Language="zh_Hans_CN" Text="法国帝国卫队"/>
+		<Replace Tag="LOC_UNIT_IRONCLAD_NAME" Language="zh_Hans_CN" Text="铁甲舰"/>
+		<Replace Tag="LOC_UNIT_INFANTRY_NAME" Language="zh_Hans_CN" Text="现代步兵"/>
+		<Replace Tag="LOC_UNIT_ARTILLERY_NAME" Language="zh_Hans_CN" Text="火炮"/>
+		<Replace Tag="LOC_UNIT_BATTLESHIP_NAME" Language="zh_Hans_CN" Text="战列舰"/>
+		<Replace Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_NAME" Language="zh_Hans_CN" Text="米纳斯吉拉斯级战列舰"/>
+		<Replace Tag="LOC_UNIT_SUBMARINE_NAME" Language="zh_Hans_CN" Text="潜艇"/>
+		<Replace Tag="LOC_UNIT_GERMAN_UBOAT_NAME" Language="zh_Hans_CN" Text="U艇"/>
+		<Replace Tag="LOC_UNIT_AT_CREW_NAME" Language="zh_Hans_CN" Text="反坦克班组"/>
+		<Replace Tag="LOC_UNIT_AMERICAN_P51_NAME" Language="zh_Hans_CN" Text="P-51“野马”"/>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_NAME" Language="zh_Hans_CN" Text="机关枪"/>
+		<Replace Tag="LOC_UNIT_HELICOPTER_NAME" Language="zh_Hans_CN" Text="直升机"/>
+		<Replace Tag="LOC_UNIT_MOBILE_SAM_NAME" Language="zh_Hans_CN" Text="机动地空导弹"/>
+		<Replace Tag="LOC_UNIT_MODERN_AT_NAME" Language="zh_Hans_CN" Text="现代反坦克"/>
+		<Replace Tag="LOC_UNIT_TREBUCHET_NAME" Language="zh_Hans_CN" Text="重力抛石机"/>
+		<Replace Tag="LOC_UNIT_AZTEC_EAGLE_WARRIOR_NAME" Language="zh_Hans_CN" Text="雕战士"/>
+		<Replace Tag="LOC_UNIT_INDONESIAN_JONG_NAME" Language="zh_Hans_CN" Text="爪哇戎克船"/>
+		<Replace Tag="LOC_UNIT_NUBIAN_PITATI_NAME" Language="zh_Hans_CN" Text="皮塔提佣兵弓手"/>
+		<Replace Tag="LOC_UNIT_MACEDONIAN_HYPASPIST_NAME" Language="zh_Hans_CN" Text="马其顿持盾卫队"/>
+		<Replace Tag="LOC_UNIT_ZULU_IMPI_NAME" Language="zh_Hans_CN" Text="祖鲁勇士"/>
+		<Replace Tag="LOC_UNIT_KOREAN_HWACHA_NAME" Language="zh_Hans_CN" Text="火厢车"/>
+		<Replace Tag="LOC_UNIT_DE_ZEVEN_PROVINCIEN_NAME" Language="zh_Hans_CN" Text="七省号风帆战列舰"/>
+		<Replace Tag="LOC_UNIT_MONGOLIAN_KESHIG_NAME" Language="zh_Hans_CN" Text="怯薛"/>
+		<Replace Tag="LOC_UNIT_GEORGIAN_KHEVSURETI_NAME" Language="zh_Hans_CN" Text="赫夫苏列季战士"/>
+		<Replace Tag="LOC_UNIT_MAPUCHE_MALON_RAIDER_NAME" Language="zh_Hans_CN" Text="马普切掠袭骑兵"/>
+		<Replace Tag="LOC_UNIT_CREE_OKIHTCITAW_NAME" Language="zh_Hans_CN" Text="奥克奇塔乌战士"/>
+		<Replace Tag="LOC_UNIT_INCA_WARAKAQ_NAME" Language="zh_Hans_CN" Text="瓦剌卡投石手"/>
+		<Replace Tag="LOC_UNIT_PHOENICIA_BIREME_NAME" Language="zh_Hans_CN" Text="双列桨战船"/>
+		<Replace Tag="LOC_UNIT_SWEDEN_CAROLEAN_NAME" Language="zh_Hans_CN" Text="卡尔军团"/>
+		<Replace Tag="LOC_UNIT_LAHORE_NIHANG_NAME" Language="zh_Hans_CN" Text="尼昂战士"/>
+		<Replace Tag="LOC_UNIT_COMANDANTE_GENERAL_NAME" Language="zh_Hans_CN" Text="总司令"/>
+		<Replace Tag="LOC_UNIT_COLOMBIAN_LLANERO_NAME" Language="zh_Hans_CN" Text="亚诺斯牧民军"/>
+		<Replace Tag="LOC_UNIT_BYZANTINE_DROMON_NAME" Language="zh_Hans_CN" Text="德罗蒙战舰"/>
+		<Replace Tag="LOC_UNIT_BYZANTINE_TAGMA_NAME" Language="zh_Hans_CN" Text="拜占庭皇家近卫军"/>
+		<Replace Tag="LOC_UNIT_GAUL_GAESATAE_NAME" Language="zh_Hans_CN" Text="盖萨泰枪佣兵"/>
+		<Replace Tag="LOC_UNIT_VIETNAMESE_VOI_CHIEN_NAME" Language="zh_Hans_CN" Text="越南战象"/>
+		<!--This is how Babylonians call a spearman-->
+		<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME" Language="en_US" Text="Sha-ariti"/>
+		<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME" Language="zh_Hans_CN" Text="巴比伦矛兵"/>
+		<Replace Tag="LOC_UNIT_PORTUGUESE_NAU_NAME" Language="zh_Hans_CN" Text="拿屋帆船"/>
+		<!--Wildcard-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_PLATOS_REPUBLIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有类型的政体均可获得一个额外的通用政策槽位。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当前政体的所有外交政策槽位均转为通用槽位。其政体中每个通用槽位每回合提供+1 [ICON_FAVOR] 外交支持。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DRAMATIC_AGE_QUESTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进入黄金时代后将额外获得一个通用政策槽位，并能使用黑暗时代政策。建造防御性建筑时+50% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进入黄金时代后将额外获得一个通用政策槽位，并能使用黑暗时代政策。建造防御性建筑时+50% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_LIBERTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在友好领土内建成军营或堡垒后对相邻单元格施放文化炸弹。当前政体的一个军事政策槽位将转换为一个通用槽位。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

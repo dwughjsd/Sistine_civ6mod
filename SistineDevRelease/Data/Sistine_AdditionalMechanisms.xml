@@ -161,7 +161,7 @@
 	</ModifierArguments>
 	
 	<!--Wide play science & culture penalty-->
-	<TraitModifiers>
+	<!--<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CITY_CENTER_TECH_BOOST_PENALTY_1"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CITY_CENTER_CIVIC_BOOST_PENALTY_1"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CITY_CENTER_TECH_BOOST_PENALTY_2"/>
@@ -312,7 +312,7 @@
 			<Name>BuildingType</Name>
 			<Value>BUILDING_PALACE</Value>
 		</Row>
-	</RequirementArguments>
+	</RequirementArguments>-->
 	
 	<!--Wonder Culture-->
 	<CivicModifiers>
@@ -339,5 +339,38 @@
 			<Value>YIELD_CULTURE</Value>
 		</Row>
 	</ModifierArguments>
+
+	<TechnologyModifiers>
+		<Row TechnologyType="TECH_ENGINEERING">
+			<ModifierId>TECH_BUILDER_MOVEMENT</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_ENGINEERING">
+			<ModifierId>TECH_SETTLER_MOVEMENT</ModifierId>
+		</Row>
+		
+		<Row TechnologyType="TECH_MASS_PRODUCTION">
+			<ModifierId>TECH_ADJUST_BUILDER_CHARGES</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_REPLACEABLE_PARTS">
+			<ModifierId>TECH_ADJUST_BUILDER_CHARGES</ModifierId>
+		</Row>
+
+		<Row TechnologyType="TECH_METAL_CASTING">
+			<ModifierId>GOV_SETTLER_GRANT_BUILDER</ModifierId>
+		</Row>
+		
+		<Row TechnologyType="TECH_CONSTRUCTION">
+			<ModifierId>TECH_SETTLER_ADDITION_POP</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_CONSTRUCTION">
+			<ModifierId>TECH_SETTLER_ADDITIONAL_TILES</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_SANITATION">
+			<ModifierId>TECH_SETTLER_ADDITION_POP_LARGE</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_SANITATION">
+			<ModifierId>TECH_SETTLER_ADDITIONAL_TILES</ModifierId>
+		</Row>
+	</TechnologyModifiers>
 
 </GameData>

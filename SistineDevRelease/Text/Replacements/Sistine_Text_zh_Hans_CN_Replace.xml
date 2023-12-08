@@ -77,65 +77,13 @@
 		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_CARRIER_NAME" Language="zh_Hans_CN" Text="海军母舰"/>
 		<Replace Tag="LOC_PROMOTION_CLASS_APOSTLE_NAME" Language="zh_Hans_CN" Text="宗教使徒"/>
 		<Replace Tag="LOC_PROMOTION_CLASS_SPY_NAME" Language="zh_Hans_CN" Text="间谍"/>
-		<!--Units-->
-		<Replace Tag="LOC_UNIT_SLINGER_NAME" Language="zh_Hans_CN" Text="投石手"/>
-		<Replace Tag="LOC_UNIT_SUMERIAN_WAR_CART_NAME" Language="zh_Hans_CN" Text="苏美尔战车"/>
-		<Replace Tag="LOC_UNIT_SPEARMAN_NAME" Language="zh_Hans_CN" Text="矛兵"/>
-		<Replace Tag="LOC_UNIT_GREEK_HOPLITE_NAME" Language="zh_Hans_CN" Text="希腊重步兵"/>
-		<Replace Tag="LOC_UNIT_SWORDSMAN_NAME" Language="zh_Hans_CN" Text="剑士"/>
-		<Replace Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_NAME" Language="zh_Hans_CN" Text="塞迦弓骑手"/>
-		<Replace Tag="LOC_UNIT_ROMAN_LEGION_NAME" Language="zh_Hans_CN" Text="罗马军团"/>
-		<Replace Tag="LOC_UNIT_KONGO_SHIELD_BEARER_NAME" Language="zh_Hans_CN" Text="刚果持盾兵"/>
-		<Replace Tag="LOC_UNIT_QUADRIREME_NAME" Language="zh_Hans_CN" Text="四列桨座战船"/>
-		<Replace Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_NAME" Language="zh_Hans_CN" Text="埃及贵族战车射手"/>
-		<Replace Tag="LOC_UNIT_JAPANESE_SAMURAI_NAME" Language="zh_Hans_CN" Text="日本武士"/>
-		<Replace Tag="LOC_UNIT_NORWEGIAN_BERSERKER_NAME" Language="zh_Hans_CN" Text="狂战士"/>
-		<Replace Tag="LOC_UNIT_INDIAN_VARU_NAME" Language="zh_Hans_CN" Text="印度战象"/>
-		<Replace Tag="LOC_UNIT_ARABIAN_MAMLUK_NAME" Language="zh_Hans_CN" Text="马穆鲁克"/>
-		<Replace Tag="LOC_UNIT_PIKEMAN_NAME" Language="zh_Hans_CN" Text="长枪兵"/>
-		<Replace Tag="LOC_UNIT_SPANISH_CONQUISTADOR_NAME" Language="zh_Hans_CN" Text="西班牙征服者"/>
-		<Replace Tag="LOC_UNIT_ENGLISH_SEADOG_NAME" Language="zh_Hans_CN" Text="海狗私掠船"/>
-		<Replace Tag="LOC_UNIT_CAVALRY_NAME" Language="zh_Hans_CN" Text="近代骑兵"/>
-		<Replace Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_NAME" Language="zh_Hans_CN" Text="法国帝国卫队"/>
-		<Replace Tag="LOC_UNIT_IRONCLAD_NAME" Language="zh_Hans_CN" Text="铁甲舰"/>
-		<Replace Tag="LOC_UNIT_INFANTRY_NAME" Language="zh_Hans_CN" Text="现代步兵"/>
-		<Replace Tag="LOC_UNIT_ARTILLERY_NAME" Language="zh_Hans_CN" Text="火炮"/>
-		<Replace Tag="LOC_UNIT_BATTLESHIP_NAME" Language="zh_Hans_CN" Text="战列舰"/>
-		<Replace Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_NAME" Language="zh_Hans_CN" Text="米纳斯吉拉斯级战列舰"/>
-		<Replace Tag="LOC_UNIT_SUBMARINE_NAME" Language="zh_Hans_CN" Text="潜艇"/>
-		<Replace Tag="LOC_UNIT_GERMAN_UBOAT_NAME" Language="zh_Hans_CN" Text="U艇"/>
-		<Replace Tag="LOC_UNIT_AT_CREW_NAME" Language="zh_Hans_CN" Text="反坦克班组"/>
-		<Replace Tag="LOC_UNIT_AMERICAN_P51_NAME" Language="zh_Hans_CN" Text="P-51“野马”"/>
-		<Replace Tag="LOC_UNIT_MACHINE_GUN_NAME" Language="zh_Hans_CN" Text="机关枪"/>
-		<Replace Tag="LOC_UNIT_HELICOPTER_NAME" Language="zh_Hans_CN" Text="直升机"/>
-		<Replace Tag="LOC_UNIT_MOBILE_SAM_NAME" Language="zh_Hans_CN" Text="机动地空导弹"/>
-		<Replace Tag="LOC_UNIT_MODERN_AT_NAME" Language="zh_Hans_CN" Text="现代反坦克"/>
-		<Replace Tag="LOC_UNIT_TREBUCHET_NAME" Language="zh_Hans_CN" Text="重力抛石机"/>
-		<Replace Tag="LOC_UNIT_AZTEC_EAGLE_WARRIOR_NAME" Language="zh_Hans_CN" Text="雕战士"/>
-		<Replace Tag="LOC_UNIT_INDONESIAN_JONG_NAME" Language="zh_Hans_CN" Text="爪哇戎克船"/>
-		<Replace Tag="LOC_UNIT_NUBIAN_PITATI_NAME" Language="zh_Hans_CN" Text="皮塔提佣兵弓手"/>
-		<Replace Tag="LOC_UNIT_MACEDONIAN_HYPASPIST_NAME" Language="zh_Hans_CN" Text="马其顿持盾卫队"/>
-		<Replace Tag="LOC_UNIT_ZULU_IMPI_NAME" Language="zh_Hans_CN" Text="祖鲁勇士"/>
-		<Replace Tag="LOC_UNIT_KOREAN_HWACHA_NAME" Language="zh_Hans_CN" Text="火厢车"/>
-		<Replace Tag="LOC_UNIT_DE_ZEVEN_PROVINCIEN_NAME" Language="zh_Hans_CN" Text="七省号风帆战列舰"/>
-		<Replace Tag="LOC_UNIT_MONGOLIAN_KESHIG_NAME" Language="zh_Hans_CN" Text="怯薛"/>
-		<Replace Tag="LOC_UNIT_GEORGIAN_KHEVSURETI_NAME" Language="zh_Hans_CN" Text="赫夫苏列季战士"/>
-		<Replace Tag="LOC_UNIT_MAPUCHE_MALON_RAIDER_NAME" Language="zh_Hans_CN" Text="马普切掠袭骑兵"/>
-		<Replace Tag="LOC_UNIT_CREE_OKIHTCITAW_NAME" Language="zh_Hans_CN" Text="奥克奇塔乌战士"/>
-		<Replace Tag="LOC_UNIT_INCA_WARAKAQ_NAME" Language="zh_Hans_CN" Text="瓦剌卡投石手"/>
-		<Replace Tag="LOC_UNIT_PHOENICIA_BIREME_NAME" Language="zh_Hans_CN" Text="双列桨战船"/>
-		<Replace Tag="LOC_UNIT_SWEDEN_CAROLEAN_NAME" Language="zh_Hans_CN" Text="卡尔军团"/>
-		<Replace Tag="LOC_UNIT_LAHORE_NIHANG_NAME" Language="zh_Hans_CN" Text="尼昂战士"/>
-		<Replace Tag="LOC_UNIT_COMANDANTE_GENERAL_NAME" Language="zh_Hans_CN" Text="解放者司令"/>
-		<Replace Tag="LOC_UNIT_COLOMBIAN_LLANERO_NAME" Language="zh_Hans_CN" Text="亚诺斯牧民军"/>
-		<Replace Tag="LOC_UNIT_BYZANTINE_DROMON_NAME" Language="zh_Hans_CN" Text="德罗蒙战舰"/>
-		<Replace Tag="LOC_UNIT_BYZANTINE_TAGMA_NAME" Language="zh_Hans_CN" Text="拜占庭皇家近卫军"/>
-		<Replace Tag="LOC_UNIT_GAUL_GAESATAE_NAME" Language="zh_Hans_CN" Text="盖萨泰枪佣兵"/>
-		<Replace Tag="LOC_UNIT_VIETNAMESE_VOI_CHIEN_NAME" Language="zh_Hans_CN" Text="越南战象"/>
-		<!--This is how Babylonians call a spearman-->
-		<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME" Language="en_US" Text="Sha-ariti"/>
-		<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME" Language="zh_Hans_CN" Text="巴比伦矛兵"/>
-		<Replace Tag="LOC_UNIT_PORTUGUESE_NAU_NAME" Language="zh_Hans_CN" Text="拿屋帆船"/>
+		<!--Unit Abilities-->
+		<Replace Tag="LOC_ABILITY_IGNORE_ZOC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不受敌人的控制区域（ZOC）影响。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IGNORE_ZOC_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不受控制区域影响</Text>
+		</Replace>
 		<!--Governments-->
 		<Replace Tag="LOC_GOVERNMENT_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁制"/>
 		<Replace Tag="LOC_GOVERNMENT_OLIGARCHY_NAME" Language="zh_Hans_CN" Text="寡头制"/>
@@ -159,9 +107,6 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN" Text="无趣的社区提供3个 [ICON_Housing] 住房。"/>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_6" Language="zh_Hans_CN" Text="糟糕的社区提供2个 [ICON_Housing] 住房。"/>
 		<Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="zh_Hans_CN" Text="根据所在单元格的魅力，为您的城市提供住房的区域：[NEWLINE]惊艳：+6 [ICON_Housing] 住房。[NEWLINE]迷人：+5 [ICON_Housing] 住房。[NEWLINE]普通：+4 [ICON_Housing] 住房。[NEWLINE]无趣：+3 [ICON_Housing] 住房。[NEWLINE]糟糕：+2 [ICON_Housing] 住房。"/>
-		<!--Policies (incomplete)-->
-		<Replace Tag="LOC_POLICY_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁传承"/>
-		<Replace Tag="LOC_POLICY_MERCHANT_REPUBLIC_NAME" Language="zh_Hans_CN" Text="商业共和传承"/>
 		<!--In-game tooltips-->
 		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_POSITIVE" Language="zh_Hans_CN" Text="世界领袖目睹{1_Target}让您吃尽苦头，将对接下来您使{1_Target}产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。"/>
 		<Replace Tag="LOC_GRIEVANCE_LOG_DESCRIPTION_NEGATIVE" Language="zh_Hans_CN" Text="世界领袖目睹您让{1_Target}吃尽苦头，将对接下来{1_Target}使您产生的{2_Grievances}点 [ICON_GRIEVANCE] 不满视而不见。"/>
@@ -169,6 +114,7 @@
 			<Text>{1_TechOrCivicName}出现后过时。</Text>
 		</Replace>
 		<!--Beliefs-->
+		<Replace Tag="LOC_RELIGION_CUSTOM" Language="zh_Hans_CN" Text="自定义宗教"/>
 		<Replace Tag="LOC_BELIEF_RIVER_GODDESS_NAME" Language="zh_Hans_CN" Text="河流女神"/>
 		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_NAME" Language="zh_Hans_CN" Text="众神丰碑"/>
 		<Replace Tag="LOC_BELIEF_DIVINE_SPARK_NAME" Language="zh_Hans_CN" Text="神圣火花"/>
@@ -178,13 +124,14 @@
 		<Replace Tag="LOC_BELIEF_GOD_OF_HEALING_NAME" Language="zh_Hans_CN" Text="疗愈之神"/>
 		<Replace Tag="LOC_BELIEF_DIVINE_INSPIRATION_NAME" Language="zh_Hans_CN" Text="神圣启示"/>
 		<Replace Tag="LOC_BELIEF_LAY_MINISTRY_NAME" Language="zh_Hans_CN" Text="教友职务"/>
-		<Replace Tag="LOC_BELIEF_HOLY_ORDER_NAME" Language="zh_Hans_CN" Text="神圣教团"/>
+		<Replace Tag="LOC_BELIEF_HOLY_ORDER_NAME" Language="zh_Hans_CN" Text="圣秩制度"/>
 		<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_NAME" Language="zh_Hans_CN" Text="巡回宣教"/>
 		<Replace Tag="LOC_BELIEF_JUST_WAR_NAME" Language="zh_Hans_CN" Text="正义之战"/>
 		<Replace Tag="LOC_BELIEF_MONASTIC_ISOLATION_NAME" Language="zh_Hans_CN" Text="避世隐修"/>
 		<Replace Tag="LOC_BELIEF_SCRIPTURE_NAME" Language="zh_Hans_CN" Text="宗教圣典"/>		
 		<!--Luxury Resources-->
 		<Replace Tag="LOC_DIPLOMACY_DEAL_LUXURY_RESOURCES" Language="zh_Hans_CN" Text="奢侈资源"/>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGEGROUP_LUXURY_NAME" Language="zh_Hans_CN" Text="奢侈"/>
 		<Replace Tag="LOC_TOOLTIP_LUXURY_RESOURCE" Language="zh_Hans_CN" Text="奢侈资源"/>
 		<Replace Tag="LOC_HUD_REPORTS_LUXURIES" Language="zh_Hans_CN" Text="奢侈资源"/>
 		<Replace Tag="LOC_HUD_REPORTS_LUXURY_RESOURCES_AND_BONUSES" Language="zh_Hans_CN" Text="奢侈和加成资源"/>
@@ -247,5 +194,362 @@
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_NAME" Language="zh_Hans_CN" Text="发射拉格朗日点激光站"/>
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_SHORT_NAME" Language="zh_Hans_CN" Text="拉格朗日点激光站"/>
 		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_FIRST_IN_WORLD_INSTANCE_DESCRIPTION" Language="zh_Hans_CN" Text="{ActingPlayerCivName}的宇宙飞船缓缓远离地球引力，满载着人类、补给与希望，将要降落在遥远的世界。"/>
+		<!--Happiness Level-->
+		<Replace Tag="LOC_HAPPINESS_ECSTATIC_NAME" Language="zh_Hans_CN" Text="欢欣"/>
+		<Replace Tag="LOC_HAPPINESS_HAPPY_NAME" Language="zh_Hans_CN" Text="快乐"/>
+		<Replace Tag="LOC_HAPPINESS_DISPLEASED_NAME" Language="zh_Hans_CN" Text="不悦"/>
+		<Replace Tag="LOC_HAPPINESS_UNHAPPY_NAME" Language="zh_Hans_CN" Text="不满"/>
+		<Replace Tag="LOC_HAPPINESS_UNREST_NAME" Language="zh_Hans_CN" Text="动荡"/>
+		<Replace Tag="LOC_HAPPINESS_REVOLT_NAME" Language="zh_Hans_CN" Text="反叛"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_ECSTATIC" Language="zh_Hans_CN" Text="欢欣！"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_HAPPY" Language="zh_Hans_CN" Text="快乐"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_MISERABLE" Language="zh_Hans_CN" Text="悲惨"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_RESTLESS" Language="zh_Hans_CN" Text="动荡"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_SAD" Language="zh_Hans_CN" Text="失望"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_UNHAPPY" Language="zh_Hans_CN" Text="[COLOR:StatBadCS]不满[ENDCOLOR]"/>
+		<Replace Tag="LOC_HUD_CITY_STATUS_WARY" Language="zh_Hans_CN" Text="警惕"/>
+		<!--Great Scientists-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET_NAME" Language="zh_Hans_CN" Text="沙特莱侯爵夫人埃米莉"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN_NAME" Language="zh_Hans_CN" Text="希尔德加德·冯·宾根"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL_NAME" Language="zh_Hans_CN" Text="贾娜姬·安玛尔"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK_NAME" Language="zh_Hans_CN" Text="斯蒂芬妮·柯欧拉克"/>
+		<!--Great Merchants-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI_NAME" Language="zh_Hans_CN" Text="皮耶罗·德·巴尔迪"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL_NAME" Language="zh_Hans_CN" Text="托达·马尔拉贾"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN_NAME" Language="zh_Hans_CN" Text="赫莲娜·鲁宾斯坦"/>
+		<!--Great Engineers-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE_NAME" Language="zh_Hans_CN" Text="圣乔治的詹姆斯"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_NAME" Language="zh_Hans_CN"><Text>米玛·希南</Text></Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHAH_JAHAN_NAME" Language="zh_Hans_CN" Text="沙·贾汗"/>
+		<Replace Tag="LOC_GREATPERSON_WORKSHOP_CULTURE" Language="zh_Hans_CN">
+			<Text>工坊+{Amount} [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<!--Great Generals-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EL_CID_NAME" Language="zh_Hans_CN" Text="熙德"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS_NAME" Language="zh_Hans_CN" Text="古斯塔夫·阿道夫"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC_NAME" Language="zh_Hans_CN" Text="贞德"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA_NAME" Language="zh_Hans_CN" Text="玛林娜·拉斯科娃"/>
+
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的中古和启蒙时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的启蒙和工业时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的工业和电气时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的电气和原子时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND" Language="zh_Hans_CN">
+			<Text>为2个单元格内的原子和信息时代的陆地单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力</Text>
+		</Replace>
+		<!--Great Admirals-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS_NAME" Language="zh_Hans_CN" Text="盖乌斯·杜伊利乌斯"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_THEMISTOCLES_NAME" Language="zh_Hans_CN" Text="地米斯托克利"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HIMERIOS_NAME" Language="zh_Hans_CN" Text="希墨里俄斯"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE_NAME" Language="zh_Hans_CN" Text="弗朗西斯·德雷克"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SANTA_CRUZ_NAME" Language="zh_Hans_CN" Text="圣克鲁斯"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA_NAME" Language="zh_Hans_CN" Text="拉斯卡丽娜·布布丽娜"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA_NAME" Language="zh_Hans_CN" Text="若阿金·马奎斯·里斯本"/>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的中古和启蒙时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的启蒙和工业时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的工业和电气时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的电气和原子时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA" Language="zh_Hans_CN">
+			<Text>为2个单元格内的原子和信息时代的海军单位+5 [ICON_Strength] 战斗力并+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_THEMISTOCLES_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个四列桨座战船单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT" Language="zh_Hans_CN">
+			<Text>在陆军单位上激活。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_SEA_UNIT" Language="zh_Hans_CN">
+			<Text>在海军单位上激活。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_AIR_UNIT" Language="zh_Hans_CN">
+			<Text>在空军单位上激活。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_EL_CID_ACTIVE" Language="zh_Hans_CN">
+			<Text>把一个陆军单位变成军团。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE" Language="zh_Hans_CN">
+			<Text>把一个陆军单位变成军队。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_HANNIBAL_BARCA_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予陆军单位1次升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_TIMUR_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予陆军单位1次升级并+25%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的射石炮单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_RANI_LAKSHMIBAI_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的近代骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JOHN_MONASH_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予陆军单位1次升级和+75%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SAMORI_TURE_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的现代步兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的坦克单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的现代反坦克单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予陆军单位1次升级和+100%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ARTEMISIA_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予海军单位1次升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予海军单位1次升级和+50%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SERGEY_GORSHKOV_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予海军单位1次升级和+100%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CLANCY_FERNANDO_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予海军单位1次升级和+200%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HIMERIOS_ACTIVE" Language="zh_Hans_CN">
+			<Text>赋予海军单位1次升级和+25%战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SAMORI_TURE_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的特种部队单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FRANZ_VON_HIPPER_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即创建1个带有1次升级的战列舰单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITCOMMAND_ACTIVATE_GREAT_PERSON_REQUIRES_VISIBLE_LUXURY" Language="zh_Hans_CN">
+			<Text>必须在拥有奢侈资源的单元格上。</Text>
+		</Replace>
+		<!--Commandante Generals-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_JOSE_DE_SUCRE_NAME" Language="zh_Hans_CN" Text="安东尼奥·何塞·德·苏克雷"/>
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_COMANDANTE_GENERAL_NAME" Language="zh_Hans_CN">
+			<Text>总司令</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_MOVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>总司令后勤</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>总司令提供+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>总司令领导</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>总司令提供+5 [ICON_Strength] 战斗力加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_COMANDANTE_STRENGTH_AOE_LAND" Language="zh_Hans_CN">
+			<Text>2个单元格内所有陆地单位+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<!--Artists and Great works-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMRITA_SHER_GIL_NAME" Language="zh_Hans_CN" Text="阿姆里塔·谢吉尔"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ANDREY_RUBLEV_NAME" Language="zh_Hans_CN" Text="安德烈·卢布廖夫"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ANGELICA_KAUFFMAN_NAME" Language="zh_Hans_CN" Text="安杰莉卡·考夫曼"/>
+		<Replace Tag="LOC_GREATWORK_GIL_2_NAME" Language="zh_Hans_CN" Text="《新娘的梳妆》"/>
+		<Replace Tag="LOC_GREATWORK_RUBLEV_2_NAME" Language="zh_Hans_CN" Text="《荣耀救主》"/>
+		<Replace Tag="LOC_GREATWORK_KAUFFMAN_3_NAME" Language="zh_Hans_CN" Text="《缪斯女神萨拉·哈罗普》"/>
+		<Replace Tag="LOC_GREATWORK_LEWIS_2_NAME" Language="zh_Hans_CN" Text="《海华沙与明尼哈哈之婚》"/>
+		<Replace Tag="LOC_GREATWORK_GRECO_1_NAME" Language="zh_Hans_CN" Text="《博士来拜》"/>
+		<Replace Tag="LOC_GREATWORK_GRECO_3_NAME" Language="zh_Hans_CN" Text="《托莱多之景》"/>
+		<Replace Tag="LOC_GREATWORK_KLIMT_2_NAME" Language="zh_Hans_CN" Text="《开默城堡公园中的大道》"/>
+		<Replace Tag="LOC_GREATWORK_KLIMT_3_NAME" Language="zh_Hans_CN" Text="《向日葵农场花园》"/>
+		<Replace Tag="LOC_GREATWORK_TOHAKU_1_NAME" Language="zh_Hans_CN" Text="《松林图》"/>
+		<Replace Tag="LOC_GREATWORK_TOHAKU_2_NAME" Language="zh_Hans_CN" Text="《枫图》"/>
+		<Replace Tag="LOC_GREATWORK_TOHAKU_3_NAME" Language="zh_Hans_CN" Text="《花鸟图》"/>
+		<Replace Tag="LOC_GREATWORK_EOP_1_NAME" Language="zh_Hans_CN" Text="《三人问年图》"/>
+		<Replace Tag="LOC_GREATWORK_EOP_2_NAME" Language="zh_Hans_CN" Text="《公鸡》"/>
+		<Replace Tag="LOC_GREATWORK_EOP_3_NAME" Language="zh_Hans_CN" Text="《双马人物图》"/>
+		<Replace Tag="LOC_GREATWORK_HOKUSAI_2_NAME" Language="zh_Hans_CN" Text="《信州诹访湖》"/>
+		<Replace Tag="LOC_GREATWORK_YING_2_NAME" Language="zh_Hans_CN" Text="《莲溪渔隐图》"/>
+		<Replace Tag="LOC_GREATWORK_TITIAN_2_NAME" Language="zh_Hans_CN" Text="《莎乐美和施洗约翰的头》"/>
+		<Replace Tag="LOC_GREATWORK_GOGH_1_NAME" Language="zh_Hans_CN" Text="《星夜》"/>
+		<Replace Tag="LOC_GREATWORK_GOGH_2_NAME" Language="zh_Hans_CN" Text="《夜间的露天咖啡座》"/>
+		<Replace Tag="LOC_GREATWORK_GOGH_3_NAME" Language="zh_Hans_CN" Text="《夜间咖啡馆》"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GEOFFREY_CHAUCER_NAME" Language="zh_Hans_CN" Text="杰弗雷·乔叟"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MARIE_CATHERINE_D_AULNOY_NAME" Language="zh_Hans_CN" Text="奥努瓦男爵夫人玛丽·卡特琳"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_EDGAR_ALLEN_POE_NAME" Language="zh_Hans_CN" Text="埃德加·爱伦·坡"/>
+		<Replace Tag="LOC_GREATWORK_BHASA_1_NAME" Language="zh_Hans_CN" Text="《仲儿》"/>
+		<Replace Tag="LOC_GREATWORK_VALMIKI_2_NAME" Language="zh_Hans_CN" Text="《至上瑜伽》"/>
+		<Replace Tag="LOC_GREATWORK_PUSHKIN_1_NAME" Language="zh_Hans_CN" Text="《叶甫盖尼·奥涅金》"/>
+		<Replace Tag="LOC_GREATWORK_PUSHKIN_2_NAME" Language="zh_Hans_CN" Text="《鲍里斯·戈都诺夫》"/>
+		<Replace Tag="LOC_GREATWORK_POE_1_NAME" Language="zh_Hans_CN" Text="《泄密的心》"/>
+		<Replace Tag="LOC_GREATWORK_CAPEK_1_NAME" Language="zh_Hans_CN" Text="《罗素姆万能机器人》"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WOLFGANG_AMADEUS_MOZART_NAME" Language="zh_Hans_CN" Text="沃尔夫冈·阿玛多伊斯·莫扎特"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DIMITRIE_CANTEMIR_NAME" Language="zh_Hans_CN" Text="迪米特里·坎泰米尔"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FRANZ_LISZT_NAME" Language="zh_Hans_CN" Text="弗朗茨·李斯特"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ANTONIN_DVORAK_NAME" Language="zh_Hans_CN" Text="安东·德沃夏克"/>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MYKOLA_LEONTOVYCH_NAME" Language="zh_Hans_CN" Text="米科拉·莱昂托维奇"/>
+		<Replace Tag="LOC_GREATWORK_BACH_2_NAME" Language="zh_Hans_CN" Text="第1号大提琴组曲"/>
+		<Replace Tag="LOC_GREATWORK_VIVALDI_2_NAME" Language="zh_Hans_CN" Text="协奏曲《夜》"/>
+		<Replace Tag="LOC_GREATWORK_LISZT_1_NAME" Language="zh_Hans_CN" Text="超技练习曲第九首"/>
+		<Replace Tag="LOC_GREATWORK_ROSAS_2_NAME" Language="zh_Hans_CN" Text="《卡门华尔兹》"/>
+		<Replace Tag="LOC_GREATWORK_GOMEZ_1_NAME" Language="zh_Hans_CN" Text="《佛斯卡》第一乐章（序曲）"/>
+		<Replace Tag="LOC_GREATWORK_SCHUMANN_1_NAME" Language="zh_Hans_CN" Text="《前奏曲与赋格》（作品16）之3"/>
+		<Replace Tag="LOC_GREATWORK_SCHUMANN_2_NAME" Language="zh_Hans_CN" Text="A小调小托卡塔曲"/>	
+		<Replace Tag="LOC_GREATWORK_JAAN_1_NAME" Language="zh_Hans_CN" Text="卡纳吉·乔吉亚拉加"/>
+		<Replace Tag="LOC_GREATWORK_JAAN_2_NAME" Language="zh_Hans_CN" Text="百拉米拉加"/>
+		<Replace Tag="LOC_GREATWORK_ARTIFACT_2_NAME" Language="zh_Hans_CN" Text="石板"/>
+		<Replace Tag="LOC_GREATWORK_ARTIFACT_11_NAME" Language="zh_Hans_CN" Text="高脚杯"/>
+		<Replace Tag="LOC_GREATWORK_ARTIFACT_14_NAME" Language="zh_Hans_CN" Text="板甲"/>
+		<!--Great Prophets and Relics-->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SIDDHARTHA_GAUTAMA_NAME" Language="zh_Hans_CN" Text="乔达摩·悉达多"/>
+		<!--Policies-->
+		<Replace Tag="LOC_POLICY_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁传承"/>
+		<Replace Tag="LOC_POLICY_MERCHANT_REPUBLIC_NAME" Language="zh_Hans_CN" Text="商业共和传承"/>
+		<Replace Tag="LOC_POLICY_CHARISMATIC_LEADER_NAME" Language="zh_Hans_CN" Text="魅力领袖"/>
+		<Replace Tag="LOC_POLICY_COLONIAL_OFFICES_NAME" Language="zh_Hans_CN" Text="殖民部"/>
+		<Replace Tag="LOC_POLICY_COMMUNICATIONS_OFFICE_NAME" Language="zh_Hans_CN" Text="通讯事务处"/>
+		<Replace Tag="LOC_POLICY_CONSCRIPTION_NAME" Language="zh_Hans_CN" Text="征兵制"/>
+		<Replace Tag="LOC_POLICY_CONTAINMENT_NAME" Language="zh_Hans_CN" Text="遏制策略"/>
+		<Replace Tag="LOC_POLICY_CORVEE_NAME" Language="zh_Hans_CN" Text="徭役制"/>
+		<Replace Tag="LOC_POLICY_CRAFTSMEN_NAME" Language="zh_Hans_CN" Text="工匠阶层"/>
+		<Replace Tag="LOC_POLICY_CYBER_WARFARE_NAME" Language="zh_Hans_CN" Text="网络战"/>
+		<Replace Tag="LOC_POLICY_DISCIPLINE_NAME" Language="zh_Hans_CN" Text="军事纪律"/>
+		<Replace Tag="LOC_POLICY_DISINFORMATION_CAMPAIGN_NAME" Language="zh_Hans_CN" Text="造谣行动"/>
+		<Replace Tag="LOC_POLICY_DRILL_MANUALS_NAME" Language="zh_Hans_CN" Text="演练手册"/>
+		<Replace Tag="LOC_POLICY_ECONOMIC_UNION_NAME" Language="zh_Hans_CN" Text="经济联盟"/>
+		<Replace Tag="LOC_POLICY_EQUESTRIAN_ORDERS_NAME" Language="zh_Hans_CN" Text="骑士阶层"/>
+		<Replace Tag="LOC_POLICY_EXPROPRIATION_NAME" Language="zh_Hans_CN" Text="征地"/>
+		<Replace Tag="LOC_POLICY_FINEST_HOUR_NAME" Language="zh_Hans_CN" Text="荣光时刻"/>
+		<Replace Tag="LOC_POLICY_FRESCOES_NAME" Language="zh_Hans_CN" Text="湿绘壁画"/>
+		<Replace Tag="LOC_POLICY_FUTURE_COUNTER_DOMINATION_NAME" Language="zh_Hans_CN" Text="全球联盟"/>
+		<Replace Tag="LOC_POLICY_GOD_KING_NAME" Language="zh_Hans_CN" Text="神化君王"/>
+		<Replace Tag="LOC_POLICY_GRAND_OPERA_NAME" Language="zh_Hans_CN" Text="大型歌剧"/>
+		<Replace Tag="LOC_POLICY_ILKUM_NAME" Language="zh_Hans_CN" Text="兵徭合一"/>
+		<Replace Tag="LOC_POLICY_INQUISITION_NAME" Language="zh_Hans_CN" Text="宗教裁判"/>
+		<Replace Tag="LOC_POLICY_INSPIRATION_NAME" Language="zh_Hans_CN" Text="启发灵感"/>
+		<Replace Tag="LOC_POLICY_INSULAE_NAME" Language="zh_Hans_CN" Text="岛屋"/>
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_WATERS_NAME" Language="zh_Hans_CN" Text="国际水域"/>
+		<Replace Tag="LOC_POLICY_INVENTION_NAME" Language="zh_Hans_CN" Text="发明创造"/>
+		<Replace Tag="LOC_POLICY_LAISSEZ_FAIRE_NAME" Language="zh_Hans_CN" Text="自由放任"/>
+		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_NAME" Language="zh_Hans_CN" Text="土地勘测员"/>
+		<Replace Tag="LOC_POLICY_LETTERS_OF_MARQUE_NAME" Language="zh_Hans_CN" Text="私掠许可"/>
+		<Replace Tag="LOC_POLICY_LEVEE_EN_MASSE_NAME" Language="zh_Hans_CN" Text="大规模征兵"/>
+		<Replace Tag="LOC_POLICY_LIMES_NAME" Language="zh_Hans_CN" Text="边境工事"/>
+		<Replace Tag="LOC_POLICY_LOGISTICS_NAME" Language="zh_Hans_CN" Text="军事后勤"/>
+		<Replace Tag="LOC_POLICY_MANEUVER_NAME" Language="zh_Hans_CN" Text="战术机动"/>
+		<Replace Tag="LOC_POLICY_MARITIME_INDUSTRIES_NAME" Language="zh_Hans_CN" Text="海运行业"/>
+		<Replace Tag="LOC_POLICY_MEDINA_QUARTER_NAME" Language="zh_Hans_CN" Text="老城区"/>
+		<Replace Tag="LOC_POLICY_MILITARY_ORGANIZATION_NAME" Language="zh_Hans_CN" Text="军事机构"/>
+		<Replace Tag="LOC_POLICY_MONASTICISM_NAME" Language="zh_Hans_CN" Text="隐修制度"/>
+		<Replace Tag="LOC_POLICY_MUSIC_CENSORSHIP_NAME" Language="zh_Hans_CN" Text="音乐审查"/>
+		<Replace Tag="LOC_POLICY_NATIVE_CONQUEST_NAME" Language="zh_Hans_CN" Text="原住民征服"/>
+		<Replace Tag="LOC_POLICY_NAVAL_INFRASTRUCTURE_NAME" Language="zh_Hans_CN" Text="海军基建"/>
+		<Replace Tag="LOC_POLICY_NAVIGATION_NAME" Language="zh_Hans_CN" Text="海上导航"/>
+		<Replace Tag="LOC_POLICY_PRAETORIUM_NAME" Language="zh_Hans_CN" Text="总督府"/>
+		<Replace Tag="LOC_POLICY_PRESS_GANGS_NAME" Language="zh_Hans_CN" Text="强征海员"/>
+		<Replace Tag="LOC_POLICY_PROPAGANDA_NAME" Language="zh_Hans_CN" Text="政治宣传"/>
+		<Replace Tag="LOC_POLICY_RAID_NAME" Language="zh_Hans_CN" Text="突袭抢掠"/>
+		<Replace Tag="LOC_POLICY_RAJ_NAME" Language="zh_Hans_CN" Text="土邦制度"/>
+		<Replace Tag="LOC_POLICY_RELIGIOUS_ORDERS_NAME" Language="zh_Hans_CN" Text="宗教团体"/>
+		<Replace Tag="LOC_POLICY_RETAINERS_NAME" Language="zh_Hans_CN" Text="亲随"/>
+		<Replace Tag="LOC_POLICY_RETINUES_NAME" Language="zh_Hans_CN" Text="从士"/>
+		<Replace Tag="LOC_POLICY_REVELATION_NAME" Language="zh_Hans_CN" Text="宗教启示"/>
+		<Replace Tag="LOC_POLICY_ROGUE_STATE_NAME" Language="zh_Hans_CN" Text="流氓国家"/>
+		<Replace Tag="LOC_POLICY_SCRIPTURE_NAME" Language="zh_Hans_CN" Text="宗教经文"/>
+		<Replace Tag="LOC_POLICY_SECOND_STRIKE_CAPABILITY_NAME" Language="zh_Hans_CN" Text="二次打击能力"/>
+		<Replace Tag="LOC_POLICY_STRATEGOS_NAME" Language="zh_Hans_CN" Text="统帅制度"/>
+		<Replace Tag="LOC_POLICY_SURVEY_NAME" Language="zh_Hans_CN" Text="勘察"/>
+		<Replace Tag="LOC_POLICY_SYMPHONIES_NAME" Language="zh_Hans_CN" Text="交响乐"/>
+		<Replace Tag="LOC_POLICY_VETERANCY_NAME" Language="zh_Hans_CN" Text="退役制度"/>
+		<Replace Tag="LOC_POLICY_CHARISMATIC_LEADER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合+2用以获得城邦 [ICON_Envoy] 使者的影响力点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GUNBOAT_DIPLOMACY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>开放所有城邦的边境，并每回合+4用以获得城邦 [ICON_Envoy] 使者的影响力点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MERCHANT_CONFEDERATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从您在城邦派驻的每位 [ICON_Envoy] 使者获得 +1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RAJ_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>从每个以您为宗主国的城邦获得+2 [ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Faith] 信仰值和 [ICON_Gold] 金币。通往城邦的 [ICON_TradeRoute] 贸易路线提供的 [ICON_GOLD] 金币+2。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CRYPTOGRAPHY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>敌方间谍在您的领土内等级降低2级，您的间谍在进攻行动时等级提升1级。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INVENTION_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>每回合+4 [ICON_GreatEngineer] 大工程师点数。每座工坊每回合+2 [ICON_GreatEngineer] 大工程师点数。</Text>
+		</Replace>
+		<!--Wildcard-->
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
+			<Text>游戏中有6种不同的政策类型和4种政策槽位。所有类型的政策都必须放入政体中同类的空槽位，但通用槽位能放入任意类型的政策。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
+			<Text>通用政策：这些政策拥有各类强力效果，但只能放置在通用政策槽位中。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGEGROUP_WILDCARD_POLICIES_NAME" Language="zh_Hans_CN">
+			<Text>通用政策</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 通用政策槽位[NEWLINE][NEWLINE]必须建在靠近市中心的平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_WILDCARD" Language="zh_Hans_CN">
+			<Text>通用</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVT_FILTER_WILDCARD" Language="zh_Hans_CN">
+			<Text>通用</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVT_POLICY_TYPE_WILDCARD" Language="zh_Hans_CN">
+			<Text>通用政策</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVT_NO_WILDCARD_SLOTS" Language="zh_Hans_CN">
+			<Text>该政体不提供通用政策槽位。</Text>
+		</Replace>
+		<Replace Tag="LOC_SLOT_WILDCARD_NAME" Language="zh_Hans_CN">
+			<Text>通用</Text>
+		</Replace>
+		<Replace Tag="LOC_EMPTY_SLOT_ECONOMIC" Language="zh_Hans_CN">
+			<Text>空经济政策槽位</Text>
+		</Replace>
+		<Replace Tag="LOC_EMPTY_SLOT_MILITARY" Language="zh_Hans_CN">
+			<Text>空军事政策槽位</Text>
+		</Replace>
+		<Replace Tag="LOC_EMPTY_SLOT_DIPLOMATIC" Language="zh_Hans_CN">
+			<Text>空外交政策槽位</Text>
+		</Replace>
+		<Replace Tag="LOC_EMPTY_SLOT_WILDCARD" Language="zh_Hans_CN">
+			<Text>空通用政策槽位</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DRAMATICAGES_CHAPTER_GOLDENAGES_PARA_2" Language="zh_Hans_CN">
+			<Text>黄金时代将带来强大的黄金政策，其可放入政体的通用槽位中。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DRAMATICAGES_CHAPTER_DARKAGES_PARA_1" Language="zh_Hans_CN">
+			<Text>[ICON_GLORY_DARK_AGE] 黑暗时代将带来黑暗政策，其可放入政体的通用槽位中。这些政策极为强大，但存在负面效果。部分政策与普通政策相同，也有部分经过调整，另外也加入了全新的政策。</Text>
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_FIRST_TIME_DRAMATIC_AGES" Language="zh_Hans_CN">
+			<Text>动荡时代开启后，每个时代都会更加波澜壮阔！除最初的时代外，文明进入的每个时代都将是黄金或黑暗时代，具体依时代得分而定。解锁当前或之后时代的科技和市政来获得时代得分。进入黄金时代后，多余的时代得分将转换为额外的忠诚度压力。如果邻国正陷入黑暗时代，这将会是一项重要因素。除此之外，您还可以在政体的通用槽位中使用强大的政策；但千万注意，进入黑暗时代后部分城市会叛变！</Text>
+		</Replace>
+		<Replace Tag="LOC_TUTORIAL_DRAMATIC_AGES_FIRST_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>您进入了黄金时代！您现在可以在政体的通用槽位中使用黄金政策。另外，上个时代多余的时代得分已经转换为提高的忠诚度压力——好好利用它！</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_OWLS_OF_MINERVA_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在工业时代解锁。+1通用政策槽位。+2间谍容量。您的间谍处于本方城市的领土中时，城市每回合+4忠诚度、+1 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDEN_AGES_1_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN">
+			<Text>玩家在黑暗时代中可以选择特殊的黑暗时代政策。这些通用槽政策能给玩家带来更多选择，以便度过艰难的黑暗时代，但其也存在一定限制。例如“孤立主义”政策会为国内 [ICON_TradeRoute] 贸易路线带来加成，但无法生产或购买开拓者，也无法建立新城市。 </Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_GAIN_WILDCARD_DESC" Language="zh_Hans_CN">
+			<Text>该政体类型获得一个通用政策槽位。</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_LOSE_WILDCARD_DESC" Language="zh_Hans_CN">
+			<Text>该政体类型失去一个通用政策槽位。</Text>
+		</Replace>
+		
 	</LocalizedText>
 </GameData>

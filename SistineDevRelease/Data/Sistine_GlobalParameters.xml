@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<GlobalParameters>
-		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="60" />
-		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="40" />
+		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="50" />
+		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="50" />
 		<Replace Name="GAME_COST_ESCALATION" Value="400" />
 		<Replace Name="TOURISM_CULTURE_PER_CITIZEN" Value="100" />
 		<Replace Name="TOURISM_TOURISM_TO_MOVE_CITIZEN" Value="200" />
@@ -13,11 +13,17 @@
 		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT_OWNER_BEFORE_OCCUPATION" Value="20" />
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="15" />
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MIN" Value="0" />
+		<Replace Name="CITY_AMENITIES_FOR_FREE" Value="1" />
+		<!--It's causing AI paying much to buy luxuries. We are still trying to figure out how to make them sell with a higher price too-->
+		<!--<Replace Name="AI_BASE_LUXURY_VALUE" Value="100" />-->
 		<!--I guess it will make AI smarter. Let's see!-->
+
 		<Replace Name="CIVIC_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
-		<Replace Name="CIVIC_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
+		<!--Temporalily disable them to see further impacts
+		<Replace Name="CIVIC_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
+		-->
 		<!--Cultural Victory overhaul-->
 		<Replace Name="NATIONAL_PARK_GOLD_YIELD_PER_TOURISM" Value="1" />
 		<Replace Name="GREATWORK_ART_LOCK_TIME" Value="0" />
@@ -45,6 +51,7 @@
 		<Replace Name="COMBAT_RANGED_VS_DISTRICT_STRENGTH_MODIFIER" Value="0" />
 		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_MELEE" Value="30" />
 		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_RANGED" Value="30" />
+		<Replace Name="COMBAT_GARRISON_MILITIA_MODIFIER" Value="3" />
 	</GlobalParameters>
 
 	<BarbarianTribes>
@@ -78,4 +85,73 @@
 		<Replace AttackForceType="HighDifficultyNavalAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="2" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2"/>
 	</BarbarianAttackForces>
 
+	<Happinesses>
+		<Update>
+			<Where HappinessType="HAPPINESS_REVOLT"/>
+			<Set>
+				<NonFoodYieldModifier>-100</NonFoodYieldModifier>
+				<RebellionPoints>8</RebellionPoints>
+			</Set>
+		</Update>
+		<Update>
+			<Where HappinessType="HAPPINESS_UNREST"/>
+			<Set>
+				<NonFoodYieldModifier>-60</NonFoodYieldModifier>
+				<RebellionPoints>4</RebellionPoints>
+			</Set>
+		</Update>
+		<Update>
+			<Where HappinessType="HAPPINESS_UNHAPPY"/>
+			<Set>
+				<NonFoodYieldModifier>-40</NonFoodYieldModifier>
+				<GrowthModifier>-75</GrowthModifier>
+			</Set>
+		</Update>
+		<Update>
+			<Where HappinessType="HAPPINESS_DISPLEASED"/>
+			<Set>
+				<NonFoodYieldModifier>-20</NonFoodYieldModifier>
+				<GrowthModifier>-50</GrowthModifier>
+				<RebellionPoints>0</RebellionPoints>
+			</Set>
+		</Update>
+	</Happinesses>
+	<Happinesses_XP1>
+		<Update>
+			<Where HappinessType="HAPPINESS_REVOLT"/>
+			<Set>
+				<IdentityPerTurnChange>-24</IdentityPerTurnChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where HappinessType="HAPPINESS_UNREST"/>
+			<Set>
+				<IdentityPerTurnChange>-16</IdentityPerTurnChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where HappinessType="HAPPINESS_UNHAPPY"/>
+			<Set>
+				<IdentityPerTurnChange>-8</IdentityPerTurnChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where HappinessType="HAPPINESS_DISPLEASED"/>
+			<Set>
+				<IdentityPerTurnChange>-4</IdentityPerTurnChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where HappinessType="HAPPINESS_HAPPY"/>
+			<Set>
+				<IdentityPerTurnChange>6</IdentityPerTurnChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where HappinessType="HAPPINESS_ECSTATIC"/>
+			<Set>
+				<IdentityPerTurnChange>12</IdentityPerTurnChange>
+			</Set>
+		</Update>
+	</Happinesses_XP1>
 </GameData>

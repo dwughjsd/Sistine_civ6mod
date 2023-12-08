@@ -2,6 +2,10 @@
 <GameData>
 	<Technologies>
 		<Update>
+			<Where TechnologyType="TECH_POTTERY" />
+			<Set UITreeRow="-1"/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_CURRENCY" />
 			<Set Description="LOC_TECH_CURRENCY_DESCRIPTION"/>
 		</Update>
@@ -24,6 +28,22 @@
 		<Update>
 			<Where TechnologyType="TECH_ROCKETRY" />
 			<Set Description=""/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_MASS_PRODUCTION" />
+			<Set Description="LOC_TECH_MASS_PRODUCTION_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_METAL_CASTING" />
+			<Set Description="LOC_TECH_METAL_CASTING_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ENGINEERING" />
+			<Set Description="LOC_TECH_ENGINEERING_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CONSTRUCTION" />
+			<Set Description="LOC_TECH_CONSTRUCTION_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_ELECTRICITY" />
@@ -424,6 +444,12 @@
 		<Delete TechnologyType="TECH_OFFWORLD_MISSION"/>
 	</Technologies_XP2>
 	<TechnologyPrereqs>
+		<Row Technology="TECH_ASTROLOGY" PrereqTech="TECH_POTTERY"/>
+		<Delete Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_BANKING"/>
+		<Delete Technology="TECH_ECONOMICS" PrereqTech="TECH_METAL_CASTING"/>
+		<Delete Technology="TECH_ROBOTICS" PrereqTech="TECH_LASERS"/>
+		<Row Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_METAL_CASTING"/>
+		<Row Technology="TECH_ECONOMICS" PrereqTech="TECH_BANKING"/>
 		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_OFFWORLD_MISSION"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_SEASTEADS"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_ADVANCED_AI"/>
@@ -433,6 +459,10 @@
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_PREDICTIVE_SYSTEMS"/>
 	</TechnologyPrereqs>
 	<Civics>
+		<Update>
+			<Where CivicType="CIVIC_THE_ENLIGHTENMENT" />
+			<Set UITreeRow="2"/>
+		</Update>
 		<Update>
 			<Where CivicType="CIVIC_REFORMED_CHURCH" />
 			<Set Description="LOC_CIVIC_REFORMED_CHURCH_DESCRIPTION_SST"/>
@@ -756,6 +786,10 @@
 		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_INFORMATION_WARFARE"/>
 		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_EXODUS_IMPERATIVE"/>
 		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_CULTURAL_HEGEMONY"/>
+		<Row Civic="CIVIC_COLONIALISM" PrereqCivic="CIVIC_EXPLORATION"/>
+		<Delete Civic="CIVIC_THE_ENLIGHTENMENT" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row Civic="CIVIC_THE_ENLIGHTENMENT" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row Civic="CIVIC_MERCANTILISM" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
 	</CivicPrereqs>
 
 	<CivicModifiers>
@@ -772,6 +806,7 @@
 		<Delete CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
 		<Row CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="ENVIRONMENTALISM_GREEN_ENERGY_TOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="CRISTOREDENTOR_BEACHTOURISM" />
+		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="SOCIALMEDIA_SKITOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
 	</CivicModifiers>
 
@@ -825,12 +860,16 @@
 			<ModifierId>MASSMEDIA_MUSICTOURISM</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>SOCIALMEDIA_SKITOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
 			<ModifierId>CITY_INNER_DEFENSE</ModifierId>
 			<Name>Amount</Name>
-			<Value>10</Value>
+			<Value>3</Value>
 		</Row>
 		<Row>
 			<ModifierId>STEEL_URBAN_OUTERDEFENSE</ModifierId>
@@ -889,6 +928,16 @@
 			<ModifierId>MASSMEDIA_MUSICTOURISM</ModifierId>
 			<Name>ScalingFactor</Name>
 			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>SOCIALMEDIA_SKITOURISM</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_SKI_RESORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>SOCIALMEDIA_SKITOURISM</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>200</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>
