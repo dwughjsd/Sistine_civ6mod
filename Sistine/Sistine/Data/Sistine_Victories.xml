@@ -71,11 +71,11 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_GENERAL" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" />
@@ -84,7 +84,7 @@
 		<!--Trade!-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
@@ -135,7 +135,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" />
-			<Set DefaultValue="100" />
+			<Set DefaultValue="50" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" />
@@ -143,11 +143,11 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" />
-			<Set DefaultValue="30" />
+			<Set DefaultValue="20" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" />
-			<Set DefaultValue="0.6" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_COMBAT" />
@@ -164,7 +164,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SETTLER" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_RESOURCE_LUXURY" />
@@ -188,7 +188,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_SPACE_RACE" />
-			<Set DefaultValue="500" />
+			<Set DefaultValue="1000" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GOLDENAGE_POINT" />
@@ -445,12 +445,13 @@
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
 
 		<Row ListType="ModernYields" Item="YIELD_GOLD" Value="10"/>
-		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="-50"/>
-		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="50"/>
+		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="-20"/>
+		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="20"/>
+		<Row ListType="ModernYields" Item="YIELD_FOOD" Value="-10"/>
 
 		<!--Slow building campuses and we are going to launch spaceships!-->
-		<Row ListType="InformationYields" Item="YIELD_SCIENCE" Value="-20"/>
-		<Row ListType="InformationYields" Item="YIELD_PRODUCTION" Value="50"/>
+		<Row ListType="InformationYields" Item="YIELD_SCIENCE" Value="-30"/>
+		<Row ListType="InformationYields" Item="YIELD_PRODUCTION" Value="30"/>
 
 
 		<!--No need to promote military academy. Build more Campus instead.-->
@@ -466,8 +467,8 @@
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
-		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROCKETRY" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPUTERS" Favored="true" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_TELECOMMUNICATIONS" Favored="false" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SMART_MATERIALS" Favored="true"/>
