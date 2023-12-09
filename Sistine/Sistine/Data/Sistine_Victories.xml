@@ -147,7 +147,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.67" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_COMBAT" />
@@ -225,6 +225,8 @@
 		<Row ListType="MilitaryVictoryBuildings"/>
 		<Row ListType="MilitaryVictoryDistricts"/>
 		<Row ListType="DefaultProjectsSST"/>
+		<Row ListType="ReligiousYields"/>
+		<Row ListType="ReligiousPseudoYields"/>
 	</AiListTypes>
 	
 	<AiLists>
@@ -253,6 +255,8 @@
 		<Row ListType="ReligiousVictoryBuildings" System="Buildings"/>
 		<Row ListType="MilitaryVictoryBuildings" System="Buildings"/>
 		<Row ListType="MilitaryVictoryDistricts" System="Districts"/>
+		<Row ListType="ReligiousYields" LeaderType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV" System="Yields"/>
+		<Row ListType="ReligiousPseudoYields" LeaderType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV" System="PseudoYields"/>
 	</AiLists>
 
 	<Strategy_Priorities>
@@ -526,5 +530,9 @@
 		<Row ListType="DefaultProjectsSST" Item="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" Favored="false"/>
 		<Row ListType="DefaultProjectsSST" Item="PROJECT_ENHANCE_DISTRICT_CAMPUS" Favored="false"/>
 		<Row ListType="DefaultProjectsSST" Item="PROJECT_ENHANCE_DISTRICT_THEATER" Favored="false"/>
+
+		<Row ListType="ReligiousPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="500"/>
+		<Row ListType="ReligiousPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="50"/>
+		<Row ListType="ReligiousYields" Item="YIELD_FAITH" Value="75"/>
 	</AiFavoredItems>
 </GameData>
