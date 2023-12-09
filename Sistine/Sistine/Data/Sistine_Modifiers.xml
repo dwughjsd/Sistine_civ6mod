@@ -355,5 +355,20 @@
 		<Row RequirementId="REQUIRES_NON_CAPITAL_CITY_20" Name="Count" Value="21" />
 		<Row RequirementId="REQUIRES_UNIT_IS_SETTLER_SST" Name="UnitType" Value="UNIT_SETTLER" />
 	</RequirementArguments>
-	
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_IS_OCEAN_OR_COAST_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_IS_OCEAN_OR_COAST_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementId>REQUIRES_TERRAIN_OCEAN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_OCEAN_OR_COAST_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementId>REQUIRES_TERRAIN_COAST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 </GameData>
