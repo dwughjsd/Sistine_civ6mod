@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<TechnologyModifiers>
+		<Row>
+			<TechnologyType>TECH_SAILING</TechnologyType>
+			<ModifierId>SAILING_LAKE_FOOD</ModifierId>
+		</Row>
+	</TechnologyModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>SAILING_LAKE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_LAKE_REQUIREMENTS_SST</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SAILING_LAKE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>SAILING_LAKE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_IS_LAKE_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_IS_LAKE_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_LAKE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
 	<Terrain_YieldChanges>
 		<Update>
 			<Where TerrainType="TERRAIN_GRASS_HILLS" YieldType="YIELD_FOOD"/>
@@ -9,7 +47,6 @@
 		<Delete TerrainType="TERRAIN_TUNDRA_HILLS" YieldType="YIELD_FOOD" />
 	</Terrain_YieldChanges>
 	<Feature_YieldChanges>
-		<!--We might need to grant all players a hidden bonus so that they won't have negative Food on Rainforests-->
 		<Delete FeatureType="FEATURE_JUNGLE" YieldType="YIELD_FOOD" YieldChange="1"/>
 		<Update>
 			<Where FeatureType="FEATURE_MARSH" YieldType="YIELD_FOOD"/>

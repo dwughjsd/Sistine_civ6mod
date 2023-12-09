@@ -15,7 +15,7 @@
 			<Text>将农场改良设施升级为现代农业，为相邻的每个农场改良设施+1 [ICON_Food] 食物。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>水运单位+2 [ICON_Movement] 移动力。矿山改良设施+1 [ICON_Production] 生产力。您的 [ICON_TradeRoute] 贸易路线每经过10个单元格，其提供的 [ICON_Production] 生产力便+1。</Text>
+			<Text>水运单位+2 [ICON_Movement] 移动力。矿山改良设施+1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_GUILDS_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>采石场+1 [ICON_Production] 生产力。伐木场可建在雨林上。</Text>
@@ -65,15 +65,9 @@
 		<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>矿山+1 [ICON_Production] 生产力。</Text>
 		</Replace>
-		<!--Gold reform-->
-		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>允许创建 [ICON_TradeRoute] 贸易路线。沿河单元格+1 [ICON_Gold] 金币。</Text>
-		</Replace>
+		<!--Terrain tweaks-->
 		<Replace Tag="LOC_TECH_SAILING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>允许建造者上船。海岸与湖泊以及海洋单元格+1 [ICON_Gold] 金币。</Text>
-		</Replace>
-		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您的 [ICON_TradeRoute] 贸易路线每经过5个单元格，其提供的 [ICON_Gold] 金币便+1。</Text>
+			<Text>允许建造者上船。湖泊单元格+1 [ICON_Food] 食物。</Text>
 		</Replace>
 		<!--Science Victory-->
 		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="zh_Hans_CN">

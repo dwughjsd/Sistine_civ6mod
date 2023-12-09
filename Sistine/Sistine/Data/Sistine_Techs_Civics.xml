@@ -6,10 +6,6 @@
 			<Set UITreeRow="-1"/>
 		</Update>
 		<Update>
-			<Where TechnologyType="TECH_CURRENCY" />
-			<Set Description="LOC_TECH_CURRENCY_DESCRIPTION"/>
-		</Update>
-		<Update>
 			<Where TechnologyType="TECH_APPRENTICESHIP" />
 			<Set Description=""/>
 		</Update>
