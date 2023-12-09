@@ -534,7 +534,7 @@
 			<Text>您的圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="zh_Hans_CN">
-			<Text>随机奖励2项免费科技。触发“数学”的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
+			<Text>随机奖励1项免费科技。触发“数学”的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE" Language="zh_Hans_CN">
 			<Text>获得2个 [ICON_TechBoosted] 尤里卡。受伤陆地单位每回合恢复生命值+10。</Text>
@@ -543,7 +543,7 @@
 			<Text>每回合获得等同于城市所产生 [ICON_FAITH] 信仰值15%的 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE" Language="zh_Hans_CN">
-			<Text>随机奖励1项免费科技和1项免费市政，以及2个 [ICON_TechBoosted] 尤里卡。</Text>
+			<Text>随机奖励1项免费市政，以及2个 [ICON_TechBoosted] 尤里卡。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="zh_Hans_CN">
 			<Text>选定的学院获得2点 [ICON_Housing] 住房与1点 [ICON_AMENITIES] 宜居度。</Text>
