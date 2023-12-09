@@ -2,13 +2,22 @@
 <GameData>
 	<Routes>
 		<Update>
+			<Where RouteType="ROUTE_MEDIEVAL_ROAD" />
+			<Set MovementCost="0.75" />
+		</Update>
+		<Update>
+			<Where RouteType="ROUTE_INDUSTRIAL_ROAD" />
+			<Set MovementCost="0.5" />
+		</Update>
+		<Update>
+			<Where RouteType="ROUTE_MODERN_ROAD" />
+			<Set MovementCost="0.33" />
+		</Update>
+		<Update>
 			<Where RouteType="ROUTE_RAILROAD" />
 			<Set MovementCost="0.1" />
 		</Update>
 	</Routes>
-	<Route_ResourceCosts>
-		<Delete RouteType="ROUTE_RAILROAD" ResourceType="RESOURCE_COAL" BuildWithUnitCost="1"/>
-	</Route_ResourceCosts>
 	<Route_ValidBuildUnits>
 		<Row RouteType="ROUTE_RAILROAD" UnitType="UNIT_BUILDER"/>
 	</Route_ValidBuildUnits>
