@@ -168,7 +168,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_RESOURCE_LUXURY" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />

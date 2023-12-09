@@ -15,9 +15,8 @@
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MIN" Value="0" />
 		<Replace Name="CITY_AMENITIES_FOR_FREE" Value="1" />
 		<!--It's causing AI paying much to buy luxuries. We are still trying to figure out how to make them sell with a higher price too-->
-		<!--<Replace Name="AI_BASE_LUXURY_VALUE" Value="100" />-->
+		<Replace Name="AI_BASE_LUXURY_VALUE" Value="100" />
 		<!--I guess it will make AI smarter. Let's see!-->
-
 		<Replace Name="CIVIC_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
 		<!--Temporalily disable them to see further impacts
