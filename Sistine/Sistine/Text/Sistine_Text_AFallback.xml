@@ -65,15 +65,9 @@
 		<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST" Language="en_US">
 			<Text>+1 Production to Mines.</Text>
 		</Replace>
-		<!--Gold reform-->
-		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="en_US">
-			<Text>Allows the creation of [ICON_TradeRoute] Trade Routes. +1 [ICON_Gold] Gold to all tiles beside a river.</Text>
-		</Replace>
+		<!--Terrain tweaks-->
 		<Replace Tag="LOC_TECH_SAILING_DESCRIPTION" Language="en_US">
-			<Text>Allows Builders to embark. Coast, Lake, and Ocean tiles receive +1 [ICON_Gold] Gold.</Text>
-		</Replace>
-		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION" Language="en_US">
-			<Text>Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 5 tiles they travel.</Text>
+			<Text>Allows Builders to embark. Lake tiles receive +1 [ICON_Food] Food.</Text>
 		</Replace>
 		<!--Science Victory-->
 		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="en_US">
