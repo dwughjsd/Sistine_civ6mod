@@ -501,7 +501,7 @@
 			<Text>Campuses receive an additional +1 Science for each adjacent Mountain tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="en_US">
-			<Text>Grants two free technologies. Triggers the [ICON_TechBoosted] Eureka for Mathematics. If they are already triggered, instead completes the tech.</Text>
+			<Text>Grants a free technology. Triggers the [ICON_TechBoosted] Eureka for Mathematics. If they are already triggered, instead completes the tech.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE" Language="en_US">
 			<Text>Grants two [ICON_TechBoosted] Eurekas. Wounded land units can heal +10 HP each turn.</Text>
@@ -510,7 +510,7 @@
 			<Text>Gain Science equal to 15% of this city's Faith per turn.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE" Language="en_US">
-			<Text>Awards a free random technology and civic, as well as two [ICON_TechBoosted] Eurekas.</Text>
+			<Text>Awards a free random civic, and two [ICON_TechBoosted] Eurekas.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="en_US">
 			<Text>Chosen Campus gains 2 [ICON_Housing] Housing and 1 [ICON_AMENITIES] Amenities.</Text>
