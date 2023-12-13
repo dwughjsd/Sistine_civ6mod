@@ -629,16 +629,16 @@
 			<Text>每回合提供3点 [ICON_RESOURCE_OIL] 石油。目的地城市每拥有1点战略资源，您 [ICON_TradeRoute] 贸易路线所产出的 [ICON_Gold] 金币便+2。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="zh_Hans_CN">
-			<Text>产出{Amount}份 [ICON_RESOURCE_COSMETICS] 化妆品，一种提供+2 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+			<Text>产出{Amount}份 [ICON_RESOURCE_COSMETICS] 化妆品，一种提供+4 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_TOYS" Language="zh_Hans_CN">
-			<Text>产出{Amount}份 [ICON_RESOURCE_TOYS] 玩具，一种提供+2 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+			<Text>产出{Amount}份 [ICON_RESOURCE_TOYS] 玩具，一种提供+4 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_PERFUME" Language="zh_Hans_CN">
-			<Text>产出{Amount}份 [ICON_RESOURCE_PERFUME] 香水，一种提供+3 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+			<Text>产出{Amount}份 [ICON_RESOURCE_PERFUME] 香水，一种提供+6 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_JEANS" Language="zh_Hans_CN">
-			<Text>产出{Amount}份 [ICON_RESOURCE_JEANS] 牛仔裤，一种提供+2 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+			<Text>产出{Amount}份 [ICON_RESOURCE_JEANS] 牛仔裤，一种提供+4 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_PUBLIC_SCHOOL_SCIENCE" Language="zh_Hans_CN">
 			<Text>学院区域+10 [ICON_Tourism] 旅游业绩。立即在该区域建造图书馆、大学和公立学校。公立学校+2 [ICON_Science] 科技值。</Text>
