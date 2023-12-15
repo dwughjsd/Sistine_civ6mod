@@ -974,6 +974,9 @@
 		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>拥有军营的城市生产的单位初始可获得一项免费升级。</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有军营的城市生产的单位初始可获得一项免费升级。</Text>
+		</Replace>
 		<Replace Tag="LOC_POLICY_MONASTICISM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>拥有圣地的城市 [ICON_Science] 科技值+75%。[NEWLINE]但没有圣地的城市 [ICON_Culture] 文化值-25%。</Text>
 		</Replace>
