@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Types>
+		<Row Type="POLICY_PATRIOTIC_WAR" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_POLICE_STATE" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_ARSENAL_OF_DEMOCRACY" Kind="KIND_POLICY"/>
+		<Delete Type="POLICY_RAID"/>
+		<Delete Type="POLICY_DIPLOMATIC_LEAGUE"/>
+		<Delete Type="POLICY_RETINUES"/>
+		<Row Type="MODIFIER_PLAYER_CITIES_CULTURE_BORDER_EXPANSION_SST" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITIES_CULTURE_BORDER_EXPANSION_SST</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_CULTURE_BORDER_EXPANSION</EffectType>
+		</Row>
+	</DynamicModifiers>
 	<Policies>
 		<Update>
 			<Where PolicyType="POLICY_FINEST_HOUR"/>
@@ -70,6 +86,12 @@
 				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
 			</Set>
 		</Update>
+		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" Name="LOC_POLICY_ARSENAL_OF_DEMOCRACY_NAME" Description="LOC_POLICY_ARSENAL_OF_DEMOCRACY_DESCRIPTION" PrereqCivic="CIVIC_SUFFRAGE" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+		<Row PolicyType="POLICY_PATRIOTIC_WAR" Name="LOC_POLICY_PATRIOTIC_WAR_NAME" Description="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION" PrereqCivic="CIVIC_CLASS_STRUGGLE" GovernmentSlotType="SLOT_MILITARY"/>
+		<Row PolicyType="POLICY_POLICE_STATE" Name="LOC_POLICY_POLICE_STATE_NAME" Description="LOC_POLICY_POLICE_STATE_DESCRIPTION" PrereqCivic="CIVIC_TOTALITARIANISM" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+		<Delete PolicyType="POLICY_RAID"/>
+		<Delete PolicyType="POLICY_DIPLOMATIC_LEAGUE"/>
+		<Delete PolicyType="POLICY_RETINUES"/>
 	</Policies>
 	<ObsoletePolicies>
 		<Delete PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_NATIVE_CONQUEST"/>
@@ -102,12 +124,35 @@
 		<Row PolicyType="POLICY_MUSIC_CENSORSHIP" ObsoletePolicy="POLICY_FUTURE_COUNTER_CULTURE"/>
 		<Row PolicyType="POLICY_GUNBOAT_DIPLOMACY" ObsoletePolicy="POLICY_FUTURE_VICTORY_DIPLOMATIC"/>
 		<Row PolicyType="POLICY_MERCHANT_CONFEDERATION" ObsoletePolicy="POLICY_FUTURE_VICTORY_DIPLOMATIC"/>
-		<Row PolicyType="POLICY_DIPLOMATIC_LEAGUE" ObsoletePolicy="POLICY_CONTAINMENT"/>
-		<Row PolicyType="POLICY_DIPLOMATIC_LEAGUE" ObsoletePolicy="POLICY_MERCHANT_CONFEDERATION"/>
 		<Row PolicyType="POLICY_CONTAINMENT" ObsoletePolicy="POLICY_FUTURE_COUNTER_DIPLOMATIC"/>
+		<Row PolicyType="POLICY_WISSELBANKEN" ObsoletePolicy="POLICY_ARSENAL_OF_DEMOCRACY"/>
+		<Row PolicyType="POLICY_PATRIOTIC_WAR" ObsoletePolicy="POLICY_FUTURE_VICTORY_DOMINATION"/>
+		<Delete PolicyType="POLICY_RETINUES" />
+		<Row PolicyType="POLICY_VETERANCY" ObsoletePolicy="POLICY_FORCE_MODERNIZATION"/>
 	</ObsoletePolicies>
 	<PolicyModifiers>
 		<Delete PolicyType="POLICY_FINEST_HOUR" ModifierId="FINEST_HOUR_FRIENDLY_TERRITORY"/>
+		<Delete PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_GDR_PRODUCTION"/>
+		<Delete PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_ENEMY_TERRITORY_MOVEMENT"/>
+		<Delete PolicyType="POLICY_LIMITANEI"/>
+		<Delete PolicyType="POLICY_PROPAGANDA" />
+		<Delete PolicyType="POLICY_MILITARY_RESEARCH" />
+		<Delete PolicyType="POLICY_INTEGRATED_SPACE_CELL" />
+		<Delete PolicyType="POLICY_FUTURE_VICTORY_SCIENCE" ModifierId="FUTURE_VICTORY_SCIENCE_SPACEPORT_ALUMINUM"/>
+		<Delete PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" />
+		<Delete PolicyType="POLICY_RATIONALISM" />
+		<Delete PolicyType="POLICY_GRAND_OPERA" />
+		<Delete PolicyType="POLICY_SIMULTANEUM" />
+		<Delete PolicyType="POLICY_FREE_MARKET" />
+		<Delete PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC" ModifierId="FUTURE_COUNTER_DIPLOMATIC_FAVOR_PER_TURN"/>
+		<Delete PolicyType="POLICY_PATRIOTIC_WAR"/>
+		<Delete PolicyType="POLICY_ARSENAL_OF_DEMOCRACY"/>
+		<Delete PolicyType="POLICY_POLICE_STATE"/>
+		<Delete PolicyType="POLICY_PROFESSIONAL_ARMY"/>
+		<Delete PolicyType="POLICY_FORCE_MODERNIZATION"/>
+		<Delete PolicyType="POLICY_LAND_SURVEYORS" ModifierId="LANDSURVEYORS_PLOTPURCHASECOST"/>
+		<Delete PolicyType="POLICY_EXPROPRIATION" ModifierId="EXPROPRIATION_PLOTPURCHASECOST"/>
+		<Delete PolicyType="POLICY_TOTAL_WAR"/>
 		<Row PolicyType="POLICY_FINEST_HOUR" ModifierId="BASTIONS_RANGEDSTRIKE"/>
 		<Row PolicyType="POLICY_FINEST_HOUR" ModifierId="FINESTHOUR_INNERDEFENSE"/>
 		<Row PolicyType="POLICY_FUTURE_COUNTER_DOMINATION" ModifierId="BASTIONS_RANGEDSTRIKE"/>
@@ -116,21 +161,13 @@
 		<Row PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="SECONDSTRIKE_MAINTENANCEWMDS"/>
 		<Row PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_UNIT_PRODUCTION"/>
 		<Row PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_UNIT_MOVEMENT"/>
-		<Delete PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_GDR_PRODUCTION"/>
-		<Delete PolicyType="POLICY_FUTURE_VICTORY_DOMINATION" ModifierId="FUTURE_VICTORY_DOMINATION_ENEMY_TERRITORY_MOVEMENT"/>
 		<Row PolicyType="POLICY_RETAINERS" ModifierId="LIMITANEI_GARRISONIDENTITY"/>
 		<Row PolicyType="POLICY_MARTIAL_LAW" ModifierId="RETAINERS_AMENITYBONUS"/>
-		<Delete PolicyType="POLICY_LIMITANEI"/>
-		<Delete PolicyType="POLICY_PROPAGANDA" />
-		<Delete PolicyType="POLICY_MILITARY_RESEARCH" />
 		<Row PolicyType="POLICY_MILITARY_RESEARCH" ModifierId="MILITARY_RESEARCH_SCIENCE"/>
-		<Delete PolicyType="POLICY_INTEGRATED_SPACE_CELL" />
 		<Row PolicyType="POLICY_INTEGRATED_SPACE_CELL" ModifierId="INTEGRATED_SPACE_CELL_SCIENCE"/>
 		<Row PolicyType="POLICY_INTEGRATED_SPACE_CELL" ModifierId="INTEGRATED_SPACE_CELL_PRODUCTION"/>
-		<Delete PolicyType="POLICY_FUTURE_VICTORY_SCIENCE" ModifierId="FUTURE_VICTORY_SCIENCE_SPACEPORT_ALUMINUM"/>
 		<Row PolicyType="POLICY_FUTURE_VICTORY_SCIENCE" ModifierId="FUTURE_VICTORY_SCIENCE_SCIENCE"/>
 		<Row PolicyType="POLICY_FUTURE_VICTORY_SCIENCE" ModifierId="FUTURE_VICTORY_SCIENCE_PRODUCTION"/>
-		<Delete PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" />
 		<Row PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" ModifierId="URBAN_PLANNING_ALLCITYPRODUCTION"/>
 		<Row PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" ModifierId="PARTY_LEADERSHIP_ALLCITYSCIENCE"/>
 		<Row PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" ModifierId="PARTY_LEADERSHIP_ALLCITYCULTURE"/>
@@ -138,10 +175,6 @@
 		<Row PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" ModifierId="PARTY_LEADERSHIP_ALLCITYFOOD"/>
 		<Row PolicyType="POLICY_SPORTS_MEDIA" ModifierId="SPORTSMEDIA_BROADCASTCENTERENTERTAINMENT"/>
 		<Row PolicyType="POLICY_SPORTS_MEDIA" ModifierId="SPORTSMEDIA_AQUATICSCENTERMENTERTAINMENT"/>
-		<Delete PolicyType="POLICY_RATIONALISM" />
-		<Delete PolicyType="POLICY_GRAND_OPERA" />
-		<Delete PolicyType="POLICY_SIMULTANEUM" />
-		<Delete PolicyType="POLICY_FREE_MARKET" />
 		<Row PolicyType="POLICY_RATIONALISM" ModifierId="RATIONALISM_PUBLICSCHOOL_10POP_SCIENCE"/>
 		<Row PolicyType="POLICY_RATIONALISM" ModifierId="RATIONALISM_PUBLICSCHOOL_15POP_SCIENCE"/>
 		<Row PolicyType="POLICY_GRAND_OPERA" ModifierId="GRANDOPERA_OPERAHOUSE_10POP_CULTURE"/>
@@ -152,7 +185,6 @@
 		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="FREEMARKET_TIER2_15POP_GOLD"/>
 		<Row PolicyType="POLICY_FUTURE_VICTORY_CULTURE" ModifierId="FUTURE_VICTORY_CULTURE_TOURISM"/>
 		<Row PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC" ModifierId="CONTAINMENT_DUPLICATETOKENWHENRIVALGOVERNMENT"/>
-		<Delete PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC" ModifierId="FUTURE_COUNTER_DIPLOMATIC_FAVOR_PER_TURN"/>
 		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="GUNBOATDIPLOMACY_OPENBORDERS"/>
 		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="GUNBOATDIPLOMACY_INFLUENCEPOINTS"/>
 		<Row PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" ModifierId="MERCHANTCONFEDERATION_INFLUENCETOKENGOLD"/>
@@ -168,6 +200,27 @@
 		<Row PolicyType="POLICY_PRAETORIUM" ModifierId="PRAETORIUM_GOVERNORFAITH"/>
 		<Row PolicyType="POLICY_COMMUNICATIONS_OFFICE" ModifierId="COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_GOLD"/>
 		<Row PolicyType="POLICY_COMMUNICATIONS_OFFICE" ModifierId="COMMUNICATIONS_OFFICE_PER_GOVERNOR_TITLE_FAITH"/>
+		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" ModifierId="ARSENALOFDEMOCRACY_TRADEROUTEFOODTOALLY"/>
+		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" ModifierId="ARSENALOFDEMOCRACY_TRADEROUTEFOODTOSUZERAIN"/>
+		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" ModifierId="ARSENALOFDEMOCRACY_TRADEROUTEPRODUCTIONTOALLY"/>
+		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" ModifierId="ARSENALOFDEMOCRACY_TRADEROUTEFOODFROMALLY"/>
+		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" ModifierId="ARSENALOFDEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY"/>
+		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" ModifierId="ARSENALOFDEMOCRACY_TRADEROUTEPRODUCTIONTOSUZERAIN"/>
+		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" ModifierId="ARSENALOFDEMOCRACY_TRADEROUTEFOODFROMSUZERAIN"/>
+		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" ModifierId="ARSENALOFDEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN"/>
+		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" ModifierId="WISSELBANKEN_ALLIANCEPOINTS"/>		
+		<Row PolicyType="POLICY_PATRIOTIC_WAR" ModifierId="FINEST_HOUR_FRIENDLY_TERRITORY"/>
+		<Row PolicyType="POLICY_POLICE_STATE" ModifierId="POLICESTATE_CAPTURED_AMENITY"/>
+		<Row PolicyType="POLICY_PROFESSIONAL_ARMY" ModifierId="PROFESSIONALARMY_ENCAMPMENTAMENITY"/>
+		<Row PolicyType="POLICY_FORCE_MODERNIZATION" ModifierId="PROFESSIONALARMY_ENCAMPMENTAMENITY"/>
+		<Row PolicyType="POLICY_FORCE_MODERNIZATION" ModifierId="FORCEMODERNIZATION_ARMORYAMENITY"/>
+		<Row PolicyType="POLICY_FORCE_MODERNIZATION" ModifierId="VETERANCY_ENCAMPMENT_PRODUCTION"/>
+		<Row PolicyType="POLICY_FORCE_MODERNIZATION" ModifierId="VETERANCY_ENCAMPMENT_BUILDINGS_PRODUCTION"/>
+		<Row PolicyType="POLICY_FORCE_MODERNIZATION" ModifierId="VETERANCY_HARBOR_PRODUCTION"/>
+		<Row PolicyType="POLICY_FORCE_MODERNIZATION" ModifierId="VETERANCY_HARBOR_BUILDINGS_PRODUCTION"/>
+		<Row PolicyType="POLICY_LAND_SURVEYORS" ModifierId="LANDSURVEYORS_CULTUREBORDEREXPANSION"/>
+		<Row PolicyType="POLICY_EXPROPRIATION" ModifierId="LANDSURVEYORS_CULTUREBORDEREXPANSION"/>
+		<Row PolicyType="POLICY_TOTAL_WAR" ModifierId="TOTALWAR_TRAINEDUNIT_EXPERIENCE"/>
 		<!--R.I.P. Public Transport, who was killed but readded for 2 times-->
 		<Delete ModifierId="PUBLICTRANSPORT_FARMREPLACEGOLD"/>
 		<Row>
@@ -217,6 +270,46 @@
 		<Row PolicyType="POLICY_LAISSEZ_FAIRE" ModifierId="MARKET_ADDITIONAL_GP"/>
 	</PolicyModifiers>
 	<Modifiers>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEFOODTOSUZERAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_SUZERAIN_ROUTE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEPRODUCTIONTOSUZERAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_SUZERAIN_ROUTE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEFOODFROMSUZERAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_SUZERAIN_ROUTE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_SUZERAIN_ROUTE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>POLICESTATE_CAPTURED_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROFESSIONALARMY_ENCAMPMENTAMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FORCEMODERNIZATION_ARMORYAMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_ARMORY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>LANDSURVEYORS_CULTUREBORDEREXPANSION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_CULTURE_BORDER_EXPANSION_SST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TOTALWAR_TRAINEDUNIT_EXPERIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
 		<Row>
 			<ModifierId>NEWDEAL_SPECIALTYAMENITY_2</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
@@ -364,6 +457,71 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEFOODTOSUZERAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEFOODTOSUZERAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEPRODUCTIONTOSUZERAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEPRODUCTIONTOSUZERAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEFOODFROMSUZERAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEFOODFROMSUZERAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARSENALOFDEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>POLICESTATE_CAPTURED_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROFESSIONALARMY_ENCAMPMENTAMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORCEMODERNIZATION_ARMORYAMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>LANDSURVEYORS_CULTUREBORDEREXPANSION</ModifierId>
+			<Name>Amount</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>TOTALWAR_TRAINEDUNIT_EXPERIENCE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CITY_DEFENDER_FREE_PROMOTIONS</Value>
+		</Row>
 		<!--Don't use update, it won't work-->
 		<Delete ModifierId="NEWDEAL_SPECIALTYAMENITY" Name="Amount"/>
 		<Delete ModifierId="NEWDEAL_SPECIALTYHOUSING" Name="Amount"/>
@@ -955,5 +1113,223 @@
 			<Name>RequirementSetId</Name>
 			<Value>BUILDING_IS_TIER2_ECONOMY_BUILDING_SST</Value>
 		</Row>
+	</RequirementArguments>
+	
+	<!--Dark Age policies - our mods might load before or after Dramatic Ages mode so we have to consider both the scenarios-->
+	<PolicyModifiers>
+		<Delete PolicyType="POLICY_MONASTICISM" ModifierId="MONASTICISM_CULTURE_MODIFIER"/>
+		<Delete PolicyType="POLICY_INQUISITION" ModifierId="INQUISITION_SCIENCE_MODIFIER"/>
+		<Delete PolicyType="POLICY_ISOLATIONISM" ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FODD"/>
+		<!--They just did it wrong in mode-disabled game-->
+		<Delete PolicyType="POLICY_ISOLATIONISM" ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FOOD"/>
+		<Delete PolicyType="POLICY_ISOLATIONISM" ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_PRODUCTION"/>
+		<Delete PolicyType="POLICY_ROBBER_BARONS" ModifierId="ROBBERBARONS_FACTORY_PRODUCTION"/>
+		<Delete PolicyType="POLICY_ROBBER_BARONS" ModifierId="ROBBERBARONS_STOCKEXCHANGE_GOLD"/>
+		<Delete PolicyType="POLICY_ISOLATIONISM" ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_GOLD"/>
+		<Delete PolicyType="POLICY_ROBBER_BARONS" ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_GOLD"/>
+		<Delete PolicyType="POLICY_ROBBER_BARONS" ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_PRODUCTION"/>
+	</PolicyModifiers>
+	<Modifiers>
+		<Delete ModifierId="MONASTICISM_CULTURE_MODIFIER"/>
+		<Delete ModifierId="INQUISITION_SCIENCE_MODIFIER"/>
+		<Delete ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FODD"/>
+		<Delete ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FOOD"/>
+		<Delete ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_PRODUCTION"/>
+		<Delete ModifierId="ROBBERBARONS_FACTORY_PRODUCTION"/>
+		<Delete ModifierId="ROBBERBARONS_STOCKEXCHANGE_GOLD"/>
+		<Delete ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_GOLD"/>
+		<Delete ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_PRODUCTION"/>
+	</Modifiers>
+	<PolicyModifiers>
+		<InsertOrIgnore PolicyType="POLICY_MONASTICISM" ModifierId="MONASTICISM_CULTURE_MODIFIER"/>
+		<InsertOrIgnore PolicyType="POLICY_INQUISITION" ModifierId="INQUISITION_SCIENCE_MODIFIER"/>
+		<InsertOrIgnore PolicyType="POLICY_ISOLATIONISM" ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FOOD"/>
+		<InsertOrIgnore PolicyType="POLICY_ISOLATIONISM" ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_PRODUCTION"/>
+		<InsertOrIgnore PolicyType="POLICY_ISOLATIONISM" ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_GOLD"/>
+		<InsertOrIgnore PolicyType="POLICY_ROBBER_BARONS" ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_GOLD"/>
+		<InsertOrIgnore PolicyType="POLICY_ROBBER_BARONS" ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_PRODUCTION"/>
+	</PolicyModifiers>
+	<Modifiers>
+		<InsertOrIgnore>
+			<ModifierId>MONASTICISM_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>NOT_CITY_HAS_HOLY_SITE</SubjectRequirementSetId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>INQUISITION_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ROBBERBARONS_BANK_OR_SHIPYARD_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_BANK_OR_SHIPYARD</SubjectRequirementSetId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ROBBERBARONS_BANK_OR_SHIPYARD_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_BANK_OR_SHIPYARD</SubjectRequirementSetId>
+		</InsertOrIgnore>
+	</Modifiers>
+	<ModifierArguments>
+		<Delete ModifierId="MONASTICISM_CULTURE_MODIFIER"/>
+		<Delete ModifierId="INQUISITION_SCIENCE_MODIFIER"/>
+		<Delete ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FOOD"/>
+		<Delete ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_PRODUCTION"/>
+		<Delete ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_GOLD"/>
+		<Delete ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_GOLD"/>
+		<Delete ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_PRODUCTION"/>
+		<InsertOrIgnore>
+			<ModifierId>MONASTICISM_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>MONASTICISM_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-25</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FOOD</ModifierId>
+			<Name>Intercontinental</Name>
+			<Value>false</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_PRODUCTION</ModifierId>
+			<Name>Intercontinental</Name>
+			<Value>false</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_GOLD</ModifierId>
+			<Name>Intercontinental</Name>
+			<Value>false</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ROBBERBARONS_BANK_OR_SHIPYARD_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ROBBERBARONS_BANK_OR_SHIPYARD_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ROBBERBARONS_BANK_OR_SHIPYARD_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ROBBERBARONS_BANK_OR_SHIPYARD_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</InsertOrIgnore>
+	</ModifierArguments>
+	<RequirementSets>
+		<Delete RequirementSetId="NOT_CITY_HAS_HOLY_SITE"/>
+		<Delete RequirementSetId="BUILDING_IS_BANK_OR_SHIPYARD"/>
+		<InsertOrIgnore>
+			<RequirementSetId>NOT_CITY_HAS_HOLY_SITE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementSetId>BUILDING_IS_BANK_OR_SHIPYARD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</InsertOrIgnore>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Delete RequirementSetId="NOT_CITY_HAS_HOLY_SITE"/>
+		<Delete RequirementSetId="BUILDING_IS_BANK_OR_SHIPYARD"/>
+		<InsertOrIgnore>
+			<RequirementSetId>NOT_CITY_HAS_HOLY_SITE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_NO_HOLY_SITE</RequirementId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementSetId>BUILDING_IS_BANK_OR_SHIPYARD</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_BANK_DRAMATIC</RequirementId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementSetId>BUILDING_IS_BANK_OR_SHIPYARD</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_SHIPYARD_DRAMATIC</RequirementId>
+		</InsertOrIgnore>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Delete RequirementId="REQUIRES_CITY_HAS_NO_HOLY_SITE"/>
+		<Delete RequirementId="REQUIRES_CITY_HAS_BANK_DRAMATIC"/>
+		<Delete RequirementId="REQUIRES_CITY_HAS_SHIPYARD_DRAMATIC"/>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_NO_HOLY_SITE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+			<Inverse>true</Inverse>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_BANK_DRAMATIC</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_SHIPYARD_DRAMATIC</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</InsertOrIgnore>
+	</Requirements>
+	<RequirementArguments>
+		<Delete RequirementId="REQUIRES_CITY_HAS_NO_HOLY_SITE"/>
+		<Delete RequirementId="REQUIRES_CITY_HAS_BANK_DRAMATIC"/>
+		<Delete RequirementId="REQUIRES_CITY_HAS_SHIPYARD_DRAMATIC"/>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_NO_HOLY_SITE</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_BANK_DRAMATIC</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BANK</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_SHIPYARD_DRAMATIC</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SHIPYARD</Value>
+		</InsertOrIgnore>
 	</RequirementArguments>
 </GameData>

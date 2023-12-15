@@ -950,5 +950,41 @@
 		<Replace Tag="LOC_POLICY_NOBEL_PRIZE_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>每座学院建筑每回合+2 [ICON_GreatScientist] 大科学家点数。每座工业区建筑每回合+2 [ICON_GreatEngineer] 大工程师点数。</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_POLICE_STATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>非本文明建立的城市+2 [ICON_AMENITIES] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在本国领土中、或与本国领土相邻的地区作战时，所有单位 [ICON_Strength] 战斗力+5。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ARSENAL_OF_DEMOCRACY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您通往盟友城市或下属城邦的 [ICON_TradeRoute] 贸易路线为双边城市+4 [ICON_Food] 食物、+4 [ICON_Production] 生产力。所有盟友的同盟点数每回合额外增加0.25点。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>拥有军营的城市+1 [ICON_AMENITIES] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FORCE_MODERNIZATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有军营的城市+1 [ICON_AMENITIES] 宜居度。兵工厂+1 [ICON_AMENITIES] 宜居度。建造军营、港口和这些区域中的建筑时+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>边境扩张速度提高40%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产开拓者 [ICON_Production] 时生产力+50%。边境扩张速度提高40%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有军营的城市生产的单位初始可获得一项免费升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MONASTICISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有圣地的城市 [ICON_Science] 科技值+75%。[NEWLINE]但没有圣地的城市 [ICON_Culture] 文化值-25%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INQUISITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>消耗1次使徒使用次数开始宗教审讯。友方领土中的所有宗教单位+15 [ICON_Religion] 宗教战斗力。[NEWLINE]但所有城市的 [ICON_Science] 科技值-15%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ISOLATIONISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国内贸易路线提供+3 [ICON_Food] 食物、+3 [ICON_Production] 生产力、+3 [ICON_Gold] 金币。[NEWLINE]但无法生产或购买开拓者，也无法建立新城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROBBER_BARONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有银行或造船厂的城市+50% [ICON_Gold] 金币、+25% [ICON_Production] 生产力。[NEWLINE]但所有城市-2 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

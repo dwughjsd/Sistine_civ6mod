@@ -468,6 +468,8 @@
 		<Replace Tag="LOC_POLICY_SURVEY_NAME" Language="zh_Hans_CN" Text="勘察"/>
 		<Replace Tag="LOC_POLICY_SYMPHONIES_NAME" Language="zh_Hans_CN" Text="交响乐"/>
 		<Replace Tag="LOC_POLICY_VETERANCY_NAME" Language="zh_Hans_CN" Text="退役制度"/>
+		<Replace Tag="LOC_POLICY_ARSENAL_OF_DEMOCRACY_NAME" Language="zh_Hans_CN" Text="民主兵工厂"/>
+		<Replace Tag="LOC_POLICY_POLICE_STATE_NAME" Language="zh_Hans_CN" Text="警察国家"/>
 		<Replace Tag="LOC_POLICY_CHARISMATIC_LEADER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每回合+2用以获得城邦 [ICON_Envoy] 使者的影响力点数。</Text>
 		</Replace>
@@ -550,6 +552,11 @@
 		<Replace Tag="LOC_WORLD_CONGRESS_LOSE_WILDCARD_DESC" Language="zh_Hans_CN">
 			<Text>该政体类型失去一个通用政策槽位。</Text>
 		</Replace>
-		
+		<Replace Tag="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有近战单位进攻时+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TWILIGHT_VALOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有近战单位进攻时+5 [ICON_Strength] 战斗力。[NEWLINE]但无法在本国领土外回复生命值。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
