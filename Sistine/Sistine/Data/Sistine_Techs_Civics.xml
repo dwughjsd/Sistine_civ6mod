@@ -936,4 +936,99 @@
 			<Value>200</Value>
 		</Row>
 	</ModifierArguments>
+
+	<Boosts>
+		<Update><Where TechnologyType="TECH_ARCHERY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_SLINGER" NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_MASONRY" /><Set NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_CURRENCY" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_IMPROVEMENTS" ImprovementType="IMPROVEMENT_PLANTATION" RequiresResource="true" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_IRON_WORKING" /><Set NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_SHIPBUILDING" /><Set NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_MATHEMATICS" /><Set NumItems="4"/></Update>
+		<Update><Where TechnologyType="TECH_CONSTRUCTION" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_ENGINEERING" /><Set BoostClass="BOOST_TRIGGER_HAVE_GOVERNMENT_TIER" NumItems="Tier1"/></Update>
+		<Update><Where TechnologyType="TECH_APPRENTICESHIP" /><Set NumItems="4"/></Update>
+		<Update><Where TechnologyType="TECH_MACHINERY" /><Set Unit1Type="UNIT_CATAPULT" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_STIRRUPS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_STABLE" NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_CASTLES" /><Set BoostClass="BOOST_TRIGGER_TRAIN_UNIT" Unit1Type="UNIT_GREAT_ENGINEER" NumItems="0"/></Update>
+		<Update><Where TechnologyType="TECH_BANKING" /><Set BoostingCivicType="CIVIC_MERCANTILISM"/></Update>
+		<Update><Where TechnologyType="TECH_MASS_PRODUCTION" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_GUNPOWDER" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_BARRACKS" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_SQUARE_RIGGING" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_MUSKETMAN" NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_METAL_CASTING" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_INDUSTRIALIZATION" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_BALLISTICS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_ARMORY" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_STEAM_POWER" /><Set BuildingType="BUILDING_FACTORY"/></Update>
+		<Update><Where TechnologyType="TECH_SANITATION" /><Set BoostClass="BOOST_TRIGGER_CULTURVATE_CIVIC" BoostingCivicType="CIVIC_GUILDS" NumItems="0"/></Update>
+		<Update><Where TechnologyType="TECH_RIFLING" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_REPLACEABLE_PARTS" /><Set NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_STEEL" /><Set BoostClass="BOOST_TRIGGER_IMPROVE_SPECIFIC_RESOURCE" ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_COAL" NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_REFINING" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_ELECTRICITY" /><Set NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_RADIO" /><Set BoostClass="BOOST_TRIGGER_CULTURVATE_CIVIC" BoostingCivicType="CIVIC_MASS_MEDIA"/></Update>
+		<Update><Where TechnologyType="TECH_CHEMISTRY" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_ADVANCED_FLIGHT" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_HANGAR" NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_COMBINED_ARMS" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_BIPLANE" NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_SYNTHETIC_MATERIALS" /><Set BoostClass="BOOST_TRIGGER_CREATED_NATIONAL_PARK" DistrictType="" NumItems="0"/></Update>
+		<Update><Where TechnologyType="TECH_TELECOMMUNICATIONS" /><Set TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_TELECOMMUNICATIONS" BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_BROADCAST_CENTER" NumItems="1"/></Update>
+		<!--need the project to unlock specific eureka-->
+		<Update><Where TechnologyType="TECH_SATELLITES" /><Set BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH" BuildingType="" NumItems="0"/></Update>
+		<Update><Where TechnologyType="TECH_GUIDANCE_SYSTEMS" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_ARTILLERY" NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_LASERS" /><Set NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_COMPOSITES" /><Set NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_STEALTH_TECHNOLOGY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_BOMBER" NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_ROBOTICS" /><Set BoostingCivicType="CIVIC_SPACE_RACE"/></Update>
+		<Update><Where TechnologyType="TECH_NANOTECHNOLOGY" /><Set NumItems="3"/></Update>
+		
+		<Update><Where CivicType="CIVIC_STATE_WORKFORCE" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_EARLY_EMPIRE" /><Set NumItems="7"/></Update>
+		<Update><Where CivicType="CIVIC_GAMES_RECREATION" /><Set BoostingTechType="TECH_MATHEMATICS"/></Update>
+		<Update><Where CivicType="CIVIC_DEFENSIVE_TACTICS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_WALLS" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_NAVAL_TRADITION" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_QUADRIREME" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_MERCENARIES" /><Set NumItems="10"/></Update>
+		<Update><Where CivicType="CIVIC_MEDIEVAL_FAIRES" /><Set NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_HUMANISM" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_AMPHITHEATER" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_REFORMED_CHURCH" /><Set NumItems="12"/></Update>
+		<Update><Where CivicType="CIVIC_COLONIALISM" /><Set BoostingTechType="TECH_INDUSTRIALIZATION"/></Update>
+		<Update><Where CivicType="CIVIC_CIVIL_ENGINEERING" /><Set NumItems="8"/></Update>
+		<Update><Where CivicType="CIVIC_NATIONALISM" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_PUBLIC_SCHOOL" NumItems="1"/></Update>
+		<Update><Where CivicType="CIVIC_OPERA_BALLET" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_NATURAL_HISTORY" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_SCORCHED_EARTH" /><Set NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_CONSERVATION" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_CAPITALISM" /><Set NumItems="1"/></Update>
+		<Update><Where CivicType="CIVIC_NUCLEAR_PROGRAM" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_MASS_MEDIA" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_DISTRICTS" DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_MOBILIZATION" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_INFANTRY" NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_SUFFRAGE" /><Set BuildingType="BUILDING_HOSPITAL" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_TOTALITARIANISM" /><Set NumItems="1"/></Update>
+		<Update><Where CivicType="CIVIC_CLASS_STRUGGLE" /><Set NumItems="4"/></Update>
+		<Update><Where CivicType="CIVIC_PROFESSIONAL_SPORTS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_STADIUM" NumItems="1"/></Update>
+		<Update><Where CivicType="CIVIC_CULTURAL_HERITAGE" /><Set BoostClass="BOOST_TRIGGER_HAVE_WONDER_PAST_X_ERA" NumItems="6"/></Update>
+		<Update><Where CivicType="CIVIC_SPACE_RACE" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_GLOBALIZATION" /><Set NumItems="1"/></Update>
+		<Update><Where CivicType="CIVIC_SOCIAL_MEDIA" /><Set BoostingTechType="TECH_LASERS"/></Update>
+		<Update><Where CivicType="CIVIC_ENVIRONMENTALISM" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_HYDROELECTRIC_DAM" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" /><Set NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_DIGITAL_DEMOCRACY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_ROCK_BAND" NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_SYNTHETIC_TECHNOCRACY" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_MANUFACTURING_PLANT" NumItems="2"/></Update>
+	</Boosts>
+
+	<ProjectCompletionModifiers>
+		<Row ProjectType="PROJECT_LAUNCH_EARTH_SATELLITE" ModifierId="PROJECT_COMPLETION_TECH_SATELLITES_BOOST" />
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_TECH_SATELLITES_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_TECH_SATELLITES_BOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SATELLITES</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>
