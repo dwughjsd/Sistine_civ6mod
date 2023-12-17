@@ -568,5 +568,140 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_THE_WHEEL" Language="zh_Hans_CN">
 			<Text>使用矿山改良1种资源。</Text>
 		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MILITARY_TACTICS" Language="zh_Hans_CN">
+			<Text>使用矛兵击杀1个单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SIEGE_TACTICS" Language="zh_Hans_CN">
+			<Text>拥有2台重力抛石机。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SCIENTIFIC_THEORY" Language="zh_Hans_CN">
+			<Text>获得启蒙运动市政。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_POLITICAL_PHILOSOPHY" Language="zh_Hans_CN">
+			<Text>遇见3个城邦。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_THEOLOGY" Language="zh_Hans_CN">
+			<Text>创立一门宗教。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_RAPID_DEPLOYMENT" Language="zh_Hans_CN">
+			<Text>在非首都所在大陆上建造1个飞行场或1处飞机跑道。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_RAPID_DEPLOYMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>允许在包含空港的飞行场之间运输陆地单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SYNTHETIC_TECHNOCRACY" Language="zh_Hans_CN">
+			<Text>机械手臂在电脑的控制下划出的优美舞姿启发了您的工程师与科学家们。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NEAR_FUTURE_GOVERNANCE" Language="zh_Hans_CN">
+			<Text>采用了一种先进的政府形态之后，您的人民开始思考如何使民生更进一步。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CRAFTSMANSHIP" Language="zh_Hans_CN">
+			<Text>第一座城市周围的土地现已得到良好开发，我们可以开始细致优化生产工艺了。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_FOREIGN_TRADE" Language="zh_Hans_CN">
+			<Text>发现一个新大陆之后，我们发现了贸易机会的广阔世界。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_EARLY_EMPIRE" Language="zh_Hans_CN">
+			<Text>您土地上的公民越来越多，他们梦想着建立一个帝国。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_RECORDED_HISTORY" Language="zh_Hans_CN">
+			<Text>您的国民开始记录帝国的历史，计划要在您学院中的图书馆里存放大把的卷轴。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_FEUDALISM" Language="zh_Hans_CN">
+			<Text>一种领主和封臣的制度正在逐渐成形，以便管理您国土内的所有农田。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CIVIL_SERVICE" Language="zh_Hans_CN">
+			<Text>您庞大的都市中心很快会需要大群官僚。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MERCENARIES" Language="zh_Hans_CN">
+			<Text>有了这样庞大的常备军，如果您的军队需要进一步扩大的话，您也许会考虑增加些雇佣兵。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_DIVINE_RIGHT" Language="zh_Hans_CN">
+			<Text>您虔诚的国民坚定地相信您的统治是神明降下的祝福。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_DIPLOMATIC_SERVICE" Language="zh_Hans_CN">
+			<Text>建立联盟的繁复工作培养了您的第一支外交官团队。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_REFORMED_CHURCH" Language="zh_Hans_CN">
+			<Text>随着您的宗教发展，分裂的危险随之而来。改革腐败教会的行动最好尽快开始！</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_THE_ENLIGHTENMENT" Language="zh_Hans_CN">
+			<Text>您的伟人的观点激发了整片大地的思想讨论。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CIVIL_ENGINEERING" Language="zh_Hans_CN">
+			<Text>您的工程师建造了许多种区域，他们建造城市的技术已炉火纯青。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NATURAL_HISTORY" Language="zh_Hans_CN">
+			<Text>博物馆已经准备好收藏您的发现，是时候看看您在自然界可以发现什么了。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SCORCHED_EARTH" Language="zh_Hans_CN">
+			<Text>显然，现代战争充满残忍。您的军事理论开始体现出对全面战争的一些原则的深入思考。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_RAPID_DEPLOYMENT" Language="zh_Hans_CN">
+			<Text>有了横跨全球的空军基地，我们的军队已准备好随时部署到世界上的任何一个地方。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SAILING" Language="zh_Hans_CN">
+			<Text>在海岸边建成一座城市让您的文明深刻理解了如何在波涛之上辨别方向。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ASTROLOGY" Language="zh_Hans_CN">
+			<Text>新发现的自然奇观以大自然的雄伟激励了您的国民。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_IRRIGATION" Language="zh_Hans_CN">
+			<Text>建造培植一种资源的农场让您充分意识到灌溉作物的重要性。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_WRITING" Language="zh_Hans_CN">
+			<Text>遇见另一个文明国家后，您看到了发明新的交流方式的需求。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BRONZE_WORKING" Language="zh_Hans_CN">
+			<Text>和蛮族的战斗显示出更强大的武器的必要性。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_THE_WHEEL" Language="zh_Hans_CN">
+			<Text>采矿业让您拥有了建造轮轴的能力。轮子会应运而生吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CELESTIAL_NAVIGATION" Language="zh_Hans_CN">
+			<Text>您的渔民正在学习如何通过观察夜空来确定航线。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_IRON_WORKING" Language="zh_Hans_CN">
+			<Text>稳定的铁资源供应能让您铸造更好的武器和更强大的装甲。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MATHEMATICS" Language="zh_Hans_CN">
+			<Text>您的区域规划师研究出了几何的基础体系。或许一个完整的数学系统很快会随之出现？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION" Language="zh_Hans_CN">
+			<Text>建设水磨的工作让您的工人学到了很多关于施工实践的知识。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_TACTICS" Language="zh_Hans_CN">
+			<Text>您的矛兵证明了自己强而有力，但如今您的对手已变得更快更强。或许他们需要一种更长的武器？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_APPRENTICESHIP" Language="zh_Hans_CN">
+			<Text>现在原材料来自各种各样的矿山，更好地指导新人工匠如何使用它们变得至关重要。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_ENGINEERING" Language="zh_Hans_CN">
+			<Text>您的将领很关注您的水渠的修建过程。他们发现了一些使用这些工程技能的新方法。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MASS_PRODUCTION" Language="zh_Hans_CN">
+			<Text>有了现成的标准板材供应，您的海运业很快就能蓬勃发展。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_METAL_CASTING" Language="zh_Hans_CN">
+			<Text>战场上有了这么多弩手，使我们得以对远程武器进行大量的研究实践。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SIEGE_TACTICS" Language="zh_Hans_CN">
+			<Text>制造出射石炮后，您意识到城堡并非固若金汤——您需要更坚固的防御措施！</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_INDUSTRIALIZATION" Language="zh_Hans_CN">
+			<Text>您帝国里繁忙的工坊预示着伟大事物将至。工业革命是否已近在眼前了？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_SCIENCE" Language="zh_Hans_CN">
+			<Text>您勇敢的骑士击败了他的敌人。让我们从这场胜利中学习，并成为军事事务的学生吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_BALLISTICS" Language="zh_Hans_CN">
+			<Text>新的发电厂的开发带动了工业进步，这对您的武器生产很有帮助。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_COMPUTERS" Language="zh_Hans_CN">
+			<Text>现代政府需要完成大量的官僚事务。开发有效追踪数据的方法将有很大助益。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_TELECOMMUNICATIONS" Language="zh_Hans_CN">
+			<Text>有您在无线电和电视方面的探索作为铺垫，您已精通如何快速传输数据。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
