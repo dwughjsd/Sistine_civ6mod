@@ -953,7 +953,7 @@
 		<Update><Where TechnologyType="TECH_BANKING" /><Set BoostingCivicType="CIVIC_MERCANTILISM"/></Update>
 		<Update><Where TechnologyType="TECH_MASS_PRODUCTION" /><Set NumItems="3"/></Update>
 		<Update><Where TechnologyType="TECH_GUNPOWDER" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_BARRACKS" NumItems="2"/></Update>
-		<Update><Where TechnologyType="TECH_SQUARE_RIGGING" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_MUSKETMAN" NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_SQUARE_RIGGING" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_MUSKETMAN" NumItems="2"/></Update>
 		<Update><Where TechnologyType="TECH_METAL_CASTING" /><Set NumItems="3"/></Update>
 		<Update><Where TechnologyType="TECH_INDUSTRIALIZATION" /><Set NumItems="3"/></Update>
 		<Update><Where TechnologyType="TECH_BALLISTICS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_ARMORY" NumItems="2"/></Update>
@@ -971,11 +971,11 @@
 		<Update><Where TechnologyType="TECH_SYNTHETIC_MATERIALS" /><Set BoostClass="BOOST_TRIGGER_CREATED_NATIONAL_PARK" DistrictType="" NumItems="0"/></Update>
 		<Update><Where TechnologyType="TECH_TELECOMMUNICATIONS" /><Set TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_TELECOMMUNICATIONS" BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_BROADCAST_CENTER" NumItems="1"/></Update>
 		<!--need the project to unlock specific eureka-->
-		<Update><Where TechnologyType="TECH_SATELLITES" /><Set BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH" BuildingType="" NumItems="0"/></Update>
+		<Update><Where TechnologyType="TECH_SATELLITES" /><Set TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_SATELLITES_SST" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH" BuildingType="" NumItems="0"/></Update>
 		<Update><Where TechnologyType="TECH_GUIDANCE_SYSTEMS" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_ARTILLERY" NumItems="3"/></Update>
 		<Update><Where TechnologyType="TECH_LASERS" /><Set NumItems="1"/></Update>
 		<Update><Where TechnologyType="TECH_COMPOSITES" /><Set NumItems="2"/></Update>
-		<Update><Where TechnologyType="TECH_STEALTH_TECHNOLOGY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_BOMBER" NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_STEALTH_TECHNOLOGY" /><Set TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_STEALTH_SST" BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_BOMBER" NumItems="1"/></Update>
 		<Update><Where TechnologyType="TECH_ROBOTICS" /><Set BoostingCivicType="CIVIC_SPACE_RACE"/></Update>
 		<Update><Where TechnologyType="TECH_NANOTECHNOLOGY" /><Set NumItems="3"/></Update>
 		

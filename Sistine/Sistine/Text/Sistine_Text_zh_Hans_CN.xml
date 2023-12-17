@@ -989,5 +989,218 @@
 		<Replace Tag="LOC_POLICY_ROBBER_BARONS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>拥有银行或造船厂的城市+50% [ICON_Gold] 金币、+25% [ICON_Production] 生产力。[NEWLINE]但所有城市-2 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STATE_WORKFORCE" Language="zh_Hans_CN">
+			<Text>建造2种不同的专业化区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_EARLY_EMPIRE" Language="zh_Hans_CN">
+			<Text>将您的文明增长至至少7人口。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GAMES_RECREATION" Language="zh_Hans_CN">
+			<Text>研究数学科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_DEFENSIVE_TACTICS" Language="zh_Hans_CN">
+			<Text>建造2座远古城墙。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NAVAL_TRADITION" Language="zh_Hans_CN">
+			<Text>拥有2艘四列桨座战船。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MERCENARIES" Language="zh_Hans_CN">
+			<Text>使您的军队拥有10个陆地战斗单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MEDIEVAL_FAIRES" Language="zh_Hans_CN">
+			<Text>维持3条贸易路线。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_HUMANISM" Language="zh_Hans_CN">
+			<Text>建造2座露天剧场。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REFORMED_CHURCH" Language="zh_Hans_CN">
+			<Text>使12座城市信仰您的宗教。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COLONIALISM" Language="zh_Hans_CN">
+			<Text>研究工业化科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CIVIL_ENGINEERING" Language="zh_Hans_CN">
+			<Text>建造8种不同的专业化区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NATIONALISM" Language="zh_Hans_CN">
+			<Text>建造1座公立学校。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_OPERA_BALLET" Language="zh_Hans_CN">
+			<Text>建造2座艺术博物馆。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NATURAL_HISTORY" Language="zh_Hans_CN">
+			<Text>建造2座考古博物馆。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SCORCHED_EARTH" Language="zh_Hans_CN">
+			<Text>建造3个野战加农炮。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CONSERVATION" Language="zh_Hans_CN">
+			<Text>拥有1个迷人魅力的社区。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CAPITALISM_XP2" Language="zh_Hans_CN">
+			<Text>建造1座证券交易所。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NUCLEAR_PROGRAM" Language="zh_Hans_CN">
+			<Text>建造2座研究实验室。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MASS_MEDIA" Language="zh_Hans_CN">
+			<Text>建造3个娱乐中心区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MOBILIZATION" Language="zh_Hans_CN">
+			<Text>拥有3个现代步兵。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SUFFRAGE" Language="zh_Hans_CN">
+			<Text>建造2座医院。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_TOTALITARIANISM" Language="zh_Hans_CN">
+			<Text>建造1座军事学院。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CLASS_STRUGGLE" Language="zh_Hans_CN">
+			<Text>建造4座工厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_PROFESSIONAL_SPORTS_XP2" Language="zh_Hans_CN">
+			<Text>建造1座体育场。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CULTURAL_HERITAGE" Language="zh_Hans_CN">
+			<Text>建造1座电气时代或以后的奇观。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SPACE_RACE" Language="zh_Hans_CN">
+			<Text>建造2个宇航中心区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GLOBALIZATION_XP2" Language="zh_Hans_CN">
+			<Text>建造1座空港。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SOCIAL_MEDIA" Language="zh_Hans_CN">
+			<Text>研究激光科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ENVIRONMENTALISM" Language="zh_Hans_CN">
+			<Text>建造2个水力发电坝。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CORPORATE_LIBERTARIANISM" Language="zh_Hans_CN">
+			<Text>建造3处铀矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_DIGITAL_DEMOCRACY" Language="zh_Hans_CN">
+			<Text>拥有3个摇滚乐队。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SYNTHETIC_TECHNOCRACY" Language="zh_Hans_CN">
+			<Text>建造2座精密制造厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ARCHERY" Language="zh_Hans_CN">
+			<Text>拥有3个投石手。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MASONRY" Language="zh_Hans_CN">
+			<Text>建造2座采石场。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CURRENCY" Language="zh_Hans_CN">
+			<Text>改良2处种植园资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_IRON_WORKING" Language="zh_Hans_CN">
+			<Text>建造2处铁矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SHIPBUILDING" Language="zh_Hans_CN">
+			<Text>拥有1艘桨帆船。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MATHEMATICS" Language="zh_Hans_CN">
+			<Text>建造4种不同的专业化区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CONSTRUCTION" Language="zh_Hans_CN">
+			<Text>建造2座水磨。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ENGINEERING" Language="zh_Hans_CN">
+			<Text>采用一种自带4个政策槽位的政体。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_APPRENTICESHIP" Language="zh_Hans_CN">
+			<Text>建造4座矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MACHINERY" Language="zh_Hans_CN">
+			<Text>拥有2个石弩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STIRRUPS" Language="zh_Hans_CN">
+			<Text>建造1座马厩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CASTLES" Language="zh_Hans_CN">
+			<Text>获得1位大工程师。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_BANKING" Language="zh_Hans_CN">
+			<Text>获得重商主义市政。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MASS_PRODUCTION" Language="zh_Hans_CN">
+			<Text>建造3处伐木场。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GUNPOWDER" Language="zh_Hans_CN">
+			<Text>建造2座兵营。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SQUARE_RIGGING" Language="zh_Hans_CN">
+			<Text>拥有2个火枪手。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_METAL_CASTING" Language="zh_Hans_CN">
+			<Text>拥有3个弩手。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_INDUSTRIALIZATION_XP2" Language="zh_Hans_CN">
+			<Text>建造3座工坊。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_BALLISTICS" Language="zh_Hans_CN">
+			<Text>建造2座兵工厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STEAM_POWER" Language="zh_Hans_CN">
+			<Text>建造2座工厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SANITATION" Language="zh_Hans_CN">
+			<Text>获得城市化市政。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_RIFLING" Language="zh_Hans_CN">
+			<Text>建造3处硝石矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REPLACEABLE_PARTS" Language="zh_Hans_CN">
+			<Text>拥有2个线列步兵。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STEEL" Language="zh_Hans_CN">
+			<Text>拥有3处煤矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REFINING" Language="zh_Hans_CN">
+			<Text>建造3座燃煤发电厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ELECTRICITY_XP2" Language="zh_Hans_CN">
+			<Text>拥有1艘私掠船。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_RADIO" Language="zh_Hans_CN">
+			<Text>获得大众媒体市政。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CHEMISTRY" Language="zh_Hans_CN">
+			<Text>拥有1个3级同盟。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ADVANCED_FLIGHT_XP2" Language="zh_Hans_CN">
+			<Text>建设1座机库。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COMBINED_ARMS" Language="zh_Hans_CN">
+			<Text>拥有1架双翼机。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SYNTHETIC_MATERIALS" Language="zh_Hans_CN">
+			<Text>建造1座国家公园。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_TELECOMMUNICATIONS" Language="zh_Hans_CN">
+			<Text>建造1座广播中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SATELLITES_SST" Language="zh_Hans_CN">
+			<Text>完成发射地球卫星项目。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GUIDANCE_SYSTEMS" Language="zh_Hans_CN">
+			<Text>拥有3门火炮。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LASERS_XP2" Language="zh_Hans_CN">
+			<Text>拥有1架无人机。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COMPOSITES" Language="zh_Hans_CN">
+			<Text>拥有2辆坦克。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEALTH_SST" Language="zh_Hans_CN">
+			<Text>拥有1架轰炸机。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ROBOTICS" Language="zh_Hans_CN">
+			<Text>获得太空竞赛市政。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NANOTECHNOLOGY" Language="zh_Hans_CN">
+			<Text>建造3处铝矿山。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
