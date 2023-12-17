@@ -558,5 +558,15 @@
 		<Replace Tag="LOC_POLICY_TWILIGHT_VALOR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有近战单位进攻时+5 [ICON_Strength] 战斗力。[NEWLINE]但无法在本国领土外回复生命值。</Text>
 		</Replace>
+		<!--Boosts-->
+		<Replace Tag="LOC_BOOST_TRIGGER_SAILING" Language="zh_Hans_CN">
+			<Text>在海岸边建立1座城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_IRRIGATION" Language="zh_Hans_CN">
+			<Text>使用农场改良1种资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_THE_WHEEL" Language="zh_Hans_CN">
+			<Text>使用矿山改良1种资源。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

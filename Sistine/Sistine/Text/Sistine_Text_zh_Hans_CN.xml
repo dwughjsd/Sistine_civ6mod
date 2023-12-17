@@ -1092,7 +1092,7 @@
 			<Text>建造2座采石场。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_CURRENCY" Language="zh_Hans_CN">
-			<Text>改良2处种植园资源。</Text>
+			<Text>使用种植园改良2处资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_IRON_WORKING" Language="zh_Hans_CN">
 			<Text>建造2处铁矿山。</Text>
@@ -1110,7 +1110,7 @@
 			<Text>采用一种自带4个政策槽位的政体。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_APPRENTICESHIP" Language="zh_Hans_CN">
-			<Text>建造4座矿山。</Text>
+			<Text>建造4处矿山。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_MACHINERY" Language="zh_Hans_CN">
 			<Text>拥有2个石弩。</Text>
