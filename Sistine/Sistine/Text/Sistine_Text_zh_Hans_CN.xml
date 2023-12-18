@@ -1268,6 +1268,9 @@
 		<!--<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="zh_Hans_CN">
 			<Text>日益增长的货物种类使您的国民意识到采用一种交换媒介能让贸易更加灵活。</Text>
 		</Replace>-->
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="zh_Hans_CN"><!--No English text change, only Chinese text fix. Placed here in case of further changes.-->
+			<Text>您的 [ICON_TradeRoute] 贸易路线直接以物易物，而采用一种交换媒介能让贸易更加灵活。</Text>
+		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SHIPBUILDING" Language="zh_Hans_CN">
 			<Text>建造桨帆船教会了您很多关于建造更大型船只的知识。</Text>
 		</Replace>
