@@ -940,8 +940,8 @@
 	<Boosts>
 		<Update><Where TechnologyType="TECH_ARCHERY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_SLINGER" NumItems="3"/></Update>
 		<Update><Where TechnologyType="TECH_MASONRY" /><Set NumItems="2"/></Update>
-		<Update><Where TechnologyType="TECH_CURRENCY" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_IMPROVEMENTS" ImprovementType="IMPROVEMENT_PLANTATION" RequiresResource="true" NumItems="2"/></Update>
-		<Update><Where TechnologyType="TECH_IRON_WORKING" /><Set NumItems="2"/></Update>
+		<!--<Update><Where TechnologyType="TECH_CURRENCY" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_IMPROVEMENTS" ImprovementType="IMPROVEMENT_PLANTATION" RequiresResource="true" NumItems="2"/></Update>-->
+		<Update><Where TechnologyType="TECH_IRON_WORKING" /><Set NumItems="1"/></Update>
 		<Update><Where TechnologyType="TECH_SHIPBUILDING" /><Set NumItems="1"/></Update>
 		<Update><Where TechnologyType="TECH_MATHEMATICS" /><Set NumItems="4"/></Update>
 		<Update><Where TechnologyType="TECH_CONSTRUCTION" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" NumItems="2"/></Update>
@@ -959,9 +959,9 @@
 		<Update><Where TechnologyType="TECH_BALLISTICS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_ARMORY" NumItems="2"/></Update>
 		<Update><Where TechnologyType="TECH_STEAM_POWER" /><Set BuildingType="BUILDING_FACTORY"/></Update>
 		<Update><Where TechnologyType="TECH_SANITATION" /><Set BoostClass="BOOST_TRIGGER_CULTURVATE_CIVIC" BoostingCivicType="CIVIC_URBANIZATION" NumItems="0"/></Update>
-		<Update><Where TechnologyType="TECH_RIFLING" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_RIFLING" /><Set NumItems="2"/></Update>
 		<Update><Where TechnologyType="TECH_REPLACEABLE_PARTS" /><Set NumItems="2"/></Update>
-		<Update><Where TechnologyType="TECH_STEEL" /><Set BoostClass="BOOST_TRIGGER_IMPROVE_SPECIFIC_RESOURCE" ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_COAL" NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_STEEL" /><Set BoostClass="BOOST_TRIGGER_IMPROVE_SPECIFIC_RESOURCE" ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_COAL" NumItems="2"/></Update>
 		<Update><Where TechnologyType="TECH_REFINING" /><Set NumItems="3"/></Update>
 		<Update><Where TechnologyType="TECH_ELECTRICITY" /><Set NumItems="1"/></Update>
 		<Update><Where TechnologyType="TECH_RADIO" /><Set BoostClass="BOOST_TRIGGER_CULTURVATE_CIVIC" BoostingCivicType="CIVIC_MASS_MEDIA"/></Update>
@@ -977,7 +977,7 @@
 		<Update><Where TechnologyType="TECH_COMPOSITES" /><Set NumItems="2"/></Update>
 		<Update><Where TechnologyType="TECH_STEALTH_TECHNOLOGY" /><Set TriggerDescription="LOC_BOOST_TRIGGER_STEALTH_SST" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_STEALTH_SST" BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_BOMBER" NumItems="1"/></Update>
 		<Update><Where TechnologyType="TECH_ROBOTICS" /><Set BoostingCivicType="CIVIC_SPACE_RACE"/></Update>
-		<Update><Where TechnologyType="TECH_NANOTECHNOLOGY" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_NANOTECHNOLOGY" /><Set NumItems="2"/></Update>
 		
 		<Update><Where CivicType="CIVIC_STATE_WORKFORCE" /><Set NumItems="2"/></Update>
 		<Update><Where CivicType="CIVIC_EARLY_EMPIRE" /><Set NumItems="7"/></Update>
@@ -1008,7 +1008,7 @@
 		<Update><Where CivicType="CIVIC_GLOBALIZATION" /><Set NumItems="1"/></Update>
 		<Update><Where CivicType="CIVIC_SOCIAL_MEDIA" /><Set BoostingTechType="TECH_LASERS"/></Update>
 		<Update><Where CivicType="CIVIC_ENVIRONMENTALISM" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_HYDROELECTRIC_DAM" NumItems="2"/></Update>
-		<Update><Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" /><Set NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" /><Set NumItems="2"/></Update>
 		<Update><Where CivicType="CIVIC_DIGITAL_DEMOCRACY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_ROCK_BAND" NumItems="3"/></Update>
 		<Update><Where CivicType="CIVIC_SYNTHETIC_TECHNOCRACY" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_MANUFACTURING_PLANT" NumItems="2"/></Update>
 	</Boosts>

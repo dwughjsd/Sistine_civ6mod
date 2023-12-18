@@ -1077,7 +1077,7 @@
 			<Text>建造2座水力发电坝。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_CORPORATE_LIBERTARIANISM" Language="zh_Hans_CN">
-			<Text>建造3处铀矿山。</Text>
+			<Text>建造2处铀矿山。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_DIGITAL_DEMOCRACY" Language="zh_Hans_CN">
 			<Text>拥有3个摇滚乐队。</Text>
@@ -1091,11 +1091,11 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_MASONRY" Language="zh_Hans_CN">
 			<Text>建造2处采石场。</Text>
 		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_CURRENCY" Language="zh_Hans_CN">
+		<!--<Replace Tag="LOC_BOOST_TRIGGER_CURRENCY" Language="zh_Hans_CN">
 			<Text>使用种植园改良2处资源。</Text>
-		</Replace>
+		</Replace>-->
 		<Replace Tag="LOC_BOOST_TRIGGER_IRON_WORKING" Language="zh_Hans_CN">
-			<Text>建造2处铁矿山。</Text>
+			<Text>建造1处铁矿山。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_SHIPBUILDING" Language="zh_Hans_CN">
 			<Text>拥有1艘桨帆船。</Text>
@@ -1149,13 +1149,13 @@
 			<Text>获得城市化市政。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_RIFLING" Language="zh_Hans_CN">
-			<Text>建造3处硝石矿山。</Text>
+			<Text>建造2处硝石矿山。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_REPLACEABLE_PARTS" Language="zh_Hans_CN">
 			<Text>拥有2个线列步兵。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_STEEL" Language="zh_Hans_CN">
-			<Text>建造3处煤矿山。</Text>
+			<Text>建造2处煤矿山。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_REFINING" Language="zh_Hans_CN">
 			<Text>建造3座燃煤发电厂。</Text>
@@ -1200,7 +1200,7 @@
 			<Text>获得太空竞赛市政。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_NANOTECHNOLOGY" Language="zh_Hans_CN">
-			<Text>建造3处铝矿山。</Text>
+			<Text>建造2处铝矿山。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ENVIRONMENTALISM" Language="zh_Hans_CN">
 			<Text>您的人民证明了可再生能源不仅仅是一个概念，它有潜力成为电力生产的未来。</Text>
@@ -1265,9 +1265,9 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MASONRY" Language="zh_Hans_CN">
 			<Text>使用采石场开采资源为您提供了雇佣泥瓦匠所需的原材料。</Text>
 		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="zh_Hans_CN">
+		<!--<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="zh_Hans_CN">
 			<Text>日益增长的货物种类使您的国民意识到采用一种交换媒介能让贸易更加灵活。</Text>
-		</Replace>
+		</Replace>-->
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SHIPBUILDING" Language="zh_Hans_CN">
 			<Text>建造桨帆船教会了您很多关于建造更大型船只的知识。</Text>
 		</Replace>
