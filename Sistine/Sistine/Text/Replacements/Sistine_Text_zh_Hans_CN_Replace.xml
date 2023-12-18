@@ -488,6 +488,9 @@
 		<Replace Tag="LOC_POLICY_INVENTION_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>每回合+4 [ICON_GreatEngineer] 大工程师点数。每座工坊每回合+2 [ICON_GreatEngineer] 大工程师点数。</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您的国际 [ICON_TradeRoute] 贸易路线+2 [ICON_Culture] 文化值以及+2 [ICON_Science] 科技值，且目的地每个改良的奢侈资源和战略资源提供+1 [ICON_Gold] 金币。</Text>
+		</Replace>
 		<!--Wildcard-->
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
 			<Text>游戏中有6种不同的政策类型和4种政策槽位。所有类型的政策都必须放入政体中同类的空槽位，但通用槽位能放入任意类型的政策。</Text>

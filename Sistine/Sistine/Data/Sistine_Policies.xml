@@ -115,6 +115,7 @@
 		<Delete PolicyType="POLICY_LIMITANEI" ObsoletePolicy="POLICY_MARTIAL_LAW"/>
 		<Row PolicyType="POLICY_INTEGRATED_SPACE_CELL" ObsoletePolicy="POLICY_FUTURE_VICTORY_SCIENCE"/>
 		<Delete PolicyType="POLICY_GOD_KING" ObsoletePolicy="POLICY_SCRIPTURE"/>
+		<Row PolicyType="POLICY_GOD_KING" ObsoletePolicy="POLICY_DEFENSE_OF_MOTHERLAND"/>
 		<Delete PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_COLONIAL_OFFICES"/>
 		<Delete PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_RATIONALISM"/>
 		<Row PolicyType="POLICY_URBAN_PLANNING" ObsoletePolicy="POLICY_DEFENSE_OF_MOTHERLAND"/>
