@@ -456,7 +456,8 @@
 		<Delete TechnologyType="TECH_OFFWORLD_MISSION"/>
 	</Technologies_XP2>
 	<TechnologyPrereqs>
-		<Row Technology="TECH_ASTROLOGY" PrereqTech="TECH_POTTERY"/>
+		<!--Disable it for now to mitigate the issue that all AIs doesn't care religion at all-->
+		<!--<Row Technology="TECH_ASTROLOGY" PrereqTech="TECH_POTTERY"/>-->
 		<Delete Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_BANKING"/>
 		<Delete Technology="TECH_ECONOMICS" PrereqTech="TECH_METAL_CASTING"/>
 		<Delete Technology="TECH_ROBOTICS" PrereqTech="TECH_LASERS"/>
