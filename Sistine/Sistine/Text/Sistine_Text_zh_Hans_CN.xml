@@ -36,7 +36,7 @@
 			<Text>将农场改良设施升级为机械化农业，与每2个农场改良设施相邻时，农场提供的 [ICON_Food] 食物+1。建造者+1额外劳动力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_URBANIZATION_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>采石场+1 [ICON_Production] 生产力。牧场+1 [ICON_Food] 食物。</Text>
+			<Text>采石场+1 [ICON_Production] 生产力。牧场+1 [ICON_Food] 食物。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造伐木场的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。只能建在树林上。解锁“公会”市政后也能建造雨林上。</Text>
@@ -51,7 +51,7 @@
 			<Text>所有海军和水运单位可在海洋单元格上航行。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>渔船+2 [ICON_Gold] 金币。</Text>
+			<Text>渔船+2 [ICON_Gold] 金币。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>渔船+1 [ICON_Food] 食物。</Text>
@@ -1333,6 +1333,25 @@
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NANOTECHNOLOGY" Language="zh_Hans_CN">
 			<Text>拥有可以用于实验的各色金属可以帮助您的科学家推进全新领域的研究。</Text>
+		</Replace>
+		<!--Trade route overhaul-->
+		<Replace Tag="LOC_CIVIC_COLD_WAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可额外招募一名间谍。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_BANKING_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMBUSTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>水运单位+1 [ICON_Movement] 移动力。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_GUIDANCE_SYSTEMS_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ECONOMICS_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>[ICON_TradeRoute] 贸易路线产出+50%。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

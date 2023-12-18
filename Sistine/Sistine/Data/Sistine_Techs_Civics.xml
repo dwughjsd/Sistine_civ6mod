@@ -26,6 +26,22 @@
 			<Set Description=""/>
 		</Update>
 		<Update>
+			<Where TechnologyType="TECH_CURRENCY" />
+			<Set Description="LOC_TECH_CURRENCY_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_BANKING" />
+			<Set Description="LOC_TECH_BANKING_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ECONOMICS" />
+			<Set Description="LOC_TECH_ECONOMICS_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_GUIDANCE_SYSTEMS" />
+			<Set Description="LOC_TECH_GUIDANCE_SYSTEMS_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_MASS_PRODUCTION" />
 			<Set Description="LOC_TECH_MASS_PRODUCTION_DESCRIPTION_SST"/>
 		</Update>
