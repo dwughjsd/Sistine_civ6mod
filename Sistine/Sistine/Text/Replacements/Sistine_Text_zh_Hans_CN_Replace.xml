@@ -706,5 +706,11 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_TELECOMMUNICATIONS" Language="zh_Hans_CN">
 			<Text>有您在无线电和电视方面的探索作为铺垫，您已精通如何快速传输数据。</Text>
 		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COMPUTERS" Language="zh_Hans_CN">
+			<Text>采用一种自带8个政策槽位的政体。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NEAR_FUTURE_GOVERNANCE" Language="zh_Hans_CN">
+			<Text>采用一种自带10个政策槽位的政体。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
