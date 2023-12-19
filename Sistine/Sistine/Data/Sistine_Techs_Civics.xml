@@ -979,7 +979,7 @@
 		<Update><Where TechnologyType="TECH_SHIPBUILDING" /><Set NumItems="1"/></Update>
 		<Update><Where TechnologyType="TECH_MATHEMATICS" /><Set NumItems="4"/></Update>
 		<Update><Where TechnologyType="TECH_CONSTRUCTION" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" NumItems="2"/></Update>
-		<Update><Where TechnologyType="TECH_ENGINEERING" /><Set BoostClass="BOOST_TRIGGER_HAVE_GOVERNMENT_TIER" NumItems="Tier1"/></Update>
+		<Update><Where TechnologyType="TECH_ENGINEERING" /><Set BoostClass="BOOST_TRIGGER_HAVE_GOVERNMENT_TIER" NumItems="0" GovernmentTierType="Tier1"/></Update>
 		<Update><Where TechnologyType="TECH_APPRENTICESHIP" /><Set NumItems="4"/></Update>
 		<Update><Where TechnologyType="TECH_MACHINERY" /><Set Unit1Type="UNIT_CATAPULT" NumItems="2"/></Update>
 		<Update><Where TechnologyType="TECH_STIRRUPS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_STABLE" NumItems="1"/></Update>
