@@ -6,6 +6,7 @@
 		<Row Name="ICON_BUILDING_MANUFACTURING_PLANT"              Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
 		<Row Name="ICON_BUILDING_HOSPITAL"           Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
 		<Row Name="ICON_BUILDING_MEDICAL_LAB"         Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
+		<Row Name="ICON_BELIEF_ORAL_TRADITION"              Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="14"/>
 	</IconDefinitions>
 	<IconAliases>
 		<Delete Name="ICON_POLICY_FINEST_HOUR"/>

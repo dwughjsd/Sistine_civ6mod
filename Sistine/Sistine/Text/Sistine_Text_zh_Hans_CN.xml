@@ -129,6 +129,12 @@
 			<Text>在拥有外交办或发电厂的城市中建造奇观、建筑和区域时+1 [ICON_Production] 生产力。如城市同时拥有外交办和发电厂，则+2 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<!--Beliefs-->
+		<Replace Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>种植园提供的 [ICON_Culture] 文化值+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>种植园提供的 [ICON_Food] 食物+1。</Text>
+		</Replace>
 		<Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>迷人单元格提供的 [ICON_Faith] 信仰值+1，惊艳单元格额外+1。位于迷人或惊艳单元格上的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
 		</Replace>
