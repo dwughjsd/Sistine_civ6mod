@@ -993,7 +993,7 @@
 			<Text>建造2种不同的专业化区域。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_EARLY_EMPIRE" Language="zh_Hans_CN">
-			<Text>将您的文明增长至至少7人口。</Text>
+			<Text>将您的文明增长至至少6人口。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_GAMES_RECREATION" Language="zh_Hans_CN">
 			<Text>研究数学科技。</Text>
@@ -1086,7 +1086,7 @@
 			<Text>建造2座精密制造厂。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_ARCHERY" Language="zh_Hans_CN">
-			<Text>拥有3个投石手。</Text>
+			<Text>拥有2个投石手。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_MASONRY" Language="zh_Hans_CN">
 			<Text>建造2处采石场。</Text>

@@ -955,7 +955,7 @@
 	</ModifierArguments>
 
 	<Boosts>
-		<Update><Where TechnologyType="TECH_ARCHERY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_SLINGER" NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_ARCHERY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_SLINGER" NumItems="2"/></Update>
 		<Update><Where TechnologyType="TECH_MASONRY" /><Set NumItems="2"/></Update>
 		<!--<Update><Where TechnologyType="TECH_CURRENCY" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_IMPROVEMENTS" ImprovementType="IMPROVEMENT_PLANTATION" RequiresResource="true" NumItems="2"/></Update>-->
 		<Update><Where TechnologyType="TECH_IRON_WORKING" /><Set NumItems="1"/></Update>
@@ -997,7 +997,7 @@
 		<Update><Where TechnologyType="TECH_NANOTECHNOLOGY" /><Set NumItems="2"/></Update>
 		
 		<Update><Where CivicType="CIVIC_STATE_WORKFORCE" /><Set NumItems="2"/></Update>
-		<Update><Where CivicType="CIVIC_EARLY_EMPIRE" /><Set NumItems="7"/></Update>
+		<Update><Where CivicType="CIVIC_EARLY_EMPIRE" /><Set NumItems="6"/></Update>
 		<Update><Where CivicType="CIVIC_GAMES_RECREATION" /><Set BoostingTechType="TECH_MATHEMATICS"/></Update>
 		<Update><Where CivicType="CIVIC_DEFENSIVE_TACTICS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_WALLS" NumItems="2"/></Update>
 		<Update><Where CivicType="CIVIC_NAVAL_TRADITION" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_QUADRIREME" NumItems="2"/></Update>
