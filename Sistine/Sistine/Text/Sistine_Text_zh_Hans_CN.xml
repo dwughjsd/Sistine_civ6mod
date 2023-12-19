@@ -15,7 +15,7 @@
 			<Text>将农场改良设施升级为现代农业，为相邻的每个农场改良设施+1 [ICON_Food] 食物。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>水运单位+2 [ICON_Movement] 移动力。矿山改良设施+1 [ICON_Production] 生产力。</Text>
+			<Text>水运单位+2 [ICON_Movement] 移动力。矿山改良设施+1 [ICON_Production] 生产力。城市中的每位 [ICON_Citizen] 市民提供+0.3 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_GUILDS_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>采石场+1 [ICON_Production] 生产力。伐木场可建在雨林上。</Text>

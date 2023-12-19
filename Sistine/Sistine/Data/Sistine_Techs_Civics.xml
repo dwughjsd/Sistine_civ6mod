@@ -421,6 +421,9 @@
 		<Row TechnologyType="TECH_STEEL">
 			<ModifierId>STEEL_OUTERDEFENSE_RENAISSANCE</ModifierId>
 		</Row>
+		<Row TechnologyType="TECH_STEAM_POWER">
+			<ModifierId>STEELPOWER_PRODUCTIVE_CITIZEN</ModifierId>
+		</Row>		
 	</TechnologyModifiers>
 	
 	<TechnologyRandomCosts>
@@ -877,6 +880,10 @@
 			<ModifierId>SOCIALMEDIA_SKITOURISM</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>STEELPOWER_PRODUCTIVE_CITIZEN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -951,6 +958,16 @@
 			<ModifierId>SOCIALMEDIA_SKITOURISM</ModifierId>
 			<Name>ScalingFactor</Name>
 			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEELPOWER_PRODUCTIVE_CITIZEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>.3</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEELPOWER_PRODUCTIVE_CITIZEN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
 		</Row>
 	</ModifierArguments>
 
