@@ -412,7 +412,7 @@
 			<Text>初始便拥有1次免费升级。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>神祠和寺庙+2 [ICON_Science] 科技值。与该城连接的其他文明 [ICON_TradeRoute] 贸易路线向城市提供+1 [ICON_SCIENCE] 科技值与+1 [ICON_GOLD] 金币。与该城连接的每条 [ICON_TradeRoute] 贸易路线提供+2 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须修建在沙漠或沙漠丘陵之上，同时必须与大学区域相邻。</Text>
+			<Text>神祠和寺庙+1 [ICON_Science] 科技值。其他文明通往此城市的 [ICON_TradeRoute] 贸易路线向对方提供+1 [ICON_SCIENCE] 科技值与+1 [ICON_GOLD] 金币，向此城市提供+2 [ICON_SCIENCE] 科技值。通往此城市的国内 [ICON_TradeRoute] 贸易路线提供+2 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须修建在沙漠或沙漠丘陵之上，同时必须与大学区域相邻。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+1 军事政策槽位[NEWLINE][NEWLINE]为此城+20% [ICON_Culture] 文化值。提供同堡垒改良设施一样的防御加成。必须建立在邻近军营区的丘陵上。</Text>

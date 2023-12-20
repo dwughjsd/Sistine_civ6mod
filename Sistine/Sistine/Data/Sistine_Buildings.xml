@@ -936,7 +936,7 @@
 		<Row>
 			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
@@ -951,7 +951,7 @@
 		<Row>
 			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
