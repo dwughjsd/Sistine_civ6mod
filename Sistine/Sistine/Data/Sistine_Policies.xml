@@ -295,7 +295,7 @@
 		<Row>
 			<ModifierId>PROFESSIONALARMY_ENCAMPMENTAMENITY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>FORCEMODERNIZATION_ARMORYAMENITY</ModifierId>
@@ -309,7 +309,7 @@
 		<Row>
 			<ModifierId>TOTALWAR_TRAINEDUNIT_EXPERIENCE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>NEWDEAL_SPECIALTYAMENITY_2</ModifierId>
@@ -1200,6 +1200,16 @@
 			<ModifierId>MONASTICISM_CULTURE_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>-25</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>INQUISITION_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>INQUISITION_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-15</Value>
 		</InsertOrIgnore>
 		<InsertOrIgnore>
 			<ModifierId>ISOLATIONISM_DOMESTIC_TRADE_ROUTE_FOOD</ModifierId>
