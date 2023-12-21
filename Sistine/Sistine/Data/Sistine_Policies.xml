@@ -964,6 +964,18 @@
 			<Name>Amount</Name>
 			<Value>4</Value>
 		</Row>
+		<Delete ModifierId="COLONIZATION_SETTLERPRODUCTION" Name="Amount"/>
+		<Delete ModifierId="EXPROPRIATION_SETTLERPRODUCTION" Name="Amount"/>
+		<Row>
+			<ModifierId>COLONIZATION_SETTLERPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>EXPROPRIATION_SETTLERPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
 	</ModifierArguments>
 	<Policy_GovernmentExclusives_XP2>
 		<Delete PolicyType="POLICY_FINEST_HOUR" GovernmentType="GOVERNMENT_DEMOCRACY" />

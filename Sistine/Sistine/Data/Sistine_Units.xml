@@ -158,7 +158,7 @@
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_BUILDER" />
-			<Set Cost="70" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
+			<Set Cost="75" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_SETTLER" />
@@ -166,7 +166,7 @@
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_TRADER" />
-			<Set Cost="75" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
+			<Set Cost="80" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_MISSIONARY" />

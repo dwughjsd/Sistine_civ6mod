@@ -974,8 +974,11 @@
 		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>边境扩张速度提高40%。</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_COLONIZATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产开拓者+30% [ICON_Production] 生产力。</Text>
+		</Replace>
 		<Replace Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>生产开拓者 [ICON_Production] 时生产力+50%。边境扩张速度提高40%。</Text>
+			<Text>生产开拓者+30% [ICON_Production] 生产力。边境扩张速度提高40%。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>拥有军营的城市生产的单位初始可获得一项免费升级。</Text>

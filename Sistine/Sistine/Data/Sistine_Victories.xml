@@ -88,11 +88,11 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
-			<Set DefaultValue="0.7" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" />
-			<Set DefaultValue="6.0" />
+			<Set DefaultValue="4.0" />
 		</Update>
 		<!--Great artists GPP should be divided by 2 or AI will feel that it is VERY important. As now we have wonders to provide culture, Theaters are not that important-->
 		<Update>
@@ -114,7 +114,7 @@
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
-			<Set DefaultValue="30.0" />
+			<Set DefaultValue="100.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
@@ -123,7 +123,7 @@
 		<!--Much more important than spy-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" />
-			<Set DefaultValue="15.0" />
+			<Set DefaultValue="12.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
@@ -176,7 +176,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
-			<Set DefaultValue="0.3" />
+			<Set DefaultValue="0.25" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_TOURISM" />
@@ -188,7 +188,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_SPACE_RACE" />
-			<Set DefaultValue="1000" />
+			<Set DefaultValue="500" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GOLDENAGE_POINT" />
