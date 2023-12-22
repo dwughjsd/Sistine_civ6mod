@@ -573,7 +573,7 @@
 		/>
 		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
 			Name="Amount"
-			Value="50"
+			Value="30"
 		/>
 		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
 			Name="UnitType"
@@ -581,7 +581,7 @@
 		/>
 		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
 			Name="Amount"
-			Value="2"
+			Value="1"
 		/>
 		<Row ModifierId="GOV_GRANT_SETTLER_SST"
 			Name="UnitType"
