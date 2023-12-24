@@ -228,10 +228,10 @@
 		</Replace>
 		<!--Trade route overhaul-->
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您城市中专职金融和贸易的区域。从此城出发的国内 [ICON_TradeRoute] 贸易路线+2 [ICON_Production] 生产力、+2 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+6 [ICON_Gold] 金币。</Text>
+			<Text>您城市中专职金融和贸易的区域。从此城出发的国内 [ICON_TradeRoute] 贸易路线+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您城市中进行海军活动的区域。若此城尚未建成商业中心，从此城出发的国内 [ICON_TradeRoute] 贸易路线+2 [ICON_Production] 生产力、+2 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+6 [ICON_Gold] 金币。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
+			<Text>您城市中进行海军活动的区域。若此城尚未建成商业中心，从此城出发的国内 [ICON_TradeRoute] 贸易路线+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

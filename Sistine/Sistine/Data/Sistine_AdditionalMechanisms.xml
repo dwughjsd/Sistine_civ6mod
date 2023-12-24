@@ -428,7 +428,7 @@
 		<Row>
 			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_FOOD_MODIFIER</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_PRODUCTION_MODIFIER</ModifierId>
@@ -438,7 +438,7 @@
 		<Row>
 			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_PRODUCTION_MODIFIER</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_GOLD_MODIFIER</ModifierId>
@@ -448,7 +448,7 @@
 		<Row>
 			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_GOLD_MODIFIER</ModifierId>
 			<Name>Amount</Name>
-			<Value>6</Value>
+			<Value>3</Value>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>
