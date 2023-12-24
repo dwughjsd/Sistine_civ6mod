@@ -998,6 +998,18 @@
 		<Replace Tag="LOC_POLICY_ROBBER_BARONS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>拥有银行或造船厂的城市+50% [ICON_Gold] 金币、+25% [ICON_Production] 生产力。[NEWLINE]但所有城市-2 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_ELITE_FORCES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位的战斗经验值+100%。[NEWLINE]但每个战斗和间谍单位的维护费用+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROGUE_STATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造城市项目时+50% [ICON_Production] 生产力。[NEWLINE]但无法通过影响力获得新的 [ICON_Envoy] 使者。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_AUTOMATED_WORKFORCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每位 [ICON_Citizen] 公民每回合带来+2 [ICON_PRODUCTION] 生产力。[NEWLINE]但城市每回合-1 [ICON_Amenities] 宜居度、-5忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DISINFORMATION_CAMPAIGN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有剧院广场的城市+4 [ICON_Amenities] 宜居度。每拥有1个广播中心，每回合获得的 [ICON_Favor] 外交支持便+3。[NEWLINE]但所有城市中的 [ICON_SCIENCE] 科技值和 [ICON_Culture] 文化值-20%。</Text>
+		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_STATE_WORKFORCE" Language="zh_Hans_CN">
 			<Text>建造2种不同的专业化区域。</Text>
 		</Replace>

@@ -1147,6 +1147,12 @@
 		<Delete PolicyType="POLICY_ISOLATIONISM" ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_GOLD"/>
 		<Delete PolicyType="POLICY_ROBBER_BARONS" ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_GOLD"/>
 		<Delete PolicyType="POLICY_ROBBER_BARONS" ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_PRODUCTION"/>
+		<Delete PolicyType="POLICY_ELITE_FORCES" ModifierId="ELITEFORCES_EXTRA_MAINTENANCE"/>
+		<Delete PolicyType="POLICY_ROGUE_STATE" ModifierId="ROGUESTATE_MANHATTANPROJECT_PRODUCTION"/>
+		<Delete PolicyType="POLICY_ROGUE_STATE" ModifierId="ROGUESTATE_PROJECTIVY_PRODUCTION"/>
+		<Delete PolicyType="POLICY_ROGUE_STATE" ModifierId="ROGUESTATE_NUCLEARDEVICE_PRODUCTION"/>
+		<Delete PolicyType="POLICY_ROGUE_STATE" ModifierId="ROGUESTATE_THERMONUCLEARDEVICE_PRODUCTION"/>
+		<Delete PolicyType="POLICY_AUTOMATED_WORKFORCE" ModifierId="AUTOMATED_WORKFORCE_PROJECT_PRODUCTION"/>
 	</PolicyModifiers>
 	<Modifiers>
 		<Delete ModifierId="MONASTICISM_CULTURE_MODIFIER"/>
@@ -1167,6 +1173,10 @@
 		<InsertOrIgnore PolicyType="POLICY_ISOLATIONISM" ModifierId="ISOLATIONISM_DOMESTIC_TRADE_ROUTE_GOLD"/>
 		<InsertOrIgnore PolicyType="POLICY_ROBBER_BARONS" ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_GOLD"/>
 		<InsertOrIgnore PolicyType="POLICY_ROBBER_BARONS" ModifierId="ROBBERBARONS_BANK_OR_SHIPYARD_PRODUCTION"/>
+		<InsertOrIgnore PolicyType="POLICY_ELITE_FORCES" ModifierId="ELITEFORCES_EXTRA_MAINTENANCE"/>
+		<Row PolicyType="POLICY_ROGUE_STATE" ModifierId="ROGUESTATE_PROJECT_PRODUCTION"/>
+		<Row PolicyType="POLICY_AUTOMATED_WORKFORCE" ModifierId="AUTOMATED_WORKFORCE_PRODUCTIONPERPOP"/>
+		<Row PolicyType="POLICY_DISINFORMATION_CAMPAIGN" ModifierId="DISINFORMATION_CAMPAIGN_THEATER_AMENITIES"/>
 	</PolicyModifiers>
 	<Modifiers>
 		<InsertOrIgnore>
@@ -1200,6 +1210,23 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>BUILDING_IS_BANK_OR_SHIPYARD</SubjectRequirementSetId>
 		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ELITEFORCES_EXTRA_MAINTENANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT</ModifierType>
+		</InsertOrIgnore>
+		<Row>
+			<ModifierId>ROGUESTATE_PROJECT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_PROJECTS_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AUTOMATED_WORKFORCE_PRODUCTIONPERPOP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DISINFORMATION_CAMPAIGN_THEATER_AMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_THEATER_DISTRICT_SST</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Delete ModifierId="MONASTICISM_CULTURE_MODIFIER"/>
@@ -1294,6 +1321,43 @@
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>ELITEFORCES_EXTRA_MAINTENANCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</InsertOrIgnore>
+		<Row>
+			<ModifierId>ROGUESTATE_PROJECT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>AUTOMATED_WORKFORCE_PRODUCTIONPERPOP</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AUTOMATED_WORKFORCE_PRODUCTIONPERPOP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Delete ModifierId="DISINFORMATION_CAMPAIGN_SCIENCE_REDUCTION" Name="Amount"/>
+		<Row>
+			<ModifierId>DISINFORMATION_CAMPAIGN_SCIENCE_REDUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>-20</Value>
+		</Row>
+		<Delete ModifierId="DISINFORMATION_CAMPAIGN_CULTURE_REDUCTION" Name="Amount"/>
+		<Row>
+			<ModifierId>DISINFORMATION_CAMPAIGN_CULTURE_REDUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>-20</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISINFORMATION_CAMPAIGN_THEATER_AMENITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
 		<Delete RequirementSetId="NOT_CITY_HAS_HOLY_SITE"/>
@@ -1306,6 +1370,10 @@
 			<RequirementSetId>BUILDING_IS_BANK_OR_SHIPYARD</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</InsertOrIgnore>
+		<Row>
+			<RequirementSetId>CITY_HAS_THEATER_DISTRICT_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Delete RequirementSetId="NOT_CITY_HAS_HOLY_SITE"/>
@@ -1322,6 +1390,10 @@
 			<RequirementSetId>BUILDING_IS_BANK_OR_SHIPYARD</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_SHIPYARD_DRAMATIC</RequirementId>
 		</InsertOrIgnore>
+		<Row>
+			<RequirementSetId>CITY_HAS_THEATER_DISTRICT_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_THEATER_DISTRICT</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Delete RequirementId="REQUIRES_CITY_HAS_NO_HOLY_SITE"/>
