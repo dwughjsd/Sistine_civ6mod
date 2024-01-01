@@ -712,5 +712,148 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_NEAR_FUTURE_GOVERNANCE" Language="zh_Hans_CN">
 			<Text>采用一种自带10个政策槽位的政体。</Text>
 		</Replace>
+		<!--Governors-->
+		<Replace Tag="LOC_GOVERNOR_THE_DEFENDER_TITLE" Language="zh_Hans_CN">
+			<Text>代城主</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_CARDINAL_TITLE" Language="zh_Hans_CN">
+			<Text>枢机</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_TITLE" Language="zh_Hans_CN">
+			<Text>总管</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_BUILDER_TITLE" Language="zh_Hans_CN">
+			<Text>测绘师</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_DEFENDER_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>代城主</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_CARDINAL_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>枢机</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>总管</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_BUILDER_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>测绘师</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_THE_EDUCATOR_NAME" Language="zh_Hans_CN">
+			<Text>宾伽罗</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_NAME" Language="zh_Hans_CN">
+			<Text>要点工事</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_NAME" Language="zh_Hans_CN">
+			<Text>驻军司令</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_NAME" Language="zh_Hans_CN">
+			<Text>枪眼垛口</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_NAME" Language="zh_Hans_CN">
+			<Text>传书飞鸿</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_NAME" Language="zh_Hans_CN">
+			<Text>外交特使</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_NAME" Language="zh_Hans_CN">
+			<Text>绰有余裕</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER_NAME" Language="zh_Hans_CN">
+			<Text>幕后主谋</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_NAME" Language="zh_Hans_CN">
+			<Text>主教团体</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_NAME" Language="zh_Hans_CN">
+			<Text>大裁判官</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_NAME" Language="zh_Hans_CN">
+			<Text>圣建筑师</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_NAME" Language="zh_Hans_CN">
+			<Text>按手之礼</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_NAME" Language="zh_Hans_CN">
+			<Text>上帝坚垒</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_NAME" Language="zh_Hans_CN">
+			<Text>主保圣人</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_NAME" Language="zh_Hans_CN">
+			<Text>破土先锋</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_NAME" Language="zh_Hans_CN">
+			<Text>盈余统筹</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_NAME" Language="zh_Hans_CN">
+			<Text>供应保障</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_NAME" Language="zh_Hans_CN">
+			<Text>实业大亨</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION_NAME" Language="zh_Hans_CN">
+			<Text>垂直整合</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_NAME" Language="zh_Hans_CN">
+			<Text>公会领袖</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_NAME" Language="zh_Hans_CN">
+			<Text>公园游憩</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_NAME" Language="zh_Hans_CN">
+			<Text>规划专员</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_NAME" Language="zh_Hans_CN">
+			<Text>图书馆长</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_NAME" Language="zh_Hans_CN">
+			<Text>鉴赏行家</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_NAME" Language="zh_Hans_CN">
+			<Text>研究人员</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_GRANTS_NAME" Language="zh_Hans_CN">
+			<Text>财政拨款</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_NAME" Language="zh_Hans_CN">
+			<Text>扩军推手</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_NAME" Language="zh_Hans_CN">
+			<Text>土地征购</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_NAME" Language="zh_Hans_CN">
+			<Text>港务部长</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_NAME" Language="zh_Hans_CN">
+			<Text>征税官僚</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR_NAME" Language="zh_Hans_CN">
+			<Text>项目承包</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_NAME" Language="zh_Hans_CN">
+			<Text>典藏策展</Text>
+		</Replace>
+		<!--Translation from https://www.bilibili.com/read/cv3683053/ -->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_NAME" Language="zh_Hans_CN">
+			<Text>内廷鹰监</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SERASKER_NAME" Language="zh_Hans_CN">
+			<Text>总司令</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_NAME" Language="zh_Hans_CN">
+			<Text>御寝殿侍长</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_NAME" Language="zh_Hans_CN"><!--Kapi Agha-->
+			<Text>守门官</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_NAME" Language="zh_Hans_CN">
+			<Text>绿能补贴</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_NAME" Language="zh_Hans_CN">
+			<Text>投资外商</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_NAME" Language="zh_Hans_CN">
+			<Text>给水工程</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
