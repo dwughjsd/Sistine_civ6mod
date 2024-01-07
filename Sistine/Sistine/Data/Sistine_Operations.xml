@@ -83,7 +83,7 @@
 		<Row ListType="ExpansionistOperations"/>
 	</AiListTypes>
 	<Strategy_Priorities>
-		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ListType="ExpansionOperations"/>
+		<InsertOrIgnore StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ListType="ExpansionOperations"/>
 	</Strategy_Priorities>
 	<AiLists>
 		<Row ListType="ExpansionOperations" System="AiOperationTypes"/>

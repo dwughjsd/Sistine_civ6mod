@@ -1377,5 +1377,69 @@
 		<Replace Tag="LOC_TECH_ECONOMICS_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>[ICON_TradeRoute] 贸易路线产出+50%。</Text>
 		</Replace>
+		<!--Governors-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>3回合即可就职。城市驻军 [ICON_Strength] 战斗力+5。您在9个单元格内的其他城市每回合获得对您文明的4点忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市领土内的单位防御时可+5 [ICON_Strength] 战斗力。此城中生产的所有军事单位若初始未拥有免费升级，则其初始可获得一项免费升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>就职城市无法被围攻。城市中储存的战略资源每回合额外增加1点。城市中每处战略资源每回合+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市每回合获得一次额外的 [ICON_Ranged] 远程攻击机会， [ICON_Ranged] 远程攻击力+5。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>防御飞机和洲际弹道导弹的攻击时，位于城市领土中的防空支援单位+25 [ICON_Strength] 战斗力。城市生产支援单位时+100% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在城市中生产单位时+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>9个单元格内其他文明的城市每回合将失去4点忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您以此城为终点的 [ICON_TradeRoute] 贸易路线为起点城市+1 [ICON_Food] 食物、+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城所有工业区建筑+2 [ICON_Production] 生产力。燃煤发电厂、燃油发电厂与核电站消耗每1份资源产生的 [ICON_POWER] 电力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城生产单位所需战略资源花费减少50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城修建区域和建筑时+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可在此城建造渔场改良设施。+2 [ICON_Food] 食物、+0.5 [ICON_Housing] 住房，每与1份海洋资源相邻则+1 [ICON_Food] 食物。梁在此城就职时+2 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城每个水渠和堤坝区域+2 [ICON_HOUSING] 住房、+2 [ICON_AMENITIES] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可在此城建造市立公园改良设施。+3 [ICON_Culture] 文化值，+2魅力。若与水域相邻，+1 [ICON_Amenities] 宜居度。梁在此城就职时+3 [ICON_CULTURE] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城剧院广场的相邻加成加倍。此城的露天剧场、艺术博物馆和考古博物馆+25% [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城学院的相邻加成加倍。此城的图书馆和公立学校+25% [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在城市中进行项目时+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城购买单元格所需的 [ICON_Gold] 金币降低20%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城商业中心和港口的相邻加成加倍。每条经过此城的外国 [ICON_TradeRoute] 贸易路线为您每回合+3 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个地貌+2 [ICON_Gold] 金币。此城与未改良地貌相邻的单元格获得+1魅力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城所有离岸风力发电厂、太阳能农场、风力发电厂及地热发电厂+2 [ICON_POWER] 电力、+2 [ICON_Gold] 金币。此城的水力发电坝向6单元格内的城市提供额外+2 [ICON_POWER] 电力。此城沿河单元格若6单元格以内有水力发电坝，+2 [ICON_Gold] 金币。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

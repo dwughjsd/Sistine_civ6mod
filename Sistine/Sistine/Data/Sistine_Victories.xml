@@ -260,27 +260,27 @@
 	</AiLists>
 
 	<Strategy_Priorities>
-		<Row StrategyType="STRATEGY_ANCIENT_CHANGES" ListType="AncientTechs"/>
-		<Row StrategyType="STRATEGY_CLASSICAL_CHANGES" ListType="ClassicalTechs"/>
-		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalTechs"/>
-		<Row StrategyType="STRATEGY_RENAISSANCE_CHANGES" ListType="RenaissanceTechs"/>
-		<Row StrategyType="STRATEGY_INDUSTRIAL_CHANGES" ListType="IndustrialTechs"/>
-		<Row StrategyType="STRATEGY_MODERN_CHANGES" ListType="ModernTechs"/>
-		<Row StrategyType="STRATEGY_ATOMIC_CHANGES" ListType="AtomicTechs"/>
-		<Row StrategyType="STRATEGY_INFORMATION_CHANGES" ListType="InformationTechs"/>
-		<Row StrategyType="STRATEGY_INFORMATION_CHANGES" ListType="InformationYields"/>
+		<InsertOrIgnore StrategyType="STRATEGY_ANCIENT_CHANGES" ListType="AncientTechs"/>
+		<InsertOrIgnore StrategyType="STRATEGY_CLASSICAL_CHANGES" ListType="ClassicalTechs"/>
+		<InsertOrIgnore StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalTechs"/>
+		<InsertOrIgnore StrategyType="STRATEGY_RENAISSANCE_CHANGES" ListType="RenaissanceTechs"/>
+		<InsertOrIgnore StrategyType="STRATEGY_INDUSTRIAL_CHANGES" ListType="IndustrialTechs"/>
+		<InsertOrIgnore StrategyType="STRATEGY_MODERN_CHANGES" ListType="ModernTechs"/>
+		<InsertOrIgnore StrategyType="STRATEGY_ATOMIC_CHANGES" ListType="AtomicTechs"/>
+		<InsertOrIgnore StrategyType="STRATEGY_INFORMATION_CHANGES" ListType="InformationTechs"/>
+		<InsertOrIgnore StrategyType="STRATEGY_INFORMATION_CHANGES" ListType="InformationYields"/>
 
-		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalBuildings"/>
-		<Row StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalDistricts"/>
-		<Row StrategyType="STRATEGY_RENAISSANCE_CHANGES" ListType="RenaissanceDistricts"/>
-		<Row StrategyType="STRATEGY_INDUSTRIAL_CHANGES" ListType="IndustrialBuildings"/>
-		<Row StrategyType="STRATEGY_INDUSTRIAL_CHANGES" ListType="IndustrialDistricts"/>
-		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ListType="ScienceVictoryBuildings"/>
-		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ListType="CultureVictoryBuildings"/>
-		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ListType="CultureVictoryDistricts"/>
-		<Row StrategyType="VICTORY_STRATEGY_RELIGIOUS_VICTORY" ListType="ReligiousVictoryBuildings"/>
-		<Row StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryBuildings"/>
-		<Row StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryDistricts"/>
+		<InsertOrIgnore StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalBuildings"/>
+		<InsertOrIgnore StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalDistricts"/>
+		<InsertOrIgnore StrategyType="STRATEGY_RENAISSANCE_CHANGES" ListType="RenaissanceDistricts"/>
+		<InsertOrIgnore StrategyType="STRATEGY_INDUSTRIAL_CHANGES" ListType="IndustrialBuildings"/>
+		<InsertOrIgnore StrategyType="STRATEGY_INDUSTRIAL_CHANGES" ListType="IndustrialDistricts"/>
+		<InsertOrIgnore StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ListType="ScienceVictoryBuildings"/>
+		<InsertOrIgnore StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ListType="CultureVictoryBuildings"/>
+		<InsertOrIgnore StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ListType="CultureVictoryDistricts"/>
+		<InsertOrIgnore StrategyType="VICTORY_STRATEGY_RELIGIOUS_VICTORY" ListType="ReligiousVictoryBuildings"/>
+		<InsertOrIgnore StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryBuildings"/>
+		<InsertOrIgnore StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryDistricts"/>
 	</Strategy_Priorities>
 
 	<AiFavoredItems>
