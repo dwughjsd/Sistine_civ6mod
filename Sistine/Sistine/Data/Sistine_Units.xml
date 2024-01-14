@@ -169,6 +169,10 @@
 			<Set Cost="80" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
 		</Update>
 		<Update>
+			<Where UnitType="UNIT_SPY" />
+			<Set Cost="50" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_MISSIONARY" />
 			<Set CostProgressionParam1="10" />
 		</Update>
