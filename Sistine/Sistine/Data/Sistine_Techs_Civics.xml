@@ -1065,4 +1065,26 @@
 			<Value>TECH_SATELLITES</Value>
 		</Row>
 	</ModifierArguments>
+	
+	<!--Try to let AI invest on tier 3 government-->
+	<Modifiers>
+		<Row>
+			<ModifierId>TIER3_GOVERNMENT_AI_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_AI_NO_COLD_WAR</OwnerRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TIER3_GOVERNMENT_AI_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+	<CivicModifiers>
+		<Row CivicType="CIVIC_SUFFRAGE" ModifierId="TIER3_GOVERNMENT_AI_HOUSING" />
+		<Row CivicType="CIVIC_TOTALITARIANISM" ModifierId="TIER3_GOVERNMENT_AI_HOUSING" />
+		<Row CivicType="CIVIC_CLASS_STRUGGLE" ModifierId="TIER3_GOVERNMENT_AI_HOUSING" />
+	</CivicModifiers>
 </GameData>

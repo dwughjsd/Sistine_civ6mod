@@ -365,6 +365,10 @@
 			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_AI_NO_COLD_WAR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -463,6 +467,14 @@
 			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</RequirementSetId>
 			<RequirementId>REQUIRES_PLAYER_IS_MAJOR_SST</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_AI_NO_COLD_WAR</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_AI_NO_COLD_WAR</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_NO_COLD_WAR_SST</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
@@ -500,6 +512,11 @@
 		<Row>
 			<RequirementId>REQUIRES_PLAYER_IS_MAJOR_SST</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_IS_MAJOR</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_COLD_WAR_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>True</Inverse>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -542,6 +559,11 @@
 			<RequirementId>REQUIRES_HAS_PROFESSIONAL_SPORTS_CIVIC_SST</RequirementId>
 			<Name>CivicType</Name>
 			<Value>CIVIC_PROFESSIONAL_SPORTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_COLD_WAR_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_COLD_WAR</Value>
 		</Row>
 	</RequirementArguments>
 

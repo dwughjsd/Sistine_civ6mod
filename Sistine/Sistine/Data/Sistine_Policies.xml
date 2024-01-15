@@ -987,9 +987,9 @@
 		<Delete PolicyType="POLICY_PATRIOTIC_WAR" />
 		<Delete PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" />
 		<Delete PolicyType="POLICY_COLLECTIVIZATION" />
-		<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" GovernmentType="GOVERNMENT_DEMOCRACY" />
+		<!--<Row PolicyType="POLICY_ARSENAL_OF_DEMOCRACY" GovernmentType="GOVERNMENT_DEMOCRACY" />
 		<Row PolicyType="POLICY_THIRD_ALTERNATIVE" GovernmentType="GOVERNMENT_FASCISM" />
-		<Row PolicyType="POLICY_COLLECTIVIZATION" GovernmentType="GOVERNMENT_COMMUNISM" />
+		<Row PolicyType="POLICY_COLLECTIVIZATION" GovernmentType="GOVERNMENT_COMMUNISM" />-->
 	</Policy_GovernmentExclusives_XP2>
 	<RequirementSets>
 		<Row>

@@ -84,7 +84,7 @@
 		<!--Trade!-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" />
-			<Set DefaultValue="0.8" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
@@ -97,15 +97,15 @@
 		<!--Great artists GPP should be divided by 2 or AI will feel that it is VERY important. As now we have wonders to provide culture, Theaters are not that important-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="2.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="2.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="2.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
