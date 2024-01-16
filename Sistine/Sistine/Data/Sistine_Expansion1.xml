@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<CommemorationModifiers>
-		<Delete CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN" />
-	</CommemorationModifiers>
-	<ModifierArguments>
-		<Update>
-			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_SETTLER_DISCOUNT_MODIFIER" Name="Amount" />
-			<Set>
-				<Value>20</Value>
-			</Set>
-		</Update>
-		<Update>
-			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_BUILDER_DISCOUNT_MODIFIER" Name="Amount" />
-			<Set>
-				<Value>20</Value>
-			</Set>
-		</Update>
-	</ModifierArguments>
 	<Moments>
 		<Update>
 			<Where MomentType="MOMENT_GREAT_PERSON_CREATED_GAME_ERA" />
@@ -574,6 +557,18 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Update>
+			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_SETTLER_DISCOUNT_MODIFIER" Name="Amount" />
+			<Set>
+				<Value>20</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_BUILDER_DISCOUNT_MODIFIER" Name="Amount" />
+			<Set>
+				<Value>20</Value>
+			</Set>
+		</Update>
 		<Row>
 			<ModifierId>COMMEMORATION_CULTURAL_CITYCULTURE</ModifierId>
 			<Name>YieldType</Name>
@@ -815,6 +810,30 @@
 			<Value>DISTRICT_AERODROME</Value>
 		</InsertOrIgnore>
 	</RequirementArguments>
+	<CommemorationModifiers>
+		<Delete CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN" />
+		<Row CommemorationType="COMMEMORATION_CULTURAL" ModifierId="COMMEMORATION_CULTURAL_CITYCULTURE"/>
+		<Row CommemorationType="COMMEMORATION_EXPLORATION" ModifierId="COMMEMORATION_EXPLORATION_GA_FOREIGNFOOD"/>
+		<Row CommemorationType="COMMEMORATION_EXPLORATION" ModifierId="COMMEMORATION_EXPLORATION_GA_FOREIGNPRODUCTION"/>
+		<Row CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION_ENCAMPMENT"/>
+		<Row CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION_BARRACKS"/>
+		<Row CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION_STABLE"/>
+		<Row CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION_ARMORY"/>
+		<Row CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION_MILITARY_ACADEMY"/>
+		<Row CommemorationType="COMMEMORATION_ESPIONAGE" ModifierId="COMMEMORATION_ESPIONAGE_GA_OFFENSIVE_LEVEL"/>
+		<Row CommemorationType="COMMEMORATION_ESPIONAGE" ModifierId="COMMEMORATION_ESPIONAGE_GA_SPY_DISCOUNT"/>
+		<Delete CommemorationType="COMMEMORATION_ESPIONAGE" ModifierId="COMMEMORATION_ESPIONAGE_GA_REDUCTION"/>
+		<Row CommemorationType="COMMEMORATION_AERONAUTICAL" ModifierId="COMMEMORATION_AERONAUTICAL_PRODUCTION_TO_SPACEPORTS"/>
+		<Row CommemorationType="COMMEMORATION_AERONAUTICAL" ModifierId="COMMEMORATION_AERONAUTICAL_PRODUCTION_TO_AERODROMES"/>
+		<Row CommemorationType="COMMEMORATION_AERONAUTICAL" ModifierId="COMMEMORATION_AERONAUTICAL_PRODUCTION_FROM_AERODROMES_AND_SPACEPORTS"/>
+		<Row CommemorationType="COMMEMORATION_AERONAUTICAL" ModifierId="COMMEMORATION_AERONAUTICAL_SCIENCE_FROM_AERODROMES_AND_SPACEPORTS"/>
+		<Delete CommemorationType="COMMEMORATION_AERONAUTICAL" ModifierId="COMMEMORATION_AERONAUTICAL_GA_AIR"/>
+		<Delete CommemorationType="COMMEMORATION_AERONAUTICAL" ModifierId="COMMEMORATION_AERONAUTICAL_GA_ALUMINUM"/>
+		<Row CommemorationType="COMMEMORATION_AUTOMATON" ModifierId="COMMEMORATION_AUTOMATON_COMBAT_STRENGTH"/>
+		<Row CommemorationType="COMMEMORATION_AUTOMATON" ModifierId="COMMEMORATION_AUTOMATON_RANGE"/>
+		<Delete CommemorationType="COMMEMORATION_AUTOMATON" ModifierId="COMMEMORATION_AUTOMATON_GA_URANIUM_MINES"/>
+
+	</CommemorationModifiers>
 	<!--Automaton Warfare-->
 	<Types>
 		<Row Type="ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH" Kind="KIND_ABILITY"/>
@@ -834,12 +853,12 @@
 	</UnitAbilityModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>POLICY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH</ModifierId>
+			<ModifierId>COMMEMORATION_AUTOMATON_COMBAT_STRENGTH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>POLICY_COMMEMORATION_AUTOMATON_RANGE</ModifierId>
+			<ModifierId>COMMEMORATION_AUTOMATON_RANGE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
 		</Row>
@@ -854,12 +873,12 @@
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>POLICY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH</ModifierId>
+			<ModifierId>COMMEMORATION_AUTOMATON_COMBAT_STRENGTH</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH</Value>
 		</Row>
 		<Row>
-			<ModifierId>POLICY_COMMEMORATION_AUTOMATON_RANGE</ModifierId>
+			<ModifierId>COMMEMORATION_AUTOMATON_RANGE</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_COMMEMORATION_AUTOMATON_RANGE</Value>
 		</Row>

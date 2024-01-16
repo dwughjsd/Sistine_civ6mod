@@ -331,10 +331,6 @@
 		<Replace Tag="LOC_DISTRICT_OIL_WELL_PRODUCTION" Language="zh_Hans_CN">
 			<Text>+{1_num} [ICON_Production] 生产力来自相邻{1_Num : plural 1?油井; other?油井;}。</Text>
 		</Replace>
-		<!--Ages-->
-		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“雄伟壮丽”黄金时代：[NEWLINE]所有建造者+2 [ICON_Movement] 移动力。用 [ICON_FAITH] 信仰值和 [ICON_GOLD] 金币购买建造者和开拓者的费用降低20%。</Text>
-		</Replace>
 		<!--Features-->
 		<Replace Tag="LOC_FEATURE_FLOODPLAINS_DESERT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通沙漠单元格的 [ICON_Food] 食物产量更高。如果江河再次泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
@@ -1440,6 +1436,50 @@
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城所有离岸风力发电厂、太阳能农场、风力发电厂及地热发电厂+2 [ICON_POWER] 电力、+2 [ICON_Gold] 金币。此城的水力发电坝向6单元格内的城市提供额外+2 [ICON_POWER] 电力。此城沿河单元格+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<!--Dedications and Ages-->
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”黄金时代：[NEWLINE][ICON_CivicBoosted] 启发额外提供10%的市政开销。每座城市+1 [ICON_Culture] 文化值。城市每拥有1处特色区域，额外+1 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”黄金时代：[NEWLINE]所有建造者+2 [ICON_Movement] 移动力。用 [ICON_FAITH] 信仰值和 [ICON_GOLD] 金币购买建造者和开拓者的费用降低20%。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_EXPLORATION}”黄金时代：[NEWLINE]和首座城市不在同一个大陆上的城市+3初始 [ICON_Citizen] 人口，每回合+2忠诚度，+15% [ICON_Food] 食物并 +15% [ICON_Production] 生产力。海军和水运单位+2 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”黄金时代：[NEWLINE]您的商人不可被掠夺。外国城市的每个专业化区域为您的国际贸易路线+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_MILITARY}”黄金时代：[NEWLINE]解锁一种特殊战争借口，与正式战争相比可少产生75% [ICON_STAT_GRIEVANCE] 不满，且可于谴责目标后立即使用。生产军事单位时+15% [ICON_Production] 生产力。军营及每个军营建筑 +2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_TOURISM}”黄金时代：[NEWLINE]世界奇观产出的 [ICON_Tourism] 旅游业绩+50%。国家公园产出的 [ICON_Tourism] 旅游业绩+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AERONAUTICAL}”黄金时代：[NEWLINE]如处于信息时代，则解锁人造卫星、核聚变和纳米技术的尤里卡；如处于未来时代，则解锁智能材料、预测系统和地外任务的 [ICON_TechBoosted] 尤里卡；如果尤里卡已触发过则解锁该项科技。建造宇航中心和飞行场区域时+30% [ICON_PRODUCTION] 生产力。拥有宇航中心或飞行场的城市+15% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ESPIONAGE}”黄金时代：[NEWLINE]间谍部署到另一文明的城市无需时间。进行攻击性任务时等级提升4级。用 [ICON_FAITH] 信仰值和 [ICON_GOLD] 金币购买间谍的费用降低75%。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”黄金时代：[NEWLINE]在您的首都处获得1架末日机甲。每回合获得3点 [ICON_Resource_Uranium] 铀。末日机甲 +5 [ICON_Strength] 战斗力，+1 [ICON_Range] 射程。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>末日机甲战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_NAME" Language="zh_Hans_CN">
+			<Text>末日机甲射程</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5 [ICON_Strength] 战斗力（机甲战争黄金时代）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Range] 射程（机甲战争黄金时代）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5 [ICON_Strength] 战斗力来自机甲战争黄金时代</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
