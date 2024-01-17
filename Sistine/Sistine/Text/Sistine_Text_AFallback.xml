@@ -313,10 +313,6 @@
 		<Replace Tag="LOC_DISTRICT_OIL_WELL_PRODUCTION" Language="en_US">
 			<Text>+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Oil Well; other?Oil Wells;}.</Text>
 		</Replace>
-		<!--Ages-->
-		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="en_US">
-			<Text>Monumentality Golden Age:[NEWLINE]+2 [ICON_Movement] Movement for all Builders. May purchase civilian units with [ICON_Faith] Faith. Builders and Settlers are 20% cheaper to purchase with [ICON_FAITH] Faith and [ICON_GOLD] Gold.</Text>
-		</Replace>
 		<!--Features-->
 		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="en_US">
 			<Text>+2 [ICON_Culture] Culture from world wonders.</Text>
@@ -1316,6 +1312,50 @@
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="en_US">
 			<Text>All Offshore Wind Farms, Solar Farms, Wind Farms, and Geothermal Plants in this city receive +2 [ICON_POWER] Power and +2 [ICON_Gold] Gold. Hydroelectric Dams in this city provide an additional +2 [ICON_POWER] Power to all cities within 6 tiles. +2 [ICON_Gold] Gold to this city's tiles beside a river.</Text>
+		</Replace>
+		<!--Dedications and Ages-->
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_CULTURAL} Golden Age:[NEWLINE][ICON_CivicBoosted] Inspirations provide an additional 10% of civic costs. Each city receives +1 [ICON_Culture] Culture, and an additional +1 [ICON_Culture] Culture for each specialty district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_INFRASTRUCTURE} Golden Age:[NEWLINE]+2 [ICON_Movement] Movement for all Builders. May purchase civilian units with [ICON_Faith] Faith. Builders and Settlers are 20% cheaper to purchase with [ICON_FAITH] Faith and [ICON_GOLD] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_EXPLORATION} Golden Age:[NEWLINE]+3 starting [ICON_Citizen] Population for cities settled on a different continent than your first city. +2 [ICON_Movement] Movement for naval and embarked units. +2 Loyalty per turn, +15% [ICON_Food] Food, and +15% [ICON_Production] Production for cities not on your original [ICON_Capital] Capital's continent.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_ECONOMIC} Golden Age:[NEWLINE]Your Traders cannot be plundered. International [ICON_TradeRoute] Trade Routes provide +2 [ICON_Gold] Gold per specialty district in the foreign city.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_MILITARY} Golden Age:[NEWLINE]Unlock a special Casus Belli which generates 75% less [ICON_STAT_GRIEVANCE] Grievances than Formal War and can be used immediately after Denouncing the target. +15% [ICON_Production] Production towards military units. +2 [ICON_Production] Production from Encampments and their buildings.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_TOURISM} Golden Age:[NEWLINE]Cities receive +50%  [ICON_Tourism] Tourism from World Wonders. +100%  [ICON_Tourism] Tourism to all National Parks.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_AERONAUTICAL} Golden Age:[NEWLINE]Unlocks the [ICON_TechBoosted] Eurekas for Satellites, Nuclear Fusion, and Nanotechnology if in the Information Era. When chosen in the Future Era the [ICON_TechBoosted] Eurekas for Smart Materials, Predictive Systems, and Offworld Mission are unlocked. +30% [ICON_Production] towards Spaceport and Aerodrome districts. +15% [ICON_Science] Science and [ICON_Production] Production to cities with a Spaceport or Aerodrome.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_ESPIONAGE} Golden Age:[NEWLINE]Spies take no time to establish their presence in another civilization's city. Your Spy level is increased by 4 for offensive operations.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_AUTOMATON} Golden Age:[NEWLINE]Gain a Giant Death Robot in your capital. Receive 3 [ICON_Resource_Uranium] Uranium per turn. Giant Death Robots receive +5 [ICON_Strength] Combat Strength and +1 [ICON_Range] Range.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_NAME" Language="en_US">
+			<Text>Giant Death Robot Combat</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_NAME" Language="en_US">
+			<Text>Giant Death Robot Range</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength (Automaton Warfare Golden Age).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Range] Range (Automaton Warfare Golden Age).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from the Automaton Warfare Golden Age</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
