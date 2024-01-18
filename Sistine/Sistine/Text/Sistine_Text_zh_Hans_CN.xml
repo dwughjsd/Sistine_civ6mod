@@ -1481,5 +1481,24 @@
 		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+5 [ICON_Strength] 战斗力来自机甲战争黄金时代</Text>
 		</Replace>
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OPERA_HOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>歌剧是一种舞台剧。它与其他形式的音乐剧的区别在于：演员们唱出各自的对白，而不是简单地说出。演出歌剧时，演员通常有管弦乐队一同参演。歌剧院是一种剧场，其中配有演员使用的舞台，容纳管弦乐队的场地和用于将音乐声更好地传导至观众席的声学设计。圣卡西亚诺剧院是世界上第一家公共歌剧院，于1637年在意大利威尼斯开放。从那时起，世界各地都出现了歌剧院——对任何有着成为文化与艺术中心的理想的城市而言，修建歌剧院几乎是基本操作。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_SCHOOL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>公立学校向一个文明的儿童提供免费的大学前教育，这是一个相当先进的理念。首先，该文明必须明白教育的重要性，对穷人的教育并不会威胁到统治阶层。其次，该文明不能穷到穷人的孩子不工作就会挨饿。最后，该文明必须有足够的远见从公共收入中拿出一部分支持教育。今天世界上大部分国家都为他们的年轻一代提供或多或少的公共教育。美国的第一所小学始于殖民地时期，第一所高中则是1821年在波士顿建立。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>精密制造厂是一种大型的工业复合体，能够生产各种类型的产品，不过通常会用来制造汽车这样的耐用消费品。简单来说，精密制造厂就是一种大型而复杂的工厂，使用专业劳工、复杂机械以及生产流水线以获得更高的生产效率以及大规模生产的经济优势。这种人力与自动化的结合不仅提升了效率，而且降低了生产成本。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>医院是对病人或伤者进行诊疗，并为他们提供住处以便康复的机构。许多医院也同时是教学机构，令学习医疗和护理的学生在此学习专业技能。供奉和健康及医疗有关的神灵的寺庙成为了最初的医院。公元前430年在斯里兰卡出现了专门的宗教医院，而印度的阿育王则于公元前230年左右在印度北部兴建了一系列的医院。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>医学实验室是研究疾病和人体构造的机构。医学实验室使用各式各样极度精密又无比强大的仪器，从超声波仪到蚂蚁大小的摄像机，再到电子显微镜，应有尽有。在过去的25年里，绝大部分（若非所有）医学界的重大突破都是医学实验室里取得。这些突破包括：人类DNA测序、对抗艾滋病的抗病毒疗法、基因编辑，等等。当代社会医疗费用的不断攀升在很大程度上都要归因于这样一个简单的事实：医学实验室在战胜疾病、延长人类寿命、提高人类生命质量方面取得了惊人的成就，而这些成就是需要花费巨资的。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在无产阶级领导的社会主义国家里，人民享有最高权力；然而，即使是马克思也意识到，为了有效地运作政府机构并确保无产阶级专政，必须存在某种形式的党组织。由此，1917年的布尔什维克宣称，一群官僚中的先进分子需要领导一个一个集权政党来治理新生的苏俄政权。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

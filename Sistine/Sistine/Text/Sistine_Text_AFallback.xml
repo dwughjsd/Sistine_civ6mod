@@ -1357,5 +1357,24 @@
 		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength from the Automaton Warfare Golden Age</Text>
 		</Replace>
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OPERA_HOUSE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Opera is a theatrical drama in which the actors sing all their dialog rather than speaking it, differentiating it from other forms of musical dramas. The opera singers are usually accompanied by an orchestra. An opera house is a theatre designed with a stage for the singers, space to seat the orchestra, and acoustics which help project the music to the audience. The Teatro San Cassiano was the first public opera house, opened in Venice, Italy, in 1637. Since that time opera houses have opened across the world - they are almost de rigueur for any city with pretensions of being a center of culture and art.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_SCHOOL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A public school provides free pre-university education to a civilization's children. This is a fairly advanced concept. First, the civilization must believe that education is important, and that educating the poor is not a threat to the ruling class. Second, the civilization must be wealthy enough so that the children of the poor do not need to work to fend off starvation. And finally, the civilization must be enlightened enough to be willing to expend some of its public revenue providing the education. Most countries in the world today provide some level of public education for their young. The first American public grade schools opened during the Colonial era. The first public high school was opened in Boston in 1821.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Manufacturing plants are large industrial complexes that produce goods of all types, although they are generally used to produce durable consumer goods such as automobiles. Essentially, a manufacturing plant is a large, sophisticated factory that employs specialization of labor, complex machinery, and assembly lines to gain efficiency and economies of scale. This combination of manpower and automation increases productivity and reduces production costs.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A hospital is an institution for diagnosing and treating the sick or injured, and for housing them during their recovery. Many hospitals are also teaching institutions, where student doctors and nurses learn their trade. The earliest hospitals were temples to certain gods associated with health and healing. Religious hospitals were established in Sri Lanka by 430 BC, and King Asoka of India created a chain of hospitals across Hindustan around 230 BC.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A medical laboratory is an institution that studies disease and human anatomy using a wide variety of extremely sophisticated and powerful instruments - from ultrasound to cameras the size of an ant to electron microscopes. Most - if not all - of the remarkable advances in medicine in the past 25 years have been made in medical labs. These include the sequencing of human DNA, antiviral therapies to battle HIV, gene editing, and more. Much of the increasing cost of healthcare can be attributed to the simple fact that medical laboratories have been remarkably successful at battling illness and prolonging and improving the quality of human life - and these improvements cost huge amounts of money.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>In a proletarian socialist state, the people have the power; however, even Marx realized that some form of party hierarchy would be necessary for efficient operation of state services and to insure that the proletarian order itself was preserved. For that reason, the Bolsheviks argued in 1917 that a vanguard party of bureaucrats would head a centralized political party that administered the new Soviet Russia.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
