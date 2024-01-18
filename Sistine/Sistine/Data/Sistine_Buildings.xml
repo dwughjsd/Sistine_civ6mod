@@ -37,8 +37,8 @@
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" Name="LOC_BUILDING_MANUFACTURING_PLANT_NAME" Description="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" PrereqTech="TECH_ROBOTICS" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" RegionalRange="6" Cost="785"/>
 
 		<!--Entertainment Complex and Water Park-->
-		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="2" /></Update>
-		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="3" /></Update>
+		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_EXPLORATION" Entertainment="2" /></Update>
+		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_EXPLORATION" Entertainment="3" /></Update>
 		<Update><Where BuildingType="BUILDING_STADIUM" /><Set PrereqCivic="CIVIC_MASS_MEDIA" Entertainment="2" /></Update>
 		<Update><Where BuildingType="BUILDING_FERRIS_WHEEL" /><Set Entertainment="2" /></Update>
 		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Entertainment="3" /></Update>
