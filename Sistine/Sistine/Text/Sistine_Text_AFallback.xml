@@ -1333,7 +1333,7 @@
 			<Text>{LOC_MOMENT_CATEGORY_TOURISM} Golden Age:[NEWLINE]Cities receive +50%  [ICON_Tourism] Tourism from World Wonders. +100%  [ICON_Tourism] Tourism to all National Parks.</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="en_US">
-			<Text>{LOC_MOMENT_CATEGORY_AERONAUTICAL} Golden Age:[NEWLINE]Unlocks the [ICON_TechBoosted] Eurekas for Satellites, Nuclear Fusion, and Nanotechnology if in the Information Era. When chosen in the Future Era the [ICON_TechBoosted] Eurekas for Smart Materials, Predictive Systems, and Offworld Mission are unlocked. +30% [ICON_Production] towards Spaceport and Aerodrome districts. +15% [ICON_Science] Science and [ICON_Production] Production to cities with a Spaceport or Aerodrome.</Text>
+			<Text>{LOC_MOMENT_CATEGORY_AERONAUTICAL} Golden Age:[NEWLINE]Unlocks the [ICON_TechBoosted] Eurekas for Satellites, Nuclear Fusion, and Nanotechnology if in the Information Era. When chosen in the Future Era the [ICON_TechBoosted] Eurekas for Smart Materials, Predictive Systems, and Offworld Mission are unlocked. If they are already triggered, instead completes the tech. +30% [ICON_Production] towards Spaceport and Aerodrome districts. +15% [ICON_Science] Science and [ICON_Production] Production to cities with a Spaceport or Aerodrome.</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_ESPIONAGE} Golden Age:[NEWLINE]Spies take no time to establish their presence in another civilization's city. Your Spy level is increased by 4 for offensive operations.</Text>
