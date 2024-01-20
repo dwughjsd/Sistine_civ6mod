@@ -11,7 +11,7 @@
 		<!--This param seems to be not working. Next one works.-->
 		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT" Value="20" />
 		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT_OWNER_BEFORE_OCCUPATION" Value="20" />
-		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="15" />
+		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="20" />
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MIN" Value="0" />
 		<Replace Name="CITY_AMENITIES_FOR_FREE" Value="1" />
 		<!--It's causing AI paying much to buy luxuries. We are still trying to figure out how to make them sell with a higher price too-->

@@ -1,4 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<DiplomaticStateActions>
+		<Update>
+			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_CULTURAL"/>
+			<Set Worth="10" Cost="-10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_ECONOMIC"/>
+			<Set Worth="10" Cost="-10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_MILITARY"/>
+			<Set Worth="10" Cost="-10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_RELIGIOUS"/>
+			<Set Worth="10" Cost="-10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_RESEARCH"/>
+			<Set Worth="10" Cost="-10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_RENEW_ALLIANCE"/>
+			<Set Worth="25" Cost="10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_CULTURAL"/>
+			<Set Worth="25" Cost="10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_ECONOMIC"/>
+			<Set Worth="25" Cost="10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_MILITARY"/>
+			<Set Worth="25" Cost="10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_RELIGIOUS"/>
+			<Set Worth="25" Cost="10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_RESEARCH"/>
+			<Set Worth="25" Cost="10" />
+		</Update>
 
+		<Update>
+			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_DECLARE_FRIENDSHIP"/>
+			<Set Worth="0" Cost="0" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_DECLARE_FRIENDSHIP"/>
+			<Set Worth="0" Cost="0" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_FRIENDLY" DiplomaticActionType="DIPLOACTION_DECLARE_FRIENDSHIP"/>
+			<Set Worth="-5" Cost="5" />
+		</Update>
+
+		<Update>
+			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_JOINT_WAR"/>
+			<Set Worth="-5" Cost="-10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_JOINT_WAR"/>
+			<Set Worth="-10" Cost="-5" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_FRIENDLY" DiplomaticActionType="DIPLOACTION_JOINT_WAR"/>
+			<Set Worth="-20" Cost="0" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_NEUTRAL" DiplomaticActionType="DIPLOACTION_JOINT_WAR"/>
+			<Set Worth="-30" Cost="0" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_UNFRIENDLY" DiplomaticActionType="DIPLOACTION_JOINT_WAR"/>
+			<Set Worth="-50" Cost="0" />
+		</Update>
+
+		<Update>
+			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_OPEN_BORDERS"/>
+			<Set Worth="15" Cost="0" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_FRIENDLY" DiplomaticActionType="DIPLOACTION_OPEN_BORDERS"/>
+			<Set Worth="10" Cost="5" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_NEUTRAL" DiplomaticActionType="DIPLOACTION_OPEN_BORDERS"/>
+			<Set Worth="5" Cost="10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_UNFRIENDLY" DiplomaticActionType="DIPLOACTION_OPEN_BORDERS"/>
+			<Set Worth="0" Cost="20" />
+		</Update>
+
+
+		<Update>
+			<Where StateType="DIPLO_STATE_NEUTRAL" DiplomaticActionType="DIPLOACTION_PROPOSE_TRADE"/>
+			<Set Worth="-5" Cost="5" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_UNFRIENDLY" DiplomaticActionType="DIPLOACTION_PROPOSE_TRADE"/>
+			<Set Worth="-5" Cost="5" />
+		</Update>
+
+		<Update>
+			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
+			<Set Worth="10" Cost="-10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
+			<Set Worth="5" Cost="-5" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_FRIENDLY" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
+			<Set Worth="0" Cost="0" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_NEUTRAL" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
+			<Set Worth="0" Cost="10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_UNFRIENDLY" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
+			<Set Worth="0" Cost="20" />
+		</Update>
+	</DiplomaticStateActions>
+	<DiplomaticStates>
+		<Update>
+			<Where StateType="DIPLO_STATE_ALLIED"/>
+			<Set DiplomaticYieldBonus="25" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_DECLARED_FRIEND"/>
+			<Set DiplomaticYieldBonus="15" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_FRIENDLY"/>
+			<Set DiplomaticYieldBonus="10" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_UNFRIENDLY"/>
+			<Set DiplomaticYieldBonus="-25" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_DENOUNCED"/>
+			<Set DiplomaticYieldBonus="-50" />
+		</Update>
+	</DiplomaticStates>
+
+	<Eras_XP2>
+		<Update>
+			<Where EraType="ERA_ANCIENT"/>
+			<Set GrievanceDecayRate="12" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_CLASSICAL"/>
+			<Set GrievanceDecayRate="11" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_MEDIEVAL"/>
+			<Set GrievanceDecayRate="10" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_RENAISSANCE"/>
+			<Set GrievanceDecayRate="9" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_INDUSTRIAL"/>
+			<Set GrievanceDecayRate="8" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_MODERN"/>
+			<Set GrievanceDecayRate="7" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_ATOMIC"/>
+			<Set GrievanceDecayRate="6" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_INFORMATION"/>
+			<Set GrievanceDecayRate="5" />
+		</Update>
+		<Update>
+			<Where EraType="ERA_FUTURE"/>
+			<Set GrievanceDecayRate="4" />
+		</Update>
+	</Eras_XP2>
 </GameData>
