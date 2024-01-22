@@ -2,13 +2,13 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Sistine</Name>
+    <Name>LOC_SISTINE_MOD_TITLE</Name>
     <Guid>2545c7e0-035e-4a78-b925-6f6080e775ea</Guid>
     <ProjectGuid>5f1efd7c-ee21-4c27-9970-3f7a39b98ea8</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This is a brief description of the mod.</Teaser>
-    <Description>This is a brief description of the mod.</Description>
-    <Authors>Admin</Authors>
+    <Teaser>LOC_SISTINE_MOD_TEASER</Teaser>
+    <Description>LOC_SISTINE_MOD_DESCRIPTION</Description>
+    <Authors>Shimamura et al.</Authors>
     <SpecialThanks>
     </SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -46,7 +46,9 @@
     <AssemblyName>Sistine</AssemblyName>
     <RootNamespace>Sistine</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="SistineSettingsText"><File>Text/Replacements/Sistine_ConfigText_zh_Hans_CN_Replace.xml</File><File>Text/Sistine_ConfigText_zh_Hans_CN.xml</File><File>Text/Sistine_ConfigText_AFallback.xml</File></UpdateText><UpdateDatabase id="SistineSettings"><File>Data/Sistine_Config.xml</File></UpdateDatabase><UpdateIcons id="SistineSettingsIcons"><File>Data/Sistine_Icons.xml</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateText id="SistineText"><File>Text/Replacements/Sistine_ConfigText_zh_Hans_CN_Replace.xml</File><File>Text/Replacements/Sistine_Text_zh_Hans_CN_Replace.xml</File><File>Text/Sistine_ConfigText_AFallback.xml</File><File>Text/Sistine_ConfigText_zh_Hans_CN.xml</File><File>Text/Sistine_Text_AFallback.xml</File><File>Text/Sistine_Text_zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="SistineGameplay"><File>Data/Sistine_Buildings.xml</File><File>Data/Sistine_Districts.xml</File><File>Data/Sistine_Modifiers.xml</File><File>Data/Sistine_GlobalParameters.xml</File><File>Data/Sistine_Resources.xml</File><File>Data/Sistine_Techs_Civics.xml</File><File>Data/Sistine_Units.xml</File><File>Data/Sistine_AdditionalMechanisms.xml</File><File>Data/Sistine_Victories.xml</File><File>Data/Sistine_Difficulties.xml</File><File>Data/Sistine_Operations.xml</File><File>Data/Sistine_Routes.xml</File><File>Data/Sistine_Governments.xml</File><File>Data/Sistine_Policies.xml</File><File>Data/Sistine_GreatWorks.xml</File><File>Data/Sistine_Beliefs.xml</File><File>Data/Sistine_Projects.xml</File><File>Data/Sistine_Improvements.xml</File><File>Data/Sistine_TerrainFeatures.xml</File><File>Data/Sistine_Expansion1.xml</File><File>Data/Sistine_Expansion2.xml</File><File>Data/Sistine_GreatPeople.xml</File><File>Data/Sistine_Diplomacy.xml</File></UpdateDatabase><UpdateIcons id="SistineIcons"><File>Data/Sistine_Icons.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="SecretSocieties"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="DramaticAges"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_DRAMATICAGES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="Monopolies"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="BarbarianClans"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_BARBARIAN_CLANS</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="TreeRandomizer"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_TREE_RANDOMIZER</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="TowerDefense"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_TOWERDEFENSE</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="Apocalypse"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_APOCALYPSE</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="Heroes"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_HEROES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <LocalizedTextData><![CDATA[<LocalizedText><Text id="LOC_SISTINE_MOD_TITLE"><en_US>Overhaul: Test of Time</en_US><zh_Hans_CN>大修：时间考验</zh_Hans_CN></Text><Text id="LOC_SISTINE_MOD_TEASER"><en_US>A medium-scale overhaul mod with balancing changes inspired by previous titles of Civilization, greatly improved AI, and much, much more!</en_US><zh_Hans_CN>一款中规模大修模组，包含启发自历代《文明》作品的平衡性调整、大幅度增强的AI，以及许多其他内容！</zh_Hans_CN></Text><Text id="LOC_SISTINE_MOD_DESCRIPTION"><en_US>This is a game using the Test of Time overhaul mod, which includes balancing changes, and AI improvement. Can you make a civilization that will stand the test of time, in a new game with rules that stand the test of time?</en_US><zh_Hans_CN>本项目将使游戏使用《时间考验》大修模组，其中包含平衡性调整和AI增强。您能否在使用了久经时间考验的规则的新游戏中，缔造一个能够经受住时间考验的文明？</zh_Hans_CN></Text></LocalizedText>]]></LocalizedTextData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="SistineText"><File>Text/Replacements/Sistine_ConfigText_zh_Hans_CN_Replace.xml</File><File>Text/Replacements/Sistine_Text_zh_Hans_CN_Replace.xml</File><File>Text/Sistine_ConfigText_AFallback.xml</File><File>Text/Sistine_ConfigText_zh_Hans_CN.xml</File><File>Text/Sistine_Text_AFallback.xml</File><File>Text/Sistine_Text_zh_Hans_CN.xml</File></UpdateText><UpdateDatabase id="SistineGameplay"><File>Data/Sistine_Buildings.xml</File><File>Data/Sistine_Districts.xml</File><File>Data/Sistine_Modifiers.xml</File><File>Data/Sistine_GlobalParameters.xml</File><File>Data/Sistine_Resources.xml</File><File>Data/Sistine_Techs_Civics.xml</File><File>Data/Sistine_Units.xml</File><File>Data/Sistine_AdditionalMechanisms.xml</File><File>Data/Sistine_Victories.xml</File><File>Data/Sistine_Difficulties.xml</File><File>Data/Sistine_Operations.xml</File><File>Data/Sistine_Routes.xml</File><File>Data/Sistine_Governments.xml</File><File>Data/Sistine_Policies.xml</File><File>Data/Sistine_GreatWorks.xml</File><File>Data/Sistine_Beliefs.xml</File><File>Data/Sistine_Projects.xml</File><File>Data/Sistine_Improvements.xml</File><File>Data/Sistine_TerrainFeatures.xml</File><File>Data/Sistine_Expansion1.xml</File><File>Data/Sistine_Expansion2.xml</File><File>Data/Sistine_GreatPeople.xml</File><File>Data/Sistine_Diplomacy.xml</File></UpdateDatabase><UpdateIcons id="SistineIcons"><File>Data/Sistine_Icons.xml</File></UpdateIcons><UpdateDatabase id="SecretSocieties"><Criteria>SecretSocieties</Criteria><File>Data/Gamemodes/Sistine_SecretSocieties_MODE.xml</File></UpdateDatabase><UpdateDatabase id="DramaticAges"><Criteria>DramaticAges</Criteria><File>Data/Gamemodes/Sistine_DramaticAges_MODE.xml</File></UpdateDatabase><UpdateDatabase id="Monopolies"><Criteria>Monopolies</Criteria><File>Data/Gamemodes/Sistine_Monopolies_MODE.xml</File></UpdateDatabase><UpdateDatabase id="BarbarianClans"><Criteria>BarbarianClans</Criteria><File>Data/Gamemodes/Sistine_BarbarianClans_MODE.xml</File></UpdateDatabase><UpdateDatabase id="TreeRandomizer"><Criteria>TreeRandomizer</Criteria><File>Data/Gamemodes/Sistine_TreeRandomizer_MODE.xml</File></UpdateDatabase><UpdateDatabase id="TowerDefense"><Criteria>TowerDefense</Criteria><File>Data/Gamemodes/Sistine_TowerDefense_MODE.xml</File></UpdateDatabase><UpdateDatabase id="Apocalypse"><Criteria>Apocalypse</Criteria><File>Data/Gamemodes/Sistine_Apocalypse_MODE.xml</File></UpdateDatabase><UpdateDatabase id="Heroes"><Criteria>Heroes</Criteria><File>Data/Gamemodes/Sistine_Heroes_MODE.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -56,10 +58,35 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data" />
+    <Folder Include="Data\Gamemodes" />
     <Folder Include="Text" />
     <Folder Include="Text\Replacements" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\Gamemodes\Sistine_SecretSocieties_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Gamemodes\Sistine_DramaticAges_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Gamemodes\Sistine_Monopolies_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Gamemodes\Sistine_BarbarianClans_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Gamemodes\Sistine_TreeRandomizer_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Gamemodes\Sistine_TowerDefense_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Gamemodes\Sistine_Apocalypse_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Gamemodes\Sistine_Heroes_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\Sistine_AdditionalMechanisms.xml">
       <SubType>Content</SubType>
     </Content>
