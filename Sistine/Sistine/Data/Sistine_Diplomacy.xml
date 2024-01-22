@@ -189,4 +189,42 @@
 			<Set GrievanceDecayRate="4" />
 		</Update>
 	</Eras_XP2>
+	<ModifierArguments>
+		<Delete ModifierId="STANDARD_DIPLOMACY_SETTLED_CITIES" Name="InitialValue"/>
+		<Row>
+			<ModifierId>STANDARD_DIPLOMACY_SETTLED_CITIES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-3</Value>
+		</Row>
+		<Delete ModifierId="STANDARD_DIPLOMACY_SETTLED_CITIES" Name="IncrementValue"/>
+		<Row>
+			<ModifierId>STANDARD_DIPLOMACY_SETTLED_CITIES</ModifierId>
+			<Name>IncrementValue</Name>
+			<Value>-3</Value>
+		</Row>
+		<Delete ModifierId="STANDARD_DIPLOMATIC_WARMONGER" Name="LowerLimit"/>
+		<Delete ModifierId="STANDARD_DIPLOMATIC_WARMONGER" Name="PercentOfGrievances"/>
+		<Row>
+			<ModifierId>STANDARD_DIPLOMATIC_WARMONGER</ModifierId>
+			<Name>LowerLimit</Name>
+			<Value>-40</Value>
+		</Row>
+		<Row>
+			<ModifierId>STANDARD_DIPLOMATIC_WARMONGER</ModifierId>
+			<Name>PercentOfGrievances</Name>
+			<Value>8</Value>
+		</Row>
+		<Delete ModifierId="STANDARD_DIPLOMATIC_THIRD_PARTY_WARMONGER" Name="LowerLimit"/>
+		<Delete ModifierId="STANDARD_DIPLOMATIC_THIRD_PARTY_WARMONGER" Name="PercentOfGrievancesDelta"/>
+		<Row>
+			<ModifierId>STANDARD_DIPLOMATIC_THIRD_PARTY_WARMONGER</ModifierId>
+			<Name>LowerLimit</Name>
+			<Value>-30</Value>
+		</Row>
+		<Row>
+			<ModifierId>STANDARD_DIPLOMATIC_THIRD_PARTY_WARMONGER</ModifierId>
+			<Name>PercentOfGrievancesDelta</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>
