@@ -53,9 +53,6 @@
 		<Replace Tag="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION_SST" Language="en_US">
 			<Text>+2 [ICON_Gold] Gold from Fishing Boats.</Text>
 		</Replace>
-		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="en_US">
-			<Text>+1 [ICON_Food] Food from Fishing Boats.</Text>
-		</Replace>
 		<Replace Tag="LOC_TECH_MACHINERY_DESCRIPTION_SST" Language="en_US">
 			<Text>+1 Production [ICON_Production] from Lumber Mills.</Text>
 		</Replace>

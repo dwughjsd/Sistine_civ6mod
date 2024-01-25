@@ -53,9 +53,6 @@
 		<Replace Tag="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>渔船+2 [ICON_Gold] 金币。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
-		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>渔船+1 [ICON_Food] 食物。</Text>
-		</Replace>
 		<Replace Tag="LOC_TECH_MILITARY_ENGINEERING_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>伐木场+1 [ICON_Production] 生产力。</Text>
 		</Replace>

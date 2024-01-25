@@ -25,62 +25,56 @@
 
 	<Improvement_BonusYieldChanges>
 		<Update>
-			<Where Id="6" />
-			<!--ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION"-->
+			<Where Id="6" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION"/>
 			<Set PrereqTech="" PrereqCivic="CIVIC_CIVIL_SERVICE"/>
 		</Update>
 		<Update>
-			<Where Id="18" /> <!--ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"-->
+			<Where Id="18" ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"/> 
 			<Set PrereqCivic="CIVIC_COLONIALISM"/>
 		</Update>
 		<Update>
-			<Where Id="21" /> <!--ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"-->
+			<Where Id="21" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"/> 
 			<Set PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
 		</Update>
 		<Update>
-			<Where Id="7" />
-			<!--ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION" PrereqTech="TECH_INDUSTRIALIZATION"-->
+			<Where Id="7" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION"/>
+			<!-- PrereqTech="TECH_INDUSTRIALIZATION"-->
 			<Set PrereqTech="TECH_STEAM_POWER"/>
 		</Update>
 		<Update>
-			<Where Id="13" />
-			<!--ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_PRODUCTION" PrereqTech="TECH_ROCKETRY"-->
+			<Where Id="13" ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_PRODUCTION"/>
+			<!-- PrereqTech="TECH_ROCKETRY"-->
 			<Set PrereqTech="" PrereqCivic="CIVIC_GUILDS"/>
 		</Update>
 		<Update>
-			<Where Id="230" />
-			<!--ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_PRODUCTION" PrereqTech="TECH_GUNPOWDER"-->
+			<Where Id="230" ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_PRODUCTION"/>
+			<!-- PrereqTech="TECH_GUNPOWDER"-->
 			<Set PrereqTech="" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
 		</Update>
 		<Update>
-			<Where Id="8" />
-			<!--ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_FOOD" PrereqTech="TECH_STIRRUPS"-->
+			<Where Id="8" ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_FOOD"/>
+			<!-- PrereqTech="TECH_STIRRUPS"-->
 			<Set YieldType="YIELD_PRODUCTION"/>
 		</Update>
 		<Update>
-			<Where Id="233" />
-			<!--ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_FOOD" PrereqTech="TECH_ROBOTICS"-->
+			<Where Id="233" ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_FOOD"/>
+			<!-- PrereqTech="TECH_ROBOTICS"-->
 			<Set YieldType="YIELD_PRODUCTION"/>
 		</Update>
 		<Update>
-			<Where Id="232" />
-			<!--ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_PRODUCTION" PrereqTech="TECH_REPLACEABLE_PARTS"-->
+			<Where Id="232" ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_PRODUCTION"/>
+			<!-- PrereqTech="TECH_REPLACEABLE_PARTS"-->
 			<Set YieldType="YIELD_FOOD" PrereqTech="" PrereqCivic="CIVIC_URBANIZATION"/>
 		</Update>
 		<Update>
 			<Where Id="225" ImprovementType="IMPROVEMENT_CAMP"/>
-			<!--ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_GOLD" PrereqTech="TECH_SYNTHETIC_MATERIALS"-->
+			<!-- PrereqTech="TECH_SYNTHETIC_MATERIALS"-->
 			<Set PrereqTech="" PrereqCivic="CIVIC_CONSERVATION"/>
 		</Update>
 		<Update>
-			<Where Id="3" />
-			<!--ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_GOLD" PrereqTech="TECH_CARTOGRAPHY"-->
+			<Where Id="3" ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_GOLD"/>
+			<!-- PrereqTech="TECH_CARTOGRAPHY"-->
 			<Set PrereqTech="" PrereqCivic="CIVIC_MEDIEVAL_FAIRES"/>
-		</Update>
-		<Update>
-			<Where Id="4" />
-			<!--ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_GOLD" PrereqTech="TECH_PLASTICS"-->
-			<Set PrereqTech="TECH_ELECTRICITY"/>
 		</Update>
 		<Row Id="501" ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_MILITARY_ENGINEERING"/>
 	</Improvement_BonusYieldChanges>
