@@ -1497,5 +1497,8 @@
 		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>在无产阶级领导的社会主义国家里，人民享有最高权力；然而，即使是马克思也意识到，为了有效地运作政府机构并确保无产阶级专政，必须存在某种形式的党组织。由此，1917年的布尔什维克宣称，一群官僚中的先进分子需要领导一个一个集权政党来治理新生的苏俄政权。</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION_MODE_SST" Language="zh_Hans_CN">
+			<Text>建有大浴场的河畔泛滥平原单元格免受洪水侵袭（但来自洪水的 [ICON_FOOD] 食物和 [ICON_PRODUCTION] 生产力加成减半）。此城市的泛滥平原单元格+2 [ICON_FAITH] 信仰值。[NEWLINE][NEWLINE]必须建在泛滥平原单元格中。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

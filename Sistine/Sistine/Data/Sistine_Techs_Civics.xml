@@ -18,10 +18,6 @@
 			<Set Description=""/>
 		</Update>
 		<Update>
-			<Where TechnologyType="TECH_PLASTICS" />
-			<Set Description=""/>
-		</Update>
-		<Update>
 			<Where TechnologyType="TECH_ROCKETRY" />
 			<Set Description=""/>
 		</Update>
@@ -56,10 +52,6 @@
 		<Update>
 			<Where TechnologyType="TECH_CONSTRUCTION" />
 			<Set Description="LOC_TECH_CONSTRUCTION_DESCRIPTION_SST"/>
-		</Update>
-		<Update>
-			<Where TechnologyType="TECH_ELECTRICITY" />
-			<Set Description="LOC_TECH_ELECTRICITY_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_MILITARY_ENGINEERING" />

@@ -58,8 +58,10 @@
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" RequiredPower="3"/>
 		<Delete BuildingType="BUILDING_FOOD_MARKET"/>
 		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set RequiredPower="3" EntertainmentBonusWithPower="1" /></Update>
+		<!--Multiplier does not support decimal number!-->
+		<Replace BuildingType="BUILDING_FLOOD_BARRIER" BlocksCoastalFlooding="true" CostMultiplierPerTile="0" CostMultiplierPerSeaLevel="0" Pillage="false"/>
 	</Buildings_XP2>
-	
+
 	<BuildingPrereqs>
 		<!--City Center-->
 		<Row Building="BUILDING_HOSPITAL" PrereqBuilding="BUILDING_SEWER"/>
@@ -403,7 +405,7 @@
 		<Update><Where BuildingType="BUILDING_SHRINE" /><Set Cost="65"/></Update>
 		<Update><Where BuildingType="BUILDING_WALLS" /><Set Cost="70"/></Update>
 		<Update><Where BuildingType="BUILDING_WATER_MILL" /><Set Cost="70"/></Update>
-		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="650"/></Update>
 		<Update><Where BuildingType="BUILDING_PALGUM" /><Set Cost="70"/></Update>
 		<Update><Where BuildingType="BUILDING_BARRACKS" /><Set Cost="85"/></Update>
 		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Cost="85"/></Update>
