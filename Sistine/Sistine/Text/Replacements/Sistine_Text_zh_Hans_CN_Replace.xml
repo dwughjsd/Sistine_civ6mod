@@ -965,5 +965,20 @@
 		<Replace Tag="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC_NAME" Language="zh_Hans_CN">
 			<Text>核反应堆芯熔毁</Text>
 		</Replace>
+		<Replace Tag="LOC_CITY_YIELD_FROM_TILES_SUMMARY_TOOLTIP" Language="zh_Hans_CN">
+			<Text>{Value : number +#.#;-#.#}来自有市民工作的单元格</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_YIELD_FROM_POPULATION_TOOLTIP" Language="zh_Hans_CN">
+			<Text>{Value : number +#.#;-#.#}来自人口</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_YIELD_FROM_INCOMING_TRADE_ROUTES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>{Value : number +#.#;-#.#}来自到达此城的贸易路线</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_YIELD_FROM_OUTGOING_TRADE_ROUTES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>{Value : number +#.#;-#.#}来自此城出发的贸易路线</Text>
+		</Replace>
+		<Replace Tag="LOC_PLAYER_YIELD_GOLD_FROM_INTEREST" Language="zh_Hans_CN">
+			<Text>{Value : number +#.#;-#.#}来自国库利息（上限1000）</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
