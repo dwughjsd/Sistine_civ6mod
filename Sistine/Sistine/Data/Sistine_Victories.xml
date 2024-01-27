@@ -75,16 +75,15 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" />
 			<Set DefaultValue="2.5" />
 		</Update>
-		<!--Trade!-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="2.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
@@ -109,7 +108,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
-			<Set DefaultValue="16.0" />
+			<Set DefaultValue="12.0" />
 		</Update>
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
