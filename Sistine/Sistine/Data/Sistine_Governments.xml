@@ -1290,4 +1290,12 @@
 		</Update>
 	</ModifierStrings>
 
+	<Modifiers>
+		<Delete ModifierId="FASCISM_ATTACK_BUFF" />
+		<Row>
+			<ModifierId>FASCISM_ATTACK_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+
 </GameInfo>

@@ -225,7 +225,7 @@
 			<Text>所有城市 [ICON_Gold] 金币+15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_SST" Language="zh_Hans_CN">
-			<Text>所有单位攻击时+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区域（ZOC）。</Text>
+			<Text>所有单位+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区域（ZOC）。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST" Language="zh_Hans_CN">
 			<Text>所有城市建造单位时 [ICON_Production] 生产力+25%。</Text>
