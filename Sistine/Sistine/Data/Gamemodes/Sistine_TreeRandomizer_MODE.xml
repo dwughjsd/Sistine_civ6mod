@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- GameData5 -->
-<!-- Author: Admin -->
-<!-- DateCreated: 1/22/2024 9:10:01 PM -->
 <GameData>
 	<Technologies_XP2>
 		<Row TechnologyType="TECH_STEAM_POWER" HiddenUntilPrereqComplete="true" RandomPrereqs="true"/>

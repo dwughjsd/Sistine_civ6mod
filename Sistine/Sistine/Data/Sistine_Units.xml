@@ -299,7 +299,7 @@
 	<UnitOperations>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_DISRUPT_ROCKETRY" />
-			<Set BaseProbability="18" />
+			<Set BaseProbability="16" />
 		</Update>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_GREAT_WORK_HEIST" />
@@ -307,11 +307,11 @@
 		</Update>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_RECRUIT_PARTISANS" />
-			<Set BaseProbability="18" />
+			<Set BaseProbability="20" />
 		</Update>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_SABOTAGE_PRODUCTION" />
-			<Set BaseProbability="16" />
+			<Set BaseProbability="18" />
 		</Update>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_SIPHON_FUNDS" />
