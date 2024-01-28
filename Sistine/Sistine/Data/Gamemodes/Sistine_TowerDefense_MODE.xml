@@ -29,6 +29,6 @@
 		<Replace OperationType="UNITOPERATION_SPY_ZOMBIFY" VisibleInUI="true" HoldCycling="true" CategoryInUI="OFFENSIVESPY" Icon="ICON_UNITOPERATION_SPY_ZOMBIFY" Description="LOC_UNITCOMMAND_SPY_SUMMON_ZOMBIES_NAME" Turns="8" BaseProbability="20" LevelProbChange="1" EnemyProbChange="3" EnemyLevelProbChange="1" TargetDistrict="DISTRICT_CITY_CENTER" InterfaceMode="INTERFACEMODE_SPY_CHOOSE_MISSION"/>
 	</UnitOperations>
 	<TypeProperties>
-		<Row Type="UNITOPERATION_SPY_ZOMBIFY"	Name="SPY_OPERATION_CHANCE_TO_SPAWN_ZOMBIE" Value="25"/>
+		<Replace Type="UNITOPERATION_SPY_ZOMBIFY"	Name="SPY_OPERATION_CHANCE_TO_SPAWN_ZOMBIE" Value="25"/>
 	</TypeProperties>
 </GameData>
