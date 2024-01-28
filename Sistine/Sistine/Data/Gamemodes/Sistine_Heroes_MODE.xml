@@ -1,4 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-
+	<Units>
+		<!--All other heroes receive -6 penalty-->
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_ANANSI" />
+			<Set Combat="12" RangedCombat="24"/>
+		</Update>
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_ARTHUR" />
+			<Set Combat="30" />
+		</Update>
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_BEOWULF" />
+			<Set Combat="28" />
+		</Update>
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_HERCULES" />
+			<Set Combat="30" />
+		</Update>
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_HIPPOLYTA" />
+			<Set Combat="26" />
+		</Update>
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_HUNAHPU" />
+			<Set Combat="24" />
+		</Update>
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_MAUI" />
+			<Set Combat="24" />
+		</Update>
+		<!--Mulan receive -10 penalty cuz she can be really strong-->
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_MULAN" />
+			<Set Combat="6" RangedCombat="18"/>
+		</Update>
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_OYA" />
+			<Set Combat="24" />
+		</Update>
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_SINBAD" />
+			<Set Combat="24" />
+		</Update>
+		<Update>
+			<Where GreatWorkType="UNIT_HERO_WUKONG" />
+			<Set Combat="26" />
+		</Update>
+	</Units>
+	<HeroClassProgressions>
+		<!--Anansi-->
+		<Replace HeroClassType="HEROCLASS_ANANSI" EraType="ERA_CLASSICAL"	CombatStrength="22" RangedCombatStrength="34"/>
+		<Replace HeroClassType="HEROCLASS_ANANSI" EraType="ERA_MEDIEVAL"	CombatStrength="30" RangedCombatStrength="42"/>
+		<Replace HeroClassType="HEROCLASS_ANANSI" EraType="ERA_RENAISSANCE" CombatStrength="42" RangedCombatStrength="54"/>
+		<Replace HeroClassType="HEROCLASS_ANANSI" EraType="ERA_INDUSTRIAL"	CombatStrength="54" RangedCombatStrength="66"/>
+		<Replace HeroClassType="HEROCLASS_ANANSI" EraType="ERA_MODERN"		CombatStrength="66" RangedCombatStrength="82"/>
+		<Replace HeroClassType="HEROCLASS_ANANSI" EraType="ERA_ATOMIC"		CombatStrength="78" RangedCombatStrength="96"/>
+		<Replace HeroClassType="HEROCLASS_ANANSI" EraType="ERA_INFORMATION" CombatStrength="82" RangedCombatStrength="100"/>
+		<!--Arthur-->
+		<Replace HeroClassType="HEROCLASS_ARTHUR" EraType="ERA_CLASSICAL"	CombatStrength="42"/>
+		<Replace HeroClassType="HEROCLASS_ARTHUR" EraType="ERA_MEDIEVAL"	CombatStrength="58"/>
+		<Replace HeroClassType="HEROCLASS_ARTHUR" EraType="ERA_RENAISSANCE" CombatStrength="66"/>
+		<Replace HeroClassType="HEROCLASS_ARTHUR" EraType="ERA_INDUSTRIAL"	CombatStrength="74"/>
+		<Replace HeroClassType="HEROCLASS_ARTHUR" EraType="ERA_MODERN"		CombatStrength="88"/>
+		<Replace HeroClassType="HEROCLASS_ARTHUR" EraType="ERA_ATOMIC"		CombatStrength="102"/>
+		<Replace HeroClassType="HEROCLASS_ARTHUR" EraType="ERA_INFORMATION" CombatStrength="114"/>
+		<!--Beowulf-->
+		<Replace HeroClassType="HEROCLASS_BEOWULF" EraType="ERA_CLASSICAL"		CombatStrength="40"/>
+		<Replace HeroClassType="HEROCLASS_BEOWULF" EraType="ERA_MEDIEVAL"		CombatStrength="54"/>
+		<Replace HeroClassType="HEROCLASS_BEOWULF" EraType="ERA_RENAISSANCE"	CombatStrength="66"/>
+		<Replace HeroClassType="HEROCLASS_BEOWULF" EraType="ERA_INDUSTRIAL"		CombatStrength="78"/>
+		<Replace HeroClassType="HEROCLASS_BEOWULF" EraType="ERA_MODERN"			CombatStrength="92"/>
+		<Replace HeroClassType="HEROCLASS_BEOWULF" EraType="ERA_ATOMIC"			CombatStrength="102"/>
+		<Replace HeroClassType="HEROCLASS_BEOWULF" EraType="ERA_INFORMATION"	CombatStrength="112"/>
+		<!--Hercules-->
+		<Replace HeroClassType="HEROCLASS_HERCULES" EraType="ERA_CLASSICAL"		CombatStrength="42"/>
+		<Replace HeroClassType="HEROCLASS_HERCULES" EraType="ERA_MEDIEVAL"		CombatStrength="56"/>
+		<Replace HeroClassType="HEROCLASS_HERCULES" EraType="ERA_RENAISSANCE"	CombatStrength="70"/>
+		<Replace HeroClassType="HEROCLASS_HERCULES" EraType="ERA_INDUSTRIAL"	CombatStrength="82"/>
+		<Replace HeroClassType="HEROCLASS_HERCULES" EraType="ERA_MODERN"		CombatStrength="96"/>
+		<Replace HeroClassType="HEROCLASS_HERCULES" EraType="ERA_ATOMIC"		CombatStrength="106"/>
+		<Replace HeroClassType="HEROCLASS_HERCULES" EraType="ERA_INFORMATION"	CombatStrength="116"/>
+		<!--Hippolyta-->
+		<Replace HeroClassType="HEROCLASS_HIPPOLYTA" EraType="ERA_CLASSICAL"	CombatStrength="38"/>
+		<Replace HeroClassType="HEROCLASS_HIPPOLYTA" EraType="ERA_MEDIEVAL"		CombatStrength="52"/>
+		<Replace HeroClassType="HEROCLASS_HIPPOLYTA" EraType="ERA_RENAISSANCE"	CombatStrength="64"/>
+		<Replace HeroClassType="HEROCLASS_HIPPOLYTA" EraType="ERA_INDUSTRIAL"	CombatStrength="76"/>
+		<Replace HeroClassType="HEROCLASS_HIPPOLYTA" EraType="ERA_MODERN"		CombatStrength="88"/>
+		<Replace HeroClassType="HEROCLASS_HIPPOLYTA" EraType="ERA_ATOMIC"		CombatStrength="98"/>
+		<Replace HeroClassType="HEROCLASS_HIPPOLYTA" EraType="ERA_INFORMATION"	CombatStrength="108"/>
+		<!--Hunahpu-->
+		<Replace HeroClassType="HEROCLASS_HUNAHPU" EraType="ERA_CLASSICAL"		CombatStrength="36"/>
+		<Replace HeroClassType="HEROCLASS_HUNAHPU" EraType="ERA_MEDIEVAL"		CombatStrength="48"/>
+		<Replace HeroClassType="HEROCLASS_HUNAHPU" EraType="ERA_RENAISSANCE"	CombatStrength="58"/>
+		<Replace HeroClassType="HEROCLASS_HUNAHPU" EraType="ERA_INDUSTRIAL"		CombatStrength="70"/>
+		<Replace HeroClassType="HEROCLASS_HUNAHPU" EraType="ERA_MODERN"			CombatStrength="82"/>
+		<Replace HeroClassType="HEROCLASS_HUNAHPU" EraType="ERA_ATOMIC"			CombatStrength="90"/>
+		<Replace HeroClassType="HEROCLASS_HUNAHPU" EraType="ERA_INFORMATION"	CombatStrength="100"/>
+		<!--Maui-->
+		<Replace HeroClassType="HEROCLASS_MAUI" EraType="ERA_CLASSICAL"		CombatStrength="36"/>
+		<Replace HeroClassType="HEROCLASS_MAUI" EraType="ERA_MEDIEVAL"		CombatStrength="48"/>
+		<Replace HeroClassType="HEROCLASS_MAUI" EraType="ERA_RENAISSANCE"	CombatStrength="60"/>
+		<Replace HeroClassType="HEROCLASS_MAUI" EraType="ERA_INDUSTRIAL"	CombatStrength="72"/>
+		<Replace HeroClassType="HEROCLASS_MAUI" EraType="ERA_MODERN"		CombatStrength="84"/>
+		<Replace HeroClassType="HEROCLASS_MAUI" EraType="ERA_ATOMIC"		CombatStrength="94"/>
+		<Replace HeroClassType="HEROCLASS_MAUI" EraType="ERA_INFORMATION"	CombatStrength="102"/>
+		<!--Mulan - -10-->
+		<Replace HeroClassType="HEROCLASS_MULAN" EraType="ERA_CLASSICAL"	CombatStrength="14" RangedCombatStrength="26"/>
+		<Replace HeroClassType="HEROCLASS_MULAN" EraType="ERA_MEDIEVAL"		CombatStrength="22" RangedCombatStrength="34"/>
+		<Replace HeroClassType="HEROCLASS_MULAN" EraType="ERA_RENAISSANCE"	CombatStrength="32" RangedCombatStrength="44"/>
+		<Replace HeroClassType="HEROCLASS_MULAN" EraType="ERA_INDUSTRIAL"	CombatStrength="44" RangedCombatStrength="56"/>
+		<Replace HeroClassType="HEROCLASS_MULAN" EraType="ERA_MODERN"		CombatStrength="54" RangedCombatStrength="70"/>
+		<Replace HeroClassType="HEROCLASS_MULAN" EraType="ERA_ATOMIC"		CombatStrength="64" RangedCombatStrength="82"/>
+		<Replace HeroClassType="HEROCLASS_MULAN" EraType="ERA_INFORMATION"	CombatStrength="68" RangedCombatStrength="86"/>
+		<!--Oya-->
+		<Replace HeroClassType="HEROCLASS_OYA" EraType="ERA_CLASSICAL"		CombatStrength="36"/>
+		<Replace HeroClassType="HEROCLASS_OYA" EraType="ERA_MEDIEVAL"		CombatStrength="48"/>
+		<Replace HeroClassType="HEROCLASS_OYA" EraType="ERA_RENAISSANCE"	CombatStrength="60"/>
+		<Replace HeroClassType="HEROCLASS_OYA" EraType="ERA_INDUSTRIAL"		CombatStrength="72"/>
+		<Replace HeroClassType="HEROCLASS_OYA" EraType="ERA_MODERN"			CombatStrength="84"/>
+		<Replace HeroClassType="HEROCLASS_OYA" EraType="ERA_ATOMIC"			CombatStrength="92"/>
+		<Replace HeroClassType="HEROCLASS_OYA" EraType="ERA_INFORMATION"	CombatStrength="102"/>
+		<!--Sinbad-->
+		<Replace HeroClassType="HEROCLASS_SINBAD" EraType="ERA_CLASSICAL"	CombatStrength="36"/>
+		<Replace HeroClassType="HEROCLASS_SINBAD" EraType="ERA_MEDIEVAL"	CombatStrength="46"/>
+		<Replace HeroClassType="HEROCLASS_SINBAD" EraType="ERA_RENAISSANCE"	CombatStrength="54"/>
+		<Replace HeroClassType="HEROCLASS_SINBAD" EraType="ERA_INDUSTRIAL"	CombatStrength="66"/>
+		<Replace HeroClassType="HEROCLASS_SINBAD" EraType="ERA_MODERN"		CombatStrength="82"/>
+		<Replace HeroClassType="HEROCLASS_SINBAD" EraType="ERA_ATOMIC"		CombatStrength="96"/>
+		<Replace HeroClassType="HEROCLASS_SINBAD" EraType="ERA_INFORMATION"	CombatStrength="108"/>
+		<!--Sun Wukong-->
+		<Replace HeroClassType="HEROCLASS_WUKONG" EraType="ERA_CLASSICAL"	CombatStrength="38"/>
+		<Replace HeroClassType="HEROCLASS_WUKONG" EraType="ERA_MEDIEVAL"	CombatStrength="50"/>
+		<Replace HeroClassType="HEROCLASS_WUKONG" EraType="ERA_RENAISSANCE"	CombatStrength="62"/>
+		<Replace HeroClassType="HEROCLASS_WUKONG" EraType="ERA_INDUSTRIAL"	CombatStrength="74"/>
+		<Replace HeroClassType="HEROCLASS_WUKONG" EraType="ERA_MODERN"		CombatStrength="86"/>
+		<Replace HeroClassType="HEROCLASS_WUKONG" EraType="ERA_ATOMIC"		CombatStrength="96"/>
+		<Replace HeroClassType="HEROCLASS_WUKONG" EraType="ERA_INFORMATION"	CombatStrength="104"/>
+		<!--Anansi-->
+		<Replace HeroClassType="HEROCLASS_ANANSI" EraType="ERA_FUTURE"		CombatStrength="84" RangedCombatStrength="102"/>
+		<!--Arthur-->
+		<Replace HeroClassType="HEROCLASS_ARTHUR" EraType="ERA_FUTURE"		CombatStrength="126"/>
+		<!--Beowulf-->
+		<Replace HeroClassType="HEROCLASS_BEOWULF" EraType="ERA_FUTURE"		CombatStrength="124"/>
+		<!--Hercules-->
+		<Replace HeroClassType="HEROCLASS_HERCULES" EraType="ERA_FUTURE"	CombatStrength="130"/>
+		<!--Hippolyta-->
+		<Replace HeroClassType="HEROCLASS_HIPPOLYTA" EraType="ERA_FUTURE"	CombatStrength="120"/>
+		<!--Hunahpu-->
+		<Replace HeroClassType="HEROCLASS_HUNAHPU" EraType="ERA_FUTURE"		CombatStrength="110"/>
+		<!--Maui-->
+		<Replace HeroClassType="HEROCLASS_MAUI" EraType="ERA_FUTURE"		CombatStrength="114"/>
+		<!--Mulan-->
+		<Replace HeroClassType="HEROCLASS_MULAN" EraType="ERA_FUTURE"		CombatStrength="70" RangedCombatStrength="88"/>
+		<!--Oya-->
+		<Replace HeroClassType="HEROCLASS_OYA" EraType="ERA_FUTURE"			CombatStrength="112"/>
+		<!--Sinbad-->
+		<Replace HeroClassType="HEROCLASS_SINBAD" EraType="ERA_FUTURE"		CombatStrength="120"/>
+		<!--Sun Wukong-->
+		<Replace HeroClassType="HEROCLASS_WUKONG" EraType="ERA_FUTURE"		CombatStrength="116"/>
+	</HeroClassProgressions>
 </GameData>
