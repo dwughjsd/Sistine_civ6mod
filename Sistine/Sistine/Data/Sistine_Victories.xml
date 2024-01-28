@@ -75,15 +75,15 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="0.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ENGINEER" />
-			<Set DefaultValue="2.5" />
+			<Set DefaultValue="3.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MERCHANT" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
@@ -91,20 +91,20 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" />
-			<Set DefaultValue="4.0" />
+			<Set DefaultValue="6.0" />
 		</Update>
 		<!--Great artists GPP should be divided by 2 or AI will feel that it is VERY important. As now we have wonders to provide culture, Theaters are not that important-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="3.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="3.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="3.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
@@ -113,7 +113,7 @@
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
-			<Set DefaultValue="1000" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
@@ -150,7 +150,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_COMBAT" />
-			<Set DefaultValue="0.8" />
+			<Set DefaultValue="0.67" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" />
