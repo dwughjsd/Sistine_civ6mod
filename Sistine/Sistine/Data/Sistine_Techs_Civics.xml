@@ -807,6 +807,41 @@
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
 	</CivicModifiers>
 
+	<!--Use this "wrap" to blind AI so that they won't rush a not-that-useful civic-->
+	<Modifiers>
+		<Update>
+			<Where ModifierId="HERITAGE_ARTIFACTTOURISM" />
+			<Set>
+				<SubjectRequirementSetId>PLAYER_HAS_CULTURAL_HERITAGE</SubjectRequirementSetId>
+			</Set>
+		</Update>
+	</Modifiers>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CULTURAL_HERITAGE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CULTURAL_HERITAGE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_CULTURAL_HERITAGE_CIVIC_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_HAS_CULTURAL_HERITAGE_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_CULTURAL_HERITAGE_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CULTURAL_HERITAGE</Value>
+		</Row>
+	</RequirementArguments>
+
 	<Types>
 		<Row Type="MODIFIER_REAL_PLAYER_CITIES_ADJUST_INNER_DEFENSE" Kind="KIND_MODIFIER"/>
 	</Types>
@@ -1026,6 +1061,7 @@
 		<Update><Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" /><Set NumItems="2"/></Update>
 		<Update><Where CivicType="CIVIC_DIGITAL_DEMOCRACY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_ROCK_BAND" NumItems="3"/></Update>
 		<Update><Where CivicType="CIVIC_SYNTHETIC_TECHNOCRACY" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_MANUFACTURING_PLANT" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_NEAR_FUTURE_GOVERNANCE" /><Set Boost="40"/></Update>
 	</Boosts>
 
 	<ProjectCompletionModifiers>
