@@ -233,5 +233,15 @@
 		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="en_US">
 			<Text>A district for naval activity in your city. Domestic [ICON_TradeRoute] Trade Routes from this city provide +1 [ICON_Production] Production and +1 [ICON_Food] Food, and International [ICON_TradeRoute] Trade Routes provide +3 [ICON_Gold] Gold if this city does not yet have a Commercial Hub district. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land. Cannot be built on Reef.</Text>
 		</Replace>
+		<!--Gamemode-->
+		<Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION_SST" Language="en_US">
+			<Text>Unique to the Hermetic Order, replaces the University. This Campus district generates [ICON_Gold] Gold equal to its [ICON_Science] Science adjacency bonus. {LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST}{LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GILDED_VAULT_DESCRIPTION_SST" Language="en_US">
+			<Text>Unique to the Owls of Minerva, replaces the Bank. This Commercial Hub generates [ICON_CULTURE] Culture equal to its [ICON_Gold] Gold adjacency bonus.  Having a Harbor in this city provides you with +1 [ICON_TradeRoute] Trade Route capacity. {LOC_BUILDING_BANK_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_2_DESCRIPTION" Language="en_US">
+			<Text>Unlocked in Medieval Era. Cities earn [ICON_Gold] Gold per turn equal to 20% of their [ICON_Faith] Faith per turn rate, as well as 10% of their [ICON_Science] Science and [ICON_Culture] Culture.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
