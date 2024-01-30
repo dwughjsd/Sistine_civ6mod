@@ -177,10 +177,7 @@
 			<Text>+10% Production toward Wonders.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST" Language="en_US">
-			<Text>Land melee, anti-cavalry and naval melee units gain +4 [ICON_Strength] Combat Strength. Combat victories provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
-		</Replace>
-		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST" Language="en_US">
-			<Text>+50% Unit Experience.</Text>
+			<Text>Land melee, anti-cavalry and naval melee units gain +4 [ICON_Strength] Combat Strength. +2 [ICON_Culture] Culture for cities with a garrisoned unit.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST" Language="en_US">
 			<Text>All cities with a district receive +1 [ICON_Culture] Culture and +1 [ICON_Amenities] Amenity.</Text>
