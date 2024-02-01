@@ -234,7 +234,7 @@
 			<Text>工厂为城市+25% [ICON_Science] 科技值。建造工厂建筑+100% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST" Language="zh_Hans_CN">
-			<Text>所有城市 [ICON_Production] 生产力+20%。</Text>
+			<Text>所有城市 [ICON_Production] 生产力+15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST" Language="zh_Hans_CN">
 			<Text>每个区域提供1点 [ICON_Culture] 文化和2点 [ICON_Gold] 金币。同盟点数每回合增加0.5。</Text>
@@ -258,7 +258,7 @@
 			<Text>所有城市获得+6 [ICON_Power] 电力。您的系外行星探索提速3光年每回合。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST" Language="zh_Hans_CN">
-			<Text>学院和工业区向城市提供15% [ICON_Science] 科技值。</Text>
+			<Text>学院和工业区向城市提供20% [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>法西斯主义提供+5 [ICON_Strength] 战斗力</Text>

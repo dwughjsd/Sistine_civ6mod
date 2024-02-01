@@ -6,12 +6,17 @@
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_ARMY_UPGRADE_DISCOUNT_SST"/>
 		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_FAITH_SCALING"/>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_PRODUCTION_SCALING"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_CIVIC_BOOST_BONUS_SST"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_TECH_BOOST_SST"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_ADDITIONAL_CIVIC_BOOST_SST"/>
 		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_SCALING"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_DISTRICTS_PRODUCTION_SCALING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_PROJECTS_PRODUCTION_SCALING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_UNITS_PRODUCTION_SCALING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_BUILDINGS_PRODUCTION_SCALING"/>
 		<!--We all know AI never use these policies. So why not give them?-->
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SERFDOM"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_PUBLIC_WORKS_ADDITION_CHARGE"/>
@@ -141,12 +146,28 @@
 			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_DISTRICTS_PRODUCTION_SCALING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_DISTRICTS_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_PROJECTS_PRODUCTION_SCALING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_PROJECTS_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_UNITS_PRODUCTION_SCALING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_BUILDINGS_PRODUCTION_SCALING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
-		<Update>
-			<Where ModifierId="HIGH_DIFFICULTY_PRODUCTION_SCALING" Name="Amount"/>
-			<Set Type="LinearScaleFromDefaultHandicap" Value="-25" Extra="25"/>
-		</Update>
 		<Update>
 			<Where ModifierId="HIGH_DIFFICULTY_UNIT_XP_SCALING" Name="Amount"/>
 			<Set Type="LinearScaleFromDefaultHandicap" Value="-10" Extra="10"/>
@@ -330,6 +351,32 @@
 			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_CIVIC_BOOST</ModifierId>
 			<Name>EndEraType</Name>
 			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_DISTRICTS_PRODUCTION_SCALING</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-25</Value>
+			<Extra>25</Extra>
+		</Row>
+		<Row>
+			<ModifierId>HIGH_DIFFICULTY_PROJECTS_PRODUCTION_SCALING</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-25</Value>
+			<Extra>25</Extra>
+		</Row>		<Row>
+			<ModifierId>HIGH_DIFFICULTY_UNITS_PRODUCTION_SCALING</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-25</Value>
+			<Extra>25</Extra>
+		</Row>		<Row>
+			<ModifierId>HIGH_DIFFICULTY_BUILDINGS_PRODUCTION_SCALING</ModifierId>
+			<Name>Amount</Name>
+			<Type>LinearScaleFromDefaultHandicap</Type>
+			<Value>-25</Value>
+			<Extra>25</Extra>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>

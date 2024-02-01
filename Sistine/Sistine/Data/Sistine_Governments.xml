@@ -290,6 +290,7 @@
 			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE"
 			SubjectRequirementSetId="CITY_HAS_GARRISON_UNIT_REQUIERMENT"
 		/>
+		<Update><Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" /><Set ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/></Update>
 		<!--MONARCHY-->
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
 			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
@@ -520,6 +521,7 @@
 			<Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="Amount" />
 			<Set Value="20" />
 		</Update>
+		<Delete ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="BonusType" />
 		<Row ModifierId="OLIGARCHY_GARRISON_CULTURE"
 			Name="Amount"
 			Value="2"
@@ -783,7 +785,7 @@
 		/>
 		<Row ModifierId="COMMUNISM_PRODUCTION_SST"
 			Name="Amount"
-			Value="20"
+			Value="15"
 		/>
 		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
 			Name="YieldType"
@@ -868,7 +870,7 @@
 		/>
 		<Row ModifierId="SYNTHETIC_TECHNOCRACY_CAMPUS_SCIENCE_SST"
 			Name="Amount"
-			Value="15"
+			Value="20"
 		/>
 		<Row ModifierId="SYNTHETIC_TECHNOCRACY_INDUSTRIAL_ZONE_SCIENCE_SST"
 			Name="YieldType"
@@ -876,7 +878,7 @@
 		/>
 		<Row ModifierId="SYNTHETIC_TECHNOCRACY_INDUSTRIAL_ZONE_SCIENCE_SST"
 			Name="Amount"
-			Value="15"
+			Value="20"
 		/>
 		<!--DIGITAL_DEMOCRACY-->
 		<Update>
