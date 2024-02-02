@@ -899,7 +899,7 @@
 		/>
 		<Row ModifierId="DIGITAL_DEMOCRACY_BOOST_ALL_TOURISM"
 			Name="Amount"
-			Value="25"
+			Value="30"
 		/>
 	</ModifierArguments>
 
