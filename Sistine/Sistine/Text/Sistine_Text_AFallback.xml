@@ -213,7 +213,7 @@
 			<Text>+25% [ICON_Science] Science to all cities with a Factory. +100% [ICON_Production] Production towards Industrial Zone buildings.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST" Language="en_US">
-			<Text>+20% [ICON_Production] Production to all cities.</Text>
+			<Text>+15% [ICON_Production] Production to all cities.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST" Language="en_US">
 			<Text>Districts provide +1 [ICON_Culture] Culture and +2 [ICON_Gold] Gold. Alliance Points with all allies increase by an additional .5 per turn.</Text>
@@ -231,13 +231,13 @@
 			<Text>+3 [ICON_Amenities] Amenities in all cities, and +3 [ICON_Tourism] Tourism per Specialty District.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY_SST" Language="en_US">
-			<Text>+25% [ICON_Tourism] Tourism across your empire.</Text>
+			<Text>+30% [ICON_Tourism] Tourism across your empire.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_SYNTHETIC_TECHNOCRACY_SST" Language="en_US">
 			<Text>+6 [ICON_Power] Power in all cities. Speeds up your Exoplanet Expedition ship by 3 Light Years per turn.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST" Language="en_US">
-			<Text>Campuses and Industrial Zones provide cities with +15% [ICON_Science] Science.</Text>
+			<Text>Campuses and Industrial Zones provide cities with +20% [ICON_Science] Science.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength from Fascism</Text>
