@@ -1556,5 +1556,18 @@
 		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+17 [ICON_Strength] 战斗力来自机甲战争黄金时代</Text>
 		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”着力点加成：[NEWLINE]每次触发 [ICON_CivicBoosted] 启发+2时代得分。建成拥有巨作槽位的建筑+1时代得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”着力点加成：[NEWLINE]每次触发 [ICON_TechBoosted] 尤里卡+2时代得分。建造以科技值为基础产出的建筑+1时代得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE}</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

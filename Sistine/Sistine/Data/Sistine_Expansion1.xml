@@ -807,6 +807,18 @@
 			<Name>Amount</Name>
 			<Value>15</Value>
 		</Row>
+		<Delete ModifierId="COMMEMORATION_CULTURAL_QUEST" Name="Amount" />
+		<Row>
+			<ModifierId>COMMEMORATION_CULTURAL_QUEST</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Delete ModifierId="COMMEMORATION_SCIENTIFIC_QUEST" Name="Amount" />
+		<Row>
+			<ModifierId>COMMEMORATION_SCIENTIFIC_QUEST</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
 		<InsertOrIgnore>
