@@ -100,6 +100,14 @@
 	</Moments>
 	
 	<!--Governors-->
+	<Governors>
+		<Update>
+			<Where GovernorType="GOVERNOR_THE_DEFENDER"/>
+			<Set>
+				<IdentityPressure>20</IdentityPressure>
+			</Set>
+		</Update>
+	</Governors>
 	<Improvement_YieldChanges>
 		<Delete ImprovementType="IMPROVEMENT_FISHERY" YieldType="YIELD_FOOD" />
 		<Row ImprovementType="IMPROVEMENT_FISHERY" YieldType="YIELD_FOOD" YieldChange="2"/>
@@ -107,6 +115,10 @@
 		<Row ImprovementType="IMPROVEMENT_CITY_PARK" YieldType="YIELD_CULTURE" YieldChange="3"/>
 	</Improvement_YieldChanges>
 	<GovernorPromotionModifiers>
+		<Delete GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN" ModifierId="LIBRARIAN_SCIENCE_YIELD_BONUS" />
+		<Delete GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN" ModifierId="LIBRARIAN_CULTURE_YIELD_BONUS" />
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN" ModifierId="CONNOISSEUR_CULTURE_CITIZEN" />
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN" ModifierId="RESEARCHER_SCIENCE_CITIZEN" />
 		<Delete GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR" ModifierId="CONNOISSEUR_CULTURE_CITIZEN" />
 		<Row GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR" ModifierId="GOVERNOR_THEATER_ADJACENCY" />
 		<Row GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR" ModifierId="GOVERNOR_AMPHITHEATER_BONUS" />
@@ -123,6 +135,7 @@
 		<Delete GovernorPromotionType="GOVERNOR_PROMOTION_WATER_WORKS" ModifierId="WATER_WORKS_CANAL_AMENITY" />
 		<Row GovernorPromotionType="GOVERNOR_PROMOTION_WATER_WORKS" ModifierId="WATER_WORKS_AQUEDUCT_AMENITY" />
 		<Row GovernorPromotionType="GOVERNOR_PROMOTION_WATER_WORKS" ModifierId="WATER_WORKS_DAM_HOUSING" />
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER" ModifierId="SURPLUS_LOGISTICS_EXTRA_GROWTH" />
 		<Delete GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS" ModifierId="SURPLUS_LOGISTICS_EXTRA_GROWTH" />
 		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS" ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_PRODUCTION" />
 		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST" ModifierId="INDUSTRIALIST_WORKSHOP_PRODUCTION" />
@@ -153,6 +166,8 @@
 		<Row GovernorPromotionType="GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER" ModifierId="FOREIGN_EXCHANGE_GOLD_FROM_FOREIGN_TRADE_PASSING_THROUGH" />
 		<Delete GovernorPromotionType="GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY" ModifierId="RENEWABLE_ENERGY_IMPROVEMENT_BUILDING_GOLD" />
 		<Row GovernorPromotionType="GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY" ModifierId="RENEWABLE_ENERGY_RIVER_PLOTS_GOLD" />
+		<Delete GovernorPromotionType="GOVERNOR_PROMOTION_CARDINAL_BISHOP" ModifierId="CARDINAL_BISHOP_FAITH_DISTRICT" />
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_CARDINAL_BISHOP" ModifierId="CARDINAL_BISHOP_FAITH_CITIZEN" />
 	</GovernorPromotionModifiers>
 	<Modifiers>
 		<Row ModifierId="GOVERNOR_CAMPUS_ADJACENCY" ModifierType="MODIFIER_CITY_DISTRICTS_ADJUST_YIELD_MODIFIER" SubjectRequirementSetId="DISTRICT_IS_CAMPUS"/>
@@ -185,8 +200,14 @@
 		<Row ModifierId="GOVERNOR_ATOMIC_SUPPORT_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION" SubjectRequirementSetId="CITY_HAS_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE"/>
 		<Row ModifierId="GOVERNOR_INFORMATION_SUPPORT_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION" SubjectRequirementSetId="CITY_HAS_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE"/>
 		<Row ModifierId="GOVERNOR_PLOT_PURCHASE_COST" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_PLOT_PURCHASE_COST" SubjectRequirementSetId="CITY_HAS_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION"/>
+		<Row ModifierId="CARDINAL_BISHOP_FAITH_CITIZEN" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION" />
+
 	</Modifiers>
 	<ModifierArguments>
+		<Delete ModifierId="CONNOISSEUR_CULTURE_CITIZEN" Name="Amount"/>
+		<Row ModifierId="CONNOISSEUR_CULTURE_CITIZEN" Name="Amount" Value=".5"/>
+		<Delete ModifierId="RESEARCHER_SCIENCE_CITIZEN" Name="Amount"/>
+		<Row ModifierId="RESEARCHER_SCIENCE_CITIZEN" Name="Amount" Value=".5"/>
 		<Row ModifierId="GOVERNOR_CAMPUS_ADJACENCY" Name="YieldType" Value="YIELD_SCIENCE"/>
 		<Row ModifierId="GOVERNOR_CAMPUS_ADJACENCY" Name="Amount" Value="100"/>
 		<Row ModifierId="GOVERNOR_THEATER_ADJACENCY" Name="YieldType" Value="YIELD_CULTURE"/>
@@ -206,16 +227,20 @@
 		<Row ModifierId="GOVERNOR_UNIT_PRODUCTION" Name="Amount" Value="30"/>
 		<Delete ModifierId="ZONING_COMMISSIONER_FASTER_DISTRICT_CONSTRUCTION" Name="Amount"/>
 		<Row ModifierId="ZONING_COMMISSIONER_FASTER_DISTRICT_CONSTRUCTION" Name="Amount" Value="30"/>
+		<Delete ModifierId="MESSENGER_GRANT_FREE_ENVOYS" Name="Amount"/>
+		<Row ModifierId="MESSENGER_GRANT_FREE_ENVOYS" Name="Amount" Value="3"/>
 		<Delete ModifierId="EMISSARY_IDENTITY_PRESSURE_TO_FOREIGN_CITIES" Name="Amount"/>
-		<Row ModifierId="EMISSARY_IDENTITY_PRESSURE_TO_FOREIGN_CITIES" Name="Amount" Value="4"/>
+		<Row ModifierId="EMISSARY_IDENTITY_PRESSURE_TO_FOREIGN_CITIES" Name="Amount" Value="8"/>
 		<Delete ModifierId="FISHERY_GOVERNOR_PRODUCTION" Name="Amount"/>
 		<Row ModifierId="FISHERY_GOVERNOR_PRODUCTION" Name="Amount" Value="2"/>
 		<Delete ModifierId="BLACK_MARKETEER_STRATEGIC_RESOURCE_COST_DISCOUNT" Name="Amount"/>
 		<Row ModifierId="BLACK_MARKETEER_STRATEGIC_RESOURCE_COST_DISCOUNT" Name="Amount" Value="50"/>
+		<Delete ModifierId="SURPLUS_LOGISTICS_EXTRA_GROWTH" Name="Amount"/>
+		<Row ModifierId="SURPLUS_LOGISTICS_EXTRA_GROWTH" Name="Amount" Value="50"/>
 		<Delete ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_FOOD" Name="Amount"/>
-		<Row ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_FOOD" Name="Amount" Value="1"/>
+		<Row ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_FOOD" Name="Amount" Value="2"/>
 		<Row ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_PRODUCTION" Name="Amount" Value="1"/>
+		<Row ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_PRODUCTION" Name="Amount" Value="2"/>
 		<Row ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_PRODUCTION" Name="Domestic" Value="true"/>
 		<Row ModifierId="INDUSTRIALIST_WORKSHOP_PRODUCTION" Name="BuildingType" Value="BUILDING_WORKSHOP"/>
 		<Row ModifierId="INDUSTRIALIST_WORKSHOP_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
@@ -260,6 +285,8 @@
 		<Row ModifierId="GOVERNOR_INFORMATION_SUPPORT_PRODUCTION" Name="EraType" Value="ERA_INFORMATION" Extra="-1"/>
 		<Row ModifierId="GOVERNOR_INFORMATION_SUPPORT_PRODUCTION" Name="Amount" Value="100" Extra="-1"/>
 		<Row ModifierId="GOVERNOR_PLOT_PURCHASE_COST" Name="Amount" Value="-20"/>
+		<Row ModifierId="CARDINAL_BISHOP_FAITH_CITIZEN" Name="Amount" Value="1"/>
+		<Row ModifierId="CARDINAL_BISHOP_FAITH_CITIZEN" Name="YieldType" Value="YIELD_FAITH"/>
 	</ModifierArguments>
 	<RequirementSets>
 		<Row RequirementSetId="CITY_HAS_GOVERNOR_PROMOTION_REDOUBT" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
@@ -832,7 +859,6 @@
 		<Row CommemorationType="COMMEMORATION_AUTOMATON" ModifierId="COMMEMORATION_AUTOMATON_COMBAT_STRENGTH"/>
 		<Row CommemorationType="COMMEMORATION_AUTOMATON" ModifierId="COMMEMORATION_AUTOMATON_RANGE"/>
 		<Delete CommemorationType="COMMEMORATION_AUTOMATON" ModifierId="COMMEMORATION_AUTOMATON_GA_URANIUM_MINES"/>
-
 	</CommemorationModifiers>
 	<!--Automaton Warfare-->
 	<Types>
@@ -896,5 +922,470 @@
 	<ModifierStrings>
 		<Row ModifierId="COMMEMORATIONAUTOMATON_COMBAT_STENGTH" Context="Preview" Text="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION"/>
 	</ModifierStrings>
+	
+	<!--Experimantal - Golden Age enhancement-->
 
+	<CommemorationModifiers>
+		<Delete CommemorationType="COMMEMORATION_CULTURAL" ModifierId="COMMEMORATION_CULTURAL_GA_BOOSTS"/>
+		<Delete CommemorationType="COMMEMORATION_SCIENTIFIC" ModifierId="COMMEMORATION_SCIENTIFIC_GA_BOOSTS"/>
+		<Delete CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_BUILDER_DISCOUNT_MODIFIER"/>
+		<Delete CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_SETTLER_DISCOUNT_MODIFIER"/>
+		<Delete CommemorationType="COMMEMORATION_EXPLORATION" ModifierId="COMMEMORATION_EXPLORATION_GA_FOREIGNFOOD"/>
+		<Delete CommemorationType="COMMEMORATION_EXPLORATION" ModifierId="COMMEMORATION_EXPLORATION_GA_NEW_CITY_POPULATION"/>
+		<Delete CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_INDUSTRIALINFORMATION"/>
+		<Delete CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INUDSTRIAL_GA_CAMPUS"/>
+		<Delete CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION"/>
+		<Delete CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION_ENCAMPMENT"/>
+		<Delete CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION_BARRACKS"/>
+		<Delete CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION_STABLE"/>
+		<Delete CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION_ARMORY"/>
+		<Delete CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_PRODUCTION_MILITARY_ACADEMY"/>
+		<Delete CommemorationType="COMMEMORATION_ESPIONAGE" ModifierId="COMMEMORATION_ESPIONAGE_GA_SPY_DISCOUNT"/>
+		<Row CommemorationType="COMMEMORATION_CULTURAL" ModifierId="COMMEMORATION_CULTURAL_PLOTCULTURE"/>
+		<Row CommemorationType="COMMEMORATION_CULTURAL" ModifierId="COMMEMORATION_CULTURAL_GREATWRITER"/>
+		<Row CommemorationType="COMMEMORATION_SCIENTIFIC" ModifierId="COMMEMORATION_SCIENTIFIC_GA_PLOTSCIENCE_RIVER"/>
+		<Row CommemorationType="COMMEMORATION_SCIENTIFIC" ModifierId="COMMEMORATION_SCIENTIFIC_GA_PLOTSCIENCE_SEA"/>
+		<Row CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_DISTRICT_PRODUCTION"/>
+		<Row CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_BUILDING_PRODUCTION"/>
+		<Row CommemorationType="COMMEMORATION_RELIGIOUS" ModifierId="COMMEMORATION_RELIGIOUS_GA_INGOREZOC"/>
+		<Row CommemorationType="COMMEMORATION_RELIGIOUS" ModifierId="COMMEMORATION_RELIGIOUS_GA_RELIGIONPRESSURE_SHRINE"/>
+		<Row CommemorationType="COMMEMORATION_RELIGIOUS" ModifierId="COMMEMORATION_RELIGIOUS_GA_RELIGIONPRESSURE_TEMPLE"/>
+		<Row CommemorationType="COMMEMORATION_RELIGIOUS" ModifierId="COMMEMORATION_RELIGIOUS_GA_RELIGIONPRESSURE_WORSHIPBUILDING"/>
+		<Row CommemorationType="COMMEMORATION_EXPLORATION" ModifierId="COMMEMORATION_EXPLORATION_GA_PLOTFOOD"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_POWEREDCULTURE"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_POWEREDGOLD"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_POWEREDSCIENCE"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_POWEREDFOOD"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_POWEREDPRODUCTION"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_LIBRARYPRODUCTION"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_UNIVERSITYPRODUCTION"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_PUBLICSCHOOLPRODUCTION"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_RESEARCHLABPRODUCTION"/>
+		<Row CommemorationType="COMMEMORATION_MILITARY" ModifierId="COMMEMORATION_MILITARY_GA_ENCAMPMENTPRODUCTIONFROMPOP"/>
+		<Row CommemorationType="COMMEMORATION_TOURISM" ModifierId="COMMEMORATION_TOURISM_GA_BUILDERS_BOOST_WONDERS"/>
+		<Row CommemorationType="COMMEMORATION_ESPIONAGE" ModifierId="COMMEMORATION_ESPIONAGE_GA_RANDOM_TECH"/>
+		<Row CommemorationType="COMMEMORATION_ESPIONAGE" ModifierId="COMMEMORATION_ESPIONAGE_GA_RANDOM_CIVIC"/>
+	</CommemorationModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>COMMEMORATION_CULTURAL_PLOTCULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_POSITIVE_APPEAL</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_CULTURAL_GREATWRITER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_SCIENTIFIC_GA_PLOTSCIENCE_RIVER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_SCIENTIFIC_GA_PLOTSCIENCE_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_SEA_SST</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_BUILDING_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_CHANGE</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_DISTRICT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION_CHANGE</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_RELIGIOUS_GA_INGOREZOC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_RELIGIOUS_GA_RELIGIONPRESSURE_SHRINE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_RELIGION_PRESSURE_SST</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_SHRINE</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_RELIGIOUS_GA_RELIGIONPRESSURE_TEMPLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_RELIGION_PRESSURE_SST</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_CITY_HAS_TEMPLE</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_RELIGIOUS_GA_RELIGIONPRESSURE_WORSHIPBUILDING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_RELIGION_PRESSURE_SST</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_CITY_HAS_TIER3RELIGIOUS</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_EXPLORATION_GA_PLOTFOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DOCKYARD_FOREIGN_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDCULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_POWERED_BUILDINGS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_POWERED_BUILDINGS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDSCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_POWERED_BUILDINGS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDFOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_POWERED_BUILDINGS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_POWERED_BUILDINGS</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_LIBRARYPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_LIBRARY</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_UNIVERSITYPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_UNIVERSITY</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_PUBLICSCHOOLPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_PUBLIC_SCHOOL</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_RESEARCHLABPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_RESEARCH_LAB</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_MILITARY_GA_ENCAMPMENTPRODUCTIONFROMPOP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_TOURISM_GA_BUILDERS_BOOST_WONDERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_WONDER_PRODUCTION</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_ESPIONAGE_GA_RANDOM_TECH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_ESPIONAGE_GA_RANDOM_CIVIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Delete ModifierId="COMMEMORATION_EXPLORATION_GA_FOREIGNIDENTITY" />
+		<Row>
+			<ModifierId>COMMEMORATION_EXPLORATION_GA_FOREIGNIDENTITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Delete ModifierId="COMMEMORATION_EXPLORATION_GA_FOREIGNPRODUCTION" />
+		<Row>
+			<ModifierId>COMMEMORATION_EXPLORATION_GA_FOREIGNPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Delete ModifierId="COMMEMORATION_ECONOMIC_GA_TRADE_ROUTE_YIELDS" Name="Amount" />
+		<Row>
+			<ModifierId>COMMEMORATION_ECONOMIC_GA_TRADE_ROUTE_YIELDS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Delete ModifierId="COMMEMORATIONAUTOMATON_COMBAT_STENGTH" Name="Amount" />
+		<Row>
+			<ModifierId>COMMEMORATIONAUTOMATON_COMBAT_STENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>17</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_CULTURAL_PLOTCULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_CULTURAL_PLOTCULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_CULTURAL_GREATWRITER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_CULTURAL_GREATWRITER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_SCIENTIFIC_GA_PLOTSCIENCE_RIVER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_SCIENTIFIC_GA_PLOTSCIENCE_RIVER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_SCIENTIFIC_GA_PLOTSCIENCE_SEA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_SCIENTIFIC_GA_PLOTSCIENCE_SEA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_BUILDING_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_DISTRICT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_RELIGIOUS_GA_INGOREZOC</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_IGNORE_ZOC_RELIGIOUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_RELIGIOUS_GA_RELIGIONPRESSURE_SHRINE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_RELIGIOUS_GA_RELIGIONPRESSURE_TEMPLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_RELIGIOUS_GA_RELIGIONPRESSURE_WORSHIPBUILDING</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_EXPLORATION_GA_PLOTFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_EXPLORATION_GA_PLOTFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDCULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDCULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDSCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDSCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_POWEREDFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_LIBRARYPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_LIBRARYPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_UNIVERSITYPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_UNIVERSITYPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_PUBLICSCHOOLPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_PUBLICSCHOOLPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_RESEARCHLABPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_INDUSTRIAL_GA_RESEARCHLABPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_MILITARY_GA_ENCAMPMENTPRODUCTIONFROMPOP</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_MILITARY_GA_ENCAMPMENTPRODUCTIONFROMPOP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_TOURISM_GA_BUILDERS_BOOST_WONDERS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_ESPIONAGE_GA_RANDOM_TECH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMEMORATION_ESPIONAGE_GA_RANDOM_CIVIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_POSITIVE_APPEAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_SEA_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_POSITIVE_APPEAL</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_POSITIVE_APPEAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_SEA_SST</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_COAST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_SEA_SST</RequirementSetId>
+			<RequirementId>REQUIRES_TERRAIN_OCEAN</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_POSITIVE_APPEAL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_APPEAL_BETWEEN</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_POSITIVE_APPEAL</RequirementId>
+			<Name>MinimumAppeal</Name>
+			<Value>0</Value>
+		</Row>
+	</RequirementArguments>
+	
+	<Types>
+		<Row Type="ABILITY_IGNORE_ZOC_RELIGIOUS" Kind="KIND_ABILITY"/>
+		<Row Type="MODIFIER_PLAYER_CITIES_RELIGION_PRESSURE_SST" Kind="KIND_MODIFIER"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_IGNORE_ZOC_RELIGIOUS" Tag="CLASS_RELIGIOUS_ALL"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_IGNORE_ZOC_RELIGIOUS" Name="LOC_ABILITY_IGNORE_ZOC_NAME" Description="LOC_ABILITY_IGNORE_ZOC_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_IGNORE_ZOC_RELIGIOUS</UnitAbilityType>
+			<ModifierId>IGNOREZOC_IGNORE_ZOC</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITIES_RELIGION_PRESSURE_SST</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_RELIGION_PRESSURE</EffectType>
+		</Row>
+	</DynamicModifiers>
 </GameData>
