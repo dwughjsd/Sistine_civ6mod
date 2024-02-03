@@ -519,7 +519,7 @@
 		<!--OLIGARCHY-->
 		<Update>
 			<Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="Amount" />
-			<Set Value="20" />
+			<Set Value="25" />
 		</Update>
 		<Delete ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="BonusType" />
 		<Row ModifierId="OLIGARCHY_GARRISON_CULTURE"

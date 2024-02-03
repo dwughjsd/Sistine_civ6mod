@@ -198,7 +198,7 @@
 			<Text>陆地近战、反骑兵和海军近战单位+4 [ICON_Strength] 战斗力。驻有单位的城市+2 [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST" Language="zh_Hans_CN">
-			<Text>单位经验值+20%。</Text>
+			<Text>单位经验值+25%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST" Language="zh_Hans_CN">
 			<Text>所有城市+1 [ICON_Culture] 文化值。建有区域的城市+1 [ICON_Amenities] 宜居度。</Text>
