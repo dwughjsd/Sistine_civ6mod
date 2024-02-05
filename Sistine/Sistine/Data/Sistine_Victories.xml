@@ -386,8 +386,7 @@
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="10"/>
-		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-20"/>
-		<Row ListType="ClassicalYields" Item="YIELD_FAITH" Value="-25"/>
+		<Row ListType="ClassicalYields" Item="YIELD_FAITH" Value="-20"/>
 
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MONUMENT" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GRANARY" Favored="true"/>
@@ -404,8 +403,7 @@
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
-		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="-30"/>
-		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-25"/>
+		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-30"/>
 		
 		<!--We need more improvements!-->
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
@@ -442,7 +440,6 @@
 		
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="ModernYields" Item="YIELD_SCIENCE" Value="-20"/>
-		<Row ListType="ModernYields" Item="YIELD_FOOD" Value="-10"/>
 
 		<!--Slow building campuses and we are going to launch spaceships!-->
 		<Row ListType="InformationYields" Item="YIELD_PRODUCTION" Value="20"/>

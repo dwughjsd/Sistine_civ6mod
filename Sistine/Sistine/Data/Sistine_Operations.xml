@@ -65,8 +65,8 @@
 		<!--Defenses-->
 		<Replace TeamName="City Defense" AiType="UNITTYPE_CIVILIAN" MaxNumber="0" />
 		<Replace TeamName="City Defense" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
-		<Replace TeamName="City Defense" AiType="UNITTYPE_RANGED" MinPercentage="30" />
-		<Replace TeamName="City Defense" AiType="UNITTYPE_SIEGE_ALL" MaxNumber="1" />
+		<Replace TeamName="City Defense" AiType="UNITTYPE_RANGED" MinPercentage="70" />
+		<Replace TeamName="City Defense" AiType="UNITTYPE_SIEGE_ALL" MaxNumber="0" />
 		<Replace TeamName="City Defense" AiType="UNITTYPE_NAVAL" MaxNumber="0" />
 		<Replace TeamName="City Defense" AiType="UNITAI_COMBAT" MinNumber="0" />
 		<Replace TeamName="City Defense" AiType="UNITAI_EXPLORE" MinNumber="0" />
@@ -91,6 +91,9 @@
 	</AiLists>
 	<AiFavoredItems>
 		<Replace ListType="BaseOperationsLimits" Item="ATTACK_BARBARIANS" Value="2" />
+		<Delete ListType="PerWarOperationsLimits" /> <!--For attack, don't seperate your army-->
+		<Replace ListType="BaseOperationsLimits" Item="OP_DEFENSE" Value="2" />
+		<Row ListType="PerWarOperationsLimits" Item="OP_DEFENSE" Value="1" /> <!--For defense, prepare for more-->
 		<Row ListType="ExpansionOperations" Item="OP_SETTLE" Value="1" />
 		<Row ListType="ExpansionistOperations" Item="OP_SETTLE" Value="1" />
 	</AiFavoredItems>
