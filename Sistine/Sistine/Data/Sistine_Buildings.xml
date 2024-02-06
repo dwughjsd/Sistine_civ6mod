@@ -150,21 +150,21 @@
 
 	<Building_CitizenYieldChanges>
 		<!--Theater Square-->
-		<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="2"/>
-		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<!--<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER"/>
 		<Delete BuildingType="BUILDING_FILM_STUDIO"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<!--Campus-->
-		<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<!--<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Row BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_RESEARCH_LAB"/>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<!--Holy Site-->
-		<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<!--<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<Row BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" YieldChange="2"/>
-		<Row BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_CATHEDRAL"/>
 		<Delete BuildingType="BUILDING_DAR_E_MEHR"/>
 		<Delete BuildingType="BUILDING_GURDWARA"/>
@@ -184,28 +184,29 @@
 		<Row BuildingType="BUILDING_SYNAGOGUE" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<Row BuildingType="BUILDING_WAT" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<!--Encampment-->
-		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
-		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<!--<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_GOLD" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" />
 		<Row BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<!--Commercial Hub-->
-		<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="4"/>
-		<Row BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<!--<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD" YieldChange="4"/>-->
 		<Delete BuildingType="BUILDING_STOCK_EXCHANGE"/>
 		<Row BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<!--Industrial Zone-->
+		<!--Power plant is no longer that needed. We just need something unlocked in Industrial Era.-->
 		<Row BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Delete BuildingType="BUILDING_POWER_PLANT"/>
 		<Delete BuildingType="BUILDING_COAL_POWER_PLANT" />
 		<Delete BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
-		<Row BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<!--<Row BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Row BuildingType="BUILDING_COAL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
-		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>-->
 		<!--Harbor-->
-		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<!--<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_FOOD" YieldChange="1"/>-->
 		<Delete BuildingType="BUILDING_SEAPORT"/>
 		<Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_FOOD" YieldChange="1"/>
