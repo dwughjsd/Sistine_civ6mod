@@ -373,11 +373,11 @@
 		<Row ModifierId="GOVERNMENT_10_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
 		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="Amount" Value="10"/>
 		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" Name="Amount" Value="2"/>
+		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" Name="Amount" Value="4"/>
 		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
-		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" Name="Amount" Value="2"/>
+		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" Name="Amount" Value="4"/>
 		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" Name="Amount" Value="2"/>
+		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" Name="Amount" Value="4"/>
 		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" Name="YieldType" Value="YIELD_GOLD"/>
 	</ModifierArguments>
 	<District_Adjacencies>

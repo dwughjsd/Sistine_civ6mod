@@ -13,7 +13,7 @@
 		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Description="LOC_BUILDING_GRANARY_DESCRIPTION_SST"/></Update>
 		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Housing="1" Maintenance="1"/></Update>
 		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" Description="LOC_BUILDING_HOSPITAL_DESCRIPTION" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC" Housing="2" Maintenance="2"/>
-		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="520" AdvisorType="ADVISOR_GENERIC"  Housing="3" Maintenance="3"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="520" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Housing="3" Maintenance="3"/>
 		<!--Theater Square-->
 		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/></Update>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
@@ -91,8 +91,8 @@
 
 	<Building_YieldChanges>
 		<!--City Center-->
-		<!--<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="6"/>
-		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="3"/>-->
+		<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="6"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="3"/>
 		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_CULTURE"/><Set YieldChange="2"/></Update>
 		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_SCIENCE"/><Set YieldChange="3"/></Update>
 		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
@@ -127,12 +127,12 @@
 		<Update><Where BuildingType="BUILDING_AIRPORT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
 		<!--Neighborhood-->
 		<Update><Where BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>	<Set YieldChange="4"/></Update>
-		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD"/> <Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD"/> <Set YieldChange="4"/></Update>
 	</Building_YieldChanges>
 
 	<Building_YieldChangesBonusWithPower>
 		<!--City Center-->
-		<!--<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="5"/>-->
+		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="6"/>
 		<!--Theater Square-->
 		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
 		<Update><Where BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
@@ -146,7 +146,7 @@
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 		<!--Neighborhood-->
 		<Delete BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>
-		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD"/> <Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD"/> <Set YieldChange="4"/></Update>
 	</Building_YieldChangesBonusWithPower>
 
 	<Building_CitizenYieldChanges>
@@ -232,10 +232,8 @@
 		<Row BuildingType="BUILDING_GRANARY" ModifierId="BUILDING_GRANARY_FOOD"/>
 		<Row BuildingType="BUILDING_SEWER" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
 		<Row BuildingType="BUILDING_HOSPITAL" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
-		<!--<Row BuildingType="BUILDING_HOSPITAL" ModifierId="GROWTHBUILDING_FOOD_PER_POP"/>-->
 		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_POWERED"/>
-		<!--<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_FOOD_PER_POP"/>-->
 		<!--Theater Square-->
 		<Row BuildingType="BUILDING_OPERA_HOUSE" ModifierId="CULTUREBUILDING_CULTURE_33"/>
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_33"/>

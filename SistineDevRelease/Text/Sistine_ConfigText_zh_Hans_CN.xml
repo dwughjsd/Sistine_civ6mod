@@ -18,7 +18,7 @@
 			<Text>医学实验室</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城 [ICON_Citizen] 人口增长加速50%，供电充足时额外+50%。</Text>
+			<Text>此城 [ICON_Citizen] 人口增长加速50%，供电充足时额外+50%。基础 [ICON_Food] 食物加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>城市每拥有1处专业化区域，则+2 [ICON_CULTURE] 文化值。</Text>
@@ -117,10 +117,10 @@
 			<Text>本城市的巨作、奇观、改良设施和国家公园提供的 [ICON_Tourism] 旅游业绩+50%。此城市训练的空中单位+50%战斗经验值。飞行场+1空中单位槽位。快速部署市政解锁后，可以在带有空港的飞行场之间空运陆地单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城每个社区+2 [ICON_Food] 食物。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+			<Text>此城每个社区+4 [ICON_Food] 食物。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城每个社区+2 [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+2 [ICON_Gold] 金币。+4 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于10，则+10 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+20 [ICON_Tourism] 旅游业绩。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+			<Text>此城每个社区+4 [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+4 [ICON_Gold] 金币。+4 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于10，则+10 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+20 [ICON_Tourism] 旅游业绩。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
 		</Replace>
 		<!--Unique Buildings-->
 		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
