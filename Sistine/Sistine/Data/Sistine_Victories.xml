@@ -108,7 +108,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
-			<Set DefaultValue="12.0" />
+			<Set DefaultValue="13.0" />
 		</Update>
 		<!--A heuristic to advance goverment tier. -->
 		<Update>

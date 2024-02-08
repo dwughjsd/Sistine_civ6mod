@@ -345,6 +345,12 @@
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_GOLD" />
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_FAITH" />
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_PRODUCTION" />
+		<Row DistrictType="DISTRICT_NEIGHBORHOOD" ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" />
+		<Row DistrictType="DISTRICT_NEIGHBORHOOD" ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" />
+		<Row DistrictType="DISTRICT_NEIGHBORHOOD" ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" />
+		<Row DistrictType="DISTRICT_MBANZA" ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" />
+		<Row DistrictType="DISTRICT_MBANZA" ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" />
+		<Row DistrictType="DISTRICT_MBANZA" ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" />
 	</DistrictModifiers>
 	<Modifiers>
 		<Row ModifierId="GOVERNMENT_10_SCIENCE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
@@ -352,6 +358,9 @@
 		<Row ModifierId="GOVERNMENT_10_GOLD" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
 		<Row ModifierId="GOVERNMENT_10_FAITH" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
 		<Row ModifierId="GOVERNMENT_10_PRODUCTION" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
+		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" ModifierType="MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE" SubjectRequirementSetId="BUILDING_IS_FOOD_MARKET_SST"/>
+		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" ModifierType="MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE" SubjectRequirementSetId="BUILDING_IS_SHOPPING_MALL_SST"/>
+		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" ModifierType="MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE" SubjectRequirementSetId="BUILDING_IS_SHOPPING_MALL_POWERED_SST"/>
 	</Modifiers>
 	<ModifierArguments>
 		<Row ModifierId="GOVERNMENT_10_SCIENCE" Name="Amount" Value="10"/>
@@ -364,6 +373,12 @@
 		<Row ModifierId="GOVERNMENT_10_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
 		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="Amount" Value="10"/>
 		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" Name="Amount" Value="4"/>
+		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" Name="Amount" Value="4"/>
+		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" Name="Amount" Value="4"/>
+		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" Name="YieldType" Value="YIELD_GOLD"/>
 	</ModifierArguments>
 	<District_Adjacencies>
 		<Delete DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Strategic_Production"/>
@@ -407,4 +422,58 @@
 		<Row ID="OilWell_Production" Description="LOC_DISTRICT_OIL_WELL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OIL_WELL"/>
 		<Row ID="OilWell_Production2" Description="LOC_DISTRICT_OIL_WELL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OIL_WELL"/>
 	</Adjacency_YieldChanges>
-	</GameData>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>BUILDING_IS_FOOD_MARKET_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_SHOPPING_MALL_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_SHOPPING_MALL_POWERED_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>BUILDING_IS_FOOD_MARKET_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_FOOD_MARKET_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_SHOPPING_MALL_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_SHOPPING_MALL_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_SHOPPING_MALL_POWERED_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_SHOPPING_MALL_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_SHOPPING_MALL_POWERED_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_IS_POWERED</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_FOOD_MARKET_SST</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_SHOPPING_MALL_SST</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_FOOD_MARKET_SST</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FOOD_MARKET</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_SHOPPING_MALL_SST</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SHOPPING_MALL</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
