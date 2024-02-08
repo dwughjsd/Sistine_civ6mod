@@ -53,9 +53,6 @@
 		<Replace Tag="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION_SST" Language="en_US">
 			<Text>+2 [ICON_Gold] Gold from Fishing Boats.</Text>
 		</Replace>
-		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="en_US">
-			<Text>+1 [ICON_Food] Food from Fishing Boats.</Text>
-		</Replace>
 		<Replace Tag="LOC_TECH_MACHINERY_DESCRIPTION_SST" Language="en_US">
 			<Text>+1 Production [ICON_Production] from Lumber Mills.</Text>
 		</Replace>
@@ -65,15 +62,9 @@
 		<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST" Language="en_US">
 			<Text>+1 Production to Mines.</Text>
 		</Replace>
-		<!--Gold reform-->
-		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="en_US">
-			<Text>Allows the creation of [ICON_TradeRoute] Trade Routes. +1 [ICON_Gold] Gold to all tiles beside a river.</Text>
-		</Replace>
+		<!--Terrain tweaks-->
 		<Replace Tag="LOC_TECH_SAILING_DESCRIPTION" Language="en_US">
-			<Text>Allows Builders to embark. Coast, Lake, and Ocean tiles receive +1 [ICON_Gold] Gold.</Text>
-		</Replace>
-		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION" Language="en_US">
-			<Text>Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 5 tiles they travel.</Text>
+			<Text>Allows Builders to embark. Lake tiles receive +1 [ICON_Food] Food.</Text>
 		</Replace>
 		<!--Science Victory-->
 		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="en_US">
@@ -186,10 +177,10 @@
 			<Text>+10% Production toward Wonders.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST" Language="en_US">
-			<Text>Land melee, anti-cavalry and naval melee units gain +4 [ICON_Strength] Combat Strength. Combat victories provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+			<Text>Land melee, anti-cavalry and naval melee units gain +4 [ICON_Strength] Combat Strength. +2 [ICON_Culture] Culture for cities with a garrisoned unit.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST" Language="en_US">
-			<Text>+50% Unit Experience.</Text>
+			<Text>+25% Unit Experience.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST" Language="en_US">
 			<Text>All cities with a district receive +1 [ICON_Culture] Culture and +1 [ICON_Amenities] Amenity.</Text>
@@ -225,7 +216,7 @@
 			<Text>+25% [ICON_Science] Science to all cities with a Factory. +100% [ICON_Production] Production towards Industrial Zone buildings.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST" Language="en_US">
-			<Text>+20% [ICON_Production] Production to all cities.</Text>
+			<Text>+15% [ICON_Production] Production to all cities.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST" Language="en_US">
 			<Text>Districts provide +1 [ICON_Culture] Culture and +2 [ICON_Gold] Gold. Alliance Points with all allies increase by an additional .5 per turn.</Text>
@@ -243,13 +234,13 @@
 			<Text>+3 [ICON_Amenities] Amenities in all cities, and +3 [ICON_Tourism] Tourism per Specialty District.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY_SST" Language="en_US">
-			<Text>+25% [ICON_Tourism] Tourism across your empire.</Text>
+			<Text>+30% [ICON_Tourism] Tourism across your empire.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_SYNTHETIC_TECHNOCRACY_SST" Language="en_US">
 			<Text>+6 [ICON_Power] Power in all cities. Speeds up your Exoplanet Expedition ship by 3 Light Years per turn.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST" Language="en_US">
-			<Text>Campuses and Industrial Zones provide cities with +15% [ICON_Science] Science.</Text>
+			<Text>Campuses and Industrial Zones provide cities with +20% [ICON_Science] Science.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength from Fascism</Text>
@@ -318,10 +309,6 @@
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_OIL_WELL_PRODUCTION" Language="en_US">
 			<Text>+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Oil Well; other?Oil Wells;}.</Text>
-		</Replace>
-		<!--Ages-->
-		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="en_US">
-			<Text>Monumentality Golden Age:[NEWLINE]+2 [ICON_Movement] Movement for all Builders. May purchase civilian units with [ICON_Faith] Faith. Builders and Settlers are 20% cheaper to purchase with [ICON_FAITH] Faith and [ICON_GOLD] Gold.</Text>
 		</Replace>
 		<!--Features-->
 		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="en_US">
@@ -501,7 +488,7 @@
 			<Text>Campuses receive an additional +1 Science for each adjacent Mountain tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="en_US">
-			<Text>Grants two free technologies. Triggers the [ICON_TechBoosted] Eureka for Mathematics. If they are already triggered, instead completes the tech.</Text>
+			<Text>Grants a free technology. Triggers the [ICON_TechBoosted] Eureka for Mathematics. If they are already triggered, instead completes the tech.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE" Language="en_US">
 			<Text>Grants two [ICON_TechBoosted] Eurekas. Wounded land units can heal +10 HP each turn.</Text>
@@ -510,7 +497,7 @@
 			<Text>Gain Science equal to 15% of this city's Faith per turn.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE" Language="en_US">
-			<Text>Awards a free random technology and civic, as well as two [ICON_TechBoosted] Eurekas.</Text>
+			<Text>Awards a free random civic, and two [ICON_TechBoosted] Eurekas.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="en_US">
 			<Text>Chosen Campus gains 2 [ICON_Housing] Housing and 1 [ICON_AMENITIES] Amenities.</Text>
@@ -788,16 +775,16 @@
 			<Text>+100% Theater Square district adjacency bonuses, and Stadiums and Aquatic Centers generate +1 [ICON_Amenities] Amenity.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Science] Science from cities with a Public School: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Population] population or higher.</Text>
+			<Text>Extra [ICON_Science] Science from cities with a Public School: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Citizen] population or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Gold] Gold from cities with a Bank or Shipyard: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Population] population or higher.</Text>
+			<Text>Extra [ICON_Gold] Gold from cities with a Bank or Shipyard: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Citizen] population or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Culture] Culture from cities with an Opera House: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Population] population or higher.</Text>
+			<Text>Extra [ICON_Culture] Culture from cities with an Opera House: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Citizen] population or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Faith] Faith from cities with a Worship building: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Population] population or higher.</Text>
+			<Text>Extra [ICON_Faith] Faith from cities with a Worship building: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Citizen] population or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_XP2" Language="en_US">
 			<Text>+2 [ICON_Science] Science, +2 [ICON_Culture] Culture, and +4 [ICON_Gold] Gold from each Research Lab, Military Academy, Coal Power Plant, Oil Power Plant, and Nuclear Power Plant.</Text>
@@ -876,6 +863,515 @@
 		</Replace>
 		<Replace Tag="LOC_POLICY_NOBEL_PRIZE_DESCRIPTION_XP2" Language="en_US">
 			<Text>+2 [ICON_GreatScientist] Great Scientist points per turn for every Campus building. +2 [ICON_GreatEngineer] Great Engineer points per turn for every Industrial Zone building.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_POLICE_STATE_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Amenities] Amenity to cities not founded by your civilization.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength to all units fighting in or adjacent to home territory.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION_XP2" Language="en_US">
+			<Text>+1 [ICON_Amenities] Amenity to cities with an Encampment.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FORCE_MODERNIZATION_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Amenities] Amenity to cities with an Encampment. +1 [ICON_Amenities] Amenity from each Armory. +30% [ICON_Production] Production toward Encampment districts, Harbor districts, and buildings for these districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION" Language="en_US">
+			<Text>Your cities' border expansion rate is 40% higher.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Production] Production toward Settlers. Your cities' border expansion rate is 40% higher.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>Units trained in cities with a Barracks receive a free promotion.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_ALT_DESCRIPTION" Language="en_US">
+			<Text>Units trained in cities with a Barracks receive a free promotion.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ISOLATIONISM_DESCRIPTION" Language="en_US">
+			<Text>Domestic routes provide +3 [ICON_Food] Food, +3 [ICON_Production] Production, +3 [ICON_Gold] Gold.[NEWLINE]BUT: Can't train or buy Settlers nor settle new cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROBBER_BARONS_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Gold] Gold and +25% [ICON_Production] Production in cities with a Bank or Shipyard. [NEWLINE]BUT: -2 [ICON_Amenities] Amenities in all cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STATE_WORKFORCE" Language="en_US">
+			<Text>Build two specialty districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_EARLY_EMPIRE" Language="en_US">
+			<Text>Grow your civilization to at least 7 population.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GAMES_RECREATION" Language="en_US">
+			<Text>Research the Mathematics technology.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_DEFENSIVE_TACTICS" Language="en_US">
+			<Text>Build 2 Ancient Walls.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NAVAL_TRADITION" Language="en_US">
+			<Text>Build 2 Quadriremes.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MERCENARIES" Language="en_US">
+			<Text>Have 10 land combat units in your military.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MEDIEVAL_FAIRES" Language="en_US">
+			<Text>Maintain 3 Trade Routes.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_HUMANISM" Language="en_US">
+			<Text>Build 2 Amphitheaters.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REFORMED_CHURCH" Language="en_US">
+			<Text>Have 12 cities following your Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COLONIALISM" Language="en_US">
+			<Text>Research the Industrialization technology.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CIVIL_ENGINEERING" Language="en_US">
+			<Text>Build 8 different specialty districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NATIONALISM" Language="en_US">
+			<Text>Build a Public School.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_OPERA_BALLET" Language="en_US">
+			<Text>Build 2 Art Museums.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NATURAL_HISTORY" Language="en_US">
+			<Text>Build 2 Archaeological Museums.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SCORCHED_EARTH" Language="en_US">
+			<Text>Build 3 Field Cannons.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CONSERVATION" Language="en_US">
+			<Text>Have a Neighborhood district with Charming Appeal.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CAPITALISM_XP2" Language="en_US">
+			<Text>Build a Stock Exchange.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NUCLEAR_PROGRAM" Language="en_US">
+			<Text>Build 2 Research Labs.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MASS_MEDIA" Language="en_US">
+			<Text>Build 3 Entertainment Complex districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MOBILIZATION" Language="en_US">
+			<Text>Have 3 Infantry units in your military.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SUFFRAGE" Language="en_US">
+			<Text>Build 2 Hospitals.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_TOTALITARIANISM" Language="en_US">
+			<Text>Build a Military Academy.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CLASS_STRUGGLE" Language="en_US">
+			<Text>Build 4 Factories.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_PROFESSIONAL_SPORTS_XP2" Language="en_US">
+			<Text>Build a Stadium.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CULTURAL_HERITAGE" Language="en_US">
+			<Text>Build a Modern era or later wonder.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SPACE_RACE" Language="en_US">
+			<Text>Build 2 Spaceport districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GLOBALIZATION_XP2" Language="en_US">
+			<Text>Build an Airport.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SOCIAL_MEDIA" Language="en_US">
+			<Text>Research the Lasers technology.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ENVIRONMENTALISM" Language="en_US">
+			<Text>Build 2 Hydroelectric Dams.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CORPORATE_LIBERTARIANISM" Language="en_US">
+			<Text>Build 2 Uranium Mines.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_DIGITAL_DEMOCRACY" Language="en_US">
+			<Text>Own 3 Rock Bands.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SYNTHETIC_TECHNOCRACY" Language="en_US">
+			<Text>Build 2 Manufacturing Plants.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ARCHERY" Language="en_US">
+			<Text>Own 3 Slingers.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MASONRY" Language="en_US">
+			<Text>Build 2 Quarries.</Text>
+		</Replace>
+		<!--<Replace Tag="LOC_BOOST_TRIGGER_CURRENCY" Language="en_US">
+			<Text>使用种植园改良2处资源。</Text>
+		</Replace>-->
+		<Replace Tag="LOC_BOOST_TRIGGER_SHIPBUILDING" Language="en_US">
+			<Text>Own a Galley.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MATHEMATICS" Language="en_US">
+			<Text>Build 4 different specialty districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CONSTRUCTION" Language="en_US">
+			<Text>Build 2 Water Mills.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ENGINEERING" Language="en_US">
+			<Text>Adopt a government with 4 inherent policy slots.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_APPRENTICESHIP" Language="en_US">
+			<Text>Build 4 Mines.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MACHINERY" Language="en_US">
+			<Text>Own 2 Catapults.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STIRRUPS" Language="en_US">
+			<Text>Build a Stable.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CASTLES" Language="en_US">
+			<Text>Earn a Great Engineer.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_BANKING" Language="en_US">
+			<Text>Have the Mercantilism civic.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MASS_PRODUCTION" Language="en_US">
+			<Text>Build 3 Lumber Mills.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GUNPOWDER" Language="en_US">
+			<Text>Build 2 Barracks.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SQUARE_RIGGING" Language="en_US">
+			<Text>Own 2 Musketmen.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_METAL_CASTING" Language="en_US">
+			<Text>Own 3 Crossbowmen.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_INDUSTRIALIZATION_XP2" Language="en_US">
+			<Text>Build 3 Workshops.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_BALLISTICS" Language="en_US">
+			<Text>Build 2 Armories.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STEAM_POWER" Language="en_US">
+			<Text>Build 2 Factories.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SANITATION" Language="en_US">
+			<Text>Have the Urbanization civic.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_RIFLING" Language="en_US">
+			<Text>Build 2 Niter Mines.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REPLACEABLE_PARTS" Language="en_US">
+			<Text>Own 3 Line Infantry.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STEEL" Language="en_US">
+			<Text>Build 2 Coal Mines.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REFINING" Language="en_US">
+			<Text>Build 3 Coal Power Plants.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ELECTRICITY_XP2" Language="en_US">
+			<Text>Own a Privateer.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_RADIO" Language="en_US">
+			<Text>Have the Mass Media civic.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CHEMISTRY" Language="en_US">
+			<Text>Have a level 3 Alliance.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ADVANCED_FLIGHT_XP2" Language="en_US">
+			<Text>Build a Hangar.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COMBINED_ARMS" Language="en_US">
+			<Text>Own a Biplane.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SYNTHETIC_MATERIALS" Language="en_US">
+			<Text>Build a National Park.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_TELECOMMUNICATIONS" Language="en_US">
+			<Text>Build a Broadcasting Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SATELLITES_SST" Language="en_US">
+			<Text>Complete the Launch Earth Satellite project.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GUIDANCE_SYSTEMS" Language="en_US">
+			<Text>Own 3 Artillery.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LASERS_XP2" Language="en_US">
+			<Text>Own a Drone.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COMPOSITES" Language="en_US">
+			<Text>Own 2 Tanks.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STEALTH_SST" Language="en_US">
+			<Text>Own a Bomber.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ROBOTICS" Language="en_US">
+			<Text>Have the Space Race civic.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NANOTECHNOLOGY" Language="en_US">
+			<Text>Build 2 Aluminum Mines.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ENVIRONMENTALISM" Language="en_US">
+			<Text>Your people prove that renewable energy is more than an idea—it is potentially the future of power production.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GAMES_RECREATION" Language="en_US">
+			<Text>Your innovations in math will surely help create venues for games and entertainment.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NAVAL_TRADITION" Language="en_US">
+			<Text>Your navy inspires your people to strive to become a naval power.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_HUMANISM" Language="en_US">
+			<Text>The plays shown at your amphitheaters is awakening our people to the power of the individual.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_COLONIALISM" Language="en_US">
+			<Text>The productivity from industrializing is helping you establish a global empire.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NATIONALISM" Language="en_US">
+			<Text>Public schools are beginning to teach your people to have pride in their nation.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_OPERA_BALLET" Language="en_US">
+			<Text>The unveiling of new museums is drawing people to the arts. Perhaps dance and opera are next?</Text><!--New museums since we should have 2 of them-->
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NATURAL_HISTORY" Language="en_US">
+			<Text>With museums now ready to hold your findings, it is time to see what you can discover out in the natural world!</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSERVATION" Language="en_US">
+			<Text>The residents of your charming new neighborhood clamor for a plan to conserve all the world’s natural treasures.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CAPITALISM" Language="en_US">
+			<Text>With the rise of stock exchanges, investment capital is plentiful and a market economy is ready to emerge.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MASS_MEDIA" Language="en_US">
+			<Text>Your nation's desire for easier access to events held at entertainment complexes gives rise to a new form of media.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MOBILIZATION" Language="en_US">
+			<Text>Your military is armed with modern equipment and tactics. Now time to take your force to the world stage.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_PROGRAM" Language="en_US">
+			<Text>With the establishment of specialized research labs, your initiative to recruit scientists into a nuclear research program can commence.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE" Language="en_US">
+			<Text>The women of your empire demand to have proper healthcare. Having won that battle, they now need the right to vote.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS" Language="en_US">
+			<Text>Your newly built stadium wants to host a new professional sports league.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CULTURAL_HERITAGE" Language="en_US">
+			<Text>With the construction of new wonders, your people's strong cultural heritage is on exhibit for all to see.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SPACE_RACE" Language="en_US">
+			<Text>Your newly operational Spaceports has energized your people to push into space.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GLOBALIZATION" Language="en_US">
+			<Text>With a large airport in place, the world is truly becoming a smaller place.</Text><!--also for plurality-->
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ARCHERY" Language="en_US">
+			<Text>After finally having a large number of Slingers, you long for a stronger ranged weapon.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MASONRY" Language="en_US">
+			<Text>Quarrying resources has given you the raw materials you need to employ masons.</Text>
+		</Replace>
+		<!--<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="en_US">
+			<Text>日益增长的货物种类使您的国民意识到采用一种交换媒介能让贸易更加灵活。</Text>
+		</Replace>-->
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SHIPBUILDING" Language="en_US">
+			<Text>Constructing a Galley has taught you much about building larger ships.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ENGINEERING" Language="en_US">
+			<Text>This new form of government has made it possible to mobilize the resources needed for Aqueducts and Catapults.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STIRRUPS" Language="en_US">
+			<Text>Your citizens want a champion to defend their lands. Perhaps mounting an armored warrior will do the trick?</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY" Language="en_US">
+			<Text>You look to machinery to improve the performance of your sizable contingent of siege weapons.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CASTLES" Language="en_US">
+			<Text>Our great engineer has come up with a way to to build impressive defenses to protect our bustling capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BANKING" Language="en_US">
+			<Text>Mercantilism has allowed your nation to accumulate a large influx of gold. Perhaps we can find a way to let them take out a loan?</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GUNPOWDER" Language="en_US">
+			<Text>You are eager to equip the large amount of soldiers in your barracks with a new weapon that will devastate opponents.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SQUARE_RIGGING" Language="en_US">
+			<Text>Your Musketmen on land has spurred a new idea: what if we upgrade to gunpowder weaponry at sea?</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BALLISTICS" Language="en_US">
+			<Text>Your armory is producing equipment for the protection of your cities. What would happen if they developed a new type of cannon?</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEAM_POWER" Language="en_US">
+			<Text>Let us apply our industrial acumen to your newly-constructed factories. Steam-powered equipment could transform production.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SANITATION" Language="en_US">
+			<Text>Urbanization is making our cities grow larger than ever before. Developing a sanitation plan is crucial.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEEL" Language="en_US">
+			<Text>Your coal-powered blast furnaces for smelting should soon allow us to produce the finest-grade steel.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_RADIO" Language="en_US">
+			<Text>The emerging mass media needs a more advanced form of communication for publicity.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_FLIGHT" Language="en_US">
+			<Text>Your extensive experience with early airplanes has led to several aeronautic breakthroughs.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_COMBINED_ARMS" Language="en_US">
+			<Text>Now that your military has expanded is it possible to give it wings via airplanes?</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SYNTHETIC_MATERIALS" Language="en_US">
+			<Text>Newly built national parks have led your scientists to discover many new natural materials. But they also want to make something even better.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GUIDANCE_SYSTEMS" Language="en_US">
+			<Text>Your military's firepower has a powerful strike capability. It's time to develop a more accurate means of bombardment.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SATELLITES_SST" Language="en_US">
+			<Text>Newly launched Earth satellites mark the beginning of the space age. Soon more and more satellites will play a vital role.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEALTH_SST" Language="en_US">
+			<Text>Once the bomber is officially in service, your air force commander sees great strategic importance in enhancing its stealth.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ROBOTICS" Language="en_US">
+			<Text>The ever-changing exploration of space requires a new type of equipment that can partially replace human labor. Might we refer to science fiction and call it a "robot"?</Text>
+		</Replace>
+		<!--Trade route overhaul-->
+		<Replace Tag="LOC_CIVIC_COLD_WAR_DESCRIPTION" Language="en_US">
+			<Text>Grants the ability to construct an additional Spy. +1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION_SST" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_BANKING_DESCRIPTION_SST" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMBUSTION_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement for embarked units. +1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_GUIDANCE_SYSTEMS_DESCRIPTION_SST" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ECONOMICS_DESCRIPTION_SST" Language="en_US">
+			<Text>+50% yields from [ICON_TradeRoute] Trade Routes.</Text>
+		</Replace>
+		<!--Governors-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION" Language="en_US">
+			<Text>Increases city garrison [ICON_Strength] Combat Strength by +5. Your other cities within 9 tiles gain +4 Loyalty points per turn towards your civilization. Establishes in 3 turns.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="en_US">
+			<Text>Units defending within the city's territory get +5 [ICON_Strength] Combat Strength. Military units trained in this city start with a free promotion that do not already start with a free promotion.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION" Language="en_US">
+			<Text>City cannot be put under siege. Accumulating Strategic resources in the city gain an additional +1 per turn. +1 [ICON_Production] Production to Strategic resources in the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION" Language="en_US">
+			<Text>City gains an additional [ICON_Ranged] Ranged Strike per turn, and +5 City [ICON_Ranged] Ranged Strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION" Language="en_US">
+			<Text>+25 [ICON_Strength] Combat Strength to anti-air support units within the city's territory when defending against aircraft and ICBMs. +100% [ICON_Production] towards support units in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION" Language="en_US">
+			<Text>30% [ICON_Production] Production increase to units in the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION" Language="en_US">
+			<Text>Other cities within 9 tiles and not owned by you lose 4 Loyalty per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes ending here provide +1 [ICON_Food] Food and +1 [ICON_Production] Production to their starting city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="en_US">
+			<Text>Increases the [ICON_POWER] Power provided by each resource of the Coal Power Plant, Oil Power Plant, and Nuclear Power Plant by 1 and the [ICON_Production] Production of all Industrial Zone buildings in this city by +2.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION" Language="en_US">
+			<Text>Strategic resource costs for units are discounted 50%.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="en_US">
+			<Text>+30% [ICON_Production] Production towards constructing districts and buildings in the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION" Language="en_US">
+			<Text>Can construct the Fishery improvement. +2 [ICON_Food] Food, +0.5 [ICON_Housing] Housing, +1 [ICON_Food] Food if adjacent to a sea resource. +2 [ICON_PRODUCTION] Production if Liang is in the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_HOUSING] Housing and +2 [ICON_AMENITIES] Amenity for every Aqueduct and Dam district in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="en_US">
+			<Text>Can construct the City Park improvement in this city. +3 [ICON_Culture] Culture and +2 Appeal. +1 [ICON_Amenities] Amenity if adjacent to water. City Parks provide +3 [ICON_CULTURE] Culture if Liang is in the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_DESCRIPTION" Language="en_US">
+			<Text>Double adjacency bonuses from Theater Squares in the city. +25% [ICON_Culture] to this city's Amphitheater, Art Museum, and Archaeological Museum.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_DESCRIPTION" Language="en_US">
+			<Text>Double adjacency bonuses from Campuses in the city. +25% [ICON_Science] Science to this city's Library and Public School.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_DESCRIPTION" Language="en_US">
+			<Text>30% [ICON_Production] Production increase to all projects in the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="en_US">
+			<Text>The [ICON_Gold] Gold required to purchase tiles in this city is reduced by 20%.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION" Language="en_US">
+			<Text>Double adjacency bonuses from Commercial Hubs and Harbors in the city. +3 [ICON_Gold] Gold per turn from each foreign [ICON_TradeRoute] Trade Route passing through the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="en_US">
+			<Text>This city receives +2 [ICON_Gold] Gold from each feature. Tiles adjacent to unimproved features receive +1 Appeal in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="en_US">
+			<Text>All Offshore Wind Farms, Solar Farms, Wind Farms, and Geothermal Plants in this city receive +2 [ICON_POWER] Power and +2 [ICON_Gold] Gold. Hydroelectric Dams in this city provide an additional +2 [ICON_POWER] Power to all cities within 6 tiles. +2 [ICON_Gold] Gold to this city's tiles beside a river.</Text>
+		</Replace>
+		<!--Dedications and Ages-->
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_CULTURAL} Golden Age:[NEWLINE][ICON_CivicBoosted] Inspirations provide an additional 10% of civic costs. Each city receives +1 [ICON_Culture] Culture, and an additional +1 [ICON_Culture] Culture for each specialty district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_INFRASTRUCTURE} Golden Age:[NEWLINE]+2 [ICON_Movement] Movement for all Builders. May purchase civilian units with [ICON_Faith] Faith. Builders and Settlers are 20% cheaper to purchase with [ICON_FAITH] Faith and [ICON_GOLD] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_EXPLORATION} Golden Age:[NEWLINE]+3 starting [ICON_Citizen] Population for cities settled on a different continent than your first city. +2 [ICON_Movement] Movement for naval and embarked units. +2 Loyalty per turn, +15% [ICON_Food] Food, and +15% [ICON_Production] Production for cities not on your original [ICON_Capital] Capital's continent.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_ECONOMIC} Golden Age:[NEWLINE]Your Traders cannot be plundered. International [ICON_TradeRoute] Trade Routes provide +2 [ICON_Gold] Gold per specialty district in the foreign city.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_MILITARY} Golden Age:[NEWLINE]Unlock a special Casus Belli which generates 75% less [ICON_STAT_GRIEVANCE] Grievances than Formal War and can be used immediately after Denouncing the target. +15% [ICON_Production] Production towards military units. +2 [ICON_Production] Production from Encampments and their buildings.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_TOURISM} Golden Age:[NEWLINE]Cities receive +50%  [ICON_Tourism] Tourism from World Wonders. +100%  [ICON_Tourism] Tourism to all National Parks.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_AERONAUTICAL} Golden Age:[NEWLINE]Unlocks the [ICON_TechBoosted] Eurekas for Satellites, Nuclear Fusion, and Nanotechnology if in the Information Era. When chosen in the Future Era the [ICON_TechBoosted] Eurekas for Smart Materials, Predictive Systems, and Offworld Mission are unlocked. If they are already triggered, instead completes the tech. +30% [ICON_Production] towards Spaceport and Aerodrome districts. +15% [ICON_Science] Science and [ICON_Production] Production to cities with a Spaceport or Aerodrome.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_ESPIONAGE} Golden Age:[NEWLINE]Spies take no time to establish their presence in another civilization's city. Your Spy level is increased by 4 for offensive operations.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_AUTOMATON} Golden Age:[NEWLINE]Gain a Giant Death Robot in your capital. Receive 3 [ICON_Resource_Uranium] Uranium per turn. Giant Death Robots receive +5 [ICON_Strength] Combat Strength and +1 [ICON_Range] Range.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_NAME" Language="en_US">
+			<Text>Giant Death Robot Combat</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_NAME" Language="en_US">
+			<Text>Giant Death Robot Range</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength (Automaton Warfare Golden Age).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Range] Range (Automaton Warfare Golden Age).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from the Automaton Warfare Golden Age</Text>
+		</Replace>
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OPERA_HOUSE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Opera is a theatrical drama in which the actors sing all their dialog rather than speaking it, differentiating it from other forms of musical dramas. The opera singers are usually accompanied by an orchestra. An opera house is a theatre designed with a stage for the singers, space to seat the orchestra, and acoustics which help project the music to the audience. The Teatro San Cassiano was the first public opera house, opened in Venice, Italy, in 1637. Since that time opera houses have opened across the world - they are almost de rigueur for any city with pretensions of being a center of culture and art.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_SCHOOL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A public school provides free pre-university education to a civilization's children. This is a fairly advanced concept. First, the civilization must believe that education is important, and that educating the poor is not a threat to the ruling class. Second, the civilization must be wealthy enough so that the children of the poor do not need to work to fend off starvation. And finally, the civilization must be enlightened enough to be willing to expend some of its public revenue providing the education. Most countries in the world today provide some level of public education for their young. The first American public grade schools opened during the Colonial era. The first public high school was opened in Boston in 1821.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Manufacturing plants are large industrial complexes that produce goods of all types, although they are generally used to produce durable consumer goods such as automobiles. Essentially, a manufacturing plant is a large, sophisticated factory that employs specialization of labor, complex machinery, and assembly lines to gain efficiency and economies of scale. This combination of manpower and automation increases productivity and reduces production costs.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A hospital is an institution for diagnosing and treating the sick or injured, and for housing them during their recovery. Many hospitals are also teaching institutions, where student doctors and nurses learn their trade. The earliest hospitals were temples to certain gods associated with health and healing. Religious hospitals were established in Sri Lanka by 430 BC, and King Asoka of India created a chain of hospitals across Hindustan around 230 BC.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A medical laboratory is an institution that studies disease and human anatomy using a wide variety of extremely sophisticated and powerful instruments - from ultrasound to cameras the size of an ant to electron microscopes. Most - if not all - of the remarkable advances in medicine in the past 25 years have been made in medical labs. These include the sequencing of human DNA, antiviral therapies to battle HIV, gene editing, and more. Much of the increasing cost of healthcare can be attributed to the simple fact that medical laboratories have been remarkably successful at battling illness and prolonging and improving the quality of human life - and these improvements cost huge amounts of money.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>In a proletarian socialist state, the people have the power; however, even Marx realized that some form of party hierarchy would be necessary for efficient operation of state services and to insure that the proletarian order itself was preserved. For that reason, the Bolsheviks argued in 1917 that a vanguard party of bureaucrats would head a centralized political party that administered the new Soviet Russia.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

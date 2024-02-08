@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BarbarianTribe_ExtraUnits>
+		<Replace>
+			<TribeType>TRIBE_MELEE</TribeType>
+			<UnitType>UNIT_MODE_ZOMBIE</UnitType>
+			<Number>1</Number>
+		</Replace>
+		<Replace>
+			<TribeType>TRIBE_CAVALRY</TribeType>
+			<UnitType>UNIT_MODE_ZOMBIE</UnitType>
+			<Number>1</Number>
+		</Replace>
+		<Replace>
+			<TribeType>TRIBE_NAVAL</TribeType>
+			<UnitType>UNIT_MODE_ZOMBIE</UnitType>
+			<Number>1</Number>
+		</Replace>
+	</BarbarianTribe_ExtraUnits>
+	<ModifierArguments>
+		<Delete ModifierId="TOWERDEFENSE_ZOMBIE_COMBAT_STRENGTH_FROM_PROPERTY" Name="Scalar" />
+		<Row>
+			<ModifierId>TOWERDEFENSE_ZOMBIE_COMBAT_STRENGTH_FROM_PROPERTY</ModifierId>
+			<Name>Scalar</Name>
+			<Value>.25</Value>
+		</Row>
+	</ModifierArguments>
+	<UnitOperations>
+		<Replace OperationType="UNITOPERATION_SPY_ZOMBIFY" VisibleInUI="true" HoldCycling="true" CategoryInUI="OFFENSIVESPY" Icon="ICON_UNITOPERATION_SPY_ZOMBIFY" Description="LOC_UNITCOMMAND_SPY_SUMMON_ZOMBIES_NAME" Turns="8" BaseProbability="20" LevelProbChange="1" EnemyProbChange="3" EnemyLevelProbChange="1" TargetDistrict="DISTRICT_CITY_CENTER" InterfaceMode="INTERFACEMODE_SPY_CHOOSE_MISSION"/>
+	</UnitOperations>
+	<TypeProperties>
+		<Replace Type="UNITOPERATION_SPY_ZOMBIFY"	Name="SPY_OPERATION_CHANCE_TO_SPAWN_ZOMBIE" Value="25"/>
+	</TypeProperties>
+</GameData>

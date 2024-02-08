@@ -11,9 +11,9 @@
 	<Buildings>
 		<!--City Center-->
 		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Description="LOC_BUILDING_GRANARY_DESCRIPTION_SST"/></Update>
-		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Housing="0" Maintenance="1"/></Update>
-		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC" Housing="3" Maintenance="2"/>
-		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="520" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Maintenance="3"/>
+		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Housing="1" Maintenance="1"/></Update>
+		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" Description="LOC_BUILDING_HOSPITAL_DESCRIPTION" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC" Housing="2" Maintenance="2"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="520" AdvisorType="ADVISOR_GENERIC"  Housing="3" Maintenance="3"/>
 		<!--Theater Square-->
 		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/></Update>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
@@ -37,8 +37,8 @@
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" Name="LOC_BUILDING_MANUFACTURING_PLANT_NAME" Description="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" PrereqTech="TECH_ROBOTICS" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" RegionalRange="6" Cost="785"/>
 
 		<!--Entertainment Complex and Water Park-->
-		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="2" /></Update>
-		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="3" /></Update>
+		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_EXPLORATION" Entertainment="2" /></Update>
+		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_EXPLORATION" Entertainment="3" /></Update>
 		<Update><Where BuildingType="BUILDING_STADIUM" /><Set PrereqCivic="CIVIC_MASS_MEDIA" Entertainment="2" /></Update>
 		<Update><Where BuildingType="BUILDING_FERRIS_WHEEL" /><Set Entertainment="2" /></Update>
 		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Entertainment="3" /></Update>
@@ -46,8 +46,7 @@
 		<!--Aerodrome-->
 		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO" /></Update>
 		<!--Neighborhood-->
-		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Housing="2"/></Update>
-		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" Housing="2" /></Update>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" /></Update>
 		<!--Preserve-->
 		<Update><Where BuildingType="BUILDING_SANCTUARY" /><Set PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqCivic=""/></Update>
 	</Buildings>
@@ -58,8 +57,10 @@
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" RequiredPower="3"/>
 		<Delete BuildingType="BUILDING_FOOD_MARKET"/>
 		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set RequiredPower="3" EntertainmentBonusWithPower="1" /></Update>
+		<!--Multiplier does not support decimal number!-->
+		<Replace BuildingType="BUILDING_FLOOD_BARRIER" BlocksCoastalFlooding="true" CostMultiplierPerTile="0" CostMultiplierPerSeaLevel="0" Pillage="false"/>
 	</Buildings_XP2>
-	
+
 	<BuildingPrereqs>
 		<!--City Center-->
 		<Row Building="BUILDING_HOSPITAL" PrereqBuilding="BUILDING_SEWER"/>
@@ -75,16 +76,10 @@
 		<Row Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_OPERA_HOUSE"/>
 		<!--Campus-->
 		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_UNIVERSITY"/>
-		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_MADRASA"/>
-		<Delete Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_NAVIGATION_SCHOOL"/>
 		<Row Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_PUBLIC_SCHOOL"/>
 		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_UNIVERSITY"/>
-		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_MADRASA"/>
-		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_NAVIGATION_SCHOOL"/>
 		<!--Industrial Zone-->
-		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_POWER_PLANT"/>
-		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_COAL_POWER_PLANT"/>
-		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
+		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_FACTORY"/>
 		<!--Neighborhood-->
 		<Row Building="BUILDING_SHOPPING_MALL" PrereqBuilding="BUILDING_FOOD_MARKET"/>
 	</BuildingPrereqs>
@@ -96,8 +91,8 @@
 
 	<Building_YieldChanges>
 		<!--City Center-->
-		<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="6"/>
-		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<!--<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="6"/>
+		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="3"/>-->
 		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_CULTURE"/><Set YieldChange="2"/></Update>
 		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_SCIENCE"/><Set YieldChange="3"/></Update>
 		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
@@ -121,9 +116,9 @@
 		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
 		<Delete BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/>
 		<!--Industrial Zone-->
-		<Update><Where BuildingType="BUILDING_WORKSHOP" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
-		<Update><Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="1"/></Update>
-		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="1"/></Update>
+		<Update><Where BuildingType="BUILDING_WORKSHOP" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
+		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
 		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
 		<Update><Where BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="5"/></Update>
 		<!--Harbor-->
@@ -131,12 +126,13 @@
 		<!--Aerodrome-->
 		<Update><Where BuildingType="BUILDING_AIRPORT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
 		<!--Neighborhood-->
-		<Update><Where BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>	<Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>	<Set YieldChange="4"/></Update>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD"/> <Set YieldChange="2"/></Update>
 	</Building_YieldChanges>
 
 	<Building_YieldChangesBonusWithPower>
 		<!--City Center-->
-		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="5"/>
+		<!--<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="5"/>-->
 		<!--Theater Square-->
 		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
 		<Update><Where BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
@@ -145,30 +141,31 @@
 		<!--Commercial Hub-->
 		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/><Set YieldChange="3"/></Update>
 		<!--Industrial Zone-->
-		<Update><Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
-		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
+		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="5"/></Update>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 		<!--Neighborhood-->
 		<Delete BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>
+		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD"/> <Set YieldChange="2"/></Update>
 	</Building_YieldChangesBonusWithPower>
 
 	<Building_CitizenYieldChanges>
 		<!--Theater Square-->
-		<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="2"/>
-		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<!--<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER"/>
 		<Delete BuildingType="BUILDING_FILM_STUDIO"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<!--Campus-->
-		<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<!--<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Row BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_RESEARCH_LAB"/>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<!--Holy Site-->
-		<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<!--<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<Row BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" YieldChange="2"/>
-		<Row BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_CATHEDRAL"/>
 		<Delete BuildingType="BUILDING_DAR_E_MEHR"/>
 		<Delete BuildingType="BUILDING_GURDWARA"/>
@@ -188,28 +185,29 @@
 		<Row BuildingType="BUILDING_SYNAGOGUE" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<Row BuildingType="BUILDING_WAT" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<!--Encampment-->
-		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
-		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<!--<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_GOLD" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" />
 		<Row BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<!--Commercial Hub-->
-		<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="4"/>
-		<Row BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<!--<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD" YieldChange="4"/>-->
 		<Delete BuildingType="BUILDING_STOCK_EXCHANGE"/>
 		<Row BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<!--Industrial Zone-->
+		<!--Power plant is no longer that needed. We just need something unlocked in Industrial Era.-->
 		<Row BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Delete BuildingType="BUILDING_POWER_PLANT"/>
 		<Delete BuildingType="BUILDING_COAL_POWER_PLANT" />
 		<Delete BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
-		<Row BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<!--<Row BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Row BuildingType="BUILDING_COAL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
-		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>-->
 		<!--Harbor-->
-		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<!--<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_FOOD" YieldChange="1"/>-->
 		<Delete BuildingType="BUILDING_SEAPORT"/>
 		<Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_FOOD" YieldChange="1"/>
@@ -233,8 +231,11 @@
 		<!--City Center-->
 		<Row BuildingType="BUILDING_GRANARY" ModifierId="BUILDING_GRANARY_FOOD"/>
 		<Row BuildingType="BUILDING_SEWER" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
+		<Row BuildingType="BUILDING_HOSPITAL" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
+		<!--<Row BuildingType="BUILDING_HOSPITAL" ModifierId="GROWTHBUILDING_FOOD_PER_POP"/>-->
 		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
 		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_POWERED"/>
+		<!--<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_FOOD_PER_POP"/>-->
 		<!--Theater Square-->
 		<Row BuildingType="BUILDING_OPERA_HOUSE" ModifierId="CULTUREBUILDING_CULTURE_33"/>
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_33"/>
@@ -263,9 +264,8 @@
 		<Row BuildingType="BUILDING_WORKSHOP" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
 		<Row BuildingType="BUILDING_FACTORY" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
 		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" ModifierId="PRODUCTIONBULIDING_PRODUCTION_10"/>
-		<Row BuildingType="BUILDING_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
-		<Row BuildingType="BUILDING_COAL_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
-		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<Row BuildingType="BUILDING_FACTORY" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
 		<!--Harbor-->
 		<Row BuildingType="BUILDING_LIGHTHOUSE" ModifierId="BUILDING_LIGHTHOUSE_FOOD"/>
@@ -275,7 +275,8 @@
 		<!--Dam-->
 		<Delete BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="HYDROELECTRIC_DAM_FREE_POWER"/>
 		<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX"/>
-		<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="PRODUCTIONBULIDING_PRODUCTION_15"/>
+		<Delete BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="MERCHANT_RENEWABLE_ENERGY_HYDROELECTRIC_DAM_FREE_POWER"/>
+		<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX_MERCHANT"/>
 		<!--Aerodrome-->
 		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_SCULPTURE_TOURISM"/>
 		<Row BuildingType="BUILDING_HANGAR" ModifierId="AERODROMEBUILDING_CITY_PORTRAIT_TOURISM"/>
@@ -300,9 +301,6 @@
 		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_NATIONAL_PARK_TOURISM"/>
 		<Row BuildingType="BUILDING_AIRPORT" ModifierId="AERODROMEBUILDING_CITY_WONDER_TOURISM"/>
 		<!--Neighborhood-->
-		<Row BuildingType="BUILDING_FOOD_MARKET" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP"/>
-		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP"/>
-		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="NEIGHBORHOODBUILDING_GOLD_PER_POP_POWERED"/>
 		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="STADIUM_10_POPULATION_TOURISM"/>
 		<Row BuildingType="BUILDING_SHOPPING_MALL" ModifierId="STADIUM_20_POPULATION_TOURISM"/>
 	</BuildingModifiers>
@@ -360,6 +358,8 @@
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ARTIFACT_ATTACH"/>
 		<!--Industrial Zone-->
 		<Row ModifierId="MANUFACTURING_PLANT_ALL_PROJECT_PRODUCTION_ATTACH"/>
+		<!--Dam-->
+		<Row ModifierId="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX_ATTACH"/>
 	</GameModifiers>
 	
 	<Modifiers>
@@ -373,6 +373,9 @@
 		<!--Dam-->
 		<Delete ModifierId="HYDROELECTRIC_DAM_FREE_POWER"/>
 		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER" SubjectRequirementSetId="CITY_IS_WITHIN_6_HEXES_SST"/>
+		<Row ModifierId="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="PLOT_IS_WITHIN_6_HEXES_OF_HYDROELECTRIC_DAM_RIVER_SST"/>
+		<Row ModifierId="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX_ATTACH" ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER" />
+		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX_MERCHANT" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER" SubjectRequirementSetId="CITY_IS_WITHIN_6_HEXES_SST" OwnerRequirementSetId="CITY_HAS_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY"/>
 	</Modifiers>
 	
 	<ModifierArguments>
@@ -390,6 +393,11 @@
 		<!--Dam-->
 		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX" Name="Amount" Value="6"/>
 		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX" Name="SourceType" Value="FREE_POWER_SOURCE_WATER"/>
+		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX_MERCHANT" Name="Amount" Value="2"/>
+		<Row ModifierId="HYDROELECTRIC_DAM_FREE_POWER_6HEX_MERCHANT" Name="SourceType" Value="FREE_POWER_SOURCE_WATER"/>
+		<Row ModifierId="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX" Name="Amount" Value="1"/>
+		<Row ModifierId="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX_ATTACH" Name="ModifierId" Value="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX"/>
 	</ModifierArguments>
 
 	<!--Costs-->
@@ -399,7 +407,7 @@
 		<Update><Where BuildingType="BUILDING_SHRINE" /><Set Cost="65"/></Update>
 		<Update><Where BuildingType="BUILDING_WALLS" /><Set Cost="70"/></Update>
 		<Update><Where BuildingType="BUILDING_WATER_MILL" /><Set Cost="70"/></Update>
-		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="70"/></Update>
+		<Update><Where BuildingType="BUILDING_FLOOD_BARRIER" /><Set Cost="650"/></Update>
 		<Update><Where BuildingType="BUILDING_PALGUM" /><Set Cost="70"/></Update>
 		<Update><Where BuildingType="BUILDING_BARRACKS" /><Set Cost="85"/></Update>
 		<Update><Where BuildingType="BUILDING_LIBRARY" /><Set Cost="85"/></Update>
@@ -574,7 +582,7 @@
 		/>
 		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
 			Name="Amount"
-			Value="50"
+			Value="30"
 		/>
 		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
 			Name="UnitType"
@@ -582,7 +590,7 @@
 		/>
 		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
 			Name="Amount"
-			Value="2"
+			Value="1"
 		/>
 		<Row ModifierId="GOV_GRANT_SETTLER_SST"
 			Name="UnitType"
@@ -936,7 +944,7 @@
 		<Row>
 			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>SANKORE_SHRINE_SCIENCE</ModifierId>
@@ -951,7 +959,7 @@
 		<Row>
 			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>SANKORE_TEMPLE_SCIENCE</ModifierId>

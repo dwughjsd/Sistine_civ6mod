@@ -5,7 +5,10 @@
 			<Where ResourceType="RESOURCE_ANTIQUITY_SITE" />
 			<Set PrereqCivic="CIVIC_HUMANISM" />
 		</Update>
-		<Update><Where ResourceType="RESOURCE_PERFUME" /><Set Happiness="3" /></Update>
+		<Update><Where ResourceType="RESOURCE_PERFUME" /><Set Happiness="6" /></Update>
+		<Update><Where ResourceType="RESOURCE_JEANS" /><Set Happiness="4" /></Update>
+		<Update><Where ResourceType="RESOURCE_COSMETICS" /><Set Happiness="4" /></Update>
+		<Update><Where ResourceType="RESOURCE_TOYS" /><Set Happiness="4" /></Update>
 		<Update><Where ResourceType="RESOURCE_CINNAMON" /><Set Happiness="3" /></Update>
 		<Update><Where ResourceType="RESOURCE_CLOVES" /><Set Happiness="3" /></Update>
 		<Update><Where ResourceType="RESOURCE_CITRUS" /><Set Happiness="2" /></Update>
@@ -32,9 +35,7 @@
 		<Update><Where ResourceType="RESOURCE_TRUFFLES" /><Set Happiness="2" /></Update>
 		<Update><Where ResourceType="RESOURCE_WHALES" /><Set Happiness="2" /></Update>
 		<Update><Where ResourceType="RESOURCE_WINE" /><Set Happiness="2" /></Update>
-		<Update><Where ResourceType="RESOURCE_JEANS" /><Set Happiness="2" /></Update>
-		<Update><Where ResourceType="RESOURCE_COSMETICS" /><Set Happiness="2" /></Update>
-		<Update><Where ResourceType="RESOURCE_TOYS" /><Set Happiness="2" /></Update>
+
 	</Resources>
 	<Tags>
 		<!-- Building Effects Based-->

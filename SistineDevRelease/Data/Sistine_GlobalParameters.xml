@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<GlobalParameters>
-		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="50" />
-		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="50" />
+		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="40" />
+		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="30" />
 		<Replace Name="GAME_COST_ESCALATION" Value="400" />
 		<Replace Name="TOURISM_CULTURE_PER_CITIZEN" Value="100" />
 		<Replace Name="TOURISM_TOURISM_TO_MOVE_CITIZEN" Value="200" />
@@ -11,19 +11,13 @@
 		<!--This param seems to be not working. Next one works.-->
 		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT" Value="20" />
 		<Replace Name="LOYALTY_AFTER_TRANSFERRED_BY_COMBAT_OWNER_BEFORE_OCCUPATION" Value="20" />
-		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="15" />
+		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="20" />
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MIN" Value="0" />
 		<Replace Name="CITY_AMENITIES_FOR_FREE" Value="1" />
 		<!--It's causing AI paying much to buy luxuries. We are still trying to figure out how to make them sell with a higher price too-->
-		<!--<Replace Name="AI_BASE_LUXURY_VALUE" Value="100" />-->
-		<!--I guess it will make AI smarter. Let's see!-->
-
+		<Replace Name="AI_BASE_LUXURY_VALUE" Value="100" />
 		<Replace Name="CIVIC_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
-		<!--Temporalily disable them to see further impacts
-		<Replace Name="CIVIC_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
-		<Replace Name="TECH_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-40" />
-		-->
 		<!--Cultural Victory overhaul-->
 		<Replace Name="NATIONAL_PARK_GOLD_YIELD_PER_TOURISM" Value="1" />
 		<Replace Name="GREATWORK_ART_LOCK_TIME" Value="0" />
@@ -37,7 +31,7 @@
 		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_BEST_ROUTE_TILE" Value="3" />
 		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_MULTIPLE_DOMAINS" Value="10" />
 		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_PORTAL_USE" Value="10" />
-		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_WATER_TILE" Value="1" />
+		<Replace Name="TRADE_ROUTE_TRANSPORTATION_EFFICIENCY_SCORE_WATER_TILE" Value="2" />
 		<!--Alliance level-->
 		<Replace Name="ALLIANCE_LEVEL_THREE_XP" Value="360" />
 		<Replace Name="ALLIANCE_LEVEL_TWO_XP" Value="120" />
@@ -52,6 +46,8 @@
 		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_MELEE" Value="30" />
 		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_RANGED" Value="30" />
 		<Replace Name="COMBAT_GARRISON_MILITIA_MODIFIER" Value="3" />
+		<!--Climate-->
+		<Replace Name="CLIMATE_CHANGE_PERCENT_COASTAL_LOWLANDS" Value="80" />
 	</GlobalParameters>
 
 	<BarbarianTribes>

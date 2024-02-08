@@ -158,11 +158,19 @@
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_BUILDER" />
-			<Set Cost="60" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
+			<Set Cost="75" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_SETTLER" />
-			<Set Cost="150" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
+			<Set Cost="120" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TRADER" />
+			<Set Cost="80" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPY" />
+			<Set Cost="50" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_MISSIONARY" />
@@ -291,7 +299,7 @@
 	<UnitOperations>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_DISRUPT_ROCKETRY" />
-			<Set BaseProbability="18" />
+			<Set BaseProbability="16" />
 		</Update>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_GREAT_WORK_HEIST" />
@@ -299,11 +307,11 @@
 		</Update>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_RECRUIT_PARTISANS" />
-			<Set BaseProbability="18" />
+			<Set BaseProbability="20" />
 		</Update>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_SABOTAGE_PRODUCTION" />
-			<Set BaseProbability="16" />
+			<Set BaseProbability="18" />
 		</Update>
 		<Update>
 			<Where OperationType="UNITOPERATION_SPY_SIPHON_FUNDS" />

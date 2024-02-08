@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<AiOperationDefs>
+		<!--Not Sure if larger priority means more priortized but let's see-->
+		<Update>
+			<Where OperationName="Soothsayer Scored Competition" />
+			<Set Priority="2"/>
+		</Update>
+	</AiOperationDefs>
+	<TypeTags>
+		<Row Type="UNIT_SOOTHSAYER" Tag="CLASS_SUPPORT"/>
+	</TypeTags>
+	<RandomEvent_Damages>
+		<Replace RandomEventType="RANDOM_EVENT_JUNGLE_FIRE_TRIGGERED" DamageType="SPREAD" Percentage="25" MinTurn="2" MaxTurn="4"/>
+		<Replace RandomEventType="RANDOM_EVENT_FOREST_FIRE_TRIGGERED" DamageType="SPREAD" Percentage="25" MinTurn="2" MaxTurn="4"/>
+	</RandomEvent_Damages>
+	<Buildings>
+		<!--Great bath: no longer receive faith from floods but +2 faith to floodplains in this city. description changes needed.-->
+		<Update>
+			<Where BuildingType="BUILDING_GREAT_BATH" />
+			<Set Description="LOC_BUILDING_GREAT_BATH_DESCRIPTION_MODE_SST" />
+		</Update>
+	</Buildings>
+	<BuildingModifiers>
+		<Delete BuildingType="BUILDING_GREAT_BATH" ModifierId="GREATBATH_FLOODFAITH"/>
+		<Row BuildingType="BUILDING_GREAT_BATH" ModifierId="GREATBATH_FLOODPLAINSFAITH"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row ModifierId="GREATBATH_FLOODPLAINSFAITH" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="PLOT_FLOODPLAINS_REQUIREMENTS"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="GREATBATH_FLOODPLAINSFAITH" Name="Amount" Value="2"/>
+		<Row ModifierId="GREATBATH_FLOODPLAINSFAITH" Name="YieldType" Value="YIELD_FAITH"/>
+	</ModifierArguments>
+</GameData>

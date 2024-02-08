@@ -6,10 +6,6 @@
 			<Set UITreeRow="-1"/>
 		</Update>
 		<Update>
-			<Where TechnologyType="TECH_CURRENCY" />
-			<Set Description="LOC_TECH_CURRENCY_DESCRIPTION"/>
-		</Update>
-		<Update>
 			<Where TechnologyType="TECH_APPRENTICESHIP" />
 			<Set Description=""/>
 		</Update>
@@ -22,12 +18,24 @@
 			<Set Description=""/>
 		</Update>
 		<Update>
-			<Where TechnologyType="TECH_PLASTICS" />
+			<Where TechnologyType="TECH_ROCKETRY" />
 			<Set Description=""/>
 		</Update>
 		<Update>
-			<Where TechnologyType="TECH_ROCKETRY" />
-			<Set Description=""/>
+			<Where TechnologyType="TECH_CURRENCY" />
+			<Set Description="LOC_TECH_CURRENCY_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_BANKING" />
+			<Set Description="LOC_TECH_BANKING_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ECONOMICS" />
+			<Set Description="LOC_TECH_ECONOMICS_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_GUIDANCE_SYSTEMS" />
+			<Set Description="LOC_TECH_GUIDANCE_SYSTEMS_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_MASS_PRODUCTION" />
@@ -44,10 +52,6 @@
 		<Update>
 			<Where TechnologyType="TECH_CONSTRUCTION" />
 			<Set Description="LOC_TECH_CONSTRUCTION_DESCRIPTION_SST"/>
-		</Update>
-		<Update>
-			<Where TechnologyType="TECH_ELECTRICITY" />
-			<Set Description="LOC_TECH_ELECTRICITY_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_MILITARY_ENGINEERING" />
@@ -409,22 +413,19 @@
 		<Row TechnologyType="TECH_STEEL">
 			<ModifierId>STEEL_OUTERDEFENSE_RENAISSANCE</ModifierId>
 		</Row>
+		<Row TechnologyType="TECH_STEAM_POWER">
+			<ModifierId>STEELPOWER_PRODUCTIVE_CITIZEN</ModifierId>
+		</Row>		
 	</TechnologyModifiers>
 	
 	<TechnologyRandomCosts>
 		<!--New Techs-->
-		<Delete TechnologyType="TECH_SEASTEADS" Cost="2200"/>
-		<Delete TechnologyType="TECH_SEASTEADS" Cost="2300"/>
-		<Delete TechnologyType="TECH_ADVANCED_AI" Cost="2200"/>
-		<Delete TechnologyType="TECH_ADVANCED_AI" Cost="2300"/>
-		<Delete TechnologyType="TECH_ADVANCED_POWER_CELLS" Cost="2200"/>
-		<Delete TechnologyType="TECH_ADVANCED_POWER_CELLS" Cost="2300"/>
-		<Delete TechnologyType="TECH_CYBERNETICS" Cost="2200"/>
-		<Delete TechnologyType="TECH_CYBERNETICS" Cost="2300"/>
-		<Delete TechnologyType="TECH_SMART_MATERIALS" Cost="2200"/>
-		<Delete TechnologyType="TECH_SMART_MATERIALS" Cost="2300"/>
-		<Delete TechnologyType="TECH_PREDICTIVE_SYSTEMS" Cost="2200"/>
-		<Delete TechnologyType="TECH_PREDICTIVE_SYSTEMS" Cost="2300"/>
+		<Delete TechnologyType="TECH_SEASTEADS" />
+		<Delete TechnologyType="TECH_ADVANCED_AI" />
+		<Delete TechnologyType="TECH_ADVANCED_POWER_CELLS" />
+		<Delete TechnologyType="TECH_CYBERNETICS" />
+		<Delete TechnologyType="TECH_SMART_MATERIALS" />
+		<Delete TechnologyType="TECH_PREDICTIVE_SYSTEMS" />
 		<Row TechnologyType="TECH_SEASTEADS" Cost="4540"/>
 		<Row TechnologyType="TECH_SEASTEADS" Cost="4840"/>
 		<Row TechnologyType="TECH_ADVANCED_AI" Cost="4540"/>
@@ -444,7 +445,8 @@
 		<Delete TechnologyType="TECH_OFFWORLD_MISSION"/>
 	</Technologies_XP2>
 	<TechnologyPrereqs>
-		<Row Technology="TECH_ASTROLOGY" PrereqTech="TECH_POTTERY"/>
+		<!--Disable it for now to mitigate the issue that all AIs doesn't care religion at all-->
+		<!--<Row Technology="TECH_ASTROLOGY" PrereqTech="TECH_POTTERY"/>-->
 		<Delete Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_BANKING"/>
 		<Delete Technology="TECH_ECONOMICS" PrereqTech="TECH_METAL_CASTING"/>
 		<Delete Technology="TECH_ROBOTICS" PrereqTech="TECH_LASERS"/>
@@ -710,7 +712,7 @@
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_FUTURE_CIVIC" />
-			<Set Cost="7200"/>
+			<Set Cost="6350"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_ENVIRONMENTALISM" />
@@ -718,62 +720,57 @@
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" />
-			<Set Cost="5050"/>
+			<Set Cost="4975"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_DIGITAL_DEMOCRACY" />
-			<Set Cost="5050"/>
+			<Set Cost="4975"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_SYNTHETIC_TECHNOCRACY" />
-			<Set Cost="5050"/>
+			<Set Cost="4975"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_NEAR_FUTURE_GOVERNANCE" />
-			<Set Cost="5850"/>
+			<Set Cost="5150"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" />
-			<Set Cost="6710"/>
+			<Set Cost="5950"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_SMART_POWER_DOCTRINE" />
-			<Set Cost="6710"/>
+			<Set Cost="5950"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_INFORMATION_WARFARE" />
-			<Set Cost="6710"/>
+			<Set Cost="5950"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_EXODUS_IMPERATIVE" />
-			<Set Cost="6710"/>
+			<Set Cost="5950"/>
 		</Update>
 		<Update>
 			<Where CivicType="CIVIC_CULTURAL_HEGEMONY" />
-			<Set Cost="6710"/>
+			<Set Cost="5950"/>
 		</Update>
 	</Civics>
 	<CivicRandomCosts>
-		<Delete CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="3200"/>
-		<Delete CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="3300"/>
-		<Delete CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="3200"/>
-		<Delete CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="3300"/>
-		<Delete CivicType="CIVIC_INFORMATION_WARFARE" Cost="3200"/>
-		<Delete CivicType="CIVIC_INFORMATION_WARFARE" Cost="3300"/>
-		<Delete CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="3200"/>
-		<Delete CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="3300"/>
-		<Delete CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="3200"/>
-		<Delete CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="3300"/>
-		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="6710"/>
-		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="7010"/>
-		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="6710"/>
-		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="7010"/>
-		<Row CivicType="CIVIC_INFORMATION_WARFARE" Cost="6710"/>
-		<Row CivicType="CIVIC_INFORMATION_WARFARE" Cost="7010"/>
-		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="6710"/>
-		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="7010"/>
-		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="6710"/>
-		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="7010"/>
+		<Delete CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" />
+		<Delete CivicType="CIVIC_SMART_POWER_DOCTRINE" />
+		<Delete CivicType="CIVIC_INFORMATION_WARFARE" />
+		<Delete CivicType="CIVIC_EXODUS_IMPERATIVE" />
+		<Delete CivicType="CIVIC_CULTURAL_HEGEMONY" />
+		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="5950"/>
+		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" Cost="6150"/>
+		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="5950"/>
+		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" Cost="6150"/>
+		<Row CivicType="CIVIC_INFORMATION_WARFARE" Cost="5950"/>
+		<Row CivicType="CIVIC_INFORMATION_WARFARE" Cost="6150"/>
+		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="5950"/>
+		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" Cost="6150"/>
+		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="5950"/>
+		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" Cost="6150"/>
 	</CivicRandomCosts>
 	<Civics_XP2>
 		<Delete CivicType="CIVIC_FUTURE_CIVIC"/>
@@ -790,6 +787,15 @@
 		<Delete Civic="CIVIC_THE_ENLIGHTENMENT" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
 		<Row Civic="CIVIC_THE_ENLIGHTENMENT" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
 		<Row Civic="CIVIC_MERCANTILISM" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Delete Civic="CIVIC_SUFFRAGE" PrereqCivic="CIVIC_IDEOLOGY"/>
+		<Delete Civic="CIVIC_TOTALITARIANISM" PrereqCivic="CIVIC_IDEOLOGY"/>
+		<Delete Civic="CIVIC_CLASS_STRUGGLE" PrereqCivic="CIVIC_IDEOLOGY"/>
+		<Row Civic="CIVIC_SUFFRAGE" PrereqCivic="CIVIC_MASS_MEDIA"/>
+		<Row Civic="CIVIC_TOTALITARIANISM" PrereqCivic="CIVIC_MASS_MEDIA"/>
+		<Row Civic="CIVIC_CLASS_STRUGGLE" PrereqCivic="CIVIC_MASS_MEDIA"/>
+		<Row Civic="CIVIC_SUFFRAGE" PrereqCivic="CIVIC_MOBILIZATION"/>
+		<Row Civic="CIVIC_TOTALITARIANISM" PrereqCivic="CIVIC_MOBILIZATION"/>
+		<Row Civic="CIVIC_CLASS_STRUGGLE" PrereqCivic="CIVIC_MOBILIZATION"/>
 	</CivicPrereqs>
 
 	<CivicModifiers>
@@ -809,6 +815,41 @@
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="SOCIALMEDIA_SKITOURISM" />
 		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM" />
 	</CivicModifiers>
+
+	<!--Use this "wrap" to blind AI so that they won't rush a not-that-useful civic-->
+	<Modifiers>
+		<Update>
+			<Where ModifierId="HERITAGE_ARTIFACTTOURISM" />
+			<Set>
+				<SubjectRequirementSetId>PLAYER_HAS_CULTURAL_HERITAGE</SubjectRequirementSetId>
+			</Set>
+		</Update>
+	</Modifiers>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CULTURAL_HERITAGE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CULTURAL_HERITAGE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_CULTURAL_HERITAGE_CIVIC_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_HAS_CULTURAL_HERITAGE_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_CULTURAL_HERITAGE_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CULTURAL_HERITAGE</Value>
+		</Row>
+	</RequirementArguments>
 
 	<Types>
 		<Row Type="MODIFIER_REAL_PLAYER_CITIES_ADJUST_INNER_DEFENSE" Kind="KIND_MODIFIER"/>
@@ -863,6 +904,10 @@
 		<Row>
 			<ModifierId>SOCIALMEDIA_SKITOURISM</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>STEELPOWER_PRODUCTIVE_CITIZEN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -938,6 +983,112 @@
 			<ModifierId>SOCIALMEDIA_SKITOURISM</ModifierId>
 			<Name>ScalingFactor</Name>
 			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEELPOWER_PRODUCTIVE_CITIZEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>.3</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEELPOWER_PRODUCTIVE_CITIZEN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
+
+	<Boosts>
+		<Update><Where TechnologyType="TECH_ARCHERY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_SLINGER" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_MASONRY" /><Set NumItems="2"/></Update>
+		<!--<Update><Where TechnologyType="TECH_CURRENCY" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_IMPROVEMENTS" ImprovementType="IMPROVEMENT_PLANTATION" RequiresResource="true" NumItems="2"/></Update>-->
+		<Update><Where TechnologyType="TECH_IRON_WORKING" /><Set NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_SHIPBUILDING" /><Set NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_MATHEMATICS" /><Set NumItems="4"/></Update>
+		<Update><Where TechnologyType="TECH_CONSTRUCTION" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_ENGINEERING" /><Set BoostClass="BOOST_TRIGGER_HAVE_GOVERNMENT_TIER" NumItems="0" GovernmentTierType="Tier1"/></Update>
+		<Update><Where TechnologyType="TECH_APPRENTICESHIP" /><Set NumItems="4"/></Update>
+		<Update><Where TechnologyType="TECH_MACHINERY" /><Set Unit1Type="UNIT_CATAPULT" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_STIRRUPS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_STABLE" NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_CASTLES" /><Set BoostClass="BOOST_TRIGGER_TRAIN_UNIT" Unit1Type="UNIT_GREAT_ENGINEER" NumItems="0"/></Update>
+		<Update><Where TechnologyType="TECH_BANKING" /><Set BoostingCivicType="CIVIC_MERCANTILISM"/></Update>
+		<Update><Where TechnologyType="TECH_MASS_PRODUCTION" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_GUNPOWDER" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_BARRACKS" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_SQUARE_RIGGING" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_MUSKETMAN" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_METAL_CASTING" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_INDUSTRIALIZATION" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_BALLISTICS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_ARMORY" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_STEAM_POWER" /><Set BuildingType="BUILDING_FACTORY"/></Update>
+		<Update><Where TechnologyType="TECH_SANITATION" /><Set BoostClass="BOOST_TRIGGER_CULTURVATE_CIVIC" BoostingCivicType="CIVIC_URBANIZATION" NumItems="0"/></Update>
+		<Update><Where TechnologyType="TECH_RIFLING" /><Set NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_REPLACEABLE_PARTS" /><Set NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_STEEL" /><Set BoostClass="BOOST_TRIGGER_IMPROVE_SPECIFIC_RESOURCE" ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_COAL" NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_REFINING" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_ELECTRICITY" /><Set NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_RADIO" /><Set BoostClass="BOOST_TRIGGER_CULTURVATE_CIVIC" BoostingCivicType="CIVIC_MASS_MEDIA"/></Update>
+		<Update><Where TechnologyType="TECH_CHEMISTRY" /><Set NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_ADVANCED_FLIGHT" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_HANGAR" NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_COMBINED_ARMS" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_BIPLANE" NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_SYNTHETIC_MATERIALS" /><Set BoostClass="BOOST_TRIGGER_CREATED_NATIONAL_PARK" DistrictType="" NumItems="0"/></Update>
+		<Update><Where TechnologyType="TECH_TELECOMMUNICATIONS" /><Set TriggerDescription="LOC_BOOST_TRIGGER_TELECOMMUNICATIONS" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_TELECOMMUNICATIONS" BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_BROADCAST_CENTER" NumItems="1"/></Update>
+		<!--need the project to unlock specific eureka-->
+		<Update><Where TechnologyType="TECH_SATELLITES" /><Set TriggerDescription="LOC_BOOST_TRIGGER_SATELLITES_SST" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_SATELLITES_SST" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH" BuildingType="" NumItems="0"/></Update>
+		<Update><Where TechnologyType="TECH_GUIDANCE_SYSTEMS" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_ARTILLERY" NumItems="3"/></Update>
+		<Update><Where TechnologyType="TECH_LASERS" /><Set NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_COMPOSITES" /><Set NumItems="2"/></Update>
+		<Update><Where TechnologyType="TECH_STEALTH_TECHNOLOGY" /><Set TriggerDescription="LOC_BOOST_TRIGGER_STEALTH_SST" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_STEALTH_SST" BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_BOMBER" NumItems="1"/></Update>
+		<Update><Where TechnologyType="TECH_ROBOTICS" /><Set BoostingCivicType="CIVIC_SPACE_RACE"/></Update>
+		<Update><Where TechnologyType="TECH_NANOTECHNOLOGY" /><Set NumItems="2"/></Update>
+		
+		<Update><Where CivicType="CIVIC_STATE_WORKFORCE" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_EARLY_EMPIRE" /><Set NumItems="6"/></Update>
+		<Update><Where CivicType="CIVIC_GAMES_RECREATION" /><Set BoostingTechType="TECH_MATHEMATICS"/></Update>
+		<Update><Where CivicType="CIVIC_DEFENSIVE_TACTICS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_WALLS" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_NAVAL_TRADITION" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_QUADRIREME" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_MERCENARIES" /><Set NumItems="10"/></Update>
+		<Update><Where CivicType="CIVIC_MEDIEVAL_FAIRES" /><Set NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_HUMANISM" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_AMPHITHEATER" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_REFORMED_CHURCH" /><Set NumItems="12"/></Update>
+		<Update><Where CivicType="CIVIC_COLONIALISM" /><Set BoostingTechType="TECH_INDUSTRIALIZATION"/></Update>
+		<Update><Where CivicType="CIVIC_CIVIL_ENGINEERING" /><Set NumItems="8"/></Update>
+		<Update><Where CivicType="CIVIC_NATIONALISM" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_PUBLIC_SCHOOL" NumItems="1"/></Update>
+		<Update><Where CivicType="CIVIC_OPERA_BALLET" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_NATURAL_HISTORY" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_SCORCHED_EARTH" /><Set NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_CONSERVATION" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_CAPITALISM" /><Set NumItems="1"/></Update>
+		<Update><Where CivicType="CIVIC_NUCLEAR_PROGRAM" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_MASS_MEDIA" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_DISTRICTS" DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_MOBILIZATION" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_INFANTRY" NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_SUFFRAGE" /><Set BuildingType="BUILDING_HOSPITAL" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_TOTALITARIANISM" /><Set NumItems="1"/></Update>
+		<Update><Where CivicType="CIVIC_CLASS_STRUGGLE" /><Set NumItems="4"/></Update>
+		<Update><Where CivicType="CIVIC_PROFESSIONAL_SPORTS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_STADIUM" NumItems="1"/></Update>
+		<Update><Where CivicType="CIVIC_CULTURAL_HERITAGE" /><Set BoostClass="BOOST_TRIGGER_HAVE_WONDER_PAST_X_ERA" NumItems="6"/></Update>
+		<Update><Where CivicType="CIVIC_SPACE_RACE" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_GLOBALIZATION" /><Set NumItems="1"/></Update>
+		<Update><Where CivicType="CIVIC_SOCIAL_MEDIA" /><Set BoostingTechType="TECH_LASERS"/></Update>
+		<Update><Where CivicType="CIVIC_ENVIRONMENTALISM" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_HYDROELECTRIC_DAM" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" /><Set NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_DIGITAL_DEMOCRACY" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_ROCK_BAND" NumItems="3"/></Update>
+		<Update><Where CivicType="CIVIC_SYNTHETIC_TECHNOCRACY" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_MANUFACTURING_PLANT" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_NEAR_FUTURE_GOVERNANCE" /><Set Boost="40"/></Update>
+	</Boosts>
+
+	<ProjectCompletionModifiers>
+		<Row ProjectType="PROJECT_LAUNCH_EARTH_SATELLITE" ModifierId="PROJECT_COMPLETION_TECH_SATELLITES_BOOST" />
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_TECH_SATELLITES_BOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_TECH_SATELLITES_BOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SATELLITES</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>

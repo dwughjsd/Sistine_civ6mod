@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<!--Pantheon-->
+	<Types>
+		<Row Type="BELIEF_ORAL_TRADITION" Kind="KIND_BELIEF"/>
+	</Types>
+	<Beliefs>
+		<Row BeliefType="BELIEF_ORAL_TRADITION" Name="LOC_BELIEF_ORAL_TRADITION_NAME" Description="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	</Beliefs>
 	<BeliefModifiers>
+		<Delete BeliefType="BELIEF_ORAL_TRADITION" />
+		<Row BeliefType="BELIEF_ORAL_TRADITION">
+			<ModifierId>GODDESS_OF_FESTIVALS_PLANTATION_CULTURE</ModifierId>
+		</Row>
+		<Delete BeliefType="BELIEF_GODDESS_OF_FESTIVALS" />
+		<Row BeliefType="BELIEF_GODDESS_OF_FESTIVALS">
+			<ModifierId>GODDESS_OF_FESTIVALS_PLANTATION_FOOD</ModifierId>
+		</Row>
 		<Row BeliefType="BELIEF_MONUMENT_TO_THE_GODS">
 			<ModifierId>MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MARBLE</ModifierId>
 		</Row>
@@ -41,6 +55,16 @@
 		</Row>
 	</BeliefModifiers>
 	<Modifiers>
+		<Row>
+			<ModifierId>GODDESS_OF_FESTIVALS_PLANTATION_FOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FESTIVALS_PLANTATION_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PLANTATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 		<Update>
 			<Where ModifierId="EARTH_GODDESS_APPEAL_FAITH_MODIFIER" />
 			<Set SubjectRequirementSetId="PLOT_CHARMING_APPEAL" />
@@ -171,6 +195,21 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>GODDESS_OF_FESTIVALS_PLANTATION_FOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GODDESS_OF_FESTIVALS_PLANTATION_FOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FESTIVALS_PLANTATION_FOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GODDESS_OF_FESTIVALS_PLANTATION_FOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 		<Update>
 			<Where ModifierId="FERTILITY_RITES_GROWTH" Name="Amount" />
 			<Set Value="15" />

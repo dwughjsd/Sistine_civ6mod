@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="2545c7e0-035e-4a78-b925-6f6080e775ea" version="1">
   <Properties>
-    <Name>Sistine</Name>
-    <Description>This is a brief description of the mod.</Description>
-    <Created>1702042013</Created>
-    <Teaser>This is a brief description of the mod.</Teaser>
-    <Authors>Admin</Authors>
+    <Name>LOC_SISTINE_MOD_TITLE</Name>
+    <Description>LOC_SISTINE_MOD_DESCRIPTION</Description>
+    <Created>1707371165</Created>
+    <Teaser>LOC_SISTINE_MOD_TEASER</Teaser>
+    <Authors>Shimamura et al.</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
   <Dependencies>
@@ -37,6 +37,64 @@
     <Mod id="258EF3CA-890B-4863-8A52-982822EFF7BD" title="LOC_RULERS_OF_ENGLAND_MOD_TITLE" />
     <Mod id="82AE6F24-930F-4640-833C-FCDFD4845757" title="LOC_RULERS_OF_THE_SAHARA_MOD_TITLE" />
   </References>
+  <ActionCriteria>
+    <Criteria id="SecretSocieties">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DramaticAges">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_DRAMATICAGES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Monopolies">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="BarbarianClans">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_BARBARIAN_CLANS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="TreeRandomizer">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_TREE_RANDOMIZER</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="TowerDefense">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_TOWERDEFENSE</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Apocalypse">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_APOCALYPSE</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Heroes">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
   <FrontEndActions>
     <UpdateText id="SistineSettingsText">
       <File>Text/Replacements/Sistine_ConfigText_zh_Hans_CN_Replace.xml</File>
@@ -82,17 +140,77 @@
       <File>Data/Sistine_Expansion1.xml</File>
       <File>Data/Sistine_Expansion2.xml</File>
       <File>Data/Sistine_GreatPeople.xml</File>
+      <File>Data/Sistine_Diplomacy.xml</File>
     </UpdateDatabase>
     <UpdateIcons id="SistineIcons">
       <File>Data/Sistine_Icons.xml</File>
     </UpdateIcons>
+    <UpdateDatabase id="SecretSocieties">
+      <Criteria>SecretSocieties</Criteria>
+      <File>Data/Gamemodes/Sistine_SecretSocieties_MODE.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DramaticAges">
+      <Criteria>DramaticAges</Criteria>
+      <File>Data/Gamemodes/Sistine_DramaticAges_MODE.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Monopolies">
+      <Criteria>Monopolies</Criteria>
+      <File>Data/Gamemodes/Sistine_Monopolies_MODE.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="BarbarianClans">
+      <Criteria>BarbarianClans</Criteria>
+      <File>Data/Gamemodes/Sistine_BarbarianClans_MODE.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TreeRandomizer">
+      <Criteria>TreeRandomizer</Criteria>
+      <File>Data/Gamemodes/Sistine_TreeRandomizer_MODE.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TowerDefense">
+      <Criteria>TowerDefense</Criteria>
+      <File>Data/Gamemodes/Sistine_TowerDefense_MODE.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Apocalypse">
+      <Criteria>Apocalypse</Criteria>
+      <File>Data/Gamemodes/Sistine_Apocalypse_MODE.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Heroes">
+      <Criteria>Heroes</Criteria>
+      <File>Data/Gamemodes/Sistine_Heroes_MODE.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="SecretSocietiesText">
+      <Criteria>SecretSocieties</Criteria>
+      <File>Text/Replacements/Sistine_Text_SecretSocieties_Replace.xml</File>
+    </UpdateText>
   </InGameActions>
+  <LocalizedText>
+    <Text id="LOC_SISTINE_MOD_TITLE">
+      <en_US>Overhaul: Test of Time</en_US>
+      <zh_Hans_CN>大修：时间考验</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_SISTINE_MOD_TEASER">
+      <en_US>A medium-scale overhaul mod with balancing changes inspired by previous titles of Civilization, greatly improved AI, and much, much more!</en_US>
+      <zh_Hans_CN>一款中规模大修模组，包含启发自历代《文明》作品的平衡性调整、大幅度增强的AI，以及许多其他内容！</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_SISTINE_MOD_DESCRIPTION">
+      <en_US>This is a game using the Test of Time overhaul mod, which includes balancing changes, and AI improvement. Can you make a civilization that will stand the test of time, in a new game with rules that stand the test of time?</en_US>
+      <zh_Hans_CN>本项目将使游戏使用《时间考验》大修模组，其中包含平衡性调整和AI增强。您能否在使用了久经时间考验的规则的新游戏中，缔造一个能够经受住时间考验的文明？</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
   <Files>
+    <File>Data/Gamemodes/Sistine_Apocalypse_MODE.xml</File>
+    <File>Data/Gamemodes/Sistine_BarbarianClans_MODE.xml</File>
+    <File>Data/Gamemodes/Sistine_DramaticAges_MODE.xml</File>
+    <File>Data/Gamemodes/Sistine_Heroes_MODE.xml</File>
+    <File>Data/Gamemodes/Sistine_Monopolies_MODE.xml</File>
+    <File>Data/Gamemodes/Sistine_SecretSocieties_MODE.xml</File>
+    <File>Data/Gamemodes/Sistine_TowerDefense_MODE.xml</File>
+    <File>Data/Gamemodes/Sistine_TreeRandomizer_MODE.xml</File>
     <File>Data/Sistine_AdditionalMechanisms.xml</File>
     <File>Data/Sistine_Beliefs.xml</File>
     <File>Data/Sistine_Buildings.xml</File>
     <File>Data/Sistine_Config.xml</File>
     <File>Data/Sistine_Difficulties.xml</File>
+    <File>Data/Sistine_Diplomacy.xml</File>
     <File>Data/Sistine_Districts.xml</File>
     <File>Data/Sistine_Expansion1.xml</File>
     <File>Data/Sistine_Expansion2.xml</File>
@@ -113,6 +231,7 @@
     <File>Data/Sistine_Units.xml</File>
     <File>Data/Sistine_Victories.xml</File>
     <File>Text/Replacements/Sistine_ConfigText_zh_Hans_CN_Replace.xml</File>
+    <File>Text/Replacements/Sistine_Text_SecretSocieties_Replace.xml</File>
     <File>Text/Replacements/Sistine_Text_zh_Hans_CN_Replace.xml</File>
     <File>Text/Sistine_ConfigText_AFallback.xml</File>
     <File>Text/Sistine_ConfigText_zh_Hans_CN.xml</File>

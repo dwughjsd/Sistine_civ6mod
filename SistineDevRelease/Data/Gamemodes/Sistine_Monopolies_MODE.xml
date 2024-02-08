@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<GlobalParameters>
+		<!--No more monopolies and the absurd tourism-->
+		<Replace Name="MONOPOLY_REQUIRED_RESOURCE_CONTROL_PERCENTAGE" Value="101" />
+		<Replace Name="MONOPOLY_REQUIRED_RESOURCE_CONTROL_PERCENTAGE_MED" Value="101" />
+		<Replace Name="MONOPOLY_REQUIRED_RESOURCE_CONTROL_PERCENTAGE_MAX" Value="101" />
+	</GlobalParameters>
+</GameData>

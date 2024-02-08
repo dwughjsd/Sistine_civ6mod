@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<TypeProperties>
+		<Replace Type="DIFFICULTY_SETTLER" Name="DARK_AGE_CITIES_LOST_PLAYER" Value="5"/>
+		<Replace Type="DIFFICULTY_CHIEFTAIN" Name="DARK_AGE_CITIES_LOST_PLAYER" Value="10"/>
+		<Replace Type="DIFFICULTY_WARLORD" Name="DARK_AGE_CITIES_LOST_PLAYER" Value="15"/>
+		<Replace Type="DIFFICULTY_PRINCE" Name="DARK_AGE_CITIES_LOST_PLAYER" Value="20"/>
+		<Replace Type="DIFFICULTY_KING" Name="DARK_AGE_CITIES_LOST_PLAYER" Value="25"/>
+		<Replace Type="DIFFICULTY_EMPEROR" Name="DARK_AGE_CITIES_LOST_PLAYER" Value="30"/>
+		<Replace Type="DIFFICULTY_IMMORTAL" Name="DARK_AGE_CITIES_LOST_PLAYER" Value="35"/>
+		<Replace Type="DIFFICULTY_DEITY" Name="DARK_AGE_CITIES_LOST_PLAYER" Value="40"/>
+		
+		<Replace Type="DIFFICULTY_SETTLER" Name="DARK_AGE_CITIES_LOST_AI" Value="35"/>
+		<Replace Type="DIFFICULTY_CHIEFTAIN" Name="DARK_AGE_CITIES_LOST_AI" Value="30"/>
+		<Replace Type="DIFFICULTY_WARLORD" Name="DARK_AGE_CITIES_LOST_AI" Value="25"/>
+		<Replace Type="DIFFICULTY_PRINCE" Name="DARK_AGE_CITIES_LOST_AI" Value="20"/>
+		<Replace Type="DIFFICULTY_KING" Name="DARK_AGE_CITIES_LOST_AI" Value="15"/>
+		<Replace Type="DIFFICULTY_EMPEROR" Name="DARK_AGE_CITIES_LOST_AI" Value="10"/>
+		<Replace Type="DIFFICULTY_IMMORTAL" Name="DARK_AGE_CITIES_LOST_AI" Value="5"/>
+		<Replace Type="DIFFICULTY_DEITY" Name="DARK_AGE_CITIES_LOST_AI" Value="0"/>
+		
+		<Replace Type="DIFFICULTY_SETTLER" Name="FREE_CITY_INFLUENCE" Value="1"/>
+		<Replace Type="DIFFICULTY_CHIEFTAIN" Name="FREE_CITY_INFLUENCE" Value="1.25"/>
+		<Replace Type="DIFFICULTY_WARLORD" Name="FREE_CITY_INFLUENCE" Value="1.25"/>
+		<Replace Type="DIFFICULTY_PRINCE" Name="FREE_CITY_INFLUENCE" Value="1.5"/>
+		<Replace Type="DIFFICULTY_KING" Name="FREE_CITY_INFLUENCE" Value="1.5"/>
+		<Replace Type="DIFFICULTY_EMPEROR" Name="FREE_CITY_INFLUENCE" Value="1.75"/>
+		<Replace Type="DIFFICULTY_IMMORTAL" Name="FREE_CITY_INFLUENCE" Value="1.75"/>
+		<Replace Type="DIFFICULTY_DEITY" Name="FREE_CITY_INFLUENCE" Value="2"/>
+	</TypeProperties>
+</GameData>

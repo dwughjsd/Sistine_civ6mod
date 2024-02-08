@@ -56,7 +56,7 @@
 		/>
 		<!--OLIGARCHY-->
 		<Row GovernmentType="GOVERNMENT_OLIGARCHY"
-			ModifierId="UNIQUE_LEADER_CULTURE_KILLS"
+			ModifierId="OLIGARCHY_GARRISON_CULTURE"
 		/>
 		<!--MONARCHY-->
 		<Delete GovernmentType="GOVERNMENT_MONARCHY"
@@ -284,8 +284,13 @@
 		<!--CLASSICAL_REPUBLIC-->
 		<Row ModifierId="CLASSICAL_REPUBLIC_CULTURE_SST"
 			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE"
-			SubjectRequirementSetId="CITY_HAS_1_SPECIALTY_DISTRICT"
 		/>
+		<!--OLIGARCHY-->
+		<Row ModifierId="OLIGARCHY_GARRISON_CULTURE"
+			ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE"
+			SubjectRequirementSetId="CITY_HAS_GARRISON_UNIT_REQUIERMENT"
+		/>
+		<Update><Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" /><Set ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER"/></Update>
 		<!--MONARCHY-->
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
 			ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"
@@ -514,8 +519,17 @@
 		<!--OLIGARCHY-->
 		<Update>
 			<Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="Amount" />
-			<Set Value="50" />
+			<Set Value="25" />
 		</Update>
+		<Delete ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="BonusType" />
+		<Row ModifierId="OLIGARCHY_GARRISON_CULTURE"
+			Name="Amount"
+			Value="2"
+		/>
+		<Row ModifierId="OLIGARCHY_GARRISON_CULTURE"
+			Name="YieldType"
+			Value="YIELD_CULTURE"
+		/>
 		<!--MONARCHY-->
 		<Row ModifierId="GOVERNMENT_MONARCHY_CAPITAL_KILWA_SINGLE_SCIENCE_SST"
 			Name="ModifierId"
@@ -559,7 +573,7 @@
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_WALLS_PRODUCTION_SST"
 			Name="Amount"
-			Value="2"
+			Value="1"
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CASTLE_FOOD_SST"
 			Name="YieldType"
@@ -575,7 +589,7 @@
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_CASTLE_PRODUCTION_SST"
 			Name="Amount"
-			Value="2"
+			Value="1"
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_FOOD_SST"
 			Name="YieldType"
@@ -591,7 +605,7 @@
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
 			Name="Amount"
-			Value="2"
+			Value="1"
 		/>
 		<Row ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
 			Name="YieldType"
@@ -771,7 +785,7 @@
 		/>
 		<Row ModifierId="COMMUNISM_PRODUCTION_SST"
 			Name="Amount"
-			Value="20"
+			Value="15"
 		/>
 		<Row ModifierId="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
 			Name="YieldType"
@@ -786,8 +800,8 @@
 			Value="COMMUNISM_FACTORY_SCIENCE_BONUS_SST"
 		/>
 		<Row ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
-			Name="DistrictType"
-			Value="DISTRICT_INDUSTRIAL_ZONE"
+			Name="BuildingType"
+			Value="BUILDING_FACTORY"
 		/>
 		<Row ModifierId="COMMUNISM_INDUSTRIAL_BUILDING_PRODUCTION_SST"
 			Name="Amount"
@@ -856,7 +870,7 @@
 		/>
 		<Row ModifierId="SYNTHETIC_TECHNOCRACY_CAMPUS_SCIENCE_SST"
 			Name="Amount"
-			Value="15"
+			Value="20"
 		/>
 		<Row ModifierId="SYNTHETIC_TECHNOCRACY_INDUSTRIAL_ZONE_SCIENCE_SST"
 			Name="YieldType"
@@ -864,7 +878,7 @@
 		/>
 		<Row ModifierId="SYNTHETIC_TECHNOCRACY_INDUSTRIAL_ZONE_SCIENCE_SST"
 			Name="Amount"
-			Value="15"
+			Value="20"
 		/>
 		<!--DIGITAL_DEMOCRACY-->
 		<Update>
@@ -885,7 +899,7 @@
 		/>
 		<Row ModifierId="DIGITAL_DEMOCRACY_BOOST_ALL_TOURISM"
 			Name="Amount"
-			Value="25"
+			Value="30"
 		/>
 	</ModifierArguments>
 
@@ -991,7 +1005,7 @@
 		/>
 		<!--OLIGARCHY-->
 		<Row PolicyType="POLICY_GOV_OLIGARCHY"
-			ModifierId="UNIQUE_LEADER_CULTURE_KILLS"
+			ModifierId="OLIGARCHY_GARRISON_CULTURE"
 		/>
 		<!--MONARCHY-->
 		<Delete PolicyType="POLICY_GOV_MONARCHY"
@@ -1277,5 +1291,13 @@
 			<Set Text="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" />
 		</Update>
 	</ModifierStrings>
+
+	<Modifiers>
+		<Delete ModifierId="FASCISM_ATTACK_BUFF" />
+		<Row>
+			<ModifierId>FASCISM_ATTACK_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
 
 </GameInfo>

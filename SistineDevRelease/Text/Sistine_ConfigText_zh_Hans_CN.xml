@@ -11,20 +11,23 @@
 		<Replace Tag="LOC_BUILDING_HOSPITAL_NAME" Language="zh_Hans_CN">
 			<Text>医院</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_HOSPITAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城 [ICON_Citizen] 人口增长加速50%。</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDICAL_LAB_NAME" Language="zh_Hans_CN">
 			<Text>医学实验室</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城 [ICON_Citizen] 人口增长加速50%，供电充足时额外+50%。基础 [ICON_Food] 食物加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+			<Text>此城 [ICON_Citizen] 人口增长加速50%，供电充足时额外+50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>城市每拥有1处特色区域，则+2 [ICON_CULTURE] 文化值。</Text>
+			<Text>城市每拥有1处专业化区域，则+2 [ICON_CULTURE] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市每拥有1处特色区域，则+2 [ICON_CULTURE] 文化值。可存放 [ICON_GreatWork_Landscape] 艺术巨作。如果在剧院广场区域已经有一座考古博物馆则无法修建。</Text>
+			<Text>城市每拥有1处专业化区域，则+2 [ICON_CULTURE] 文化值。可存放 [ICON_GreatWork_Landscape] 艺术巨作。如果在剧院广场区域已经有一座考古博物馆则无法修建。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。城市中每拥有1座奇观，则+2 [ICON_CULTURE] 文化值。可存放 [ICON_GreatWork_Artifact] 文物。如果在剧院广场区域已经有一座艺术博物馆则无法修建。</Text>
+			<Text>城市每拥有1处专业化区域，则+2 [ICON_CULTURE] 文化值。可存放 [ICON_GreatWork_Artifact] 文物。如果在剧院广场区域已经有一座艺术博物馆则无法修建。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_OPERA_HOUSE_NAME" Language="zh_Hans_CN">
 			<Text>歌剧院</Text>
@@ -66,28 +69,28 @@
 			<Text>为此城+10% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_PRODUCTION_15_SST" Language="zh_Hans_CN">
-			<Text>为此城+15% [ICON_Production] 生产力。</Text>
+			<Text>[ICON_Power] 供电充足时为此城+15% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_WORKSHOP_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>{LOC_PRODUCTION_10_SST}此城的 [ICON_RESOURCE_STONE] 石头和 [ICON_RESOURCE_COPPER] 铜提供的 [ICON_Production] 生产力+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>{LOC_PRODUCTION_10_SST}基础 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+			<Text>为此城+10% [ICON_Production] 生产力，[ICON_Power] 供电充足时额外+15% [ICON_Production] 生产力。基础 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION}</Text>
+			<Text>{LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION}</Text>
+			<Text>{LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>{LOC_PRODUCTION_15_SST}{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION}</Text>
+			<Text>{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MANUFACTURING_PLANT_NAME" Language="zh_Hans_CN">
 			<Text>精密制造厂</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_PRODUCTION_15_SST}此城建造城市项目时+50% [ICON_Production] 生产力。[ICON_Power] 供电充足的 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+			<Text>[ICON_Power] 供电充足时，此城+15% [ICON_Production] 生产力，且建造城市项目时+50% [ICON_Production] 生产力。[ICON_Power] 供电充足的 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城生产的所有海军单位+25%战斗经验值。此城的所有海岸单元格+1 [ICON_FOOD] 食物。此城的 [ICON_RESOURCE_FISH] 鱼和 [ICON_RESOURCE_CRABS] 螃蟹提供的 [ICON_Food] 食物+1。如此城与海岸相邻，则+2 [ICON_HOUSING] 住房。如此城尚无市场，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
@@ -105,7 +108,7 @@
 			<Text>[ICON_Amenities] 宜居度加成延伸到6个单元格中的每个市中心。此加成+2座城市仅能应用1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。如城市 [ICON_CITIZEN] 人口大于等于10，则+10 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+10 [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_PRODUCTION_15_SST}向6单元格内的城市提供+6点来自可再生水能的 [ICON_Power] 电力。</Text>
+			<Text>6个单元格内的沿河单元格+1 [ICON_Production] 生产力。向6单元格内的城市提供+6点来自可再生水能的 [ICON_Power] 电力。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HANGAR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>本城市的巨作、奇观、改良设施和国家公园提供的 [ICON_Tourism] 旅游业绩+50%。当前城市训练的空中单位+25%战斗经验值。航空港区域+1空中单位槽位。</Text>
@@ -114,10 +117,10 @@
 			<Text>本城市的巨作、奇观、改良设施和国家公园提供的 [ICON_Tourism] 旅游业绩+50%。此城市训练的空中单位+50%战斗经验值。飞行场+1空中单位槽位。快速部署市政解锁后，可以在带有空港的飞行场之间空运陆地单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+			<Text>此城每个社区+2 [ICON_Food] 食物。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+0.5 [ICON_Gold] 金币。+4 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于10，则+10 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+20 [ICON_Tourism] 旅游业绩。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+			<Text>此城每个社区+2 [ICON_Gold] 金币，[ICON_Power] 供电充足时额外+2 [ICON_Gold] 金币。+4 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于10，则+10 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+20 [ICON_Tourism] 旅游业绩。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
 		</Replace>
 		<!--Unique Buildings-->
 		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
@@ -222,6 +225,26 @@
 		</Replace>
 		<Replace Tag="LOC_FEATURE_ZHANGYE_DANXIA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>占地3单元格的不可通行自然奇观。为相邻单元格+2 [ICON_Culture] 文化值。若您拥有这些单元格的至少一个，提供2点 [ICON_GREATGENERAL] 大将军点数和2点 [ICON_GREATMERCHANT] 大商人点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZANZIBAR_BONUS" Language="zh_Hans_CN">
+			<Text>获得 [ICON_RESOURCE_CINNAMON] 肉桂和 [ICON_RESOURCE_CLOVES] 丁香奢侈资源。这些资源在游戏中无法通过其他方式获得，每种提供3 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<!--Trade route overhaul-->
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您城市中专职金融和贸易的区域。从此城出发的国内 [ICON_TradeRoute] 贸易路线+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您城市中进行海军活动的区域。若此城尚未建成商业中心，从此城出发的国内 [ICON_TradeRoute] 贸易路线+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
+		</Replace>
+		<!--Gamemode-->
+		<Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>黄金黎明协会专属，替代大学。此学院提供等同于其 [ICON_Science] 科技值相邻加成的 [ICON_Gold] 金币。{LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GILDED_VAULT_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>弥涅耳瓦夜鹰专属，替代银行。此商业中心提供等同于其 [ICON_Gold] 金币相邻加成的 [ICON_CULTURE] 文化值。若此城市中拥有港口，则+1 [ICON_TradeRoute] 贸易路线容量。{LOC_BUILDING_BANK_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中古时代解锁。城市每回合获得等同于其每回合所获 [ICON_Faith] 信仰值20%的 [ICON_Gold] 金币，以及10%的 [ICON_Science] 科技值和 [ICON_Culture] 文化值。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

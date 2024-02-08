@@ -15,7 +15,7 @@
 			<Text>将农场改良设施升级为现代农业，为相邻的每个农场改良设施+1 [ICON_Food] 食物。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>水运单位+2 [ICON_Movement] 移动力。矿山改良设施+1 [ICON_Production] 生产力。您的 [ICON_TradeRoute] 贸易路线每经过10个单元格，其提供的 [ICON_Production] 生产力便+1。</Text>
+			<Text>水运单位+2 [ICON_Movement] 移动力。矿山改良设施+1 [ICON_Production] 生产力。城市中的每位 [ICON_Citizen] 市民提供+0.3 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_GUILDS_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>采石场+1 [ICON_Production] 生产力。伐木场可建在雨林上。</Text>
@@ -36,7 +36,7 @@
 			<Text>将农场改良设施升级为机械化农业，与每2个农场改良设施相邻时，农场提供的 [ICON_Food] 食物+1。建造者+1额外劳动力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_URBANIZATION_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>采石场+1 [ICON_Production] 生产力。牧场+1 [ICON_Food] 食物。</Text>
+			<Text>采石场+1 [ICON_Production] 生产力。牧场+1 [ICON_Food] 食物。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造伐木场的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。只能建在树林上。解锁“公会”市政后也能建造雨林上。</Text>
@@ -51,10 +51,7 @@
 			<Text>所有海军和水运单位可在海洋单元格上航行。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>渔船+2 [ICON_Gold] 金币。</Text>
-		</Replace>
-		<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>渔船+1 [ICON_Food] 食物。</Text>
+			<Text>渔船+2 [ICON_Gold] 金币。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_MILITARY_ENGINEERING_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>伐木场+1 [ICON_Production] 生产力。</Text>
@@ -65,15 +62,9 @@
 		<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>矿山+1 [ICON_Production] 生产力。</Text>
 		</Replace>
-		<!--Gold reform-->
-		<Replace Tag="LOC_CIVIC_FOREIGN_TRADE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>允许创建 [ICON_TradeRoute] 贸易路线。沿河单元格+1 [ICON_Gold] 金币。</Text>
-		</Replace>
+		<!--Terrain tweaks-->
 		<Replace Tag="LOC_TECH_SAILING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>允许建造者上船。海岸与湖泊以及海洋单元格+1 [ICON_Gold] 金币。</Text>
-		</Replace>
-		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您的 [ICON_TradeRoute] 贸易路线每经过5个单元格，其提供的 [ICON_Gold] 金币便+1。</Text>
+			<Text>允许建造者上船。湖泊单元格+1 [ICON_Food] 食物。</Text>
 		</Replace>
 		<!--Science Victory-->
 		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="zh_Hans_CN">
@@ -135,6 +126,12 @@
 			<Text>在拥有外交办或发电厂的城市中建造奇观、建筑和区域时+1 [ICON_Production] 生产力。如城市同时拥有外交办和发电厂，则+2 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<!--Beliefs-->
+		<Replace Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>种植园提供的 [ICON_Culture] 文化值+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>种植园提供的 [ICON_Food] 食物+1。</Text>
+		</Replace>
 		<Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>迷人单元格提供的 [ICON_Faith] 信仰值+1，惊艳单元格额外+1。位于迷人或惊艳单元格上的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
 		</Replace>
@@ -192,25 +189,25 @@
 		</Replace>
 		<!--Governments & Policies-->
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="zh_Hans_CN">
-			<Text>宫殿、市政广场和外交区+2 [ICON_Culture] 文化，宫殿、市政广场和外交区使所在城市的每位 [ICON_Citizen] 市民提供+1 [ICON_Gold] 金币。</Text>
+			<Text>宫殿、市政广场和外交区+2 [ICON_Culture] 文化，使所在城市的每位 [ICON_Citizen] 市民提供+1 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST" Language="zh_Hans_CN">
 			<Text>建设奇观时+10% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_SST" Language="zh_Hans_CN">
-			<Text>陆地近战、反骑兵和海军近战单位+4 [ICON_Strength] 战斗力。击杀单位时可获得等于其 [ICON_Strength] 战斗力50%的 [ICON_Culture] 文化值。</Text>
+			<Text>陆地近战、反骑兵和海军近战单位+4 [ICON_Strength] 战斗力。驻有单位的城市+2 [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_SST" Language="zh_Hans_CN">
-			<Text>单位经验值+50%。</Text>
+			<Text>单位经验值+25%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_SST" Language="zh_Hans_CN">
-			<Text>拥有区域的所有城市+1 [ICON_Amenities] 宜居度、+1 [ICON_Culture] 文化值。</Text>
+			<Text>所有城市+1 [ICON_Culture] 文化值。建有区域的城市+1 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_SST" Language="zh_Hans_CN">
 			<Text> [ICON_GreatPerson] 伟人点数+10%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_SST" Language="zh_Hans_CN">
-			<Text>成为一个城邦的宗主国后，首都获得+15%该类城邦提供的产出。每级城墙提供 +2 [ICON_Food] 食物和 +2 [ICON_Production] 生产力。</Text>
+			<Text>成为一个城邦的宗主国后，首都获得+15%该类城邦提供的产出。每级城墙提供 +2 [ICON_Food] 食物和 +1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_SST" Language="zh_Hans_CN">
 			<Text>所有城市 [ICON_Food] 食物+10%。</Text>
@@ -228,16 +225,16 @@
 			<Text>所有城市 [ICON_Gold] 金币+15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_SST" Language="zh_Hans_CN">
-			<Text>所有单位攻击时+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区域（ZOC）。</Text>
+			<Text>所有单位+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区域（ZOC）。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST" Language="zh_Hans_CN">
 			<Text>所有城市建造单位时 [ICON_Production] 生产力+25%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_SST" Language="zh_Hans_CN">
-			<Text>工厂为城市+25% [ICON_Science] 科技值。建造工业区建筑+100% [ICON_Production] 生产力。</Text>
+			<Text>工厂为城市+25% [ICON_Science] 科技值。建造工厂建筑+100% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST" Language="zh_Hans_CN">
-			<Text>所有城市 [ICON_Production] 生产力+20%。</Text>
+			<Text>所有城市 [ICON_Production] 生产力+15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_SST" Language="zh_Hans_CN">
 			<Text>每个区域提供1点 [ICON_Culture] 文化和2点 [ICON_Gold] 金币。同盟点数每回合增加0.5。</Text>
@@ -255,13 +252,13 @@
 			<Text>所有城市+3 [ICON_Amenities] 宜居度。所有城市的每个区域提供+3 [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY_SST" Language="zh_Hans_CN">
-			<Text>+25% [ICON_Tourism] 旅游业绩。</Text>
+			<Text>+30% [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_SYNTHETIC_TECHNOCRACY_SST" Language="zh_Hans_CN">
 			<Text>所有城市获得+6 [ICON_Power] 电力。您的系外行星探索提速3光年每回合。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY_SST" Language="zh_Hans_CN">
-			<Text>学院和工业区向城市提供15% [ICON_Science] 科技值。</Text>
+			<Text>学院和工业区向城市提供20% [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>法西斯主义提供+5 [ICON_Strength] 战斗力</Text>
@@ -331,10 +328,6 @@
 		<Replace Tag="LOC_DISTRICT_OIL_WELL_PRODUCTION" Language="zh_Hans_CN">
 			<Text>+{1_num} [ICON_Production] 生产力来自相邻{1_Num : plural 1?油井; other?油井;}。</Text>
 		</Replace>
-		<!--Ages-->
-		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“雄伟壮丽”黄金时代：[NEWLINE]所有建造者+2 [ICON_Movement] 移动力。用 [ICON_FAITH] 信仰值和 [ICON_GOLD] 黄金购买建造者和开拓者的费用降低20%。</Text>
-		</Replace>
 		<!--Features-->
 		<Replace Tag="LOC_FEATURE_FLOODPLAINS_DESERT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通沙漠单元格的 [ICON_Food] 食物产量更高。如果江河再次泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
@@ -353,7 +346,7 @@
 			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>生产开拓者时 [ICON_Production] 生产力+50%。[NEWLINE]获得1个免费的开拓者和2个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>生产开拓者时 [ICON_Production] 生产力+30%。[NEWLINE]获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>用于纪念您的政体选择，仅能在您的帝国中建造一次的区域。此城市的非食物产出+10%。使相邻区域获得的相邻加成+1。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
@@ -412,7 +405,7 @@
 			<Text>初始便拥有1次免费升级。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>神祠和寺庙+2 [ICON_Science] 科技值。与该城连接的其他文明 [ICON_TradeRoute] 贸易路线向城市提供+1 [ICON_SCIENCE] 科技值与+1 [ICON_GOLD] 金币。与该城连接的每条 [ICON_TradeRoute] 贸易路线提供+2 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须修建在沙漠或沙漠丘陵之上，同时必须与大学区域相邻。</Text>
+			<Text>神祠和寺庙+1 [ICON_Science] 科技值。其他文明通往此城市的 [ICON_TradeRoute] 贸易路线向对方提供+1 [ICON_SCIENCE] 科技值与+1 [ICON_GOLD] 金币，向此城市提供+2 [ICON_SCIENCE] 科技值。通往此城市的国内 [ICON_TradeRoute] 贸易路线提供+2 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须修建在沙漠或沙漠丘陵之上，同时必须与大学区域相邻。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+1 军事政策槽位[NEWLINE][NEWLINE]为此城+20% [ICON_Culture] 文化值。提供同堡垒改良设施一样的防御加成。必须建立在邻近军营区的丘陵上。</Text>
@@ -540,7 +533,7 @@
 			<Text>您的圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="zh_Hans_CN">
-			<Text>随机奖励2项免费科技。触发“数学”的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
+			<Text>随机奖励1项免费科技。触发“数学”的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE" Language="zh_Hans_CN">
 			<Text>获得2个 [ICON_TechBoosted] 尤里卡。受伤陆地单位每回合恢复生命值+10。</Text>
@@ -549,7 +542,7 @@
 			<Text>每回合获得等同于城市所产生 [ICON_FAITH] 信仰值15%的 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE" Language="zh_Hans_CN">
-			<Text>随机奖励1项免费科技和1项免费市政，以及2个 [ICON_TechBoosted] 尤里卡。</Text>
+			<Text>随机奖励1项免费市政，以及2个 [ICON_TechBoosted] 尤里卡。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="zh_Hans_CN">
 			<Text>选定的学院获得2点 [ICON_Housing] 住房与1点 [ICON_AMENITIES] 宜居度。</Text>
@@ -635,16 +628,16 @@
 			<Text>每回合提供3点 [ICON_RESOURCE_OIL] 石油。目的地城市每拥有1点战略资源，您 [ICON_TradeRoute] 贸易路线所产出的 [ICON_Gold] 金币便+2。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="zh_Hans_CN">
-			<Text>产出{Amount}份 [ICON_RESOURCE_COSMETICS] 化妆品，一种提供+2 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+			<Text>产出{Amount}份 [ICON_RESOURCE_COSMETICS] 化妆品，一种提供+4 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_TOYS" Language="zh_Hans_CN">
-			<Text>产出{Amount}份 [ICON_RESOURCE_TOYS] 玩具，一种提供+2 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+			<Text>产出{Amount}份 [ICON_RESOURCE_TOYS] 玩具，一种提供+4 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_PERFUME" Language="zh_Hans_CN">
-			<Text>产出{Amount}份 [ICON_RESOURCE_PERFUME] 香水，一种提供+3 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+			<Text>产出{Amount}份 [ICON_RESOURCE_PERFUME] 香水，一种提供+6 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_JEANS" Language="zh_Hans_CN">
-			<Text>产出{Amount}份 [ICON_RESOURCE_JEANS] 牛仔裤，一种提供+2 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+			<Text>产出{Amount}份 [ICON_RESOURCE_JEANS] 牛仔裤，一种提供+4 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_PUBLIC_SCHOOL_SCIENCE" Language="zh_Hans_CN">
 			<Text>学院区域+10 [ICON_Tourism] 旅游业绩。立即在该区域建造图书馆、大学和公立学校。公立学校+2 [ICON_Science] 科技值。</Text>
@@ -675,10 +668,10 @@
 			<Text>触发计算机科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE_ACTIVE" Language="zh_Hans_CN">
-			<Text>立即在该城市中建造远古和中世纪城墙。此城市提供+2 [ICON_Culture] 文化值。此城市的每个区域为当前生产项目赠予 60 [ICON_Production] 生产力（上限300点）。</Text>
+			<Text>立即在该城市中建造远古和中世纪城墙。此城市提供+2 [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE" Language="zh_Hans_CN">
-			<Text>立即在该区域建造工厂和工坊。工厂+2 [ICON_Production] 生产力。此城市的每个区域为当前生产项目赠予 120 [ICON_Production] 生产力（上限600点）。</Text>
+			<Text>立即在该区域建造工厂和工坊。工厂+2 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_CITY_WONDER_TOURISM_SMALL" Language="zh_Hans_CN">
 			<Text>此城市的奇观提供+50% [ICON_Tourism] 旅游业绩。</Text>
@@ -955,6 +948,626 @@
 		</Replace>
 		<Replace Tag="LOC_POLICY_NOBEL_PRIZE_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>每座学院建筑每回合+2 [ICON_GreatScientist] 大科学家点数。每座工业区建筑每回合+2 [ICON_GreatEngineer] 大工程师点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_POLICE_STATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>非本文明建立的城市+2 [ICON_AMENITIES] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在本国领土中、或与本国领土相邻的地区作战时，所有单位 [ICON_Strength] 战斗力+5。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ARSENAL_OF_DEMOCRACY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您通往盟友城市或下属城邦的 [ICON_TradeRoute] 贸易路线为双边城市+4 [ICON_Food] 食物、+4 [ICON_Production] 生产力。所有盟友的同盟点数每回合额外增加0.25点。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>拥有军营的城市+1 [ICON_AMENITIES] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FORCE_MODERNIZATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有军营的城市+1 [ICON_AMENITIES] 宜居度。兵工厂+1 [ICON_AMENITIES] 宜居度。建造军营、港口和这些区域中的建筑时+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>边境扩张速度提高40%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLONIZATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产开拓者+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产开拓者+30% [ICON_Production] 生产力。边境扩张速度提高40%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有军营的城市生产的单位初始可获得一项免费升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有军营的城市生产的单位初始可获得一项免费升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MONASTICISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有圣地的城市 [ICON_Science] 科技值+75%。[NEWLINE]但没有圣地的城市 [ICON_Culture] 文化值-25%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INQUISITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>消耗1次使徒使用次数开始宗教审讯。友方领土中的所有宗教单位+15 [ICON_Religion] 宗教战斗力。[NEWLINE]但所有城市的 [ICON_Science] 科技值-15%。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ISOLATIONISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国内贸易路线提供+3 [ICON_Food] 食物、+3 [ICON_Production] 生产力、+3 [ICON_Gold] 金币。[NEWLINE]但无法生产或购买开拓者，也无法建立新城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROBBER_BARONS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有银行或造船厂的城市+50% [ICON_Gold] 金币、+25% [ICON_Production] 生产力。[NEWLINE]但所有城市-2 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ELITE_FORCES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位的战斗经验值+100%。[NEWLINE]但每个战斗和间谍单位的维护费用+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROGUE_STATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造城市项目时+50% [ICON_Production] 生产力。[NEWLINE]但无法通过影响力获得新的 [ICON_Envoy] 使者。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_AUTOMATED_WORKFORCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每位 [ICON_Citizen] 公民每回合带来+2 [ICON_PRODUCTION] 生产力。[NEWLINE]但城市每回合-1 [ICON_Amenities] 宜居度、-5忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DISINFORMATION_CAMPAIGN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有剧院广场的城市+4 [ICON_Amenities] 宜居度。每拥有1个广播中心，每回合获得的 [ICON_Favor] 外交支持便+3。[NEWLINE]但所有城市中的 [ICON_SCIENCE] 科技值和 [ICON_Culture] 文化值-20%。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STATE_WORKFORCE" Language="zh_Hans_CN">
+			<Text>建造2种不同的专业化区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_EARLY_EMPIRE" Language="zh_Hans_CN">
+			<Text>将您的文明增长至至少6人口。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GAMES_RECREATION" Language="zh_Hans_CN">
+			<Text>研究数学科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_DEFENSIVE_TACTICS" Language="zh_Hans_CN">
+			<Text>建造2座远古城墙。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NAVAL_TRADITION" Language="zh_Hans_CN">
+			<Text>拥有2艘四列桨座战船。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MERCENARIES" Language="zh_Hans_CN">
+			<Text>使您的军队拥有10个陆地战斗单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MEDIEVAL_FAIRES" Language="zh_Hans_CN">
+			<Text>维持3条贸易路线。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_HUMANISM" Language="zh_Hans_CN">
+			<Text>建造2座露天剧场。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REFORMED_CHURCH" Language="zh_Hans_CN">
+			<Text>使12座城市信仰您的宗教。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COLONIALISM" Language="zh_Hans_CN">
+			<Text>研究工业化科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CIVIL_ENGINEERING" Language="zh_Hans_CN">
+			<Text>建造8种不同的专业化区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NATIONALISM" Language="zh_Hans_CN">
+			<Text>建造1座公立学校。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_OPERA_BALLET" Language="zh_Hans_CN">
+			<Text>建造2座艺术博物馆。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NATURAL_HISTORY" Language="zh_Hans_CN">
+			<Text>建造2座考古博物馆。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SCORCHED_EARTH" Language="zh_Hans_CN">
+			<Text>建造3个野战加农炮。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CONSERVATION" Language="zh_Hans_CN">
+			<Text>拥有1个迷人魅力的社区。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CAPITALISM_XP2" Language="zh_Hans_CN">
+			<Text>建造1座证券交易所。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NUCLEAR_PROGRAM" Language="zh_Hans_CN">
+			<Text>建造2座研究实验室。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MASS_MEDIA" Language="zh_Hans_CN">
+			<Text>建造3个娱乐中心区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MOBILIZATION" Language="zh_Hans_CN">
+			<Text>拥有3个现代步兵。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SUFFRAGE" Language="zh_Hans_CN">
+			<Text>建造2座医院。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_TOTALITARIANISM" Language="zh_Hans_CN">
+			<Text>建造1座军事学院。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CLASS_STRUGGLE" Language="zh_Hans_CN">
+			<Text>建造4座工厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_PROFESSIONAL_SPORTS_XP2" Language="zh_Hans_CN">
+			<Text>建造1座体育场。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CULTURAL_HERITAGE" Language="zh_Hans_CN">
+			<Text>建造1座电气时代或以后的奇观。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SPACE_RACE" Language="zh_Hans_CN">
+			<Text>建造2个宇航中心区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GLOBALIZATION_XP2" Language="zh_Hans_CN">
+			<Text>建造1座空港。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SOCIAL_MEDIA" Language="zh_Hans_CN">
+			<Text>研究激光科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ENVIRONMENTALISM" Language="zh_Hans_CN">
+			<Text>建造2座水力发电坝。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CORPORATE_LIBERTARIANISM" Language="zh_Hans_CN">
+			<Text>建造2处铀矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_DIGITAL_DEMOCRACY" Language="zh_Hans_CN">
+			<Text>拥有3个摇滚乐队。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SYNTHETIC_TECHNOCRACY" Language="zh_Hans_CN">
+			<Text>建造2座精密制造厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ARCHERY" Language="zh_Hans_CN">
+			<Text>拥有2个投石手。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MASONRY" Language="zh_Hans_CN">
+			<Text>建造2处采石场。</Text>
+		</Replace>
+		<!--<Replace Tag="LOC_BOOST_TRIGGER_CURRENCY" Language="zh_Hans_CN">
+			<Text>使用种植园改良2处资源。</Text>
+		</Replace>-->
+		<Replace Tag="LOC_BOOST_TRIGGER_IRON_WORKING" Language="zh_Hans_CN">
+			<Text>建造1处铁矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SHIPBUILDING" Language="zh_Hans_CN">
+			<Text>拥有1艘桨帆船。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MATHEMATICS" Language="zh_Hans_CN">
+			<Text>建造4种不同的专业化区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CONSTRUCTION" Language="zh_Hans_CN">
+			<Text>建造2座水磨。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ENGINEERING" Language="zh_Hans_CN">
+			<Text>采用一种自带4个政策槽位的政体。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_APPRENTICESHIP" Language="zh_Hans_CN">
+			<Text>建造4处矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MACHINERY" Language="zh_Hans_CN">
+			<Text>拥有2台石弩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STIRRUPS" Language="zh_Hans_CN">
+			<Text>建造1座马厩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CASTLES" Language="zh_Hans_CN">
+			<Text>获得1位大工程师。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_BANKING" Language="zh_Hans_CN">
+			<Text>获得重商主义市政。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MASS_PRODUCTION" Language="zh_Hans_CN">
+			<Text>建造3处伐木场。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GUNPOWDER" Language="zh_Hans_CN">
+			<Text>建造2座兵营。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SQUARE_RIGGING" Language="zh_Hans_CN">
+			<Text>拥有2个火枪手。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_METAL_CASTING" Language="zh_Hans_CN">
+			<Text>拥有3个弩手。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_INDUSTRIALIZATION_XP2" Language="zh_Hans_CN">
+			<Text>建造3座工坊。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_BALLISTICS" Language="zh_Hans_CN">
+			<Text>建造2座兵工厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STEAM_POWER" Language="zh_Hans_CN">
+			<Text>建造2座工厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SANITATION" Language="zh_Hans_CN">
+			<Text>获得城市化市政。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_RIFLING" Language="zh_Hans_CN">
+			<Text>建造2处硝石矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REPLACEABLE_PARTS" Language="zh_Hans_CN">
+			<Text>拥有2个线列步兵。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STEEL" Language="zh_Hans_CN">
+			<Text>建造2处煤矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REFINING" Language="zh_Hans_CN">
+			<Text>建造3座燃煤发电厂。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ELECTRICITY_XP2" Language="zh_Hans_CN">
+			<Text>拥有1艘私掠船。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_RADIO" Language="zh_Hans_CN">
+			<Text>获得大众媒体市政。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CHEMISTRY" Language="zh_Hans_CN">
+			<Text>拥有1个3级同盟。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ADVANCED_FLIGHT_XP2" Language="zh_Hans_CN">
+			<Text>建设1座机库。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COMBINED_ARMS" Language="zh_Hans_CN">
+			<Text>拥有1架双翼机。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SYNTHETIC_MATERIALS" Language="zh_Hans_CN">
+			<Text>建造1座国家公园。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_TELECOMMUNICATIONS" Language="zh_Hans_CN">
+			<Text>建造1座广播中心。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SATELLITES_SST" Language="zh_Hans_CN">
+			<Text>完成发射地球卫星项目。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_GUIDANCE_SYSTEMS" Language="zh_Hans_CN">
+			<Text>拥有3门火炮。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LASERS_XP2" Language="zh_Hans_CN">
+			<Text>拥有1架无人机。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COMPOSITES" Language="zh_Hans_CN">
+			<Text>拥有2辆坦克。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_STEALTH_SST" Language="zh_Hans_CN">
+			<Text>拥有1架轰炸机。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ROBOTICS" Language="zh_Hans_CN">
+			<Text>获得太空竞赛市政。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NANOTECHNOLOGY" Language="zh_Hans_CN">
+			<Text>建造2处铝矿山。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ENVIRONMENTALISM" Language="zh_Hans_CN">
+			<Text>您的人民证明了可再生能源不仅仅是一个概念，它有潜力成为电力生产的未来。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_DIGITAL_DEMOCRACY" Language="zh_Hans_CN">
+			<Text>您与摇滚乐队签下了合约。尽管他们嘴上说着“爱咋咋地”，但对于巡演的兴奋之情却溢于言表。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GAMES_RECREATION" Language="zh_Hans_CN">
+			<Text>您在数学上的创新必定有助于创造新的游戏和娱乐的形式。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NAVAL_TRADITION" Language="zh_Hans_CN">
+			<Text>您的海军激励您的人民奋力成为海洋一霸。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_HUMANISM" Language="zh_Hans_CN">
+			<Text>您的露天剧场上演的剧作启发了我们的人民意识到个人的力量。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_COLONIALISM" Language="zh_Hans_CN">
+			<Text>工业化带来的生产力正帮助您建立起全球性帝国。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NATIONALISM" Language="zh_Hans_CN">
+			<Text>公立学校开始教育您的国民拥有民族自豪感。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_OPERA_BALLET" Language="zh_Hans_CN">
+			<Text>新博物馆揭开帷幕，吸引人们关注美术。下一个被重视的也许会是舞蹈和歌剧？</Text><!--New museums since we should have 2 of them-->
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NATURAL_HISTORY" Language="zh_Hans_CN">
+			<Text>博物馆已经准备好收藏您的考古发现。也许您在自然界里还能发现什么呢！</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSERVATION" Language="zh_Hans_CN">
+			<Text>您新建的迷人社区的住户强烈要求出台一项计划来保护全世界的自然宝库。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CAPITALISM" Language="zh_Hans_CN">
+			<Text>随着证券交易所的涌现，投资资本充足，市场经济即将出现。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MASS_MEDIA" Language="zh_Hans_CN">
+			<Text>您的国民希望更方便地获取在娱乐中心举办的赛事情况，因此催生出了一种新的传媒形式。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MOBILIZATION" Language="zh_Hans_CN">
+			<Text>您的军队已拥有现代化的装备战术。是时候让您的军事力量登上世界舞台啦。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_PROGRAM" Language="zh_Hans_CN">
+			<Text>建成专项研究实验室以后，您招募科学家进行核研究项目的构想得以付诸实施。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE" Language="zh_Hans_CN">
+			<Text>您帝国内的女性要求拥有适当的医疗卫生保障。在取得了那场斗争的胜利后，她们现在想要投票的权利。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS" Language="zh_Hans_CN">
+			<Text>您新建的体育场希望举办一项新的职业体育联赛。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CULTURAL_HERITAGE" Language="zh_Hans_CN">
+			<Text>建成新的奇观以后，您的国民希望向所有人展出您帝国同样灿烂的文化遗产。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SPACE_RACE" Language="zh_Hans_CN">
+			<Text>您新投入运作的宇航中心激励了您的人民向太空进发。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GLOBALIZATION" Language="zh_Hans_CN">
+			<Text>有了大型空港，世界真的变得越来越小了。</Text><!--also for plurality-->
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ARCHERY" Language="zh_Hans_CN">
+			<Text>终于拥有了大群投石手以后，您渴望一种更强大的远程武器。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MASONRY" Language="zh_Hans_CN">
+			<Text>使用采石场开采资源为您提供了雇佣泥瓦匠所需的原材料。</Text>
+		</Replace>
+		<!--<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="zh_Hans_CN">
+			<Text>日益增长的货物种类使您的国民意识到采用一种交换媒介能让贸易更加灵活。</Text>
+		</Replace>-->
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="zh_Hans_CN"><!--No English text change, only Chinese text fix. Placed here in case of further changes.-->
+			<Text>您的 [ICON_TradeRoute] 贸易路线直接以物易物，而采用一种交换媒介能让贸易更加灵活。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SHIPBUILDING" Language="zh_Hans_CN">
+			<Text>建造桨帆船教会了您很多关于建造更大型船只的知识。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ENGINEERING" Language="zh_Hans_CN">
+			<Text>新的统治形式使得调动需要的资源建造水渠和石弩成为可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STIRRUPS" Language="zh_Hans_CN">
+			<Text>您的国民想要一名英雄来捍卫他们的土地。或许让一位铠甲勇士上马就能达到理想效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY" Language="zh_Hans_CN">
+			<Text>您期望机械设备能提高您数量可观的攻城武器的表现。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CASTLES" Language="zh_Hans_CN">
+			<Text>大工程师提出了一种建立更牢靠的防御来保护我们繁华的首都的方法。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BANKING" Language="zh_Hans_CN">
+			<Text>重商主义使您的国家积累了大量的金币。也许我们可以向需要的人发放贷款？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GUNPOWDER" Language="zh_Hans_CN">
+			<Text>您渴望为兵营中的大量士兵装备一种能彻底摧毁敌人的新武器。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SQUARE_RIGGING" Language="zh_Hans_CN">
+			<Text>您在陆地上的火枪手催生出了一个新想法：如果我们在海上也升级上火药武器，结果会怎样？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ASTRONOMY" Language="zh_Hans_CN">
+			<Text>为了更好看清天空的模样，您的科学家正在远行深山。或许一种永久设施能帮得上忙？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BALLISTICS" Language="zh_Hans_CN">
+			<Text>您的兵工厂正在生产用于保护您的城市的装备。如果他们开发一种新型加农炮，效果会怎样？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEAM_POWER" Language="zh_Hans_CN">
+			<Text>将工业的智慧用在您新建的工厂中吧。蒸汽动力设备可以变革生产。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SANITATION" Language="zh_Hans_CN">
+			<Text>城市化使得我们的城市发展得前所未有的大。制订一项卫生计划至关重要。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEEL" Language="zh_Hans_CN">
+			<Text>有了燃煤高炉的冶炼，我们很快便能生产出最优质的钢材。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_RADIO" Language="zh_Hans_CN">
+			<Text>新出现的大众传媒需要一种更加先进的通信方式进行宣传。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_FLIGHT" Language="zh_Hans_CN">
+			<Text>您使用早期飞机的丰富经验推动了多项航空学的突破性进展。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_COMBINED_ARMS" Language="zh_Hans_CN">
+			<Text>既然您的军队已在扩张，是否能用飞机让它如虎添翼？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SYNTHETIC_MATERIALS" Language="zh_Hans_CN">
+			<Text>新建设的国家公园使您的科学家发现了许多新型天然材料。但他们还想制造些更好的东西。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GUIDANCE_SYSTEMS" Language="zh_Hans_CN">
+			<Text>您的军队拥有强大的火力打击能力。是时候发展更加精准的轰炸手段了。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SATELLITES_SST" Language="zh_Hans_CN">
+			<Text>新发射的地球卫星标志着太空时代的开始。很快将会有越来越多的卫星发挥至关重要的作用。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEALTH_SST" Language="zh_Hans_CN">
+			<Text>轰炸机正式服役后，您的空军司令认为增强它的隐蔽性在战略上大有意义。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ROBOTICS" Language="zh_Hans_CN">
+			<Text>日新月异的太空探索需要一种能够部分代替人工的新型设备。不妨参照科幻小说，将它称为“机器人”？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NANOTECHNOLOGY" Language="zh_Hans_CN">
+			<Text>拥有可以用于实验的各色金属可以帮助您的科学家推进全新领域的研究。</Text>
+		</Replace>
+		<!--Trade route overhaul-->
+		<Replace Tag="LOC_CIVIC_COLD_WAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可额外招募一名间谍。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_BANKING_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMBUSTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>水运单位+1 [ICON_Movement] 移动力。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_GUIDANCE_SYSTEMS_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ECONOMICS_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>[ICON_TradeRoute] 贸易路线产出+50%。</Text>
+		</Replace>
+		<!--Governors-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中每位 [ICON_Citizen] 公民每回合可带来+0.5 [ICON_CULTURE] 文化值和+0.5 [ICON_SCIENCE] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市的 [ICON_Food] 人口增长+50%。此城市收获资源和移除地貌的产出+50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城市对邻近城市释放的宗教压力强度加倍。此城市每位 [ICON_Citizen] 公民每回合可带来+1 [ICON_FAITH] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>3回合即可就职，为本城市+20忠诚度。城市驻军 [ICON_Strength] 战斗力+5。您在9个单元格内的其他城市每回合获得对您文明的4点忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市领土内的单位防御时可+5 [ICON_Strength] 战斗力。此城中生产的所有军事单位若初始未拥有免费升级，则其初始可获得一项免费升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>就职城市无法被围攻。城市中储存的战略资源每回合额外增加1点。城市中每处战略资源每回合+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市每回合获得一次额外的 [ICON_Ranged] 远程攻击机会， [ICON_Ranged] 远程攻击力+5。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>防御飞机和洲际弹道导弹的攻击时，位于城市领土中的防空支援单位+25 [ICON_Strength] 战斗力。城市生产支援单位时+100% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在城市中生产单位时+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>9个单元格内其他文明的城市每回合将失去8点忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您以此城为终点的 [ICON_TradeRoute] 贸易路线为起点城市+2 [ICON_Food] 食物、+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城所有工业区建筑+2 [ICON_Production] 生产力。燃煤发电厂、燃油发电厂与核电站消耗每1份资源产生的 [ICON_POWER] 电力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城生产单位所需战略资源花费减少50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城修建区域和建筑时+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可在此城建造渔场改良设施。+2 [ICON_Food] 食物、+0.5 [ICON_Housing] 住房，每与1份海洋资源相邻则+1 [ICON_Food] 食物。梁在此城就职时+2 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城每个水渠和堤坝区域+2 [ICON_HOUSING] 住房、+2 [ICON_AMENITIES] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可在此城建造市立公园改良设施。+3 [ICON_Culture] 文化值，+2魅力。若与水域相邻，+1 [ICON_Amenities] 宜居度。梁在此城就职时+3 [ICON_CULTURE] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城剧院广场的相邻加成加倍。此城的露天剧场、艺术博物馆和考古博物馆+25% [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城学院的相邻加成加倍。此城的图书馆和公立学校+25% [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在城市中进行项目时+30% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城购买单元格所需的 [ICON_Gold] 金币降低20%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城商业中心和港口的相邻加成加倍。每条经过此城的外国 [ICON_TradeRoute] 贸易路线为您每回合+3 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个地貌+2 [ICON_Gold] 金币。此城与未改良地貌相邻的单元格获得+1魅力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>此城所有离岸风力发电厂、太阳能农场、风力发电厂及地热发电厂+2 [ICON_POWER] 电力、+2 [ICON_Gold] 金币。此城的水力发电坝向6单元格内的城市提供额外+2 [ICON_POWER] 电力。此城沿河单元格+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<!--Dedications and Ages-->
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”黄金时代：[NEWLINE][ICON_CivicBoosted] 启发额外提供10%的市政开销。每座城市+1 [ICON_Culture] 文化值。城市每拥有1处特色区域，额外+1 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”黄金时代：[NEWLINE]所有建造者+2 [ICON_Movement] 移动力。用 [ICON_FAITH] 信仰值和 [ICON_GOLD] 金币购买建造者和开拓者的费用降低20%。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_EXPLORATION}”黄金时代：[NEWLINE]和首座城市不在同一个大陆上的城市+3初始 [ICON_Citizen] 人口，每回合+2忠诚度，+15% [ICON_Food] 食物并 +15% [ICON_Production] 生产力。海军和水运单位+2 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”黄金时代：[NEWLINE]您的商人不可被掠夺。外国城市的每个专业化区域为您的国际贸易路线+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_MILITARY}”黄金时代：[NEWLINE]解锁一种特殊战争借口，与正式战争相比可少产生75% [ICON_STAT_GRIEVANCE] 不满，且可于谴责目标后立即使用。生产军事单位时+15% [ICON_Production] 生产力。军营及每个军营建筑 +2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_TOURISM}”黄金时代：[NEWLINE]世界奇观产出的 [ICON_Tourism] 旅游业绩+50%。国家公园产出的 [ICON_Tourism] 旅游业绩+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AERONAUTICAL}”黄金时代：[NEWLINE]如处于信息时代，则解锁人造卫星、核聚变和纳米技术的尤里卡；如处于未来时代，则解锁智能材料、预测系统和地外任务的 [ICON_TechBoosted] 尤里卡；如果尤里卡已触发过则解锁该项科技。建造宇航中心和飞行场区域时+30% [ICON_PRODUCTION] 生产力。拥有宇航中心或飞行场的城市+15% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ESPIONAGE}”黄金时代：[NEWLINE]间谍部署到另一文明的城市无需时间。进行攻击性任务时等级提升4级。用 [ICON_FAITH] 信仰值和 [ICON_GOLD] 金币购买间谍的费用降低75%。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”黄金时代：[NEWLINE]在您的首都处获得1架末日机甲。每回合获得3点 [ICON_Resource_Uranium] 铀。末日机甲 +5 [ICON_Strength] 战斗力，+1 [ICON_Range] 射程。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>末日机甲战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_NAME" Language="zh_Hans_CN">
+			<Text>末日机甲射程</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5 [ICON_Strength] 战斗力（机甲战争黄金时代）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Range] 射程（机甲战争黄金时代）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5 [ICON_Strength] 战斗力来自机甲战争黄金时代</Text>
+		</Replace>
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OPERA_HOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>歌剧是一种舞台剧。它与其他形式的音乐剧的区别在于：演员们唱出各自的对白，而不是简单地说出。演出歌剧时，演员通常有管弦乐队一同参演。歌剧院是一种剧场，其中配有演员使用的舞台，容纳管弦乐队的场地和用于将音乐声更好地传导至观众席的声学设计。圣卡西亚诺剧院是世界上第一家公共歌剧院，于1637年在意大利威尼斯开放。从那时起，世界各地都出现了歌剧院——对任何有着成为文化与艺术中心的理想的城市而言，修建歌剧院几乎是基本操作。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_SCHOOL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>公立学校向一个文明的儿童提供免费的大学前教育，这是一个相当先进的理念。首先，该文明必须明白教育的重要性，对穷人的教育并不会威胁到统治阶层。其次，该文明不能穷到穷人的孩子不工作就会挨饿。最后，该文明必须有足够的远见从公共收入中拿出一部分支持教育。今天世界上大部分国家都为他们的年轻一代提供或多或少的公共教育。美国的第一所小学始于殖民地时期，第一所高中则是1821年在波士顿建立。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>精密制造厂是一种大型的工业复合体，能够生产各种类型的产品，不过通常会用来制造汽车这样的耐用消费品。简单来说，精密制造厂就是一种大型而复杂的工厂，使用专业劳工、复杂机械以及生产流水线以获得更高的生产效率以及大规模生产的经济优势。这种人力与自动化的结合不仅提升了效率，而且降低了生产成本。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>医院是对病人或伤者进行诊疗，并为他们提供住处以便康复的机构。许多医院也同时是教学机构，令学习医疗和护理的学生在此学习专业技能。供奉和健康及医疗有关的神灵的寺庙成为了最初的医院。公元前430年在斯里兰卡出现了专门的宗教医院，而印度的阿育王则于公元前230年左右在印度北部兴建了一系列的医院。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>医学实验室是研究疾病和人体构造的机构。医学实验室使用各式各样极度精密又无比强大的仪器，从超声波仪到蚂蚁大小的摄像机，再到电子显微镜，应有尽有。在过去的25年里，绝大部分（若非所有）医学界的重大突破都是医学实验室里取得。这些突破包括：人类DNA测序、对抗艾滋病的抗病毒疗法、基因编辑，等等。当代社会医疗费用的不断攀升在很大程度上都要归因于这样一个简单的事实：医学实验室在战胜疾病、延长人类寿命、提高人类生命质量方面取得了惊人的成就，而这些成就是需要花费巨资的。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在无产阶级领导的社会主义国家里，人民享有最高权力；然而，即使是马克思也意识到，为了有效地运作政府机构并确保无产阶级专政，必须存在某种形式的党组织。由此，1917年的布尔什维克宣称，一群官僚中的先进分子需要领导一个一个集权政党来治理新生的苏俄政权。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION_MODE_SST" Language="zh_Hans_CN">
+			<Text>建有大浴场的河畔泛滥平原单元格免受洪水侵袭（但来自洪水的 [ICON_FOOD] 食物和 [ICON_PRODUCTION] 生产力加成减半）。此城市的泛滥平原单元格+2 [ICON_FAITH] 信仰值。[NEWLINE][NEWLINE]必须建在泛滥平原单元格中。</Text>
+		</Replace>
+		
+		<!--Experimental - Golden Age enhancement-->
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”黄金时代：[NEWLINE]魅力为普通及以上的单元格+1 [ICON_Culture] 文化值。每座城市+1 [ICON_Culture] 文化值。城市每拥有1处特色区域，额外+1 [ICON_Culture] 文化值。每回合+4 [ICON_GreatWriter] 大作家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”黄金时代：[NEWLINE]与河流相邻的单元格以及海岸和海洋单元格+1 [ICON_Science] 科技值。商业中心和港口区域的 [ICON_GOLD] 金币相邻加成也提供 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_RELIGIOUS}”黄金时代：[NEWLINE]所有传教士、使徒和审判官+2 [ICON_Movement] 移动力且无视控制范围（ZOC），新生产的这些单位+2使用次数。每座圣地建筑增大城市产生的宗教压力50%。每回合产生的 [ICON_GreatProphet] 大预言家点数+4。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”黄金时代：[NEWLINE]所有建造者+2 [ICON_Movement] 移动力。所有城市建造区域、建筑和奇观时+6 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_EXPLORATION}”黄金时代：[NEWLINE]和首座城市不在同一个大陆上的城市的所有单元格 +1 [ICON_Food] 食物、+20% [ICON_Production] 生产力，每回合+8忠诚度。海军和水运单位+2 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”黄金时代：[NEWLINE]您的商人不可被掠夺。外国城市的每个专业化区域为您的国际贸易路线+3 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INDUSTRIAL}”黄金时代：[NEWLINE]建筑获得电力供应的额外产出+2。城市中每有一座学院建筑，便+10% [ICON_PRODUCTION] 生产力。</Text>
+		  </Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_MILITARY}”黄金时代：[NEWLINE]解锁一种特殊战争借口，与正式战争相比可少产生75% [ICON_STAT_GRIEVANCE] 不满，且可于谴责目标后立即使用。生产军事单位时+15% [ICON_Production] 生产力。有军营的城市每个公民提供+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_TOURISM}”黄金时代：[NEWLINE]世界奇观产出的 [ICON_Tourism] 旅游业绩+50%。国家公园产出的 [ICON_Tourism] 旅游业绩+100%。建造所有奇观加速+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AERONAUTICAL}”黄金时代：[NEWLINE]如处于信息时代，则解锁人造卫星、核聚变和纳米技术的尤里卡；如处于未来时代，则解锁智能材料、预测系统和地外任务的 [ICON_TechBoosted] 尤里卡；如果尤里卡已触发过则解锁该项科技。建造宇航中心和飞行场区域时+30% [ICON_PRODUCTION] 生产力。拥有宇航中心或飞行场的城市+15% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ESPIONAGE}”黄金时代：[NEWLINE]间谍部署到另一文明的城市无需时间。进行攻击性任务时等级提升4级。立即获得2个随机科技和1个随机市政。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”黄金时代：[NEWLINE]在您的首都处获得1架末日机甲。每回合获得3点 [ICON_Resource_Uranium] 铀。末日机甲 +17 [ICON_Strength] 战斗力，+1 [ICON_Range] 射程。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+17 [ICON_Strength] 战斗力（机甲战争黄金时代）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+17 [ICON_Strength] 战斗力来自机甲战争黄金时代</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”着力点加成：[NEWLINE]每次触发 [ICON_CivicBoosted] 启发+2时代得分。建成拥有巨作槽位的建筑+1时代得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”着力点加成：[NEWLINE]每次触发 [ICON_TechBoosted] 尤里卡+2时代得分。建造以科技值为基础产出的建筑+1时代得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE}</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

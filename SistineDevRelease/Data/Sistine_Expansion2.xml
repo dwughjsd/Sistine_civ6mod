@@ -21,4 +21,89 @@
 		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_NUCLEAR" Favored="false"/>
 		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_BACKSTAB" Favored="false"/>
 	</AiFavoredItems>
+
+	<RandomEvents>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" />
+			<Set ChanceIncreasePerDegree="20"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" />
+			<Set ChanceIncreasePerDegree="50"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" />
+			<Set ChanceIncreasePerDegree="100"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" />
+			<Set ChanceIncreasePerDegree="50"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" />
+			<Set ChanceIncreasePerDegree="100"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" />
+			<Set ChanceIncreasePerDegree="50"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" />
+			<Set ChanceIncreasePerDegree="100"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" />
+			<Set ChanceIncreasePerDegree="50"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" />
+			<Set ChanceIncreasePerDegree="100"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" />
+			<Set ChanceIncreasePerDegree="50"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" />
+			<Set ChanceIncreasePerDegree="100"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" />
+			<Set ChanceIncreasePerDegree="100"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" />
+			<Set ChanceIncreasePerDegree="200"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_JUNGLE_FIRE" />
+			<Set ChanceIncreasePerDegree="100"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_FOREST_FIRE" />
+			<Set ChanceIncreasePerDegree="100"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE5" />
+			<Set FertilityRemovalChance="50"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE6" />
+			<Set FertilityRemovalChance="75"/>
+		</Update>
+		<Update>
+			<Where RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE7" />
+			<Set FertilityRemovalChance="100"/>
+		</Update>
+	</RandomEvents>
+	<Resource_Consumption>
+		<Update>
+			<Where ResourceType="RESOURCE_COAL" />
+			<Set CO2perkWh="1640"/>
+		</Update>
+		<Update>
+			<Where ResourceType="RESOURCE_OIL" />
+			<Set CO2perkWh="980"/>
+		</Update>
+	</Resource_Consumption>
 </GameData>
