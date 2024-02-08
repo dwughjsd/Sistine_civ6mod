@@ -113,7 +113,7 @@
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
-			<Set DefaultValue="1.0" />
+			<Set DefaultValue="2.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
