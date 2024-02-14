@@ -1373,5 +1373,65 @@
 		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>In a proletarian socialist state, the people have the power; however, even Marx realized that some form of party hierarchy would be necessary for efficient operation of state services and to insure that the proletarian order itself was preserved. For that reason, the Bolsheviks argued in 1917 that a vanguard party of bureaucrats would head a centralized political party that administered the new Soviet Russia.</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION_MODE_SST" Language="en_US">
+			<Text>The Floodplains tiles along the river containing the Great Bath are now immune to Flood damage (though [ICON_FOOD] Food and [ICON_PRODUCTION] Production bonuses from flooding drop by 50%). Floodplains tiles belonging to this city gain +2 [ICON_FAITH] Faith for each time Flood damage is mitigated.[NEWLINE][NEWLINE]Must be built on a Floodplains tile.</Text>
+		</Replace>
+		
+		<!--Experimental - Golden Age enhancement-->
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_CULTURAL} Golden Age:[NEWLINE][ICON_CivicBoosted] +1 [ICON_Culture] Culture to tiles with Average Appeal or higher. Each city receives +1 [ICON_Culture] Culture, and an additional +1 [ICON_Culture] Culture for each specialty district. +4 [ICON_GreatWriter] Great Writer points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC} Golden Age:[NEWLINE][ICON_TechBoosted] +1 [ICON_Science] Science to tiles adjacent to a river, as well as Coast and Ocean tiles. Commercial Hub and Harbor district's [ICON_GOLD] Gold adjacency bonus provides [ICON_Science] Science as well.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_RELIGIOUS} Golden Age:[NEWLINE]All Missionaries, Apostles, and Inquisitors receive +2 [ICON_Movement] Movement and ignore Zone of Control. Additionally, newly trained ones get +2 Charges. Each Holy Site building increases the religious pressure of this city by 50%. +4 [ICON_GreatProphet] Great Prophet points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_INFRASTRUCTURE} Golden Age:[NEWLINE]+2 [ICON_Movement] Movement for all Builders. +6 [ICON_Production] Production towards districts, buildings, and wonders.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_EXPLORATION} Golden Age:[NEWLINE]+1 [ICON_Food], +20% [ICON_Production] Production, and +8 Loyalty per turn for cities settled on a different continent than your first city. +2 [ICON_Movement] Movement for naval and embarked units.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_INDUSTRIAL} Golden Age:[NEWLINE]Buildings gain an additional +2 [ICON_Power] Power. +10% [ICON_Production] Production for each Campus building in this city.</Text>
+		  </Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_MILITARY} Golden Age:[NEWLINE]Unlock a special Casus Belli which generates 75% less [ICON_STAT_GRIEVANCE] Grievances than Formal War and can be used immediately after Denouncing the target. +15% [ICON_Production] Production towards military units. Cities with an Encampment provide +1 [ICON_Production] Production per [ICON_Population] Population.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_TOURISM} Golden Age:[NEWLINE]Cities with [ICON_Governor] Governors receive +50% [ICON_Tourism] Tourism from World Wonders. +100%  [ICON_Tourism] Tourism to all National Parks. +100% [ICON_Production] Production towards all wonders.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_AERONAUTICAL} Golden Age:[NEWLINE]Unlocks the [ICON_TechBoosted] Eurekas for Satellites, Nuclear Fusion, and Nanotechnology if in the Information Era. When chosen in the Future Era the [ICON_TechBoosted] Eurekas for Smart Materials, Predictive Systems, and Offworld Mission are unlocked. If they are already triggered, instead completes the tech. +30% [ICON_Production] towards Spaceport and Aerodrome districts. +15% [ICON_Science] Science and [ICON_Production] Production to cities with a Spaceport or Aerodrome.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_ESPIONAGE} Golden Age:[NEWLINE]Spies take no time to establish their presence in another civilization's city. Your Spy level is increased by 4 for offensive operations. Receive two random [ICON_TechBoosted] Eurekas and a random [ICON_CivicBoosted] Insipiration.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_AUTOMATON} Golden Age:[NEWLINE]Gain a Giant Death Robot in your capital. Receive 3 [ICON_Resource_Uranium] Uranium per turn. [ICON_Resource_Uranium] Uranium mines accumulate +1 more resource per turn. +17 [ICON_Strength] Combat Strength and +1 [ICON_Range] Range to Giant Death Robots.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+17 [ICON_Strength] Combat Strength (Automaton Warfare Golden Age).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="en_US">
+			<Text>+17 [ICON_Strength] Combat Strength from the Automaton Warfare Golden Age</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="en_US">
+			<Text>“LOC_MOMENT_CATEGORY_CULTURAL} Dedication Bonus:[NEWLINE]Gain +2 Era Score each time you trigger an [ICON_CivicBoosted] Inspiration. +1 Era Score for constructing a building with a Great Work Slot.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC} Dedication Bonus:[NEWLINE]Gain +2 Era Score each time you trigger a [ICON_TechBoosted] Eureka. +1 Era Score for constructing a building that provides Science as a base yield.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_DARK_AGE" Language="en_US">
+			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE}</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
