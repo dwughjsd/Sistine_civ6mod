@@ -613,6 +613,7 @@
 	
 	<BuildingModifiers>
 		<Row BuildingType="BUILDING_ETEMENANKI" ModifierId="ETEMENANKI_FOOD_MARSH"/>
+		<Delete BuildingType="BUILDING_ETEMENANKI" ModifierId="ETEMENANKI_PRODUCTION_FLOODPLAINS"/>
 		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_TECHNOLOGY_BOOST"/>
 		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_CIVIC_BOOST"/>
 		<Row BuildingType="BUILDING_APADANA" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
