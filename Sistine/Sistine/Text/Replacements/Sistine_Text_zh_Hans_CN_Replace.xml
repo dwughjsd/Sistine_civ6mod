@@ -17,6 +17,7 @@
 		<Replace Tag="LOC_BUILDING_CASTLE_NAME" Language="zh_Hans_CN" Text="中古城墙"/>
 		<Replace Tag="LOC_BUILDING_STAR_FORT_NAME" Language="zh_Hans_CN" Text="启蒙城墙"/>
 		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_NAME" Language="zh_Hans_CN" Text="阿蒙森-斯科特研究站"/>
+		<Replace Tag="LOC_BUILDING_GOV_MILITARY_NAME" Language="zh_Hans_CN" Text="战争部"/>
 		<!--Techs and civics-->
 		<Replace Tag="LOC_TECH_POTTERY_NAME" Language="zh_Hans_CN" Text="制陶"/>
 		<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_NAME" Language="zh_Hans_CN" Text="畜牧"/>
@@ -975,6 +976,16 @@
 		</Replace>
 		<Replace Tag="LOC_PLAYER_YIELD_GOLD_FROM_INTEREST" Language="zh_Hans_CN">
 			<Text>{Value : number +#.#;-#.#}来自国库利息（上限1000）</Text>
+		</Replace>
+		<!--Diplo visibility-->
+		<Replace Tag="LOC_VIZSOURCE_ALLY" Language="zh_Hans_CN">
+			<Text>已与此文明建立同盟</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_SPY" Language="zh_Hans_CN">
+			<Text>已在此文明安插间谍</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TRAIT" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_FLYING_SQUADRON_NAME}</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

@@ -539,23 +539,65 @@
 
 
 	<!--Government Plaza-->
+	<DiplomaticVisibilitySources>
+		<!-- So that all major players can have it-->
+		<Row VisibilitySourceType="SOURCE_GOV_BUILDING" Description="LOC_VIZSOURCE_GOV_BUILDING" ActionDescription="LOC_VIZSOURCE_ACTION_GOV_BUILDING" GossipString="LOC_GOSSIP_SOURCE_SPY" FromCitizen="true" TraitType="TRAIT_LEADER_MAJOR_CIV"/>
+	</DiplomaticVisibilitySources>
+	<Types>
+		<Row Type="MODIFIER_GRANT_GREAT_PERSON_CLASS_IN_CAPITAL_SST" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row ModifierType="MODIFIER_GRANT_GREAT_PERSON_CLASS_IN_CAPITAL_SST" CollectionType="COLLECTION_PLAYER_CAPITAL_CITY" EffectType="EFFECT_GRANT_GREAT_PERSON_CLASS_IN_CITY"/>
+	</DynamicModifiers>
 	<BuildingModifiers>
 		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_LOYALTY_DEBUFF" />
-		<!--<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_SST" />-->
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_FOOD_BUFF_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GRANT_SEWER_UNTIL_4" />
 		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_GRANT_BUILDER" />
 		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_COST_REDUCTION" />
 		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_PRODUCTION_SST" />
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_ADDITIONAL_BUILDER_CHARGES" />
 		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_GRANT_BUILDERS_SST" />
 		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_GRANT_SETTLER_SST" />
+		<Row BuildingType="BUILDING_GOV_CONQUEST" ModifierId="GOV_KILL_CULTURE" />
+		<Row BuildingType="BUILDING_GOV_CONQUEST" ModifierId="GOV_GRANT_GREAT_GENERAL" />
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOV_GRANT_ENVOYS" />
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOV_LEVY_UNITUPGRADEDISCOUNT" />
+		<Row BuildingType="BUILDING_GOV_SPIES" ModifierId="GOV_DIPLO_VISIBILITY_SST" />
+		<Row BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_HOLY_SITE_CULTURE" />
+		<Row BuildingType="BUILDING_GOV_MILITARY" ModifierId="GOV_GRANT_ATTACK_BUFF" />
+		<Row BuildingType="BUILDING_GOV_MILITARY" ModifierId="GOV_ARMY_UPGRADE_RESOURCE_DISCOUNT" />
+		<Row BuildingType="BUILDING_GOV_MILITARY" ModifierId="GOV_ARMY_UNITUPGRADEDISCOUNT" />
+		<Row BuildingType="BUILDING_GOV_CULTURE" ModifierId="GREATPERSON_TRADE_ROUTE_TOURISM_MODIFIER" />
+		<Row BuildingType="BUILDING_GOV_CULTURE" ModifierId="GOV_GRANT_GREAT_ARTIST" />
+		<Row BuildingType="BUILDING_GOV_SCIENCE" ModifierId="GOV_SCIENCE_FREE_TECH" />
 	</BuildingModifiers>
 	<Modifiers>
-		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST"
-			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH"
-			SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"
+		<Row>
+			<ModifierId>GOV_TALL_FOOD_BUFF_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOV_TALL_GRANT_SEWER_UNTIL_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_TALL_GRANT_SEWER_UNTIL_4_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_SEWER</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_MODIFIER_SST"
+			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE"
 		/>
-
+		<Row>
+			<ModifierId>GOV_ADDITIONAL_BUILDER_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
 		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
-			ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION"
+			ModifierType="MODIFIER_SINGLE_CITY_ADJUST_UNIT_PRODUCTION"
 		/>
 		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
 			ModifierType="MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY"
@@ -567,21 +609,93 @@
 			RunOnce="true"
 			Permanent="true"
 		/>
+		<Row>
+			<ModifierId>GOV_KILL_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row ModifierId="GOV_GRANT_GREAT_GENERAL" ModifierType="MODIFIER_GRANT_GREAT_PERSON_CLASS_IN_CAPITAL_SST"/>
+		<Row>
+			<ModifierId>GOV_GRANT_ENVOYS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_LEVY_UNITUPGRADEDISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_LEVIED_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_DIPLO_VISIBILITY_SST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_HOLY_SITE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_HOLY_SITE_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOV_GRANT_ATTACK_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GOV_ARMY_UPGRADE_RESOURCE_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_RESOURCE_COST_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_ARMY_UNITUPGRADEDISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
+		</Row>
+		<Row ModifierId="GOV_GRANT_GREAT_ARTIST" ModifierType="MODIFIER_GRANT_GREAT_PERSON_CLASS_IN_CAPITAL_SST"/>
+		<Row>
+			<ModifierId>GOV_SCIENCE_FREE_TECH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
 	</Modifiers>
 
 	<ModifierArguments>
-		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST"
-			Name="Amount"
-			Value="25"
-		/>
+		<Row>
+			<ModifierId>GOV_TALL_FOOD_BUFF_SST</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOV_TALL_FOOD_BUFF_MODIFIER_SST</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_TALL_FOOD_BUFF_MODIFIER_SST</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_TALL_FOOD_BUFF_MODIFIER_SST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_TALL_GRANT_SEWER_UNTIL_4</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOV_TALL_GRANT_SEWER_UNTIL_4_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_TALL_GRANT_SEWER_UNTIL_4_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SEWER</Value>
+		</Row>
 		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
 			Name="UnitType"
 			Value="UNIT_SETTLER"
 		/>
 		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
 			Name="Amount"
-			Value="30"
+			Value="50"
 		/>
+		<Row>
+			<ModifierId>GOV_ADDITIONAL_BUILDER_CHARGES</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GUILDMASTER_ADDITIONAL_BUILDER_CHARGES_UNIT_MODIFIER</Value>
+		</Row>
 		<Row ModifierId="GOV_GRANT_BUILDERS_SST"
 			Name="UnitType"
 			Value="UNIT_BUILDER"
@@ -598,9 +712,159 @@
 			Name="Amount"
 			Value="1"
 		/>
+		<Row>
+			<ModifierId>GOV_KILL_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_KILL_CULTURE</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+		<Row ModifierId="GOV_GRANT_GREAT_GENERAL" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_GENERAL"/>
+		<Row ModifierId="GOV_GRANT_GREAT_GENERAL" Name="Amount" Value="1"/>
+		<Row>
+			<ModifierId>GOV_GRANT_ENVOYS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_LEVY_UNITUPGRADEDISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_DIPLO_VISIBILITY_SST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_DIPLO_VISIBILITY_SST</ModifierId>
+			<Name>Source</Name>
+			<Value>SOURCE_GOV_BUILDING</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_DIPLO_VISIBILITY_SST</ModifierId>
+			<Name>SourceType</Name>
+			<Value>DIPLO_SOURCE_ALL_NAMES</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_HOLY_SITE_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOV_HOLY_SITE_CULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_HOLY_SITE_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_HOLY_SITE_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_GRANT_ATTACK_BUFF</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GOV_ATTACK_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_ARMY_UPGRADE_RESOURCE_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_ARMY_UNITUPGRADEDISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row ModifierId="GOV_GRANT_GREAT_ARTIST" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_ARTIST"/>
+		<Row ModifierId="GOV_GRANT_GREAT_ARTIST" Name="Amount" Value="1"/>
+		<Row>
+			<ModifierId>GOV_SCIENCE_FREE_TECH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
-	
-	<!--Wonders-->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_SEWER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_SEWER</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_SEWER</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_SEWER</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_SEWER</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SEWER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_SEWER</RequirementId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+	</RequirementArguments>
+	<Types>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_GOV_ATTACK_BUFF" Tag="CLASS_AIRCRAFT"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_GOV_ATTACK_BUFF" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_GOV_ATTACK_BUFF</UnitAbilityType>
+			<ModifierId>GOV_ATTACK_BUFF</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_ATTACK_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>FASCISM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOV_ATTACK_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GOV_ATTACK_BUFF" Context="Preview" Text="LOC_ABILITY_GOV_ATTACK_BUFF_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+
+		<!--Wonders-->
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_HANGING_GARDENS" YieldType="YIELD_FOOD" YieldChange="6"/>
 		<Row BuildingType="BUILDING_STONEHENGE" YieldType="YIELD_CULTURE" YieldChange="2"/>
