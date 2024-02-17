@@ -710,6 +710,9 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_NEAR_FUTURE_GOVERNANCE" Language="zh_Hans_CN">
 			<Text>采用一种自带10个政策槽位的政体。</Text>
 		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ASTRONOMY" Language="zh_Hans_CN">
+			<Text>在与山脉相邻的单元格建造1座大学。</Text>
+		</Replace>
 		<!--Governors-->
 		<Replace Tag="LOC_GOVERNOR_THE_DEFENDER_TITLE" Language="zh_Hans_CN">
 			<Text>代城主</Text>
