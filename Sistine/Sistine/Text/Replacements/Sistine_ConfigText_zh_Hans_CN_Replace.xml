@@ -130,5 +130,97 @@
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_LIBERTY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在友好领土内建成军营或堡垒后对相邻单元格施放文化炸弹。当前政体的一个军事政策槽位将转换为一个通用槽位。</Text>
 		</Replace>
+		<!--City-States-->
+		<Replace Tag="LOC_CITY_NAME_BANDAR_BRUNEI" Language="zh_Hans_CN">
+			<Text>文莱市</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BANDAR_BRUNEI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>文莱市城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BANDAR_BRUNEI_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>文莱市的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BANDAR_BRUNEI_NAME" Language="zh_Hans_CN">
+			<Text>文莱市</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_BANDAR_BRUNEI_NAME" Language="zh_Hans_CN">
+			<Text>文莱市宗主国加成</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MOHENJO_DARO_1" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MOHENJO_DARO" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MOHENJO_DARO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MOHENJO_DARO_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MOHENJO_DARO_NAME" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_NAME" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗宗主国加成</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MOHENJO_DARO_BONUS" Language="zh_Hans_CN">
+			<Text>您的所有城市均视作与河流相邻，获得最高等级的由水源提供的 [ICON_Housing] 住房加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您的所有城市均视作与河流相邻，获得最高等级的由水源提供的 [ICON_Housing] 住房加成。</Text>
+		</Replace>
+		<!--No gameplay change so simply comment them out for now-->
+		<!--<Replace Tag="LOC_CIVILIZATION_VILNIUS_BONUS_XP1" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KANDY_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CAGUANA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AYUTTHAYA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTANANARIVO_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SAMARKAND_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CAHOKIA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TARUGA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HATTUSA_BONUS_XP2" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GENEVA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BABYLON_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BOLOGNA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_VALLETTA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KABUL_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GRANADA_BONUS_XP2" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MEXICO_CITY_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BUENOS_AIRES_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>-->
 	</LocalizedText>
 </GameData>

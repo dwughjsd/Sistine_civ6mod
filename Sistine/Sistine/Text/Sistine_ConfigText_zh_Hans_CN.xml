@@ -236,5 +236,145 @@
 		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您城市中进行海军活动的区域。若此城尚未建成商业中心，从此城出发的国内 [ICON_TradeRoute] 贸易路线+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
 		</Replace>
+		<!--City-States-->
+		<!--<Replace Tag="LOC_CIVILIZATION_AKKAD_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTIOCH_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ARMAGH_BONUS_XP2" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AUCKLAND_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BRUSSELS_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CARDIFF_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CHINGUETTI_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FEZ_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HONG_KONG_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HUNZA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JAKARTA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JERUSALEM_BONUS_XP1" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JOHANNESBURG_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KUMASI_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAHORE_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LA_VENTA_BONUS_XP2" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LISBON_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MUSCAT_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NALANDA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NAN_MADOL_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NAZCA_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NGAZARGAMU_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_PALENQUE_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RAPA_NUI_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SINGAPORE_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_VATICAN_CITY_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_WOLIN_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YEREVAN_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ZANZIBAR_BONUS" Language="zh_Hans_CN">
+			<Text></Text>
+		</Replace>-->
+		<!--To ensure all trait description consistent-->
+		<Replace Tag="LOC_LEADER_TRAIT_AKKAD_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_AKKAD_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_ANTANANARIVO_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_ANTANANARIVO_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_ANTIOCH_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_ANTIOCH_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_ARMAGH_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_ARMAGH_BONUS_XP2}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_AUCKLAND_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_AUCKLAND_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_AYUTTHAYA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_AYUTTHAYA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_BABYLON_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_BABYLON_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_BOLOGNA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_BOLOGNA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_BRUSSELS_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_BRUSSELS_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_BUENOS_AIRES_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_BUENOS_AIRES_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_CAGUANA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_CAGUANA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_CAHOKIA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_CAHOKIA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_CARDIFF_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_CARDIFF_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_CHINGUETTI_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_CHINGUETTI_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_FEZ_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_FEZ_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_GENEVA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_GENEVA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_GRANADA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_GRANADA_BONUS_XP2}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_HATTUSA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_HATTUSA_BONUS_XP2}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_HONG_KONG_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_HONG_KONG_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_HUNZA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_HUNZA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_JAKARTA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_JAKARTA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_JERUSALEM_DESCRIPTION_EXPANSION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_JERUSALEM_BONUS_XP1}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_JOHANNESBURG_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_JOHANNESBURG_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_KABUL_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_KABUL_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_KANDY_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_KANDY_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_KUMASI_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_KUMASI_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_LA_VENTA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_LA_VENTA_BONUS_XP2}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_LAHORE_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_LAHORE_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_LISBON_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_LISBON_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_MEXICO_CITY_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_MEXICO_CITY_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_MITLA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_PALENQUE_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_MOHENJO_DARO_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_MUSCAT_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_MUSCAT_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_NALANDA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_NALANDA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_NAN_MADOL_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_NAN_MADOL_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_NAZCA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_NAZCA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_NGAZARGAMU_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_NGAZARGAMU_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_PRESLAV_BONUS_XP1}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_RAPA_NUI_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_RAPA_NUI_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_SAMARKAND_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_SAMARKAND_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_SINGAPORE_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_SINGAPORE_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_TARUGA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_TARUGA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_VALLETTA_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_VALLETTA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_VATICAN_CITY_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_VATICAN_CITY_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_VILNIUS_BONUS_XP1}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_WOLIN_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_WOLIN_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_YEREVAN_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_ZANZIBAR_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_ZANZIBAR_BONUS}"/>
 	</LocalizedText>
 </GameData>
