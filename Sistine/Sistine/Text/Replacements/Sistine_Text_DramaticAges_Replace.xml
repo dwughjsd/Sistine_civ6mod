@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS" Language="zh_Hans_CN">
+			<Text>布道远行</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_EXODUS_OF_THE_EVANGELISTS_NAME" Language="zh_Hans_CN">
+			<Text>币制改革</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TO_ARMS_NAME" Language="zh_Hans_CN">
+			<Text>武装备战！</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PRAETORIAN_GUARD_NAME" Language="zh_Hans_CN">
+			<Text>精兵禁卫</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MANDALA_STATE_NAME" Language="zh_Hans_CN">
+			<Text>曼荼罗制</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DESPOTIC_PATERNALISM_NAME" Language="zh_Hans_CN">
+			<Text>专制家长</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SAMODERZHAVIYE_NAME" Language="zh_Hans_CN">
+			<Text>暴政独裁</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -393,7 +393,7 @@
 			<Text>帝国中的所有沼泽单元格+2 [ICON_SCIENCE] 科技值、+1 [ICON_PRODUCTION] 生产力、+2 [ICON_FOOD] 食物。此城市的所有泛滥平原单元格+1 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须建在泛滥平原或沼泽上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有城市人口增长加速25%。必须建在河流旁边。</Text>
+			<Text>所有城市人口增长加速25%。必须建在河流旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>赞助伟人消耗的 [ICON_Faith] 信仰值减少25%。[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发额外提供10%的科技或市政成本。该城市的区域提供的对应类型的 [ICON_GreatPerson] 伟人点数+2（比如，剧院广场区的 [ICON_GreatWriter] 大作家点数）。必须建在丘陵上。</Text>
@@ -1603,5 +1603,6 @@
 		<Replace Tag="LOC_WORLD_CONGRESS_DISTRICT_BUILDING_PRODUCTION_DESC" Language="zh_Hans_CN">
 			<Text>建造该区域中的建筑时+50% [ICON_Production] 生产力。</Text>
 		</Replace>
+
 	</LocalizedText>
 </GameData>

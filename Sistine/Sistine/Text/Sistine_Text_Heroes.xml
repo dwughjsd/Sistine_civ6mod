@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="en_US">
+			<Text>Recalling Heroes costs 15% less [ICON_Faith] Faith, and Patronage of Great People costs 25% less [ICON_Faith] Faith. [ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide an extra 10% of the Science and Culture cost for researching technologies and civics. Districts in this city provide +2 [ICON_GreatPerson] Great Person points of their type (for example, [ICON_GreatWriter] Great Writer points from the Theater Square district). Must be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="en_US">
+			<Text>All Hero units have 10% longer [ICON_Lifespan] Lifespans. Increases growth by 25% in all cities. Must be built next to a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>召回英雄消耗的 [ICON_Faith] 信仰值-15%；伟人赞助消耗的 [ICON_Faith] 信仰值-25%。[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发额外提供10%的科技或市政成本。该城市中区域所提供其类型的 [ICON_GreatPerson] 伟人点数+2（例如剧院广场区域提供 [ICON_GreatWriter] 大作家点数）。必须建在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有英雄单位的 [ICON_Lifespan] 寿命+10%。所有城市人口增长加速25%。必须建在河流旁。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

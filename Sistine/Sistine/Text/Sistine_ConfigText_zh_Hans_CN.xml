@@ -236,15 +236,5 @@
 		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您城市中进行海军活动的区域。若此城尚未建成商业中心，从此城出发的国内 [ICON_TradeRoute] 贸易路线+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
 		</Replace>
-		<!--Gamemode-->
-		<Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>黄金黎明协会专属，替代大学。此学院提供等同于其 [ICON_Science] 科技值相邻加成的 [ICON_Gold] 金币。{LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST}</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_GILDED_VAULT_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>弥涅耳瓦夜鹰专属，替代银行。此商业中心提供等同于其 [ICON_Gold] 金币相邻加成的 [ICON_CULTURE] 文化值。若此城市中拥有港口，则+1 [ICON_TradeRoute] 贸易路线容量。{LOC_BUILDING_BANK_DESCRIPTION_SST}</Text>
-		</Replace>
-		<Replace Tag="LOC_GOVERNOR_PROMOTION_VOIDSINGERS_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>中古时代解锁。城市每回合获得等同于其每回合所获 [ICON_Faith] 信仰值20%的 [ICON_Gold] 金币，以及10%的 [ICON_Science] 科技值和 [ICON_Culture] 文化值。</Text>
-		</Replace>
 	</LocalizedText>
 </GameData>
