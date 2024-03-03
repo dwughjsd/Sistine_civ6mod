@@ -990,5 +990,12 @@
 		<Replace Tag="LOC_VIZSOURCE_TRAIT" Language="zh_Hans_CN">
 			<Text>{LOC_TRAIT_LEADER_FLYING_SQUADRON_NAME}</Text>
 		</Replace>
+		<!--City-states unique bonus-->
+		<Replace Tag="LOC_ABILITY_BALKAN_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>是普雷斯拉夫城邦的宗主国时，丘陵上的轻骑兵和重骑兵+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BALKAN_CAVALRY_COMBAT_HILLS_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在丘陵作战时+{1_Amount} [ICON_Strength] 战斗力</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

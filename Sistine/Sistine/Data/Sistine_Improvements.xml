@@ -18,10 +18,6 @@
 			<Set PrereqCivic="CIVIC_GUILDS" />
 		</Update>
 	</Improvement_ValidFeatures>
-	
-	<Improvement_Adjacencies>
-
-	</Improvement_Adjacencies>
 
 	<Improvement_BonusYieldChanges>
 		<Update>
@@ -96,36 +92,10 @@
 		<Replace ImprovementType="IMPROVEMENT_WIND_FARM" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-		<Replace ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" YieldChange="3"/>
 	</Improvement_YieldChanges>
 
-	<Adjacency_YieldChanges>
-		<Update>
-			<Where ID="TradingDome_LuxuryAdjacency" />
-			<Set YieldChange="2"/>
-		</Update>
-	</Adjacency_YieldChanges>	
-	<Modifiers>
-		<!--So that all players benefit from it-->
-		<Update>
-			<Where ModifierId="MINOR_CIV_SAMARKAND_TRADE_GOLD" />
-			<Set SubjectRequirementSetId=""/>
-		</Update>
-		<Update>
-			<Where ModifierId="MOUND_AMENITY_MAX_ONE" />
-			<Set SubjectRequirementSetId="PLAYER_DOES_NOT_HAVE_COLONIALISM_REQUIREMENTS"/>
-		</Update>
-		<Update>
-			<Where ModifierId="MOUND_AMENITY_MAX_TWO" />
-			<Set SubjectRequirementSetId="PLAYER_HAS_COLONIALISM_REQUIREMENTS"/>
-		</Update>
-	</Modifiers>
 	<ModifierArguments>
-		<Update>
-			<Where ModifierId="MINOR_CIV_SAMARKAND_TRADE_GOLD_MODIFIER" Name="Amount" />
-			<Set Value="2"/>
-		</Update>
 		<Update>
 			<Where ModifierId="ZIGGURAT_RIVERADJACENCY_CULTURE" Name="Amount" />
 			<Set Value="2"/>
@@ -302,4 +272,102 @@
 			<Set PrereqTech="TECH_SATELLITES" />
 		</Update>
 	</Adjacency_YieldChanges>
+	
+	<!--City-states unique improvements-->
+	<Improvement_YieldChanges>
+		<Replace ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Replace ImprovementType="IMPROVEMENT_MAHAVIHARA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_MONASTERY" YieldChangeId="Monastery_LuxuryAdjacency"/>
+	</Improvement_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Update>
+			<Where ID="TradingDome_LuxuryAdjacency" />
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where ID="Monastery_DistrictAdjacency" />
+			<Set YieldType="YIELD_CULTURE"/>
+		</Update>
+		<Row ID="Monastery_LuxuryAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_LUXURY"/>
+		<!--Another change that don't rename the original ID-->
+		<Update>
+			<Where ID="ColossalHead_FaithForestEarly" />
+			<Set YieldType="YIELD_CULTURE"/>
+		</Update>
+		<Update>
+			<Where ID="ColossalHead_FaithJungleEarly" />
+			<Set YieldType="YIELD_CULTURE"/>
+		</Update>
+		<Update>
+			<Where ID="ColossalHead_FaithForestLate" />
+			<Set YieldType="YIELD_CULTURE"/>
+		</Update>
+		<Update>
+			<Where ID="ColossalHead_FaithJungleLate" />
+			<Set YieldType="YIELD_CULTURE"/>
+		</Update>
+		<Update>
+			<Where ID="Moai_FirstBonusAdjacency" />
+			<Set ObsoleteCivic="CIVIC_COLONIALISM"/>
+		</Update>
+		<Update>
+			<Where ID="Moai_SecondBonusAdjacency" />
+			<Set PrereqCivic="CIVIC_COLONIALISM"/>
+		</Update>
+	</Adjacency_YieldChanges>
+	<Modifiers>
+		<!--So that all players benefit from it-->
+		<Update>
+			<Where ModifierId="MINOR_CIV_SAMARKAND_TRADE_GOLD" />
+			<Set SubjectRequirementSetId=""/>
+		</Update>
+		<Update>
+			<Where ModifierId="MOUND_AMENITY_MAX_ONE" />
+			<Set SubjectRequirementSetId="PLAYER_DOES_NOT_HAVE_COLONIALISM_REQUIREMENTS"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MOUND_AMENITY_MAX_TWO" />
+			<Set SubjectRequirementSetId="PLAYER_HAS_COLONIALISM_REQUIREMENTS"/>
+		</Update>
+		<!--So that it can add extra food to all adjacent tiles. No modifier name changes.-->
+		<Update>
+			<Where ModifierId="NAZCA_LINE_ADJACENCY_FOOD_DESERT_CIVIL_SERVICE" />
+			<Set SubjectRequirementSetId="NAZCA_LINE_ADJACENCY_FAITH_REQUIREMENTS"/>
+		</Update>
+		<Update>
+			<Where ModifierId="NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE" />
+			<Set SubjectRequirementSetId="NAZCA_LINE_ADJACENCY_FAITH_RESOURCE_REQUIREMENTS"/>
+		</Update>
+	</Modifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="MINOR_CIV_SAMARKAND_TRADE_GOLD_MODIFIER" Name="Amount" />
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MOAI_VOLCANICADJACENCY_CULTURE" Name="Amount" />
+			<Set Value="1"/>
+		</Update>
+	</ModifierArguments>
+	<Improvement_BonusYieldChanges>
+		<!--The ID is not necessary for the system to work. However it's good to make it unique.-->
+		<Row Id="20001" ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_ECONOMICS"/>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_MONASTERY" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_BATEY" />
+			<Set ScalingFactor="50"/>
+		</Update>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" />
+			<Set TourismSource="TOURISMSOURCE_CULTURE"/>
+		</Update>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_MOAI" />
+			<Set ScalingFactor="50"/>
+		</Update>
+	</Improvement_Tourism>
 </GameData>

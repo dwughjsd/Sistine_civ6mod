@@ -188,6 +188,11 @@
 			<Where UnitType="UNIT_APOSTLE" />
 			<Set CostProgressionParam1="15" />
 		</Update>
+		<!--Unique units-->
+		<Update>
+			<Where UnitType="UNIT_LAHORE_NIHANG" />
+			<Set MustPurchase="false" />
+		</Update>
 	</Units>
 
 	<UnitPromotionModifiers>

@@ -1,4 +1,474 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-
+	<Modifiers>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_PRODUCTION_LIGHTHOUSE</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_PRODUCTION_LIGHTHOUSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_LIGHTHOUSE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_PRODUCTION_SHIPYARD</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_PRODUCTION_SHIPYARD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_SHIPYARD</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_PRODUCTION_SEAPORT</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_PRODUCTION_SEAPORT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_SEAPORT</SubjectRequirementSetId>
+		</Row>
+		<Update>
+			<Where ModifierId="MINOR_CIV_AUCKLAND_SHALLOW_WATER_PRODUCTION_BONUS_BASE" />
+			<Set SubjectRequirementSetId="INDUSTRIAL_ZONE_PLOT_HAS_SHALLOW_WATER" />
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_AUCKLAND_SHALLOW_WATER_PRODUCTION_BONUS_INDUSTRIAL" />
+			<Set SubjectRequirementSetId="INDUSTRIAL_ZONE_PLOT_HAS_SHALLOW_WATER_AND_INDUSTRIAL" />
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_BRUSSELS_WONDER_PRODUCTION_BONUS" />
+			<Set ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER" />
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_JOHANNESBURG_PRODUCTION_RESOURCES" />
+			<Set SubjectRequirementSetId="CITY_HAS_INDUSTRIAL_ZONE_SST" />
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_JOHANNESBURG_PRODUCTION_RESOURCES_LATE" />
+			<Set SubjectRequirementSetId="CITY_HAS_INDUSTRIAL_ZONE_INDUSTRIALIZATION" />
+		</Update>
+		<Row>
+			<ModifierId>MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PRESLAV_ABILITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_GENERAL_SST</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_ADMIRAL_SST</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PALENQUE_CAMPUS_FOOD_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PALENQUE_CAMPUS_FOOD_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FARM_CAMPUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LISBON_TRADE_ROUTE_CAPACITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MUSCAT_BANK_AMENITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MUSCAT_BANK_AMENITY_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_AMENITIES_FROM_CITY_STATES</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_BANK</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CHINGUETTI_FAITH_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_SPECIALTY_DISTRICT_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_HOLY_SITE_WRITER_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_HOLY_SITE_ARTIST_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_WRITING_FAITH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_SCULPTURE_FAITH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_PORTRAIT_FAITH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_LANDSCAPE_FAITH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_RELIGIOUS_FAITH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_HOLY_SITE_WRITER_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_HOLY_SITE_ARTIST_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_WRITING_FAITH_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_SCULPTURE_FAITH_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_PORTRAIT_FAITH_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_LANDSCAPE_FAITH_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_RELIGIOUS_FAITH_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_JERUSALEM_HOLY_SITE_UPGRADE" />
+		<Row>
+			<ModifierId>MINOR_CIV_JERUSALEM_HOLY_SITE_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_PRODUCTION_LIGHTHOUSE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CARDIFF_PRODUCTION_LIGHTHOUSE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_PRODUCTION_SHIPYARD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CARDIFF_PRODUCTION_SHIPYARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_PRODUCTION_SEAPORT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CARDIFF_PRODUCTION_SEAPORT</Value>
+		</Row>
+		<Row ModifierId="MINOR_CIV_CARDIFF_PRODUCTION_LIGHTHOUSE" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="MINOR_CIV_CARDIFF_PRODUCTION_LIGHTHOUSE" Name="YieldChange" Value="2"/>
+		<Row ModifierId="MINOR_CIV_CARDIFF_PRODUCTION_SHIPYARD" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="MINOR_CIV_CARDIFF_PRODUCTION_SHIPYARD" Name="YieldChange" Value="2"/>
+		<Row ModifierId="MINOR_CIV_CARDIFF_PRODUCTION_SEAPORT" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="MINOR_CIV_CARDIFF_PRODUCTION_SEAPORT" Name="YieldChange" Value="2"/>
+		<Delete ModifierId="MINOR_CIV_HONG_KONG_PROJECT_PRODUCTION_BONUS" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_HONG_KONG_PROJECT_PRODUCTION_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_SINGAPORE_PRODUCTION_PER_MAJOR_TRADE_PARTNER" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_SINGAPORE_PRODUCTION_PER_MAJOR_TRADE_PARTNER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_NGAZARGAMU_BARRACKS_STABLE_PURCHASE_BONUS" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_BARRACKS_STABLE_PURCHASE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_NGAZARGAMU_ARMORY_PURCHASE_BONUS" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_ARMORY_PURCHASE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_NGAZARGAMU_MILITARY_ACADEMY_PURCHASE_BONUS" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_MILITARY_ACADEMY_PURCHASE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_PRESLAV_ABILITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PRESLAV_ABILITY_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_BALKAN_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_GENERAL_SST</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>STRATEGOS_GREATGENERALPOINTS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_ADMIRAL_SST</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>NAVIGATION_GREATADMIRALPOINTS</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_FEZ_INITIATION_SCIENCE_POPULATION" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_FEZ_INITIATION_SCIENCE_POPULATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PALENQUE_CAMPUS_FOOD_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_PALENQUE_CAMPUS_FOOD_BONUS_MODIFIER</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_ANTIOCH_LUXURY_TRADE_ROUTE_BONUS" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_ANTIOCH_LUXURY_TRADE_ROUTE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_JAKARTA_TRADING_POST_BONUS" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_JAKARTA_TRADING_POST_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_HUNZA_GOLD_FROM_TRADE_ROUTE_LENGTH" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_HUNZA_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.3334</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_LISBON_UNIQUE_INFLUENCE_BONUS" Name="ModifierId" />
+		<Row>
+			<ModifierId>MINOR_CIV_LISBON_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_LISBON_TRADE_ROUTE_CAPACITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LISBON_TRADE_ROUTE_CAPACITY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MUSCAT_BANK_AMENITY_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MUSCAT_BANK_AMENITY_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MUSCAT_BANK_AMENITY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_NAN_MADOL_DISTRICTS_CULTURE_BONUS" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_NAN_MADOL_DISTRICTS_CULTURE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_CHINGUETTI_UNIQUE_INFLUENCE_BONUS" Name="ModifierId" />
+		<Row>
+			<ModifierId>MINOR_CIV_CHINGUETTI_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CHINGUETTI_FAITH_DISTRICT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CHINGUETTI_FAITH_DISTRICT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CHINGUETTI_FAITH_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_HOLY_SITE_WRITER_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VATICAN_CITY_HOLY_SITE_WRITER_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_HOLY_SITE_ARTIST_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VATICAN_CITY_HOLY_SITE_ARTIST_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_WRITING_FAITH_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VATICAN_CITY_WRITING_FAITH_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_SCULPTURE_FAITH_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VATICAN_CITY_SCULPTURE_FAITH_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_PORTRAIT_FAITH_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VATICAN_CITY_PORTRAIT_FAITH_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_LANDSCAPE_FAITH_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VATICAN_CITY_LANDSCAPE_FAITH_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_RELIGIOUS_FAITH_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VATICAN_CITY_RELIGIOUS_FAITH_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_HOLY_SITE_WRITER_BONUS_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_HOLY_SITE_WRITER_BONUS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_HOLY_SITE_ARTIST_BONUS_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VATICAN_CITY_HOLY_SITE_ARTIST_BONUS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_WRITING_FAITH_BONUS_MODIFIER" Name="GreatWorkObjectType" Value="GREATWORKOBJECT_WRITING"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_WRITING_FAITH_BONUS_MODIFIER" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_WRITING_FAITH_BONUS_MODIFIER" Name="YieldChange" Value="2"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_SCULPTURE_FAITH_BONUS_MODIFIER" Name="GreatWorkObjectType" Value="GREATWORKOBJECT_SCULPTURE"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_SCULPTURE_FAITH_BONUS_MODIFIER" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_SCULPTURE_FAITH_BONUS_MODIFIER" Name="YieldChange" Value="2"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_PORTRAIT_FAITH_BONUS_MODIFIER" Name="GreatWorkObjectType" Value="GREATWORKOBJECT_PORTRAIT"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_PORTRAIT_FAITH_BONUS_MODIFIER" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_PORTRAIT_FAITH_BONUS_MODIFIER" Name="YieldChange" Value="2"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_LANDSCAPE_FAITH_BONUS_MODIFIER" Name="GreatWorkObjectType" Value="GREATWORKOBJECT_LANDSCAPE"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_LANDSCAPE_FAITH_BONUS_MODIFIER" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_LANDSCAPE_FAITH_BONUS_MODIFIER" Name="YieldChange" Value="2"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_RELIGIOUS_FAITH_BONUS_MODIFIER" Name="GreatWorkObjectType" Value="GREATWORKOBJECT_RELIGIOUS"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_RELIGIOUS_FAITH_BONUS_MODIFIER" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="MINOR_CIV_VATICAN_CITY_RELIGIOUS_FAITH_BONUS_MODIFIER" Name="YieldChange" Value="2"/>
+		<Delete ModifierId="MINOR_CIV_JERUSALEM_HOLY_SITE_UPGRADE" />
+		<Row>
+			<ModifierId>MINOR_CIV_JERUSALEM_HOLY_SITE_UPGRADE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CARDINAL_BISHOP_PRESSURE</Value>
+		</Row>	
+	</ModifierArguments>
+	<TraitModifiers>
+		<Row TraitType="MINOR_CIV_CARDIFF_TRAIT" ModifierId="MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_PRODUCTION_LIGHTHOUSE"/>
+		<Row TraitType="MINOR_CIV_CARDIFF_TRAIT" ModifierId="MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_PRODUCTION_SHIPYARD"/>
+		<Row TraitType="MINOR_CIV_CARDIFF_TRAIT" ModifierId="MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_PRODUCTION_SEAPORT"/>
+		<Delete TraitType="MINOR_CIV_AKKAD_TRAIT" ModifierId="MINOR_CIV_AKKAD_UNIQUE_INFLUENCE_BONUS_ANTI_CAVALRY"/>
+		<Delete TraitType="MINOR_CIV_PRESLAV_TRAIT" ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BARRACKS_STABLE_IDENTITY_BONUS"/>
+		<Delete TraitType="MINOR_CIV_PRESLAV_TRAIT" ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_ARMORY_IDENTITY_BONUS"/>
+		<Delete TraitType="MINOR_CIV_PRESLAV_TRAIT" ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_MILITARY_ACADEMY_IDENTITY_BONUS"/>
+		<Row TraitType="MINOR_CIV_PRESLAV_TRAIT" ModifierId="MINOR_CIV_PRESLAV_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_WOLIN_TRAIT" ModifierId="MINOR_CIV_WOLIN_GREAT_GENERAL_SST"/>
+		<Row TraitType="MINOR_CIV_WOLIN_TRAIT" ModifierId="MINOR_CIV_WOLIN_GREAT_ADMIRAL_SST"/>
+		<!--Actually Mitla-->
+		<Row TraitType="MINOR_CIV_PALENQUE_TRAIT" ModifierId="MINOR_CIV_PALENQUE_CAMPUS_FOOD_BONUS"/>
+		<Row TraitType="MINOR_CIV_MUSCAT_TRAIT" ModifierId="MINOR_CIV_MUSCAT_BANK_AMENITY_BONUS"/>
+		<Delete TraitType="MINOR_CIV_KUMASI_TRAIT" ModifierId="MINOR_CIV_KUMASI_UNIQUE_INFLUENCE_TRADE_GOLD_BONUS"/>
+		<Delete TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_HOLY_SITE_WRITER_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_HOLY_SITE_ARTIST_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_WRITING_FAITH_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_SCULPTURE_FAITH_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_PORTRAIT_FAITH_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_LANDSCAPE_FAITH_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_RELIGIOUS_FAITH_BONUS"/>
+	</TraitModifiers>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>INDUSTRIAL_ZONE_PLOT_HAS_SHALLOW_WATER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>INDUSTRIAL_ZONE_PLOT_HAS_SHALLOW_WATER_AND_INDUSTRIAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_INDUSTRIAL_ZONE_INDUSTRIALIZATION</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_CAMPUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>INDUSTRIAL_ZONE_PLOT_HAS_SHALLOW_WATER</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_SHALLOW_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>INDUSTRIAL_ZONE_PLOT_HAS_SHALLOW_WATER</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_INDUSTRIAL_ZONE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>INDUSTRIAL_ZONE_PLOT_HAS_SHALLOW_WATER_AND_INDUSTRIAL</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_SHALLOW_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>INDUSTRIAL_ZONE_PLOT_HAS_SHALLOW_WATER_AND_INDUSTRIAL</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_INDUSTRIAL_ERA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>INDUSTRIAL_ZONE_PLOT_HAS_SHALLOW_WATER_AND_INDUSTRIAL</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_INDUSTRIAL_ZONE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_INDUSTRIAL_ZONE_INDUSTRIALIZATION</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_INDUSTRIAL_ZONE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_INDUSTRIAL_ZONE_INDUSTRIALIZATION</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_INDUSTRIALIZATION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_CAMPUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM_CAMPUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_CAMPUS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 </GameData>

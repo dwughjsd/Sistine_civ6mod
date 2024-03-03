@@ -147,14 +147,8 @@
 		<Replace Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>匈牙利特色建筑。+3点 [ICON_Amenities] 宜居度与+2点 [ICON_PRODUCTION] 生产力，可扩展到6个单元格内的每个市中心。城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。此城中若包含至少1处地热裂缝，则该城市的 [ICON_TOURISM] 旅游业绩+3，同时 [ICON_AMENITIES] 宜居度额外+2。</Text>
 		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_TRADING_DOME_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造圆顶市集的能力。[NEWLINE][NEWLINE]+4 [ICON_GOLD] 金币。每与一个奢侈品资源相邻则+2 [ICON_Gold] 金币。起源城市每有一座圆顶市集，对外国际贸易 [ICON_TradeRoute] 路线提供的 [ICON_GOLD] 金币便+2。无法建在另一座圆顶市集旁。</Text>
-		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造苏美尔特色金字形神塔的能力。[NEWLINE][NEWLINE]+3 [ICON_Science] 科技值。如果紧挨着河流，+2 [ICON_Culture] 文化值。获得“土木工程”市政后将产出更多 [ICON_CULTURE] 文化值。不能建在丘陵上，但可建在泛滥平原上。无法建在另一个金字形神塔旁。</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造“卡霍基亚土墩”的能力。[NEWLINE][NEWLINE]+3 [ICON_GOLD] 金币。城市建造首座卡霍基亚土墩改良设施可提供+1点 [ICON_AMENITIES] 宜居度。发现“殖民主义”后，城市建造的第二座卡霍基亚土墩改良设施可提供+1点 [ICON_AMENITIES] 宜居度。发现“封建主义”后，每2个相邻区域+1 [ICON_FOOD] 食物；或研究“可更换部件”后，每个相邻区域+1 [ICON_FOOD] 食物。提供+1 [ICON_HOUSING] 住房；发现“文化遗产”后，可额外获得1点 [ICON_HOUSING] 住房。无法建造在另一个卡霍基亚土墩旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造埃及特色狮身人面像的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值、+1 [ICON_Culture] 文化值。+2魅力。如果与奇观相邻，+2 [ICON_Faith] 信仰值。如建在泛滥平原上，+1 [ICON_CULTURE] 文化值。获得“殖民主义”市政后将产出更多 [ICON_CULTURE] 文化值。研究完“飞行”后其将提供 [ICON_TOURISM] 旅游业绩。无法建在另一个狮身人面像旁。无法建在雪地或雪地丘陵上。</Text>
@@ -227,7 +221,7 @@
 			<Text>占地3单元格的不可通行自然奇观。为相邻单元格+2 [ICON_Culture] 文化值。若您拥有这些单元格的至少一个，提供2点 [ICON_GREATGENERAL] 大将军点数和2点 [ICON_GREATMERCHANT] 大商人点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_ZANZIBAR_BONUS" Language="zh_Hans_CN">
-			<Text>获得 [ICON_RESOURCE_CINNAMON] 肉桂和 [ICON_RESOURCE_CLOVES] 丁香奢侈资源。这些资源在游戏中无法通过其他方式获得，每种提供3 [ICON_Amenities] 宜居度。</Text>
+			<Text>获得 [ICON_RESOURCE_CINNAMON] 肉桂和 [ICON_RESOURCE_CLOVES] 丁香奢侈资源。这些资源在游戏中无法通过其他方式获得，每种提供4 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
 		<!--Trade route overhaul-->
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
@@ -237,96 +231,144 @@
 			<Text>您城市中进行海军活动的区域。若此城尚未建成商业中心，从此城出发的国内 [ICON_TradeRoute] 贸易路线+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
 		</Replace>
 		<!--City-States-->
-		<!--<Replace Tag="LOC_CIVILIZATION_AKKAD_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+		<Replace Tag="LOC_CIVILIZATION_AKKAD_BONUS" Language="zh_Hans_CN">
+			<Text>陆地近战单位的攻击可对城墙造成全额伤害。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_ANTIOCH_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>您通往国外城市的 [ICON_TradeRoute] 贸易路线可从目的地的每份奢侈资源获得+3 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_ARMAGH_BONUS_XP2" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>您的建造者可建造修道院改良设施。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MONASTERY_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MONASTERY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造修道院的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MONASTERY_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MONASTERY_SHARED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Faith] 信仰值。此单元格上的友方宗教单位生命值恢复+15（前提是其当前回合未发动攻击）。每2个相邻的区域使其+1 [ICON_Culture] 文化值，每处相邻的奢侈资源使其+1 [ICON_Culture] 文化值。提供+1 [ICON_HOUSING] 住房。解锁“殖民主义”市政后获得额外1点 [ICON_HOUSING] 住房。无法建在另一座修道院旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_AUCKLAND_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>建有工业区的城市的海岸单元格+1 [ICON_Production] 生产力。获得工业时代及以后的科技或市政后额外+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_BRUSSELS_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>您的城市在建造建筑和奇观时 [ICON_Production] 生产力+15%。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CAGUANA_BONUS" Language="zh_Hans_CN">
+			<Text>您的建造者现在可以建造改良设施巴特依球场。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_BATEY_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_BATEY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造巴特依球场的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_BATEY_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_BATEY_SHARED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Culture] 文化值。每与1座加成资源和娱乐设施相邻，则+1 [ICON_Culture] 文化值（拥有“探索”市政后+2 [Icon_Culture] 文化值）。研究“飞行”后获得本单元格 [ICON_CULTURE] 文化值产出的50%的 [ICON_Tourism] 旅游业绩。无法建造在另一座巴特依球场旁，也无法建造在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CAHOKIA_BONUS" Language="zh_Hans_CN">
+			<Text>建造者可以建造卡霍基亚土墩改良设施。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MOUND_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造“卡霍基亚土墩”的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MOUND_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUND_SHARED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+3 [ICON_GOLD] 金币。城市建造首座卡霍基亚土墩改良设施可提供+1点 [ICON_AMENITIES] 宜居度。发现“殖民主义”后，城市建造的第二座卡霍基亚土墩改良设施可提供+1点 [ICON_AMENITIES] 宜居度。发现“封建主义”后，每2个相邻区域+1 [ICON_FOOD] 食物；研究“可更换部件”后，每个相邻区域+1 [ICON_FOOD] 食物。提供+1 [ICON_HOUSING] 住房；发现“文化遗产”后，可额外获得1点 [ICON_HOUSING] 住房。无法建造在另一个卡霍基亚土墩旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_CARDIFF_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>每个港口建筑向城市提供+2 [ICON_Power] 电力及+2 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_CHINGUETTI_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>城市每有一个专业化区域，从此城出发的国际 [ICON_TradeRoute] 贸易路线便+2 [ICON_FAITH] 信仰值。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_FEZ_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>一座城市首次因您使用的宗教单位改变主流信仰时，该城市每 [ICON_Citizen] 人口使您获得30点 [ICON_SCIENCE] 科技值（标准速度下）。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_HONG_KONG_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>您的城市在进行项目时[ICON_Production] 生产力+30%。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_HUNZA_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>您的 [ICON_TradeRoute] 贸易路线全程每有3单元格，便产出+1 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_JAKARTA_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>您建在外国城市的 [ICON_TradingPost] 贸易站将使您途经或通往该城市的 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_JERUSALEM_BONUS_XP1" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>您拥有圣地的城市释放的宗教压力+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_JOHANNESBURG_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>建有工业区的城市每有一种已改良资源便+1 [ICON_Production] 生产力。研究“工业化”之后此项加成变为+2 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_KUMASI_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
-		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_LAHORE_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>通往城邦的 [ICON_TradeRoute] 贸易路线的出发城市每有一个专业化区域，便提供+2 [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_LA_VENTA_BONUS_XP2" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>建造者现在能够建造巨神头像改良设施。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_COLOSSAL_HEAD_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_COLOSSAL_HEAD_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造巨神头像的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_COLOSSAL_HEAD_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_COLOSSAL_HEAD_SHARED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Faith] 信仰值。与每2格雨林或每2格森林相邻+1 [ICON_Culture] 文化值，而解锁“人文主义”市政后与每1格雨林或森林相邻便能+1 [ICON_Culture] 文化值。研究“飞行”科技后从本单元格的 [ICON_CULTURE] 文化值产出获得 [ICON_TOURISM] 旅游业绩。无法建在雪地或雪地丘陵上。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_LISBON_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>+2 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_MUSCAT_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>拥有商业中心区域的城市+1 [ICON_Amenities] 宜居度。拥有银行建筑的城市额外+1 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_NALANDA_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>您的建造者现在可以建造大寺改良设施。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MAHAVIHARA_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAHAVIHARA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造大寺的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MAHAVIHARA_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAHAVIHARA_SHARED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_SCIENCE] 科技值、+1 [Icon_Housing] 住房。每与1座圣地区域相邻，则+1 [ICON_Faith] 信仰值；每与1座学院区域相邻，则+1 [ICON_Science] 科技值。研究完“科学理论”之后，每与1座学院相邻则额外+1 [Icon_Science] 科技值。玩家首次建成大寺时将随机获得一项科技。必须建在平坦地貌上，不能与其他大寺相邻。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_NAN_MADOL_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>与海岸或湖泊单元格相邻的区域+1 [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_NAZCA_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>建造者可以建造纳斯卡巨画改良设施。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_NAZCA_LINE_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_NAZCA_LINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造纳斯卡巨画的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_NAZCA_LINE_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_NAZCA_LINE_SHARED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>相邻的单元格+1 [ICON_Faith] 信仰值、+1 [ICON_FOOD] 食物；拥有资源的相邻单元格额外+1 [ICON_Faith] 信仰值、+1 [ICON_FOOD] 食物。研究“大规模生产”后，相邻的平原单元格+1 [ICON_PRODUCTION] 生产力。相邻单元格+1魅力。仅能建在沙漠平原上。此单元格无法放置人口工作。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_NGAZARGAMU_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>城市每座军营建筑使本城购买陆地战斗或支援单位所需的 [ICON_GOLD] 金币减少15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_PALENQUE_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>建有学院区域的城市的农场 +1 [ICON_FOOD] 食物，人口增长加快15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>丘陵上的轻骑兵和重骑兵+5 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_RAPA_NUI_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>建造者可以建造摩艾石像改良设施。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MOAI_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SAMARKAND_BONUS" Language="zh_Hans_CN">
+			<Text>您的建造者现在能够建造圆顶市集改良设施。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_TRADING_DOME_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_TRADING_DOME_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造圆顶市集的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_TRADING_DOME_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_TRADING_DOME_SHARED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+4 [ICON_GOLD] 金币。研究“经济学”后+1 [ICON_Science] 科技值。每与一个奢侈品资源相邻则+2 [ICON_Gold] 金币。起源城市每有一座圆顶市集，对外国际贸易 [ICON_TradeRoute] 路线提供的 [ICON_GOLD] 金币便+2。无法建在另一座圆顶市集旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造摩艾石像的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MOAI_SHARED_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOAI_SHARED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Culture] 文化值。每2个相邻的摩艾石像+1 [ICON_Culture] 文化值，获得“殖民主义”市政后，每个相邻的摩艾石像+1 [ICON_Culture] 文化值。位于火山土单元格之上或与其相邻时，+1 [ICON_Culture] 文化值。与海岸或湖泊单元格相邻时，+1 [ICON_Culture] 文化值。研究“飞行”后获得本单元格 [ICON_CULTURE] 文化值产出的50%的 [ICON_Tourism] 旅游业绩。可建在平原、平原丘陵、草原、草原丘陵或火山土之上。无法建在与树林或雨林相邻的单元格上。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_SINGAPORE_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>每个本城的 [ICON_TradeRoute] 贸易路线通向的外国文明为您的城市+3 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_VATICAN_CITY_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>每件 [ICON_GreatWork_WRITING] 著作和 [ICON_GreatWork_Landscape] 艺术巨作+2 [ICON_FAITH] 信仰值。建有圣地的城市每回合获得+1 [ICON_GreatWriter] 大作家点数和 [ICON_GreatArtist] 大艺术家点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_WOLIN_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>陆地单位击杀主要文明和城邦的单位时获得 [ICON_GreatGeneral] 大将军点数，海军单位完成击杀时获得 [ICON_GreatAdmiral] 海军统帅点数，获得量等同于对方单位战斗力的25%（标准速度下）。每回合获得+2 [ICON_GreatGeneral] 大将军点数和 [ICON_GreatAdmiral] 海军统帅点数。</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_YEREVAN_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
-		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_ZANZIBAR_BONUS" Language="zh_Hans_CN">
-			<Text></Text>
-		</Replace>-->
 		<!--To ensure all trait description consistent-->
 		<Replace Tag="LOC_LEADER_TRAIT_AKKAD_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_AKKAD_BONUS}"/>
 		<Replace Tag="LOC_LEADER_TRAIT_ANTANANARIVO_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_ANTANANARIVO_BONUS}"/>

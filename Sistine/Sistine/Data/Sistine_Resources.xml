@@ -9,8 +9,8 @@
 		<Update><Where ResourceType="RESOURCE_JEANS" /><Set Happiness="4" /></Update>
 		<Update><Where ResourceType="RESOURCE_COSMETICS" /><Set Happiness="4" /></Update>
 		<Update><Where ResourceType="RESOURCE_TOYS" /><Set Happiness="4" /></Update>
-		<Update><Where ResourceType="RESOURCE_CINNAMON" /><Set Happiness="3" /></Update>
-		<Update><Where ResourceType="RESOURCE_CLOVES" /><Set Happiness="3" /></Update>
+		<Update><Where ResourceType="RESOURCE_CINNAMON" /><Set Happiness="4" /></Update>
+		<Update><Where ResourceType="RESOURCE_CLOVES" /><Set Happiness="4" /></Update>
 		<Update><Where ResourceType="RESOURCE_CITRUS" /><Set Happiness="2" /></Update>
 		<Update><Where ResourceType="RESOURCE_COCOA" /><Set Happiness="2" /></Update>
 		<Update><Where ResourceType="RESOURCE_COFFEE" /><Set Happiness="2" /></Update>

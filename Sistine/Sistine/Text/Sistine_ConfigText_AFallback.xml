@@ -227,7 +227,7 @@
 			<Text>Three tile impassable natural wonder. Provides +2 [ICON_Culture] Culture to adjacent tiles. Provides 2 [ICON_GREATGENERAL] Great General points and 2 [ICON_GREATMERCHANT] Great Merchant points if you own at least one of these tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_ZANZIBAR_BONUS" Language="en_US">
-			<Text>Receive the [ICON_RESOURCE_CINNAMON] Cinnamon and [ICON_RESOURCE_CLOVES] Cloves Luxury resources. These cannot be earned any other way in the game, and provide 3 [ICON_Amenities] Amenities each.</Text>
+			<Text>Receive the [ICON_RESOURCE_CINNAMON] Cinnamon and [ICON_RESOURCE_CLOVES] Cloves Luxury resources. These cannot be earned any other way in the game, and provide 4 [ICON_Amenities] Amenities each.</Text>
 		</Replace>
 		<!--Trade route overhaul-->
 		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="en_US">
