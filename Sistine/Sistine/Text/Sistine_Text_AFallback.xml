@@ -1433,5 +1433,9 @@
 		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_DARK_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE}</Text>
 		</Replace>
+		<!--Congress resolution-->
+		<Replace Tag="LOC_WORLD_CONGRESS_DISTRICT_BUILDING_PRODUCTION_DESC" Language="en_US">
+			<Text>+50% [ICON_Production] Production towards buildings in this district.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
