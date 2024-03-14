@@ -236,5 +236,145 @@
 		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="en_US">
 			<Text>A district for naval activity in your city. Domestic [ICON_TradeRoute] Trade Routes from this city provide +1 [ICON_Production] Production and +1 [ICON_Food] Food, and International [ICON_TradeRoute] Trade Routes provide +3 [ICON_Gold] Gold if this city does not yet have a Commercial Hub district. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land. Cannot be built on Reef.</Text>
 		</Replace>
+		<!--City-States-->
+		<Replace Tag="LOC_CIVILIZATION_AKKAD_BONUS" Language="en_US">
+			<Text>Land melee units' attacks do full damage to the city's Walls.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTIOCH_BONUS" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes to foreign cities earn +3 [ICON_Gold] Gold for each Luxury resource at the destination.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MONASTERY_SHARED_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Faith] Faith. +15 HP healing for friendly religious unit on this tile that has not attacked this turn. +1 [ICON_Culture] Culture for every two adjacent districts, and +1 [ICON_Culture] Culture for each adjacent Luxury Resource. +1 [ICON_HOUSING] Housing. Gain an additional 1 [ICON_HOUSING] Housing when the Colonialism civic is researched. Cannot be built next to another Monastery.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AUCKLAND_BONUS" Language="en_US">
+			<Text>Shallow water tiles you own provide +1 [ICON_Production] Production in cities with an Industrial Zone. Additional +1 after researching Industrial era or later technologies or civics.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BRUSSELS_BONUS" Language="en_US">
+			<Text>Your cities get +15% [ICON_Production] Production towards buildings and wonders.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_BATEY_SHARED_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture. +1 [ICON_Culture] Culture for every adjacent Bonus Resource and Entertainment Complex (increased to +2 [Icon_Culture] Culture when Exploration is discovered). Provides [ICON_Tourism] Tourism equal to 50% of its tile's [ICON_Culture] Culture after researching Flight. Cannot be built adjacent to another Batey or on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUND_SHARED_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_GOLD] Gold. Cities receive +1 [ICON_AMENITIES] Amenity from their first Cahokia Mound improvement. Upon discovering Colonialism, cities receive +1 [ICON_AMENITIES] Amenity from their second Cahokia Mound improvement. +1 [ICON_FOOD] Food for every 2 adjacent Districts once Feudalism is discovered or for every adjacent District once Replaceable Parts is researched. Provides +1 [ICON_HOUSING] Housing. Receive an additional [ICON_HOUSING] Housing once Cultural Heritage is discovered. Cannot be built adjacent to other Cahokia Mounds.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CARDIFF_BONUS" Language="en_US">
+			<Text>Cities receive +2 [ICON_Power] Power and +2 [ICON_Production] Production for every Harbor building.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CHINGUETTI_BONUS" Language="en_US">
+			<Text>International [ICON_TradeRoute] Trade Routes receive +2 [ICON_FAITH] Faith for every district in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FEZ_BONUS" Language="en_US">
+			<Text>When you use a religious unit to convert a city for the first time earn 30 [ICON_SCIENCE] Science per [ICON_Citizen] Population of that city (on Standard Speed).</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HONG_KONG_BONUS" Language="en_US">
+			<Text>Your cities get +30% [ICON_Production] Production towards city projects.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HUNZA_BONUS" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 3 tiles they travel.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JAKARTA_BONUS" Language="en_US">
+			<Text>Your [ICON_TradingPost] Trading Posts in foreign cities provide +3 [ICON_Gold] Gold to your [ICON_TradeRoute] Trade Routes passing through or going to the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JERUSALEM_BONUS_XP1" Language="en_US">
+			<Text>Your cities with Holy Sites exert 100% stronger religious pressure to adjacent cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JOHANNESBURG_BONUS" Language="en_US">
+			<Text>Cities with an Industrial Zone receive +1 [ICON_Production] Production for every improved resource type. After researching Industrialization it becomes +2 [ICON_PRODUCTION] Production.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KUMASI_BONUS" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes to any city-state provide +2 [ICON_Culture] Culture for every specialty district in the origin city.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_COLOSSAL_HEAD_SHARED_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Faith] Faith. +1 [ICON_Culture] Culture for every 2 adjacent Rainforest or every 2 adjacent Woods. +1 [ICON_Culture] Culture for every 2 adjacent Rainforest or every 2 adjacent Woods when the Humanism civic is researched. Researching the Flight technology grants [ICON_Tourism] Tourism equal to its [ICON_Culture] Culture. Cannot be built on Snow or Snow Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LISBON_BONUS" Language="en_US">
+			<Text>+2 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MUSCAT_BONUS" Language="en_US">
+			<Text>+1 [ICON_Amenities] Amenity in cities with a Commercial Hub district. Additional +1 [ICON_Amenities] Amenity in cities with a Bank.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MAHAVIHARA_SHARED_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_SCIENCE] Science and +1 [Icon_Housing] Housing. +1 [ICON_Faith] Faith for every adjacent Holy Site district and +1 [ICON_Science] Science for every adjacent Campus district. After researching Scientific Theory receive an additional +1 [Icon_Science] Science for every adjacent Campus. When a player constructs their first Mahavihara receive a random technology. Must be built on flat terrain not adjacent to another Mahavihara.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NAN_MADOL_BONUS" Language="en_US">
+			<Text>Your districts on or next to Coast or Lake tiles provide +1 [ICON_Culture] Culture.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_NAZCA_LINE_SHARED_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Faith] Faith and +1 [ICON_Food] Food to adjacent tiles. +1 [ICON_Faith] Faith and +1 [ICON_Food] Food to adjacent tiles with a resource. +1 [ICON_PRODUCTION] Production to adjacent flat tiles after researching Mass Production. +1 Appeal. Can only be built on flat Desert. This tile cannot be worked.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NGAZARGAMU_BONUS" Language="en_US">
+			<Text>Land combat or Support units are 15% cheaper to purchase with [ICON_GOLD] Gold for each Encampment district building in that city.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_PALENQUE_BONUS" Language="en_US">
+			<Text>Cities with a Campus district receive 15% higher city growth rate and +1 [ICON_Food] Food to Farms.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength to light and heavy cavalry units on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_TRADING_DOME_SHARED_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_GOLD] Gold. +1 [ICON_Science] Science when Economics is researched. +2 [ICON_Gold] Gold for every adjacent Luxury resource. Your outgoing international [ICON_TradeRoute] Trade Routes grant +2 [ICON_GOLD] Gold per Trading Dome at the origin. Cannot be built next to another Trading Dome.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOAI_SHARED_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture. +1 [ICON_Culture] Culture for every 2 adjacent Moai. +1 [ICON_Culture] Culture for each adjacent Moai after researching the Colonialism civic. +1 [ICON_Culture] Culture if on or adjacent to a Volcanic Soil tile. +1 [ICON_Culture] Culture if adjacent to a Coast or Lake tile. Researching the Flight technology grants [ICON_Tourism] Tourism equal to 50% of its [ICON_Culture] Culture. Can be built on Plains, Plains Hills, Grassland, Grassland Hills, or Volcanic Soil. Cannot be placed adjacent to a Woods or Rainforest tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SINGAPORE_BONUS" Language="en_US">
+			<Text>Your cities receive +3 [ICON_Production] Production for each foreign civilization they have a [ICON_TradeRoute] Trade Route to.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_VATICAN_CITY_BONUS" Language="en_US">
+			<Text>+2 [ICON_Faith] Faith from [ICON_GreatWork_Writing] Great Works of Writing and [ICON_GreatWork_Landscape] Great Works of Art. Cities with a Holy Site receive +1 [ICON_GreatWriter] Great Writer and [ICON_GreatArtist] Great Artist point per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_WOLIN_BONUS" Language="en_US">
+			<Text>Receive [ICON_GreatGeneral] Great General points when a land unit defeats a major or minor civilization's unit and receive [ICON_GreatAdmiral] Great Admiral points when a naval unit defeats a major or minor civilization's unit equal to 25% of the opposing unit's strength (Standard Speed). +2 [ICON_GreatGeneral] Great General points and [ICON_GreatAdmiral] Great Admiral points per turn.</Text>
+		</Replace>
+		<!--To ensure all trait description consistent-->
+		<Replace Tag="LOC_LEADER_TRAIT_AKKAD_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_AKKAD_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_ANTANANARIVO_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_ANTANANARIVO_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_ANTIOCH_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_ANTIOCH_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_ARMAGH_EXPANSION2_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_ARMAGH_BONUS_XP2}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_AUCKLAND_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_AUCKLAND_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_AYUTTHAYA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_AYUTTHAYA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_BABYLON_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_BABYLON_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_BOLOGNA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_BOLOGNA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_BRUSSELS_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_BRUSSELS_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_BUENOS_AIRES_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_BUENOS_AIRES_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_CAGUANA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_CAGUANA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_CAHOKIA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_CAHOKIA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_CARDIFF_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_CARDIFF_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_CHINGUETTI_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_CHINGUETTI_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_FEZ_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_FEZ_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_GENEVA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_GENEVA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_GRANADA_EXPANSION2_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_GRANADA_BONUS_XP2}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_HATTUSA_EXPANSION2_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_HATTUSA_BONUS_XP2}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_HONG_KONG_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_HONG_KONG_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_HUNZA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_HUNZA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_JAKARTA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_JAKARTA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_JERUSALEM_DESCRIPTION_EXPANSION" Language="en_US" Text="{LOC_CIVILIZATION_JERUSALEM_BONUS_XP1}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_JOHANNESBURG_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_JOHANNESBURG_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_KABUL_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_KABUL_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_KANDY_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_KANDY_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_KUMASI_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_KUMASI_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_LA_VENTA_EXPANSION2_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_LA_VENTA_BONUS_XP2}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_LAHORE_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_LAHORE_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_LISBON_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_LISBON_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_MEXICO_CITY_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_MEXICO_CITY_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_MITLA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_PALENQUE_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_MOHENJO_DARO_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_MUSCAT_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_MUSCAT_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_NALANDA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_NALANDA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_NAN_MADOL_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_NAN_MADOL_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_NAZCA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_NAZCA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_NGAZARGAMU_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_NGAZARGAMU_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_PRESLAV_BONUS_XP1}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_RAPA_NUI_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_RAPA_NUI_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_SAMARKAND_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_SAMARKAND_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_SINGAPORE_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_SINGAPORE_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_TARUGA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_TARUGA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_VALLETTA_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_VALLETTA_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_VATICAN_CITY_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_VATICAN_CITY_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_VILNIUS_BONUS_XP1}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_WOLIN_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_WOLIN_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_YEREVAN_BONUS}"/>
+		<Replace Tag="LOC_LEADER_TRAIT_ZANZIBAR_DESCRIPTION" Language="en_US" Text="{LOC_CIVILIZATION_ZANZIBAR_BONUS}"/>
 	</LocalizedText>
 </GameData>
