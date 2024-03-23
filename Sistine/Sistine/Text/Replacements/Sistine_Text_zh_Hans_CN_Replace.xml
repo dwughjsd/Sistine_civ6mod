@@ -16,6 +16,7 @@
 		<Replace Tag="LOC_BUILDING_WORKSHOP_NAME" Language="zh_Hans_CN" Text="工坊"/>
 		<Replace Tag="LOC_BUILDING_CASTLE_NAME" Language="zh_Hans_CN" Text="中古城墙"/>
 		<Replace Tag="LOC_BUILDING_STAR_FORT_NAME" Language="zh_Hans_CN" Text="启蒙城墙"/>
+		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_NAME" Language="zh_Hans_CN" Text="阿兹特克大神庙"/>
 		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_NAME" Language="zh_Hans_CN" Text="阿蒙森-斯科特研究站"/>
 		<Replace Tag="LOC_BUILDING_GOV_MILITARY_NAME" Language="zh_Hans_CN" Text="战争部"/>
 		<!--Techs and civics-->
