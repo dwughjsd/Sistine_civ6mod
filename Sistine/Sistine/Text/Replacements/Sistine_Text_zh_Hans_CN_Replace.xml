@@ -363,6 +363,7 @@
 		<Replace Tag="LOC_GREATWORK_GIL_2_NAME" Language="zh_Hans_CN" Text="《新娘的梳妆》"/>
 		<Replace Tag="LOC_GREATWORK_RUBLEV_2_NAME" Language="zh_Hans_CN" Text="《荣耀救主》"/>
 		<Replace Tag="LOC_GREATWORK_KAUFFMAN_3_NAME" Language="zh_Hans_CN" Text="《缪斯女神萨拉·哈罗普》"/>
+		<Replace Tag="LOC_GREATWORK_LEWIS_1_NAME" Language="zh_Hans_CN" Text="《克利奥帕特拉之死》"/>
 		<Replace Tag="LOC_GREATWORK_LEWIS_2_NAME" Language="zh_Hans_CN" Text="《海华沙与明尼哈哈之婚》"/>
 		<Replace Tag="LOC_GREATWORK_GRECO_1_NAME" Language="zh_Hans_CN" Text="《博士来拜》"/>
 		<Replace Tag="LOC_GREATWORK_GRECO_3_NAME" Language="zh_Hans_CN" Text="《托莱多之景》"/>

@@ -194,5 +194,185 @@
 		<Replace Tag="LOC_CIVILIZATION_YEREVAN_BONUS" Language="zh_Hans_CN">
 			<Text>您的使徒单位可以从所有可能的升级中选择一项，而不限于随机得到的选项。</Text>
 		</Replace>
+		<!--Civ and Leaders-->
+		<Replace Tag="LOC_CITIZEN_GREECE_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>巴西尔</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_BASIL_NAME" Language="zh_Hans_CN">
+			<Text>巴西尔二世</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BYZANTINE_TAGMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>巴西尔二世的特色中古时代单位，替代骑士。甲胄骑兵1单元格范围内的陆地单位+4 [ICON_Strength] 战斗力或 [ICON_RELIGION] 宗教战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BYZANTIUM_GAUL_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>新文明和领袖——拜占庭的巴西尔二世和高卢的安比奥里克斯</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BASIL_TITLE" Language="zh_Hans_CN">
+			<Text>巴西尔二世</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BASIL_QUOTE" Language="zh_Hans_CN">
+			<Text>我是巴西尔，保加利亚屠夫。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BASIL_ANY" Language="zh_Hans_CN">
+			<Text>你正站在巴西尔面前——我是罗马人的独裁者与皇帝，也是敌人的灾祸。看吧，这就是罗马！</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BARBAROSSA_TITLE" Language="zh_Hans_CN">
+			<Text>红胡子腓特烈</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_BARBAROSSA_NAME" Language="zh_Hans_CN">
+			<Text>红胡子腓特烈</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BARBAROSSA_ANY" Language="zh_Hans_CN">
+			<Text>您好。我是神圣罗马皇帝、德国、意大利、勃艮第，以及许多其他王国的国王。我相信您统治领土的方式和我一样：通过武力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HARDRADA_TITLE" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HARDRADA_NAME" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_NORWEGIAN_LONGSHIP_NAME" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德特色单位：维京长船</Text>
+		</Replace>
+		<Replace Tag="LOC_RULERS_OF_ENGLAND_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>全新备选领袖 - 英国的伊丽莎白一世、挪威的无情者哈拉尔德（瓦良格人）、英国的维多利亚（蒸汽时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_RULERS_OF_ENGLAND_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>含有现有文明的3位新备选领袖。包括伊丽莎白一世、无情者哈拉尔德（瓦良格人）和维多利亚（蒸汽时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HARDRADA_ORIGINAL_NAME" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德（北境之王）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HARALD_ALT_NAME" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德（瓦良格人）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HARDRADA_TITLE" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德（北境之王）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HARALD_ALT_TITLE" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德（瓦良格人）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEVIED_HARALD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>击杀时获得等同于对手 [ICON_STRENGTH] 战斗力50%的 [ICON_CULTURE] 文化值、[ICON_FAITH] 信仰值和 [ICON_SCIENCE] 科技值。{LOC_LEADER_HARALD_ALT_NAME}</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_TITLE" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉七世</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_CLEOPATRA_NAME" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_CLEOPATRA_ANY" Language="zh_Hans_CN">
+			<Text>我是重生的伊西斯，是尼罗河的化身。我是克利奥帕特拉，如果您有价值的话，也是您的盟友。</Text>
+		</Replace>
+		<Replace Tag="LOC_RULERS_OF_THE_SAHARA_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>全新备选领袖 - 埃及的拉美西斯二世、马里的松迪亚塔·凯塔、埃及的克利奥帕特拉（托勒密）</Text>
+		</Replace>
+		<Replace Tag="LOC_RULERS_OF_THE_SAHARA_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>含有现有文明的3位新备选领袖。包括拉美西斯二世、松迪亚塔·凯塔和克利奥帕特拉（托勒密）。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_CLEOPATRA_ORIGINAL_NAME" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉（埃及人）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_CLEOPATRA_ALT_NAME" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉（托勒密）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_TITLE" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉（埃及人）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_ALT_TITLE" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉（托勒密）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_LADY_SIX_SKY_NAME" Language="zh_Hans_CN">
+			<Text>六天夫人</Text>
+		</Replace>
+		<Replace Tag="LOC_GRANCOLOMBIA_MAYA_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>新文明和领袖——玛雅的六天夫人和大哥伦比亚的西蒙·玻利瓦尔</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LADY_SIX_SKY_TITLE" Language="zh_Hans_CN">
+			<Text>六天夫人</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LADY_SIX_SKY_QUOTE" Language="zh_Hans_CN">
+			<Text>我是六天夫人，令敌人悉数跪倒的战士。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_LADY_SIX_SKY_ANY" Language="zh_Hans_CN">
+			<Text>在你面前的是六天夫人。我是女祭司、战士，以及玛雅女王。你好。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NEIGHBOR" Language="zh_Hans_CN">
+			<Text>六天夫人不满您在她的城市附近定居。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NOT_NEIGHBOR" Language="zh_Hans_CN">
+			<Text>六天夫人很高兴您的定居点远离她的帝国。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_MANSA_MUSA_NAME" Language="zh_Hans_CN">
+			<Text>曼萨·穆萨</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MANSA_MUSA_TITLE" Language="zh_Hans_CN">
+			<Text>曼萨·穆萨</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_SEONDEOK_NAME" Language="zh_Hans_CN">
+			<Text>善德女王</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_LEADER_SULEIMAN_NAME" Language="zh_Hans_CN">
+			<Text>苏莱曼</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_SULEIMAN_ORIGINAL_NAME" Language="zh_Hans_CN">
+			<Text>苏莱曼（立法者）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_SULEIMAN_ALT_NAME" Language="zh_Hans_CN">
+			<Text>苏莱曼（大帝）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_QIN_ORIGINAL_NAME" Language="zh_Hans_CN">
+			<Text>秦始皇（天命所归）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QIN_ALT_NAME" Language="zh_Hans_CN">
+			<Text>秦始皇（一统天下）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_QIN_ORIGINAL_NAME" Language="zh_Hans_CN">
+			<Text>Qin Shi Huang (Mandate of Heaven)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QIN_ALT_NAME" Language="zh_Hans_CN">
+			<Text>Qin Shi Huang (Unifier)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_TITLE" Language="zh_Hans_CN">
+			<Text>Qin Shi Huang (Mandate of Heaven)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_ALT_TITLE" Language="zh_Hans_CN">
+			<Text>Qin Shi Huang (Unifier)</Text>
+		</Replace>
+		
+		<!--Agendas-->
+		<Replace Tag="LOC_AGENDA_SAGA_NAME" Language="zh_Hans_CN">
+			<Text>哈拉尔德的传奇</Text>
+		</Replace>
+		
+		<!--Loading Info-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BASIL" Language="zh_Hans_CN">
+			<Text>敌人将在你的脚下颤抖，巴西尔二世国王，因为您已经历战火的千锤百炼。让您的机智和雄心磨砺您的战刃吧，捍卫您的荣耀，直面城墙内外的敌人。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BARBAROSSA" Language="zh_Hans_CN">
+			<Text>英勇的腓特烈，德意志人的国王，您的任务是将环绕您周围的独立小国统一进您的帝国。您是天生的军事领袖——用您的统帅能力让这些城市落入您的手中，这样它们便可以发展发达的商业和工业。随后，吟游诗人想必会歌颂强大的红胡子腓特烈，伟大的神圣罗马帝国皇帝。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CLEOPATRA" Language="zh_Hans_CN">
+			<Text>总会有人低估您，克利奥帕特拉女王。但您的确足智多谋，而您的魅力将会让您同世上最强大的领袖建立牢不可破的联盟。让您的朋友紧密拥护您，您就能使自身坚不可摧，同时让埃及的荣耀足以令整个世界折服。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LADY_SIX_SKY" Language="zh_Hans_CN">
+			<Text>六天夫人，多斯皮拉斯和瓦克卡布纳尔的伟大战士之母，带领您的人民走向全新的王朝吧。让您的力量足以伸向远方，便可讨伐四方之敌。诸神将指引您，而您又将指引您忠实的子民迈向胜利。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MANSA_MUSA" Language="zh_Hans_CN">
+			<Text>曼萨·穆萨，伟大的马里国王，您虽然拥有常人难有概念的巨富，但却从未被金钱所腐蚀。放弃对世俗铜臭的执着，抬眼看向上天，满足您内心对和平的渴望吧。为子民们守护好这片土地的繁荣，这样您的名字在历史中将如黄金般闪耀。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SULEIMAN" Language="zh_Hans_CN">
+			<Text>赞美您，立法者苏莱曼，名副其实的大帝！您是奥斯曼宫廷之主，忠实的仆人时刻准备着将您的旨意传至您辽阔疆土中最远之处，而敌人也将在您的大军面前瑟瑟发抖。众苏丹之苏丹，众可汗之可汗啊，带领人民走向辉煌吧。</Text>
+		</Replace>
+
 	</LocalizedText>
 </GameData>
