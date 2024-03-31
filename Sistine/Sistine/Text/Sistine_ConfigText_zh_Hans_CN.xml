@@ -418,5 +418,13 @@
 		<Replace Tag="LOC_LEADER_TRAIT_WOLIN_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_WOLIN_BONUS}"/>
 		<Replace Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_YEREVAN_BONUS}"/>
 		<Replace Tag="LOC_LEADER_TRAIT_ZANZIBAR_DESCRIPTION" Language="zh_Hans_CN" Text="{LOC_CIVILIZATION_ZANZIBAR_BONUS}"/>
+		
+		<!--Leader traits-->
+		<Replace Tag="LOC_TRAIT_LEADER_ANTIQUES_AND_PARKS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与自然奇观或山脉相邻的惊艳单元格+1 [ICON_SCIENCE] 科技值。与自然奇观或树林相邻的惊艳单元格+1 [ICON_CULTURE] 文化值。如拥有国家公园，城市的所有单元格+2魅力。建立在惊艳单元格上的城市获得1个免费的自然学家。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_ROUGH_RIDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在首都所在大陆上时单位+5 [ICON_Strength] 战斗力。向城邦派遣的首个 [ICON_Envoy] 使者视为2位。如与城邦之间存在 [ICON_TradeRoute] 贸易路线，派往此处的1位 [ICON_Envoy] 使者将视为2位。解锁“膛线”科技后获得特色单位“莽骑兵”。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

@@ -1,4 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-
+    <!--Roosevelt Bull Moose-->
+    <TraitModifiers>
+        <Row TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="TRAIT_FREE_NATURALIST_ON_BREATHTAKING"/>
+        <Row TraitType="TRAIT_LEADER_ROOSEVELT_COROLLARY" ModifierId="DIPLOMATICLEAGUE_DUPLICATEFIRSTINFLUENCETOKEN"/>
+    </TraitModifiers>
+    <Modifiers>
+        <Row>
+			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+        <Row>
+			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+            <SubjectRequirementSetId>PLOT_BREATHTAKING_APPEAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+		<Update><Where ModifierId="TRAIT_ANTIQUES_AND_PARKS_CULTURE_FORESTS_OR_WONDERS" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="TRAIT_ANTIQUES_AND_PARKS_SCIENCE_NATIONAL_WONDERS_OR_MOUNTAINS" Name="Amount"/><Set Value="1"/></Update>
+        <Update><Where ModifierId="TRAIT_NATIONAL_PARK_APPEAL_BONUS" Name="Amount"/><Set Value="2"/></Update>
+        <Row>
+			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_NATURALIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+    </ModifierArguments>
 </GameData>

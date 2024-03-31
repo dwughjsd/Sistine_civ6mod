@@ -213,18 +213,12 @@
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BASIL_QUOTE" Language="zh_Hans_CN">
 			<Text>我是巴西尔，保加利亚屠夫。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BASIL_ANY" Language="zh_Hans_CN">
-			<Text>你正站在巴西尔面前——我是罗马人的独裁者与皇帝，也是敌人的灾祸。看吧，这就是罗马！</Text>
-		</Replace>
-		
+
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BARBAROSSA_TITLE" Language="zh_Hans_CN">
 			<Text>红胡子腓特烈</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_BARBAROSSA_NAME" Language="zh_Hans_CN">
 			<Text>红胡子腓特烈</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BARBAROSSA_ANY" Language="zh_Hans_CN">
-			<Text>您好。我是神圣罗马皇帝、德国、意大利、勃艮第，以及许多其他王国的国王。我相信您统治领土的方式和我一样：通过武力。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HARDRADA_TITLE" Language="zh_Hans_CN">
@@ -264,9 +258,7 @@
 		<Replace Tag="LOC_LEADER_CLEOPATRA_NAME" Language="zh_Hans_CN">
 			<Text>克利奥帕特拉</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_CLEOPATRA_ANY" Language="zh_Hans_CN">
-			<Text>我是重生的伊西斯，是尼罗河的化身。我是克利奥帕特拉，如果您有价值的话，也是您的盟友。</Text>
-		</Replace>
+
 		<Replace Tag="LOC_RULERS_OF_THE_SAHARA_MOD_TEASER" Language="zh_Hans_CN">
 			<Text>全新备选领袖 - 埃及的拉美西斯二世、马里的松迪亚塔·凯塔、埃及的克利奥帕特拉（托勒密）</Text>
 		</Replace>
@@ -294,18 +286,6 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LADY_SIX_SKY_TITLE" Language="zh_Hans_CN">
 			<Text>六天夫人</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LADY_SIX_SKY_QUOTE" Language="zh_Hans_CN">
-			<Text>我是六天夫人，令敌人悉数跪倒的战士。</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_LADY_SIX_SKY_ANY" Language="zh_Hans_CN">
-			<Text>在你面前的是六天夫人。我是女祭司、战士，以及玛雅女王。你好。</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NEIGHBOR" Language="zh_Hans_CN">
-			<Text>六天夫人不满您在她的城市附近定居。</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NOT_NEIGHBOR" Language="zh_Hans_CN">
-			<Text>六天夫人很高兴您的定居点远离她的帝国。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_LEADER_MANSA_MUSA_NAME" Language="zh_Hans_CN">
@@ -336,25 +316,25 @@
 			<Text>秦始皇（一统天下）</Text>
 		</Replace>
 
-		<Replace Tag="LOC_LEADER_QIN_ORIGINAL_NAME" Language="zh_Hans_CN">
+		<Replace Tag="LOC_LEADER_QIN_ORIGINAL_NAME" Language="en_US">
 			<Text>Qin Shi Huang (Mandate of Heaven)</Text>
 		</Replace>
-		<Replace Tag="LOC_LEADER_QIN_ALT_NAME" Language="zh_Hans_CN">
+		<Replace Tag="LOC_LEADER_QIN_ALT_NAME" Language="en_US">
 			<Text>Qin Shi Huang (Unifier)</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_TITLE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_TITLE" Language="en_US">
 			<Text>Qin Shi Huang (Mandate of Heaven)</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_ALT_TITLE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_ALT_TITLE" Language="en_US">
 			<Text>Qin Shi Huang (Unifier)</Text>
 		</Replace>
 
 		<!--Traits-->
 		<Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_HOLY_CITIES_CONVERTED_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>天授规矩特质+{1_Amount}战斗力</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_BYZANTIUM_NAME}特质+{1_Amount}战斗力</Text>
 		</Replace>
 		<Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_HOLY_CITIES_CONVERTED_RELIGIOUS_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>天授规矩特质+{1_Amount}宗教战斗力</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_BYZANTIUM_NAME}特质+{1_Amount}宗教战斗力</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_SALADIN_ALT_NAME" Language="zh_Hans_CN">
 			<Text>胜利者萨拉丁</Text>
@@ -450,7 +430,7 @@
 			<Text>[ICON_Capital] 首都6个单元格内的单位+5 [ICON_Strength] 战斗力（穆塔尔女皇）</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_MUTAL_NEAR_CAPITAL_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>穆塔尔女皇特质+{1_Amount}战斗力</Text>
+			<Text>{LOC_TRAIT_LEADER_MUTAL_NAME}特质+{1_Amount}战斗力</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HARALD_ALT_NAME" Language="zh_Hans_CN">
 			<Text>瓦良格卫队</Text>
@@ -475,10 +455,10 @@
 			<Text>驱除侵略</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TRIEU_FRIENDLY_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>驱除侵略特质+{1_Amount}战斗力</Text>
+			<Text>{LOC_TRAIT_LEADER_TRIEU_NAME}特质+{1_Amount}战斗力</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TRIEU_UNFRIENDLY_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>驱除侵略特质+{1_Amount}战斗力</Text>
+			<Text>{LOC_TRAIT_LEADER_TRIEU_NAME}特质+{1_Amount}战斗力</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_AMABUTHO_NAME" Language="zh_Hans_CN">
 			<Text>伊布托军团</Text>
@@ -793,6 +773,74 @@
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_SULEIMAN" Language="zh_Hans_CN">
 			<Text>赞美您，立法者苏莱曼，名副其实的大帝！您是奥斯曼宫廷之主，忠实的仆人时刻准备着将您的旨意传至您辽阔疆土中最远之处，而敌人也将在您的大军面前瑟瑟发抖。众苏丹之苏丹，众可汗之可汗啊，带领人民走向辉煌吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_T_ROOSEVELT" Language="zh_Hans_CN">
+			<Text>一切都落在您宽大的肩上，西奥多·罗斯福，您要冲锋在前，带领您的人民进行伟大冒险。善用您的军事力量，以便给予祖国人民长久以来应得的公平施政。您必将带领美国跃升为万众瞩目的焦点，吸引游客跨越重洋前来参观您的国家。总统先生，您真是太棒了。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SALADIN" Language="zh_Hans_CN">
+			<Text>结合科学和宗教是件需要微妙平衡之事，但您，萨拉丁，正精通于此。您对知识的追寻难能可贵，您的国民也由此对您深深敬重。但您不需要急于闯入未知领域，只要给它一些时间，人生中最难解的问题的答案将会找到回到阿拉伯的路。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JOHN_CURTIN" Language="zh_Hans_CN">
+			<Text>科廷总理，您将带领澳大利亚迎接一个又一个挑战，您的人民会由此变得更强大。其他人将会寻求与您建立友谊，以期获得您的力量。若这些朋友真心对您忠诚，您提供的军力和保护将让您取得更大成就。但务必保持警惕，因为被利用来施行侵略并非您的正道。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MONTEZUMA" Language="zh_Hans_CN">
+			<Text>蒙特祖玛特拉托瓦尼，让您的雕战士愉快而饱足，他们就将永远为您的事业而战。当您的阿兹特克帝国在大地上铺展开时，永远不会缺少修建城墙的劳力——因为当您征服周围人时，总会有新的忠诚工人到来。前进吧，战神维齐洛波奇特利已发出召唤。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_HAMMURABI" Language="zh_Hans_CN">
+			<Text>伟大的汉谟拉比，您的命令便是法条。你以法典作为个人生活和领导臣民的准则，而你的帝国也将以此为纲。在你眼中，世界就是联盟、机遇和风险交织的一张复杂巨网。在您建设帝国以期一统美索不达米亚时，请谨慎权衡这一切。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PEDRO" Language="zh_Hans_CN">
+			<Text>佩德罗二世皇帝，您的国民指望您带领巴西走向世界舞台。使用您的声望来赞助艺术家、科学和工程师吧，将这些最杰出的智者吸引到我们这片沃土上来。在这郁郁葱葱、生机盎然的雨林中，您的国民得以生息繁荣。高尚者佩德罗，观看他们在嘉年华上跳起的桑巴舞吧，他们正是在歌颂您的丰功伟绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_THEODORA" Language="zh_Hans_CN">
+			<Text>狄奥多拉女皇，您出身微末，却一跃成为罗马帝国余部的统治者。你用智慧和美貌征服了君士坦丁堡的人民，让自己的双手牢牢紧握权力之舵。在纷争与分裂的时代中，愿天下人都听从你的旨意，在土地上印下你光辉的印记。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LAURIER" Language="zh_Hans_CN">
+			<Text>威尔弗里德·劳雷尔，您选择了阳光之道，将乐观与礼貌注入了加拿大人的品格之中。心怀叵测之人谋求分裂散播猜疑之时，您挺身而出，激励人民共同携手、相互理解。向世界证明这一点吧：齐心协力的人民可以长久经受住时间的考验。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_QIN" Language="zh_Hans_CN">
+			<Text>秦始皇，您的国民是您最强大的力量。人们从世界各地云集而来，皆为仰望由您统一的中国建设的万里长城和高耸奇观。在您的人民辛勤劳作，修建世人所知最为雄伟的建筑时，愿他们的双手免受劳损。好好保护您的国民，您便将名垂千古。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_KUBLAI_KHAN_CHINA" Language="zh_Hans_CN">
+			<Text>忽必烈，成吉思汗之孙，您建立帝国的功业将比肩祖父。您深谙何时须韬光养晦，何时又当长剑出鞘。在您的征途中，智慧和政治手腕将帮助您，使您的武功如虎添翼。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_KUBLAI_KHAN_MONGOLIA" Language="zh_Hans_CN">
+			<Text>{LOC_LOADING_INFO_LEADER_KUBLAI_KHAN_CHINA}</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_YONGLE" Language="zh_Hans_CN">
+			<Text>大明永乐皇帝，世界等待着您。伸出手，抓住其中的财富和知识。令您的江山位处天下中心，以至万国来朝进贡，仰贺圣明主。莫使宵小之徒出言不逊。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_WU_ZETIAN" Language="zh_Hans_CN">
+			<Text>武则天女皇，您白手起家，一路崛起直至权倾中国。别让宫廷诡计阻碍您的脚步，因为您的智慧胜过一切阴谋。无论是通过画师的笔墨、自己的雄辩之术，还是淬毒的利刃，您都将战胜敌人，让世人臣服于裙下——无论是出于爱戴或是恐惧，其实都无甚差别。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_POUNDMAKER" Language="zh_Hans_CN">
+			<Text>庞德梅克，您毫无怨言地肩负着克里人的命运。您手下勇士的能征善战毋庸置疑，但他们须仰仗您的智慧——如果不能保护家园，打击敌人则毫无意义。在变幻莫测的世界风云中，您将携手盟友走向长久的未来，而孤立无援之人注定将孤独而亡。</Text>
+		</Replace>
+		<!--Fix lost spaces between words and the dash.-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_POUNDMAKER" Language="en_US">
+			<Text>Poundmaker, you bear the fate of the Cree without complaint. None doubt the skill of your warriors, but they rely upon your wisdom — striking your enemies does no good if you cannot protect your homes. As the world changes in unexpected ways, your alliances will bind you to a lasting future. Those who stand alone die alone.</Text>
+		</Replace>
+		<!--Diplo statements-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BASIL_ANY" Language="zh_Hans_CN">
+			<Text>你正站在巴西尔面前——我是罗马人的独裁者与皇帝，也是敌人的灾祸。看吧，这就是罗马！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BARBAROSSA_ANY" Language="zh_Hans_CN">
+			<Text>您好。我是神圣罗马皇帝、德国、意大利、勃艮第，以及许多其他王国的国王。我相信您统治领土的方式和我一样：通过武力。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_CLEOPATRA_ANY" Language="zh_Hans_CN">
+			<Text>我是重生的伊西斯，是尼罗河的化身。我是克利奥帕特拉，如果您有价值的话，也是您的盟友。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LADY_SIX_SKY_QUOTE" Language="zh_Hans_CN">
+			<Text>我是六天夫人，令敌人悉数跪倒的战士。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_LADY_SIX_SKY_ANY" Language="zh_Hans_CN">
+			<Text>在你面前的是六天夫人。我是女祭司、战士，以及玛雅女王。你好。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NEIGHBOR" Language="zh_Hans_CN">
+			<Text>六天夫人不满您在她的城市附近定居。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NOT_NEIGHBOR" Language="zh_Hans_CN">
+			<Text>六天夫人很高兴您的定居点远离她的帝国。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
