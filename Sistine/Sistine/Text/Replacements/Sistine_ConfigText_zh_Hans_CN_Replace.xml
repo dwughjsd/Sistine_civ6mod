@@ -757,7 +757,7 @@
 
 		<!--Loading Info-->
 		<Replace Tag="LOC_LOADING_INFO_LEADER_BASIL" Language="zh_Hans_CN">
-			<Text>敌人将在你的脚下颤抖，巴西尔二世国王，因为您已经历战火的千锤百炼。让您的机智和雄心磨砺您的战刃吧，捍卫您的荣耀，直面城墙内外的敌人。</Text>
+			<Text>敌人将在您的脚下颤抖，巴西尔二世国王，因为您已经历战火的千锤百炼。让您的机智和雄心磨砺您的战刃吧，捍卫您的荣耀，直面城墙内外的敌人。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_BARBAROSSA" Language="zh_Hans_CN">
 			<Text>英勇的腓特烈，德意志人的国王，您的任务是将环绕您周围的独立小国统一进您的帝国。您是天生的军事领袖——用您的统帅能力让这些城市落入您的手中，这样它们便可以发展发达的商业和工业。随后，吟游诗人想必会歌颂强大的红胡子腓特烈，伟大的神圣罗马帝国皇帝。</Text>
@@ -787,13 +787,13 @@
 			<Text>蒙特祖玛特拉托瓦尼，让您的雕战士愉快而饱足，他们就将永远为您的事业而战。当您的阿兹特克帝国在大地上铺展开时，永远不会缺少修建城墙的劳力——因为当您征服周围人时，总会有新的忠诚工人到来。前进吧，战神维齐洛波奇特利已发出召唤。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_HAMMURABI" Language="zh_Hans_CN">
-			<Text>伟大的汉谟拉比，您的命令便是法条。你以法典作为个人生活和领导臣民的准则，而你的帝国也将以此为纲。在你眼中，世界就是联盟、机遇和风险交织的一张复杂巨网。在您建设帝国以期一统美索不达米亚时，请谨慎权衡这一切。</Text>
+			<Text>伟大的汉谟拉比，您的命令便是法条。您以法典作为个人生活和领导臣民的准则，而您的帝国也将以此为纲。在您眼中，世界就是联盟、机遇和风险交织的一张复杂巨网。在您建设帝国以期一统美索不达米亚时，请谨慎权衡这一切。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_PEDRO" Language="zh_Hans_CN">
 			<Text>佩德罗二世皇帝，您的国民指望您带领巴西走向世界舞台。使用您的声望来赞助艺术家、科学和工程师吧，将这些最杰出的智者吸引到我们这片沃土上来。在这郁郁葱葱、生机盎然的雨林中，您的国民得以生息繁荣。高尚者佩德罗，观看他们在嘉年华上跳起的桑巴舞吧，他们正是在歌颂您的丰功伟绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_THEODORA" Language="zh_Hans_CN">
-			<Text>狄奥多拉女皇，您出身微末，却一跃成为罗马帝国余部的统治者。你用智慧和美貌征服了君士坦丁堡的人民，让自己的双手牢牢紧握权力之舵。在纷争与分裂的时代中，愿天下人都听从你的旨意，在土地上印下你光辉的印记。</Text>
+			<Text>狄奥多拉女皇，您出身微末，却一跃成为罗马帝国余部的统治者。您用智慧和美貌征服了君士坦丁堡的人民，让自己的双手牢牢紧握权力之舵。在纷争与分裂的时代中，愿天下人都听从您的旨意，在土地上印下您光辉的印记。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_LAURIER" Language="zh_Hans_CN">
 			<Text>威尔弗里德·劳雷尔，您选择了阳光之道，将乐观与礼貌注入了加拿大人的品格之中。心怀叵测之人谋求分裂散播猜疑之时，您挺身而出，激励人民共同携手、相互理解。向世界证明这一点吧：齐心协力的人民可以长久经受住时间的考验。</Text>
@@ -816,9 +816,86 @@
 		<Replace Tag="LOC_LOADING_INFO_LEADER_POUNDMAKER" Language="zh_Hans_CN">
 			<Text>庞德梅克，您毫无怨言地肩负着克里人的命运。您手下勇士的能征善战毋庸置疑，但他们须仰仗您的智慧——如果不能保护家园，打击敌人则毫无意义。在变幻莫测的世界风云中，您将携手盟友走向长久的未来，而孤立无援之人注定将孤独而亡。</Text>
 		</Replace>
-		<!--Fix lost spaces between words and the dash.-->
-		<Replace Tag="LOC_LOADING_INFO_LEADER_POUNDMAKER" Language="en_US">
-			<Text>Poundmaker, you bear the fate of the Cree without complaint. None doubt the skill of your warriors, but they rely upon your wisdom — striking your enemies does no good if you cannot protect your homes. As the world changes in unexpected ways, your alliances will bind you to a lasting future. Those who stand alone die alone.</Text>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_WILHELMINA" Language="zh_Hans_CN">
+			<Text>威廉明娜女王，您将长久地守卫荷兰，至死不渝。利用荷兰人的奇思妙想，将海岸变为农田。在强大战舰的保护之下，您的子民将积极高效地劳作。最重要的是，要与您所见的每个人贸易。一笔好交易足可化敌为友；而拒绝贸易的话，资金便会流向您的敌人。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_RAMSES" Language="zh_Hans_CN">
+			<Text>拉美西斯，红土地和黑土地的法老，您就像荷鲁斯一样受人爱戴，骄傲的面容被刻成无数石像，凝望着茫茫沙漠。其他人自称神的信使，而您自称太阳的化身。在埃及的石凿神庙中，您将子民召唤到自己周围。发号施令吧，愿无人胆敢抵挡这汹涌上涨的洪流。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_VICTORIA" Language="zh_Hans_CN">
+			<Text>英国的维多利亚女王陛下，将您的影响力伸出国境，使其横跨整个地球表面吧。无需担心失败的可能，您忠诚的红衫军和势不可挡的海军必将获胜。以冷静稳健的行动，您能将所有土地纳入英国统治，建立起真正的不列颠治世。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ELEANOR_FRANCE" Language="zh_Hans_CN">
+			<Text>阿基坦女公爵，两地的摄政者，游吟诗人的资助人，爱之法庭的裁判官，再度登上王位吧。启发子民的心智，他们便将高声欢呼着，聚集在您的旗帜之下——因为了解您的统治之人便知晓您的慈悲。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ELEANOR_ENGLAND" Language="zh_Hans_CN">
+			<Text>{LOC_LOADING_INFO_LEADER_ELEANOR_FRANCE}</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ELIZABETH" Language="zh_Hans_CN">
+			<Text>伊丽莎白女皇，英国的童贞女王，海洋之主，您指挥着海上的木制堡垒，保卫英国免遭觊觎者侵犯。防范国内外的阴谋诡计，让您的船长们听您号令扬帆起航。不要向任何人低头，不列颠尼亚便将统治海洋！</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MENELIK" Language="zh_Hans_CN">
+			<Text>孟尼利克二世，伟大的帝王，您对您的国民颇有眼光。您将广结盟友、投身工业，用自己的聪明才智将埃塞俄比亚带入光明而自由的未来。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CATHERINE_DE_MEDICI" Language="zh_Hans_CN">
+			<Text>责任落在了您的头上，凯瑟琳·德·美第奇，您要利用您知识和艺术上的天赋，将人民团结成一体。小心翼翼地度过困难时期吧，法国的王太后。您将会建造伟大奇观，吸引世界各地游客。有您对光天化日下和暗流涌动中的一切事物的敏锐感知，您的帝国必能经受住时间考验。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_AMBIORIX" Language="zh_Hans_CN">
+			<Text>安比奥里克斯，您的才智便是最强大的武器。即使军队以寡敌众，您也可以凭自己的头脑和三寸不烂之舌夺回故土。您的盟友将坦然听从您的领导，而您的强大矛兵将粉碎敌人的负隅顽抗。战斗吧，伟大的战士国王！</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_TAMAR" Language="zh_Hans_CN">
+			<Text>勇猛的塔玛丽，只有昏聩之人才会误判格鲁吉亚的真正力量。忠诚的氏族战士将从山丘上发起进攻，将敌人一一猎杀。刺激您的对手对您坚固无比的城墙用尽浑身解数，而敌人落荒而逃之际，您的保护国将率军大举出击将其剿灭。伟大的女王，如果您不受愚人所累，格鲁吉亚也将免于苦难。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LUDWIG" Language="zh_Hans_CN">
+			<Text>路德维希国王，世人笑您疯癫，但您的疯癫属于梦境、诗歌和童话。您憧憬着这世界有机会变得不同，使人得以建立一个魔法王国，令一切其他事物都显得无聊乏味。天鹅国王啊，世界需要您的城堡和骑士，巨龙盘踞的高山和充满魔力的石窟。再次君临吧，为我们创造新的梦幻。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SIMON_BOLIVAR" Language="zh_Hans_CN">
+			<Text>西蒙·玻利瓦尔，您本可与同僚们一同随波逐流，却选择了成为人民的解放者。艰难困苦从未使您望而却步，因此抱紧信念吧，带领您的共和国走入繁荣的新时代。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PERICLES" Language="zh_Hans_CN">
+			<Text>巧舌如簧的伯里克利，希腊人的领袖，能言善辩是您的珍贵天赋。用这份能力，您可以拉拢城邦联盟奉献于您，他们的赞誉将使您名垂千古。沿着希腊的岩石海岸修建文化场所，来将您的人民团结在您的强大统治下。如果一切顺利，海妖塞壬会为伯里克利时代而歌唱！ </Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GORGO" Language="zh_Hans_CN">
+			<Text>斯巴达女王戈尔戈，荣耀归于您和您忠诚的重步兵军团！每场战斗胜利都为希腊带来战神阿瑞斯的祝福。同时，您的人民还为您周到谨慎的统治和造就的文化奇迹而欢欣鼓舞。尽情自豪吧，希腊的文化遗产以及您的功绩将会代代流传。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MATTHIAS_CORVINUS" Language="zh_Hans_CN">
+			<Text>强而有力的马加什，您的文治武功皆是举世无双。强大的黑军进可以宝剑斩敌，退可以钢盾护民。让他们在战场上助您一往无前，后世便将敬畏于您的威名。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PACHACUTI" Language="zh_Hans_CN">
+			<Text>帕查库特克，您是太阳之子，是居于高耸山脉之中的兴旺子民的君父。让巍峨的群山成为您的坦途和敌人的天险，您在此茁壮成长，外人前来却只得忍饥挨饿。震天撼地的萨帕·印卡啊，展现您的力量和勤勉吧，如此您的名字便将在历史长河中永久闪耀。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GANDHI" Language="zh_Hans_CN">
+			<Text>圣雄甘地，只要待人友善，您就会发现身边有很多真正的朋友。保护印度人民的安全，用非凡的大象勇士守护他们。您的信念将指引着您走向和平与和谐。接受外来的新鲜事物，然后为这世界亲手做出您期望的改变吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CHANDRAGUPTA" Language="zh_Hans_CN">
+			<Text>相信您的雄心壮志吧，旃陀罗笈多，它引领了您统一印度。如果有人胆敢冒犯您伟大孔雀国王的名讳，就让战象将他们全部踏平。为人民收复土地后，您建设的梯井则能见证它繁荣昌盛。愿您帝国的版图永世绵延。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GITARJA" Language="zh_Hans_CN">
+			<Text>勇敢的特丽布瓦娜，统治万千岛屿的满者伯夷女王，印度尼西亚的海洋便是您最强大的力量。身为三界的崇高女神，您将把自己的神圣之力散播到日光照拂过的所有海域。英勇的女王，倚靠您忠实的舰队吧！让胆敢在印度尼西亚海岸边兴风作浪的家伙尝尝凶猛的风暴。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_HOJO" Language="zh_Hans_CN">
+			<Text>日本执权北条时宗，佛教的大潮跟随在您身后。您的国民深知平衡之道，而您最好的武士都学识渊博、精神丰盈。磨练自身，拥抱海上的神风吧，您将会修得开悟。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_TOKUGAWA" Language="zh_Hans_CN">
+			<Text>幕府大将军德川家康，您非常明了，只有耐心等待，利刃才能劈开要害。谨慎保卫您的家园，警惕国内外篡位者伺机而动，相信您的人民无比勤劳且足智多谋，因为只有他们才值得信赖。身为统治者，前路漫长，负担沉重；但手握武士刀时，便要摒弃不满，亦不可绝望。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JAYAVARMAN" Language="zh_Hans_CN">
+			<Text>睿智的阇耶跋摩七世，高棉人尊崇勤政爱民的您。您掌管着这块土地上的清水，哺育着饥饿的人民，这也使您的地位几近于神。前进，神圣的建筑师！建设一个趋于完美的帝国吧，愿敌人为您无坚不摧的战象所踏平。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MVEMBA" Language="zh_Hans_CN">
+			<Text>姆本巴·恩津加国王，地球母亲给了您很多礼物。您的国民知道茂密的森林和雨林是他们的家，他们可以轻而易举地穿过这些区域。来自遥远大陆的旅行者赠予的礼物同样意义重大。积极接受新鲜事物吧，来自大千世界的启发会让我们的人民创造出宏大壮丽的艺术。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NZINGA_MBANDE" Language="zh_Hans_CN">
+			<Text>恩津加·姆班德，恩东戈和马坦巴的女王，因邦加拉的军阀，您非常了解权力并非与生俱来，而是必须每时每刻不断争取。要警惕为了一己之私夺取您土地和人民的阴谋家。回击那些反对图谋，牢牢掌握属于您的东西——如果无法顺理成章地拿到，那就谋划一份大计划来夺取。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SEONDEOK" Language="zh_Hans_CN">
+			<Text>善德女王，天上的星象映出您将带领朝鲜走向伟大。建造书院，对人民施以谆谆教诲，令其探索世间未解之谜。如有人胆敢窃取知识，火厢车发出的火箭骤雨将使他们无处可逃。冲向云霄吧，精明的女王，您的子民将与您同行。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SEJONG" Language="zh_Hans_CN">
+			<Text>世宗大王，朝鲜的统治者，您的妙笔写下无数诏令，塑造出历史的走向。一个全新的社会、一种全新的生活方式，皆待您亲自指导。让人民以您为榜样和谐生活，让您的智慧和知识引领朝鲜踏上自己的命运旅程。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ALEXANDER" Language="zh_Hans_CN">
+			<Text>伟大的战争领袖亚历山大，您的剑让马其顿的疆域遍布世界。每个王国都是等您克服的独特挑战，但只要您能保持率直而勇敢，便能得到颇丰的回报。拒绝和平吧，除了征服广袤土地，没有其他方式建立属于您的传奇。冲锋，亚历山大，带领您的人民走向辉煌！</Text>
 		</Replace>
 		<!--Diplo statements-->
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BASIL_ANY" Language="zh_Hans_CN">
