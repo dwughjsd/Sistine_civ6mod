@@ -897,6 +897,67 @@
 		<Replace Tag="LOC_LOADING_INFO_LEADER_ALEXANDER" Language="zh_Hans_CN">
 			<Text>伟大的战争领袖亚历山大，您的剑让马其顿的疆域遍布世界。每个王国都是等您克服的独特挑战，但只要您能保持率直而勇敢，便能得到颇丰的回报。拒绝和平吧，除了征服广袤土地，没有其他方式建立属于您的传奇。冲锋，亚历山大，带领您的人民走向辉煌！</Text>
 		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SUNDIATA_KEITA" Language="zh_Hans_CN">
+			<Text>松迪亚塔·凯塔，马里之狮，杰利诗人们将高唱您的赞歌！低微出身无法阻止您崛起，实现族人的预言。您是猎人，是魔法师，而现在正是加冕封王之时！让马里从无名小邦完成宿命蜕变，一举成为伟大帝国。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_KUPE" Language="zh_Hans_CN">
+			<Text>航海家库佩，您命名了长白云之乡，而现在人们呼唤您再次踏上开垦新领土的旅程。尊重并守护土地和海洋，就如您的托阿勇士保护着人民的安全。毛利族人将世世代代守护这片土地上的天然之美。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LAUTARO" Language="zh_Hans_CN">
+			<Text>年轻的莱夫扎茹，您并不是解放了马普切，而是激励了人民解放自己。修建图腾祭拜祖先，让子孙后代获得无畏的勇气。您的骑兵反复杀入敌阵时，胸中将充满这份豪情。持斧的领袖，与马普切站在一起，投下伟岸的身影吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GENGHIS_KHAN" Language="zh_Hans_CN">
+			<Text>成吉思汗，您在马背上凭借智慧将蒙古打造成了一个帝国。策马扬鞭直面敌方骑兵，大获全胜后让其臣服在您的脚下。指派迅捷强力的怯薛弓箭手让迁徙的子民们快马加鞭。很快，世界便会听到蒙古骑兵震天撼地的战鼓雷鸣。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_HARDRADA" Language="zh_Hans_CN">
+			<Text>挪威国王哈拉尔德，您是北方的惊雷，所有人都惧怕您的船只靠近。您的长船主宰着海洋，时刻准备着放下狂战士军团进攻无人警惕的海岸。愿奥丁保佑您的王国，愿吟唱诗人为您强大战士的胜利而歌唱。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_AMANITORE" Language="zh_Hans_CN">
+			<Text>阿曼妮托尔，警醒的努比亚女王，您治下的帝国疆土远达天际。无需惧怕那些对您富足的黄金垂涎三尺的家伙，因为您的弓箭手们即便在五百步之外仍能精准无误地射断发丝。睿智的女王，您的城市必将尽享繁华与虔诚，因为这片强弓之土不但有着辉煌的过往，也定将构筑起属于自己的未来。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CYRUS" Language="zh_Hans_CN">
+			<Text>登上王座吧，居鲁士，您就是天命所归。有您的不死军团和坚定信念，您将征服并统治世上的所有人。您会看到您的周围形成了很多联盟，但别上当——这是种过时又脆弱的处世方式。不要轻易许诺，除非对方帮您实现目标。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NADER_SHAH" Language="zh_Hans_CN">
+			<Text>众沙阿的沙阿，从卑贱的奴隶成为世界最富有的国王，我们呼唤您的归来！让您的军队横扫这片土地，用铁与火再次点燃世界，让我们更清楚地看到火焰中闪耀的真金。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_DIDO" Language="zh_Hans_CN">
+			<Text>狄多女王，迦太基之母，您的一生都面临着巨大的威胁，而您却用智慧和机敏将它们一一化解。海浪拍打之处，皆是您城市的兴起之地。广阔的大海是您的康庄大道，遥远的地平线则是您的宿命和港湾。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JADWIGA" Language="zh_Hans_CN">
+			<Text>虔诚的雅德维加，赞美上帝神明、世界和波兰吧！最神圣的国王，您会向您的国民展示真理和光明，他们将走出国门，向其他人传播这些真理。您将会在翼骑兵的保护下崛起，以无人能及的虔诚风度迎接任何挑战。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JOAO_III" Language="zh_Hans_CN">
+			<Text>若昂三世，您坚定不移地固守着自己的信仰，并循循善诱引导他人。在向海岸线外传播您的宗教和贸易网络的同时，请为人民带回繁荣，让他们体验到从未有过的新生活。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_TRAJAN" Language="zh_Hans_CN">
+			<Text>布下大局吧，强大罗马的皇帝图拉真。您的军团已准备好出发，建立世界上最大的帝国。如果您能真正实现条条道路通罗马，您的帝国将会拥有巨额财富和无尽奢华。那时，我们的公民必将宣扬您是最佳元首，他们最优秀的统治者。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JULIUS_CAESAR" Language="zh_Hans_CN">
+			<Text>凯撒万岁！您是罗马的将军、世族、狄克推多。您的人民，以及您的雄心，长久以来呼唤着您。骰子已经掷下——不要让任何人反对您的计划，无论是不共戴天的仇敌，还是亲密无间的好友。</Text>
+		</Replace>
+		<!---->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PETER_GREAT" Language="zh_Hans_CN">
+			<Text>沙皇彼得，拥抱祖国母亲的凛冽寒风吧。您对科学和文化的热爱是上天赐予的礼物，而从派往外国的大使团中您将学到很多这些知识。在您的统治下，俄罗斯必将繁荣发展并不断扩张，把周围所有土地都纳为己有，或许创造出世界上最伟大的陆权帝国。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ROBERT_THE_BRUCE" Language="zh_Hans_CN">
+			<Text>罗伯特一世，坚毅的苏格兰守护者。战争对您而言并不陌生，但您却甚少主动求战。若您能让人民幸福安康，便可激励他们达成伟业。如果有人操纵弱小的邻国，就让无所畏惧的高地军团奋起作战，为他们传达自由的真正含义。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_TOMYRIS" Language="zh_Hans_CN">
+			<Text>伟大的战士女王托米丽司，所有人想到您都心存畏惧，不寒而栗。您骑着威风凛凛的马匹，带领斯基泰人奋勇前行。伟大史诗将会诉说烈马勇士从大草原飞奔出来，冲在每场战争的前线——而人们会发现您在其中。骑马飞驰吧，凶猛的女王，但愿您的盟友真诚而敌人软弱。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PHILIP_II" Language="zh_Hans_CN">
+			<Text>虔诚的菲利普国王，整个西班牙随时准备回应您的祈祷。从位于埃斯科里亚尔修道院的宫殿，您能派出您的追随者：传教士、使徒、征服者，他们准备好跨过大洋，把您最神圣帝国的福音传向世界。愿他们发现的宝藏助您完成使命：将全世界统一在同一种信仰、同一个帝国之下，让您真正成为最虔诚的天主教国王。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GILGAMESH" Language="zh_Hans_CN">
+			<Text>您肩负了许多，吉尔伽美什国王。您的国民和世界上很多其他人都把您看作领导者。您的力量在凡人之上，这个沉重的世界从不会让您犹豫不决。鼓励苏美尔人民沿河定居在肥沃土地上，谨慎挑选盟友——因为很多人都想获得您的一份力量。开始冒险吧，是时候谱写您的传奇史诗了。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LADY_TRIEU" Language="zh_Hans_CN">
+			<Text>赵夫人，后世子民将您奉为女神。起身对抗试图阻止您乘风踏浪之人，挥舞您反抗的利剑吧。无论是家人还是敌人，谁都无法阻拦您的脚步。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SHAKA" Language="zh_Hans_CN">
+			<Text>恰卡，聪明的祖鲁国王，您的战士将为您赢得一个帝国。在您麾下的祖鲁勇士能把所有对手悉数合围，各个击溃。百折不挠的大军将能充分体现出人海战术的力量。您不需要对每个邻国开战，但要让他们忌惮您的力量。</Text>
+		</Replace>
 		<!--Diplo statements-->
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BASIL_ANY" Language="zh_Hans_CN">
 			<Text>你正站在巴西尔面前——我是罗马人的独裁者与皇帝，也是敌人的灾祸。看吧，这就是罗马！</Text>
