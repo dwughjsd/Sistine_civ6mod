@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-    <!--Roosevelt Bull Moose-->
+	<LeaderTraits>
+		<!--Swap the two leader abilities-->
+		<Delete LeaderType="LEADER_CLEOPATRA_ALT" TraitType="TRAIT_LEADER_CLEOPATRA_ALT"/>
+		<Delete LeaderType="LEADER_CLEOPATRA" TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
+		<Row LeaderType="LEADER_CLEOPATRA_ALT" TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
+		<Row LeaderType="LEADER_CLEOPATRA" TraitType="TRAIT_LEADER_CLEOPATRA_ALT"/>
+	</LeaderTraits>
     <TraitModifiers>
         <Row TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="TRAIT_FREE_NATURALIST_ON_BREATHTAKING"/>
         <Row TraitType="TRAIT_LEADER_ROOSEVELT_COROLLARY" ModifierId="DIPLOMATICLEAGUE_DUPLICATEFIRSTINFLUENCETOKEN"/>
@@ -142,6 +148,30 @@
 			<Value>72</Value>
 			<Type>ScaleByGameSpeed</Type>
 		</Row>
-    </ModifierArguments>
+		<Update>
+			<Where ModifierId="YONGLE_SCIENCE_POPULATION" Name="Amount"/>
+			<Set Value=".5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="YONGLE_CULTURE_POPULATION" Name="Amount"/>
+			<Set Value=".5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="YONGLE_GOLD_POPULATION" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="WU_ZETIAN_OFFENSIVE_SPY_SCIENCE" Name="Percent"/>
+			<Set Value="400"/>
+		</Update>
+		<Update>
+			<Where ModifierId="WU_ZETIAN_OFFENSIVE_SPY_CULTURE" Name="Percent"/>
+			<Set Value="400"/>
+		</Update>
+		<Update>
+			<Where ModifierId="WU_ZETIAN_OFFENSIVE_SPY_FAITH" Name="Percent"/>
+			<Set Value="400"/>
+		</Update>
+	</ModifierArguments>
 
 </GameData>

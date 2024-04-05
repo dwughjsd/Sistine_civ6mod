@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="TRAIT_SCIENCE_DECREASE" Name="Amount"/>
+			<Set Value="-80"/>
+		</Update>
+		<Update>
+			<Where ModifierId="BYZANTIUM_COMBAT_HOLY_CITIES" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="BYZANTIUM_RELIGIOUS_COMBAT_HOLY_CITIES" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+	</ModifierArguments>
 </GameData>

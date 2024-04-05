@@ -429,5 +429,25 @@
 		<Replace Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每新出现一位可供招募的 [ICON_GreatPerson] 伟人，便获得当前游戏时代基础 [ICON_GreatPerson] 伟人招募成本的20%。</Text>
 		</Replace>
+		<!--Civ Traits-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-80%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每有1座圣城皈依拜占庭的宗教（也包括拜占庭的圣城），单位便获得+2 [ICON_Strength] 战斗力或 [ICON_Religion] 宗教战斗力。击杀敌方文明或城邦的单位时，拜占庭的宗教将传播到附近的城市。如城市拥有圣地区域，其提供的 [ICON_GreatProphet] 大预言家点数+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YONGLE_XP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市获得特色项目，可将城市的 [Icon_Production] 生产力转换为50%的 [Icon_Food] 食物、[Icon_Faith] 信仰值或100%的 [Icon_GOLD] 金币。10人口及以上的城市每人口提供+1 [Icon_Gold] 金币、+0.5 [Icon_Science] 科技值以及+0.5 [Icon_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_WU_ZETIAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进攻性间谍的行动效果提升1级。进攻性间谍任务成功时，获得目标城市该回合400%的 [ICON_Faith] 信仰值、[ICON_Culture] 文化值和 [ICON_SCIENCE] 科技值。解锁“防御战术”后获得1名免费间谍（和一个额外的间谍容量）。可以使用[ICON_Faith] 信仰值购买间谍。</Text>
+		</Replace>
+		<!--Civ unique items-->
+		<Replace Tag="LOC_IMPROVEMENT_MEKEWAP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造克里特色改良设施“{LOC_IMPROVEMENT_MEKEWAP_NAME}”的能力。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力、+1 [ICON_Housing] 住房。如与奢侈资源相邻，则+1 [ICON_GOLD] 金币。相邻的每个加成资源可使其+1 [ICON_FOOD] 食物。解锁更多市政和科技后即可获得更多 [ICON_PRODUCTION] 生产力、[ICON_GOLD] 金币、[ICON_FOOD] 食物和 [ICON_HOUSING] 住房。必须建在与加成或奢侈资源相邻的单元格上。无法建在另一个棚屋旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_POLDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造荷兰特色改良设施“圩田”的能力。[NEWLINE][NEWLINE]+2 [ICON_FOOD] 食物、+1 [ICON_Production] 生产力、+0.5 [ICON_Housing] 住房。如与圩田改良设施相邻，则+1 [ICON_FOOD] 食物。解锁更多市政和科技后即可获得更多 [ICON_PRODUCTION] 生产力、[ICON_GOLD] 金币和 [ICON_FOOD] 食物。必须建在与3个或更多可通行陆地单元格相邻的海岸或湖泊单元格上。单元格的 [ICON_Movement] 移动力消耗增至3点。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

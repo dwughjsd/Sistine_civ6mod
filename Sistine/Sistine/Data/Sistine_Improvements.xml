@@ -26,7 +26,7 @@
 		</Update>
 		<Update>
 			<Where Id="18" ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"/> 
-			<Set PrereqCivic="CIVIC_COLONIALISM"/>
+			<Set PrereqCivic="CIVIC_HUMANISM"/>
 		</Update>
 		<Update>
 			<Where Id="21" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"/> 
@@ -267,10 +267,11 @@
 		</Update>
 	</Adjacency_YieldChanges>
 	
-	<!--City-states unique improvements-->
+	<!--Unique improvements-->
 	<Improvement_YieldChanges>
 		<Replace ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_MAHAVIHARA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Replace ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_FOOD" YieldChange="2"/>
 	</Improvement_YieldChanges>
 	<Improvement_Adjacencies>
 		<Row ImprovementType="IMPROVEMENT_MONASTERY" YieldChangeId="Monastery_LuxuryAdjacency"/>
@@ -310,6 +311,22 @@
 			<Where ID="Moai_SecondBonusAdjacency" />
 			<Set PrereqCivic="CIVIC_COLONIALISM"/>
 		</Update>
+		<Update>
+			<Where ID="GreatWall_Gold" />
+			<Set YieldChange="1"/>
+		</Update>
+		<Update>
+			<Where ID="GreatWall_Culture" />
+			<Set YieldChange="1"/>
+		</Update>
+		<Update>
+			<Where ID="Mekewap_FirstBonusAdjacency" />
+			<Set TilesRequired="1"/>
+		</Update>
+		<Update>
+			<Where ID="Mekewap_SecondBonusAdjacency" />
+			<Set YieldChange="2"/>
+		</Update>
 	</Adjacency_YieldChanges>
 	<Modifiers>
 		<!--So that all players benefit from it-->
@@ -348,6 +365,10 @@
 	<Improvement_BonusYieldChanges>
 		<!--The ID is not necessary for the system to work. However it's good to make it unique.-->
 		<Row Id="20001" ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_ECONOMICS"/>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_GOLD" />
+			<Set BonusYieldChange="2" PrereqCivic="CIVIC_MEDIEVAL_FAIRES"/>
+		</Update>
 	</Improvement_BonusYieldChanges>
 	<Improvement_Tourism>
 		<Row ImprovementType="IMPROVEMENT_MONASTERY" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
