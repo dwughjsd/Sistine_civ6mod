@@ -551,6 +551,9 @@
 		<Replace Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_NAME" Language="zh_Hans_CN">
 			<Text>海滩嘉年华</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_NAME" Language="zh_Hans_CN">
+			<Text>海滩嘉年华</Text>
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_NAME" Language="zh_Hans_CN">
 			<Text>法式城堡</Text>
 		</Replace>
