@@ -32,6 +32,7 @@
 			<Where Id="21" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"/> 
 			<Set PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
 		</Update>
+		<Row Id="502" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
 		<Update>
 			<Where Id="7" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION"/>
 			<!-- PrereqTech="TECH_INDUSTRIALIZATION"-->
@@ -92,15 +93,8 @@
 		<Replace ImprovementType="IMPROVEMENT_WIND_FARM" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-		<Replace ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" YieldChange="3"/>
 	</Improvement_YieldChanges>
 
-	<ModifierArguments>
-		<Update>
-			<Where ModifierId="ZIGGURAT_RIVERADJACENCY_CULTURE" Name="Amount" />
-			<Set Value="2"/>
-		</Update>
-	</ModifierArguments>
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>PLAYER_DOES_NOT_HAVE_COLONIALISM_REQUIREMENTS</RequirementSetId>

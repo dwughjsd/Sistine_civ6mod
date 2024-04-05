@@ -602,7 +602,7 @@
 			<Text>常保警惕</Text>
 		</Replace>
 		<Replace Tag="LOC_AGENDA_TLATOANI_NAME" Language="zh_Hans_CN">
-			<Text>特拉托瓦尼</Text>
+			<Text>特拉托阿尼</Text>
 		</Replace>
 		<Replace Tag="LOC_AGENDA_BASIL_ZEALOT_NAME" Language="zh_Hans_CN">
 			<Text>神圣守护者</Text>
@@ -784,7 +784,7 @@
 			<Text>科廷总理，您将带领澳大利亚迎接一个又一个挑战，您的人民会由此变得更强大。其他人将会寻求与您建立友谊，以期获得您的力量。若这些朋友真心对您忠诚，您提供的军力和保护将让您取得更大成就。但务必保持警惕，因为被利用来施行侵略并非您的正道。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_MONTEZUMA" Language="zh_Hans_CN">
-			<Text>蒙特祖玛特拉托瓦尼，让您的雕战士愉快而饱足，他们就将永远为您的事业而战。当您的阿兹特克帝国在大地上铺展开时，永远不会缺少修建城墙的劳力——因为当您征服周围人时，总会有新的忠诚工人到来。前进吧，战神维齐洛波奇特利已发出召唤。</Text>
+			<Text>蒙特祖玛特拉托阿尼，让您的雕战士愉快而饱足，他们就将永远为您的事业而战。当您的阿兹特克帝国在大地上铺展开时，永远不会缺少修建城墙的劳力——因为当您征服周围人时，总会有新的忠诚工人到来。前进吧，战神维齐洛波奇特利已发出召唤。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_HAMMURABI" Language="zh_Hans_CN">
 			<Text>伟大的汉谟拉比，您的命令便是法条。您以法典作为个人生活和领导臣民的准则，而您的帝国也将以此为纲。在您眼中，世界就是联盟、机遇和风险交织的一张复杂巨网。在您建设帝国以期一统美索不达米亚时，请谨慎权衡这一切。</Text>
