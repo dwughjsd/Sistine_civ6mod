@@ -426,5 +426,8 @@
 		<Replace Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_ROUGH_RIDER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在首都所在大陆上时单位+5 [ICON_Strength] 战斗力。向城邦派遣的首个 [ICON_Envoy] 使者视为2位。如与城邦之间存在 [ICON_TradeRoute] 贸易路线，派往此处的1位 [ICON_Envoy] 使者将视为2位。解锁“膛线”科技后获得特色单位“莽骑兵”。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每新出现一位可供招募的 [ICON_GreatPerson] 伟人，便获得当前游戏时代基础 [ICON_GreatPerson] 伟人招募成本的20%。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
