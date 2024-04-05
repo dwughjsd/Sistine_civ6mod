@@ -4,6 +4,15 @@
     <TraitModifiers>
         <Row TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="TRAIT_FREE_NATURALIST_ON_BREATHTAKING"/>
         <Row TraitType="TRAIT_LEADER_ROOSEVELT_COROLLARY" ModifierId="DIPLOMATICLEAGUE_DUPLICATEFIRSTINFLUENCETOKEN"/>
+		<Delete TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="TRAIT_GREAT_PERSON_REFUND"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_ANCIENT"/>
+		<Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_CLASSICAL"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_MEDIEVAL"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_RENAISSANCE"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_INDUSTRIAL"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_MODERN"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_ATOMIC"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_INFORMATION"/>
     </TraitModifiers>
     <Modifiers>
         <Row>
@@ -15,6 +24,53 @@
 			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
             <SubjectRequirementSetId>PLOT_BREATHTAKING_APPEAL</SubjectRequirementSetId>
 			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_ANCIENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_CLASSICAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_CLASSICAL_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_MEDIEVAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_MEDIEVAL_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>		
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_RENAISSANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_RENAISSANCE_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>		
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_INDUSTRIAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_INDUSTRIAL_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>		
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_MODERN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_MODERN_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_ATOMIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_ATOMIC_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_INFORMATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_INFORMATION_REQUIREMENTS_SST</SubjectRequirementSetId>
 			<Permanent>true</Permanent>
 		</Row>
     </Modifiers>
@@ -37,5 +93,55 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<Update><Where ModifierId="TRAIT_OWNED_LUXURY_EXTRA_AMENITIES" Name="Amount"/><Set Value="1"/></Update>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_ANCIENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_CLASSICAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_MEDIEVAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_RENAISSANCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>24</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_INDUSTRIAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>36</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_MODERN</ModifierId>
+			<Name>Amount</Name>
+			<Value>48</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_ATOMIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>60</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_INFORMATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>72</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
     </ModifierArguments>
+
 </GameData>
