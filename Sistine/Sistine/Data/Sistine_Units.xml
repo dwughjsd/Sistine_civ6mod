@@ -193,6 +193,10 @@
 			<Where UnitType="UNIT_LAHORE_NIHANG" />
 			<Set MustPurchase="false" />
 		</Update>
+		<Update>
+			<Where UnitType="UNIT_AZTEC_EAGLE_WARRIOR" />
+			<Set Cost="45" Combat="23"/>
+		</Update>
 	</Units>
 
 	<UnitPromotionModifiers>
