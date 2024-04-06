@@ -19,6 +19,8 @@
         <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_MODERN"/>
         <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_ATOMIC"/>
         <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_INFORMATION"/>
+        <Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_TRADEROUTECULTUREFROMALLY"/>
+        <Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_TRADEROUTECULTUREFROMSUZERAIN"/>
     </TraitModifiers>
     <Modifiers>
         <Row>
@@ -78,6 +80,14 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
 			<SubjectRequirementSetId>GAME_ERA_INFORMATION_REQUIREMENTS_SST</SubjectRequirementSetId>
 			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMALLY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMSUZERAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_SUZERAIN_ROUTE</ModifierType>
 		</Row>
     </Modifiers>
     <ModifierArguments>
@@ -172,6 +182,30 @@
 			<Where ModifierId="WU_ZETIAN_OFFENSIVE_SPY_FAITH" Name="Percent"/>
 			<Set Value="400"/>
 		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_IDENTITY_FROM_DOMESTIC_TRADE_ROUTES" Name="Amount"/>
+			<Set Value="4"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMALLY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMALLY</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMSUZERAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMSUZERAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
 	</ModifierArguments>
 
 </GameData>

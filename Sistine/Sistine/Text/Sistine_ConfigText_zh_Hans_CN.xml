@@ -147,12 +147,6 @@
 		<Replace Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>匈牙利特色建筑。+3点 [ICON_Amenities] 宜居度与+2点 [ICON_PRODUCTION] 生产力，可扩展到6个单元格内的每个市中心。城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。此城中若包含至少1处地热裂缝，则该城市的 [ICON_TOURISM] 旅游业绩+3，同时 [ICON_AMENITIES] 宜居度额外+2。</Text>
 		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造苏美尔特色金字形神塔的能力。[NEWLINE][NEWLINE]+3 [ICON_Science] 科技值。如果紧挨着河流，+2 [ICON_Culture] 文化值。获得“土木工程”市政后将产出更多 [ICON_CULTURE] 文化值。不能建在丘陵上，但可建在泛滥平原上。无法建在另一个金字形神塔旁。</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造埃及特色狮身人面像的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值、+1 [ICON_Culture] 文化值。+2魅力。如果与奇观相邻，+2 [ICON_Faith] 信仰值。如建在泛滥平原上，+1 [ICON_CULTURE] 文化值。获得“殖民主义”市政后将产出更多 [ICON_CULTURE] 文化值。研究完“飞行”后其将提供 [ICON_TOURISM] 旅游业绩。无法建在另一个狮身人面像旁。无法建在雪地或雪地丘陵上。</Text>
-		</Replace>
 		<!--Natural Wonders-->
 		<Replace Tag="LOC_FEATURE_KILIMANJARO_XP2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>占地1单元格的不可通行自然奇观。视为火山，为相邻单元格+3 [ICON_Food] 食物。喷发时提供少量产出，最有可能破坏建筑与区域。不常喷发，但始终处于活跃状态。</Text>
@@ -429,6 +423,9 @@
 		<Replace Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每新出现一位可供招募的 [ICON_GreatPerson] 伟人，便获得当前游戏时代基础 [ICON_GreatPerson] 伟人招募成本的20%。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>通向本方城市的本方 [ICON_TradeRoute] 贸易路线每回合可为起点城市+4忠诚度。通往外国城市或起源于外国城市的 [ICON_TradeRoute] 贸易路线为您+2 [ICON_Culture] 文化值。通向盟友或以您为宗主国的城邦的 [ICON_TradeRoute] 贸易路线为您+4 [ICON_Culture] 文化值。</Text>
+		</Replace>
 		<!--Civ Traits-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-80%。</Text>
@@ -444,10 +441,16 @@
 		</Replace>
 		<!--Civ unique items-->
 		<Replace Tag="LOC_IMPROVEMENT_MEKEWAP_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造克里特色改良设施“{LOC_IMPROVEMENT_MEKEWAP_NAME}”的能力。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力、+1 [ICON_Housing] 住房。如与奢侈资源相邻，则+1 [ICON_GOLD] 金币。相邻的每个加成资源可使其+1 [ICON_FOOD] 食物。解锁更多市政和科技后即可获得更多 [ICON_PRODUCTION] 生产力、[ICON_GOLD] 金币、[ICON_FOOD] 食物和 [ICON_HOUSING] 住房。必须建在与加成或奢侈资源相邻的单元格上。无法建在另一个棚屋旁。</Text>
+			<Text>解锁建造者建造克里特色改良设施{LOC_IMPROVEMENT_MEKEWAP_NAME}的能力。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力、+1 [ICON_Housing] 住房。如与奢侈资源相邻，则+1 [ICON_GOLD] 金币。相邻的每个加成资源可使其+1 [ICON_FOOD] 食物。解锁更多市政和科技后即可获得更多 [ICON_PRODUCTION] 生产力、[ICON_GOLD] 金币、[ICON_FOOD] 食物和 [ICON_HOUSING] 住房。必须建在与加成或奢侈资源相邻的单元格上。无法建在另一个棚屋旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_POLDER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造荷兰特色改良设施“圩田”的能力。[NEWLINE][NEWLINE]+2 [ICON_FOOD] 食物、+1 [ICON_Production] 生产力、+0.5 [ICON_Housing] 住房。如与圩田改良设施相邻，则+1 [ICON_FOOD] 食物。解锁更多市政和科技后即可获得更多 [ICON_PRODUCTION] 生产力、[ICON_GOLD] 金币和 [ICON_FOOD] 食物。必须建在与3个或更多可通行陆地单元格相邻的海岸或湖泊单元格上。单元格的 [ICON_Movement] 移动力消耗增至3点。</Text>
+			<Text>解锁建造者建造荷兰特色改良设施圩田的能力。[NEWLINE][NEWLINE]+2 [ICON_FOOD] 食物、+1 [ICON_Production] 生产力、+0.5 [ICON_Housing] 住房。如与圩田改良设施相邻，则+1 [ICON_FOOD] 食物。解锁更多市政和科技后即可获得更多 [ICON_PRODUCTION] 生产力、[ICON_GOLD] 金币和 [ICON_FOOD] 食物。必须建在与3个或更多可通行陆地单元格相邻的海岸或湖泊单元格上。单元格的 [ICON_Movement] 移动力消耗增至3点。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造苏美尔特色改良设施塔庙的能力。[NEWLINE][NEWLINE]+2 [ICON_Science] 科技值。如果紧挨着河流，+1 [ICON_Culture] 文化值。获得“土木工程”市政后将产出更多 [ICON_CULTURE] 文化值和 [ICON_Science] 科技值。不能建在丘陵上，但可建在泛滥平原上。无法建在另一个塔庙旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造埃及特色改良设施狮身人面像的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值、+1 [ICON_Culture] 文化值。+2魅力。如果与奇观相邻，+2 [ICON_Faith] 信仰值。如建在泛滥平原上，+1 [ICON_CULTURE] 文化值。获得“人文主义”市政后将产出更多 [ICON_CULTURE] 文化值。研究完“飞行”后其将提供 [ICON_TOURISM] 旅游业绩。无法建在另一个狮身人面像旁。无法建在雪地或雪地丘陵上。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
