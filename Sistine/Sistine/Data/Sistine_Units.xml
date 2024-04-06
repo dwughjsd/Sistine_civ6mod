@@ -189,6 +189,13 @@
 			<Set CostProgressionParam1="15" />
 		</Update>
 		<!--Unique units-->
+		<!--ToDo: Warak'aq, Highlander, 
+			Hoplite, Impi, Carolean, 
+			War-Cart, Hetairoi, Varu, Mamluk, Mandekalu, Tagma, Winged Hussar, Rough Rider, 
+			Barbarian Horseman, Black Army, Oromo, Cossack, Huszar, Llanero, Mountie,
+			Barbarian Horse Archer, Maryannu Chariot Archer, Saka Horse Archer, Keshig,
+			Domrey, Viking Longship, Bireme, Dromon, Jong, De Zeven Provincien, Minas Geraes, U-Boat,
+		-->
 		<Update>
 			<Where UnitType="UNIT_LAHORE_NIHANG" />
 			<Set MustPurchase="false" />

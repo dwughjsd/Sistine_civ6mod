@@ -21,7 +21,10 @@
         <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_INFORMATION"/>
         <Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_TRADEROUTECULTUREFROMALLY"/>
         <Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_TRADEROUTECULTUREFROMSUZERAIN"/>
-    </TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_RAMSES" ModifierId="TRAIT_EXTRA_PRODUCTION_BUILDINGS"/>
+		<Row TraitType="TRAIT_LEADER_VICTORIA_ALT" ModifierId="VICTORIA_PRODUCTION_MANUFACTURING_PLANT"/>
+		<Row TraitType="TRAIT_LEADER_RELIGION_CITY_STATES" ModifierId="TRAIT_GRANT_FAITH_UNIT_TRAINED"/>
+	</TraitModifiers>
     <Modifiers>
         <Row>
 			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING</ModifierId>
@@ -88,6 +91,23 @@
 		<Row>
 			<ModifierId>TRAIT_TRADEROUTECULTUREFROMSUZERAIN</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_SUZERAIN_ROUTE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_PRODUCTION_BUILDINGS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_CHANGE</ModifierType>
+		</Row>
+		<Update>
+			<Where ModifierId="VICTORIA_STRATEGIC_RESOURCE" />
+			<Set SubjectRequirementSetId="PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS"/>
+		</Update>
+		<Row>
+			<ModifierId>VICTORIA_PRODUCTION_MANUFACTURING_PLANT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_MANUFACTURING_PLANT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GRANT_FAITH_UNIT_TRAINED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_YIELD_PER_UNIT_COST</ModifierType>
 		</Row>
     </Modifiers>
     <ModifierArguments>
@@ -205,6 +225,59 @@
 			<ModifierId>TRAIT_TRADEROUTECULTUREFROMSUZERAIN</ModifierId>
 			<Name>Amount</Name>
 			<Value>4</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="RAMSES_CULTURE_POSITIVE_WONDERS_BUILDINGS" Name="BuildingProductionPercent"/>
+			<Set Value="50"/>
+		</Update>
+		<Update>
+			<Where ModifierId="RAMSES_CULTURE_NEGATIVE_BUILDINGS" Name="BuildingProductionPercent"/>
+			<Set Value="-25"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_PRODUCTION_BUILDINGS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="VICTORIA_PRODUCTION_WORKSHOP" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="VICTORIA_PRODUCTION_FACTORY" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="VICTORIA_PRODUCTION_POWER_PLANT" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Row>
+			<ModifierId>VICTORIA_PRODUCTION_MANUFACTURING_PLANT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>VICTORIA_PRODUCTION_MANUFACTURING_PLANT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="IDENTITY_NEARBY_GREATWORKS" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="AMBIORIX_NEIGHBOR_COMBAT" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_GRANT_FAITH_UNIT_TRAINED</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GRANT_FAITH_UNIT_TRAINED</ModifierId>
+			<Name>UnitProductionPercent</Name>
+			<Value>40</Value>
 		</Row>
 	</ModifierArguments>
 

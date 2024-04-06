@@ -426,6 +426,24 @@
 		<Replace Tag="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>通向本方城市的本方 [ICON_TradeRoute] 贸易路线每回合可为起点城市+4忠诚度。通往外国城市或起源于外国城市的 [ICON_TradeRoute] 贸易路线为您+2 [ICON_Culture] 文化值。通向盟友或以您为宗主国的城邦的 [ICON_TradeRoute] 贸易路线为您+4 [ICON_Culture] 文化值。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市建造建筑和奇观时+2 [ICON_Production] 生产力。建筑建成时，获得等同于建筑花费25%的 [ICON_CULTURE] 文化值；奇观建成时则获得50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中每有一座工业区建筑便+5% [ICON_PRODUCTION] 生产力。战略资源上的矿山+2 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>埃莉诺的城市中每个巨作使9单元格内的外国城市每回合减少2点忠诚度。城市因失去忠诚度而离开另一文明后，如其每回合对埃莉诺的忠诚度最高，则会跳过成为自由城市阶段直接加入埃莉诺的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个相邻的单位提供+1 [ICON_Strength] 战斗力（厄勃隆尼斯之王）</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_AMBIORIX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产出一个非平民单位时，您的文明将获得等同于该单位成本20%的 [ICON_CULTURE] 文化值。每与1个单位相邻，近战、抗骑兵和远程单位便+1 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RELIGION_CITY_STATES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产出一个非平民单位时，您的文明将获得等同于该单位成本40%的 [ICON_FAITH] 信仰值。战斗胜利后，获得等同于被击杀单位战斗力50%的 [ICON_FAITH] 信仰值（标准速度下）。如城邦的主流宗教与本方相同，则派遣至其处的每名 [ICON_ENVOY] 使者将视为2名（必须拥有1个主流宗教）。</Text>
+		</Replace>
 		<!--Civ Traits-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-80%。</Text>
@@ -452,5 +470,6 @@
 		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造埃及特色改良设施狮身人面像的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值、+1 [ICON_Culture] 文化值。+2魅力。如果与奇观相邻，+2 [ICON_Faith] 信仰值。如建在泛滥平原上，+1 [ICON_CULTURE] 文化值。获得“人文主义”市政后将产出更多 [ICON_CULTURE] 文化值。研究完“飞行”后其将提供 [ICON_TOURISM] 旅游业绩。无法建在另一个狮身人面像旁。无法建在雪地或雪地丘陵上。</Text>
 		</Replace>
+		
 	</LocalizedText>
 </GameData>
