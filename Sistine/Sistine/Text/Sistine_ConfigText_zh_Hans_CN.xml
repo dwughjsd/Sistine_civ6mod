@@ -430,7 +430,7 @@
 			<Text>所有城市建造建筑和奇观时+2 [ICON_Production] 生产力。建筑建成时，获得等同于建筑花费25%的 [ICON_CULTURE] 文化值；奇观建成时则获得50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市中每有一座工业区建筑便+5% [ICON_PRODUCTION] 生产力。战略资源上的矿山+2 [ICON_PRODUCTION] 生产力。</Text>
+			<Text>城市中每有一座工业区建筑便+5% [ICON_PRODUCTION] 生产力。已改良的战略资源+2 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>埃莉诺的城市中每个巨作使9单元格内的外国城市每回合减少2点忠诚度。城市因失去忠诚度而离开另一文明后，如其每回合对埃莉诺的忠诚度最高，则会跳过成为自由城市阶段直接加入埃莉诺的文明。</Text>

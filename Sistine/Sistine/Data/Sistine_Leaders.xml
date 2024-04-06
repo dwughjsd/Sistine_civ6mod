@@ -98,7 +98,7 @@
 		</Row>
 		<Update>
 			<Where ModifierId="VICTORIA_STRATEGIC_RESOURCE" />
-			<Set SubjectRequirementSetId="PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS"/>
+			<Set SubjectRequirementSetId="PLOT_HAS_STRATEGIC_IMPROVED_REQUIREMENTS"/>
 		</Update>
 		<Row>
 			<ModifierId>VICTORIA_PRODUCTION_MANUFACTURING_PLANT</ModifierId>
