@@ -263,8 +263,20 @@
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>法西斯主义提供+5 [ICON_Strength] 战斗力</Text>
 		</Replace>
+		<Replace Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>+5 来自法西斯传承</Text>
+		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>法西斯主义提供+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>法西斯传承提供+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神权政体+4 [ICON_Religion] 宗教战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+4 来自神权传承</Text>
 		</Replace>
 		<!--Cultural Victory overhaul-->
 		<Replace Tag="LOC_GREAT_WORKS_TOOLTIP_DUPLICATE" Language="zh_Hans_CN">
