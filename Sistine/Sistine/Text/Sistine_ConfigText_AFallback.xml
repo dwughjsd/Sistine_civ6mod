@@ -387,6 +387,27 @@
 		<Replace Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="en_US">
 			<Text>After recruiting or patronizing a [ICON_GreatPerson] Great Person, 20% of its [ICON_GreatPerson] Great Person point cost for the current game era is refunded.</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes to your own cities provide +4 Loyalty per turn for the starting city. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +2 [ICON_Culture] Culture to you. [ICON_TradeRoute] Trade Routes to an Ally's city or vassal city-state provides +4 [ICON_Culture] Culture.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_DESCRIPTION" Language="en_US">
+			<Text>All cities receive +2 [ICON_Production] Production when constructing Buildings and Wonders. Gain [ICON_CULTURE] Culture equal to 25% of the construction cost when finishing Buildings and 50% when completing Wonders.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION" Language="en_US">
+			<Text>+5% [ICON_PRODUCTION] Production in Cities for every Industrial Zone building in that city. +2 [ICON_PRODUCTION] Production to all Strategic Resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION" Language="en_US">
+			<Text>Great Works in Eleanor’s cities each cause -2 Loyalty per turn in foreign cities within 9 tiles. A city that leaves another civilization due to a loss of Loyalty and is currently receiving the most Loyalty per turn from Eleanor's civilization skips the Free City step to join this civilization.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS_DESCRIPTION" Language="en_US">
+			<Text>Receive +1 [ICON_Strength] Combat Strength for each adjacent unit (King of the Eburones)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_AMBIORIX_DESCRIPTION" Language="en_US">
+			<Text>Your civilization gains [ICON_CULTURE] Culture equal to 20% of the unit’s cost when a non-civilian is trained. Melee, Anti-Cavalry, and Ranged Units receive +1 [ICON_Strength] Combat Strength for every adjacent unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RELIGION_CITY_STATES_DESCRIPTION" Language="en_US">
+			<Text>Your civilization gains [ICON_FAITH] Faith equal to 40% of the unit’s cost when a non-civilian is trained. Combat victories provide [ICON_FAITH] Faith equal to 50% of the Combat Strength of the defeated unit (on Standard Speed). Each [ICON_ENVOY] Envoy you send to a city-state of your majority Religion counts as two [ICON_ENVOY] Envoys. (Must have a majority Religion).</Text>
+		</Replace>
 		<!--Civ Traits-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="en_US">
 			<Text>[ICON_TechBoosted] Eurekas provide all of the [ICON_SCIENCE] Science for technologies. -80% [ICON_SCIENCE] Science per turn.</Text>
@@ -406,6 +427,12 @@
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_POLDER_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct a Polder, unique to Netherlands.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Food, +1 [ICON_Production] Production, and +0.5 [ICON_Housing] Housing. +1 [ICON_FOOD] Food if adjacent to a Polder improvement. Additional [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_FOOD] Food  as you advance through the Civics and Technology Tree. Must be placed on a Coast or Lake tile adjacent to 3 or more passable land tiles. Increases [ICON_Movement] Movement Cost of tile to 3.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Ziggurat, unique to Sumeria.[NEWLINE][NEWLINE]+2 [ICON_Science] Science. +1 [ICON_Culture] Culture if next to River. Additional [ICON_CULTURE] Culture and [ICON_Science] Science once Civil Engineering is discovered. Cannot be built on Hills but may be built on Floodplains. Cannot be built adjacent to another Ziggurat.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Sphinx, unique to Egypt.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith and +1 [ICON_Culture] Culture. +2 Appeal. +2 [ICON_Faith] Faith if next to a wonder. +1 [ICON_CULTURE] Culture if built on Floodplains. Additional [ICON_CULTURE] Culture once Humanism is discovered. Provides [ICON_TOURISM] Tourism after researching Flight. Cannot be built next to another Sphinx. Cannot be built on Snow or Snow Hills.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
