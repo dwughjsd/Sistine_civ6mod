@@ -245,8 +245,21 @@
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength from Fascism</Text>
 		</Replace>
+		<Replace Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="en_US">
+			<Text>+5 from Fascist Legacy</Text>
+		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_DESCRIPTION_SST" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength from Fascism.[NEWLINE][ICON_Bullet]+1 [ICON_Movement] Movement from Fascism.[NEWLINE][ICON_Bullet]Not affected by enemy zone of control (Fascism).</Text>
+			<Text>+5 [ICON_Strength] Combat Strength when attacking, +1 [ICON_Movement] Movement, and can ignore Zone of Control, all from the Fascism government.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_DESCRIPTION_SST" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when attacking, +1 [ICON_Movement] Movement, and can ignore Zone of Control, all from the Fascism government.</Text>
+		</Replace>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Religion] Religious Strength from the Theocracy government.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+4 from Theocratic Legacy</Text>
 		</Replace>
 		<!--Cultural Victory overhaul-->
 		<Replace Tag="LOC_GREAT_WORKS_TOOLTIP_DUPLICATE" Language="en_US">
