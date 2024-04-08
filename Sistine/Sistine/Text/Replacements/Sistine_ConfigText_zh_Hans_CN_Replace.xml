@@ -328,6 +328,20 @@
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_ALT_TITLE" Language="en_US">
 			<Text>Qin Shi Huang (Unifier)</Text>
 		</Replace>
+		
+		<!--Fix "multiply" translation-->
+		<Replace Tag="LOC_BUILDING_PANAMA_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>修建完成后，将自动建造1或2个相邻运河区域。海军单位现可穿越运河奇观单元格。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。[NEWLINE][NEWLINE]必须修建在平原单元格之上，同时建筑单元格两侧相邻的两个正对单元格必须满足以下条件：其中一块单元格必须能够修建与巴拿马运河单元格连接的运河区域；另一块单元格则必须为城市、水域或可以修建相连运河的单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>陆地单位无需上船便可从桥上跨越。大桥的效果与现代道路相同，并会在桥头两端的陆地单元格中建造现代道路（若未修建）。城市+3 [ICON_Amenities] 宜居度。城市中的所有单元格+4魅力。城市中的改良设施与国家公园+100% [ICON_Tourism] 旅游业绩。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。[NEWLINE][NEWLINE]必须修建在海岸单元格中。大桥必须修建在相隔一个单元格并正对的两个陆地单元格中。大桥左右两侧必须各有至少1个水域单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建在平原上的区域，连接两块水域单元格或将一块水域单元格与市中心连接。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。运河可笔直穿过单元格，也可在其中进行60度转向。无法建造三向连接运河，且运河在其所建水路的两侧皆必须含有一个完整的陆地单元格。军事工程师可消耗1次使用次数来完成运河20%的修建进度。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_TUNNEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁军事工程师建造“穿山隧道”的能力。[NEWLINE][NEWLINE]其用作山脉地形上的移动通道，单位可消耗2点 [ICON_Movement] 移动力从一个点进入，再从另一个点走出。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。只能建在与山脉相邻的单元格上。无法被掠夺或移除。</Text>
+		</Replace>
 
 		<!--Traits-->
 		<Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_HOLY_CITIES_CONVERTED_BONUS_DESC" Language="zh_Hans_CN">
@@ -590,7 +604,12 @@
 		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME" Language="zh_Hans_CN">
 			<Text>露天博物馆</Text>
 		</Replace>
-
+		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME" Language="zh_Hans_CN">
+			<Text>安第斯路网</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造{LOC_LEADER_PACHACUTI_NAME}特色改良设施{LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME}的能力。[NEWLINE][NEWLINE]作为一组山脉中的移动通道使用，单位可消耗2点 [ICON_Movement] 移动力从一个点进入，再从另一个点走出。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。只能建在与山脉相邻的单元格上。无法被掠夺或移除。</Text>
+		</Replace>
 		<!--Agendas-->
 		<Replace Tag="LOC_AGENDA_SAGA_NAME" Language="zh_Hans_CN">
 			<Text>哈拉尔德的传奇</Text>
