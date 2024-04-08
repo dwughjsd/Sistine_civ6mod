@@ -592,11 +592,17 @@
 		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_NAME" Language="zh_Hans_CN">
 			<Text>天堂花园</Text>
 		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造波斯特色改良设施{LOC_IMPROVEMENT_PAIRIDAEZA_NAME}的能力。[NEWLINE][NEWLINE]+1 [ICON_CULTURE] 文化值、+2 [ICON_GOLD] 金币。+1魅力。每与一座圣地和剧院广场相邻则+1 [ICON_CULTURE] 文化值。每与一座商业中心和市中心相邻则+1 [ICON_GOLD] 金币。解锁更多科技和市政后可提供更多 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。无法建在雪地、冻土、雪地丘陵或冻土丘陵上，也无法建在另一座{LOC_IMPROVEMENT_PAIRIDAEZA_NAME}旁。</Text>
+		</Replace>
 		<Replace Tag="LOC_DISTRICT_LAVRA_NAME" Language="zh_Hans_CN">
 			<Text>拉伏拉大修院</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_KURGAN_NAME" Language="zh_Hans_CN">
 			<Text>库尔干坟冢</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURGAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造斯基泰特色改良设施{LOC_IMPROVEMENT_KURGAN_NAME}的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值、+3 [ICON_Gold] 金币。每与一座牧场相邻便+1 [ICON_Faith] 信仰值（研究完“马镫”后提升为+2）。研究“飞行”后将根据 [ICON_FAITH] 信仰值提供 [ICON_TOURISM] 旅游业绩。不能建在丘陵上。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_NAME" Language="zh_Hans_CN">
 			<Text>塔庙</Text>
@@ -609,6 +615,12 @@
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造{LOC_LEADER_PACHACUTI_NAME}特色改良设施{LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME}的能力。[NEWLINE][NEWLINE]作为一组山脉中的移动通道使用，单位可消耗2点 [ICON_Movement] 移动力从一个点进入，再从另一个点走出。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。只能建在与山脉相邻的单元格上。无法被掠夺或移除。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造埃塞俄比亚特色改良设施独石教堂的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值。每与1个山脉和丘陵单元格相邻，便+1 [ICON_Faith] 信仰值。研究“飞行”后可根据 [ICON_FAITH] 信仰值提供 [ICON_TOURISM] 旅游业绩。+1魅力。只能被自然灾害掠夺（无法被摧毁）。只能建在丘陵或火山土上，不能与另一座独石教堂相邻。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CHEMAMULL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造马普切特色改良设施马普切木人的能力。[NEWLINE][NEWLINE]+1 [Icon_Production] 生产力。提供等同于所在单元格魅力75%的 [ICON_CULTURE] 文化值。研究完“飞行”后将提供更多 [ICON_TOURISM] 旅游业绩。需要单元格至少达到惊艳魅力。</Text>
 		</Replace>
 		<!--Agendas-->
 		<Replace Tag="LOC_AGENDA_SAGA_NAME" Language="zh_Hans_CN">
