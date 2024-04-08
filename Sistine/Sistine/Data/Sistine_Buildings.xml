@@ -105,7 +105,7 @@
 		<!--Campus-->
 		<Delete BuildingType="BUILDING_LIBRARY" YieldType="YIELD_SCIENCE"/>
 		<Update><Where BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE"/><Set YieldChange="2"/></Update>
-		<Update><Where BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE"/><Set YieldChange="4"/></Update>
 		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE"/><Set YieldChange="2"/></Update>		
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="3"/>
 		<Delete BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
@@ -128,6 +128,9 @@
 		<!--Neighborhood-->
 		<Update><Where BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>	<Set YieldChange="4"/></Update>
 		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD"/> <Set YieldChange="4"/></Update>
+		<!--Entertainment Complex-->
+		<Update><Where BuildingType="BUILDING_TLACHTLI" YieldType="YIELD_FAITH"/> <Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_TLACHTLI" YieldType="YIELD_CULTURE"/> <Set YieldChange="3"/></Update>
 	</Building_YieldChanges>
 
 	<Building_YieldChangesBonusWithPower>
