@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Modifiers>
+		<Update>
+			<Where ModifierId="TRAIT_EJERCITO_PATRIOTA_EXTRA_MOVEMENT" />
+			<Set SubjectRequirementSetId="PLAYER_HAS_MILITARY_TRAINING_SST"/>
+		</Update>
+		<Update>
+			<Where ModifierId="EJERCITO_PATRIOTA_EXTRA_MOVEMENT" />
+			<Set SubjectRequirementSetId="PLAYER_HAS_MILITARY_TRAINING_SST"/>
+		</Update>
+	</Modifiers>
 	<ModifierArguments>
 		<Update>
 			<Where ModifierId="TRAIT_SCIENCE_DECREASE" Name="Amount"/>
@@ -14,4 +24,29 @@
 			<Set Value="2"/>
 		</Update>
 	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MILITARY_TRAINING_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MILITARY_TRAINING_SST</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_MILITARY_TRAINING_CIVIC_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_HAS_MILITARY_TRAINING_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_MILITARY_TRAINING_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_MILITARY_TRAINING</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>

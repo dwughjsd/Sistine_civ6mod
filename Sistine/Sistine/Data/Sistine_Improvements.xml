@@ -268,6 +268,16 @@
 	</Adjacency_YieldChanges>
 	
 	<!--Unique improvements-->
+	<Improvements>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_CHATEAU" />
+			<Set PrereqCivic="CIVIC_FEUDALISM" RequiresAdjacentBonusOrLuxury="false"/>
+		</Update>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_TERRACE_FARM" />
+			<Set Housing="1"/>
+		</Update>
+	</Improvements>
 	<Improvement_YieldChanges>
 		<Replace ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_MAHAVIHARA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
@@ -275,6 +285,8 @@
 	</Improvement_YieldChanges>
 	<Improvement_Adjacencies>
 		<Row ImprovementType="IMPROVEMENT_MONASTERY" YieldChangeId="Monastery_LuxuryAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" YieldChangeId="Stepwell_FarmAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" YieldChangeId="Stepwell_HolySiteAdjacency"/>
 	</Improvement_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Update>
@@ -327,6 +339,25 @@
 			<Where ID="Mekewap_SecondBonusAdjacency" />
 			<Set YieldChange="2"/>
 		</Update>
+		<Update>
+			<Where ID="Hacienda_PlantationAdjacency" />
+			<Set TilesRequired="1" ObsoleteTech=""/>
+		</Update>
+		<Delete ID="Hacienda_MechanizedPlantationAdjacency"/>
+		<Update>
+			<Where ID="Terrace_AqueductAdjacency" />
+			<Set YieldChange="1"/>
+		</Update>
+		<Update>
+			<Where ID="Terrace_MedievalAdjacency" />
+			<Set PrereqCivic="" PrereqTech="TECH_REPLACEABLE_PARTS" ObsoleteTech="TECH_SATELLITES" />
+		</Update>
+		<Update>
+			<Where ID="Terrace_MechanizedAdjacency" />
+			<Set PrereqTech="TECH_SATELLITES" />
+		</Update>
+		<Row ID="Stepwell_FarmAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FARM" />
+		<Row ID="Stepwell_HolySiteAdjacency" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
 	</Adjacency_YieldChanges>
 	<Modifiers>
 		<!--So that all players benefit from it-->
@@ -373,16 +404,12 @@
 	<Improvement_Tourism>
 		<Row ImprovementType="IMPROVEMENT_MONASTERY" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
 		<Update>
-			<Where ImprovementType="IMPROVEMENT_BATEY" />
-			<Set ScalingFactor="50"/>
-		</Update>
-		<Update>
 			<Where ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" />
 			<Set TourismSource="TOURISMSOURCE_CULTURE"/>
 		</Update>
-		<Update>
-			<Where ImprovementType="IMPROVEMENT_MOAI" />
-			<Set ScalingFactor="50"/>
-		</Update>
 	</Improvement_Tourism>
+	<ImprovementModifiers>
+		<Delete ImprovementType="IMPROVEMENT_STEPWELL" ModifierId="STEPWELL_FARMADJACENCY_FOOD" />
+		<Delete ImprovementType="IMPROVEMENT_STEPWELL" ModifierId="STEPWELL_HOLYSITEADJACENCY_FAITH" />
+	</ImprovementModifiers>
 </GameData>

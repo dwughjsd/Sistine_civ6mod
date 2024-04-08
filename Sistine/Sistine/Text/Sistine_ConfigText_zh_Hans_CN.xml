@@ -147,6 +147,9 @@
 		<Replace Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>匈牙利特色建筑。+3点 [ICON_Amenities] 宜居度与+2点 [ICON_PRODUCTION] 生产力，可扩展到6个单元格内的每个市中心。城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。此城中若包含至少1处地热裂缝，则该城市的 [ICON_TOURISM] 旅游业绩+3，同时 [ICON_AMENITIES] 宜居度额外+2。</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_TLACHTLI_XP1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿兹特克特色建筑。提供2点 [ICON_Amenities] 宜居度、+3 [ICON_Culture] 文化值、+3 [ICON_Faith] 信仰值，并提供1点 [ICON_GreatGeneral] 大将军点数。获得“自然保护”市政后，提供的 [ICON_TOURISM] 旅游业绩+1。</Text>
+		</Replace>
 		<!--Natural Wonders-->
 		<Replace Tag="LOC_FEATURE_KILIMANJARO_XP2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>占地1单元格的不可通行自然奇观。视为火山，为相邻单元格+3 [ICON_Food] 食物。喷发时提供少量产出，最有可能破坏建筑与区域。不常喷发，但始终处于活跃状态。</Text>
@@ -253,13 +256,13 @@
 			<Text>解锁建造者建造巴特依球场的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_BATEY_SHARED_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BATEY_SHARED_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+1 [ICON_Culture] 文化值。每与1座加成资源和娱乐设施相邻，则+1 [ICON_Culture] 文化值（拥有“探索”市政后+2 [Icon_Culture] 文化值）。研究“飞行”后获得本单元格 [ICON_CULTURE] 文化值产出的50%的 [ICON_Tourism] 旅游业绩。无法建造在另一座巴特依球场旁，也无法建造在丘陵上。</Text>
+			<Text>+1 [ICON_Culture] 文化值。每与1座加成资源和娱乐设施相邻，则+1 [ICON_Culture] 文化值（拥有“探索”市政后+2 [Icon_Culture] 文化值）。研究“飞行”后获得本单元格 [ICON_CULTURE] 文化值产出的 [ICON_Tourism] 旅游业绩。无法建造在另一座巴特依球场旁，也无法建造在丘陵上。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_CAHOKIA_BONUS" Language="zh_Hans_CN">
 			<Text>建造者可以建造卡霍基亚土墩改良设施。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MOUND_SHARED_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造“卡霍基亚土墩”的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MOUND_SHARED_DESCRIPTION}</Text>
+			<Text>解锁建造者建造卡霍基亚土墩的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MOUND_SHARED_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUND_SHARED_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+3 [ICON_GOLD] 金币。城市建造首座卡霍基亚土墩改良设施可提供+1点 [ICON_AMENITIES] 宜居度。发现“殖民主义”后，城市建造的第二座卡霍基亚土墩改良设施可提供+1点 [ICON_AMENITIES] 宜居度。发现“封建主义”后，每2个相邻区域+1 [ICON_FOOD] 食物；研究“可更换部件”后，每个相邻区域+1 [ICON_FOOD] 食物。提供+1 [ICON_HOUSING] 住房；发现“文化遗产”后，可额外获得1点 [ICON_HOUSING] 住房。无法建造在另一个卡霍基亚土墩旁。</Text>
@@ -352,7 +355,7 @@
 			<Text>解锁建造者建造摩艾石像的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MOAI_SHARED_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOAI_SHARED_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+1 [ICON_Culture] 文化值。每2个相邻的摩艾石像+1 [ICON_Culture] 文化值，获得“殖民主义”市政后，每个相邻的摩艾石像+1 [ICON_Culture] 文化值。位于火山土单元格之上或与其相邻时，+1 [ICON_Culture] 文化值。与海岸或湖泊单元格相邻时，+1 [ICON_Culture] 文化值。研究“飞行”后获得本单元格 [ICON_CULTURE] 文化值产出的50%的 [ICON_Tourism] 旅游业绩。可建在平原、平原丘陵、草原、草原丘陵或火山土之上。无法建在与树林或雨林相邻的单元格上。</Text>
+			<Text>+1 [ICON_Culture] 文化值。每2个相邻的摩艾石像+1 [ICON_Culture] 文化值，获得“殖民主义”市政后，每个相邻的摩艾石像+1 [ICON_Culture] 文化值。位于火山土单元格之上或与其相邻时，+1 [ICON_Culture] 文化值。与海岸或湖泊单元格相邻时，+1 [ICON_Culture] 文化值。研究“飞行”后获得本单元格 [ICON_CULTURE] 文化值产出的 [ICON_Tourism] 旅游业绩。可建在平原、平原丘陵、草原、草原丘陵或火山土之上。无法建在与树林或雨林相邻的单元格上。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_SINGAPORE_BONUS" Language="zh_Hans_CN">
 			<Text>每个本城的 [ICON_TradeRoute] 贸易路线通向的外国文明为您的城市+3 [ICON_Production] 生产力。</Text>
@@ -444,6 +447,9 @@
 		<Replace Tag="LOC_TRAIT_LEADER_RELIGION_CITY_STATES_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>生产出一个非平民单位时，您的文明将获得等同于该单位成本40%的 [ICON_FAITH] 信仰值。战斗胜利后，获得等同于被击杀单位战斗力50%的 [ICON_FAITH] 信仰值（标准速度下）。如城邦的主流宗教与本方相同，则派遣至其处的每名 [ICON_ENVOY] 使者将视为2名（必须拥有1个主流宗教）。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RAVEN_KING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从城邦征集的单位+2 [ICON_Movement] 移动力、+5 [ICON_Strength] 战斗力。升级征集单位所花费的 [ICON_GOLD] 金币和资源减少50%。征集城邦军队时可在该城邦增加2名 [ICON_ENVOY] 使者。研究“城堡”科技后获得特色单位“黑军”。</Text>
+		</Replace>
 		<!--Civ Traits-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-80%。</Text>
@@ -457,19 +463,36 @@
 		<Replace Tag="LOC_TRAIT_LEADER_WU_ZETIAN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>进攻性间谍的行动效果提升1级。进攻性间谍任务成功时，获得目标城市该回合400%的 [ICON_Faith] 信仰值、[ICON_Culture] 文化值和 [ICON_SCIENCE] 科技值。解锁“防御战术”后获得1名免费间谍（和一个额外的间谍容量）。可以使用[ICON_Faith] 信仰值购买间谍。</Text>
 		</Replace>
-		<!--Civ unique items-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得“军事训练”市政后，所有单位+1 [ICON_Movement] 移动力，升级单位不会结束其回合。</Text>
+		</Replace>
+		<!--Civ unique improvements-->
+		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造法国特色改良设施{LOC_IMPROVEMENT_CHATEAU_NAME}的能力。[NEWLINE][NEWLINE]+2 [ICON_Culture] 文化值、+1 [ICON_Gold] 金币。+1魅力。每与一座奇观相邻便+1 [ICON_Culture] 文化值（研究“飞行”科技后提升为+2）。若与河流相邻则+2 [ICON_Gold] 金币。研究“飞行”之后，将根据 [ICON_CULTURE] 文化值提供 [ICON_TOURISM] 旅游业绩。无法建在另一座法国城堡旁。</Text>
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MEKEWAP_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造克里特色改良设施{LOC_IMPROVEMENT_MEKEWAP_NAME}的能力。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力、+1 [ICON_Housing] 住房。如与奢侈资源相邻，则+1 [ICON_GOLD] 金币。相邻的每个加成资源可使其+1 [ICON_FOOD] 食物。解锁更多市政和科技后即可获得更多 [ICON_PRODUCTION] 生产力、[ICON_GOLD] 金币、[ICON_FOOD] 食物和 [ICON_HOUSING] 住房。必须建在与加成或奢侈资源相邻的单元格上。无法建在另一个棚屋旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_POLDER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造荷兰特色改良设施圩田的能力。[NEWLINE][NEWLINE]+2 [ICON_FOOD] 食物、+1 [ICON_Production] 生产力、+0.5 [ICON_Housing] 住房。如与圩田改良设施相邻，则+1 [ICON_FOOD] 食物。解锁更多市政和科技后即可获得更多 [ICON_PRODUCTION] 生产力、[ICON_GOLD] 金币和 [ICON_FOOD] 食物。必须建在与3个或更多可通行陆地单元格相邻的海岸或湖泊单元格上。单元格的 [ICON_Movement] 移动力消耗增至3点。</Text>
+			<Text>解锁建造者建造荷兰特色改良设施{LOC_IMPROVEMENT_POLDER_NAME}的能力。[NEWLINE][NEWLINE]+2 [ICON_FOOD] 食物、+1 [ICON_Production] 生产力、+0.5 [ICON_Housing] 住房。如与圩田改良设施相邻，则+1 [ICON_FOOD] 食物。解锁更多市政和科技后即可获得更多 [ICON_PRODUCTION] 生产力、[ICON_GOLD] 金币和 [ICON_FOOD] 食物。必须建在与3个或更多可通行陆地单元格相邻的海岸或湖泊单元格上。单元格的 [ICON_Movement] 移动力消耗增至3点。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造苏美尔特色改良设施塔庙的能力。[NEWLINE][NEWLINE]+2 [ICON_Science] 科技值。如果紧挨着河流，+1 [ICON_Culture] 文化值。获得“土木工程”市政后将产出更多 [ICON_CULTURE] 文化值和 [ICON_Science] 科技值。不能建在丘陵上，但可建在泛滥平原上。无法建在另一个塔庙旁。</Text>
+			<Text>解锁建造者建造苏美尔特色改良设施{LOC_IMPROVEMENT_ZIGGURAT_NAME}的能力。[NEWLINE][NEWLINE]+2 [ICON_Science] 科技值。如果紧挨着河流，+1 [ICON_Culture] 文化值。获得“土木工程”市政后将产出更多 [ICON_CULTURE] 文化值和 [ICON_Science] 科技值。不能建在丘陵上，但可建在泛滥平原上。无法建在另一个塔庙旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造埃及特色改良设施狮身人面像的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值、+1 [ICON_Culture] 文化值。+2魅力。如果与奇观相邻，+2 [ICON_Faith] 信仰值。如建在泛滥平原上，+1 [ICON_CULTURE] 文化值。获得“人文主义”市政后将产出更多 [ICON_CULTURE] 文化值。研究完“飞行”后其将提供 [ICON_TOURISM] 旅游业绩。无法建在另一个狮身人面像旁。无法建在雪地或雪地丘陵上。</Text>
+			<Text>解锁建造者建造埃及特色改良设施{LOC_IMPROVEMENT_SPHINX_NAME}的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值、+1 [ICON_Culture] 文化值。+2魅力。如果与奇观相邻，+2 [ICON_Faith] 信仰值。如建在泛滥平原上，+1 [ICON_CULTURE] 文化值。获得“人文主义”市政后将产出更多 [ICON_CULTURE] 文化值。研究完“飞行”后其将提供 [ICON_TOURISM] 旅游业绩。无法建在另一个狮身人面像旁。无法建在雪地或雪地丘陵上。</Text>
 		</Replace>
-		
+		<Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造印加特色改良设施{LOC_IMPROVEMENT_TERRACE_FARM_NAME}的能力。[NEWLINE][NEWLINE]+1 [ICON_FOOD] 食物。+0.5 [ICON_Housing] 住房。每与一个山脉单元格相邻则+1 [ICON_FOOD] 食物。与水渠区域或淡水相邻时，+1 [ICON_PRODUCTION] 生产力。随着科技的发展，与其他梯田农场相邻时还可获得更多 [ICON_FOOD] 食物。可建在草原丘陵、平原丘陵与沙漠丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_STEPWELL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造印度特色改良设施{LOC_IMPROVEMENT_STEPWELL_NAME}的能力。[NEWLINE][NEWLINE]提供+1点 [ICON_Food] 食物并+1 [ICON_Housing] 住房。每与1个圣地区域相邻，+1 [ICON_Faith] 信仰值。每与1处农场相邻，+1 [ICON_Food] 食物。随着科技和市政的发展，其将提供更多 [ICON_Housing] 住房、[ICON_Faith] 信仰值和 [ICON_Food] 食物。干旱期间可防止 [ICON_Food] 食物损失。不能建在丘陵上，不能建在另一个梯井旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造大哥伦比亚特色改良设施{LOC_IMPROVEMENT_HACIENDA_NAME}的能力。[NEWLINE][NEWLINE]+2 [ICON_GOLD] 金币、+1 [ICON_PRODUCTION] 生产力并+0.5 [Icon_Housing] 住房。每与1座种植园相邻则+1 [ICON_Food] 食物。每与2座大庄园相邻，种植园与大庄园便+1 [ICON_Production] 生产力（获得市政“快速部署”后，每与1座大庄园相邻便能获得加成）。只能建造在平原、平原丘陵、草原和草原丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_ROUTE_RAILROAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造不消耗次数但需消耗1点 [ICON_RESOURCE_IRON] 铁和1点 [ICON_RESOURCE_COAL] 煤。可大幅提高单位沿铁路单元格前进的 [ICON_Movement] 移动速度。与铁路路径重叠的 [ICON_TradeRoute] 贸易路线从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

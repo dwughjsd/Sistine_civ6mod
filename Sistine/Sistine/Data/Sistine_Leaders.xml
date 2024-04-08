@@ -279,6 +279,10 @@
 			<Name>UnitProductionPercent</Name>
 			<Value>40</Value>
 		</Row>
+		<Update>
+			<Where ModifierId="LEVY_UNITUPGRADEDISCOUNT" Name="Amount" />
+			<Set Value="50"/>
+		</Update>
 	</ModifierArguments>
 
 </GameData>
