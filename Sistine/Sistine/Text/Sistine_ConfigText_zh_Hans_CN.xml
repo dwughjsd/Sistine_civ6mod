@@ -460,7 +460,7 @@
 			<Text>可用 [ICON_FAITH] 信仰值购买海军单位。宗教单位上船下船时无移动力消耗。与海岸或湖泊单元格相邻的市中心+2 [ICON_FAITH] 信仰值、+2 [ICON_Culture] 文化值。</Text>
 		  </Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>圣地将拥有以下效果：与河流相邻时将获得标准相邻加成、可施放1次文化炸弹、将提供等同于其相邻加成的 [ICON_FOOD] 食物、处于河流之上时+1 [ICON_Housing] 住房。</Text>
+			<Text>圣地可施放文化炸弹，与河流相邻时将提供等同于其相邻加成的 [ICON_FOOD] 食物，并+1 [ICON_Housing] 住房。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>无法建造圣地区。从已成为多数刚果城市信仰的宗教中获得信仰值。每次完成一个姆班赞或剧院广场区时获得一位（城市主流宗教的）使徒。</Text>
