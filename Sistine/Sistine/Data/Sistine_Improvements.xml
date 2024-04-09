@@ -358,6 +358,10 @@
 		</Update>
 		<Row ID="Stepwell_FarmAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FARM" />
 		<Row ID="Stepwell_HolySiteAdjacency" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Update>
+			<Where ID="Kampung_FoodFishingBoats" />
+			<Set YieldChange="2"/>
+		</Update>
 	</Adjacency_YieldChanges>
 	<Modifiers>
 		<!--So that all players benefit from it-->

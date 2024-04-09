@@ -167,8 +167,8 @@
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<!--Holy Site-->
 		<!--<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="2"/>
-		<Row BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<Row BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="2"/>-->
+		<Row BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" YieldChange="4"/>
 		<Delete BuildingType="BUILDING_CATHEDRAL"/>
 		<Delete BuildingType="BUILDING_DAR_E_MEHR"/>
 		<Delete BuildingType="BUILDING_GURDWARA"/>
@@ -1485,4 +1485,10 @@
 			<ModifierId>CORBACI_FREE_PROMOTION</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
+
+	<!--Prasat-->
+	<TraitModifiers>
+		<Delete ModifierId="PRASAT_TOURISM_10_POPULATION"/>
+		<Delete ModifierId="PRASAT_TOURISM_20_POPULATION"/>
+	</TraitModifiers>
 </GameData>

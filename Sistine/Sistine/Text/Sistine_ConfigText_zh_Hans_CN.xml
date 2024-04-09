@@ -150,6 +150,12 @@
 		<Replace Tag="LOC_BUILDING_TLACHTLI_XP1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>阿兹特克特色建筑。提供2点 [ICON_Amenities] 宜居度、+3 [ICON_Culture] 文化值、+3 [ICON_Faith] 信仰值，并提供1点 [ICON_GreatGeneral] 大将军点数。获得“自然保护”市政后，提供的 [ICON_TOURISM] 旅游业绩+1。</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_PRASAT_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>高棉特色建筑。替代寺庙。拥有此建筑后才能用 [ICON_Faith] 信仰值购买使徒和审判官。此城中每有1点 [ICON_CITIZEN] 人口，便+0.5 [ICON_Culture] 文化值。研究完“飞行”之后，</Text>
+		  </Replace>
+		<Replace Tag="LOC_BUILDING_PRASAT_HEROES_XP2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>高棉特色建筑。替代寺庙。拥有此建筑后才能用 [ICON_Faith] 信仰值购买使徒和审判官。此城中每有1点 [ICON_CITIZEN] 人口，便+0.5 [ICON_Culture] 文化值。在此城中召回英雄所花费的 [ICON_Faith] 信仰值-15%。</Text>
+		</Replace>
 		<!--Natural Wonders-->
 		<Replace Tag="LOC_FEATURE_KILIMANJARO_XP2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>占地1单元格的不可通行自然奇观。视为火山，为相邻单元格+3 [ICON_Food] 食物。喷发时提供少量产出，最有可能破坏建筑与区域。不常喷发，但始终处于活跃状态。</Text>
@@ -424,7 +430,7 @@
 			<Text>在首都所在大陆上时单位+5 [ICON_Strength] 战斗力。向城邦派遣的首个 [ICON_Envoy] 使者视为2位。如与城邦之间存在 [ICON_TradeRoute] 贸易路线，派往此处的1位 [ICON_Envoy] 使者将视为2位。解锁“膛线”科技后获得特色单位“莽骑兵”。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每新出现一位可供招募的 [ICON_GreatPerson] 伟人，便获得当前游戏时代基础 [ICON_GreatPerson] 伟人招募成本的20%。</Text>
+			<Text>招募或赞助一位 [ICON_GreatPerson] 伟人后，将返还所消耗 [ICON_GreatPerson] 伟人点数的20%。每新出现一位可供招募的 [ICON_GreatPerson] 伟人，便获得当前游戏时代基础 [ICON_GreatPerson] 伟人招募成本的20%。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>通向本方城市的本方 [ICON_TradeRoute] 贸易路线每回合可为起点城市+4忠诚度。通往外国城市或起源于外国城市的 [ICON_TradeRoute] 贸易路线为您+2 [ICON_Culture] 文化值。通向盟友或以您为宗主国的城邦的 [ICON_TradeRoute] 贸易路线为您+4 [ICON_Culture] 文化值。</Text>
@@ -450,6 +456,21 @@
 		<Replace Tag="LOC_TRAIT_LEADER_RAVEN_KING_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>从城邦征集的单位+2 [ICON_Movement] 移动力、+5 [ICON_Strength] 战斗力。升级征集单位所花费的 [ICON_GOLD] 金币和资源减少50%。征集城邦军队时可在该城邦增加2名 [ICON_ENVOY] 使者。研究“城堡”科技后获得特色单位“黑军”。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_EXALTED_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可用 [ICON_FAITH] 信仰值购买海军单位。宗教单位上船下船时无移动力消耗。与海岸或湖泊单元格相邻的市中心+2 [ICON_FAITH] 信仰值、+2 [ICON_Culture] 文化值。</Text>
+		  </Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣地将拥有以下效果：与河流相邻时将获得标准相邻加成、可施放1次文化炸弹、将提供等同于其相邻加成的 [ICON_FOOD] 食物、处于河流之上时+1 [ICON_Housing] 住房。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无法建造圣地区。从已成为多数刚果城市信仰的宗教中获得信仰值。每次完成一个姆班赞或剧院广场区时获得一位（城市主流宗教的）使徒。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在城市中就职的[ICON_Governor] 总督提供+3 [ICON_Culture] 文化值和 [ICON_Science] 科技值；每项已获得的升级（包括首个升级）提供+3% [ICON_Culture] 文化值和 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>招募伟人所花费的 [ICON_GOLD] 金币-50%。商业中心每回合提供+1 [ICON_GreatWriter] 大作家点数。市场获得2个 [ICON_GreatWork_WRITING] 著作巨作槽位。[ICON_GreatWork_WRITING] 著作巨作+6 [ICON_GOLD] 金币、+3 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
 		<!--Civ Traits-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-80%。</Text>
@@ -465,6 +486,12 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>获得“军事训练”市政后，所有单位+1 [ICON_Movement] 移动力，升级单位不会结束其回合。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有水渠的城市：获得+1 [ICON_AMENITIES] 来自娱乐设施的宜居度；每有1点 [ICON_CITIZEN] 人口，则+0.5 [ICON_FAITH] 信仰值。农场与水渠相邻时，提供的 [ICON_FOOD] 食物+2；与圣地相邻时，提供的 [ICON_FAITH] 信仰值+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NKISI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无法获得大预言家或创建宗教。从每个 [ICON_GreatWork_Relic] 遗物、[ICON_GreatWork_Artifact] 文物以及 [ICON_GreatWork_Sculpture]雕塑艺术巨作中额外获得+2 [ICON_Food] 食物、+2 [ICON_Production] 生产力、+1 [ICON_Faith] 信仰值，及+4 [ICON_Gold] 金币。获得的[ICON_GreatArtist] 大艺术家、[ICON_GreatMusician] 大音乐家和 [ICON_GreatMerchant] 大商人点数+50%。宫殿拥有5个巨作槽位。</Text>
 		</Replace>
 		<!--Civ unique improvements-->
 		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
@@ -491,8 +518,15 @@
 		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造大哥伦比亚特色改良设施{LOC_IMPROVEMENT_HACIENDA_NAME}的能力。[NEWLINE][NEWLINE]+2 [ICON_GOLD] 金币、+1 [ICON_PRODUCTION] 生产力并+0.5 [Icon_Housing] 住房。每与1座种植园相邻则+1 [ICON_Food] 食物。每与2座大庄园相邻，种植园与大庄园便+1 [ICON_Production] 生产力（获得市政“快速部署”后，每与1座大庄园相邻便能获得加成）。只能建造在平原、平原丘陵、草原和草原丘陵上。</Text>
 		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造印度尼西亚特色改良设施甘榜的能力。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力、+1 [ICON_Housing] 住房。每个相邻渔船+2 [ICON_FOOD] 食物。解锁更多科技和市政后可获得更多 [ICON_PRODUCTION] 生产力、[ICON_Housing] 住房和 [ICON_TOURISM] 旅游业绩。必须建造在靠近海洋资源的海岸或湖泊单元格上。</Text>
+		  </Replace>
 		<Replace Tag="LOC_ROUTE_RAILROAD_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建造不消耗次数但需消耗1点 [ICON_RESOURCE_IRON] 铁和1点 [ICON_RESOURCE_COAL] 煤。可大幅提高单位沿铁路单元格前进的 [ICON_Movement] 移动速度。与铁路路径重叠的 [ICON_TradeRoute] 贸易路线从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。</Text>
+		</Replace>
+		<!--Unique Unit-->
+		<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中国中古时代特色单位，替代弩手。高战斗力远程单位。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

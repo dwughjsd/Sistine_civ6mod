@@ -49,4 +49,10 @@
 			<Value>CIVIC_MILITARY_TRAINING</Value>
 		</Row>
 	</RequirementArguments>
+	<ExcludedGreatPersonClasses>
+		<Update>
+			<Where GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" />
+			<Set TraitType="TRAIT_CIVILIZATION_NKISI"/>
+		</Update>
+	</ExcludedGreatPersonClasses>
 </GameData>
