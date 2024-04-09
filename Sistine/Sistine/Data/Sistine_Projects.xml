@@ -7,6 +7,10 @@
 	<Projects>
 		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER"/>
 		<Update>
+			<Where ProjectType="PROJECT_COTHON_CAPITAL_MOVE" />
+			<Set Cost="65" />
+		</Update>
+		<Update>
 			<Where ProjectType="PROJECT_ORBITAL_LASER" />
 			<Set PrereqTech="TECH_SMART_MATERIALS" Cost="1200" MaxPlayerInstances="5"/>
 		</Update>

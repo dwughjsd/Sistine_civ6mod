@@ -471,6 +471,15 @@
 		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>招募伟人所花费的 [ICON_GOLD] 金币-50%。商业中心每回合提供+1 [ICON_GreatWriter] 大作家点数。市场获得2个 [ICON_GreatWork_WRITING] 著作巨作槽位。[ICON_GreatWork_WRITING] 著作巨作+6 [ICON_GOLD] 金币、+3 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造所有区域和建筑+20% [ICON_Production] 生产力，如果努比亚金字塔临近市中心，加成提升至+40%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SULEIMAN_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代时，+15% 所有类型产出。未处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代时，和同样未处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代的文明作战将+4 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在城市中完成特色项目后，可将原始 [ICON_Capital] 首都迁至任意拥有U型港的城市（必须为本方建立）。每个市政广场建筑与市政广场区域+1 [ICON_TradeRoute] 贸易路线容量。建造市政广场+100% [ICON_Production] 生产力。在拥有市政广场的城市中建造区域和建筑时+50% [ICON_Production] 生产力。</Text>
+		</Replace>
 		<!--Civ Traits-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-80%。</Text>
@@ -521,6 +530,9 @@
 		<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造印度尼西亚特色改良设施甘榜的能力。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力、+1 [ICON_Housing] 住房。每个相邻渔船+2 [ICON_FOOD] 食物。解锁更多科技和市政后可获得更多 [ICON_PRODUCTION] 生产力、[ICON_Housing] 住房和 [ICON_TOURISM] 旅游业绩。必须建造在靠近海洋资源的海岸或湖泊单元格上。</Text>
 		  </Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造努比亚特色改良设施努比亚金字塔的能力。必须建在沙漠、沙丘或沙漠泛滥平原上。+2 [ICON_Faith] 信仰值、+1 [ICON_Food] 食物。可从相邻区域获得额外产出。与市中心、堤坝、堤坝和水渠相邻则+1 [ICON_Food] 食物，与娱乐中心和水上乐园相邻则+1 [ICON_Culture] 文化值。研究完“飞行”后其将提供 [ICON_TOURISM] 旅游业绩。如与提供相邻加成的其他任意区域相邻，则相应产出+1。</Text>
+		</Replace>
 		<Replace Tag="LOC_ROUTE_RAILROAD_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建造不消耗次数但需消耗1点 [ICON_RESOURCE_IRON] 铁和1点 [ICON_RESOURCE_COAL] 煤。可大幅提高单位沿铁路单元格前进的 [ICON_Movement] 移动速度。与铁路路径重叠的 [ICON_TradeRoute] 贸易路线从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。</Text>
 		</Replace>

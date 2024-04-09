@@ -28,6 +28,10 @@
 		<Row TraitType="TRAIT_LEADER_HWARANG" ModifierId="TRAIT_ADJUST_GOVERNOR_CULTURE"/>
 		<Row TraitType="TRAIT_LEADER_HWARANG" ModifierId="TRAIT_ADJUST_GOVERNOR_SCIENCE"/>
 		<Row TraitType="TRAIT_LEADER_SUNDIATA_KEITA" ModifierId="TRAIT_COMMERCIAL_HUB_GREAT_WRITER_POINTS"/>
+		<Row TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE" ModifierId="TRAIT_BASE_BUILDING_PRODUCTION_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE" ModifierId="TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRAIT_GOVERNMENT_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRAIT_GOVERNMENT_BUILDINGS_PRODUCTION"/>
 	</TraitModifiers>
     <Modifiers>
         <Row>
@@ -136,6 +140,24 @@
 			<ModifierId>TRAIT_COMMERCIAL_HUB_GREAT_WRITER_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT_BASE</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BASE_BUILDING_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_PLOT_ADJACENT_PYRAMID</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOVERNMENT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOVERNMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOV_DISTRICT</SubjectRequirementSetId>
 		</Row>
     </Modifiers>
     <ModifierArguments>
@@ -370,6 +392,33 @@
 			<ModifierId>TRAIT_COMMERCIAL_HUB_GREAT_WRITER_POINTS</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BASE_BUILDING_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PYRAMID_DISTRICT_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Update><Where ModifierId="TRAIT_SULEIMAN_ALT_SCIENCE_CULTURE_GOLDEN_AGE" Name="YieldType"/><Set Value="YIELD_SCIENCE, YIELD_CULTURE, YIELD_FOOD, YIELD_GOLD, YIELD_PRODUCTION, YIELD_FAITH"/></Update>
+		<Update><Where ModifierId="TRAIT_SULEIMAN_ALT_SCIENCE_CULTURE_GOLDEN_AGE" Name="Amount"/><Set Value="15, 15, 15, 15, 15, 15"/></Update>
+		<Row>
+			<ModifierId>TRAIT_GOVERNMENT_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOVERNMENT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOVERNMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
 		</Row>
 	</ModifierArguments>
 

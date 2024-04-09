@@ -93,6 +93,7 @@
 		<Replace ImprovementType="IMPROVEMENT_WIND_FARM" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Replace ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_FOOD" YieldChange="1"/>
 	</Improvement_YieldChanges>
 
 	<RequirementSets>
@@ -287,6 +288,11 @@
 		<Row ImprovementType="IMPROVEMENT_MONASTERY" YieldChangeId="Monastery_LuxuryAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_STEPWELL" YieldChangeId="Stepwell_FarmAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_STEPWELL" YieldChangeId="Stepwell_HolySiteAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_DamAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_CanalAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_AqueductAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_EntertainmentComplexAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_WaterEntertainmentComplexAdjacency"/>
 	</Improvement_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Update>
@@ -362,6 +368,11 @@
 			<Where ID="Kampung_FoodFishingBoats" />
 			<Set YieldChange="2"/>
 		</Update>
+		<Row ID="Pyramid_DamAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_DAM"/>
+		<Row ID="Pyramid_CanalAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
+		<Row ID="Pyramid_AqueductAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_AQUEDUCT"/>
+		<Row ID="Pyramid_EntertainmentComplexAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row ID="Pyramid_WaterEntertainmentComplexAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
 	</Adjacency_YieldChanges>
 	<Modifiers>
 		<!--So that all players benefit from it-->
@@ -411,6 +422,7 @@
 			<Where ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" />
 			<Set TourismSource="TOURISMSOURCE_CULTURE"/>
 		</Update>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
 	</Improvement_Tourism>
 	<ImprovementModifiers>
 		<Delete ImprovementType="IMPROVEMENT_STEPWELL" ModifierId="STEPWELL_FARMADJACENCY_FOOD" />
