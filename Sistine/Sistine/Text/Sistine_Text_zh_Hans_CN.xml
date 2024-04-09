@@ -1685,6 +1685,18 @@
 		<Replace Tag="LOC_WORLD_CONGRESS_DISTRICT_BUILDING_PRODUCTION_DESC" Language="zh_Hans_CN">
 			<Text>建造该区域中的建筑时+50% [ICON_Production] 生产力。</Text>
 		</Replace>
-
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>扮演托勒密王朝的{LOC_LEADER_CLEOPATRA_NAME}，见证 [ICON_FOOD] 食物和 [ICON_CULTURE] 文化值沿壮观的尼罗河顺流而下。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>选择托勒密的{LOC_LEADER_CLEOPATRA_NAME}进行游戏时，务必在拥有大量河流和泛滥平原的地方开拓城市。让她治下的埃及沿河定居，才能得到以下重要资源，建立经得起时间考验的文明：[ICON_Production] 生产力、[ICON_Culture] 文化值、[ICON_Food] 食物，以及魅力值。“{LOC_TRAIT_CIVILIZATION_ITERU_NAME}”能力能够提供 [ICON_Production] 生产力，并保护毗邻河流的城市免受洪水侵袭。她的领袖能力为河畔城市提供 [ICON_Culture] 文化值、魅力值，以及 [ICON_FOOD] 食物。如果解开狮身人面像的谜团（指建成它们），河畔城市还能产出更多 [ICON_Culture] 文化值。有了狮身人面像和自身领袖能力所产出的 [ICON_Culture] 文化值，{LOC_LEADER_CLEOPATRA_NAME}将着重于文化胜利。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_ALT_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>在奇观竞争中，{LOC_LEADER_CLEOPATRA_NAME}是秦始皇的主要竞争对手；但她不会守在长城之后，而是依靠自己的魅力（和贸易利益）劝诱其强大的朋友替她进行攻击。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_ALT_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>埃及沿河而建，他们在此处建造区域和奇观可获得加成。和附近的狮身人面像一起时，这些奇观会变得非常有价值，能让埃及在游戏中的各个方面都快速起步。如果{LOC_LEADER_CLEOPATRA_NAME}接下来和其他强大文明成为朋友（或许因为他们能通过和她的贸易获得 [ICON_Food] 食物），她将能继续使用奇观向前迈进。这使她能获得任何类型的胜利，但在奇观和狮身人面像的帮助下，她尤其擅长在游戏中取得文化胜利。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
