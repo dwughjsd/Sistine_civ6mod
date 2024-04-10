@@ -254,7 +254,6 @@
 		<Replace Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_DESCRIPTION_SST" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength when attacking, +1 [ICON_Movement] Movement, and can ignore Zone of Control, all from the Fascism government.</Text>
 		</Replace>
-		</Replace>
 		<Replace Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_DESCRIPTION" Language="en_US">
 			<Text>+4 [ICON_Religion] Religious Strength from the Theocracy government.</Text>
 		</Replace>
