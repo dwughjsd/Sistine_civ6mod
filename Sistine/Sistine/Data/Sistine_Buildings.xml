@@ -399,6 +399,9 @@
 		<Row ModifierId="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX" Name="YieldType" Value="YIELD_PRODUCTION"/>
 		<Row ModifierId="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX" Name="Amount" Value="1"/>
 		<Row ModifierId="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX_ATTACH" Name="ModifierId" Value="HYDROELECTRIC_DAM_RIVER_TILE_PRODUCTION_6HEX"/>
+		<!--Commercial Hub-->
+		<Update><Where ModifierId="SUKIENNICE_DOMESTICGOLD" Name="Amount"/><Set Value="6"/></Update>
+		<Update><Where ModifierId="SUKIENNICE_INTERNATIONALPRODUCTION" Name="Amount"/><Set Value="3"/></Update>
 	</ModifierArguments>
 
 	<!--Costs-->

@@ -39,7 +39,7 @@
 			<Text>采石场+1 [ICON_Production] 生产力。牧场+1 [ICON_Food] 食物。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造伐木场的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。只能建在树林上。解锁“公会”市政后也能建造雨林上。</Text>
+			<Text>解锁建造者建造伐木场的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。只能建在森林上。解锁“公会”市政后也能建造雨林上。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造牧场的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物。只能在有效资源上建造。[NEWLINE][NEWLINE]如果建在战略资源上，城市则可以利用该资源。</Text>
@@ -426,7 +426,7 @@
 			<Text>所有海军单位+1 [ICON_Movement] 移动力，获得进入海洋单元格的能力。[NEWLINE][NEWLINE]必须建在海岸上，且必须与陆地和已有灯塔的港口相邻。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MAHABODHI_TEMPLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建成后+2外交胜利点数，并提供3个使徒。此城市对相邻城市释放的宗教压力强度加倍。[NEWLINE][NEWLINE]必须建在与圣地区域（此区域中须建有寺庙）相邻的树林中，前提还须已创立宗教。</Text>
+			<Text>建成后+2外交胜利点数，并提供3个使徒。此城市对相邻城市释放的宗教压力强度加倍。[NEWLINE][NEWLINE]必须建在与圣地区域（此区域中须建有寺庙）相邻的森林中，前提还须已创立宗教。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为该城市所有沙漠单元格（非泛滥平原）+1 [ICON_Food] 食物、+2 [ICON_Gold] 金币、+1 [ICON_Production] 生产力。+1 [ICON_TradeRoute] 贸易路线容量。获得1个商人单位。必须建在没有丘陵的沙漠或沙漠泛滥平原上。</Text>

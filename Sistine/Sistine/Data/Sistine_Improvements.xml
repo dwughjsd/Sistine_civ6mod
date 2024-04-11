@@ -25,15 +25,6 @@
 			<Set PrereqTech="" PrereqCivic="CIVIC_CIVIL_SERVICE"/>
 		</Update>
 		<Update>
-			<Where Id="18" ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"/> 
-			<Set PrereqCivic="CIVIC_HUMANISM"/>
-		</Update>
-		<Update>
-			<Where Id="21" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"/> 
-			<Set PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
-		</Update>
-		<Row Id="502" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
-		<Update>
 			<Where Id="7" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION"/>
 			<!-- PrereqTech="TECH_INDUSTRIALIZATION"-->
 			<Set PrereqTech="TECH_STEAM_POWER"/>
@@ -94,6 +85,7 @@
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Replace ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Replace ImprovementType="IMPROVEMENT_FEITORIA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 	</Improvement_YieldChanges>
 
 	<RequirementSets>
@@ -278,6 +270,10 @@
 			<Where ImprovementType="IMPROVEMENT_TERRACE_FARM" />
 			<Set Housing="1"/>
 		</Update>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" />
+			<Set Appeal="1"/>
+		</Update>
 	</Improvements>
 	<Improvement_YieldChanges>
 		<Replace ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_GOLD" YieldChange="4"/>
@@ -373,6 +369,14 @@
 		<Row ID="Pyramid_AqueductAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_AQUEDUCT"/>
 		<Row ID="Pyramid_EntertainmentComplexAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
 		<Row ID="Pyramid_WaterEntertainmentComplexAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+		<Update>
+			<Where ID="GolfCourse_CityCenterAdjacency" />
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where ID="GolfCourse_EntertainmentComplexAdjacency" />
+			<Set YieldChange="2"/>
+		</Update>
 	</Adjacency_YieldChanges>
 	<Modifiers>
 		<!--So that all players benefit from it-->
@@ -407,13 +411,35 @@
 			<Where ModifierId="MOAI_VOLCANICADJACENCY_CULTURE" Name="Amount" />
 			<Set Value="1"/>
 		</Update>
+		<Update>
+			<Where ModifierId="TRADE_GOLD_FROM_FEITORIA" Name="Amount" />
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MISSION_NEWCONTINENT_FAITH" Name="Amount" />
+			<Set Value="1"/>
+		</Update>
 	</ModifierArguments>
 	<Improvement_BonusYieldChanges>
 		<!--The ID is not necessary for the system to work. However it's good to make it unique.-->
+		<Update>
+			<Where Id="18" ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"/> 
+			<Set PrereqCivic="CIVIC_HUMANISM"/>
+		</Update>
+		<Update>
+			<Where Id="21" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"/> 
+			<Set PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		</Update>
+		<Row Id="502" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
 		<Row Id="20001" ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_ECONOMICS"/>
 		<Update>
 			<Where ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_GOLD" />
 			<Set BonusYieldChange="2" PrereqCivic="CIVIC_MEDIEVAL_FAIRES"/>
+		</Update>
+		<Row Id="20002" ImprovementType="IMPROVEMENT_GOLF_COURSE" YieldType="YIELD_CULTURE" BonusYieldChange="2" PrereqCivic="CIVIC_CAPITALISM"/>
+		<Update>
+			<Where Id="17" ImprovementType="IMPROVEMENT_MISSION" YieldType="YIELD_SCIENCE"  />
+			<Set BonusYieldChange="1" />
 		</Update>
 	</Improvement_BonusYieldChanges>
 	<Improvement_Tourism>
@@ -427,5 +453,6 @@
 	<ImprovementModifiers>
 		<Delete ImprovementType="IMPROVEMENT_STEPWELL" ModifierId="STEPWELL_FARMADJACENCY_FOOD" />
 		<Delete ImprovementType="IMPROVEMENT_STEPWELL" ModifierId="STEPWELL_HOLYSITEADJACENCY_FAITH" />
+		<Delete ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" ModifierId="OPEN_AIR_MUSEUM_LOYALTY" />
 	</ImprovementModifiers>
 </GameData>

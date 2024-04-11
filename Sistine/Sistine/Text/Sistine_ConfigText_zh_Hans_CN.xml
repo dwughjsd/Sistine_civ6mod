@@ -142,7 +142,7 @@
 			<Text>葡萄牙特色建筑。{LOC_BUILDING_UNIVERSITY_DESCRIPTION_SST}在此城中生产海军单位时+25%生产力。此城中每拥有2个海岸或湖泊单元格，则+1 [ICON_SCiENCE] 科技值。每回合+1 [ICON_GreatAdmiral] 海军统帅点数、+1 [ICON_GreatScientist] 大科学家点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>波兰特色建筑。{LOC_BUILDING_BANK_DESCRIPTION_SST}从此城开始的国际 [ICON_TradeRoute] 贸易路线+2 [ICON_Production] 生产力；国内 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币。如此城尚未建有灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+			<Text>波兰特色建筑。{LOC_BUILDING_BANK_DESCRIPTION_SST}从此城开始的国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Production] 生产力；国内 [ICON_TradeRoute] 贸易路线+6 [ICON_Gold] 金币。如此城尚未建有灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>匈牙利特色建筑。+3点 [ICON_Amenities] 宜居度与+2点 [ICON_PRODUCTION] 生产力，可扩展到6个单元格内的每个市中心。城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。此城中若包含至少1处地热裂缝，则该城市的 [ICON_TOURISM] 旅游业绩+3，同时 [ICON_AMENITIES] 宜居度额外+2。</Text>
@@ -361,7 +361,7 @@
 			<Text>解锁建造者建造摩艾石像的能力。[NEWLINE][NEWLINE]{LOC_IMPROVEMENT_MOAI_SHARED_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOAI_SHARED_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+1 [ICON_Culture] 文化值。每2个相邻的摩艾石像+1 [ICON_Culture] 文化值，获得“殖民主义”市政后，每个相邻的摩艾石像+1 [ICON_Culture] 文化值。位于火山土单元格之上或与其相邻时，+1 [ICON_Culture] 文化值。与海岸或湖泊单元格相邻时，+1 [ICON_Culture] 文化值。研究“飞行”后获得本单元格 [ICON_CULTURE] 文化值产出的 [ICON_Tourism] 旅游业绩。可建在平原、平原丘陵、草原、草原丘陵或火山土之上。无法建在与树林或雨林相邻的单元格上。</Text>
+			<Text>+1 [ICON_Culture] 文化值。每2个相邻的摩艾石像+1 [ICON_Culture] 文化值，获得“殖民主义”市政后，每个相邻的摩艾石像+1 [ICON_Culture] 文化值。位于火山土单元格之上或与其相邻时，+1 [ICON_Culture] 文化值。与海岸或湖泊单元格相邻时，+1 [ICON_Culture] 文化值。研究“飞行”后获得本单元格 [ICON_CULTURE] 文化值产出的 [ICON_Tourism] 旅游业绩。可建在平原、平原丘陵、草原、草原丘陵或火山土之上。无法建在与森林或雨林相邻的单元格上。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_SINGAPORE_BONUS" Language="zh_Hans_CN">
 			<Text>每个本城的 [ICON_TradeRoute] 贸易路线通向的外国文明为您的城市+3 [ICON_Production] 生产力。</Text>
@@ -424,7 +424,7 @@
 		
 		<!--Leader traits-->
 		<Replace Tag="LOC_TRAIT_LEADER_ANTIQUES_AND_PARKS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>与自然奇观或山脉相邻的惊艳单元格+1 [ICON_SCIENCE] 科技值。与自然奇观或树林相邻的惊艳单元格+1 [ICON_CULTURE] 文化值。如拥有国家公园，城市的所有单元格+2魅力。建立在惊艳单元格上的城市获得1个免费的自然学家。</Text>
+			<Text>与自然奇观或山脉相邻的惊艳单元格+1 [ICON_SCIENCE] 科技值。与自然奇观或森林相邻的惊艳单元格+1 [ICON_CULTURE] 文化值。如拥有国家公园，城市的所有单元格+2魅力。建立在惊艳单元格上的城市获得1个免费的自然学家。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_ROUGH_RIDER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在首都所在大陆上时单位+5 [ICON_Strength] 战斗力。向城邦派遣的首个 [ICON_Envoy] 使者视为2位。如与城邦之间存在 [ICON_TradeRoute] 贸易路线，派往此处的1位 [ICON_Envoy] 使者将视为2位。解锁“膛线”科技后获得特色单位“莽骑兵”。</Text>
@@ -480,7 +480,16 @@
 		<Replace Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在城市中完成特色项目后，可将原始 [ICON_Capital] 首都迁至任意拥有U型港的城市（必须为本方建立）。每个市政广场建筑与市政广场区域+1 [ICON_TradeRoute] 贸易路线容量。建造市政广场+100% [ICON_Production] 生产力。在拥有市政广场的城市中建造区域和建筑时+50% [ICON_Production] 生产力。</Text>
 		</Replace>
-		<!--Civ Traits-->
+		<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如城市在波兰文化炸弹的攻击下失去单元格，则波兰的主流宗教将成为此城的主流宗教。圣地可从相邻区域获得信仰值相邻加成。游戏开始时立即获得1件遗物。所有遗物均提供加成：+2信仰值、+2文化值、+4金币。</Text>
+		  </Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_HEROES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果相邻城市在波兰文化炸弹的攻击下失去单元格，则波兰创立的宗教将成为此城的主流宗教。圣地将从相邻区域获得标准信仰值相邻加成。游戏开始时立即获得1件遗物。[ICON_GreatWork_Relic] 遗物和 [ICON_GreatWork_HeroRelic] 英雄遗物提供的 [ICON_Faith] 信仰值+2、[ICON_Culture] 文化值+2、[ICON_Gold] 金币+4。</Text>
+		  </Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国际 [ICON_TradeRoute] 贸易路线 +2 [ICON_Science] 科技值和 [ICON_Culture] 文化值。如 [ICON_TradeRoute] 贸易路线的目标文明与比俄罗斯更先进，则其将提供 [ICON_Science] 科技值或 [ICON_Culture] 文化值（每领先1项科技或市政则+1）。</Text>
+		</Replace>
+		  <!--Civ Traits-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-80%。</Text>
 		</Replace>
@@ -502,6 +511,21 @@
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NKISI_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>无法获得大预言家或创建宗教。从每个 [ICON_GreatWork_Relic] 遗物、[ICON_GreatWork_Artifact] 文物以及 [ICON_GreatWork_Sculpture]雕塑艺术巨作中额外获得+2 [ICON_Food] 食物、+2 [ICON_Production] 生产力、+1 [ICON_Faith] 信仰值，及+4 [ICON_Gold] 金币。获得的[ICON_GreatArtist] 大艺术家、[ICON_GreatMusician] 大音乐家和 [ICON_GreatMerchant] 大商人点数+50%。宫殿拥有5个巨作槽位。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SCOTTISH_ENLIGHTENMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>幸福度为快乐的城市额外+10% [ICON_SCIENCE] 科技值、+10% [ICON_PRODUCTION] 生产力。快乐的城市中每个学院+1 [ICON_GreatScientist] 大科学家点数、每个工业区+1 [ICON_GreatEngineer] 大工程师点数。欢欣的城市获得的加成将加倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁“重商主义”后（无需“民族主义”和“动员”）即可组建舰队和无敌舰队。[ICON_TradeRoute] 贸易路线+2 [ICON_Gold] 金币、+1 [ICON_Faith] 信仰值、+1 [ICON_Production] 生产力。跨大陆 [ICON_TradeRoute] 贸易路线获得3倍以上加成。如城市处于非原始首都所在大陆，其建成时将获得1名建造者。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TRIEU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在雨林、沼泽或森林单元格中战斗的单位+3 [ICON_Strength] 战斗力。如果单位在回合开始时处于这些地貌中，则+1 [ICON_Movement] 移动力。而如果这些地貌单元格是您的领土，则以上加成均加倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TRIEU_FEATURES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_TRIEU_DESCRIPTION}</Text>
+		  </Replace>
+		  <Replace Tag="LOC_TRAIT_CIVILIZATION_VIETNAM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有陆地专业化区域只能建造在雨林、沼泽或森林上。建在这些地貌上的建筑和区域将获得以下收益：建在森林上提供+1 [ICON_CULTURE] 文化值、建在雨林上提供+1 [ICON_SCIENCE] 科技值、建在沼泽上提供+1 [ICON_PRODUCTION] 生产力。拥有“中世纪集市”市政后即可栽种森林。</Text>
+		  </Replace>
 		<!--Civ unique improvements-->
 		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造法国特色改良设施{LOC_IMPROVEMENT_CHATEAU_NAME}的能力。[NEWLINE][NEWLINE]+2 [ICON_Culture] 文化值、+1 [ICON_Gold] 金币。+1魅力。每与一座奇观相邻便+1 [ICON_Culture] 文化值（研究“飞行”科技后提升为+2）。若与河流相邻则+2 [ICON_Gold] 金币。研究“飞行”之后，将根据 [ICON_CULTURE] 文化值提供 [ICON_TOURISM] 旅游业绩。无法建在另一座法国城堡旁。</Text>
@@ -533,6 +557,18 @@
 		<Replace Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造努比亚特色改良设施努比亚金字塔的能力。必须建在沙漠、沙丘或沙漠泛滥平原上。+2 [ICON_Faith] 信仰值、+1 [ICON_Food] 食物。可从相邻区域获得额外产出。与市中心、堤坝、堤坝和水渠相邻则+1 [ICON_Food] 食物，与娱乐中心和水上乐园相邻则+1 [ICON_Culture] 文化值。研究完“飞行”后其将提供 [ICON_TOURISM] 旅游业绩。如与提供相邻加成的其他任意区域相邻，则相应产出+1。</Text>
 		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FEITORIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁{LOC_UNIT_PORTUGUESE_NAU_NAME}建造葡萄牙特色改良设施商站的能力。[NEWLINE][NEWLINE]提供+4 [ICON_Gold] 金币、+2 [ICON_Production] 生产力。从葡萄牙通往此城的贸易路线提供的 [ICON_GOLD] 金币+2、[ICON_PRODUCTION] 生产力+1。仅能建造在其他文明或城邦领土（已与其开放边境）上的奢侈品或加成资源旁。必须建造在与陆地相邻的海岸或湖泊单元格上，且无法与另一个商站相邻。无法移除商站。 </Text>
+		  </Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造苏格兰特色改良设施高尔夫球场的能力。[NEWLINE][NEWLINE]+2 [ICON_AMENITIES] 宜居度、+2 [ICON_GOLD] 金币。如与市中心区域相邻，则+2 [ICON_CULTURE] 文化值；如与娱乐设施区域相邻，则+2 [ICON_CULTURE] 文化值。解锁更多市政和科技后可获得更多 [ICON_CULTURE] 文化值、 [ICON_TOURISM] 旅游业绩和 [ICON_HOUSING] 住房。无法建在沙漠或沙漠丘陵地貌上。每座城市仅限建造一座。高尔夫球场所在的单元格无法被切换到其他城市。+1魅力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MISSION_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造西班牙特色改良设施传教团的能力。[NEWLINE][NEWLINE]+2 [ICON_Faith] 信仰值。建在非 [ICON_Capital] 首都所在大陆上时，+1 [ICON_Faith] 信仰值、+1 [ICON_PRODUCTION] 生产力并+1 [ICON_Food] 食物。每与一个学院和圣地区域相邻便+1 [ICON_Science] 科技值。解锁“文化遗产”市政后将产出更多 [ICON_SCIENCE] 科技值。若城市拥有的传教团改良设施与市中心相邻，且处于非 [ICON_Capital] 首都所在大陆上，则每回合+2忠诚度。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造瑞典特色改良设施{LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME}的能力。[NEWLINE][NEWLINE]+1魅力。每种地貌（雪地、冻土、沙漠、平原或草原）中的每座瑞典城市+2 [ICON_Culture] 文化值、+2 [ICON_Tourism] 旅游业绩。每个城市仅限建造一座。{LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME}所在的单元格无法被切换到其他城市。</Text>
+		  </Replace>
 		<Replace Tag="LOC_ROUTE_RAILROAD_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建造不消耗次数但需消耗1点 [ICON_RESOURCE_IRON] 铁和1点 [ICON_RESOURCE_COAL] 煤。可大幅提高单位沿铁路单元格前进的 [ICON_Movement] 移动速度。与铁路路径重叠的 [ICON_TradeRoute] 贸易路线从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。</Text>
 		</Replace>
