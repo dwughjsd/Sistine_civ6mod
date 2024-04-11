@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<LocalizedText>
 		<!--Irrigation-->
 		<Replace Tag="LOC_TECH_IRRIGATION_DESCRIPTION_SST" Language="en_US">
 			<Text>{LOC_TECH_IRRIGATION_DESCRIPTION} Allows Farms to be built on Desert tiles. Unlocking Civil Engineeriing allows Farms to be built on Desert Hills.</Text>
@@ -253,7 +254,6 @@
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_DESCRIPTION_SST" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength when attacking, +1 [ICON_Movement] Movement, and can ignore Zone of Control, all from the Fascism government.</Text>
-		</Replace>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_DESCRIPTION" Language="en_US">
 			<Text>+4 [ICON_Religion] Religious Strength from the Theocracy government.</Text>
@@ -1435,7 +1435,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="en_US">
-			<Text>“LOC_MOMENT_CATEGORY_CULTURAL} Dedication Bonus:[NEWLINE]Gain +2 Era Score each time you trigger an [ICON_CivicBoosted] Inspiration. +1 Era Score for constructing a building with a Great Work Slot.</Text>
+			<Text>{LOC_MOMENT_CATEGORY_CULTURAL} Dedication Bonus:[NEWLINE]Gain +2 Era Score each time you trigger an [ICON_CivicBoosted] Inspiration. +1 Era Score for constructing a building with a Great Work Slot.</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE}</Text>
