@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<LocalizedText>
 		<!--Irrigation-->
 		<Replace Tag="LOC_TECH_IRRIGATION_DESCRIPTION_SST" Language="en_US">
 			<Text>{LOC_TECH_IRRIGATION_DESCRIPTION} Allows Farms to be built on Desert tiles. Unlocking Civil Engineeriing allows Farms to be built on Desert Hills.</Text>
