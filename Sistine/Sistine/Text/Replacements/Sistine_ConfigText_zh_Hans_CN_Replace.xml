@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<!--Eras-->
+		<Replace Tag="LOC_ERA_CLASSICAL_NAME" Language="zh_Hans_CN" Text="古典时代"/>
+		<Replace Tag="LOC_ERA_MEDIEVAL_NAME" Language="zh_Hans_CN" Text="中古时代"/>
+		<Replace Tag="LOC_ERA_RENAISSANCE_NAME" Language="zh_Hans_CN" Text="启蒙时代"/>
+		<Replace Tag="LOC_ERA_MODERN_NAME" Language="zh_Hans_CN" Text="电气时代"/>
+		<Replace Tag="LOC_ERA_ATOMIC_NAME" Language="zh_Hans_CN" Text="原子时代"/>
 		<!--Natural Wonders-->
 		<Replace Tag="LOC_UI_PEDIA_TERRAIN_IMPASSABLE" Language="zh_Hans_CN" Text="不可通行"/>
 		<Replace Tag="LOC_FEATURE_PIOPIOTAHI_NAME" Language="zh_Hans_CN" Text="皮奥皮奥塔希"/>

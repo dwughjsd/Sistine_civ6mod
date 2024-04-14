@@ -430,7 +430,7 @@
 			<Text>在首都所在大陆上时单位+5 [ICON_Strength] 战斗力。向城邦派遣的首个 [ICON_Envoy] 使者视为2位。如与城邦之间存在 [ICON_TradeRoute] 贸易路线，派往此处的1位 [ICON_Envoy] 使者将视为2位。解锁“膛线”科技后获得特色单位“莽骑兵”。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>招募或赞助一位 [ICON_GreatPerson] 伟人后，将返还所消耗 [ICON_GreatPerson] 伟人点数的20%。每新出现一位可供招募的 [ICON_GreatPerson] 伟人，便获得当前游戏时代基础 [ICON_GreatPerson] 伟人招募成本的20%。</Text>
+			<Text>招募每位 [ICON_GreatPerson] 伟人时可抵扣当前游戏时代基础 [ICON_GreatPerson] 伟人招募成本的20%。招募或赞助一位 [ICON_GreatPerson] 伟人后，将返还所消耗 [ICON_GreatPerson] 伟人点数的20%。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>通向本方城市的本方 [ICON_TradeRoute] 贸易路线每回合可为起点城市+4忠诚度。通往外国城市或起源于外国城市的 [ICON_TradeRoute] 贸易路线为您+2 [ICON_Culture] 文化值。通向盟友或以您为宗主国的城邦的 [ICON_TradeRoute] 贸易路线为您+4 [ICON_Culture] 文化值。</Text>
@@ -478,18 +478,27 @@
 			<Text>处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代时，+15% 所有类型产出。未处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代时，和同样未处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代的文明作战将+4 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>在城市中完成特色项目后，可将原始 [ICON_Capital] 首都迁至任意拥有U型港的城市（必须为本方建立）。每个市政广场建筑与市政广场区域+1 [ICON_TradeRoute] 贸易路线容量。建造市政广场+100% [ICON_Production] 生产力。在拥有市政广场的城市中建造区域和建筑时+50% [ICON_Production] 生产力。</Text>
+			<Text>在城市中完成特色项目后，可将原始 [ICON_Capital] 首都迁至任意拥有U型港的城市（必须为本方建立）。每个市政广场建筑与市政广场区域+1 [ICON_TradeRoute] 贸易路线容量。建造市政广场+50% [ICON_Production] 生产力。在拥有市政广场的城市中建造区域和建筑时+50% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>如城市在波兰文化炸弹的攻击下失去单元格，则波兰的主流宗教将成为此城的主流宗教。圣地可从相邻区域获得信仰值相邻加成。游戏开始时立即获得1件遗物。所有遗物均提供加成：+2信仰值、+2文化值、+4金币。</Text>
+			<Text>如果相邻城市在波兰文化炸弹的攻击下失去单元格，则波兰创立的宗教将成为此城的主流宗教。圣地从相邻区域获得标准信仰值相邻加成。宫殿+3 [ICON_Faith] 信仰值。[ICON_GreatWork_Relic] 遗物+2 [ICON_Faith] 信仰值、+2 [ICON_Culture] 文化值、+4 [ICON_Gold] 金币。</Text>
 		  </Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_HEROES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>如果相邻城市在波兰文化炸弹的攻击下失去单元格，则波兰创立的宗教将成为此城的主流宗教。圣地将从相邻区域获得标准信仰值相邻加成。游戏开始时立即获得1件遗物。[ICON_GreatWork_Relic] 遗物和 [ICON_GreatWork_HeroRelic] 英雄遗物提供的 [ICON_Faith] 信仰值+2、[ICON_Culture] 文化值+2、[ICON_Gold] 金币+4。</Text>
+			<Text>如果相邻城市在波兰文化炸弹的攻击下失去单元格，则波兰创立的宗教将成为此城的主流宗教。圣地从相邻区域获得标准信仰值相邻加成。宫殿+3 [ICON_Faith] 信仰值。[ICON_GreatWork_Relic] 遗物和 [ICON_GreatWork_HeroRelic] 英雄遗物+2 [ICON_Faith] 信仰值、+2 [ICON_Culture] 文化值、+4 [ICON_Gold] 金币。</Text>
 		  </Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>国际 [ICON_TradeRoute] 贸易路线 +2 [ICON_Science] 科技值和 [ICON_Culture] 文化值。如 [ICON_TradeRoute] 贸易路线的目标文明与比俄罗斯更先进，则其将提供 [ICON_Science] 科技值或 [ICON_Culture] 文化值（每领先1项科技或市政则+1）。</Text>
+			<Text>国际 [ICON_TradeRoute] 贸易路线 +1 [ICON_Science] 科技值和 [ICON_Culture] 文化值。如 [ICON_TradeRoute] 贸易路线的目标文明与比俄罗斯更先进，则其将提供 [ICON_Science] 科技值或 [ICON_Culture] 文化值（每领先1项科技或市政则+1）。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国际 [ICON_TradeRoute] 贸易路线+2 [ICON_Gold] 金币和 [ICON_Production] 生产力。其他文明通往埃及的 [ICON_TradeRoute] 贸易路线为其+3 [ICON_Food] 食物、为埃及+2 [ICON_Gold] 金币和 [ICON_Science] 科技值。与盟友进行贸易可获得双倍同盟点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BANNOCKBURN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由您创建的城市+20% [ICON_PRODUCTION] 生产力，非您创建的城市-20% [ICON_PRODUCTION] 生产力。解锁防御战术市政后即可宣布解放战争。宣布解放战争后的10回合内+100% [ICON_Production] 生产力、+2 [ICON_Movement] 移动力。</Text>
 		</Replace>
 		  <!--Civ Traits-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使用建造者建造次数可推进50%的区域建设进度。</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-80%。</Text>
 		</Replace>
@@ -523,9 +532,15 @@
 		<Replace Tag="LOC_ABILITY_TRIEU_FEATURES_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>{LOC_TRAIT_LEADER_TRIEU_DESCRIPTION}</Text>
 		  </Replace>
-		  <Replace Tag="LOC_TRAIT_CIVILIZATION_VIETNAM_DESCRIPTION" Language="zh_Hans_CN">
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_VIETNAM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有陆地专业化区域只能建造在雨林、沼泽或森林上。建在这些地貌上的建筑和区域将获得以下收益：建在森林上提供+1 [ICON_CULTURE] 文化值、建在雨林上提供+1 [ICON_SCIENCE] 科技值、建在沼泽上提供+1 [ICON_PRODUCTION] 生产力。拥有“中世纪集市”市政后即可栽种森林。</Text>
-		  </Replace>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游戏处于中古到工业时代期间，每个专业化区域+2 [ICON_Culture] 文化值。建造中古到工业时代的奇观+20% [ICON_Production] 生产力。所有奇观的 [ICON_Tourism] 旅游业绩+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>瑞典招募伟人时可获得50点 [ICON_Favor] 外交支持（标准速度下）。工厂与大学分别提供瑞典+2 [ICON_GreatEngineer] 大工程师点数与+2 [ICON_GreatScientist] 大科学家点数。如瑞典在游戏中，进入工业时代后将增添3项特色世界议会竞赛。</Text>
+		</Replace>
 		<!--Civ unique improvements-->
 		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造法国特色改良设施{LOC_IMPROVEMENT_CHATEAU_NAME}的能力。[NEWLINE][NEWLINE]+2 [ICON_Culture] 文化值、+1 [ICON_Gold] 金币。+1魅力。每与一座奇观相邻便+1 [ICON_Culture] 文化值（研究“飞行”科技后提升为+2）。若与河流相邻则+2 [ICON_Gold] 金币。研究“飞行”之后，将根据 [ICON_CULTURE] 文化值提供 [ICON_TOURISM] 旅游业绩。无法建在另一座法国城堡旁。</Text>

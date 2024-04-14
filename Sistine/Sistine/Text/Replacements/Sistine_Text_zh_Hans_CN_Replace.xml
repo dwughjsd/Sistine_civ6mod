@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<!--Eras-->
-		<Replace Tag="LOC_ERA_CLASSICAL_NAME" Language="zh_Hans_CN" Text="古典时代"/>
-		<Replace Tag="LOC_ERA_MEDIEVAL_NAME" Language="zh_Hans_CN" Text="中古时代"/>
-		<Replace Tag="LOC_ERA_RENAISSANCE_NAME" Language="zh_Hans_CN" Text="启蒙时代"/>
-		<Replace Tag="LOC_ERA_MODERN_NAME" Language="zh_Hans_CN" Text="电气时代"/>
-		<Replace Tag="LOC_ERA_ATOMIC_NAME" Language="zh_Hans_CN" Text="原子时代"/>
 		<!--Districts and buildings (incomplete)-->
 		<Replace Tag="LOC_DISTRICT_AERODROME_NAME" Language="zh_Hans_CN" Text="飞行场"/>
 		<Replace Tag="LOC_BUILDING_AIRPORT_NAME" Language="zh_Hans_CN" Text="空港"/>
@@ -490,6 +484,9 @@
 		</Replace>
 		<Replace Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您的国际 [ICON_TradeRoute] 贸易路线+2 [ICON_Culture] 文化值以及+2 [ICON_Science] 科技值，且目的地每个改良的奢侈资源和战略资源提供+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位在友方领土开始回合时+1 [ICON_Movement] 移动力。</Text>
 		</Replace>
 		<!--Wildcard-->
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">

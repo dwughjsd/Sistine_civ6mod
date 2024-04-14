@@ -32,9 +32,13 @@
 		<Row TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE" ModifierId="TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER"/>
 		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRAIT_GOVERNMENT_PRODUCTION"/>
 		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRAIT_GOVERNMENT_BUILDINGS_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_LITHUANIAN_UNION" ModifierId="GOODY_CULTURE_GRANT_ONE_RELIC"/>
 		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="TRAIT_TRADEROUTECULTURE"/>
 		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="TRAIT_TRADEROUTESCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_MEDITERRANEAN" ModifierId="TRAIT_INCOMING_TRADE_GAIN_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_MEDITERRANEAN" ModifierId="TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_LITHUANIAN_UNION" ModifierId="TRAIT_PALACE_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_FOUNDED_CITY_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_NOT_FOUNDED_CITY_PRODUCTION_PENALTY"/>
 	</TraitModifiers>
     <Modifiers>
         <Row>
@@ -169,6 +173,28 @@
 		<Row>
 			<ModifierId>TRAIT_TRADEROUTESCIENCE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_GAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOUNDED_CITY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>FOUNDED_CITY_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NOT_FOUNDED_CITY_PRODUCTION_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>NOT_FOUNDED_CITY_SST</SubjectRequirementSetId>
 		</Row>
     </Modifiers>
     <ModifierArguments>
@@ -424,7 +450,7 @@
 		<Row>
 			<ModifierId>TRAIT_GOVERNMENT_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
-			<Value>100</Value>
+			<Value>50</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_GOVERNMENT_BUILDINGS_PRODUCTION</ModifierId>
@@ -440,7 +466,7 @@
 		<Row>
 			<ModifierId>TRAIT_TRADEROUTECULTURE</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_TRADEROUTESCIENCE</ModifierId>
@@ -450,10 +476,97 @@
 		<Row>
 			<ModifierId>TRAIT_TRADEROUTESCIENCE</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Update><Where ModifierId="TRIEU_FRIENDLY_COMBAT" Name="Amount"/><Set Value="6"/></Update>
 		<Update><Where ModifierId="TRIEU_UNFRIENDLY_COMBAT" Name="Amount"/><Set Value="3"/></Update>
+		<Update>
+			<Where ModifierId="TRAIT_INCOMING_TRADE_OFFER_FOOD" Name="Amount"/>
+			<Set Value="3"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_INTERNATIONAL_TRADE_GAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_GAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_GAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION</ModifierId>
+			<Name>Intercontinental</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOUNDED_CITY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOUNDED_CITY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NOT_FOUNDED_CITY_PRODUCTION_PENALTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NOT_FOUNDED_CITY_PRODUCTION_PENALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-20</Value>
+		</Row>
 	</ModifierArguments>
-
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>FOUNDED_CITY_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>NOT_FOUNDED_CITY_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>FOUNDED_CITY_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_WAS_FOUNDED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NOT_FOUNDED_CITY_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_WAS_NOT_FOUNDED</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 </GameData>
