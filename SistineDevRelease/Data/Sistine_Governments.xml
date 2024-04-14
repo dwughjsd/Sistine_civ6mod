@@ -29,6 +29,12 @@
 		<Delete GovernmentType="GOVERNMENT_AUTOCRACY"
 			ModifierId="AUTOCRACY_TIER3"
 		/>
+		<Delete GovernmentType="GOVERNMENT_AUTOCRACY"
+			ModifierId="CONSULATE_TIER1"
+		/>
+		<Delete GovernmentType="GOVERNMENT_AUTOCRACY"
+			ModifierId="CHANCERY_TIER2"
+		/>
 		<Row GovernmentType="GOVERNMENT_AUTOCRACY"
 			ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
 		/>
@@ -117,6 +123,12 @@
 			ModifierId="GOVERNMENT_MONARCHY_FOOD_SST"
 		/>
 		<!--THEOCRACY-->
+		<Delete GovernmentType="GOVERNMENT_THEOCRACY"
+			ModifierId="THEOCRACY_RELIGIOUS"
+		/>
+		<Delete GovernmentType="GOVERNMENT_THEOCRACY"
+			ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"
+		/>
 		<Row GovernmentType="GOVERNMENT_THEOCRACY"
 			ModifierId="WARS_OF_RELIGION_COMBAT"
 		/>
@@ -178,6 +190,12 @@
 		/>
 		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
 			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN"
+		/>
+		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
+			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONTOSUZERAIN"
+		/>
+		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
+			ModifierId="DEMOCRACY_ALLIANCEPOINTS"
 		/>
 		<Row GovernmentType="GOVERNMENT_DEMOCRACY"
 			ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
@@ -957,11 +975,21 @@
 		<Row UnitAbilityType="ABILITY_FASCISM_ATTACK_BUFF"
 			ModifierId="IGNOREZOC_IGNORE_ZOC"
 		/>
+		<Row UnitAbilityType="ABILITY_FASCISM_LEGACY_ATTACK_BUFF"
+			ModifierId="FASCISM_MOVEMENT_SST"
+		/>
+		<Row UnitAbilityType="ABILITY_FASCISM_LEGACY_ATTACK_BUFF"
+			ModifierId="IGNOREZOC_IGNORE_ZOC"
+		/>
 	</UnitAbilityModifiers>
 	<UnitAbilities>
 		<Update>
 			<Where UnitAbilityType="ABILITY_FASCISM_ATTACK_BUFF" />
 			<Set Description="LOC_ABILITY_FASCISM_ATTACK_DESCRIPTION_SST" />
+		</Update>
+		<Update>
+			<Where UnitAbilityType="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" />
+			<Set Description="LOC_ABILITY_FASCISM_LEGACY_ATTACK_DESCRIPTION_SST" />
 		</Update>
 	</UnitAbilities>
 	<PolicyModifiers>
@@ -977,6 +1005,12 @@
 		/>
 		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
 			ModifierId="AUTOCRACY_TIER3"
+		/>
+		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
+			ModifierId="CONSULATE_TIER1"
+		/>
+		<Delete PolicyType="POLICY_GOV_AUTOCRACY"
+			ModifierId="CHANCERY_TIER2"
 		/>
 		<Row PolicyType="POLICY_GOV_AUTOCRACY"
 			ModifierId="AUTOCRACY_CAPITAL_CULTURE_SST"
@@ -1063,6 +1097,12 @@
 			ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
 		/>
 		<!--THEOCRACY-->
+		<Delete PolicyType="POLICY_GOV_THEOCRACY"
+			ModifierId="THEOCRACY_LEGACY_RELIGIOUS"
+		/>
+		<Delete PolicyType="POLICY_GOV_THEOCRACY"
+			ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"
+		/>
 		<Row PolicyType="POLICY_GOV_THEOCRACY"
 			ModifierId="WARS_OF_RELIGION_COMBAT"
 		/>
@@ -1121,6 +1161,12 @@
 		/>
 		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
 			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONFROMSUZERAIN"
+		/>
+		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
+			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONTOSUZERAIN"
+		/>
+		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
+			ModifierId="DEMOCRACY_ALLIANCEPOINTS"
 		/>
 		<Row PolicyType="POLICY_GOV_DEMOCRACY"
 			ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
@@ -1290,12 +1336,21 @@
 			<Where ModifierId="FASCISM_ATTACK_BUFF" />
 			<Set Text="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" />
 		</Update>
+		<Update>
+			<Where ModifierId="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" />
+			<Set Text="LOC_ABILITY_FASCISM_LEGACY_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" />
+		</Update>
 	</ModifierStrings>
 
 	<Modifiers>
 		<Delete ModifierId="FASCISM_ATTACK_BUFF" />
 		<Row>
 			<ModifierId>FASCISM_ATTACK_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Delete ModifierId="FASCISM_LEGACY_ATTACK_BUFF" />
+		<Row>
+			<ModifierId>FASCISM_LEGACY_ATTACK_BUFF</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
 	</Modifiers>

@@ -7,6 +7,10 @@
 	<Projects>
 		<Delete ProjectType="PROJECT_TERRESTRIAL_LASER"/>
 		<Update>
+			<Where ProjectType="PROJECT_COTHON_CAPITAL_MOVE" />
+			<Set Cost="65" />
+		</Update>
+		<Update>
 			<Where ProjectType="PROJECT_ORBITAL_LASER" />
 			<Set PrereqTech="TECH_SMART_MATERIALS" Cost="1200" MaxPlayerInstances="5"/>
 		</Update>
@@ -127,6 +131,13 @@
 			<RequirementSetId>PLAYER_IS_HUMAN_OR_LATE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
+		<Row RequirementSetId="GAME_ERA_CLASSICAL_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GAME_ERA_MEDIEVAL_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GAME_ERA_RENAISSANCE_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GAME_ERA_INDUSTRIAL_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GAME_ERA_MODERN_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GAME_ERA_ATOMIC_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="GAME_ERA_INFORMATION_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -136,20 +147,36 @@
 		<!--Let AI only perform enhancing projects in late game-->
 		<Row>
 			<RequirementSetId>PLAYER_IS_HUMAN_OR_LATE</RequirementSetId>
-			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_INFORMATION</RequirementId>
+			<RequirementId>REQUIRES_GAME_ERA_AFTER_INFORMATION</RequirementId>
 		</Row>
+		<Row RequirementSetId="GAME_ERA_CLASSICAL_REQUIREMENTS_SST" RequirementId="REQUIRES_GAME_ERA_AFTER_CLASSICAL"/>
+		<Row RequirementSetId="GAME_ERA_MEDIEVAL_REQUIREMENTS_SST" RequirementId="REQUIRES_GAME_ERA_AFTER_MEDIEVAL"/>
+		<Row RequirementSetId="GAME_ERA_RENAISSANCE_REQUIREMENTS_SST" RequirementId="REQUIRES_GAME_ERA_AFTER_RENAISSANCE"/>
+		<Row RequirementSetId="GAME_ERA_INDUSTRIAL_REQUIREMENTS_SST" RequirementId="REQUIRES_GAME_ERA_AFTER_INDUSTRIAL"/>
+		<Row RequirementSetId="GAME_ERA_MODERN_REQUIREMENTS_SST" RequirementId="REQUIRES_GAME_ERA_AFTER_MODERN"/>
+		<Row RequirementSetId="GAME_ERA_ATOMIC_REQUIREMENTS_SST" RequirementId="REQUIRES_GAME_ERA_AFTER_ATOMIC"/>
+		<Row RequirementSetId="GAME_ERA_INFORMATION_REQUIREMENTS_SST" RequirementId="REQUIRES_GAME_ERA_AFTER_INFORMATION"/>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
-			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_INFORMATION</RequirementId>
+			<RequirementId>REQUIRES_GAME_ERA_AFTER_CLASSICAL</RequirementId>
+			<RequirementType>REQUIREMENT_GAME_ERA_ATLEAST_EXPANSION</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_GAME_ERA_AFTER_MEDIEVAL</RequirementId>
 			<RequirementType>REQUIREMENT_GAME_ERA_ATLEAST_EXPANSION</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REQUIRES_ERA_ATLEASTEXPANSION_INFORMATION</RequirementId>
+			<RequirementId>REQUIRES_GAME_ERA_AFTER_CLASSICAL</RequirementId>
 			<Name>EraType</Name>
-			<Value>ERA_INFORMATION</Value>
+			<Value>ERA_CLASSICAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_GAME_ERA_AFTER_MEDIEVAL</RequirementId>
+			<Name>EraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>

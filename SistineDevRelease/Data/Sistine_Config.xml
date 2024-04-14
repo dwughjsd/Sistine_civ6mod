@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Players>
+		<Update>
+			<Where Domain="Players:StandardPlayers" LeaderType="LEADER_CLEOPATRA"/>
+			<Set LeaderAbilityName="LOC_TRAIT_LEADER_CLEOPATRA_ALT_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_CLEOPATRA_ALT_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_CLEOPATRA"/>
+		</Update>
+		<Update>
+			<Where Domain="Players:Expansion1_Players" LeaderType="LEADER_CLEOPATRA"/>
+			<Set LeaderAbilityName="LOC_TRAIT_LEADER_CLEOPATRA_ALT_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_CLEOPATRA_ALT_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_CLEOPATRA"/>
+		</Update>
+		<Update>
+			<Where Domain="Players:Expansion2_Players" LeaderType="LEADER_CLEOPATRA"/>
+			<Set LeaderAbilityName="LOC_TRAIT_LEADER_CLEOPATRA_ALT_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_CLEOPATRA_ALT_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_CLEOPATRA"/>
+		</Update>
+		<Update>
+			<Where Domain="Players:StandardPlayers" LeaderType="LEADER_CLEOPATRA_ALT"/>
+			<Set LeaderAbilityName="LOC_TRAIT_LEADER_MEDITERRANEAN_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_MEDITERRANEAN_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_CLEOPATRA_ALT"/>
+		</Update>
+		<Update>
+			<Where Domain="Players:Expansion1_Players" LeaderType="LEADER_CLEOPATRA_ALT"/>
+			<Set LeaderAbilityName="LOC_TRAIT_LEADER_MEDITERRANEAN_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_MEDITERRANEAN_EXPANSION1_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_CLEOPATRA_ALT"/>
+		</Update>
+		<Update>
+			<Where Domain="Players:Expansion2_Players" LeaderType="LEADER_CLEOPATRA_ALT"/>
+			<Set LeaderAbilityName="LOC_TRAIT_LEADER_MEDITERRANEAN_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_MEDITERRANEAN_EXPANSION2_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_CLEOPATRA_ALT"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_WILHELMINA"/>
+			<Set LeaderAbilityIcon="ICON_LEADER_WILHELMINA"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMSES"/>
+			<Set LeaderAbilityIcon="ICON_LEADER_RAMSES"/>
+		</Update>
+	</Players>
 	<NaturalWonders>
 		<Update>
 			<Where Domain="Expansion2NaturalWonders" FeatureType="FEATURE_EYJAFJALLAJOKULL"/>

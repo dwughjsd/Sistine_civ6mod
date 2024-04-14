@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_IMPROVEMENT_INDUSTRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>致力于一种特定奢侈资源的行业。能为其所在城市带来独特加成，同时+1 [ICON_GreatMerchant] 大商人点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CORPORATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>致力于一种特定奢侈资源的公司。允许城市开发产品。产品是一种新型的巨作，存有产品的城市将获得极大加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CORPORATION_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>致力于一种特定奢侈资源的公司。允许城市开发产品。产品是一种新型的巨作，存有产品的城市将获得极大加成。只能被自然灾害掠夺（无法被摧毁）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ESTABLISH_INDUSTRY_INSUFFICIENT_RESOURCES" Language="zh_Hans_CN">
+			<Text>必须控制{1_NumResources}处或以上的同一种奢侈资源。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

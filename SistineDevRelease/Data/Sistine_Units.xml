@@ -17,7 +17,20 @@
 			<Where UnitType="UNIT_CREE_OKIHTCITAW" />
 			<Set PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" />
 		</Update>
+		<!--Land Melee-->
+		<Update>
+			<Where UnitType="UNIT_LAHORE_NIHANG" />
+			<Set MustPurchase="false" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AZTEC_EAGLE_WARRIOR" />
+			<Set Cost="45" Combat="23"/>
+		</Update>
 		<!--Land Ranged-->
+		<Update>
+			<Where UnitType="UNIT_CHINESE_CROUCHING_TIGER" />
+			<Set Range="2" />
+		</Update>
 		<Update>
 			<Where UnitType="UNIT_MACHINE_GUN" />
 			<Set Combat="65" RangedCombat="75" />
@@ -28,8 +41,16 @@
 			<Set Combat="20" RangedCombat="25" Range="2" PrereqCivic="CIVIC_DEFENSIVE_TACTICS" PrereqTech=""/>
 		</Update>
 		<Update>
+			<Where UnitType="UNIT_INCA_WARAKAQ" />
+			<Set RangedCombat="35" Range="2" PrereqCivic="CIVIC_DEFENSIVE_TACTICS" PrereqTech=""/>
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_RANGER" />
 			<Set Combat="50" RangedCombat="55" Range="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SCOTTISH_HIGHLANDER" />
+			<Set Combat="55" RangedCombat="60" Range="2"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_SPEC_OPS" />
@@ -41,11 +62,23 @@
 			<Set Combat="22" />
 		</Update>
 		<Update>
+			<Where UnitType="UNIT_GREEK_HOPLITE" />
+			<Set Combat="22" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_PIKEMAN" />
 			<Set Combat="42" />
 		</Update>
 		<Update>
+			<Where UnitType="UNIT_ZULU_IMPI" />
+			<Set Combat="42" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_PIKE_AND_SHOT" />
+			<Set Combat="52" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWEDEN_CAROLEAN" />
 			<Set Combat="52" />
 		</Update>
 		<Update>
@@ -66,7 +99,35 @@
 			<Set Combat="43" />
 		</Update>
 		<Update>
+			<Where UnitType="UNIT_HUNGARY_BLACK_ARMY" />
+			<Set Combat="46" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ETHIOPIAN_OROMO_CAVALRY" />
+			<Set Combat="45" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MAPUCHE_MALON_RAIDER" />
+			<Set Combat="53" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_CAVALRY" />
+			<Set Combat="63" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RUSSIAN_COSSACK" />
+			<Set Combat="68" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_HUNGARY_HUSZAR" />
+			<Set Combat="66" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_COLOMBIAN_LLANERO" />
+			<Set Combat="63" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CANADA_MOUNTIE" />
 			<Set Combat="63" />
 		</Update>
 		<Update>
@@ -79,11 +140,43 @@
 			<Set Combat="28" />
 		</Update>
 		<Update>
+			<Where UnitType="UNIT_SUMERIAN_WAR_CART" />
+			<Set BaseMoves="3" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MACEDONIAN_HETAIROI" />
+			<Set Combat="38" BaseMoves="3" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_INDIAN_VARU" />
+			<Set Combat="38" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_KNIGHT" />
 			<Set Combat="48" BaseMoves="3" />
 		</Update>
 		<Update>
+			<Where UnitType="UNIT_BYZANTINE_TAGMA" />
+			<Set Combat="48" BaseMoves="3" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MALI_MANDEKALU_CAVALRY" />
+			<Set Combat="53" BaseMoves="3" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARABIAN_MAMLUK" />
+			<Set Combat="48" BaseMoves="3" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_CUIRASSIER" />
+			<Set Combat="68" BaseMoves="3" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_ROUGH_RIDER" />
+			<Set Combat="71" BaseMoves="4" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_POLISH_HUSSAR" />
 			<Set Combat="68" BaseMoves="3" />
 		</Update>
 		<Update>
@@ -105,6 +198,10 @@
 			<Set Combat="30" Bombard="35" />
 		</Update>
 		<Update>
+			<Where UnitType="UNIT_KHMER_DOMREY" />
+			<Set Combat="35" Bombard="40" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_BOMBARD" />
 			<Set Combat="40" Bombard="45" />
 		</Update>
@@ -122,6 +219,14 @@
 			<Set Combat="25" />
 		</Update>
 		<Update>
+			<Where UnitType="UNIT_NORWEGIAN_LONGSHIP" />
+			<Set Combat="30" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PHOENICIA_BIREME" />
+			<Set Combat="30" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_DESTROYER" />
 			<Set BaseMoves="5" />
 		</Update>
@@ -131,12 +236,28 @@
 			<Set Combat="25" RangedCombat="0" Bombard="30" />
 		</Update>
 		<Update>
+			<Where UnitType="UNIT_BYZANTINE_DROMON" />
+			<Set Combat="25" RangedCombat="0" Bombard="30" />
+		</Update>
+		<Update>
 			<Where UnitType="UNIT_FRIGATE" />
-			<Set Combat="45" RangedCombat="0" Bombard="55" />
+			<Set RangedCombat="0" Bombard="55" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_INDONESIAN_JONG" />
+			<Set RangedCombat="0" Bombard="55" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_DE_ZEVEN_PROVINCIEN" />
+			<Set RangedCombat="0" Bombard="55" />
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_BATTLESHIP" />
 			<Set Combat="65" RangedCombat="0" Bombard="75"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES" />
+			<Set Combat="70" RangedCombat="0" Bombard="80"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_MISSILE_CRUISER" />
@@ -145,6 +266,10 @@
 		<!--Naval Raid-->
 		<Update>
 			<Where UnitType="UNIT_SUBMARINE" />
+			<Set Combat="55" RangedCombat="85" BaseMoves="4"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GERMAN_UBOAT" />
 			<Set Combat="55" RangedCombat="85" BaseMoves="4"/>
 		</Update>
 		<Update>
@@ -189,6 +314,11 @@
 			<Set CostProgressionParam1="15" />
 		</Update>
 	</Units>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_CHINESE_CROUCHING_TIGER" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Delete CivUniqueUnitType="UNIT_MACEDONIAN_HETAIROI" ReplacesUnitType="UNIT_HORSEMAN"/>
+	</UnitReplaces>
 
 	<UnitPromotionModifiers>
 		<Row>

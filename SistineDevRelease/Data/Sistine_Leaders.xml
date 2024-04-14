@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LeaderTraits>
+		<!--Swap the two leader abilities-->
+		<Delete LeaderType="LEADER_CLEOPATRA_ALT" TraitType="TRAIT_LEADER_CLEOPATRA_ALT"/>
+		<Delete LeaderType="LEADER_CLEOPATRA" TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
+		<Row LeaderType="LEADER_CLEOPATRA_ALT" TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
+		<Row LeaderType="LEADER_CLEOPATRA" TraitType="TRAIT_LEADER_CLEOPATRA_ALT"/>
+	</LeaderTraits>
+    <TraitModifiers>
+        <Row TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="TRAIT_FREE_NATURALIST_ON_BREATHTAKING"/>
+        <Row TraitType="TRAIT_LEADER_ROOSEVELT_COROLLARY" ModifierId="DIPLOMATICLEAGUE_DUPLICATEFIRSTINFLUENCETOKEN"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_ANCIENT"/>
+		<Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_CLASSICAL"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_MEDIEVAL"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_RENAISSANCE"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_INDUSTRIAL"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_MODERN"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_ATOMIC"/>
+        <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_INFORMATION"/>
+        <Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_TRADEROUTECULTUREFROMALLY"/>
+        <Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_TRADEROUTECULTUREFROMSUZERAIN"/>
+		<Row TraitType="TRAIT_LEADER_RAMSES" ModifierId="TRAIT_EXTRA_PRODUCTION_BUILDINGS"/>
+		<Row TraitType="TRAIT_LEADER_VICTORIA_ALT" ModifierId="VICTORIA_PRODUCTION_MANUFACTURING_PLANT"/>
+		<Row TraitType="TRAIT_LEADER_RELIGION_CITY_STATES" ModifierId="TRAIT_GRANT_FAITH_UNIT_TRAINED"/>
+		<Row TraitType="TRAIT_LEADER_EXALTED_GODDESS" ModifierId="TRAIT_CULTURE_CITY_CENTER"/>
+		<Delete TraitType="TRAIT_LEADER_MONASTERIES_KING" ModifierId="TRAIT_MONASTERIES_KING_HOLY_SITE_RIVER_ADJACENCY"/>
+		<Row TraitType="TRAIT_LEADER_HWARANG" ModifierId="TRAIT_ADJUST_GOVERNOR_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_HWARANG" ModifierId="TRAIT_ADJUST_GOVERNOR_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_SUNDIATA_KEITA" ModifierId="TRAIT_COMMERCIAL_HUB_GREAT_WRITER_POINTS"/>
+		<Row TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE" ModifierId="TRAIT_BASE_BUILDING_PRODUCTION_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE" ModifierId="TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRAIT_GOVERNMENT_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRAIT_GOVERNMENT_BUILDINGS_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="TRAIT_TRADEROUTECULTURE"/>
+		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="TRAIT_TRADEROUTESCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_MEDITERRANEAN" ModifierId="TRAIT_INCOMING_TRADE_GAIN_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_MEDITERRANEAN" ModifierId="TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_LITHUANIAN_UNION" ModifierId="TRAIT_PALACE_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_FOUNDED_CITY_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_NOT_FOUNDED_CITY_PRODUCTION_PENALTY"/>
+	</TraitModifiers>
+    <Modifiers>
+        <Row>
+			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+        <Row>
+			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+            <SubjectRequirementSetId>PLOT_BREATHTAKING_APPEAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_ANCIENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_CLASSICAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_CLASSICAL_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_MEDIEVAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_MEDIEVAL_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>		
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_RENAISSANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_RENAISSANCE_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>		
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_INDUSTRIAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_INDUSTRIAL_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>		
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_MODERN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_MODERN_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_ATOMIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_ATOMIC_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_INFORMATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GAME_ERA_INFORMATION_REQUIREMENTS_SST</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMALLY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMSUZERAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_SUZERAIN_ROUTE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_PRODUCTION_BUILDINGS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_CHANGE</ModifierType>
+		</Row>
+		<Update>
+			<Where ModifierId="VICTORIA_STRATEGIC_RESOURCE" />
+			<Set SubjectRequirementSetId="PLOT_HAS_STRATEGIC_IMPROVED_REQUIREMENTS"/>
+		</Update>
+		<Row>
+			<ModifierId>VICTORIA_PRODUCTION_MANUFACTURING_PLANT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_MANUFACTURING_PLANT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GRANT_FAITH_UNIT_TRAINED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_YIELD_PER_UNIT_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_CITY_CENTER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_ADJACENT_COAST_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Update>
+			<Where ModifierId="TRAIT_MONASTERIES_KING_ADJACENCY_FOOD" />
+			<Set SubjectRequirementSetId="PLOT_IS_HOLY_SITE_RIVER_HOUSING_REQUIREMENTS"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_GOVERNOR_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_GOVERNOR_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMMERCIAL_HUB_GREAT_WRITER_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT_BASE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BASE_BUILDING_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_PLOT_ADJACENT_PYRAMID</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOVERNMENT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOVERNMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOV_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTESCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_GAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOUNDED_CITY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>FOUNDED_CITY_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NOT_FOUNDED_CITY_PRODUCTION_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>NOT_FOUNDED_CITY_SST</SubjectRequirementSetId>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+		<Update><Where ModifierId="TRAIT_ANTIQUES_AND_PARKS_CULTURE_FORESTS_OR_WONDERS" Name="Amount"/><Set Value="1"/></Update>
+		<Update><Where ModifierId="TRAIT_ANTIQUES_AND_PARKS_SCIENCE_NATIONAL_WONDERS_OR_MOUNTAINS" Name="Amount"/><Set Value="1"/></Update>
+        <Update><Where ModifierId="TRAIT_NATIONAL_PARK_APPEAL_BONUS" Name="Amount"/><Set Value="2"/></Update>
+        <Row>
+			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_NATURALIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update><Where ModifierId="TRAIT_OWNED_LUXURY_EXTRA_AMENITIES" Name="Amount"/><Set Value="1"/></Update>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_ANCIENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_CLASSICAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_MEDIEVAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_RENAISSANCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>24</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_INDUSTRIAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>36</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_MODERN</ModifierId>
+			<Name>Amount</Name>
+			<Value>48</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_ATOMIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>60</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_INFORMATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>72</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Update>
+			<Where ModifierId="YONGLE_SCIENCE_POPULATION" Name="Amount"/>
+			<Set Value=".5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="YONGLE_CULTURE_POPULATION" Name="Amount"/>
+			<Set Value=".5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="YONGLE_GOLD_POPULATION" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="WU_ZETIAN_OFFENSIVE_SPY_SCIENCE" Name="Percent"/>
+			<Set Value="400"/>
+		</Update>
+		<Update>
+			<Where ModifierId="WU_ZETIAN_OFFENSIVE_SPY_CULTURE" Name="Percent"/>
+			<Set Value="400"/>
+		</Update>
+		<Update>
+			<Where ModifierId="WU_ZETIAN_OFFENSIVE_SPY_FAITH" Name="Percent"/>
+			<Set Value="400"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_IDENTITY_FROM_DOMESTIC_TRADE_ROUTES" Name="Amount"/>
+			<Set Value="4"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMALLY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMALLY</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMSUZERAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTUREFROMSUZERAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="RAMSES_CULTURE_POSITIVE_WONDERS_BUILDINGS" Name="BuildingProductionPercent"/>
+			<Set Value="50"/>
+		</Update>
+		<Update>
+			<Where ModifierId="RAMSES_CULTURE_NEGATIVE_BUILDINGS" Name="BuildingProductionPercent"/>
+			<Set Value="-25"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_EXTRA_PRODUCTION_BUILDINGS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="VICTORIA_PRODUCTION_WORKSHOP" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="VICTORIA_PRODUCTION_FACTORY" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="VICTORIA_PRODUCTION_POWER_PLANT" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Row>
+			<ModifierId>VICTORIA_PRODUCTION_MANUFACTURING_PLANT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>VICTORIA_PRODUCTION_MANUFACTURING_PLANT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="IDENTITY_NEARBY_GREATWORKS" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="AMBIORIX_NEIGHBOR_COMBAT" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_GRANT_FAITH_UNIT_TRAINED</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GRANT_FAITH_UNIT_TRAINED</ModifierId>
+			<Name>UnitProductionPercent</Name>
+			<Value>40</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="LEVY_UNITUPGRADEDISCOUNT" Name="Amount" />
+			<Set Value="50"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_CITY_CENTER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_CITY_CENTER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="TRAIT_HOLY_SITE_RIVER_2HOUSING" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="BARAYS_FAITH_POPULATION" Name="Amount"/>
+			<Set Value=".5"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_GOVERNOR_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_GOVERNOR_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_GOVERNOR_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_GOVERNOR_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Update>
+			<Where ModifierId="SUNDIATA_KEITA_PURCHASE_GREAT_PEOPLE" Name="Amount"/>
+			<Set Value="50"/>
+		</Update>
+		<Update>
+			<Where ModifierId="SUNDIATA_KEITA_GREAT_WORK_GOLD_WRITING" Name="YieldChange"/>
+			<Set Value="6"/>
+		</Update>
+		<Update>
+			<Where ModifierId="SUNDIATA_KEITA_GREAT_WORK_PRODUCTION_WRITING" Name="YieldChange"/>
+			<Set Value="3"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_COMMERCIAL_HUB_GREAT_WRITER_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COMMERCIAL_HUB_GREAT_WRITER_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BASE_BUILDING_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Update><Where ModifierId="TRAIT_SULEIMAN_ALT_SCIENCE_CULTURE_GOLDEN_AGE" Name="YieldType"/><Set Value="YIELD_SCIENCE, YIELD_CULTURE, YIELD_FOOD, YIELD_GOLD, YIELD_PRODUCTION, YIELD_FAITH"/></Update>
+		<Update><Where ModifierId="TRAIT_SULEIMAN_ALT_SCIENCE_CULTURE_GOLDEN_AGE" Name="Amount"/><Set Value="15, 15, 15, 15, 15, 15"/></Update>
+		<Row>
+			<ModifierId>TRAIT_GOVERNMENT_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOVERNMENT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOVERNMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Update><Where ModifierId="TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS" Name="TechCivicsPerYield"/><Set Value="1"/></Update>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTECULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTESCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TRADEROUTESCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update><Where ModifierId="TRIEU_FRIENDLY_COMBAT" Name="Amount"/><Set Value="6"/></Update>
+		<Update><Where ModifierId="TRIEU_UNFRIENDLY_COMBAT" Name="Amount"/><Set Value="3"/></Update>
+		<Update>
+			<Where ModifierId="TRAIT_INCOMING_TRADE_OFFER_FOOD" Name="Amount"/>
+			<Set Value="3"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_INTERNATIONAL_TRADE_GAIN_GOLD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_GAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCOMING_TRADE_GAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION</ModifierId>
+			<Name>Intercontinental</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOUNDED_CITY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOUNDED_CITY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NOT_FOUNDED_CITY_PRODUCTION_PENALTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NOT_FOUNDED_CITY_PRODUCTION_PENALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-20</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>FOUNDED_CITY_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>NOT_FOUNDED_CITY_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>FOUNDED_CITY_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_WAS_FOUNDED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NOT_FOUNDED_CITY_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_WAS_NOT_FOUNDED</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameData>

@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<!--Eras-->
-		<Replace Tag="LOC_ERA_CLASSICAL_NAME" Language="zh_Hans_CN" Text="古典时代"/>
-		<Replace Tag="LOC_ERA_MEDIEVAL_NAME" Language="zh_Hans_CN" Text="中古时代"/>
-		<Replace Tag="LOC_ERA_RENAISSANCE_NAME" Language="zh_Hans_CN" Text="启蒙时代"/>
-		<Replace Tag="LOC_ERA_MODERN_NAME" Language="zh_Hans_CN" Text="电气时代"/>
-		<Replace Tag="LOC_ERA_ATOMIC_NAME" Language="zh_Hans_CN" Text="原子时代"/>
 		<!--Districts and buildings (incomplete)-->
 		<Replace Tag="LOC_DISTRICT_AERODROME_NAME" Language="zh_Hans_CN" Text="飞行场"/>
 		<Replace Tag="LOC_BUILDING_AIRPORT_NAME" Language="zh_Hans_CN" Text="空港"/>
@@ -16,7 +10,9 @@
 		<Replace Tag="LOC_BUILDING_WORKSHOP_NAME" Language="zh_Hans_CN" Text="工坊"/>
 		<Replace Tag="LOC_BUILDING_CASTLE_NAME" Language="zh_Hans_CN" Text="中古城墙"/>
 		<Replace Tag="LOC_BUILDING_STAR_FORT_NAME" Language="zh_Hans_CN" Text="启蒙城墙"/>
+		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_NAME" Language="zh_Hans_CN" Text="阿兹特克大神庙"/>
 		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_NAME" Language="zh_Hans_CN" Text="阿蒙森-斯科特研究站"/>
+		<Replace Tag="LOC_BUILDING_GOV_MILITARY_NAME" Language="zh_Hans_CN" Text="战争部"/>
 		<!--Techs and civics-->
 		<Replace Tag="LOC_TECH_POTTERY_NAME" Language="zh_Hans_CN" Text="制陶"/>
 		<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_NAME" Language="zh_Hans_CN" Text="畜牧"/>
@@ -361,6 +357,7 @@
 		<Replace Tag="LOC_GREATWORK_GIL_2_NAME" Language="zh_Hans_CN" Text="《新娘的梳妆》"/>
 		<Replace Tag="LOC_GREATWORK_RUBLEV_2_NAME" Language="zh_Hans_CN" Text="《荣耀救主》"/>
 		<Replace Tag="LOC_GREATWORK_KAUFFMAN_3_NAME" Language="zh_Hans_CN" Text="《缪斯女神萨拉·哈罗普》"/>
+		<Replace Tag="LOC_GREATWORK_LEWIS_1_NAME" Language="zh_Hans_CN" Text="《克利奥帕特拉之死》"/>
 		<Replace Tag="LOC_GREATWORK_LEWIS_2_NAME" Language="zh_Hans_CN" Text="《海华沙与明尼哈哈之婚》"/>
 		<Replace Tag="LOC_GREATWORK_GRECO_1_NAME" Language="zh_Hans_CN" Text="《博士来拜》"/>
 		<Replace Tag="LOC_GREATWORK_GRECO_3_NAME" Language="zh_Hans_CN" Text="《托莱多之景》"/>
@@ -487,6 +484,9 @@
 		</Replace>
 		<Replace Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您的国际 [ICON_TradeRoute] 贸易路线+2 [ICON_Culture] 文化值以及+2 [ICON_Science] 科技值，且目的地每个改良的奢侈资源和战略资源提供+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位在友方领土开始回合时+1 [ICON_Movement] 移动力。</Text>
 		</Replace>
 		<!--Wildcard-->
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
@@ -708,6 +708,9 @@
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_NEAR_FUTURE_GOVERNANCE" Language="zh_Hans_CN">
 			<Text>采用一种自带10个政策槽位的政体。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ASTRONOMY" Language="zh_Hans_CN">
+			<Text>在与山脉相邻的单元格建造1座大学。</Text>
 		</Replace>
 		<!--Governors-->
 		<Replace Tag="LOC_GOVERNOR_THE_DEFENDER_TITLE" Language="zh_Hans_CN">
@@ -975,6 +978,23 @@
 		</Replace>
 		<Replace Tag="LOC_PLAYER_YIELD_GOLD_FROM_INTEREST" Language="zh_Hans_CN">
 			<Text>{Value : number +#.#;-#.#}来自国库利息（上限1000）</Text>
+		</Replace>
+		<!--Diplo visibility-->
+		<Replace Tag="LOC_VIZSOURCE_ALLY" Language="zh_Hans_CN">
+			<Text>已与此文明建立同盟</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_SPY" Language="zh_Hans_CN">
+			<Text>已在此文明安插间谍</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TRAIT" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_FLYING_SQUADRON_NAME}</Text>
+		</Replace>
+		<!--City-states unique bonus-->
+		<Replace Tag="LOC_ABILITY_BALKAN_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>是普雷斯拉夫城邦的宗主国时，丘陵上的轻骑兵和重骑兵+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BALKAN_CAVALRY_COMBAT_HILLS_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在丘陵作战时+{1_Amount} [ICON_Strength] 战斗力</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

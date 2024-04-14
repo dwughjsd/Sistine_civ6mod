@@ -39,7 +39,7 @@
 			<Text>采石场+1 [ICON_Production] 生产力。牧场+1 [ICON_Food] 食物。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造伐木场的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。只能建在树林上。解锁“公会”市政后也能建造雨林上。</Text>
+			<Text>解锁建造者建造伐木场的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。只能建在森林上。解锁“公会”市政后也能建造雨林上。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造牧场的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物。只能在有效资源上建造。[NEWLINE][NEWLINE]如果建在战略资源上，城市则可以利用该资源。</Text>
@@ -263,8 +263,20 @@
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>法西斯主义提供+5 [ICON_Strength] 战斗力</Text>
 		</Replace>
+		<Replace Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_BUFF_MODIFIER_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>+5 来自法西斯传承</Text>
+		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>法西斯主义提供+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>法西斯传承提供+5 [ICON_Strength] 战斗力、+1 [ICON_Movement] 移动力并无视控制区。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神权政体+4 [ICON_Religion] 宗教战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+4 来自神权传承</Text>
 		</Replace>
 		<!--Cultural Victory overhaul-->
 		<Replace Tag="LOC_GREAT_WORKS_TOOLTIP_DUPLICATE" Language="zh_Hans_CN">
@@ -343,10 +355,40 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送下水道建筑，直到您帝国中已有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>生产开拓者时 [ICON_Production] 生产力+30%。[NEWLINE]获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>此城生产开拓者时 [ICON_Production] 生产力+50%。新训练的建造者获得额外的1次建造次数。获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>立即获得1个 [ICON_GreatGeneral] 大将军。战斗胜利后，获得等同于被击杀单位 [ICON_Strength] 战斗力50%的 [ICON_Culture] 文化值（标准速度下）。占领一座敌方城市后，所有城市将获得20%的 [ICON_Production] 生产力加成，效果持续5回合。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+3 [ICON_Favor] 外交支持。征召和升级城邦单位消耗的 [ICON_Gold] 金币减半。如您是城邦的宗主国，则城邦单位+4 [ICON_Strength] 战斗力（征召单位包含在内）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔和4名 [ICON_Envoy] 使者。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>间谍与间谍容量+1。所有间谍行动的成功率上升。对所有文明的外交能见度提升1级。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_GOV_BUILDING" Language="zh_Hans_CN">
+			<Text>建造情报局。</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_GOV_BUILDING" Language="zh_Hans_CN">
+			<Text>已建造情报局</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得用 [ICON_Faith] 信仰值购买陆地单位的能力。掠夺改良设施和区域可提供 [ICON_Faith] 信仰值加成。圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Culture] 文化值。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>升级单位所需的 [ICON_Gold] 金币和资源减少25%。军事单位攻击时 +4 [ICON_Strength] 战斗力。所有单位消灭敌方单位均可恢复生命值（上限20点）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GOV_ATTACK_BUFF_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+4 战争部提供的进攻时 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供任意4个巨作槽位。对您有发起 [ICON_TradeRoute] 贸易路线的文明+25% [ICON_Tourism] 旅游业绩输出。立即获得1个 [ICON_GreatArtist] 大艺术家。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得1项随机的免费科技。建造者能使用所有次数为一个区域项目提供 [ICON_Production] 生产力加成。一次只能用于一座城市，每回合仅限使用一次。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>用于纪念您的政体选择，仅能在您的帝国中建造一次的区域。此城市的非食物产出+10%。使相邻区域获得的相邻加成+1。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
@@ -360,10 +402,10 @@
 		</Replace>
 		<!--Wonders-->
 		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>帝国中的所有沼泽单元格+2 [ICON_SCIENCE] 科技值、+1 [ICON_PRODUCTION] 生产力、+2 [ICON_FOOD] 食物。此城市的所有泛滥平原单元格+1 [ICON_SCIENCE] 科技值、+1 [ICON_PRODUCTION] 生产力。[NEWLINE][NEWLINE]必须建在泛滥平原或沼泽上。</Text>
+			<Text>帝国中的所有沼泽单元格+2 [ICON_SCIENCE] 科技值、+1 [ICON_PRODUCTION] 生产力、+2 [ICON_FOOD] 食物。此城市的所有泛滥平原单元格+1 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须建在泛滥平原或沼泽上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有城市人口增长加速25%。必须建在河流旁边。</Text>
+			<Text>所有城市人口增长加速25%。必须建在河流旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>赞助伟人消耗的 [ICON_Faith] 信仰值减少25%。[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发额外提供10%的科技或市政成本。该城市的区域提供的对应类型的 [ICON_GreatPerson] 伟人点数+2（比如，剧院广场区的 [ICON_GreatWriter] 大作家点数）。必须建在丘陵上。</Text>
@@ -384,7 +426,7 @@
 			<Text>所有海军单位+1 [ICON_Movement] 移动力，获得进入海洋单元格的能力。[NEWLINE][NEWLINE]必须建在海岸上，且必须与陆地和已有灯塔的港口相邻。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MAHABODHI_TEMPLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建成后+2外交胜利点数，并提供3个使徒。此城市对相邻城市释放的宗教压力强度加倍。[NEWLINE][NEWLINE]必须建在与圣地区域（此区域中须建有寺庙）相邻的树林中，前提还须已创立宗教。</Text>
+			<Text>建成后+2外交胜利点数，并提供3个使徒。此城市对相邻城市释放的宗教压力强度加倍。[NEWLINE][NEWLINE]必须建在与圣地区域（此区域中须建有寺庙）相邻的森林中，前提还须已创立宗教。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为该城市所有沙漠单元格（非泛滥平原）+1 [ICON_Food] 食物、+2 [ICON_Gold] 金币、+1 [ICON_Production] 生产力。+1 [ICON_TradeRoute] 贸易路线容量。获得1个商人单位。必须建在没有丘陵的沙漠或沙漠泛滥平原上。</Text>
@@ -417,7 +459,7 @@
 			<Text>传教士和使徒可以额外传播2次宗教。您必须已经创立了一个宗教，[NEWLINE]此外，还必须建在靠近圣地的平原上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>在休伊神庙一个单元格以内的每个湖泊单元格为娱乐设施+1 [ICON_Amenities] 宜居度。为您帝国内的每个湖泊单元格+1 [ICON_Food] 食物、+1 [ICON_Production] 生产力、2 [ICON_Gold] 金币。必须建在靠近陆地的湖泊单元格上。</Text>
+			<Text>在阿兹特克大神庙一个单元格以内的每个湖泊单元格为娱乐设施+1 [ICON_Amenities] 宜居度。为您帝国内的每个湖泊单元格+1 [ICON_Food] 食物、+1 [ICON_Production] 生产力、2 [ICON_Gold] 金币。必须建在靠近陆地的湖泊单元格上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>获得3次 [ICON_Governor] 总督升级。所有与原始 [ICON_Capital] 首都不在同一大陆的城市 [ICON_Production] 生产力+15%、[ICON_Faith] 信仰值+15%、[ICON_Gold] 金币+15%。必须建造在市政广场旁。</Text>
@@ -1443,50 +1485,6 @@
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城所有离岸风力发电厂、太阳能农场、风力发电厂及地热发电厂+2 [ICON_POWER] 电力、+2 [ICON_Gold] 金币。此城的水力发电坝向6单元格内的城市提供额外+2 [ICON_POWER] 电力。此城沿河单元格+2 [ICON_Gold] 金币。</Text>
 		</Replace>
-		<!--Dedications and Ages-->
-		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”黄金时代：[NEWLINE][ICON_CivicBoosted] 启发额外提供10%的市政开销。每座城市+1 [ICON_Culture] 文化值。城市每拥有1处特色区域，额外+1 [ICON_Culture] 文化值。</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”黄金时代：[NEWLINE]所有建造者+2 [ICON_Movement] 移动力。用 [ICON_FAITH] 信仰值和 [ICON_GOLD] 金币购买建造者和开拓者的费用降低20%。</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_EXPLORATION}”黄金时代：[NEWLINE]和首座城市不在同一个大陆上的城市+3初始 [ICON_Citizen] 人口，每回合+2忠诚度，+15% [ICON_Food] 食物并 +15% [ICON_Production] 生产力。海军和水运单位+2 [ICON_Movement] 移动力。</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”黄金时代：[NEWLINE]您的商人不可被掠夺。外国城市的每个专业化区域为您的国际贸易路线+2 [ICON_Gold] 金币。</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_MILITARY}”黄金时代：[NEWLINE]解锁一种特殊战争借口，与正式战争相比可少产生75% [ICON_STAT_GRIEVANCE] 不满，且可于谴责目标后立即使用。生产军事单位时+15% [ICON_Production] 生产力。军营及每个军营建筑 +2 [ICON_Production] 生产力。</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_TOURISM}”黄金时代：[NEWLINE]世界奇观产出的 [ICON_Tourism] 旅游业绩+50%。国家公园产出的 [ICON_Tourism] 旅游业绩+100%。</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_AERONAUTICAL}”黄金时代：[NEWLINE]如处于信息时代，则解锁人造卫星、核聚变和纳米技术的尤里卡；如处于未来时代，则解锁智能材料、预测系统和地外任务的 [ICON_TechBoosted] 尤里卡；如果尤里卡已触发过则解锁该项科技。建造宇航中心和飞行场区域时+30% [ICON_PRODUCTION] 生产力。拥有宇航中心或飞行场的城市+15% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_ESPIONAGE}”黄金时代：[NEWLINE]间谍部署到另一文明的城市无需时间。进行攻击性任务时等级提升4级。用 [ICON_FAITH] 信仰值和 [ICON_GOLD] 金币购买间谍的费用降低75%。</Text>
-		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”黄金时代：[NEWLINE]在您的首都处获得1架末日机甲。每回合获得3点 [ICON_Resource_Uranium] 铀。末日机甲 +5 [ICON_Strength] 战斗力，+1 [ICON_Range] 射程。</Text>
-		</Replace>
-
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_NAME" Language="zh_Hans_CN">
-			<Text>末日机甲战斗力</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_NAME" Language="zh_Hans_CN">
-			<Text>末日机甲射程</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] 战斗力（机甲战争黄金时代）。</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+1 [ICON_Range] 射程（机甲战争黄金时代）。</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] 战斗力来自机甲战争黄金时代</Text>
-		</Replace>
 		<!--Civilopedia-->
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OPERA_HOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>歌剧是一种舞台剧。它与其他形式的音乐剧的区别在于：演员们唱出各自的对白，而不是简单地说出。演出歌剧时，演员通常有管弦乐队一同参演。歌剧院是一种剧场，其中配有演员使用的舞台，容纳管弦乐队的场地和用于将音乐声更好地传导至观众席的声学设计。圣卡西亚诺剧院是世界上第一家公共歌剧院，于1637年在意大利威尼斯开放。从那时起，世界各地都出现了歌剧院——对任何有着成为文化与艺术中心的理想的城市而言，修建歌剧院几乎是基本操作。</Text>
@@ -1509,45 +1507,163 @@
 		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION_MODE_SST" Language="zh_Hans_CN">
 			<Text>建有大浴场的河畔泛滥平原单元格免受洪水侵袭（但来自洪水的 [ICON_FOOD] 食物和 [ICON_PRODUCTION] 生产力加成减半）。此城市的泛滥平原单元格+2 [ICON_FAITH] 信仰值。[NEWLINE][NEWLINE]必须建在泛滥平原单元格中。</Text>
 		</Replace>
-		
-		<!--Experimental - Golden Age enhancement-->
 
+		<!--Dedications and Ages-->
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”：{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED}可在古典和中古时代中选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”：{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE_SHARED}可在古典和中古时代中选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_4" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_RELIGIOUS}”：首次使一座城市信奉您创立的宗教+2时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE_SHARED}可在古典到启蒙时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”：{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE_SHARED}可在古典到启蒙时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_6" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_EXPLORATION}”：每发现1个新大陆或自然奇观+3时代得分。在战斗中每击杀1个非蛮族海军单位+1时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE_SHARED}可在启蒙到电气时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_7" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”：{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED}可在启蒙到电气时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_8" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INDUSTRIAL}”：{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED}可在工业到原子时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_9" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_MILITARY}”：在战斗中每击杀1个非蛮族军团+1时代得分、每击杀1个非蛮族军队+2时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED}可在工业到原子时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_10" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ESPIONAGE}”：每次进攻性间谍行动成功+1时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE_SHARED}可在原子及之后的时代中选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_11" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_TOURISM}”：每发掘1件文物+1时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE_SHARED}可在原子及之后的时代中选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_12" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AERONAUTICAL}”：每建造1座航空港建筑+1时代得分。每获得或购买1名 [ICON_GreatPerson] 伟人+1时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED}可在信息和未来时代中选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_13" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”：每用末日机甲击杀1个非蛮族单位，便+1时代得分。在黄金时代开始时选择后，{LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED}可在信息和未来时代中选择。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”着力点加成：[NEWLINE]{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>每次触发 [ICON_CivicBoosted] 启发+2时代得分。建成拥有巨作槽位的建筑+1时代得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”着力点加成：[NEWLINE]{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>每次触发 [ICON_TechBoosted] 尤里卡+2时代得分。建造以科技值为基础产出的建筑+1时代得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”着力点加成：[NEWLINE]{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>每修建1个新的专业化区域则+1时代得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”着力点加成：[NEWLINE]{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>每完成1条 [ICON_TradeRoute] 贸易路线+1时代得分。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INDUSTRIAL}”着力点加成：[NEWLINE]{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>每建造1座工业时代以后的建筑+1时代得分。</Text>
+		</Replace>
+		
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”黄金时代：[NEWLINE]魅力为普通及以上的单元格+1 [ICON_Culture] 文化值。每座城市+1 [ICON_Culture] 文化值。城市每拥有1处特色区域，额外+1 [ICON_Culture] 文化值。每回合+4 [ICON_GreatWriter] 大作家点数。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>魅力为普通及以上的单元格+1 [ICON_Culture] 文化值。每座城市+1 [ICON_Culture] 文化值。城市每拥有1处特色区域，额外+1 [ICON_Culture] 文化值。每回合+4 [ICON_GreatWriter] 大作家点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”黄金时代：[NEWLINE]与河流相邻的单元格以及海岸和海洋单元格+1 [ICON_Science] 科技值。商业中心和港口区域的 [ICON_GOLD] 金币相邻加成也提供 [ICON_Science] 科技值。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>与河流相邻的单元格以及海岸和海洋单元格+1 [ICON_Science] 科技值。商业中心和港口区域的 [ICON_GOLD] 金币相邻加成也提供 [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_RELIGIOUS}”黄金时代：[NEWLINE]所有传教士、使徒和审判官+2 [ICON_Movement] 移动力且无视控制范围（ZOC），新生产的这些单位+2使用次数。每座圣地建筑增大城市产生的宗教压力50%。每回合产生的 [ICON_GreatProphet] 大预言家点数+4。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_RELIGIOUS}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>所有传教士、使徒和审判官+2 [ICON_Movement] 移动力且无视控制范围（ZOC），新生产的这些单位+2使用次数。每座圣地建筑增大城市产生的宗教压力50%。每回合产生的 [ICON_GreatProphet] 大预言家点数+4。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”黄金时代：[NEWLINE]所有建造者+2 [ICON_Movement] 移动力。所有城市建造区域、建筑和奇观时+6 [ICON_Production] 生产力。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>所有建造者+2 [ICON_Movement] 移动力。所有城市建造区域、建筑和奇观时+6 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_EXPLORATION}”黄金时代：[NEWLINE]和首座城市不在同一个大陆上的城市的所有单元格 +1 [ICON_Food] 食物、+20% [ICON_Production] 生产力，每回合+8忠诚度。海军和水运单位+2 [ICON_Movement] 移动力。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_EXPLORATION}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>和首座城市不在同一个大陆上的城市的所有单元格 +1 [ICON_Food] 食物、+20% [ICON_Production] 生产力，每回合+8忠诚度。海军和水运单位+2 [ICON_Movement] 移动力。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”黄金时代：[NEWLINE]您的商人不可被掠夺。外国城市的每个专业化区域为您的国际贸易路线+3 [ICON_Gold] 金币。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>您的商人不可被掠夺。外国城市的每个专业化区域为您的国际贸易路线+3 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_INDUSTRIAL}”黄金时代：[NEWLINE]建筑获得电力供应的额外产出+2。城市中每有一座学院建筑，便+10% [ICON_PRODUCTION] 生产力。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_INDUSTRIAL}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED}</Text>
 		  </Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>建筑获得电力供应的额外产出+2。城市中每有一座学院建筑，便+10% [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_MILITARY}”黄金时代：[NEWLINE]解锁一种特殊战争借口，与正式战争相比可少产生75% [ICON_STAT_GRIEVANCE] 不满，且可于谴责目标后立即使用。生产军事单位时+15% [ICON_Production] 生产力。有军营的城市每个公民提供+1 [ICON_Production] 生产力。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_MILITARY}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>解锁一种特殊战争借口，与正式战争相比可少产生75% [ICON_STAT_GRIEVANCE] 不满，且可于谴责目标后立即使用。生产军事单位时+15% [ICON_Production] 生产力。有军营的城市每个公民提供+1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_TOURISM}”黄金时代：[NEWLINE]世界奇观产出的 [ICON_Tourism] 旅游业绩+50%。国家公园产出的 [ICON_Tourism] 旅游业绩+100%。建造所有奇观加速+100%。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_TOURISM}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>世界奇观产出的 [ICON_Tourism] 旅游业绩+50%。国家公园产出的 [ICON_Tourism] 旅游业绩+100%。建造所有奇观加速+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_AERONAUTICAL}”黄金时代：[NEWLINE]如处于信息时代，则解锁人造卫星、核聚变和纳米技术的尤里卡；如处于未来时代，则解锁智能材料、预测系统和地外任务的 [ICON_TechBoosted] 尤里卡；如果尤里卡已触发过则解锁该项科技。建造宇航中心和飞行场区域时+30% [ICON_PRODUCTION] 生产力。拥有宇航中心或飞行场的城市+15% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_AERONAUTICAL}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>如处于信息时代，则解锁人造卫星、核聚变和纳米技术的尤里卡；如处于未来时代，则解锁智能材料、预测系统和地外任务的 [ICON_TechBoosted] 尤里卡；如果尤里卡已触发过则解锁该项科技。建造宇航中心和飞行场区域时+30% [ICON_PRODUCTION] 生产力。拥有宇航中心或飞行场的城市+15% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_ESPIONAGE}”黄金时代：[NEWLINE]间谍部署到另一文明的城市无需时间。进行攻击性任务时等级提升4级。立即获得2个随机科技和1个随机市政。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_ESPIONAGE}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>间谍部署到另一文明的城市无需时间。进行攻击性任务时等级提升4级。立即获得2个随机科技和1个随机市政。</Text>
+		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”黄金时代：[NEWLINE]在您的首都处获得1架末日机甲。每回合获得3点 [ICON_Resource_Uranium] 铀。末日机甲 +17 [ICON_Strength] 战斗力，+1 [ICON_Range] 射程。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>在您的首都处获得1架末日机甲。每回合获得3点 [ICON_Resource_Uranium] 铀。末日机甲 +17 [ICON_Strength] 战斗力，+1 [ICON_Range] 射程。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
@@ -1556,18 +1672,31 @@
 		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+17 [ICON_Strength] 战斗力来自机甲战争黄金时代</Text>
 		</Replace>
-
-		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”着力点加成：[NEWLINE]每次触发 [ICON_CivicBoosted] 启发+2时代得分。建成拥有巨作槽位的建筑+1时代得分。</Text>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>末日机甲战斗力</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="zh_Hans_CN">
-			<Text>{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE}</Text>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_NAME" Language="zh_Hans_CN">
+			<Text>末日机甲射程</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”着力点加成：[NEWLINE]每次触发 [ICON_TechBoosted] 尤里卡+2时代得分。建造以科技值为基础产出的建筑+1时代得分。</Text>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Range] 射程（机甲战争黄金时代）。</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_DARK_AGE" Language="zh_Hans_CN">
-			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE}</Text>
+		<!--Congress resolution-->
+		<Replace Tag="LOC_WORLD_CONGRESS_DISTRICT_BUILDING_PRODUCTION_DESC" Language="zh_Hans_CN">
+			<Text>建造该区域中的建筑时+50% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>扮演托勒密王朝的{LOC_LEADER_CLEOPATRA_NAME}，见证 [ICON_FOOD] 食物和 [ICON_CULTURE] 文化值沿壮观的尼罗河顺流而下。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>选择托勒密的{LOC_LEADER_CLEOPATRA_NAME}进行游戏时，务必在拥有大量河流和泛滥平原的地方开拓城市。让她治下的埃及沿河定居，才能得到以下重要资源，建立经得起时间考验的文明：[ICON_Production] 生产力、[ICON_Culture] 文化值、[ICON_Food] 食物，以及魅力值。“{LOC_TRAIT_CIVILIZATION_ITERU_NAME}”能力能够提供 [ICON_Production] 生产力，并保护毗邻河流的城市免受洪水侵袭。她的领袖能力为河畔城市提供 [ICON_Culture] 文化值、魅力值，以及 [ICON_FOOD] 食物。如果解开狮身人面像的谜团（指建成它们），河畔城市还能产出更多 [ICON_Culture] 文化值。有了狮身人面像和自身领袖能力所产出的 [ICON_Culture] 文化值，{LOC_LEADER_CLEOPATRA_NAME}将着重于文化胜利。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_ALT_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>在奇观竞争中，{LOC_LEADER_CLEOPATRA_NAME}是秦始皇的主要竞争对手；但她不会守在长城之后，而是依靠自己的魅力（和贸易利益）劝诱其强大的朋友替她进行攻击。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_ALT_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>埃及沿河而建，他们在此处建造区域和奇观可获得加成。和附近的狮身人面像一起时，这些奇观会变得非常有价值，能让埃及在游戏中的各个方面都快速起步。如果{LOC_LEADER_CLEOPATRA_NAME}接下来和其他强大文明成为朋友（或许因为他们能通过和她的贸易获得 [ICON_Food] 食物），她将能继续使用奇观向前迈进。这使她能获得任何类型的胜利，但在奇观和狮身人面像的帮助下，她尤其擅长在游戏中取得文化胜利。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

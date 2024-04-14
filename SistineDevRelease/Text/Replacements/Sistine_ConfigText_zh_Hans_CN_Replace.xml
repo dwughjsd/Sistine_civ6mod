@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<!--Eras-->
+		<Replace Tag="LOC_ERA_CLASSICAL_NAME" Language="zh_Hans_CN" Text="古典时代"/>
+		<Replace Tag="LOC_ERA_MEDIEVAL_NAME" Language="zh_Hans_CN" Text="中古时代"/>
+		<Replace Tag="LOC_ERA_RENAISSANCE_NAME" Language="zh_Hans_CN" Text="启蒙时代"/>
+		<Replace Tag="LOC_ERA_MODERN_NAME" Language="zh_Hans_CN" Text="电气时代"/>
+		<Replace Tag="LOC_ERA_ATOMIC_NAME" Language="zh_Hans_CN" Text="原子时代"/>
 		<!--Natural Wonders-->
 		<Replace Tag="LOC_UI_PEDIA_TERRAIN_IMPASSABLE" Language="zh_Hans_CN" Text="不可通行"/>
 		<Replace Tag="LOC_FEATURE_PIOPIOTAHI_NAME" Language="zh_Hans_CN" Text="皮奥皮奥塔希"/>
@@ -129,6 +135,890 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_LIBERTY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在友好领土内建成军营或堡垒后对相邻单元格施放文化炸弹。当前政体的一个军事政策槽位将转换为一个通用槽位。</Text>
+		</Replace>
+		<!--City-States-->
+		<Replace Tag="LOC_CITY_NAME_BANDAR_BRUNEI" Language="zh_Hans_CN">
+			<Text>文莱市</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BANDAR_BRUNEI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>文莱市城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BANDAR_BRUNEI_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>文莱市的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BANDAR_BRUNEI_NAME" Language="zh_Hans_CN">
+			<Text>文莱市</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_BANDAR_BRUNEI_NAME" Language="zh_Hans_CN">
+			<Text>文莱市宗主国加成</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MOHENJO_DARO_1" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MOHENJO_DARO" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MOHENJO_DARO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MOHENJO_DARO_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MOHENJO_DARO_NAME" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_NAME" Language="zh_Hans_CN">
+			<Text>摩亨佐·达罗宗主国加成</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MOHENJO_DARO_BONUS" Language="zh_Hans_CN">
+			<Text>您的所有城市均视作与河流相邻，获得最高等级的由水源提供的 [ICON_Housing] 住房加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_MOHENJO_DARO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您的所有城市均视作与河流相邻，获得最高等级的由水源提供的 [ICON_Housing] 住房加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_BATEY_NAME" Language="zh_Hans_CN">
+			<Text>巴特依球场</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_VILNIUS_BONUS_XP1" Language="zh_Hans_CN">
+			<Text>您所有的剧院广场区域从您当前生效的最高等级的同盟获得额外相邻加成，每级+50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KANDY_BONUS" Language="zh_Hans_CN">
+			<Text>每次您发现新的自然奇观时获得1件 [ICON_GreatWork_Relic] 遗物。所有 [ICON_GreatWork_Relic] 遗物产出的 [ICON_Faith] 信仰值+50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AYUTTHAYA_BONUS" Language="zh_Hans_CN">
+			<Text>建筑建成时，获得等同于建筑建设成本10%的 [ICON_CULTURE] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_VALLETTA_BONUS" Language="zh_Hans_CN">
+			<Text>可用 [ICON_Faith] 信仰值购买市中心和军营建筑。购买远古、中古、启蒙城墙的费用较低，但只能通过 [ICON_Faith] 信仰值购买。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_KABUL_BONUS" Language="zh_Hans_CN">
+			<Text>您的单位可从自身发起的战斗中获得双倍经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BUENOS_AIRES_BONUS" Language="zh_Hans_CN">
+			<Text>您的加成资源以类似奢侈资源的方式每种提供1点[ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YEREVAN_BONUS" Language="zh_Hans_CN">
+			<Text>您的使徒单位可以从所有可能的升级中选择一项，而不限于随机得到的选项。</Text>
+		</Replace>
+		<!--Civ and Leaders-->
+		<Replace Tag="LOC_CITIZEN_GREECE_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>巴西尔</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_BASIL_NAME" Language="zh_Hans_CN">
+			<Text>巴西尔二世</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BYZANTINE_TAGMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>巴西尔二世的特色中古时代单位，替代骑士。甲胄骑兵1单元格范围内的陆地单位+4 [ICON_Strength] 战斗力或 [ICON_RELIGION] 宗教战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BYZANTIUM_GAUL_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>新文明和领袖——拜占庭的巴西尔二世和高卢的安比奥里克斯</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BASIL_TITLE" Language="zh_Hans_CN">
+			<Text>巴西尔二世</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BASIL_QUOTE" Language="zh_Hans_CN">
+			<Text>我是巴西尔，保加利亚屠夫。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BARBAROSSA_TITLE" Language="zh_Hans_CN">
+			<Text>红胡子腓特烈</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_BARBAROSSA_NAME" Language="zh_Hans_CN">
+			<Text>红胡子腓特烈</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HARDRADA_TITLE" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HARDRADA_NAME" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_NORWEGIAN_LONGSHIP_NAME" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德特色单位：维京长船</Text>
+		</Replace>
+		<Replace Tag="LOC_RULERS_OF_ENGLAND_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>全新备选领袖 - 英国的伊丽莎白一世、挪威的无情者哈拉尔德（瓦良格人）、英国的维多利亚（蒸汽时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_RULERS_OF_ENGLAND_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>含有现有文明的3位新备选领袖。包括伊丽莎白一世、无情者哈拉尔德（瓦良格人）和维多利亚（蒸汽时代）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HARDRADA_ORIGINAL_NAME" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德（北境之王）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_HARALD_ALT_NAME" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德（瓦良格人）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HARDRADA_TITLE" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德（北境之王）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HARALD_ALT_TITLE" Language="zh_Hans_CN">
+			<Text>无情者哈拉尔德（瓦良格人）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LEVIED_HARALD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>击杀时获得等同于对手 [ICON_STRENGTH] 战斗力50%的 [ICON_CULTURE] 文化值、[ICON_FAITH] 信仰值和 [ICON_SCIENCE] 科技值。{LOC_LEADER_HARALD_ALT_NAME}</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_TITLE" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉七世</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_CLEOPATRA_NAME" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RULERS_OF_THE_SAHARA_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>全新备选领袖 - 埃及的拉美西斯二世、马里的松迪亚塔·凯塔、埃及的克利奥帕特拉（托勒密）</Text>
+		</Replace>
+		<Replace Tag="LOC_RULERS_OF_THE_SAHARA_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>含有现有文明的3位新备选领袖。包括拉美西斯二世、松迪亚塔·凯塔和克利奥帕特拉（托勒密）。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_CLEOPATRA_ORIGINAL_NAME" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉（埃及人）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_CLEOPATRA_ALT_NAME" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉（托勒密）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_TITLE" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉（埃及人）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_ALT_TITLE" Language="zh_Hans_CN">
+			<Text>克利奥帕特拉（托勒密）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_LADY_SIX_SKY_NAME" Language="zh_Hans_CN">
+			<Text>六天夫人</Text>
+		</Replace>
+		<Replace Tag="LOC_GRANCOLOMBIA_MAYA_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>新文明和领袖——玛雅的六天夫人和大哥伦比亚的西蒙·玻利瓦尔</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LADY_SIX_SKY_TITLE" Language="zh_Hans_CN">
+			<Text>六天夫人</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_MANSA_MUSA_NAME" Language="zh_Hans_CN">
+			<Text>曼萨·穆萨</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MANSA_MUSA_TITLE" Language="zh_Hans_CN">
+			<Text>曼萨·穆萨</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_SEONDEOK_NAME" Language="zh_Hans_CN">
+			<Text>善德女王</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_LEADER_SULEIMAN_NAME" Language="zh_Hans_CN">
+			<Text>苏莱曼</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_SULEIMAN_ORIGINAL_NAME" Language="zh_Hans_CN">
+			<Text>苏莱曼（立法者）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_SULEIMAN_ALT_NAME" Language="zh_Hans_CN">
+			<Text>苏莱曼（大帝）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_QIN_ORIGINAL_NAME" Language="zh_Hans_CN">
+			<Text>秦始皇（天命所归）</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QIN_ALT_NAME" Language="zh_Hans_CN">
+			<Text>秦始皇（一统天下）</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_QIN_ORIGINAL_NAME" Language="en_US">
+			<Text>Qin Shi Huang (Mandate of Heaven)</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_QIN_ALT_NAME" Language="en_US">
+			<Text>Qin Shi Huang (Unifier)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_TITLE" Language="en_US">
+			<Text>Qin Shi Huang (Mandate of Heaven)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_ALT_TITLE" Language="en_US">
+			<Text>Qin Shi Huang (Unifier)</Text>
+		</Replace>
+		
+		<!--Fix "multiply" translation-->
+		<Replace Tag="LOC_BUILDING_PANAMA_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>修建完成后，将自动建造1或2个相邻运河区域。海军单位现可穿越运河奇观单元格。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。[NEWLINE][NEWLINE]必须修建在平原单元格之上，同时建筑单元格两侧相邻的两个正对单元格必须满足以下条件：其中一块单元格必须能够修建与巴拿马运河单元格连接的运河区域；另一块单元格则必须为城市、水域或可以修建相连运河的单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>陆地单位无需上船便可从桥上跨越。大桥的效果与现代道路相同，并会在桥头两端的陆地单元格中建造现代道路（若未修建）。城市+3 [ICON_Amenities] 宜居度。城市中的所有单元格+4魅力。城市中的改良设施与国家公园+100% [ICON_Tourism] 旅游业绩。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。[NEWLINE][NEWLINE]必须修建在海岸单元格中。大桥必须修建在相隔一个单元格并正对的两个陆地单元格中。大桥左右两侧必须各有至少1个水域单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建在平原上的区域，连接两块水域单元格或将一块水域单元格与市中心连接。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。运河可笔直穿过单元格，也可在其中进行60度转向。无法建造三向连接运河，且运河在其所建水路的两侧皆必须含有一个完整的陆地单元格。军事工程师可消耗1次使用次数来完成运河20%的修建进度。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_TUNNEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁军事工程师建造“穿山隧道”的能力。[NEWLINE][NEWLINE]其用作山脉地形上的移动通道，单位可消耗2点 [ICON_Movement] 移动力从一个点进入，再从另一个点走出。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。只能建在与山脉相邻的单元格上。无法被掠夺或移除。</Text>
+		</Replace>
+
+		<!--Traits-->
+		<Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_HOLY_CITIES_CONVERTED_BONUS_DESC" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_CIVILIZATION_BYZANTIUM_NAME}特质+{1_Amount}战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_COMBAT_PREVIEW_NUMBER_HOLY_CITIES_CONVERTED_RELIGIOUS_BONUS_DESC" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_CIVILIZATION_BYZANTIUM_NAME}特质+{1_Amount}宗教战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SALADIN_ALT_NAME" Language="zh_Hans_CN">
+			<Text>胜利者萨拉丁</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_NAME" Language="zh_Hans_CN">
+			<Text>文明世界的堡垒</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_NAME" Language="zh_Hans_CN">
+			<Text>礼献国王</Text>
+		</Replace>
+		<!--Ninu ilu sirum is the "title from its opening words" of the Code of Hammurabi.-->
+		<Replace Tag="LOC_TRAIT_LEADER_HAMMURABI_NAME" Language="zh_Hans_CN">
+			<Text>汉谟拉比法典</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_NAME" Language="zh_Hans_CN">
+			<Text>高尚之君</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_THEODORA_NAME" Language="zh_Hans_CN">
+			<Text>悔过修女院</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QIN_ALT_NAME" Language="zh_Hans_CN">
+			<Text>奇兵妙计</Text>
+		</Replace>
+		<!--The 36 Strategems are written much later than Qin Shi Huang.-->
+		<Replace Tag="LOC_TRAIT_LEADER_QIN_ALT_NAME" Language="en_US">
+			<Text>Stratagems</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_POUNDMAKER_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>有利条款</Text>
+		</Replace>
+		<!--Cleopatra prefer Isis, not Hapi.-->
+		<Replace Tag="LOC_TRAIT_LEADER_CLEOPATRA_ALT_NAME" Language="zh_Hans_CN">
+			<Text>伊西斯降临</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CLEOPATRA_ALT_NAME" Language="en_US">
+			<Text>Arrival of Isis</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_NAME" Language="zh_Hans_CN">
+			<Text>阿布辛贝神庙</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PAX_BRITANNICA_NAME" Language="zh_Hans_CN">
+			<Text>不列颠治世</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ELIZABETH_NAME" Language="zh_Hans_CN">
+			<Text>德雷克传承</Text>
+		</Replace>
+		<!--The term Council of Ministers is used by Ethopia goverment till today so use the official translation.-->
+		<Replace Tag="LOC_TRAIT_LEADER_MENELIK_NAME" Language="zh_Hans_CN">
+			<Text>部长理事会</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LUDWIG_NAME" Language="zh_Hans_CN">
+			<Text>天鹅国王</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_TRAIT" Language="zh_Hans_CN">
+			<Text>凯瑟琳亲卫队</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_NAME" Language="zh_Hans_CN">
+			<Text>凯瑟琳亲卫队</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_NAME" Language="zh_Hans_CN">
+			<Text>可敬战役</Text>
+		</Replace>
+		<!-- Pericles means "very famed", thus the ability name "Surrounded by Glory".-->
+		<Replace Tag="LOC_TRAIT_LEADER_SURROUNDED_BY_GLORY_NAME" Language="zh_Hans_CN">
+			<Text>名垂千古</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_THERMOPYLAE_NAME" Language="zh_Hans_CN">
+			<Text>温泉关</Text>
+		</Replace>
+		<!-- Qhapaq Nan is called "Andean Road Sysyem" by UNESCO-->
+		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_NAME" Language="zh_Hans_CN">
+			<Text>安第斯路网</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_NAME" Language="zh_Hans_CN">
+			<Text>王室寺院</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_NAME" Language="zh_Hans_CN">
+			<Text>宗教皈依</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NZINGA_MBANDE_NAME" Language="zh_Hans_CN">
+			<Text>恩东戈和马坦巴女王</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_NAME" Language="zh_Hans_CN">
+			<Text>索格伦之子</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_KUPES_VOYAGE_NAME" Language="zh_Hans_CN">
+			<Text>库佩之航</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_NAME" Language="zh_Hans_CN">
+			<Text>穆塔尔女皇</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MUTAL_COMBAT_STRENGTH_NEAR_CAPITAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_Capital] 首都6个单元格内的单位+5 [ICON_Strength] 战斗力（穆塔尔女皇）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MUTAL_NEAR_CAPITAL_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_MUTAL_NAME}特质+{1_Amount}战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HARALD_ALT_NAME" Language="zh_Hans_CN">
+			<Text>瓦良格卫队</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_NAME" Language="zh_Hans_CN">
+			<Text>麦罗埃的女王</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_NAME" Language="zh_Hans_CN">
+			<Text>彼得大使团</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BANNOCKBURN_NAME" Language="zh_Hans_CN">
+			<Text>班诺克本战役</Text>
+		</Replace>
+		<!-- Official translation by Spainish government.-->
+		<Replace Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_NAME" Language="zh_Hans_CN">
+			<Text>埃斯科里亚尔修道院</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TRIEU_NAME" Language="zh_Hans_CN">
+			<Text>驱除侵略</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TRIEU_FEATURES_NAME" Language="zh_Hans_CN">
+			<Text>驱除侵略</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TRIEU_FRIENDLY_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_TRIEU_NAME}特质+{1_Amount}战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TRIEU_UNFRIENDLY_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_TRIEU_NAME}特质+{1_Amount}战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_AMABUTHO_NAME" Language="zh_Hans_CN">
+			<Text>伊布托军团</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DHARMA_NAME" Language="zh_Hans_CN">
+			<Text>达摩正法</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_NAME" Language="zh_Hans_CN">
+			<Text>五日传说</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_NAME" Language="zh_Hans_CN">
+			<Text>最后的先知</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_NAME" Language="zh_Hans_CN">
+			<Text>壮游之旅</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ITERU_NAME" Language="zh_Hans_CN">
+			<Text>大河尼罗</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_NAME" Language="zh_Hans_CN">
+			<Text>《征兆结集》</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" Language="zh_Hans_CN">
+			<Text>王朝兴替</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_NAME" Language="zh_Hans_CN">
+			<Text>阿克苏姆传承</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_NAME" Language="ja_JP">
+			<Text>帝国自由市</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_NAME" Language="zh_Hans_CN">
+			<Text>米塔徭役制</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_INDONESIA_NUSANTARA_NAME" Language="zh_Hans_CN">
+			<Text>大努山达拉</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NKISI_NAME" Language="zh_Hans_CN">
+			<Text>万物有灵</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_NAME" Language="zh_Hans_CN">
+			<Text>希腊化文化融合</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_NAME" Language="zh_Hans_CN">
+			<Text>玛雅平原</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MONGOLIAN_ORTOO_NAME" Language="zh_Hans_CN">
+			<Text>站赤</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_NAME" Language="zh_Hans_CN">
+			<Text>克诺尔商船</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_TA_SETI_NAME" Language="zh_Hans_CN">
+			<Text>强弓之地</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_NAME" Language="zh_Hans_CN">
+			<Text>土耳其巨炮</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GREAT_TURKISH_BOMBARD_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_TURKISH_BOMBARD_COMBAT_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_NAME}特质+{1_Amount}战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_NAME" Language="zh_Hans_CN">
+			<Text>总督辖区</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_LIBERTY_NAME" Language="zh_Hans_CN">
+			<Text>贵族联盟</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_NAME" Language="zh_Hans_CN">
+			<Text>大草原之民</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_NAME" Language="zh_Hans_CN">
+			<Text>史诗探险</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZULU_ISIBONGO_NAME" Language="zh_Hans_CN">
+			<Text>班图赞诗</Text>
+		</Replace>
+		<!--Unique items-->
+		<Replace Tag="LOC_BUILDING_TLACHTLI_NAME" Language="zh_Hans_CN">
+			<Text>中美洲蹴球场</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MEKEWAP_NAME" Language="zh_Hant_HK">
+			<Text>维格沃姆棚屋</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_STREET_CARNIVAL_NAME" Language="zh_Hans_CN">
+			<Text>街头嘉年华</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_NAME" Language="zh_Hans_CN">
+			<Text>海滩嘉年华</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_NAME" Language="zh_Hans_CN">
+			<Text>海滩嘉年华</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_NAME" Language="zh_Hans_CN">
+			<Text>法式城堡</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TSIKHE_NAME" Language="zh_Hans_CN">
+			<Text>格鲁吉亚堡垒</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HANSA_NAME" Language="zh_Hans_CN">
+			<Text>汉萨同盟</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_NAME" Language="zh_Hans_CN">
+			<Text>甘榜</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PRASAT_NAME" Language="zh_Hans_CN">
+			<Text>高棉石宫</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SUGUBA_NAME" Language="zh_Hans_CN">
+			<Text>马里集市</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MARAE_NAME" Language="zh_Hans_CN">
+			<Text>马拉埃会堂</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_NAME" Language="zh_Hans_CN">
+			<Text>天堂花园</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造波斯特色改良设施{LOC_IMPROVEMENT_PAIRIDAEZA_NAME}的能力。[NEWLINE][NEWLINE]+1 [ICON_CULTURE] 文化值、+2 [ICON_GOLD] 金币。+1魅力。每与一座圣地和剧院广场相邻则+1 [ICON_CULTURE] 文化值。每与一座商业中心和市中心相邻则+1 [ICON_GOLD] 金币。解锁更多科技和市政后可提供更多 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。无法建在雪地、冻土、雪地丘陵或冻土丘陵上，也无法建在另一座{LOC_IMPROVEMENT_PAIRIDAEZA_NAME}旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LAVRA_NAME" Language="zh_Hans_CN">
+			<Text>拉伏拉大修院</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURGAN_NAME" Language="zh_Hans_CN">
+			<Text>库尔干坟冢</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURGAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造斯基泰特色改良设施{LOC_IMPROVEMENT_KURGAN_NAME}的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值、+3 [ICON_Gold] 金币。每与一座牧场相邻便+1 [ICON_Faith] 信仰值（研究完“马镫”后提升为+2）。研究“飞行”后将根据 [ICON_FAITH] 信仰值提供 [ICON_TOURISM] 旅游业绩。不能建在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_NAME" Language="zh_Hans_CN">
+			<Text>塔庙</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME" Language="zh_Hans_CN">
+			<Text>露天博物馆</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME" Language="zh_Hans_CN">
+			<Text>安第斯路网</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造{LOC_LEADER_PACHACUTI_NAME}特色改良设施{LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME}的能力。[NEWLINE][NEWLINE]作为一组山脉中的移动通道使用，单位可消耗2点 [ICON_Movement] 移动力从一个点进入，再从另一个点走出。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。只能建在与山脉相邻的单元格上。无法被掠夺或移除。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造埃塞俄比亚特色改良设施独石教堂的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值。每与1个山脉和丘陵单元格相邻，便+1 [ICON_Faith] 信仰值。研究“飞行”后可根据 [ICON_FAITH] 信仰值提供 [ICON_TOURISM] 旅游业绩。+1魅力。只能被自然灾害掠夺（无法被摧毁）。只能建在丘陵或火山土上，不能与另一座独石教堂相邻。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CHEMAMULL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造马普切特色改良设施马普切木人的能力。[NEWLINE][NEWLINE]+1 [Icon_Production] 生产力。提供等同于所在单元格魅力75%的 [ICON_CULTURE] 文化值。研究完“飞行”后将提供更多 [ICON_TOURISM] 旅游业绩。需要单元格至少达到惊艳魅力。</Text>
+		</Replace>
+		<!--Agendas-->
+		<Replace Tag="LOC_AGENDA_SAGA_NAME" Language="zh_Hans_CN">
+			<Text>哈拉尔德的传奇</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BULL_MOOSE_NAME" Language="zh_Hans_CN">
+			<Text>公麋党人</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_PRESERVER_OF_THE_UNION_NAME" Language="zh_Hans_CN">
+			<Text>联邦维护者</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_PERPETUALLY_ON_GUARD_NAME" Language="zh_Hans_CN">
+			<Text>常保警惕</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TLATOANI_NAME" Language="zh_Hans_CN">
+			<Text>特拉托阿尼</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BASIL_ZEALOT_NAME" Language="zh_Hans_CN">
+			<Text>神圣守护者</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WONDER_OBSESSED_NAME" Language="zh_Hans_CN">
+			<Text>长城万里</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_SIHAI_NAME" Language="zh_Hans_CN">
+			<Text>四海皆臣</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_COURT_INTRIGUE_NAME" Language="zh_Hans_CN">
+			<Text>宫廷密谋</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_IRON_CONFEDERACY_NAME" Language="zh_Hans_CN">
+			<Text>钢铁联盟</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BILLIONAIRE_NAME" Language="zh_Hans_CN">
+			<Text>亿万富豪</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_PREFER_FOOD_NAME" Language="zh_Hans_CN">
+			<Text>王室土地</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MAAT_NAME" Language="zh_Hans_CN">
+			<Text>玛阿特信徒</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TRADE_AGREEMENT_NAME" Language="zh_Hans_CN">
+			<Text>贸易协定</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BLACK_QUEEN_NAME" Language="zh_Hans_CN">
+			<Text>黒王后</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_IRON_CROWN_NAME" Language="zh_Hans_CN">
+			<Text>铁王冠</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_SIMON_BOLIVAR_NAME" Language="zh_Hans_CN">
+			<Text>卡拉波波战役</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_WITH_YOUR_SHIELD_OR_ON_IT_NAME" Language="zh_Hans_CN">
+			<Text>或持盾凯旋，或卧盾而亡</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ARCHIPELAGIC_STATE_NAME" Language="zh_Hans_CN">
+			<Text>千岛之国</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_END_TO_SUFFERING_NAME" Language="zh_Hans_CN">
+			<Text>解脱诸苦</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ENTHUSIASTIC_DISCIPLE_NAME" Language="zh_Hans_CN">
+			<Text>热忱信徒</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_SHORT_LIFE_GLORY_NAME" Language="zh_Hans_CN">
+			<Text>宁短暂，要辉煌</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LORD_OF_MINES_NAME" Language="zh_Hans_CN">
+			<Text>矿山之王</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_KAITIAKITANGA_NAME" Language="zh_Hans_CN">
+			<Text>守护自然家园</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HORSE_LORD_NAME" Language="zh_Hans_CN">
+			<Text>马上领主</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LAST_VIKING_KING_NAME" Language="zh_Hans_CN">
+			<Text>最后的维京王</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_CITY_PLANNER_NAME" Language="zh_Hans_CN">
+			<Text>城市规划家</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BACKSTABBER_NAME" Language="zh_Hans_CN">
+			<Text>伺机而动</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_JOAO_EXPLORER_NAME" Language="zh_Hans_CN">
+			<Text>航海家传承</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BACKSTAB_AVERSE_NAME" Language="zh_Hans_CN">
+			<Text>厌恶背刺</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ALLY_OF_ENKIDU_NAME" Language="zh_Hans_CN">
+			<Text>恩奇都之友</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TRIEU_DEFENDER_NAME" Language="zh_Hans_CN">
+			<Text>家园卫士</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BARBARIAN_LOVER_NAME" Language="zh_Hans_CN">
+			<Text>蛮族之友</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_CIVILIZED_NAME" Language="zh_Hans_CN">
+			<Text>文明开化</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_CULTURED_NAME" Language="zh_Hans_CN">
+			<Text>讲究文化</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DARWINIST_NAME" Language="zh_Hans_CN">
+			<Text>达尔文主义者</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DEVOUT_NAME" Language="zh_Hans_CN">
+			<Text>虔诚</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ENVIRONMENTALIST_NAME" Language="zh_Hans_CN">
+			<Text>环保主义</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_EXPLOITATIVE_NAME" Language="zh_Hans_CN">
+			<Text>资源开发</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_GREAT_PERSON_ADVOCATE_NAME" Language="zh_Hans_CN">
+			<Text>鼓励伟人</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_IDEOLOGUE_NAME" Language="zh_Hans_CN">
+			<Text>拥护意识形态</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_NUKE_LOVER_NAME" Language="zh_Hans_CN">
+			<Text>热爱核爆</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_ZEALOT_NAME" Language="zh_Hans_CN">
+			<Text>信仰狂热</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TECHNOPHILE_NAME" Language="zh_Hans_CN">
+			<Text>爱好技术</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_GOSSIP_NAME" Language="zh_Hans_CN">
+			<Text>闲话多多</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_SYCOPHANT_NAME" Language="zh_Hans_CN">
+			<Text>阿谀奉承</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_SYMPATHIZER_NAME" Language="zh_Hans_CN">
+			<Text>同情他人</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DEMAGOGUE_NAME" Language="zh_Hans_CN">
+			<Text>煽动人心</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_DESTINATION_CIV_NAME" Language="zh_Hans_CN">
+			<Text>旅游大国</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_EXPANSIONIST_NAME" Language="zh_Hans_CN">
+			<Text>扩张主义</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_FLAT_EARTHER_NAME" Language="zh_Hans_CN">
+			<Text>地平论者</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_INTOLERANT_NAME" Language="zh_Hans_CN">
+			<Text>不容异端</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LIBERTARIAN_NAME" Language="zh_Hans_CN">
+			<Text>自由意志主义者</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_PILLAGER_NAME" Language="zh_Hans_CN">
+			<Text>掠夺者</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TURTLER_NAME" Language="zh_Hans_CN">
+			<Text>龟缩者</Text>
+		</Replace>
+
+		<!--Loading Info-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BASIL" Language="zh_Hans_CN">
+			<Text>敌人将在您的脚下颤抖，巴西尔二世国王，因为您已经历战火的千锤百炼。让您的机智和雄心磨砺您的战刃吧，捍卫您的荣耀，直面城墙内外的敌人。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BARBAROSSA" Language="zh_Hans_CN">
+			<Text>英勇的腓特烈，德意志人的国王，您的任务是将环绕您周围的独立小国统一进您的帝国。您是天生的军事领袖——用您的统帅能力让这些城市落入您的手中，这样它们便可以发展发达的商业和工业。随后，吟游诗人想必会歌颂强大的红胡子腓特烈，伟大的神圣罗马帝国皇帝。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CLEOPATRA" Language="zh_Hans_CN">
+			<Text>总会有人低估您，克利奥帕特拉女王。但您的确足智多谋，而您的魅力将会让您同世上最强大的领袖建立牢不可破的联盟。让您的朋友紧密拥护您，您就能使自身坚不可摧，同时让埃及的荣耀足以令整个世界折服。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LADY_SIX_SKY" Language="zh_Hans_CN">
+			<Text>六天夫人，多斯皮拉斯和瓦克卡布纳尔的伟大战士之母，带领您的人民走向全新的王朝吧。让您的力量足以伸向远方，便可讨伐四方之敌。诸神将指引您，而您又将指引您忠实的子民迈向胜利。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MANSA_MUSA" Language="zh_Hans_CN">
+			<Text>曼萨·穆萨，伟大的马里国王，您虽然拥有常人难有概念的巨富，但却从未被金钱所腐蚀。放弃对世俗铜臭的执着，抬眼看向上天，满足您内心对和平的渴望吧。为子民们守护好这片土地的繁荣，这样您的名字在历史中将如黄金般闪耀。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SULEIMAN" Language="zh_Hans_CN">
+			<Text>赞美您，立法者苏莱曼，名副其实的大帝！您是奥斯曼宫廷之主，忠实的仆人时刻准备着将您的旨意传至您辽阔疆土中最远之处，而敌人也将在您的大军面前瑟瑟发抖。众苏丹之苏丹，众可汗之可汗啊，带领人民走向辉煌吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_T_ROOSEVELT" Language="zh_Hans_CN">
+			<Text>一切都落在您宽大的肩上，西奥多·罗斯福，您要冲锋在前，带领您的人民进行伟大冒险。善用您的军事力量，以便给予祖国人民长久以来应得的公平施政。您必将带领美国跃升为万众瞩目的焦点，吸引游客跨越重洋前来参观您的国家。总统先生，您真是太棒了。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SALADIN" Language="zh_Hans_CN">
+			<Text>结合科学和宗教是件需要微妙平衡之事，但您，萨拉丁，正精通于此。您对知识的追寻难能可贵，您的国民也由此对您深深敬重。但您不需要急于闯入未知领域，只要给它一些时间，人生中最难解的问题的答案将会找到回到阿拉伯的路。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JOHN_CURTIN" Language="zh_Hans_CN">
+			<Text>科廷总理，您将带领澳大利亚迎接一个又一个挑战，您的人民会由此变得更强大。其他人将会寻求与您建立友谊，以期获得您的力量。若这些朋友真心对您忠诚，您提供的军力和保护将让您取得更大成就。但务必保持警惕，因为被利用来施行侵略并非您的正道。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MONTEZUMA" Language="zh_Hans_CN">
+			<Text>蒙特祖玛特拉托阿尼，让您的雕战士愉快而饱足，他们就将永远为您的事业而战。当您的阿兹特克帝国在大地上铺展开时，永远不会缺少修建城墙的劳力——因为当您征服周围人时，总会有新的忠诚工人到来。前进吧，战神维齐洛波奇特利已发出召唤。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_HAMMURABI" Language="zh_Hans_CN">
+			<Text>伟大的汉谟拉比，您的命令便是法条。您以法典作为个人生活和领导臣民的准则，而您的帝国也将以此为纲。在您眼中，世界就是联盟、机遇和风险交织的一张复杂巨网。在您建设帝国以期一统美索不达米亚时，请谨慎权衡这一切。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PEDRO" Language="zh_Hans_CN">
+			<Text>佩德罗二世皇帝，您的国民指望您带领巴西走向世界舞台。使用您的声望来赞助艺术家、科学和工程师吧，将这些最杰出的智者吸引到我们这片沃土上来。在这郁郁葱葱、生机盎然的雨林中，您的国民得以生息繁荣。高尚者佩德罗，观看他们在嘉年华上跳起的桑巴舞吧，他们正是在歌颂您的丰功伟绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_THEODORA" Language="zh_Hans_CN">
+			<Text>狄奥多拉女皇，您出身微末，却一跃成为罗马帝国余部的统治者。您用智慧和美貌征服了君士坦丁堡的人民，让自己的双手牢牢紧握权力之舵。在纷争与分裂的时代中，愿天下人都听从您的旨意，在土地上印下您光辉的印记。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LAURIER" Language="zh_Hans_CN">
+			<Text>威尔弗里德·劳雷尔，您选择了阳光之道，将乐观与礼貌注入了加拿大人的品格之中。心怀叵测之人谋求分裂散播猜疑之时，您挺身而出，激励人民共同携手、相互理解。向世界证明这一点吧：齐心协力的人民可以长久经受住时间的考验。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_QIN" Language="zh_Hans_CN">
+			<Text>秦始皇，您的国民是您最强大的力量。人们从世界各地云集而来，皆为仰望由您统一的中国建设的万里长城和高耸奇观。在您的人民辛勤劳作，修建世人所知最为雄伟的建筑时，愿他们的双手免受劳损。好好保护您的国民，您便将名垂千古。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_KUBLAI_KHAN_CHINA" Language="zh_Hans_CN">
+			<Text>忽必烈，成吉思汗之孙，您建立帝国的功业将比肩祖父。您深谙何时须韬光养晦，何时又当长剑出鞘。在您的征途中，智慧和政治手腕将帮助您，使您的武功如虎添翼。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_KUBLAI_KHAN_MONGOLIA" Language="zh_Hans_CN">
+			<Text>{LOC_LOADING_INFO_LEADER_KUBLAI_KHAN_CHINA}</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_YONGLE" Language="zh_Hans_CN">
+			<Text>大明永乐皇帝，世界等待着您。伸出手，抓住其中的财富和知识。令您的江山位处天下中心，以至万国来朝进贡，仰贺圣明主。莫使宵小之徒出言不逊。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_WU_ZETIAN" Language="zh_Hans_CN">
+			<Text>武则天女皇，您白手起家，一路崛起直至权倾中国。别让宫廷诡计阻碍您的脚步，因为您的智慧胜过一切阴谋。无论是通过画师的笔墨、自己的雄辩之术，还是淬毒的利刃，您都将战胜敌人，让世人臣服于裙下——无论是出于爱戴或是恐惧，其实都无甚差别。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_POUNDMAKER" Language="zh_Hans_CN">
+			<Text>庞德梅克，您毫无怨言地肩负着克里人的命运。您手下勇士的能征善战毋庸置疑，但他们须仰仗您的智慧——如果不能保护家园，打击敌人则毫无意义。在变幻莫测的世界风云中，您将携手盟友走向长久的未来，而孤立无援之人注定将孤独而亡。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_WILHELMINA" Language="zh_Hans_CN">
+			<Text>威廉明娜女王，您将长久地守卫荷兰，至死不渝。利用荷兰人的奇思妙想，将海岸变为农田。在强大战舰的保护之下，您的子民将积极高效地劳作。最重要的是，要与您所见的每个人贸易。一笔好交易足可化敌为友；而拒绝贸易的话，资金便会流向您的敌人。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_RAMSES" Language="zh_Hans_CN">
+			<Text>拉美西斯，红土地和黑土地的法老，您就像荷鲁斯一样受人爱戴，骄傲的面容被刻成无数石像，凝望着茫茫沙漠。其他人自称神的信使，而您自称太阳的化身。在埃及的石凿神庙中，您将子民召唤到自己周围。发号施令吧，愿无人胆敢抵挡这汹涌上涨的洪流。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_VICTORIA" Language="zh_Hans_CN">
+			<Text>英国的维多利亚女王陛下，将您的影响力伸出国境，使其横跨整个地球表面吧。无需担心失败的可能，您忠诚的红衫军和势不可挡的海军必将获胜。以冷静稳健的行动，您能将所有土地纳入英国统治，建立起真正的不列颠治世。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ELEANOR_FRANCE" Language="zh_Hans_CN">
+			<Text>阿基坦女公爵，两地的摄政者，游吟诗人的资助人，爱之法庭的裁判官，再度登上王位吧。启发子民的心智，他们便将高声欢呼着，聚集在您的旗帜之下——因为了解您的统治之人便知晓您的慈悲。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ELEANOR_ENGLAND" Language="zh_Hans_CN">
+			<Text>{LOC_LOADING_INFO_LEADER_ELEANOR_FRANCE}</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ELIZABETH" Language="zh_Hans_CN">
+			<Text>伊丽莎白女皇，英国的童贞女王，海洋之主，您指挥着海上的木制堡垒，保卫英国免遭觊觎者侵犯。防范国内外的阴谋诡计，让您的船长们听您号令扬帆起航。不要向任何人低头，不列颠尼亚便将统治海洋！</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MENELIK" Language="zh_Hans_CN">
+			<Text>孟尼利克二世，伟大的帝王，您对您的国民颇有眼光。您将广结盟友、投身工业，用自己的聪明才智将埃塞俄比亚带入光明而自由的未来。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CATHERINE_DE_MEDICI" Language="zh_Hans_CN">
+			<Text>责任落在了您的头上，凯瑟琳·德·美第奇，您要利用您知识和艺术上的天赋，将人民团结成一体。小心翼翼地度过困难时期吧，法国的王太后。您将会建造伟大奇观，吸引世界各地游客。有您对光天化日下和暗流涌动中的一切事物的敏锐感知，您的帝国必能经受住时间考验。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_AMBIORIX" Language="zh_Hans_CN">
+			<Text>安比奥里克斯，您的才智便是最强大的武器。即使军队以寡敌众，您也可以凭自己的头脑和三寸不烂之舌夺回故土。您的盟友将坦然听从您的领导，而您的强大矛兵将粉碎敌人的负隅顽抗。战斗吧，伟大的战士国王！</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_TAMAR" Language="zh_Hans_CN">
+			<Text>勇猛的塔玛丽，只有昏聩之人才会误判格鲁吉亚的真正力量。忠诚的氏族战士将从山丘上发起进攻，将敌人一一猎杀。刺激您的对手对您坚固无比的城墙用尽浑身解数，而敌人落荒而逃之际，您的保护国将率军大举出击将其剿灭。伟大的女王，如果您不受愚人所累，格鲁吉亚也将免于苦难。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LUDWIG" Language="zh_Hans_CN">
+			<Text>路德维希国王，世人笑您疯癫，但您的疯癫属于梦境、诗歌和童话。您憧憬着这世界有机会变得不同，使人得以建立一个魔法王国，令一切其他事物都显得无聊乏味。天鹅国王啊，世界需要您的城堡和骑士，巨龙盘踞的高山和充满魔力的石窟。再次君临吧，为我们创造新的梦幻。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SIMON_BOLIVAR" Language="zh_Hans_CN">
+			<Text>西蒙·玻利瓦尔，您本可与同僚们一同随波逐流，却选择了成为人民的解放者。艰难困苦从未使您望而却步，因此抱紧信念吧，带领您的共和国走入繁荣的新时代。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PERICLES" Language="zh_Hans_CN">
+			<Text>巧舌如簧的伯里克利，希腊人的领袖，能言善辩是您的珍贵天赋。用这份能力，您可以拉拢城邦联盟奉献于您，他们的赞誉将使您名垂千古。沿着希腊的岩石海岸修建文化场所，来将您的人民团结在您的强大统治下。如果一切顺利，海妖塞壬会为伯里克利时代而歌唱！ </Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GORGO" Language="zh_Hans_CN">
+			<Text>斯巴达女王戈尔戈，荣耀归于您和您忠诚的重步兵军团！每场战斗胜利都为希腊带来战神阿瑞斯的祝福。同时，您的人民还为您周到谨慎的统治和造就的文化奇迹而欢欣鼓舞。尽情自豪吧，希腊的文化遗产以及您的功绩将会代代流传。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MATTHIAS_CORVINUS" Language="zh_Hans_CN">
+			<Text>强而有力的马加什，您的文治武功皆是举世无双。强大的黑军进可以宝剑斩敌，退可以钢盾护民。让他们在战场上助您一往无前，后世便将敬畏于您的威名。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PACHACUTI" Language="zh_Hans_CN">
+			<Text>帕查库特克，您是太阳之子，是居于高耸山脉之中的兴旺子民的君父。让巍峨的群山成为您的坦途和敌人的天险，您在此茁壮成长，外人前来却只得忍饥挨饿。震天撼地的萨帕·印卡啊，展现您的力量和勤勉吧，如此您的名字便将在历史长河中永久闪耀。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GANDHI" Language="zh_Hans_CN">
+			<Text>圣雄甘地，只要待人友善，您就会发现身边有很多真正的朋友。保护印度人民的安全，用非凡的大象勇士守护他们。您的信念将指引着您走向和平与和谐。接受外来的新鲜事物，然后为这世界亲手做出您期望的改变吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CHANDRAGUPTA" Language="zh_Hans_CN">
+			<Text>相信您的雄心壮志吧，旃陀罗笈多，它引领了您统一印度。如果有人胆敢冒犯您伟大孔雀国王的名讳，就让战象将他们全部踏平。为人民收复土地后，您建设的梯井则能见证它繁荣昌盛。愿您帝国的版图永世绵延。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GITARJA" Language="zh_Hans_CN">
+			<Text>勇敢的特丽布瓦娜，统治万千岛屿的满者伯夷女王，印度尼西亚的海洋便是您最强大的力量。身为三界的崇高女神，您将把自己的神圣之力散播到日光照拂过的所有海域。英勇的女王，倚靠您忠实的舰队吧！让胆敢在印度尼西亚海岸边兴风作浪的家伙尝尝凶猛的风暴。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_HOJO" Language="zh_Hans_CN">
+			<Text>日本执权北条时宗，佛教的大潮跟随在您身后。您的国民深知平衡之道，而您最好的武士都学识渊博、精神丰盈。磨练自身，拥抱海上的神风吧，您将会修得开悟。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_TOKUGAWA" Language="zh_Hans_CN">
+			<Text>幕府大将军德川家康，您非常明了，只有耐心等待，利刃才能劈开要害。谨慎保卫您的家园，警惕国内外篡位者伺机而动，相信您的人民无比勤劳且足智多谋，因为只有他们才值得信赖。身为统治者，前路漫长，负担沉重；但手握武士刀时，便要摒弃不满，亦不可绝望。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JAYAVARMAN" Language="zh_Hans_CN">
+			<Text>睿智的阇耶跋摩七世，高棉人尊崇勤政爱民的您。您掌管着这块土地上的清水，哺育着饥饿的人民，这也使您的地位几近于神。前进，神圣的建筑师！建设一个趋于完美的帝国吧，愿敌人为您无坚不摧的战象所踏平。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MVEMBA" Language="zh_Hans_CN">
+			<Text>姆本巴·恩津加国王，地球母亲给了您很多礼物。您的国民知道茂密的森林和雨林是他们的家，他们可以轻而易举地穿过这些区域。来自遥远大陆的旅行者赠予的礼物同样意义重大。积极接受新鲜事物吧，来自大千世界的启发会让我们的人民创造出宏大壮丽的艺术。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NZINGA_MBANDE" Language="zh_Hans_CN">
+			<Text>恩津加·姆班德，恩东戈和马坦巴的女王，因邦加拉的军阀，您非常了解权力并非与生俱来，而是必须每时每刻不断争取。要警惕为了一己之私夺取您土地和人民的阴谋家。回击那些反对图谋，牢牢掌握属于您的东西——如果无法顺理成章地拿到，那就谋划一份大计划来夺取。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SEONDEOK" Language="zh_Hans_CN">
+			<Text>善德女王，天上的星象映出您将带领朝鲜走向伟大。建造书院，对人民施以谆谆教诲，令其探索世间未解之谜。如有人胆敢窃取知识，火厢车发出的火箭骤雨将使他们无处可逃。冲向云霄吧，精明的女王，您的子民将与您同行。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SEJONG" Language="zh_Hans_CN">
+			<Text>世宗大王，朝鲜的统治者，您的妙笔写下无数诏令，塑造出历史的走向。一个全新的社会、一种全新的生活方式，皆待您亲自指导。让人民以您为榜样和谐生活，让您的智慧和知识引领朝鲜踏上自己的命运旅程。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ALEXANDER" Language="zh_Hans_CN">
+			<Text>伟大的战争领袖亚历山大，您的剑让马其顿的疆域遍布世界。每个王国都是等您克服的独特挑战，但只要您能保持率直而勇敢，便能得到颇丰的回报。拒绝和平吧，除了征服广袤土地，没有其他方式建立属于您的传奇。冲锋，亚历山大，带领您的人民走向辉煌！</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SUNDIATA_KEITA" Language="zh_Hans_CN">
+			<Text>松迪亚塔·凯塔，马里之狮，杰利诗人们将高唱您的赞歌！低微出身无法阻止您崛起，实现族人的预言。您是猎人，是魔法师，而现在正是加冕封王之时！让马里从无名小邦完成宿命蜕变，一举成为伟大帝国。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_KUPE" Language="zh_Hans_CN">
+			<Text>航海家库佩，您命名了长白云之乡，而现在人们呼唤您再次踏上开垦新领土的旅程。尊重并守护土地和海洋，就如您的托阿勇士保护着人民的安全。毛利族人将世世代代守护这片土地上的天然之美。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LAUTARO" Language="zh_Hans_CN">
+			<Text>年轻的莱夫扎茹，您并不是解放了马普切，而是激励了人民解放自己。修建图腾祭拜祖先，让子孙后代获得无畏的勇气。您的骑兵反复杀入敌阵时，胸中将充满这份豪情。持斧的领袖，与马普切站在一起，投下伟岸的身影吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GENGHIS_KHAN" Language="zh_Hans_CN">
+			<Text>成吉思汗，您在马背上凭借智慧将蒙古打造成了一个帝国。策马扬鞭直面敌方骑兵，大获全胜后让其臣服在您的脚下。指派迅捷强力的怯薛弓箭手让迁徙的子民们快马加鞭。很快，世界便会听到蒙古骑兵震天撼地的战鼓雷鸣。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_HARDRADA" Language="zh_Hans_CN">
+			<Text>挪威国王哈拉尔德，您是北方的惊雷，所有人都惧怕您的船只靠近。您的长船主宰着海洋，时刻准备着放下狂战士军团进攻无人警惕的海岸。愿奥丁保佑您的王国，愿吟唱诗人为您强大战士的胜利而歌唱。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_AMANITORE" Language="zh_Hans_CN">
+			<Text>阿曼妮托尔，警醒的努比亚女王，您治下的帝国疆土远达天际。无需惧怕那些对您富足的黄金垂涎三尺的家伙，因为您的弓箭手们即便在五百步之外仍能精准无误地射断发丝。睿智的女王，您的城市必将尽享繁华与虔诚，因为这片强弓之土不但有着辉煌的过往，也定将构筑起属于自己的未来。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CYRUS" Language="zh_Hans_CN">
+			<Text>登上王座吧，居鲁士，您就是天命所归。有您的不死军团和坚定信念，您将征服并统治世上的所有人。您会看到您的周围形成了很多联盟，但别上当——这是种过时又脆弱的处世方式。不要轻易许诺，除非对方帮您实现目标。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NADER_SHAH" Language="zh_Hans_CN">
+			<Text>众沙阿的沙阿，从卑贱的奴隶成为世界最富有的国王，我们呼唤您的归来！让您的军队横扫这片土地，用铁与火再次点燃世界，让我们更清楚地看到火焰中闪耀的真金。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_DIDO" Language="zh_Hans_CN">
+			<Text>狄多女王，迦太基之母，您的一生都面临着巨大的威胁，而您却用智慧和机敏将它们一一化解。海浪拍打之处，皆是您城市的兴起之地。广阔的大海是您的康庄大道，遥远的地平线则是您的宿命和港湾。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JADWIGA" Language="zh_Hans_CN">
+			<Text>虔诚的雅德维加，赞美上帝神明、世界和波兰吧！最神圣的国王，您会向您的国民展示真理和光明，他们将走出国门，向其他人传播这些真理。您将会在翼骑兵的保护下崛起，以无人能及的虔诚风度迎接任何挑战。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JOAO_III" Language="zh_Hans_CN">
+			<Text>若昂三世，您坚定不移地固守着自己的信仰，并循循善诱引导他人。在向海岸线外传播您的宗教和贸易网络的同时，请为人民带回繁荣，让他们体验到从未有过的新生活。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_TRAJAN" Language="zh_Hans_CN">
+			<Text>布下大局吧，强大罗马的皇帝图拉真。您的军团已准备好出发，建立世界上最大的帝国。如果您能真正实现条条道路通罗马，您的帝国将会拥有巨额财富和无尽奢华。那时，我们的公民必将宣扬您是最佳元首，他们最优秀的统治者。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JULIUS_CAESAR" Language="zh_Hans_CN">
+			<Text>凯撒万岁！您是罗马的将军、世族、狄克推多。您的人民，以及您的雄心，长久以来呼唤着您。骰子已经掷下——不要让任何人反对您的计划，无论是不共戴天的仇敌，还是亲密无间的好友。</Text>
+		</Replace>
+		<!---->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PETER_GREAT" Language="zh_Hans_CN">
+			<Text>沙皇彼得，拥抱祖国母亲的凛冽寒风吧。您对科学和文化的热爱是上天赐予的礼物，而从派往外国的大使团中您将学到很多这些知识。在您的统治下，俄罗斯必将繁荣发展并不断扩张，把周围所有土地都纳为己有，或许创造出世界上最伟大的陆权帝国。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ROBERT_THE_BRUCE" Language="zh_Hans_CN">
+			<Text>罗伯特一世，坚毅的苏格兰守护者。战争对您而言并不陌生，但您却甚少主动求战。若您能让人民幸福安康，便可激励他们达成伟业。如果有人操纵弱小的邻国，就让无所畏惧的高地军团奋起作战，为他们传达自由的真正含义。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_TOMYRIS" Language="zh_Hans_CN">
+			<Text>伟大的战士女王托米丽司，所有人想到您都心存畏惧，不寒而栗。您骑着威风凛凛的马匹，带领斯基泰人奋勇前行。伟大史诗将会诉说烈马勇士从大草原飞奔出来，冲在每场战争的前线——而人们会发现您在其中。骑马飞驰吧，凶猛的女王，但愿您的盟友真诚而敌人软弱。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PHILIP_II" Language="zh_Hans_CN">
+			<Text>虔诚的菲利普国王，整个西班牙随时准备回应您的祈祷。从位于埃斯科里亚尔修道院的宫殿，您能派出您的追随者：传教士、使徒、征服者，他们准备好跨过大洋，把您最神圣帝国的福音传向世界。愿他们发现的宝藏助您完成使命：将全世界统一在同一种信仰、同一个帝国之下，让您真正成为最虔诚的天主教国王。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_GILGAMESH" Language="zh_Hans_CN">
+			<Text>您肩负了许多，吉尔伽美什国王。您的国民和世界上很多其他人都把您看作领导者。您的力量在凡人之上，这个沉重的世界从不会让您犹豫不决。鼓励苏美尔人民沿河定居在肥沃土地上，谨慎挑选盟友——因为很多人都想获得您的一份力量。开始冒险吧，是时候谱写您的传奇史诗了。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LADY_TRIEU" Language="zh_Hans_CN">
+			<Text>赵夫人，后世子民将您奉为女神。起身对抗试图阻止您乘风踏浪之人，挥舞您反抗的利剑吧。无论是家人还是敌人，谁都无法阻拦您的脚步。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_SHAKA" Language="zh_Hans_CN">
+			<Text>恰卡，聪明的祖鲁国王，您的战士将为您赢得一个帝国。在您麾下的祖鲁勇士能把所有对手悉数合围，各个击溃。百折不挠的大军将能充分体现出人海战术的力量。您不需要对每个邻国开战，但要让他们忌惮您的力量。</Text>
+		</Replace>
+		<!--Diplo statements-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BASIL_ANY" Language="zh_Hans_CN">
+			<Text>你正站在巴西尔面前——我是罗马人的独裁者与皇帝，也是敌人的灾祸。看吧，这就是罗马！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BARBAROSSA_ANY" Language="zh_Hans_CN">
+			<Text>您好。我是神圣罗马皇帝、德国、意大利、勃艮第，以及许多其他王国的国王。我相信您统治领土的方式和我一样：通过武力。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_CLEOPATRA_ANY" Language="zh_Hans_CN">
+			<Text>我是重生的伊西斯，是尼罗河的化身。我是克利奥帕特拉，如果您有价值的话，也是您的盟友。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LADY_SIX_SKY_QUOTE" Language="zh_Hans_CN">
+			<Text>我是六天夫人，令敌人悉数跪倒的战士。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_LADY_SIX_SKY_ANY" Language="zh_Hans_CN">
+			<Text>在你面前的是六天夫人。我是女祭司、战士，以及玛雅女王。你好。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NEIGHBOR" Language="zh_Hans_CN">
+			<Text>六天夫人不满您在她的城市附近定居。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NOT_NEIGHBOR" Language="zh_Hans_CN">
+			<Text>六天夫人很高兴您的定居点远离她的帝国。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

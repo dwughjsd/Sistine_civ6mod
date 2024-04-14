@@ -189,6 +189,7 @@
 	
 	<RequirementSets>
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT_POWERED" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
 		<Row RequirementSetId="CITY_IS_WITHIN_6_HEXES_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="PLOT_IS_WITHIN_6_HEXES_OF_HYDROELECTRIC_DAM_RIVER_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
@@ -207,6 +208,7 @@
 	
 	<RequirementSetRequirements>
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MUSEUM_ARTIFACT" RequirementId="REQUIRES_CITY_HAS_MUSEUM_ARTIFACT" />
+		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT" RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" />
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT_POWERED" RequirementId="REQUIRES_CITY_HAS_MANUFACTURING_PLANT" />
 		<InsertOrIgnore RequirementSetId="BUILDING_IS_MANUFACTURING_PLANT_POWERED" RequirementId="REQUIRES_CITY_IS_POWERED" />
 		<Row RequirementSetId="CITY_IS_WITHIN_6_HEXES_SST" RequirementId="REQUIRES_CITY_IS_WITHIN_6_HEXES" />

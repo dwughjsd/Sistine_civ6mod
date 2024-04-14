@@ -106,4 +106,13 @@
 			<Set CO2perkWh="980"/>
 		</Update>
 	</Resource_Consumption>
+
+	<ModifierArguments>
+		<Delete ModifierId="INCREASE_DISTRICT_BUILDING_PRODUCTION" Name="Amount" />
+		<Row>
+			<ModifierId>INCREASE_DISTRICT_BUILDING_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_MONOPOLIES_TITLE" Language="en_US">
+			<Text>Total Number of Luxury Resources</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_MONOPOLIES_PARA_1" Language="en_US">
+			<Text>Capitalism might thrive on free trade, but savvy merchants know how to squeeze out their competitors. Once you research Mercantilism, you will be able to see the total number of Luxury resources in the world, as well as what percentage each player currently controls.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_MONOPOLIES_TITLE" Language="zh_Hans_CN">
+			<Text>奢侈资源总量</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_MONOPOLIES_PARA_1" Language="zh_Hans_CN">
+			<Text>资本主义会让自由贸易走向繁荣，而聪明的商人则知晓如何对付竞争者。研究“重商主义”之后，就能看到奢侈资源的世界总量，以及每位玩家当前的控制量。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
