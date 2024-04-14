@@ -108,12 +108,12 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
-			<Set DefaultValue="13.0" />
+			<Set DefaultValue="14.0" />
 		</Update>
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="4.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
@@ -386,6 +386,7 @@
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_FAITH" Value="-20"/>
 
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MONUMENT" Favored="true"/>
@@ -403,6 +404,7 @@
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
+		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="15"/>
 		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-30"/>
 		
 		<!--We need more improvements!-->
@@ -413,6 +415,7 @@
 		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="30"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_FAITH" Value="-20"/>
+		<Row ListType="RenaissanceYields" Item="YIELD_FOOD" Value="15"/>
 
 		<Row ListType="IndustrialYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="IndustrialYields" Item="YIELD_SCIENCE" Value="50"/>
