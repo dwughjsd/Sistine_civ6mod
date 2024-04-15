@@ -385,7 +385,7 @@
 			<Text>Units receive +5 [ICON_Strength] Combat Strength on their home continent. The first [ICON_Envoy] Envoy you send to each city-state counts as two [ICON_Envoy] Envoys. Envoys sent to City-States you have a [ICON_TradeRoute] Trade Route to count as two [ICON_Envoy] Envoys. Gain the Rough Rider unique unit with Rifling.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="en_US">
-			<Text>After recruiting or patronizing a [ICON_GreatPerson] Great Person, 20% of its [ICON_GreatPerson] Great Person point cost for the current game era is refunded.</Text>
+			<Text>Each recruited [ICON_GreatPerson] Great Person grants worth 20% of the base [ICON_GreatPerson] Great Person cost of the current era. After recruiting or patronizing a [ICON_GreatPerson] Great Person, 20% of its [ICON_GreatPerson] Great Person point cost is refunded.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION" Language="en_US">
 			<Text>Your [ICON_TradeRoute] Trade Routes to your own cities provide +4 Loyalty per turn for the starting city. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +2 [ICON_Culture] Culture to you. [ICON_TradeRoute] Trade Routes to an Ally's city or vassal city-state provides +4 [ICON_Culture] Culture.</Text>
@@ -408,7 +408,52 @@
 		<Replace Tag="LOC_TRAIT_LEADER_RELIGION_CITY_STATES_DESCRIPTION" Language="en_US">
 			<Text>Your civilization gains [ICON_FAITH] Faith equal to 40% of the unit’s cost when a non-civilian is trained. Combat victories provide [ICON_FAITH] Faith equal to 50% of the Combat Strength of the defeated unit (on Standard Speed). Each [ICON_ENVOY] Envoy you send to a city-state of your majority Religion counts as two [ICON_ENVOY] Envoys. (Must have a majority Religion).</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RAVEN_KING_DESCRIPTION" Language="en_US">
+			<Text>Levied units gain an ability giving them +2 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength. It costs 50% less [ICON_GOLD] Gold and resources to upgrade Levied units. If you Levy troops from a City-State receive 2 [ICON_ENVOY] Envoys with that City-State. Gain the Black Army unique unit when the Castles technology is researched.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_EXALTED_GODDESS_DESCRIPTION" Language="en_US">
+			<Text>Naval units can be purchased with [ICON_FAITH] Faith. Religious units pay no movement to embark or disembark. +2 [ICON_FAITH] Faith and +2 [ICON_CULTURE] Culture to City Centers that are adjacent to Coast or Lake tiles.</Text>
+		  </Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Holy Sites are granted a Culture Bomb, [ICON_FOOD] Food equal to its adjacency bonus, and +1 [ICON_Housing] Housing if on a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION" Language="en_US">
+			<Text>May not build Holy Site districts. Gains all Beliefs of any Religion that has established itself in a majority of his cities. Receives an Apostle each time he finishes a M'banza or Theater Square district (of that city's majority Religion).</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="en_US">
+			<Text>[ICON_Governor] Governors established in a city provides +3 [ICON_CULTURE] Culture and [ICON_SCIENCE] Science, as well as +3% [ICON_Culture] Culture and [ICON_Science] Science for each Promotion they have earned, including their first.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION" Language="en_US">
+			<Text>It costs 50% less [ICON_GOLD] Gold to recruit Great People and the Market gains 2  [ICON_GreatWork_WRITING] Great Writing slots. [ICON_GreatWork_WRITING] Great Works of Writing receive +6 [ICON_GOLD] Gold and +3 [ICON_PRODUCTION] Production.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_DESCRIPTION" Language="en_US">
+			<Text>+20% [ICON_Production] Production towards all districts and buildings, rising to +40% if there is a Nubian Pyramid adjacent to the City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SULEIMAN_ALT_DESCRIPTION" Language="en_US">
+			<Text>+15% of all yields when in a [ICON_GLORY_GOLDEN_AGE] Golden Age or Heroic Age. +4 [ICON_Strength] Combat Strength when not in a [ICON_GLORY_GOLDEN_AGE] Golden Age or Heroic Age against Civilizations who are also not in a [ICON_GLORY_GOLDEN_AGE] Golden Age or Heroic Age.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION" Language="en_US">
+			<Text>Can move their original [ICON_Capital] Capital to any city with a Cothon they founded by completing a unique project in that city. +1 [ICON_TradeRoute] Trade Route capacity for each Government Plaza building and the Government Plaza district. +50% [ICON_PRODUCTION] Production towards the Government Plaza. +50% [ICON_Production] Production toward districts and buildings in the city with the Government Plaza.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_DESCRIPTION" Language="en_US">
+			<Text>The Religion founded by Poland becomes the majority in an adjacent city that loses a tile to a Polish Culture Bomb. Holy Sites gain standard [ICON_FAITH] Faith adjacency bonus from adjacent districts. +3 [ICON_FAITH] Faith from the Palace. All [ICON_GreatWork_Relic] Relics provide bonus Faith (+2), Culture (+2) and Gold (+4).</Text>
+		  </Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_HEROES_DESCRIPTION" Language="en_US">
+			<Text>The Religion founded by Poland becomes the majority in an adjacent city that loses a tile to a Polish Culture Bomb. Holy Sites gain standard [ICON_FAITH] Faith adjacency bonus from adjacent districts. +3 [ICON_FAITH] Faith from the Palace. All [ICON_GreatWork_Relic] Relics and [ICON_GreatWork_HeroRelic] Heroic Relics provide +2 [ICON_Faith] Faith, +2 [ICON_Culture] Culture, +4 [ICON_Gold] Gold.</Text>
+		  </Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture and +1 [ICON_Science] Science from international [ICON_TradeRoute] Trade Routes. Receives [ICON_Science] Science or [ICON_Culture] Culture from [ICON_TradeRoute] Trade Routes to civilizations that are more advanced than Russia. +1 per technology or civic ahead.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes to other civilizations provide +2 [ICON_Gold] Gold and [ICON_Production] Production for Egypt. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +3 [ICON_Food] Food for them and +2 [ICON_Gold] Gold for Egypt. Trading with Allies earns twice as many bonus Alliance Points.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BANNOCKBURN_DESCRIPTION" Language="en_US">
+			<Text>+20% [ICON_PRODUCTION] Production to cities founded by you. -20% [ICON_PRODUCTION] Production to cities not founded by you. Can declare a War of Liberation after gaining the Defensive Tactics Civic. +100% [ICON_Production] Production and +2 [ICON_Movement] Movement for the first 10 turns after declaring a War of Liberation.</Text>
+		</Replace>
 		<!--Civ Traits-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION" Language="en_US">
+			<Text>Spend Builder charges to complete 50% of the original district cost.</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="en_US">
 			<Text>[ICON_TechBoosted] Eurekas provide all of the [ICON_SCIENCE] Science for technologies. -80% [ICON_SCIENCE] Science per turn.</Text>
 		</Replace>
@@ -421,7 +466,40 @@
 		<Replace Tag="LOC_TRAIT_LEADER_WU_ZETIAN_DESCRIPTION" Language="en_US">
 			<Text>All offensive Spies operate at 1 level higher. Whenever an offensive spy mission is successful, you also gain 400% of the [ICON_Faith] Faith, [ICON_Culture] Culture, and [ICON_SCIENCE] Science that the targeted city earned that turn. Receive a free spy (and extra spy capacity) after discovering Defensive Tactics. Can purchase Spies with [ICON_Faith] Faith.</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement to all units after researching the Military Training civic. Promoting a unit does not end that unit’s turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Cities with an Aqueduct receive +1 [ICON_AMENITIES] Amenity from entertainment and +0.5 [ICON_FAITH] Faith for every [ICON_CITIZEN] population. Farms provide +2 [ICON_FOOD] Food if adjacent to an Aqueduct and +1 [ICON_FAITH] Faith if adjacent to a Holy Site.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NKISI_DESCRIPTION" Language="en_US">
+			<Text>May not gain Great Prophets or found Religions. +2 [ICON_Food] Food, +2 [ICON_Production] Production, +1 [ICON_Faith] Faith, and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Relic] Relic, [ICON_GreatWork_Artifact] Artifact, and Sculpture [ICON_GreatWork_Sculpture] Great Work of Art in addition to the usual [ICON_Culture] Culture. Receive 50% more [ICON_GreatArtist] Great Artist, [ICON_GreatMusician] Great Musician, and [ICON_GreatMerchant] Great Merchant points. Palace has slots for 5 Great Works.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SCOTTISH_ENLIGHTENMENT_DESCRIPTION" Language="en_US">
+			<Text>Happy cities receive an additional +10%  [ICON_SCIENCE] Science and +10%  [ICON_PRODUCTION] Production. Happy cities generate +1  [ICON_GreatScientist] Great Scientist point per Campus and +1 [ICON_GreatEngineer] Great Engineer point per Industrial Zone. Ecstatic cities double all these amounts.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>May form Fleets and Armadas with Mercantilism, instead of Nationalism and Mobilization. [ICON_TradeRoute] Trade Routes receive +2 [ICON_Gold] Gold, +1 [ICON_Faith] Faith, and +1 [ICON_Production] Production. [ICON_TradeRoute] Trade Routes between multiple continents receive triple these numbers. Cities not on your original Capital’s continent receive a builder when founded.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TRIEU_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Strength] Combat Strength for units fighting in Rainforest, Marsh, or Woods tiles. +1 [ICON_Movement] Movement if they begin their turn there. Both these bonuses are doubled if the tile is your territory.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TRIEU_FEATURES_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_TRIEU_DESCRIPTION}</Text>
+		  </Replace>
+		  <Replace Tag="LOC_TRAIT_CIVILIZATION_VIETNAM_DESCRIPTION" Language="en_US">
+			<Text>All land specialty districts can only be built on Rainforest, Marsh, or Woods. These districts and each of their buildings receive the following yields on these features: +1 [ICON_CULTURE] Culture in Woods, +1 [ICON_SCIENCE] Science in Rainforest and +1 [ICON_PRODUCTION] Production in Marsh. Woods can be planted with the Medieval Faires civic.</Text>
+		  </Replace>
+		  <Replace Tag="LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_CULTURE] Culture for each specialty district while in the Medieval to Industrial eras. +20% [ICON_Production] Production toward Medieval, Renaissance, and Industrial era wonders. [ICON_Tourism] Tourism from wonders of any era is +100%.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION" Language="en_US">
+			<Text>Sweden gains 50 [ICON_Favor] Diplomatic Favor when earning a Great Person (on Standard Speed). Sweden receives +2 [ICON_GreatEngineer] Great Engineer point from Factories and +2 [ICON_GreatScientist] Great Scientist point from Universities. Having Sweden in the game adds three unique World Congress competitions starting in the Industrial Era.</Text>
+		</Replace>
 		<!--Civ unique items-->
+		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Château, unique to France.[NEWLINE][NEWLINE]+2 [ICON_Culture] Culture and +1  [ICON_Gold] Gold. +1 Appeal. +1 [ICON_Culture] Culture for every adjacent wonder (becomes +2 after researching Flight). +2 [ICON_Gold] Gold if on a tile containing a River edge. Provides [ICON_TOURISM] Tourism from [ICON_CULTURE] Culture after researching Flight. Cannot be built adjacent to another Château.</Text>
+		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MEKEWAP_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct a Mekewap, unique to Cree.[NEWLINE][NEWLINE]Provides +1 [ICON_PRODUCTION] Production and +1 [ICON_Housing] Housing. +1 [ICON_GOLD] Gold if adjacent to a Luxury resource.  For every adjacent Bonus Resource +1 [ICON_FOOD] Food.  Additional [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, [ICON_FOOD] Food, and [ICON_HOUSING] Housing as you advance through the Civics and Technology Tree. Must be placed adjacent to a Bonus or Luxury resource. Cannot be built adjacent to another Mekewap.</Text>
 		</Replace>
@@ -433,6 +511,40 @@
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct a Sphinx, unique to Egypt.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith and +1 [ICON_Culture] Culture. +2 Appeal. +2 [ICON_Faith] Faith if next to a wonder. +1 [ICON_CULTURE] Culture if built on Floodplains. Additional [ICON_CULTURE] Culture once Humanism is discovered. Provides [ICON_TOURISM] Tourism after researching Flight. Cannot be built next to another Sphinx. Cannot be built on Snow or Snow Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Terrace Farm, unique to the Inca.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food. Provides +0.5 Housing [ICON_Housing] Housing. +1 [ICON_FOOD] Food for each adjacent Mountain Tile. Gain +1 [ICON_PRODUCTION] Production if adjacent to Fresh Water and for each adjacent Aqueduct district. Additional [ICON_FOOD] Food as you advance through the Civics and Technology Tree for adjacency with other Terrace Farms. Can be placed on Grassland Hills, Plains Hills, and Desert Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_STEPWELL_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Stepwell, unique to India.[NEWLINE][NEWLINE]+1 [ICON_Food] Food and +1 [ICON_Housing] Housing. +1 [ICON_Faith] Faith for each adjacent Holy Site district. +1 [ICON_Food] Food for each adjacent Farm. Additional [ICON_Housing] Housing, [ICON_Faith] Faith, and [ICON_Food] Food as you advance through the Technology and Civics Tree. Prevents [ICON_Food] Food loss during Drought. Cannot be built on Hills or adjacent to another Stepwell.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Hacienda, unique to Gran Colombia.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production, and +0.5 [Icon_Housing] Housing. +1 [ICON_Food] Food for each adjacent Plantation. Plantations and Haciendas receive +1 [ICON_Production] Production for every two adjacent Haciendas (increased to every Hacienda with Rapid Deployment). Can only be built on Plains, Plains Hills, Grassland, and Grassland Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Kampung, unique to Indonesia.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production and +1 [ICON_Housing] Housing. +2 [ICON_FOOD] Food for each adjacent Fishing Boat. Additional [ICON_PRODUCTION] Production, [ICON_Housing] Housing, and  [ICON_TOURISM] Tourism as you advance through the Technology and Civics Tree. Must be placed on a Coast or Lake tile adjacent to a sea resource.</Text>
+		  </Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION" Language="en_US">
+			<Text>Improvement that unlocks with Masonry and must be built on Desert, Desert Hills or Desert Floodplains. +2 [ICON_Faith] Faith and +1 [ICON_Food] Food. Receives additional yields from adjacent districts. +1 [ICON_Food] Food if adjacent to a City Center, Dam, Canal, or Aqueduct. +1 [ICON_CULTURE] Culture for each adjacent Entertainment Complex or Water Park. Provides [ICON_TOURISM] Tourism after researching Flight. For all other districts that award adjacency bonuses: +1 of the appropriate yield if that district is adjacent.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FEITORIA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Nau ability to construct a Feitoria, unique to Portugal.[NEWLINE][NEWLINE]Provides +4 [ICON_Gold] Gold and +2 [ICON_Production] Production. Trade routes sent to this city from Portugal gain +2 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production. Can only be built adjacent to Luxury or Bonus resources in territory belonging to other Civilizations or City-States that you have Open Borders with. Must be built on a Coast or Lake tile adjacent to land and not adjacent to another Feitoria. Feitorias cannot be removed.</Text>
+		  </Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Golf Course, unique to Scotland.[NEWLINE][NEWLINE]+2 [ICON_AMENITIES] Amenities and +2 [ICON_GOLD] Gold. +2 [ICON_CULTURE] Culture if adjacent to a City Center district and +2 [ICON_CULTURE] Culture if adjacent to an Entertainment Complex district. Additional [ICON_TOURISM] Tourism and [ICON_HOUSING] Housing as you advance through the Civics and Technology Tree. Cannot be placed on Desert or Desert Hills. One per city. Tiles with Golf Courses cannot be swapped. +1 Appeal.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MISSION_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Mission, unique to Spain.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith. +1 [ICON_Faith] Faith, +1 [ICON_PRODUCTION] Production, and +1 [ICON_Food] Food if on a different continent than your [ICON_Capital] Capital. +1 [ICON_Science] Science for every adjacent Campus and Holy Site district. Additional [ICON_SCIENCE] Science once Cultural Heritage is discovered. +2 Loyalty per turn for cities with a Mission improvement adjacent to the City Center and not on your original [ICON_Capital] Capital's continent.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct an Open-Air Museum, unique to Sweden.[NEWLINE][NEWLINE]+1 Appeal. +2 [ICON_Culture] Culture and +2 [ICON_Tourism] Tourism for each type of terrain (Snow, Tundra, Desert, Plains or Grassland) in which at least one Swedish city is founded. One per city. Tiles with Open-Air Museums cannot be swapped.</Text>
+		  </Replace>
+		<Replace Tag="LOC_ROUTE_RAILROAD_DESCRIPTION" Language="en_US">
+			<Text>Does not cost a charge, but does cost 1 [ICON_RESOURCE_IRON] Iron and 1 [ICON_RESOURCE_COAL] Coal. Greatly improves [ICON_Movement] Movement speed of any unit moving from one Railroad tile to another. [ICON_TradeRoute] Trade Routes traveling over Railroads can multiply the [ICON_Gold] Gold they get from districts at their destination.</Text>
+		</Replace>
+		<!--Unique Unit-->
+		<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="en_US">
+			<Text>Chinese unique Medieval era unit. Ranged unit with high combat strength.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
