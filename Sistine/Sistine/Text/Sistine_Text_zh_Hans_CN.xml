@@ -893,16 +893,16 @@
 			<Text>+100%剧院广场区相邻加成，广播中心、体育场和水上运动中心+1 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有公立学校的城市：若至少有10 [ICON_CITIZEN] 人口，+25% [ICON_SCIENCE] 科技值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
+			<Text>建有公立学校的城市：若至少有10 [ICON_CITIZEN] 人口，+15% [ICON_SCIENCE] 科技值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有银行或造船厂的城市：若至少有10 [ICON_CITIZEN] 人口，+25% [ICON_Gold] 金币；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
+			<Text>建有银行或造船厂的城市：若至少有10 [ICON_CITIZEN] 人口，+15% [ICON_Gold] 金币；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有歌剧院的城市：若至少有10 [ICON_CITIZEN] 人口，+25% [ICON_Culture] 文化值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
+			<Text>建有歌剧院的城市：若至少有10 [ICON_CITIZEN] 人口，+15% [ICON_Culture] 文化值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有祭祀建筑的城市：若至少有10 [ICON_CITIZEN] 人口，+25% [ICON_Faith] 信仰值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
+			<Text>建有祭祀建筑的城市：若至少有10 [ICON_CITIZEN] 人口，+15% [ICON_Faith] 信仰值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>每座研究实验室、军事学院、燃煤发电厂、燃油发电厂和核电站产出的 [ICON_Science] 科技值+2、 [ICON_Culture] 文化值+2、[ICON_Gold] 金币+4。</Text>
