@@ -5,6 +5,7 @@
 			<Where ResourceType="RESOURCE_ANTIQUITY_SITE" />
 			<Set PrereqCivic="CIVIC_HUMANISM" />
 		</Update>
+		<Update><Where ResourceType="RESOURCE_DEER" /><Set Frequency="6" /></Update>
 		<Update><Where ResourceType="RESOURCE_PERFUME" /><Set Happiness="6" /></Update>
 		<Update><Where ResourceType="RESOURCE_JEANS" /><Set Happiness="4" /></Update>
 		<Update><Where ResourceType="RESOURCE_COSMETICS" /><Set Happiness="4" /></Update>
