@@ -230,11 +230,17 @@
 			<Text>Receive the [ICON_RESOURCE_CINNAMON] Cinnamon and [ICON_RESOURCE_CLOVES] Cloves Luxury resources. These cannot be earned any other way in the game, and provide 4 [ICON_Amenities] Amenities each.</Text>
 		</Replace>
 		<!--Trade route overhaul-->
-		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="en_US">
+		<!--<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="en_US">
 			<Text>A district in your city specializing in finance and trade. Domestic [ICON_TradeRoute] Trade Routes from this city provide +1 [ICON_Production] Production and +1 [ICON_Food] Food, and International [ICON_TradeRoute] Trade Routes provide +3 [ICON_Gold] Gold.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="en_US">
 			<Text>A district for naval activity in your city. Domestic [ICON_TradeRoute] Trade Routes from this city provide +1 [ICON_Production] Production and +1 [ICON_Food] Food, and International [ICON_TradeRoute] Trade Routes provide +3 [ICON_Gold] Gold if this city does not yet have a Commercial Hub district. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land. Cannot be built on Reef.</Text>
+		</Replace>-->
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>A district in your city specializing in finance and trade.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>A district for naval activity in your city. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land. Cannot be built on Reef.</Text>
 		</Replace>
 		<!--City-States-->
 		<Replace Tag="LOC_CIVILIZATION_AKKAD_BONUS" Language="en_US">
