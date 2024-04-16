@@ -240,4 +240,11 @@
 			<Set TraitType="TRAIT_CIVILIZATION_NKISI"/>
 		</Update>
 	</ExcludedGreatPersonClasses>
+	<StartBiasResources>
+		<Delete CivilizationType="CIVILIZATION_MAYA" />
+		<Row CivilizationType="CIVILIZATION_MAYA" ResourceType="RESOURCE_MAIZE" Tier="1"/>
+	</StartBiasResources>
+	<StartBiasTerrains>
+		<Delete CivilizationType="CIVILIZATION_MAYA" />
+	</StartBiasTerrains>
 </GameData>
