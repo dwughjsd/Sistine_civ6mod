@@ -322,7 +322,7 @@
 			<Text>+4 [ICON_GOLD] Gold. +1 [ICON_Science] Science when Economics is researched. +2 [ICON_Gold] Gold for every adjacent Luxury resource. Your outgoing international [ICON_TradeRoute] Trade Routes grant +2 [ICON_GOLD] Gold per Trading Dome at the origin. Cannot be built next to another Trading Dome.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOAI_SHARED_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Culture] Culture. +1 [ICON_Culture] Culture for every 2 adjacent Moai. +1 [ICON_Culture] Culture for each adjacent Moai after researching the Colonialism civic. +1 [ICON_Culture] Culture if on or adjacent to a Volcanic Soil tile. +1 [ICON_Culture] Culture if adjacent to a Coast or Lake tile. Researching the Flight technology grants [ICON_Tourism] Tourism equal to 50% of its [ICON_Culture] Culture. Can be built on Plains, Plains Hills, Grassland, Grassland Hills, or Volcanic Soil. Cannot be placed adjacent to a Woods or Rainforest tile.</Text>
+			<Text>+1 [ICON_Culture] Culture. +1 [ICON_Culture] Culture for every 2 adjacent Moai. +1 [ICON_Culture] Culture for each adjacent Moai after researching the Colonialism civic. +1 [ICON_Culture] Culture if on or adjacent to a Volcanic Soil tile. +1 [ICON_Culture] Culture if adjacent to a Coast or Lake tile. Researching the Flight technology grants [ICON_Tourism] Tourism equal to its [ICON_Culture] Culture. Can be built on Plains, Plains Hills, Grassland, Grassland Hills, or Volcanic Soil. Cannot be placed adjacent to a Woods or Rainforest tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_SINGAPORE_BONUS" Language="en_US">
 			<Text>Your cities receive +3 [ICON_Production] Production for each foreign civilization they have a [ICON_TradeRoute] Trade Route to.</Text>
