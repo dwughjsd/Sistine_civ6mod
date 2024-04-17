@@ -787,16 +787,16 @@
 			<Text>+100% Theater Square district adjacency bonuses, and Stadiums and Aquatic Centers generate +1 [ICON_Amenities] Amenity.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Science] Science from cities with a Public School: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Citizen] population or higher.</Text>
+			<Text>Extra [ICON_Science] Science from cities with a Public School: +15% if city [ICON_CITIZEN] population is 10 or higher, doubling to +30% if 15 [ICON_Citizen] population or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Gold] Gold from cities with a Bank or Shipyard: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Citizen] population or higher.</Text>
+			<Text>Extra [ICON_Gold] Gold from cities with a Bank or Shipyard: +15% if city [ICON_CITIZEN] population is 10 or higher, doubling to +30% if 15 [ICON_Citizen] population or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Culture] Culture from cities with an Opera House: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Citizen] population or higher.</Text>
+			<Text>Extra [ICON_Culture] Culture from cities with an Opera House: +15% if city [ICON_CITIZEN] population is 10 or higher, doubling to +30% if 15 [ICON_Citizen] population or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Faith] Faith from cities with a Worship building: +25% if city [ICON_CITIZEN] population is 10 or higher, doubling to +50% if 15 [ICON_Citizen] population or higher.</Text>
+			<Text>Extra [ICON_Faith] Faith from cities with a Worship building: +15% if city [ICON_CITIZEN] population is 10 or higher, doubling to +30% if 15 [ICON_Citizen] population or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_XP2" Language="en_US">
 			<Text>+2 [ICON_Science] Science, +2 [ICON_Culture] Culture, and +4 [ICON_Gold] Gold from each Research Lab, Military Academy, Coal Power Plant, Oil Power Plant, and Nuclear Power Plant.</Text>
