@@ -3,40 +3,40 @@
 	<LocalizedText>
 		<!--Irrigation-->
 		<Replace Tag="LOC_TECH_IRRIGATION_DESCRIPTION_SST" Language="en_US">
-			<Text>{LOC_TECH_IRRIGATION_DESCRIPTION} Allows Farms to be built on Desert tiles. Unlocking Civil Engineeriing allows Farms to be built on Desert Hills.</Text>
+			<Text>{LOC_TECH_IRRIGATION_DESCRIPTION} Allows Farms to be built on Desert terrain. After Civil Engineering is unlocked Farms can be built on Desert Hills.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_FEUDALISM_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Food] Food to Farms in freshwater tiles. Plantation improvements receive +1 [ICON_Food] Food.</Text>
+			<Text>+1 [ICON_Food] Food from the Farm improvement on freshwater tiles. +1 [ICON_Food] Food from the Plantation improvement.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_CHEMISTRY_DESCRIPTION_SST" Language="en_US">
-			<Text>+1 [ICON_Food] Food to Farms in non-freshwater tiles.</Text>
+			<Text>+1 [ICON_Food] Food from the Farm improvement on tiles without freshwater.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_SATELLITES_DESCRIPTION_SST" Language="en_US">
 			<Text>Upgrades Farm improvements to Modern Agriculture. +1 [ICON_Food] Food Adjacency bonus for every Farm improvement they are adjacent to.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Movement] Movement for embarked units. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Production] Production for every 10 tiles they travel.</Text>
+			<Text>+2 [ICON_Movement] Movement for embarked units. +1 [ICON_Production] Production from the Mine improvement. +0.3 [ICON_Production] Production per [ICON_Citizen] Citizen in your cities.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_GUILDS_DESCRIPTION_SST" Language="en_US">
-			<Text>Quarry improvements receive +1 [ICON_Production] Production. Lumber Mills may be built on Rainforests.</Text>
+			<Text>+1 [ICON_Production] Production from the Quarry improvement. Lumber Mills may be built on Rainforests.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_GUNPOWDER_DESCRIPTION" Language="en_US">
 			<Text>Grants 1 [ICON_Governor] Governor title for Suleiman (Kanuni).</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CIVIL_ENGINEERING_DESCRIPTION" Language="en_US">
-			<Text>Quarry improvements receive +1 [ICON_Production] Production. Can build Farms on Grassland Hills and Plains Hills.</Text>
+			<Text>+1 [ICON_Production] Production from the Quarry improvement. Can build Farms on Grassland Hills and Plains Hills.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_STIRRUPS_DESCRIPTION" Language="en_US">
-			<Text>Pasture improvements receive +1 [ICON_Production] Production.。</Text>
+			<Text>+1 [ICON_Production] Production from the Pasture improvement.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_ROBOTICS_DESCRIPTION" Language="en_US">
-			<Text>Pasture improvements receive +1 [ICON_Production] Production.</Text>
+			<Text>+1 [ICON_Production] Production from the Pasture improvement.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="en_US">
-			<Text>Upgrades Farm improvements to Mechanized Agriculture. Farm improvements now gain +1 [ICON_Food] Food from every 2 adjacent Farm improvements. Pasture improvements receive +1 [ICON_Production] Production.</Text>
+			<Text>Upgrades Farm improvements to Mechanized Agriculture. Farm improvements now gain +1 [ICON_Food] Food from every 2 adjacent Farm improvements. Builders gain 1 extra build charge.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_URBANIZATION_DESCRIPTION_SST" Language="en_US">
-			<Text>Quarry improvements receive +1 [ICON_Production] Production. Pasture improvements receive +1 [ICON_Food] Food.</Text>
+			<Text>+1 [ICON_Production] Production from the Quarry improvement. +1 [ICON_Food] Food from the Pasture improvement. +1 [ICON_TradeRoute] Trade Route capacity.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct a Lumber Mill.[NEWLINE][NEWLINE]+1 [ICON_Production] Production. Can only be built on Woods. Once Guilds is unlocked it can also be built on Rainforest.</Text>
@@ -45,26 +45,26 @@
 			<Text>Unlocks the Builder ability to construct Pastures.[NEWLINE][NEWLINE]+1 [ICON_Food] Food. Can only be built on valid resources.[NEWLINE][NEWLINE]If built on Strategic resources, the city will gain use of that resource.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="en_US">
-			<Text>Awards 3 [ICON_Envoy] Envoys. Allows Builders to plant Woods (second-growth). Quarry improvements receive +1 [ICON_Production] Production. Pasture improvements receive +1 [ICON_Gold] Gold. Woods in your territory that have never been removed (old-growth) gain +1 Appeal. Receive [ICON_TOURISM] Tourism from Walls. +100% [ICON_Tourism] Tourism from National Parks.</Text>
+			<Text>Awards 3 [ICON_Envoy] Envoys. Allows Builders to plant Woods (second-growth). +2 [ICON_Gold] Gold from the Camp improvement. Woods in your territory that have never been removed (old-growth) gain +1 Appeal. Receive [ICON_TOURISM] Tourism from Walls. +100% [ICON_Tourism] Tourism from National Parks.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="en_US">
 			<Text>All naval and embarked units can navigate Ocean tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_MEDIEVAL_FAIRES_DESCRIPTION_SST" Language="en_US">
-			<Text>+2 [ICON_Gold] Gold from Fishing Boats.</Text>
+			<Text>+2 [ICON_Gold] Gold from Fishing Boats. +1 [ICON_TradeRoute] Trade Route capacity.</Text>
 		</Replace>
-		<Replace Tag="LOC_TECH_MACHINERY_DESCRIPTION_SST" Language="en_US">
+		<Replace Tag="LOC_TECH_MILITARY_ENGINEERING_DESCRIPTION_SST" Language="en_US">
 			<Text>+1 Production [ICON_Production] from Lumber Mills.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_SMART_MATERIALS_DESCRIPTION" Language="en_US">
 			<Text>+1 Production [ICON_Production] from Mines. Unlocks Giant Death Robot upgrade: Reinforced Armor Plating[NEWLINE]+10 [ICON_Strength] Combat Strength when defending against land and naval units.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST" Language="en_US">
-			<Text>+1 Production to Mines.</Text>
+			<Text>+1 [ICON_Production] Production from the Mine improvement.</Text>
 		</Replace>
 		<!--Terrain tweaks-->
 		<Replace Tag="LOC_TECH_SAILING_DESCRIPTION" Language="en_US">
-			<Text>Allows Builders to embark. Lake tiles receive +1 [ICON_Food] Food.</Text>
+			<Text>Allows Builders to embark. +1 [ICON_Food] Food to Lake tiles.</Text>
 		</Replace>
 		<!--Science Victory-->
 		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="en_US">
@@ -126,29 +126,35 @@
 			<Text>+3 [ICON_Production] Production in every city with a Chancery or Power Plant building when producing wonders, buildings, and districts. Receive +6 [ICON_Production] Production if it has both a Chancery and a Power Plant building.</Text>
 		</Replace>
 		<!--Beliefs-->
+		<Replace Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture from Plantations.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food from Plantations.</Text>
+		</Replace>
 		<Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>+1 Faith [ICON_Faith] from tiles with Charming Appeal. Additional +1 [ICON_Faith] Faith on tiles with Breathtaking Appeal. +1 [ICON_GreatProphet] Great Prophet point from cities on tiles with Charming or Breathtaking Appeal.</Text>
+			<Text>+1 Faith [ICON_Faith] from tiles with Charming Appeal. Additional +1 [ICON_Faith] Faith on tiles with Breathtaking Appeal. +1 [ICON_GreatProphet] Great Prophet point from each city on a tile with Charming or Breathtaking Appeal.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_HEALING_DESCRIPTION" Language="en_US">
 			<Text>Increases Healing by +30 in your City Center or Holy Site district, or any adjacent tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>When chosen receive a Builder in your capital. City growth rate is 25% higher.</Text>
+			<Text>When chosen receive a Builder in your capital. City growth rate is 15% higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Production] Production and +1 [ICON_Faith] Faith from improved Strategic resources. +1 [ICON_GreatProphet] Great Prophet point from cities with an improved [ICON_Resource_Horses] Horses or [ICON_Resource_Iron] Iron resource.</Text>
+			<Text>+1 [ICON_Production] Production and +1 [ICON_Faith] Faith from improved Strategic resources. +1 [ICON_GreatProphet] Great Prophet point from each city with an improved [ICON_Resource_Horses] Horses or [ICON_Resource_Iron] Iron resource.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION" Language="en_US">
-			<Text>+20% [ICON_Production] Production towards Ancient and Classical era wonders. Cities with an improved [ICON_Resource_Marble] Marble resource double these bonuses.</Text>
+			<Text>+20% [ICON_Production] Production towards Ancient and Classical era wonders. Cities with an improved [ICON_Resource_Marble] Marble resource recieve double these numbers.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Faith] Faith from Mines over Luxury and Bonus resources. +1 [ICON_GreatProphet] Great Prophet point from cities with an improved [ICON_Resource_Copper] Copper, [ICON_Resource_Silver] Silver, or [ICON_Resource_Jade] Jade resource.</Text>
+			<Text>+1 [ICON_Culture] Culture and +1 [ICON_Faith] Faith from Mines over Luxury and Bonus resources. +1 [ICON_GreatProphet] Great Prophet point from each city with an improved [ICON_Resource_Copper] Copper, [ICON_Resource_Silver] Silver, or [ICON_Resource_Jade] Jade resource.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Faith] Faith from Quarries. +1 [ICON_GreatProphet] Great Prophet point from cities with an improved [ICON_Resource_Stone] Stone, [ICON_Resource_Gypsum] Gypsum, or [ICON_Resource_Marble] Marble resource.</Text>
+			<Text>+2 [ICON_Faith] Faith from Quarries. +1 [ICON_GreatProphet] Great Prophet point from each city with an improved [ICON_Resource_Stone] Stone, [ICON_Resource_Gypsum] Gypsum, or [ICON_Resource_Marble] Marble resource.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_DIVINE_SPARK_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_GreatPerson] Great Person Points from the following districts: Holy Sites (Prophet), Campuses(Scientist), and Theater Squares (Writer).</Text>
+			<Text>+1 [ICON_GreatPerson] Great Person Points from the following districts: Holy Sites (Prophet), Campuses (Scientist), and Theater Squares (Writer).</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Faith] Production and +1 [ICON_Science] Science from Geothermal Fissures and Volcanic Soil.</Text>
@@ -160,15 +166,28 @@
 			<Text>Cities with a specialty district receive +2 [ICON_Production] Production.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION_SST" Language="en_US">
-			<Text>Temples provide +10% [ICON_Science] Science to their city, and an additional +15% [ICON_Science] Science if the city does not have a University. Allows Universities to be purchased with [ICON_Faith] Faith.</Text>
+			<Text>Temples provide +10% [ICON_Science] Science to their city, and an additional +15% [ICON_Science] Science if the city does not have a University. Allows Campus buildings to be purchased with [ICON_Faith] Faith.</Text>
 		</Replace>
 		<!--Space Race Projects-->
+		<Replace Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME" Language="en_US" Text="Assemble Exoplanet Expedition Ship"/>
+		<Replace Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_4" Language="en_US" Text="Assemble an Exoplanet Expedition ship."/>
+		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET" Language="zh_Hans_CN" Text="Exoplanet Expedition Ship Assembled"/>
+		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_DESCRIPTION" Language="en_US" Text="You have assembled your civilization's expedition ship to a distant planet."/>
+		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_FIRST_IN_WORLD" Language="en_US" Text="World's First Exoplanet Expedition Ship Assembled"/>
+		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_FIRST_IN_WORLD_DESCRIPTION" Language="en_US" Text="You are the first in the world to assemble an expedition ship to a distant planet."/>
+		<Replace Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_POPUP" Language="en_US">
+			<Text>Your seed ship is on its way to another star system! Travels 1 Light Year per turn with Offworld Mission, and can be sped up by other projects. Wins the Science Victory once it arrives.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_DESCRIPTION" Language="en_US">
+			<Text>Space Race project which travels through deep space at 1 Light Year per turn once the Offworld Mission technology is researched to spread humankind to another star system. Wins the Science Victory once it arrives. Can be sped up by other projects.</Text>
+		</Replace>
 		<Replace Tag="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION" Language="en_US">
 			<Text>Space Race project which speeds up your Exoplanet Expedition by +1 Light Year per turn, accelerating your progress towards a Science Victory. Can be completed up to 5 times.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_OFFWORLD_MISSION_DESCRIPTION_SST" Language="en_US">
 			<Text>Starts your Exoplanet Expedition.</Text>
 		</Replace>
+		<!--TEXT ABOVE CHECKED-->
 		<!--Governments & Policies-->
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="en_US">
 			<Text>+2 [ICON_Culture] Culture from the Palace, Government Plaza, and Diplomatic Quarter. +1 [ICON_Gold] Gold for every [ICON_Citizen] Population in cities with a Palace, Government Plaza, or Diplomatic Quarter.</Text>
@@ -267,6 +286,9 @@
 		<Replace Tag="LOC_TECH_COMPUTERS_DESCRIPTION" Language="en_US">
 			<Text>Grants the ability to construct an additional Spy. +50% [ICON_Tourism] Tourism across your empire.</Text>
 		</Replace>
+		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="en_US">
+			<Text>+2 [ICON_Culture] Culture from world wonders.</Text>
+		</Replace>
 		<Replace Tag="LOC_CIVIC_REFORMED_CHURCH_DESCRIPTION_SST" Language="en_US">
 			<Text>Allows the purchase of civilian units with [ICON_Faith] Faith.</Text>
 		</Replace>
@@ -323,8 +345,14 @@
 			<Text>+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Oil Well; other?Oil Wells;}.</Text>
 		</Replace>
 		<!--Features-->
-		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="en_US">
-			<Text>+2 [ICON_Culture] Culture from world wonders.</Text>
+		<Replace Tag="LOC_FEATURE_FLOODPLAINS_DESERT_DESCRIPTION" Language="en_US">
+			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通沙漠单元格的 [ICON_Food] 食物产量更高。如果江河再次泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FLOODPLAINS_GRASSLAND_DESCRIPTION" Language="en_US">
+			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通草原单元格的 [ICON_Production] 生产力产量更高。如果江河泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FLOODPLAINS_PLAINS_DESCRIPTION" Language="en_US">
+			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通平原单元格的 [ICON_Production] 生产力产量更高。如果江河泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
