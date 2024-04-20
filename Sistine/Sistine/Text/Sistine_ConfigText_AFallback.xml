@@ -548,6 +548,12 @@
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION" Language="en_US">
 			<Text>Sweden gains 50 [ICON_Favor] Diplomatic Favor when earning a Great Person (on Standard Speed). Sweden receives +2 [ICON_GreatEngineer] Great Engineer point from Factories and +2 [ICON_GreatScientist] Great Scientist point from Universities. Having Sweden in the game adds three unique World Congress competitions starting in the Industrial Era.</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="en_US">
+			<Text>Settling adjacent to Fresh Water and Coast does not provide extra [ICON_HOUSING] Housing, instead each Farm provides an additional +1 [ICON_HOUSING] Housing and +1 [ICON_GOLD] Gold. +1 [ICON_AMENITIES] Amenity for every Luxury resource adjacent to the City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_DESCRIPTION" Language="en_US">
+			<Text>Cities within 6 tiles of the [ICON_Capital] Capital gain +10% to all yields and when founded receive a builder. Other cities receive -15% to all yields. +5 [ICON_Strength] Combat Strength to units within 6 tiles of the [ICON_Capital] Capital.</Text>
+		</Replace>
 		<!--Civ unique items-->
 		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct a Château, unique to France.[NEWLINE][NEWLINE]+2 [ICON_Culture] Culture and +1 [ICON_Gold] Gold. +1 Appeal. +1 [ICON_Culture] Culture for every adjacent wonder (becomes +2 after researching Flight). +2 [ICON_Gold] Gold if on a tile containing a River edge. Provides [ICON_TOURISM] Tourism from [ICON_CULTURE] Culture after researching Flight. Cannot be built adjacent to another Château.</Text>

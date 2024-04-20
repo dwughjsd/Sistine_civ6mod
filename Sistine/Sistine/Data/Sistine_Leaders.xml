@@ -740,4 +740,10 @@
 			<RequirementId>REQUIRES_CITY_WAS_NOT_FOUNDED</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
+	<RequirementArguments>
+		<Update>
+			<Where RequirementId="REQUIRES_OBJECT_6_TILES_FROM_CAPITAL_NOT_CAPITAL" Name="MinDistance"/>
+			<Set Value="0"/>
+		</Update>
+	</RequirementArguments>
 </GameData>
