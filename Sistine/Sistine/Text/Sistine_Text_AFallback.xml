@@ -187,10 +187,9 @@
 		<Replace Tag="LOC_TECH_OFFWORLD_MISSION_DESCRIPTION_SST" Language="en_US">
 			<Text>Starts your Exoplanet Expedition.</Text>
 		</Replace>
-		<!--TEXT ABOVE CHECKED-->
 		<!--Governments & Policies-->
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="en_US">
-			<Text>+2 [ICON_Culture] Culture from the Palace, Government Plaza, and Diplomatic Quarter. +1 [ICON_Gold] Gold for every [ICON_Citizen] Population in cities with a Palace, Government Plaza, or Diplomatic Quarter.</Text>
+			<Text>Palace, Government Plaza and Diplomatic Quarter provide +2 [ICON_Culture] Culture and +1 [ICON_Gold] Gold per [ICON_Citizen] Citizen in the city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST" Language="en_US">
 			<Text>+10% Production toward Wonders.</Text>
@@ -220,7 +219,7 @@
 			<Text>20% Discount on Purchases with [ICON_Faith] Faith.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_SST" Language="en_US">
-			<Text>Markets and Banks provide +2 [ICON_Science] Science. +1 Gold for every Population in all cities with an established [ICON_Governor] Governor.</Text>
+			<Text>Markets and Banks provide +2 [ICON_Science] Science. +1 Gold per [ICON_Citizen] Citizen in all cities with [ICON_Governor] Governors.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_SST" Language="en_US">
 			<Text>+15% [ICON_Gold] Gold to all cities.</Text>
@@ -229,10 +228,10 @@
 			<Text>All combat units gain +5 [ICON_Strength] Combat Strength, +1 [ICON_Movement] Movement, and can ignore Zone of Control.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_SST" Language="en_US">
-			<Text>+25% Production toward Units.</Text>
+			<Text>+25% [ICON_Production] Production toward Units.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_SST" Language="en_US">
-			<Text>+25% [ICON_Science] Science to all cities with a Factory. +100% [ICON_Production] Production towards Industrial Zone buildings.</Text>
+			<Text>+25% [ICON_Science] Science to all cities with a Factory. +100% [ICON_Production] Production towards the Factory building.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_SST" Language="en_US">
 			<Text>+15% [ICON_Production] Production to all cities.</Text>
@@ -268,10 +267,10 @@
 			<Text>+5 from Fascist Legacy</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_ATTACK_DESCRIPTION_SST" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength when attacking, +1 [ICON_Movement] Movement, and can ignore Zone of Control, all from the Fascism government.</Text>
+			<Text>+5 [ICON_Strength] Combat Strength when attacking, +1 [ICON_Movement] Movement, and can ignore Zone of Control from the Fascism government.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_FASCISM_LEGACY_ATTACK_DESCRIPTION_SST" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength when attacking, +1 [ICON_Movement] Movement, and can ignore Zone of Control, all from the Fascism government.</Text>
+			<Text>+5 [ICON_Strength] Combat Strength when attacking, +1 [ICON_Movement] Movement, and can ignore Zone of Control from the Fascism Legacy.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_DESCRIPTION" Language="en_US">
 			<Text>+4 [ICON_Religion] Religious Strength from the Theocracy government.</Text>
@@ -284,7 +283,7 @@
 			<Text>{1_name} ({2_type})[NEWLINE]Created by {3_author}[NEWLINE]Created in {4_date}[NEWLINE]Provides 3 [ICON_Culture] Culture 3 [ICON_Tourism] Tourism per turn when authored by an artist who already has art displayed here.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_COMPUTERS_DESCRIPTION" Language="en_US">
-			<Text>Grants the ability to construct an additional Spy. +50% [ICON_Tourism] Tourism across your empire.</Text>
+			<Text>Grants the ability to train an additional Spy. +50% [ICON_Tourism] Tourism across your empire.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_DRAMA_POETRY_DESCRIPTION_SST" Language="en_US">
 			<Text>+2 [ICON_Culture] Culture from world wonders.</Text>
@@ -299,7 +298,7 @@
 			<Text>+100% [ICON_Tourism] Tourism from [ICON_GreatWork_Landscape] Great Works of Art and [ICON_GreatWork_Music] Music.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_SOCIAL_MEDIA_DESCRIPTION_SST" Language="en_US">
-			<Text>+50% [ICON_Tourism] Tourism across your empire. +100% [ICON_Tourism] Tourism from Seaside Resorts.</Text>
+			<Text>+50% [ICON_Tourism] Tourism across your empire. +100% [ICON_Tourism] Tourism from Seaside Resorts and Ski Resorts.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION" Language="en_US">
 			<Text>Allows the building of National Parks and the purchase of Naturalists with [ICON_Faith] Faith. Awards 2 [ICON_Envoy] Envoys. </Text>
@@ -319,6 +318,7 @@
 		<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct Seaside Resorts.[NEWLINE][NEWLINE]Provides [ICON_Tourism] Tourism and [ICON_Gold] Gold equal to the tile's Appeal. Can only be built on Coastal Desert, Coastal Plains, or Coastal Grassland tiles. Minimum Appeal of Breathtaking.</Text>
 		</Replace>
+		<!--TEXT ABOVE CHECKED-->
 		<!--Improvements-->
 		<Replace Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION" Language="en_US">
 			<Text>Camp improvements receive +1 [ICON_Production] Production and +1 [ICON_Food] Food. </Text>
