@@ -171,7 +171,7 @@
 		<!--Space Race Projects-->
 		<Replace Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME" Language="en_US" Text="Assemble Exoplanet Expedition Ship"/>
 		<Replace Tag="LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_4" Language="en_US" Text="Assemble an Exoplanet Expedition ship."/>
-		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET" Language="zh_Hans_CN" Text="Exoplanet Expedition Ship Assembled"/>
+		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET" Language="en_US" Text="Exoplanet Expedition Ship Assembled"/>
 		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_DESCRIPTION" Language="en_US" Text="You have assembled your civilization's expedition ship to a distant planet."/>
 		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_FIRST_IN_WORLD" Language="en_US" Text="World's First Exoplanet Expedition Ship Assembled"/>
 		<Replace Tag="LOC_MOMENT_PROJECT_FOUNDED_EXOPLANET_FIRST_IN_WORLD_DESCRIPTION" Language="en_US" Text="You are the first in the world to assemble an expedition ship to a distant planet."/>
@@ -318,10 +318,9 @@
 		<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct Seaside Resorts.[NEWLINE][NEWLINE]Provides [ICON_Tourism] Tourism and [ICON_Gold] Gold equal to the tile's Appeal. Can only be built on Coastal Desert, Coastal Plains, or Coastal Grassland tiles. Minimum Appeal of Breathtaking.</Text>
 		</Replace>
-		<!--TEXT ABOVE CHECKED-->
 		<!--Improvements-->
 		<Replace Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION" Language="en_US">
-			<Text>Camp improvements receive +1 [ICON_Production] Production and +1 [ICON_Food] Food. </Text>
+			<Text>+1 [ICON_Production] Production and +1 [ICON_Food] Food from Camps. </Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct a Geothermal Plant.[NEWLINE][NEWLINE]+2 [ICON_Science] Science. +4 [ICON_Production] Production. Provides 4 [ICON_Power] Power per turn. Must be built on a Geothermal Fissure.</Text>
@@ -336,7 +335,7 @@
 			<Text>Unlocks the Builder ability to construct an Offshore Wind Farm.[NEWLINE][NEWLINE]+4 [ICON_Production] Production. Provides 2 [ICON_Power] Power per turn. Must be built on Coast or Lake terrain.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Seastead.[NEWLINE][NEWLINE]+3 [ICON_Food] Food, +3 [ICON_Production] Production, and +3 [ICON_Culture] Culture. +1 [ICON_Production] Production for each adjacent Fishing Boats. Fishing Boats receive +1 [ICON_Production] Production for each adjacent Seastead. +1 [ICON_Culture] Culture and [ICON_Tourism] Tourism for every adjacent Reef. +1 [ICON_HOUSING] Housing. Must be built on Coast, Lake or Ocean terrain. Cannot be placed adjacent to another Seastead. </Text>
+			<Text>Unlocks the Builder ability to construct a Seastead.[NEWLINE][NEWLINE]+3 [ICON_Food] Food, +3 [ICON_Production] Production, and +3 [ICON_Culture] Culture. +1 [ICON_Production] Production for each adjacent Fishing Boat. Fishing Boats receive +1 [ICON_Production] Production for each adjacent Seastead. +1 [ICON_Culture] Culture and [ICON_Tourism] Tourism for every adjacent Reef. +1 [ICON_HOUSING] Housing. Must be built on Coast, Lake or Ocean terrain. Cannot be placed adjacent to another Seastead. </Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_OFFSHORE_OIL_RIG_PRODUCTION" Language="en_US">
 			<Text>+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Offshore Oil Rig; other?Offshore Oil Rigs;}.</Text>
@@ -346,23 +345,54 @@
 		</Replace>
 		<!--Features-->
 		<Replace Tag="LOC_FEATURE_FLOODPLAINS_DESERT_DESCRIPTION" Language="en_US">
-			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通沙漠单元格的 [ICON_Food] 食物产量更高。如果江河再次泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
+			<Text>This low-lying area adjacent to a River has flooded before, giving it more [ICON_Food] Food yield than a usual Desert tile. If the River floods again structures built on this tile may be damaged or destroyed, but the tile is also likely to gain additional yields.</Text>
 		</Replace>
 		<Replace Tag="LOC_FEATURE_FLOODPLAINS_GRASSLAND_DESCRIPTION" Language="en_US">
-			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通草原单元格的 [ICON_Production] 生产力产量更高。如果江河泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
+			<Text>This low-lying area adjacent to a River has flooded before, giving it more [ICON_Food] Food yield than a usual Grasslands tile. If the River floods again structures built on this tile may be damaged or destroyed, but the tile is also likely to gain additional yields.</Text>
 		</Replace>
 		<Replace Tag="LOC_FEATURE_FLOODPLAINS_PLAINS_DESCRIPTION" Language="en_US">
-			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通平原单元格的 [ICON_Production] 生产力产量更高。如果江河泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
+			<Text>This low-lying area adjacent to a River has flooded before, giving it more [ICON_Production] Production yield than a usual Plains tile. If the River floods again structures built on this tile may be damaged or destroyed, but the tile is also likely to gain additional yields.</Text>
 		</Replace>
+		<!--TEXT ABOVE CHECKED-->
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in Cities with [ICON_Governor] Governors.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送下水道建筑，直到您帝国中已有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
-			<Text>50% increased [ICON_Production] Production toward Settlers.[NEWLINE]Receive a free Settler and 2 Builders.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+			<Text>此城生产开拓者时 [ICON_Production] 生产力+50%。新训练的建造者获得额外的1次建造次数。获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="en_US">
+			<Text>立即获得1个 [ICON_GreatGeneral] 大将军。战斗胜利后，获得等同于被击杀单位 [ICON_Strength] 战斗力50%的 [ICON_Culture] 文化值（标准速度下）。占领一座敌方城市后，所有城市将获得20%的 [ICON_Production] 生产力加成，效果持续5回合。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Favor] 外交支持。征召和升级城邦单位消耗的 [ICON_Gold] 金币减半。如您是城邦的宗主国，则城邦单位+4 [ICON_Strength] 战斗力（征召单位包含在内）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔和4名 [ICON_Envoy] 使者。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="en_US">
+			<Text>间谍与间谍容量+1。所有间谍行动的成功率上升。对所有文明的外交能见度提升1级。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_GOV_BUILDING" Language="en_US">
+			<Text>建造情报局。</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_GOV_BUILDING" Language="en_US">
+			<Text>已建造情报局</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="en_US">
+			<Text>获得用 [ICON_Faith] 信仰值购买陆地单位的能力。掠夺改良设施和区域可提供 [ICON_Faith] 信仰值加成。圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Culture] 文化值。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="en_US">
+			<Text>升级单位所需的 [ICON_Gold] 金币和资源减少25%。军事单位攻击时 +4 [ICON_Strength] 战斗力。所有单位消灭敌方单位均可恢复生命值（上限20点）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GOV_ATTACK_BUFF_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+4 战争部提供的进攻时 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION" Language="en_US">
+			<Text>提供任意4个巨作槽位。对您有发起 [ICON_TradeRoute] 贸易路线的文明+25% [ICON_Tourism] 旅游业绩输出。立即获得1个 [ICON_GreatArtist] 大艺术家。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION" Language="en_US">
+			<Text>获得1项随机的免费科技。建造者能使用所有次数为一个区域项目提供 [ICON_Production] 生产力加成。一次只能用于一座城市，每回合仅限使用一次。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="en_US">
-			<Text>A district placed once in your empire to commemorate your government choices. Provides +10% non-Food yields to this city, and an increase of +1 to the adjacency bonuses being earned by any adjacent district. Awards +1 [Icon_Governor] Governor Title.</Text>
+			<Text>用于纪念您的政体选择，仅能在您的帝国中建造一次的区域。此城市的非食物产出+10%。使相邻区域获得的相邻加成+1。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<!--Districts-->
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="en_US">
@@ -402,6 +432,9 @@
 		<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Food] Food, +2 [ICON_Gold] Gold, and +1 [ICON_Production] Production on all Desert tiles for this city (non-Floodplains). +1 [ICON_TradeRoute] Trade Route capacity. Grants a Trader unit. Must be built on Desert or Desert Floodplains without Hills.</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_STATUE_OF_ZEUS_DESCRIPTION" Language="en_US">
+			<Text>提供3名骑手、3名枪兵，以及1台破城槌。生产抗骑兵单位时+50% [ICON_PRODUCTION] 生产力。必须建在与军营区域（须拥有兵营）相邻的平地上。</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="en_US">
 			<Text>Grants 3 Crossbowmen and 3 Swordsmen. All current units gain a promotion level. All Archaeologists from the owner may enter foreign lands without Open Borders. Must be built on flat Grassland or Plains adjacent to an Encampment district with a Barracks or Stable.</Text>
 		</Replace>
@@ -428,6 +461,9 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Amenities] Amenity from entertainment for each Lake tile within one tile of Huey Teocalli. +1 [ICON_Food] Food and +1 [ICON_Production] Production, and +2 [ICON_Gold] Gold for each Lake tile in your empire. Must be built on a Lake tile adjacent to land.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION" Language="en_US">
+			<Text>获得3次 [ICON_Governor] 总督升级。所有与原始 [ICON_Capital] 首都不在同一大陆的城市 [ICON_Production] 生产力+15%、[ICON_Faith] 信仰值+15%、[ICON_Gold] 金币+15%。必须建造在市政广场旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION" Language="en_US">
 			<Text>+100% [ICON_Tourism] Religious Tourism from this city. +2 [ICON_Food] Food, +1 [ICON_Production] Production, and +1 [ICON_Culture] Culture on all Tundra tiles for this city. Must be built adjacent to a City Center.</Text>

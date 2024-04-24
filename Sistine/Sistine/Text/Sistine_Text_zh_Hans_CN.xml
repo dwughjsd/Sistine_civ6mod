@@ -318,7 +318,6 @@
 		<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造海滨度假区的能力。[NEWLINE][NEWLINE]提供等于此单元格魅力的 [ICON_Tourism] 旅游业绩和 [ICON_Gold] 金币。只能建在海岸沙漠、海岸平原，或海岸草原单元格上。所在单元格魅力必须达到惊艳以上。</Text>
 		</Replace>
-		<!--TEXT ABOVE CHECKED-->
 		<!--Improvements-->
 		<Replace Tag="LOC_CIVIC_MERCANTILISM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>营地改良设施提供的 [ICON_Production] 生产力和 [ICON_Food] 食物+1。</Text>
@@ -354,6 +353,7 @@
 		<Replace Tag="LOC_FEATURE_FLOODPLAINS_PLAINS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通平原单元格的 [ICON_Production] 生产力产量更高。如果江河泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
 		</Replace>
+		<!--TEXT ABOVE CHECKED-->
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送下水道建筑，直到您帝国中已有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
