@@ -353,7 +353,6 @@
 		<Replace Tag="LOC_FEATURE_FLOODPLAINS_PLAINS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>这是相邻江河的低洼地区，该流域曾经泛滥洪水，因此其比普通平原单元格的 [ICON_Production] 生产力产量更高。如果江河泛滥洪水，该单元格中的建筑或区域会受损或被摧毁，但有几率获得额外产出。</Text>
 		</Replace>
-		<!--TEXT ABOVE CHECKED-->
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送下水道建筑，直到您帝国中已有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
@@ -368,7 +367,7 @@
 			<Text>+3 [ICON_Favor] 外交支持。征召和升级城邦单位消耗的 [ICON_Gold] 金币减半。如您是城邦的宗主国，则城邦单位+4 [ICON_Strength] 战斗力（征召单位包含在内）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔和4名 [ICON_Envoy] 使者。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>间谍与间谍容量+1。所有间谍行动的成功率上升。对所有文明的外交能见度提升1级。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>间谍与间谍容量+1。所有间谍行动的成功率上升。对所有文明的 [ICON_VisLimited] 外交能见度提升1级。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_VIZSOURCE_ACTION_GOV_BUILDING" Language="zh_Hans_CN">
 			<Text>建造情报局。</Text>
@@ -377,16 +376,16 @@
 			<Text>已建造情报局</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>获得用 [ICON_Faith] 信仰值购买陆地单位的能力。掠夺改良设施和区域可提供 [ICON_Faith] 信仰值加成。圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Culture] 文化值。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>可用 [ICON_Faith] 信仰值购买陆地单位。掠夺改良设施和区域可提供 [ICON_Faith] 信仰值加成。圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Culture] 文化值。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>升级单位所需的 [ICON_Gold] 金币和资源减少25%。军事单位攻击时 +4 [ICON_Strength] 战斗力。所有单位消灭敌方单位均可恢复生命值（上限20点）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_GOV_ATTACK_BUFF_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+4 战争部提供的进攻时 [ICON_Strength] 战斗力</Text>
+			<Text>+4 战争部提供进攻时 [ICON_Strength] 战斗力</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>提供任意4个巨作槽位。对您有发起 [ICON_TradeRoute] 贸易路线的文明+25% [ICON_Tourism] 旅游业绩输出。立即获得1个 [ICON_GreatArtist] 大艺术家。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>提供4个可放置所有类型巨作的槽位。对您有发起 [ICON_TradeRoute] 贸易路线的文明+25% [ICON_Tourism] 旅游业绩输出。获得1个 [ICON_GreatArtist] 大艺术家。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>获得1项随机的免费科技。建造者能使用所有次数为一个区域项目提供 [ICON_Production] 生产力加成。一次只能用于一座城市，每回合仅限使用一次。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
@@ -396,10 +395,13 @@
 		</Replace>
 		<!--Districts-->
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您城市里的文化场地区。[NEWLINE][NEWLINE]建设在迷人单元格上时+1 [ICON_CULTURE] 文化值，建设在惊艳单元格上时+3 [ICON_CULTURE] 文化值。</Text>
+			<Text>您城市里的文化场地区。[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>希腊特色文化遗址区域，替代剧院广场，建造费用更低。建成后奖励1名 [ICON_Envoy] 使者。[NEWLINE][NEWLINE]建设在迷人单元格上时+1 [ICON_CULTURE] 文化值，建设在惊艳单元格上时+3 [ICON_CULTURE] 文化值。每个相邻区域+1 [ICON_Culture] 文化值，每个相邻市中心额外+1 [ICON_Culture] 文化值。每个相邻奇观、娱乐设施及水上乐园+2 [ICON_Culture] 文化值。只能建在丘陵上。</Text>
+			<Text>希腊特色文化遗址区域，替代剧院广场，建造费用更低。建成后奖励1名 [ICON_Envoy] 使者。[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}每个相邻区域+1 [ICON_Culture] 文化值，每个相邻市中心额外+1 [ICON_Culture] 文化值。每个相邻奇观、娱乐设施及水上乐园+2 [ICON_Culture] 文化值。只能建在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建设在迷人单元格上时+1 [ICON_CULTURE] 文化值，建设在惊艳单元格上时+3 [ICON_CULTURE] 文化值。</Text>
 		</Replace>
 		<!--Wonders-->
 		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="zh_Hans_CN">
@@ -433,7 +435,7 @@
 			<Text>为该城市所有沙漠单元格（非泛滥平原）+1 [ICON_Food] 食物、+2 [ICON_Gold] 金币、+1 [ICON_Production] 生产力。+1 [ICON_TradeRoute] 贸易路线容量。获得1个商人单位。必须建在没有丘陵的沙漠或沙漠泛滥平原上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_STATUE_OF_ZEUS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>提供3名骑手、3名枪兵，以及1台破城槌。生产抗骑兵单位时+50% [ICON_PRODUCTION] 生产力。必须建在与军营区域（须拥有兵营）相邻的平地上。</Text>
+			<Text>提供3名骑手、3名矛兵，以及1台破城槌。生产抗骑兵单位时+50% [ICON_PRODUCTION] 生产力。必须建在与军营区域（须拥有兵营）相邻的平地上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>提供3名弩手、3名剑士。目前所有单位获得1级强化升级。所拥有的考古学家可在没有开放边界的情况下进入外国。必须建在平坦的草原或平原上，且靠近带有兵营或马厩的军营区域。</Text>
@@ -448,19 +450,19 @@
 			<Text>初始便拥有1次免费升级。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>神祠和寺庙+1 [ICON_Science] 科技值。其他文明通往此城市的 [ICON_TradeRoute] 贸易路线向对方提供+1 [ICON_SCIENCE] 科技值与+1 [ICON_GOLD] 金币，向此城市提供+2 [ICON_SCIENCE] 科技值。通往此城市的国内 [ICON_TradeRoute] 贸易路线提供+2 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须修建在沙漠或沙漠丘陵之上，同时必须与大学区域相邻。</Text>
+			<Text>神祠和寺庙+1 [ICON_Science] 科技值。其他文明通往此城市的 [ICON_TradeRoute] 贸易路线向对方提供+1 [ICON_SCIENCE] 科技值与+1 [ICON_GOLD] 金币。通往此城市的 [ICON_TradeRoute] 贸易路线提供+2 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须修建在沙漠或沙漠丘陵之上，同时必须与建有大学的学院区域相邻。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+1 军事政策槽位[NEWLINE][NEWLINE]为此城+20% [ICON_Culture] 文化值。提供同堡垒改良设施一样的防御加成。必须建立在邻近军营区的丘陵上。</Text>
+			<Text>+1 军事政策槽位[NEWLINE][NEWLINE]为此城+20% [ICON_Culture] 文化值。提供同堡垒改良设施一样的防御加成。必须建立在邻近军营区域的丘陵上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>该城市所有雨林单元格+2 [ICON_Culture] 文化值、+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物。必须建在雨林。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>传教士和使徒可以额外传播2次宗教。您必须已经创立了一个宗教，[NEWLINE]此外，还必须建在靠近圣地的平原上。</Text>
+			<Text>传教士和使徒可以额外传播2次宗教。必须建在靠近圣地的平原上，且您必须已经创立一个宗教。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>在阿兹特克大神庙一个单元格以内的每个湖泊单元格为娱乐设施+1 [ICON_Amenities] 宜居度。为您帝国内的每个湖泊单元格+1 [ICON_Food] 食物、+1 [ICON_Production] 生产力、2 [ICON_Gold] 金币。必须建在靠近陆地的湖泊单元格上。</Text>
+			<Text>在阿兹特克大神庙一个单元格以内的每个湖泊单元格+1 [ICON_Amenities] 来自娱乐设施的宜居度。为您帝国内的每个湖泊单元格+1 [ICON_Food] 食物、+1 [ICON_Production] 生产力、2 [ICON_Gold] 金币。必须建在靠近陆地的湖泊单元格上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>获得3次 [ICON_Governor] 总督升级。所有与原始 [ICON_Capital] 首都不在同一大陆的城市 [ICON_Production] 生产力+15%、[ICON_Faith] 信仰值+15%、[ICON_Gold] 金币+15%。必须建造在市政广场旁。</Text>
@@ -472,16 +474,16 @@
 			<Text>此奇观建成后，提供2点或以上时代得分的历史时刻所提供的时代得分+1。处于黄金时代时，所有城市的非食物产出+15%。必须建在河流旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+1 通配符政策槽位[NEWLINE][NEWLINE]+4外交胜利点数。必须建在靠近市中心的平原上。</Text>
+			<Text>+1 通用政策槽位[NEWLINE][NEWLINE]+4外交胜利点数。必须建在靠近市中心的平原上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>[ICON_TradeRoute] 贸易路线容量+1。获得1个商人单位。[NEWLINE][NEWLINE]城市领土中3个单元格以内的每个加成资源将为从此城市发源的 [ICON_TradeRoute] 贸易路线+2 [ICON_Gold] 金币。必须建在与商业中心区域（要求拥有市场）和 [ICON_RESOURCE_CATTLE] 牛资源相邻的单元格上。</Text>
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。获得1个商人单位。[NEWLINE][NEWLINE]城市领土中3个单元格以内的每个加成资源将为从此城市发源的 [ICON_TradeRoute] 贸易路线+2 [ICON_Gold] 金币。必须建在与商业中心区域（要求拥有市场）和 [ICON_RESOURCE_CATTLE] 牛资源相邻的单元格上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TORRE_DE_BELEM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>目的地城市每有1处奢侈品资源，从此城起源的国际 [ICON_TradeRoute] 贸易路线便+2 [ICON_GOLD] 金币。贝伦塔建造完成后，不在首都所处大陆的城市将直接获得当前所能建造、[ICON_PRODUCTION] 生产力花费最低的市中心建筑和1个建造者。[NEWLINE][NEWLINE]必须建造在与港口区域相邻的海岸单元格上。</Text>
+			<Text>目的地城市每有1处奢侈资源，从此城起源的国际 [ICON_TradeRoute] 贸易路线便+2 [ICON_GOLD] 金币。贝伦塔建造完成后，不在首都所处大陆的城市将直接获得当前所能建造、[ICON_PRODUCTION] 生产力花费最低的市中心建筑和1个建造者。[NEWLINE][NEWLINE]必须建造在与港口区域相邻的海岸单元格上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每训练一个海军单位，便会获得第二个海军单位。免费获得1个 [ICON_GreatEngineer] 大工程师。必须建在靠近工业区的海岸单元格上。</Text>
+			<Text>每训练一个海军单位，便会获得第二个海军单位。获得1个免费的 [ICON_GreatEngineer] 大工程师。必须建在靠近工业区的海岸单元格上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_STATUE_LIBERTY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建成后+4外交胜利点数。获得3名建造者。城市中每位 [ICON_Citizen] 公民提供0.5点 [ICON_Production] 生产力。6个单元格内的所有城市忠诚度固定为100%。[NEWLINE][NEWLINE]必须建造在与陆地和港口区域相邻的海岸单元格上。</Text>
@@ -502,7 +504,7 @@
 			<Text>免费获得2个随机的原子时代 [ICON_CivicBoosted] 启发。[ICON_GreatWork_Relic] 遗物和圣城的 [ICON_Tourism] 旅游业绩产值不会被其他研究了“启蒙运动”市政的文明削弱。您文明中“海滨度假区”产出的 [ICON_Tourism] 旅游业绩+100%。必须建在丘陵上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>免费获得1个 [ICON_GreatScientist] 大科学家。所有城市 [ICON_SCIENCE] 科技值+20%、[ICON_PRODUCTION] 生产力+10%。若一座城市的3个单元格范围内有5个雪地或雪地丘陵单元格，且这些单元格为玩家所拥有，这些产出则会加倍。必须建造在雪地或雪地丘陵单元格上的学院旁（其中须建有“研究实验室”）。</Text>
+			<Text>免费获得1个 [ICON_GreatScientist] 大科学家。所有城市 [ICON_SCIENCE] 科技值+20%、[ICON_PRODUCTION] 生产力+10%。若一座城市的3个单元格范围内有5个雪地或雪地丘陵单元格，且这些单元格为玩家所拥有，这些产出则会加倍。必须建造在建有研究实验室的学院旁的雪地或雪地丘陵单元格上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您文明的每座城市+2 [ICON_Amenities] 宜居度。娱乐中心和水上乐园+10 [ICON_Tourism] 旅游业绩。必须建在靠近带有体育场的娱乐中心的平原上。</Text>
@@ -596,9 +598,6 @@
 		<Replace Tag="LOC_GREATPERSON_GALILEO_GALILEI_ACTIVE" Language="zh_Hans_CN">
 			<Text>每相邻一个山脉单元格，获得400 [ICON_Science] 科技值（标准速度下）。</Text>
 		</Replace>
-		<Replace Tag="LOC_GREATPERSON_ISAAC_NEWTON_ACTIVE" Language="zh_Hans_CN">
-			<Text>立即在该区域建造大学和图书馆。大学+2 [ICON_Science] 科技值。</Text>
-		</Replace>
 		<Replace Tag="LOC_GREATPERSON_CHARLES_DARWIN_ACTIVE" Language="zh_Hans_CN">
 			<Text>从位于或相邻的每个自然奇观单元格获得800 [ICON_Science] 科技值（标准速度下）。</Text>
 		</Replace>
@@ -620,9 +619,6 @@
 		<Replace Tag="LOC_GREATPERSON_JANAKI_AMMAL_ACTIVE" Language="zh_Hans_CN">
 			<Text>从位于或相邻的每个雨林单元格获得800 [ICON_Science] 科技值（标准速度下）。</Text>
 		</Replace>
-		<Replace Tag="LOC_GREATPERSON_ARTIFACT_SCIENCE" Language="zh_Hans_CN">
-			<Text>从该城市每个 [ICON_GreatWork_Artifact] 文物获得{Amount} [ICON_Science] 科技值。</Text>
-		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ERWIN_SCHRODINGER_ACTIVE" Language="zh_Hans_CN">
 			<Text> [ICON_TechBoosted] 尤里卡额外提供20%的科技成本。首次研发新时代的科技或市政后提供2个新时代科技的 [ICON_TechBoosted] 尤里卡。</Text>
 		</Replace>
@@ -642,12 +638,6 @@
 		<Replace Tag="LOC_GREATPERSON_GOLD_SST" Language="zh_Hans_CN">
 			<Text>获得{Amount : number #} [ICON_Gold] 金币。</Text>
 		</Replace>
-		<Replace Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE" Language="zh_Hans_CN">
-			<Text>增加1条 [ICON_TradeRoute] 贸易路线容量。通往该城市的外国 [ICON_TradeRoute] 贸易路线为双方城市+2 [ICON_Gold] 金币。</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_MARCO_POLO_ACTIVE" Language="zh_Hans_CN">
-			<Text>为该城市赠予一个免费的商人单位并增加1条 [ICON_TradeRoute] 贸易路线容量。通往该城市的外国 [ICON_TradeRoute] 贸易路线为双方城市+2 [ICON_Gold] 金币。</Text>
-		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GOLD_INTEREST" Language="zh_Hans_CN">
 			<Text>每回合您将获得等同于国库3%的 [ICON_Gold] 金币收入。</Text>
 		</Replace>
@@ -659,10 +649,6 @@
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_MINE_GOLD" Language="zh_Hans_CN">
 			<Text>矿山+1 [ICON_GOLD] 金币。</Text>
-		</Replace>
-		<!--Description of international routes is omitted. The modifier itself only represents domestic routes.-->
-		<Replace Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT" Language="zh_Hans_CN">
-			<Text>您的 [ICON_TradeRoute] 贸易路线目的地的每个专业化区域为其+{Amount} [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GOLD_PER_POP" Language="zh_Hans_CN">
 			<Text>此城市的每位 [ICON_Citizen] 市民提供+1 [ICON_Gold] 金币。</Text>
@@ -691,7 +677,8 @@
 		<Replace Tag="LOC_GREATPERSON_GOVERNOR_POINTS" Language="zh_Hans_CN">
 			<Text>提供2个 [ICON_Governor] 总督头衔。</Text>
 		</Replace>
-		<!--Great Enginers-->
+		<!--TEXT ABOVE CHECKED-->
+		<!--Great Engineers-->
 		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_1" Language="zh_Hans_CN">
 			<Text>此城市的每个专业化区域为当前生产项目赠予 120 [ICON_Production] 生产力（上限600点）。</Text>
 		</Replace>

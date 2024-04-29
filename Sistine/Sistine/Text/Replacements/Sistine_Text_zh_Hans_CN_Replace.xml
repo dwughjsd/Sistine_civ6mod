@@ -206,10 +206,22 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN_NAME" Language="zh_Hans_CN" Text="希尔德加德·冯·宾根"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL_NAME" Language="zh_Hans_CN" Text="贾娜姬·安玛尔"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK_NAME" Language="zh_Hans_CN" Text="斯蒂芬妮·柯欧拉克"/>
+		<Replace Tag="LOC_GREATPERSON_ARTIFACT_SCIENCE" Language="zh_Hans_CN">
+			<Text>从该城市每个 [ICON_GreatWork_Artifact] 文物获得{Amount} [ICON_Science] 科技值。</Text>
+		</Replace>
 		<!--Great Merchants-->
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI_NAME" Language="zh_Hans_CN" Text="皮耶罗·德·巴尔迪"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL_NAME" Language="zh_Hans_CN" Text="托达·马尔拉贾"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN_NAME" Language="zh_Hans_CN" Text="赫莲娜·鲁宾斯坦"/>
+		<Replace Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。通往该城市的外国 [ICON_TradeRoute] 贸易路线为双方城市+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_MARCO_POLO_ACTIVE" Language="zh_Hans_CN">
+			<Text>为该城市赠予一个免费的商人单位并+1 [ICON_TradeRoute] 贸易路线容量。通往该城市的外国 [ICON_TradeRoute] 贸易路线为双方城市+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT" Language="zh_Hans_CN">
+			<Text>您的 [ICON_TradeRoute] 贸易路线目的地的每个专业化区域为其+{Amount} [ICON_Gold] 金币。</Text>
+		</Replace>
 		<!--Great Engineers-->
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE_NAME" Language="zh_Hans_CN" Text="圣乔治的詹姆斯"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_NAME" Language="zh_Hans_CN"><Text>米玛·希南</Text></Replace>

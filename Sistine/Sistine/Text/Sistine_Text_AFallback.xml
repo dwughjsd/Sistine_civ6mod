@@ -353,57 +353,59 @@
 		<Replace Tag="LOC_FEATURE_FLOODPLAINS_PLAINS_DESCRIPTION" Language="en_US">
 			<Text>This low-lying area adjacent to a River has flooded before, giving it more [ICON_Production] Production yield than a usual Plains tile. If the River floods again structures built on this tile may be damaged or destroyed, but the tile is also likely to gain additional yields.</Text>
 		</Replace>
-		<!--TEXT ABOVE CHECKED-->
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
-			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送下水道建筑，直到您帝国中已有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>+2 [ICON_Food] Food, +2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in cities with [ICON_Governor] Governors. Grant free Sewer buildings, until there are 4 in your empire.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
-			<Text>此城生产开拓者时 [ICON_Production] 生产力+50%。新训练的建造者获得额外的1次建造次数。获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>+50% [ICON_Production] Production towards Settlers. Newly trained Builders gain an extra build charge. Receive a free Settler and a free Builder.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="en_US">
-			<Text>立即获得1个 [ICON_GreatGeneral] 大将军。战斗胜利后，获得等同于被击杀单位 [ICON_Strength] 战斗力50%的 [ICON_Culture] 文化值（标准速度下）。占领一座敌方城市后，所有城市将获得20%的 [ICON_Production] 生产力加成，效果持续5回合。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>Grants a free [ICON_GreatGeneral] Great General. Combat victories provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit. (on Standard Speed). Capturing an enemy City grants 20% bonus [ICON_Production] Production in all Cities for 5 turns.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>+3 [ICON_Favor] 外交支持。征召和升级城邦单位消耗的 [ICON_Gold] 金币减半。如您是城邦的宗主国，则城邦单位+4 [ICON_Strength] 战斗力（征召单位包含在内）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔和4名 [ICON_Envoy] 使者。</Text>
+			<Text>+3 [ICON_Favor] Diplomatic Favor. Leveraging and upgrading City States costs half [ICON_Gold] Gold. City State units gain +4 [ICON_Strength] Combat Strength if you are the City State's Suzerain (including Leveraged Units).[NEWLINE]Awards +1 [Icon_Governor] Governor Title and 4 [ICON_Envoy] Envoys.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="en_US">
-			<Text>间谍与间谍容量+1。所有间谍行动的成功率上升。对所有文明的外交能见度提升1级。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>+1 Spy and Spy capacity. All Spy Operations have a higher chance of success. Increases [ICON_VisLimited] Diplomatic Visibility with all civilizations by 1 level. [NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_VIZSOURCE_ACTION_GOV_BUILDING" Language="en_US">
-			<Text>建造情报局。</Text>
+			<Text>Build an Intelligence Agency.</Text>
 		</Replace>
 		<Replace Tag="LOC_VIZSOURCE_GOV_BUILDING" Language="en_US">
-			<Text>已建造情报局</Text>
+			<Text>Intelligence Agency built</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="en_US">
-			<Text>获得用 [ICON_Faith] 信仰值购买陆地单位的能力。掠夺改良设施和区域可提供 [ICON_Faith] 信仰值加成。圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Culture] 文化值。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>Grants the ability to buy land units with [ICON_Faith] Faith. Pillaging Improvements and Districts provides bonus [ICON_Faith] Faith. Holy Site district's [ICON_Faith] Faith adjacency bonus provides [ICON_Culture] Culture as well.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="en_US">
-			<Text>升级单位所需的 [ICON_Gold] 金币和资源减少25%。军事单位攻击时 +4 [ICON_Strength] 战斗力。所有单位消灭敌方单位均可恢复生命值（上限20点）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>25% [ICON_Gold] Gold and resource discount on unit upgrades. All units gain +4 [ICON_Strength] Combat Strength when attacking. All units heal up to 20 hit points when they eliminate a unit.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_GOV_ATTACK_BUFF_MODIFIER_DESCRIPTION" Language="en_US">
-			<Text>+4 战争部提供的进攻时 [ICON_Strength] 战斗力</Text>
+			<Text>+4 [ICON_Strength] Combat Strength when attacking from War Department</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION" Language="en_US">
-			<Text>提供任意4个巨作槽位。对您有发起 [ICON_TradeRoute] 贸易路线的文明+25% [ICON_Tourism] 旅游业绩输出。立即获得1个 [ICON_GreatArtist] 大艺术家。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>Provides 4 slots for any Great Work. +25% [ICON_Tourism] Tourism output to civilizations to which you have a [ICON_TradeRoute] Trade Route. Grants a free [ICON_GreatArtist] Great Artist.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION" Language="en_US">
-			<Text>获得1项随机的免费科技。建造者能使用所有次数为一个区域项目提供 [ICON_Production] 生产力加成。一次只能用于一座城市，每回合仅限使用一次。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>Grants a randomly-chosen free technology. Builders gain the ability to use all of their charges to provide bonus [ICON_Production] Production to a District Project. Once per city per turn.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="en_US">
-			<Text>用于纪念您的政体选择，仅能在您的帝国中建造一次的区域。此城市的非食物产出+10%。使相邻区域获得的相邻加成+1。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>A district placed once in your empire to commemorate your government choices. Provides +10% non-[ICON_Food]Food yields to this city, and an increase of +1 to the adjacency bonuses being earned by any adjacent district.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<!--Districts-->
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="en_US">
-			<Text>A district in your city for cultural sites.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture when built on Charming tiles, +3 Culture when built on Breathtaking tiles.</Text>
+			<Text>A district in your city for cultural sites.[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Greece for cultural sites. Replaces the Theater Square district and cheaper to build. Awards 1 [ICON_Envoy] Envoy when completed.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture when built on Charming tiles, +3 Culture when built on Breathtaking tiles. +1  [ICON_Culture] Culture bonus for each adjacent district and an additional +1 [ICON_Culture] Culture bonus for adjacent City Center. +2 [ICON_Culture] Culture bonus for each adjacent wonder, Entertainment Complex, and Water Park. Can only be built on Hills.</Text>
+			<Text>A district unique to Greece for cultural sites. Replaces the Theater Square district and cheaper to build. Awards 1 [ICON_Envoy] Envoy when completed.[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION} +1 [ICON_Culture] Culture bonus for each adjacent district and an additional +1 [ICON_Culture] Culture bonus for adjacent City Center. +2 [ICON_Culture] Culture bonus for each adjacent wonder, Entertainment Complex, and Water Park. Can only be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture when built on Charming tiles, +3 Culture when built on Breathtaking tiles.</Text>
 		</Replace>
 		<!--Wonders-->
 		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_SCIENCE] Science, +1 [ICON_PRODUCTION] Production, and +2 [ICON_Food] Food to all Marsh tiles in your empire. +1 [ICON_SCIENCE] Science and +1 [ICON_PRODUCTION] Production on all Floodplains tiles for this city.[NEWLINE][NEWLINE]Must be built on Floodplains or Marsh.</Text>
+			<Text>+2 [ICON_SCIENCE] Science, +1 [ICON_PRODUCTION] Production, and +2 [ICON_Food] Food to all Marsh tiles in your empire. +1 [ICON_SCIENCE] Science on all Floodplains tiles for this city.[NEWLINE][NEWLINE]Must be built on Floodplains or Marsh.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="en_US">
 			<Text>Increases growth by 25% in all cities. Must be built next to a River.</Text>
@@ -421,7 +423,7 @@
 			<Text>+1 [ICON_TradeRoute] Trade Route capacity. Grants a Trader unit. +1 [ICON_Gold] to Coast, Lake, and Ocean tiles. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="en_US">
-			<Text>Receive [ICON_TechBoosted] Eurekas to all Ancient and Classical era technologies. Receive a random [ICON_TechBoosted] Eureka after another player recruits a [ICON_GreatScientist] Great Scientist. Must be built on flat land adjacent to a Campus district with a Library.</Text>
+			<Text>Receive [ICON_TechBoosted] Eurekas to all pre-Medieval era technologies. Receive a random [ICON_TechBoosted] Eureka after another player recruits a [ICON_GreatScientist] Great Scientist. Must be built on flat land adjacent to a Campus district with a Library.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="en_US">
 			<Text>Naval units receive +1 [ICON_Movement] Movement and gain the ability to enter Ocean tiles.[NEWLINE][NEWLINE]Must be built on the Coast, and adjacent to land and a Harbor district with a Lighthouse.</Text>
@@ -433,13 +435,13 @@
 			<Text>+1 [ICON_Food] Food, +2 [ICON_Gold] Gold, and +1 [ICON_Production] Production on all Desert tiles for this city (non-Floodplains). +1 [ICON_TradeRoute] Trade Route capacity. Grants a Trader unit. Must be built on Desert or Desert Floodplains without Hills.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_STATUE_OF_ZEUS_DESCRIPTION" Language="en_US">
-			<Text>提供3名骑手、3名枪兵，以及1台破城槌。生产抗骑兵单位时+50% [ICON_PRODUCTION] 生产力。必须建在与军营区域（须拥有兵营）相邻的平地上。</Text>
+			<Text>Grants 3 Horsemen, 3 Spearmen, and a Battering Ram. +50% [ICON_PRODUCTION] Production towards anti-cavalry units. Must be built on flat land adjacent to an Encampment district with a Barracks.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="en_US">
 			<Text>Grants 3 Crossbowmen and 3 Swordsmen. All current units gain a promotion level. All Archaeologists from the owner may enter foreign lands without Open Borders. Must be built on flat Grassland or Plains adjacent to an Encampment district with a Barracks or Stable.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_KOTOKU_IN_DESCRIPTION" Language="en_US">
-			<Text>+20% [ICON_Faith] Faith in this city. Grants 4 Warrior Monks. These Warrior Monks start with a free promotion.[NEWLINE][NEWLINE]Must be built adjacent to a Holy Site district with a Temple. Warrior Monks can only be received if player has founded a religion or if there is a majority religion for this player or city.</Text>
+			<Text>+20% [ICON_Faith] Faith in this city. Grants 4 Warrior Monks. Warrior Monks start with a free promotion.[NEWLINE][NEWLINE]Must be built adjacent to a Holy Site district with a Temple. Warrior Monks can only be received if player has founded a religion or if there is a majority religion for this player or city.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_WARRIOR_MONK_KOTOKU_IN_NAME" Language="en_US">
 			<Text>Kotoku-In</Text>
@@ -448,7 +450,7 @@
 			<Text>Starts with a free promotion.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Science] Science from Shrines and Temples. Other Civilizations' [ICON_TradeRoute] Trade Routes to this city provide +1 [ICON_SCIENCE] Science and +1 [ICON_GOLD] Gold for them. +2 [ICON_SCIENCE] Science for every [ICON_TradeRoute] Trade Route to this city.[NEWLINE][NEWLINE]Must be built on the Desert or Desert Hills, and adjacent to a Campus district with a University.</Text>
+			<Text>+1 [ICON_Science] Science from Shrines and Temples. Other Civilizations' [ICON_TradeRoute] Trade Routes to this city provide +1 [ICON_SCIENCE] Science and +1 [ICON_GOLD] Gold for them. +2 [ICON_SCIENCE] Science for every [ICON_TradeRoute] Trade Route to this city.[NEWLINE][NEWLINE]Must be built on the Desert or Desert Hills, and adjacent to a Campus district with a University.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="en_US">
 			<Text>+1 Military policy slot[NEWLINE][NEWLINE]+20% [ICON_Culture] to this city. Provides the same defensive bonuses as the Fort improvement. Must be built on Hills adjacent to an Encampment district.</Text>
@@ -463,13 +465,13 @@
 			<Text>+1 [ICON_Amenities] Amenity from entertainment for each Lake tile within one tile of Huey Teocalli. +1 [ICON_Food] Food and +1 [ICON_Production] Production, and +2 [ICON_Gold] Gold for each Lake tile in your empire. Must be built on a Lake tile adjacent to land.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION" Language="en_US">
-			<Text>获得3次 [ICON_Governor] 总督升级。所有与原始 [ICON_Capital] 首都不在同一大陆的城市 [ICON_Production] 生产力+15%、[ICON_Faith] 信仰值+15%、[ICON_Gold] 金币+15%。必须建造在市政广场旁。</Text>
+			<Text>Gain 3 [ICON_Governor] Governor promotions. All your cities not on your original [ICON_Capital] Capital's continent gain +15% [ICON_Production] Production, +15% [ICON_Faith] Faith and +15% [ICON_Gold] Gold. Must be built adjacent to a Government Plaza.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION" Language="en_US">
 			<Text>+100% [ICON_Tourism] Religious Tourism from this city. +2 [ICON_Food] Food, +1 [ICON_Production] Production, and +1 [ICON_Culture] Culture on all Tundra tiles for this city. Must be built adjacent to a City Center.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION" Language="en_US">
-			<Text>+1 Era Score from Historic Moment earned after this wonder is complete if that Moment is usually worth 2 or more Era Score. +15% to all non-Food yields in all cities when in a Golden Age. Must be built next to a River.</Text>
+			<Text>+1 Era Score from Historic Moment earned after this wonder is complete if that Moment is usually worth 2 or more Era Score. +15% to non-[ICON_Food]Food yields in all cities when in a Golden Age. Must be built next to a River.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="en_US">
 			<Text>+1 Wildcard policy slot[NEWLINE][NEWLINE]+4 Diplomatic Victory points. Must be built on flat land adjacent to the City Center.</Text>
@@ -496,7 +498,7 @@
 			<Text>+2 [ICON_Production] Production from Workshops and Factories. +20% [ICON_Production] Production in this city, and +1 [ICON_Production] Production for each Mine and Quarry in this city. Must be built along a River adjacent to an Industrial Zone district with a Factory.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BROADWAY_DESCRIPTION" Language="en_US">
-			<Text>Grants a free [ICON_GreatWriter] Great Writer and [ICON_GreatMusician] Great Musician. Must be built on flat land adjacent to a Theater Square district.</Text>
+			<Text>Grants a free [ICON_GreatWriter] Great Writer and a [ICON_GreatMusician] Great Musician. Must be built on flat land adjacent to a Theater Square district.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="en_US">
 			<Text>2 free random Atomic era [ICON_CivicBoosted] Inspirations. [ICON_Tourism] Tourism output from [ICON_GreatWork_Relic] Relics and Holy Cities is not diminished by other civilizations who have researched The Enlightenment civic. +100% [ICON_Tourism] Tourism from Seaside Resorts across your civilization. Must be built on Hills.</Text>
@@ -508,7 +510,7 @@
 			<Text>+2 [ICON_Amenities] Amenities in each city in your civilization. +10 [ICON_Tourism] Tourism to Entertainment Complexes and Water Parks. Must be built on flat land adjacent to an Entertainment Complex district with a Stadium.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="en_US">
-			<Text>Receive [ICON_CivicBoosted] Inspirations to all Atomic and Information civics. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
+			<Text>Receive [ICON_CivicBoosted] Inspirations for all Atomic and Information civics. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
 		</Replace>
 		<!--Combat units-->
 		<Replace Tag="LOC_ABILITY_RECON_DEFENSE_BONUS_VS_RANGED_NAME" Language="en_US">
@@ -541,6 +543,9 @@
 		<Replace Tag="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_DESCRIPTION" Language="en_US">
 			<Text>+17 [ICON_Strength] Combat Strength when attacking district defenses.</Text>
 		</Replace>
+		<Replace Tag="LOC_PROMOTION_GARRISON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10 [ICON_Strength] Combat Strength vs. units when occupying either an improvement that provides [ICON_Strength] Defense Strength or a district.</Text>
+		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION" Language="en_US">
 			<Text>+1 additional aircraft slot.{LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION}</Text>
 		</Replace>
@@ -561,10 +566,19 @@
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ARYABHATA_ACTIVE" Language="en_US">
-			<Text>Campuses receive an additional +1 Science for each adjacent Mountain tile.</Text>
+			<Text>Campuses receive an additional +1 [ICON_Science] Science for each adjacent Mountain tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_MATHEMATICS" Language="zh_Hans_CN">
+			<Text>Triggers the [ICON_TechBoosted] Eurekas for Celestrial Navigation, Mathematics and Engineering. If they are already triggered, instead completes the tech.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_LIBRARIES_SCIENCE" Language="zh_Hans_CN">
+			<Text>Libraries provide +{Amount} [ICON_Science] Science.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE" Language="zh_Hans_CN">
+			<Text>Your Holy Site district's [ICON_Faith] Faith adjacency bonus provides [ICON_Science] Science as well.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="en_US">
-			<Text>Grants a free technology. Triggers the [ICON_TechBoosted] Eureka for Mathematics. If they are already triggered, instead completes the tech.</Text>
+			<Text>Grants a free technology. Triggers the [ICON_TechBoosted] Eureka for Mathematics. If it is already triggered, instead completes the tech.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE" Language="en_US">
 			<Text>Grants two [ICON_TechBoosted] Eurekas. Wounded land units can heal +10 HP each turn.</Text>
@@ -576,7 +590,7 @@
 			<Text>Awards a free random civic, and two [ICON_TechBoosted] Eurekas.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_CAMPUS_HOUSING" Language="en_US">
-			<Text>Chosen Campus gains 2 [ICON_Housing] Housing and 1 [ICON_AMENITIES] Amenities.</Text>
+			<Text>Chosen Campus gains 2 [ICON_Housing] Housing and 1 [ICON_AMENITIES] Amenity.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EMILIE_DU_CHATELET_ACTIVE" Language="en_US">
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Universities provide +1 [ICON_Science] Science.</Text>
@@ -588,13 +602,13 @@
 			<Text>Gain 800 [ICON_Science] Science (on Standard speed) for each natural wonder tile here or adjacent.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_DMITRI_MENDELEEV_ACTIVE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Triggers the [ICON_TechBoosted] Eureka moment for Chemistry and Plastics. If they are already triggered, instead completes the tech.</Text>
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Triggers the [ICON_TechBoosted] Eurekas for Chemistry and Plastics. If they are already triggered, instead completes the tech.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_JAMES_YOUNG_ACTIVE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Reveals [ICON_RESOURCE_OIL] Oil without the normal technology requirement. Triggers the [ICON_TechBoosted] Eureka moment for Refinery and Combustion. If they are already triggered, instead completes the tech.</Text>
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Reveals [ICON_RESOURCE_OIL] Oil without the normal technology requirement. Triggers the [ICON_TechBoosted] Eurekas for Refinery and Combustion. If they are already triggered, instead completes the tech.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ALAN_TURING_ACTIVE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Triggers the [ICON_TechBoosted] Eureka moment for Radio and Computers. If they are already triggered, instead completes the tech.</Text>
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Triggers the [ICON_TechBoosted] Eurekas for Radio and Computers. If they are already triggered, instead completes the tech.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_RESEARCHLABS_BIG_SCIENCE" Language="en_US">
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_WITH_BOOSTS_SST} Research Labs provide +{Amount} [ICON_Science] Science.</Text>
@@ -612,13 +626,13 @@
 			<Text>Grants 3000 [ICON_SCIENCE] Science and [ICON_CULTURE] Culture (on Standard speed).</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE" Language="en_US">
-			<Text>Triggers the [ICON_TechBoosted] Eureka moment for Offworld Mission, or completes the tech if it is already triggered. Grants {Amount} [ICON_Production] Production towards Space Race project construction.</Text>
+			<Text>Triggers the [ICON_TechBoosted] Eureka for Offworld Mission, or completes the tech if it is already triggered. Grants {Amount} [ICON_Production] Production towards Space Race project construction.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_STEPHANIE_KWOLEK_ACTIVE" Language="en_US">
-			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eureka moment for Composites and Smart Materials, or completes the tech if it is already triggered. +50% [ICON_Production] Production towards Space Race projects.</Text>
+			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST} Triggers the [ICON_TechBoosted] Eurekas for Composites and Smart Materials, or completes the tech if they are already triggered. +50% [ICON_Production] Production towards Space Race projects.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS" Language="en_US">
-			<Text>Triggers the [ICON_TechBoosted] Eureka moment for all technologies from the Information era, and three Future era technologies.</Text>
+			<Text>Triggers the [ICON_TechBoosted] Eurekas for all Information and 3 Future technologies.</Text>
 		</Replace>
 		<!--Great Merchants-->
 		<Replace Tag="LOC_GREATPERSON_GOLD_SST" Language="en_US">
@@ -634,19 +648,19 @@
 			<Text>Gain enough [ICON_ENVOY] Envoys in this city-state to make you its Suzerain.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_MINE_GOLD" Language="en_US">
-			<Text>+1 Gold to Mines.</Text>
+			<Text>+1 [ICON_Gold] Gold to Mines.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GOLD_PER_POP" Language="en_US">
-			<Text>+1 [ICON_Gold] for each [ICON_Citizen] Population in this city.</Text>
+			<Text>+1 [ICON_Gold] per [ICON_Citizen] Cizizen in this city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="en_US">
-			<Text>Grants {Amount} [ICON_RESOURCE_COSMETICS] Cosmetics, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
+			<Text>Grants {Amount} [ICON_RESOURCE_COSMETICS] Cosmetics, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_PERFUME" Language="en_US">
-			<Text>Grants {Amount} [ICON_RESOURCE_PERFUME] Perfume, a uniquely manufactured Luxury resource which provides +8 [ICON_Amenities] Amenities.</Text>
+			<Text>Grants {Amount} [ICON_RESOURCE_PERFUME] Perfume, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_JEANS" Language="en_US">
-			<Text>Grants {Amount} [ICON_RESOURCE_JEANS] Jeans, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities.</Text>
+			<Text>Grants {Amount} [ICON_RESOURCE_JEANS] Jeans, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_PUBLIC_SCHOOL_SCIENCE" Language="en_US">
 			<Text>Campus districts provide +10 [ICON_Tourism] Tourism. Instantly builds a Library, University, and Public School in this district. Public Schools provide +2 [ICON_Science] Science.</Text>
@@ -657,12 +671,13 @@
 		<Replace Tag="LOC_GREATPERSON_GOVERNOR_POINTS" Language="en_US">
 			<Text>Grants 2 [ICON_Governor] Governor Titles.</Text>
 		</Replace>
-		<!--Great Enginers-->
+		<!--TEXT ABOVE CHECKED-->
+		<!--Great Engineers-->
 		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_1" Language="en_US">
-			<Text>Grants 120 [ICON_Production] Production for each specialty district in this city (up to 600) towards what is currently being produced.</Text>
+			<Text>Grants 120 [ICON_Production] Production for each specialty district in this city (up to 600) towards current production task.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_SMALL_1" Language="en_US">
-			<Text>Grants 60 [ICON_Production] Production for each specialty district in this city (up to 300) towards what is currently being produced.</Text>
+			<Text>Grants 60 [ICON_Production] Production for each specialty district in this city (up to 300) towards current production task.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_PRINTINGTECHBOOST" Language="en_US">
 			<Text>Triggers the [ICON_TechBoosted] Eureka for Printing. If they are already triggered, instead completes the tech.</Text>
