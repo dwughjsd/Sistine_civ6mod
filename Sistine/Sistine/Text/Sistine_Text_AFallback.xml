@@ -1489,7 +1489,7 @@
 			<Text>{LOC_MOMENT_CATEGORY_INDUSTRIAL} Golden Age:[NEWLINE]Buildings gain an additional +2 [ICON_Power] Power. +10% [ICON_Production] Production for each Campus building in this city.</Text>
 		  </Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="en_US">
-			<Text>{LOC_MOMENT_CATEGORY_MILITARY} Golden Age:[NEWLINE]Unlock a special Casus Belli which generates 75% less [ICON_STAT_GRIEVANCE] Grievances than Formal War and can be used immediately after Denouncing the target. +15% [ICON_Production] Production towards military units. Cities with an Encampment provide +1 [ICON_Production] Production per [ICON_Population] Population.</Text>
+			<Text>{LOC_MOMENT_CATEGORY_MILITARY} Golden Age:[NEWLINE]Unlock a special Casus Belli which generates 75% less [ICON_STAT_GRIEVANCE] Grievances than Formal War and can be used immediately after Denouncing the target. +15% [ICON_Production] Production towards military units. Cities with an Encampment provide +1 [ICON_Production] Production per [ICON_CITIZEN] Population.</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_TOURISM} Golden Age:[NEWLINE]Cities with [ICON_Governor] Governors receive +50% [ICON_Tourism] Tourism from World Wonders. +100%  [ICON_Tourism] Tourism to all National Parks. +100% [ICON_Production] Production towards all wonders.</Text>
