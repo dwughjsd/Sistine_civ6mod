@@ -223,19 +223,6 @@
 		<Replace Tag="LOC_FEATURE_ZHANGYE_DANXIA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>占地3单元格的不可通行自然奇观。为相邻单元格+2 [ICON_Culture] 文化值。若您拥有这些单元格的至少一个，提供2点 [ICON_GREATGENERAL] 大将军点数和2点 [ICON_GREATMERCHANT] 大商人点数。</Text>
 		</Replace>
-		<!--Trade route overhaul-->
-		<!--<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您城市中专职金融和贸易的区域。从此城出发的国内 [ICON_TradeRoute] 贸易路线+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您城市中进行海军活动的区域。若此城尚未建成商业中心，从此城出发的国内 [ICON_TradeRoute] 贸易路线+1 [ICON_Production] 生产力、+1 [ICON_Food] 食物，国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
-		</Replace>-->
-		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您城市中专职金融和贸易的区域。</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您城市中进行海军活动的区域。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
-		</Replace>
 		<!--City-States-->
 		<Replace Tag="LOC_CIVILIZATION_ZANZIBAR_BONUS" Language="zh_Hans_CN">
 			<Text>获得 [ICON_RESOURCE_CINNAMON] 肉桂和 [ICON_RESOURCE_CLOVES] 丁香奢侈资源。这些资源在游戏中无法通过其他方式获得，每种提供4 [ICON_Amenities] 宜居度。</Text>

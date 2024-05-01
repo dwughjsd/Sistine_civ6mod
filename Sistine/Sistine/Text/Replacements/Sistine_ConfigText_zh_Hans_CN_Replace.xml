@@ -120,6 +120,13 @@
 		<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME" Language="en_US" Text="Sha-ariti"/>
 		<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_NAME" Language="zh_Hans_CN" Text="巴比伦矛兵"/>
 		<Replace Tag="LOC_UNIT_PORTUGUESE_NAU_NAME" Language="zh_Hans_CN" Text="拿屋帆船"/>
+		<!--Districts-->
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您城市中专职金融和贸易的区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您城市中进行海军活动的区域。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
+		</Replace>
 		<!--Wildcard-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_PLATOS_REPUBLIC_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有类型的政体均可获得一个额外的通用政策槽位。</Text>
