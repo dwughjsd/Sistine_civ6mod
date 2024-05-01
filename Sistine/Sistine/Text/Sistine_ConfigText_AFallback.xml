@@ -11,7 +11,7 @@
 		<Replace Tag="LOC_BUILDING_HOSPITAL_NAME" Language="en_US">
 			<Text>Hospital</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_HOSPITAL_DESCRIPTION_SST" Language="en_US">
+		<Replace Tag="LOC_BUILDING_HOSPITAL_DESCRIPTION" Language="en_US">
 			<Text>[ICON_CITIZEN] Population growth of this city is increased by 50%.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MEDICAL_LAB_NAME" Language="en_US">
