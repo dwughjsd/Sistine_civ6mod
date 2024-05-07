@@ -253,6 +253,16 @@
 			<Name>ModifierId</Name>
 			<Value>MINOR_CIV_PALENQUE_CAMPUS_FOOD_BONUS_MODIFIER</Value>
 		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PALENQUE_CAMPUS_FOOD_BONUS_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PALENQUE_CAMPUS_FOOD_BONUS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 		<Delete ModifierId="MINOR_CIV_ANTIOCH_LUXURY_TRADE_ROUTE_BONUS" Name="Amount" />
 		<Row>
 			<ModifierId>MINOR_CIV_ANTIOCH_LUXURY_TRADE_ROUTE_BONUS</ModifierId>
