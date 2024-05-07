@@ -543,7 +543,7 @@
 		<Replace Tag="LOC_ABILITY_SIEGE_VS_DISTRICT_BONUS_DESCRIPTION" Language="en_US">
 			<Text>+17 [ICON_Strength] Combat Strength when attacking district defenses.</Text>
 		</Replace>
-		<Replace Tag="LOC_PROMOTION_GARRISON_DESCRIPTION" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PROMOTION_GARRISON_DESCRIPTION" Language="en_US">
 			<Text>+10 [ICON_Strength] Combat Strength vs. units when occupying either an improvement that provides [ICON_Strength] Defense Strength or a district.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_FLIGHT_DECK_DESCRIPTION" Language="en_US">
@@ -568,13 +568,13 @@
 		<Replace Tag="LOC_GREATPERSON_ARYABHATA_ACTIVE" Language="en_US">
 			<Text>Campuses receive an additional +1 [ICON_Science] Science for each adjacent Mountain tile.</Text>
 		</Replace>
-		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_MATHEMATICS" Language="zh_Hans_CN">
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_MATHEMATICS" Language="en_US">
 			<Text>Triggers the [ICON_TechBoosted] Eurekas for Celestrial Navigation, Mathematics and Engineering. If they are already triggered, instead completes the tech.</Text>
 		</Replace>
-		<Replace Tag="LOC_GREATPERSON_LIBRARIES_SCIENCE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_GREATPERSON_LIBRARIES_SCIENCE" Language="en_US">
 			<Text>Libraries provide +{Amount} [ICON_Science] Science.</Text>
 		</Replace>
-		<Replace Tag="LOC_GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE" Language="en_US">
 			<Text>Your Holy Site district's [ICON_Faith] Faith adjacency bonus provides [ICON_Science] Science as well.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_EUCLID_ACTIVE" Language="en_US">
@@ -651,7 +651,7 @@
 			<Text>+1 [ICON_Gold] Gold to Mines.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GOLD_PER_POP" Language="en_US">
-			<Text>+1 [ICON_Gold] per [ICON_Citizen] Cizizen in this city.</Text>
+			<Text>+1 [ICON_Gold] Gold per [ICON_Citizen] Cizizen in this city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="en_US">
 			<Text>Grants {Amount} [ICON_RESOURCE_COSMETICS] Cosmetics, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.</Text>
@@ -826,10 +826,12 @@
 		<Replace Tag="LOC_POLICY_SERFDOM_DESCRIPTION" Language="en_US">
 			<Text>+30% [ICON_Production] Production toward Builders, and newly trained Builders gain 1 extra build action.</Text>
 		</Replace>
-		<!--TEXT ABOVE CHECKED-->
 		<!--Policies-->
 		<Replace Tag="LOC_POLICY_AFTER_ACTION_REPORTS_DESCRIPTION" Language="en_US">
 			<Text>All units gain +100% combat experience.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_BASTIONS_DESCRIPTION" Language="en_US">
+			<Text>+6 [ICON_Strength] Defense Strength for Cities with defensive building. +5 City [ICON_Ranged] Ranged Strength.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FINEST_HOUR_DESCRIPTION_XP2" Language="en_US">
 			<Text>+6 City [ICON_Strength] Defense Strength. +5 City [ICON_Ranged] Ranged Strength.</Text>
@@ -863,22 +865,22 @@
 			<Text>Party Leadership</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_DEFENSE_OF_MOTHERLAND_DESCRIPTION_XP2" Language="en_US">
-			<Text>+1 of all non-Faith yields (and +2 for [ICON_Gold] Gold) to all cities.</Text>
+			<Text>+1 of all non-Faith yields (+2 instead for [ICON_Gold] Gold) to all cities.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION" Language="en_US">
-			<Text>+100% Theater Square district adjacency bonuses, and Stadiums and Aquatic Centers generate +1 [ICON_Amenities] Amenity.</Text>
+			<Text>+100% Theater Square district adjacency bonuses. Broadcast Centers, Stadiums and Aquatic Centers generate +1 [ICON_Amenities] Amenity.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Science] Science from cities with a Public School: +15% if city [ICON_CITIZEN] population is 10 or higher, doubling to +30% if 15 [ICON_Citizen] population or higher.</Text>
+			<Text>Extra [ICON_Science] Science from cities with a Public School: +15% if city [ICON_CITIZEN] population is 10 or higher. The bonus is doubled if the city [ICON_CITIZEN] population is 15 or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Gold] Gold from cities with a Bank or Shipyard: +15% if city [ICON_CITIZEN] population is 10 or higher, doubling to +30% if 15 [ICON_Citizen] population or higher.</Text>
+			<Text>Extra [ICON_Gold] Gold from cities with a Bank or Shipyard: +15% if city [ICON_CITIZEN] population is 10 or higher. The bonus is doubled if the city [ICON_CITIZEN] population is 15 or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Culture] Culture from cities with an Opera House: +15% if city [ICON_CITIZEN] population is 10 or higher, doubling to +30% if 15 [ICON_Citizen] population or higher.</Text>
+			<Text>Extra [ICON_Culture] Culture from cities with an Opera House: +15% if city [ICON_CITIZEN] population is 10 or higher. The bonus is doubled if the city [ICON_CITIZEN] population is 15 or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Faith] Faith from cities with a Worship building: +15% if city [ICON_CITIZEN] population is 10 or higher, doubling to +30% if 15 [ICON_Citizen] population or higher.</Text>
+			<Text>Extra [ICON_Faith] Faith from cities with a Worship building: +15% if city [ICON_CITIZEN] population is 10 or higher. The bonus is doubled if the city [ICON_CITIZEN] population is 15 or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_XP2" Language="en_US">
 			<Text>+2 [ICON_Science] Science, +2 [ICON_Culture] Culture, and +4 [ICON_Gold] Gold from each Research Lab, Military Academy, Coal Power Plant, Oil Power Plant, and Nuclear Power Plant.</Text>
@@ -926,7 +928,7 @@
 			<Text>+4 [ICON_Favor] Diplomatic Favor per turn. Open Borders with all city-states, and +4 Influence points per turn toward earning [ICON_Envoy] Envoys. +1 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Faith] Faith, and [ICON_Gold] Gold from each of your [ICON_Envoy] Envoys at city-states.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_STRATEGOS_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_GreatGeneral] Great General points per turn. +2 [ICON_GreatGeneral] Great General points per turn for every Barracks or Stable.</Text>
+			<Text>+2 [ICON_GreatGeneral] Great General points per turn. +2 [ICON_GreatGeneral] Great General points per turn for every Barracks and Stable.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_INSPIRATION_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_GreatScientist] Great Scientist points per turn. +2 [ICON_GreatScientist] Great Scientist points per turn for every Library.</Text>
@@ -968,13 +970,13 @@
 			<Text>+1 [ICON_Amenities] Amenity to cities with an Encampment.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FORCE_MODERNIZATION_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Amenities] Amenity to cities with an Encampment. +1 [ICON_Amenities] Amenity from each Armory. +30% [ICON_Production] Production toward Encampment districts, Harbor districts, and buildings for these districts.</Text>
+			<Text>+1 [ICON_Amenities] Amenity to cities with an Encampment. +1 [ICON_Amenities] Amenity to cities with a Armory. +30% [ICON_Production] Production toward Encampment, Harbor, and buildings for these districts.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION" Language="en_US">
 			<Text>Your cities' border expansion rate is 40% higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_Production] Production toward Settlers. Your cities' border expansion rate is 40% higher.</Text>
+			<Text>+30% [ICON_Production] Production toward Settlers. Your cities' border expansion rate is 40% higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_DESCRIPTION" Language="en_US">
 			<Text>Units trained in cities with a Barracks receive a free promotion.</Text>
@@ -982,17 +984,35 @@
 		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_ALT_DESCRIPTION" Language="en_US">
 			<Text>Units trained in cities with a Barracks receive a free promotion.</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_MONASTICISM_DESCRIPTION" Language="en_US">
+			<Text>+75% [ICON_Science] Science in cities with a Holy Site.[NEWLINE]BUT: -25% [ICON_Culture] Culture in all cities without a Holy Site.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INQUISITION_DESCRIPTION" Language="en_US">
+			<Text>Start Inquisition with 1 Apostle charge. All Religious units +15 [ICON_Religion] Religious Combat Strength in friendly territory.[NEWLINE]BUT: -15% [ICON_Science] Science in all cities.</Text>
+		</Replace>
 		<Replace Tag="LOC_POLICY_ISOLATIONISM_DESCRIPTION" Language="en_US">
 			<Text>Domestic routes provide +3 [ICON_Food] Food, +3 [ICON_Production] Production, +3 [ICON_Gold] Gold.[NEWLINE]BUT: Can't train or buy Settlers nor settle new cities.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_ROBBER_BARONS_DESCRIPTION" Language="en_US">
 			<Text>+50% [ICON_Gold] Gold and +25% [ICON_Production] Production in cities with a Bank or Shipyard. [NEWLINE]BUT: -2 [ICON_Amenities] Amenities in all cities.</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_ELITE_FORCES_DESCRIPTION" Language="en_US">
+			<Text>+100% combat experience for all units.[NEWLINE]BUT: +1 [ICON_Gold] Gold to maintain each combat and spy unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROGUE_STATE_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Production] Production towards city projects.[NEWLINE]BUT: Earn no influence toward new [ICON_Envoy] Envoys.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_AUTOMATED_WORKFORCE_DESCRIPTION" Language="en_US">
+			<Text>Your cities get +2 [ICON_Production] Production per [ICON_Citizen] Cizizen.[NEWLINE]BUT: -1 [ICON_Amenities] Amenity and -5 Loyalty per turn in your cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DISINFORMATION_CAMPAIGN_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Amenities] Amenities in cities with a Broadcast Center. +3 [ICON_Favor] Diplomatic Favor per turn for each Broadcast Center.[NEWLINE]BUT: -20% [ICON_SCIENCE] Science and [ICON_Culture] Culture in all cities.</Text>
+		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_STATE_WORKFORCE" Language="en_US">
-			<Text>Build two specialty districts.</Text>
+			<Text>Build 2 specialty districts.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_EARLY_EMPIRE" Language="en_US">
-			<Text>Grow your civilization to at least 7 population.</Text>
+			<Text>Grow your civilization to at least 6 population.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_GAMES_RECREATION" Language="en_US">
 			<Text>Research the Mathematics technology.</Text>
@@ -1090,9 +1110,6 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_MASONRY" Language="en_US">
 			<Text>Build 2 Quarries.</Text>
 		</Replace>
-		<!--<Replace Tag="LOC_BOOST_TRIGGER_CURRENCY" Language="en_US">
-			<Text>使用种植园改良2处资源。</Text>
-		</Replace>-->
 		<Replace Tag="LOC_BOOST_TRIGGER_SHIPBUILDING" Language="en_US">
 			<Text>Own a Galley.</Text>
 		</Replace>
@@ -1201,8 +1218,11 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ENVIRONMENTALISM" Language="en_US">
 			<Text>Your people prove that renewable energy is more than an idea—it is potentially the future of power production.</Text>
 		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_DIGITAL_DEMOCRACY" Language="en_US">
+			<Text>You finish signing the contract with the rock bands. “Whatever,” they say, but you see how excited they are to start the tour.</Text>
+		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GAMES_RECREATION" Language="en_US">
-			<Text>Your innovations in math will surely help create venues for games and entertainment.</Text>
+			<Text>Your innovations in mathematics will surely help create new types of games and entertainment.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NAVAL_TRADITION" Language="en_US">
 			<Text>Your navy inspires your people to strive to become a naval power.</Text>
@@ -1211,46 +1231,46 @@
 			<Text>The plays shown at your amphitheaters is awakening our people to the power of the individual.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_COLONIALISM" Language="en_US">
-			<Text>The productivity from industrializing is helping you establish a global empire.</Text>
+			<Text>The productivity brought by industrialization is helping you establish a global empire.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NATIONALISM" Language="en_US">
-			<Text>Public schools are beginning to teach your people to have pride in their nation.</Text>
+			<Text>The Public school starts to teach your people to have national pride.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_OPERA_BALLET" Language="en_US">
-			<Text>The unveiling of new museums is drawing people to the arts. Perhaps dance and opera are next?</Text><!--New museums since we should have 2 of them-->
+			<Text>The unveiling of new museums is drawing people to the arts. Perhaps dance and opera are next?</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NATURAL_HISTORY" Language="en_US">
-			<Text>With museums now ready to hold your findings, it is time to see what you can discover out in the natural world!</Text>
+			<Text>With museums now ready to hold your findings, it is time to see what you can discover out in the natural world.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSERVATION" Language="en_US">
 			<Text>The residents of your charming new neighborhood clamor for a plan to conserve all the world’s natural treasures.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CAPITALISM" Language="en_US">
-			<Text>With the rise of stock exchanges, investment capital is plentiful and a market economy is ready to emerge.</Text>
+			<Text>With the advent of the Stock Exchange, investment capital is plentiful and a market economy is ready to emerge.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MASS_MEDIA" Language="en_US">
-			<Text>Your nation's desire for easier access to events held at entertainment complexes gives rise to a new form of media.</Text>
+			<Text>Your people desire for easier access to events held at entertainment complexes gives rise to a new form of media.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MOBILIZATION" Language="en_US">
 			<Text>Your military is armed with modern equipment and tactics. Now time to take your force to the world stage.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_PROGRAM" Language="en_US">
-			<Text>With the establishment of specialized research labs, your initiative to recruit scientists into a nuclear research program can commence.</Text>
+			<Text>With dedicated research labs in place, your initiative to recruit scientists into a nuclear research program can commence.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE" Language="en_US">
-			<Text>The women of your empire demand to have proper healthcare. Having won that battle, they now need the right to vote.</Text>
+			<Text>The women of your empire have clamored for proper healthcare services. Having won that battle, they now need the right to vote.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS" Language="en_US">
 			<Text>Your newly built stadium wants to host a new professional sports league.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CULTURAL_HERITAGE" Language="en_US">
-			<Text>With the construction of new wonders, your people's strong cultural heritage is on exhibit for all to see.</Text>
+			<Text>With a newly built wonder, your people hope the strong cultural heritage of their empire can also be exhibited for all to see.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SPACE_RACE" Language="en_US">
-			<Text>Your newly operational Spaceports has energized your people to push into space.</Text>
+			<Text>The unveiling of your new Spaceports has energized your people to push into space.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GLOBALIZATION" Language="en_US">
-			<Text>With a large airport in place, the world is truly becoming a smaller place.</Text><!--also for plurality-->
+			<Text>With a large airport in place, the world is truly becoming a smaller place.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ARCHERY" Language="en_US">
 			<Text>After finally having a large number of Slingers, you long for a stronger ranged weapon.</Text>
@@ -1258,14 +1278,11 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MASONRY" Language="en_US">
 			<Text>Quarrying resources has given you the raw materials you need to employ masons.</Text>
 		</Replace>
-		<!--<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="en_US">
-			<Text>日益增长的货物种类使您的国民意识到采用一种交换媒介能让贸易更加灵活。</Text>
-		</Replace>-->
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SHIPBUILDING" Language="en_US">
 			<Text>Constructing a Galley has taught you much about building larger ships.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ENGINEERING" Language="en_US">
-			<Text>This new form of government has made it possible to mobilize the resources needed for Aqueducts and Catapults.</Text>
+			<Text>New form of governance has made it possible to mobilize resources needed for Aqueducts and Catapults.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STIRRUPS" Language="en_US">
 			<Text>Your citizens want a champion to defend their lands. Perhaps mounting an armored warrior will do the trick?</Text>
@@ -1274,10 +1291,10 @@
 			<Text>You look to machinery to improve the performance of your sizable contingent of siege weapons.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CASTLES" Language="en_US">
-			<Text>Our great engineer has come up with a way to to build impressive defenses to protect our bustling capital.</Text>
+			<Text>Our great engineer came up with a way to to build impressive defenses to protect our bustling capital.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BANKING" Language="en_US">
-			<Text>Mercantilism has allowed your nation to accumulate a large influx of gold. Perhaps we can find a way to let them take out a loan?</Text>
+			<Text>Mercantilism allows your nation to maintain a large influx of gold. Perhaps we can find a way to let people in need take out a loan?</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GUNPOWDER" Language="en_US">
 			<Text>You are eager to equip the large amount of soldiers in your barracks with a new weapon that will devastate opponents.</Text>
@@ -1289,7 +1306,7 @@
 			<Text>Your armory is producing equipment for the protection of your cities. What would happen if they developed a new type of cannon?</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEAM_POWER" Language="en_US">
-			<Text>Let us apply our industrial acumen to your newly-constructed factories. Steam-powered equipment could transform production.</Text>
+			<Text>Let us apply our industrial acumen to your newly-constructed factories. Steam-powered equipment could revolutionize production.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SANITATION" Language="en_US">
 			<Text>Urbanization is making our cities grow larger than ever before. Developing a sanitation plan is crucial.</Text>
@@ -1298,19 +1315,19 @@
 			<Text>Your coal-powered blast furnaces for smelting should soon allow us to produce the finest-grade steel.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_RADIO" Language="en_US">
-			<Text>The emerging mass media needs a more advanced form of communication for publicity.</Text>
+			<Text>The emerging mass media needs a better form of communication.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_FLIGHT" Language="en_US">
 			<Text>Your extensive experience with early airplanes has led to several aeronautic breakthroughs.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_COMBINED_ARMS" Language="en_US">
-			<Text>Now that your military has expanded is it possible to give it wings via airplanes?</Text>
+			<Text>Now that your military has expanded could it be further enhanced with airplanes?</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SYNTHETIC_MATERIALS" Language="en_US">
-			<Text>Newly built national parks have led your scientists to discover many new natural materials. But they also want to make something even better.</Text>
+			<Text>Newly built national parks have led your scientists to discover many new natural materials. But they want to make something even better.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GUIDANCE_SYSTEMS" Language="en_US">
-			<Text>Your military's firepower has a powerful strike capability. It's time to develop a more accurate means of bombardment.</Text>
+			<Text>Your military has powerful artillery. Now it is time to develop a accurate means of bombardment.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SATELLITES_SST" Language="en_US">
 			<Text>Newly launched Earth satellites mark the beginning of the space age. Soon more and more satellites will play a vital role.</Text>
@@ -1319,8 +1336,9 @@
 			<Text>Once the bomber is officially in service, your air force commander sees great strategic importance in enhancing its stealth.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ROBOTICS" Language="en_US">
-			<Text>The ever-changing exploration of space requires a new type of equipment that can partially replace human labor. Might we refer to science fiction and call it a "robot"?</Text>
+			<Text>The ever-changing field of space exploration requires a new type of equipment that can partially replace human labor. Might we refer to science fiction and call it a "robot"?</Text>
 		</Replace>
+		<!--TEXT ABOVE CHECKED-->
 		<!--Trade route overhaul-->
 		<Replace Tag="LOC_CIVIC_COLD_WAR_DESCRIPTION" Language="en_US">
 			<Text>Grants the ability to construct an additional Spy. +1 [ICON_TradeRoute] Trade Route capacity.</Text>

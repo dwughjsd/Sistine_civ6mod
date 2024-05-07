@@ -653,14 +653,8 @@
 		<Replace Tag="LOC_GREATPERSON_GOLD_PER_POP" Language="zh_Hans_CN">
 			<Text>此城市的每位 [ICON_Citizen] 市民提供+1 [ICON_Gold] 金币。</Text>
 		</Replace>
-		<Replace Tag="LOC_GREATPERSON_JOHN_ROCKEFELLER_EXPANSION2_ACTIVE" Language="zh_Hans_CN">
-			<Text>每回合提供3点 [ICON_RESOURCE_OIL] 石油。目的地城市每拥有1点战略资源，您 [ICON_TradeRoute] 贸易路线所产出的 [ICON_Gold] 金币便+2。</Text>
-		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_COSMETICS" Language="zh_Hans_CN">
 			<Text>产出{Amount}份 [ICON_RESOURCE_COSMETICS] 化妆品，一种提供+4 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_GRANT_TOYS" Language="zh_Hans_CN">
-			<Text>产出{Amount}份 [ICON_RESOURCE_TOYS] 玩具，一种提供+4 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_PERFUME" Language="zh_Hans_CN">
 			<Text>产出{Amount}份 [ICON_RESOURCE_PERFUME] 香水，一种提供+6 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
@@ -832,7 +826,6 @@
 		<Replace Tag="LOC_POLICY_SERFDOM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为生产建造者+30% [ICON_Production] 生产力。新训练的建造者获得1点额外劳动力。</Text>
 		</Replace>
-		<!--TEXT ABOVE CHECKED-->
 		<!--Policies-->
 		<Replace Tag="LOC_POLICY_AFTER_ACTION_REPORTS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有单位的战斗经验值+100%。</Text>
@@ -901,9 +894,6 @@
 		<Replace Tag="LOC_POLICY_MILITARY_RESEARCH_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>军事学院、码头和启蒙城墙提供的 [ICON_Science] 科技值+4。</Text>
 		</Replace>
-		<Replace Tag="LOC_POLICY_LIBERALISM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有至少2个专业化区域的所有城市+1 [ICON_Amenities] 宜居度。</Text>
-		</Replace>
 		<Replace Tag="LOC_POLICY_NEW_DEAL_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>建有至少2个专业化区域的所有城市+2 [ICON_Housing] 住房、+1 [ICON_Amenities] 宜居度。建有至少3个专业化区域的城市该加成翻倍。</Text>
 		</Replace>
@@ -913,14 +903,8 @@
 		<Replace Tag="LOC_POLICY_SATELLITE_BROADCASTS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>音乐 [ICON_GreatWork_Music] 巨作提供的 [ICON_Tourism] 旅游业绩+100%。</Text>
 		</Replace>
-		<Replace Tag="LOC_POLICY_ONLINE_COMMUNITIES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>对您有发起 [ICON_TradeRoute] 贸易路线的文明+50% [ICON_Tourism] 旅游业绩输出。</Text>
-		</Replace>
 		<Replace Tag="LOC_POLICY_FUTURE_VICTORY_CULTURE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>对您有发起 [ICON_TradeRoute] 贸易路线的文明+200% [ICON_Tourism] 旅游业绩输出。您的摇滚乐队可以选择任意一种可行的升级选项。</Text>
-		</Replace>
-		<Replace Tag="LOC_POLICY_CONTAINMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>如果城邦的宗主国和您的政体不同，您向城邦派遣的每个 [ICON_Envoy] 使者都被视为两个使者。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_COLONIAL_OFFICES_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>不在您的初始 [ICON_Capital] 首都大陆的城市发展加速15%并每回合+6忠诚度。</Text>
@@ -944,7 +928,7 @@
 			<Text>每回合+4点 [ICON_Favor] 外交支持。开放所有城邦的边境，并每回合+4用以获得城邦 [ICON_Envoy] 使者的影响力点数。从您在城邦派驻的每位 [ICON_Envoy] 使者获得+1 [ICON_Science] 科技值、 [ICON_Culture] 文化值、 [ICON_Faith] 信仰值和 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_STRATEGOS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每回合+2 [ICON_GreatGeneral] 大将军点数。每座军营或马厩每回合+2 [ICON_GreatGeneral] 大将军点数。</Text>
+			<Text>每回合+2 [ICON_GreatGeneral] 大将军点数。每座军营及马厩每回合+2 [ICON_GreatGeneral] 大将军点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_INSPIRATION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每回合+2 [ICON_GreatScientist] 大科学家点数。每座图书馆每回合+2 [ICON_GreatScientist] 大科学家点数。</Text>
@@ -982,14 +966,11 @@
 		<Replace Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在本国领土中、或与本国领土相邻的地区作战时，所有单位 [ICON_Strength] 战斗力+5。</Text>
 		</Replace>
-		<Replace Tag="LOC_POLICY_ARSENAL_OF_DEMOCRACY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您通往盟友城市或下属城邦的 [ICON_TradeRoute] 贸易路线为双边城市+4 [ICON_Food] 食物、+4 [ICON_Production] 生产力。所有盟友的同盟点数每回合额外增加0.25点。</Text>
-		</Replace>
 		<Replace Tag="LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>拥有军营的城市+1 [ICON_AMENITIES] 宜居度。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FORCE_MODERNIZATION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有军营的城市+1 [ICON_AMENITIES] 宜居度。兵工厂+1 [ICON_AMENITIES] 宜居度。建造军营、港口和这些区域中的建筑时+30% [ICON_Production] 生产力。</Text>
+			<Text>拥有军营的城市+1 [ICON_AMENITIES] 宜居度。有兵工厂的城市+1 [ICON_AMENITIES] 宜居度。建造军营、港口和这些区域中的建筑时+30% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>边境扩张速度提高40%。</Text>
@@ -1132,12 +1113,6 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_MASONRY" Language="zh_Hans_CN">
 			<Text>建造2处采石场。</Text>
 		</Replace>
-		<!--<Replace Tag="LOC_BOOST_TRIGGER_CURRENCY" Language="zh_Hans_CN">
-			<Text>使用种植园改良2处资源。</Text>
-		</Replace>-->
-		<Replace Tag="LOC_BOOST_TRIGGER_IRON_WORKING" Language="zh_Hans_CN">
-			<Text>建造1处铁矿山。</Text>
-		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_SHIPBUILDING" Language="zh_Hans_CN">
 			<Text>拥有1艘桨帆船。</Text>
 		</Replace>
@@ -1265,19 +1240,19 @@
 			<Text>公立学校开始教育您的国民拥有民族自豪感。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_OPERA_BALLET" Language="zh_Hans_CN">
-			<Text>新博物馆揭开帷幕，吸引人们关注美术。下一个被重视的也许会是舞蹈和歌剧？</Text><!--New museums since we should have 2 of them-->
+			<Text>新博物馆揭开帷幕，吸引人们关注美术。下一个被重视的也许会是舞蹈和歌剧？</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NATURAL_HISTORY" Language="zh_Hans_CN">
-			<Text>博物馆已经准备好收藏您的考古发现。也许您在自然界里还能发现什么呢！</Text>
+			<Text>博物馆已经准备好收藏您的考古发现，现在是时候来看看您在自然界还可以发现什么了。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSERVATION" Language="zh_Hans_CN">
 			<Text>您新建的迷人社区的住户强烈要求出台一项计划来保护全世界的自然宝库。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CAPITALISM" Language="zh_Hans_CN">
-			<Text>随着证券交易所的涌现，投资资本充足，市场经济即将出现。</Text>
+			<Text>随着证券交易所的出现，投资资本充足，市场经济即将出现。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MASS_MEDIA" Language="zh_Hans_CN">
-			<Text>您的国民希望更方便地获取在娱乐中心举办的赛事情况，因此催生出了一种新的传媒形式。</Text>
+			<Text>您的国民希望更方便地获取在娱乐中心举办的赛事情况，催生出了一种新的传媒形式。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MOBILIZATION" Language="zh_Hans_CN">
 			<Text>您的军队已拥有现代化的装备战术。是时候让您的军事力量登上世界舞台啦。</Text>
@@ -1286,31 +1261,25 @@
 			<Text>建成专项研究实验室以后，您招募科学家进行核研究项目的构想得以付诸实施。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE" Language="zh_Hans_CN">
-			<Text>您帝国内的女性要求拥有适当的医疗卫生保障。在取得了那场斗争的胜利后，她们现在想要投票的权利。</Text>
+			<Text>您帝国内的女性要求拥有适当的医疗卫生服务。在取得了那场斗争的胜利后，她们现在想要投票的权利。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS" Language="zh_Hans_CN">
 			<Text>您新建的体育场希望举办一项新的职业体育联赛。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CULTURAL_HERITAGE" Language="zh_Hans_CN">
-			<Text>建成新的奇观以后，您的国民希望向所有人展出您帝国同样灿烂的文化遗产。</Text>
+			<Text>建成一座新的奇观以后，您的国民希望他们帝国灿烂的文化遗产也能向所有人展出。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SPACE_RACE" Language="zh_Hans_CN">
 			<Text>您新投入运作的宇航中心激励了您的人民向太空进发。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GLOBALIZATION" Language="zh_Hans_CN">
-			<Text>有了大型空港，世界真的变得越来越小了。</Text><!--also for plurality-->
+			<Text>有了大型空港，世界真的变得越来越小了。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ARCHERY" Language="zh_Hans_CN">
 			<Text>终于拥有了大群投石手以后，您渴望一种更强大的远程武器。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MASONRY" Language="zh_Hans_CN">
 			<Text>使用采石场开采资源为您提供了雇佣泥瓦匠所需的原材料。</Text>
-		</Replace>
-		<!--<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="zh_Hans_CN">
-			<Text>日益增长的货物种类使您的国民意识到采用一种交换媒介能让贸易更加灵活。</Text>
-		</Replace>-->
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="zh_Hans_CN"><!--No English text change, only Chinese text fix. Placed here in case of further changes.-->
-			<Text>您的 [ICON_TradeRoute] 贸易路线直接以物易物，而采用一种交换媒介能让贸易更加灵活。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SHIPBUILDING" Language="zh_Hans_CN">
 			<Text>建造桨帆船教会了您很多关于建造更大型船只的知识。</Text>
@@ -1319,28 +1288,22 @@
 			<Text>新的统治形式使得调动需要的资源建造水渠和石弩成为可能。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STIRRUPS" Language="zh_Hans_CN">
-			<Text>您的国民想要一名英雄来捍卫他们的土地。或许让一位铠甲勇士上马就能达到理想效果。</Text>
+			<Text>您的国民想要一名英雄来捍卫他们的土地。或许让一位铠甲勇士上马就能达到理想效果？</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY" Language="zh_Hans_CN">
 			<Text>您期望机械设备能提高您数量可观的攻城武器的表现。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CASTLES" Language="zh_Hans_CN">
-			<Text>大工程师提出了一种建立更牢靠的防御来保护我们繁华的首都的方法。</Text>
+			<Text>大工程师提出了一种建立坚固防御的方法，用以保护我们繁华的首都。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BANKING" Language="zh_Hans_CN">
-			<Text>重商主义使您的国家积累了大量的金币。也许我们可以向需要的人发放贷款？</Text>
+			<Text>重商主义使您的国家可以确保大量黄金流入国库。也许我们可以向需要的人发放贷款？</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GUNPOWDER" Language="zh_Hans_CN">
 			<Text>您渴望为兵营中的大量士兵装备一种能彻底摧毁敌人的新武器。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SQUARE_RIGGING" Language="zh_Hans_CN">
 			<Text>您在陆地上的火枪手催生出了一个新想法：如果我们在海上也升级上火药武器，结果会怎样？</Text>
-		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ASTRONOMY" Language="zh_Hans_CN">
-			<Text>为了更好看清天空的模样，您的科学家正在远行深山。或许一种永久设施能帮得上忙？</Text>
-		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BALLISTICS" Language="zh_Hans_CN">
-			<Text>您的兵工厂正在生产用于保护您的城市的装备。如果他们开发一种新型加农炮，效果会怎样？</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEAM_POWER" Language="zh_Hans_CN">
 			<Text>将工业的智慧用在您新建的工厂中吧。蒸汽动力设备可以变革生产。</Text>
@@ -1352,7 +1315,7 @@
 			<Text>有了燃煤高炉的冶炼，我们很快便能生产出最优质的钢材。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_RADIO" Language="zh_Hans_CN">
-			<Text>新出现的大众传媒需要一种更加先进的通信方式进行宣传。</Text>
+			<Text>新出现的大众传媒需要一种更好的通信方式。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_FLIGHT" Language="zh_Hans_CN">
 			<Text>您使用早期飞机的丰富经验推动了多项航空学的突破性进展。</Text>
@@ -1364,20 +1327,18 @@
 			<Text>新建设的国家公园使您的科学家发现了许多新型天然材料。但他们还想制造些更好的东西。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_GUIDANCE_SYSTEMS" Language="zh_Hans_CN">
-			<Text>您的军队拥有强大的火力打击能力。是时候发展更加精准的轰炸手段了。</Text>
+			<Text>您的军队拥有强大的火炮。是时候发展更加精准的轰炸手段了。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SATELLITES_SST" Language="zh_Hans_CN">
 			<Text>新发射的地球卫星标志着太空时代的开始。很快将会有越来越多的卫星发挥至关重要的作用。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEALTH_SST" Language="zh_Hans_CN">
-			<Text>轰炸机正式服役后，您的空军司令认为增强它的隐蔽性在战略上大有意义。</Text>
+			<Text>轰炸机正式服役后，您的空军司令发现了增强它的隐蔽性的巨大战略意义。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ROBOTICS" Language="zh_Hans_CN">
-			<Text>日新月异的太空探索需要一种能够部分代替人工的新型设备。不妨参照科幻小说，将它称为“机器人”？</Text>
+			<Text>日新月异的太空探索领域需要一种能够部分代替人工的新型设备。不妨参照科幻，将它称为“机器人”？</Text>
 		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NANOTECHNOLOGY" Language="zh_Hans_CN">
-			<Text>拥有可以用于实验的各色金属可以帮助您的科学家推进全新领域的研究。</Text>
-		</Replace>
+		<!--TEXT ABOVE CHECKED-->
 		<!--Trade route overhaul-->
 		<Replace Tag="LOC_CIVIC_COLD_WAR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>可额外招募一名间谍。+1 [ICON_TradeRoute] 贸易路线容量。</Text>
