@@ -677,7 +677,6 @@
 		<Replace Tag="LOC_GREATPERSON_GOVERNOR_POINTS" Language="zh_Hans_CN">
 			<Text>提供2个 [ICON_Governor] 总督头衔。</Text>
 		</Replace>
-		<!--TEXT ABOVE CHECKED-->
 		<!--Great Engineers-->
 		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_1" Language="zh_Hans_CN">
 			<Text>此城市的每个专业化区域为当前生产项目赠予 120 [ICON_Production] 生产力（上限600点）。</Text>
@@ -689,10 +688,7 @@
 			<Text>触发印刷术科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_CULTURE_SMALL" Language="zh_Hans_CN">
-			<Text>此城市提供+2 [ICON_Culture] 文化值。</Text>
-		</Replace>
-		<Replace Tag="LOC_GREATPERSON_1MODERNTECHBOOST" Language="zh_Hans_CN">
-			<Text>触发{Amount}个随机电气时代科技的 [ICON_TechBoosted] 尤里卡。</Text>
+			<Text>此城市+2 [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_COMPUTERSTECHBOOST" Language="zh_Hans_CN">
 			<Text>触发计算机科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
@@ -729,13 +725,13 @@
 			<Text>您帝国的厌战永久降低50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_SMALL" Language="zh_Hans_CN">
-			<Text>城市的每位公民产生+0.3点忠诚度压力。</Text>
+			<Text>城市的每位 [ICON_Citizen] 公民产生+0.3点忠诚度压力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_MEDIUM" Language="zh_Hans_CN">
-			<Text>城市的每位公民产生+0.5点忠诚度压力。</Text>
+			<Text>城市的每位 [ICON_Citizen] 公民产生+0.5点忠诚度压力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_LARGE" Language="zh_Hans_CN">
-			<Text>城市的每位公民产生+1点忠诚度压力。</Text>
+			<Text>城市的每位 [ICON_Citizen] 公民产生+1点忠诚度压力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST" Language="zh_Hans_CN">
 			<Text>所有陆地军事单位+3 [ICON_Strength] 战斗力。</Text>
@@ -836,6 +832,7 @@
 		<Replace Tag="LOC_POLICY_SERFDOM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为生产建造者+30% [ICON_Production] 生产力。新训练的建造者获得1点额外劳动力。</Text>
 		</Replace>
+		<!--TEXT ABOVE CHECKED-->
 		<!--Policies-->
 		<Replace Tag="LOC_POLICY_AFTER_ACTION_REPORTS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有单位的战斗经验值+100%。</Text>

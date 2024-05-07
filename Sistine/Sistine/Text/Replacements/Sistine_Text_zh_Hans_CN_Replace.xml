@@ -213,6 +213,9 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI_NAME" Language="zh_Hans_CN" Text="皮耶罗·德·巴尔迪"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL_NAME" Language="zh_Hans_CN" Text="托达·马尔拉贾"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN_NAME" Language="zh_Hans_CN" Text="赫莲娜·鲁宾斯坦"/>
+		<Replace Tag="LOC_GREATPERSON_1MODERNTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发{Amount}个随机电气时代科技的 [ICON_TechBoosted] 尤里卡。</Text>
+		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE" Language="zh_Hans_CN">
 			<Text>+1 [ICON_TradeRoute] 贸易路线容量。通往该城市的外国 [ICON_TradeRoute] 贸易路线为双方城市+2 [ICON_Gold] 金币。</Text>
 		</Replace>

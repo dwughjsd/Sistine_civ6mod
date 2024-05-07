@@ -671,7 +671,6 @@
 		<Replace Tag="LOC_GREATPERSON_GOVERNOR_POINTS" Language="en_US">
 			<Text>Grants 2 [ICON_Governor] Governor Titles.</Text>
 		</Replace>
-		<!--TEXT ABOVE CHECKED-->
 		<!--Great Engineers-->
 		<Replace Tag="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_1" Language="en_US">
 			<Text>Grants 120 [ICON_Production] Production for each specialty district in this city (up to 600) towards current production task.</Text>
@@ -680,25 +679,25 @@
 			<Text>Grants 60 [ICON_Production] Production for each specialty district in this city (up to 300) towards current production task.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_PRINTINGTECHBOOST" Language="en_US">
-			<Text>Triggers the [ICON_TechBoosted] Eureka for Printing. If they are already triggered, instead completes the tech.</Text>
+			<Text>Triggers the [ICON_TechBoosted] Eureka for Printing. If it is already triggered, instead completes the tech.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_CULTURE_SMALL" Language="en_US">
-			<Text>This city provides +2 [ICON_Culture] Culture.</Text>
+			<Text>+2 [ICON_Culture] Culture in this city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_COMPUTERSTECHBOOST" Language="en_US">
-			<Text>Triggers the [ICON_TechBoosted] Eureka for Computers. If they are already triggered, instead completes the tech.</Text>
+			<Text>Triggers the [ICON_TechBoosted] Eureka for Computers. If it is already triggered, instead completes the tech.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE_ACTIVE" Language="en_US">
-			<Text>Instantly builds Ancient and Medieval Walls in this city. This city provides +2 [ICON_Culture] Culture. Grants 60[ICON_Production] Production for each specialty district in this city (up to 300) towards what is currently being produced.</Text>
+			<Text>Instantly builds Ancient and Medieval Walls in this city. +2 [ICON_Culture] Culture in this city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_JAMES_WATT_ACTIVE" Language="en_US">
-			<Text>Instantly builds a Factory and Workshop in this district. Factories provide +2 [ICON_Production] Production. Grants 120 [ICON_Production] Production for each specialty district in this city (up to 600) towards what is currently being produced.</Text>
+			<Text>Instantly builds a Factory and Workshop in this district. Factories provide +2 [ICON_Production] Production.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_CITY_WONDER_TOURISM_SMALL" Language="en_US">
-			<Text>+50% [ICON_Tourism] Tourism towards wonders in this city.</Text>
+			<Text>[ICON_Tourism] Tourism from wonders in this city is +50%.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_CITY_WONDER_TOURISM_LARGE" Language="en_US">
-			<Text>+100% [ICON_Tourism] Tourism towards wonders in this city.</Text>
+			<Text>[ICON_Tourism] Tourism from wonders in this city is +100%.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST" Language="en_US">
 			<Text>Triggers the [ICON_TechBoosted] Eureka for Rocketry and Advanced Ballistics. If they are already triggered, instead completes the tech.</Text>
@@ -706,24 +705,27 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE" Language="en_US">
 			<Text>Increases non-[ICON_Food]Food yield benefits of Happiness in your empire by 50%.</Text>
 		</Replace>
+		<Row Tag="LOC_GREATPERSON_DISTRICT_SCIENCE_ADJACENCY_AS_TOURISM_ATTACH">
+			<Text>Grants [ICON_Tourism] Tourism in each of this city's Districts equal to its adjacency bonus (halved for [ICON_Gold] Gold).</Text>
+		</Row>
 		<!--Great Generals-->
 		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Ancient, Classical, and Medieval era land units within 2 tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Information and Future era land units within 2 tiles.。</Text>
+			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Information and Future era land units within 2 tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TRUNG_TRAC_PERMANENT_ACTIVE" Language="en_US">
 			<Text>Permanently reduces your empire's War Weariness by 50%.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_SMALL" Language="en_US">
-			<Text>Citizens in this city generate +0.3 Loyalty.</Text>
+			<Text>Each [ICON_Citizen] Citizen in this city generates +0.3 Loyalty pressure.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_MEDIUM" Language="en_US">
-			<Text>Citizens in this city generate +0.5 Loyalty.</Text>
+			<Text>Each [ICON_Citizen] Citizen in this city generates +0.5 Loyalty pressure.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_LOYALTY_PRESSURE_LARGE" Language="en_US">
-			<Text>Citizens in this city generate +1 Loyalty.</Text>
+			<Text>Each [ICON_Citizen] Citizen in this city generates +1 Loyalty pressure.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE_SST" Language="en_US">
 			<Text>+3 [ICON_Strength] Combat Strength to all land miltary units.</Text>
@@ -760,13 +762,13 @@
 			<Text>Gain 900 [ICON_Gold] Gold (on Standard speed). Military units get +60% rewards for plundering sea [ICON_TradeRoute] Trade Routes.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST" Language="en_US">
-			<Text>+2 [ICON_Production] Production from Shipyards.</Text>
+			<Text>Shipyards provide +2 [ICON_Production] Production.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE" Language="en_US">
 			<Text>Accumulate 50% less war weariness than usual.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" Language="en_US">
-			<Text>Grants +6 Loyalty per turn for this city.</Text>
+			<Text>Grants +6 Loyalty per turn for all cities.</Text>
 		</Replace>
 		<!--Commandante Generals-->
 		<Replace Tag="LOC_GREAT_PERSON_MACGREGOR_PROMOTION_PLUS_GOLD" Language="en_US">
@@ -782,10 +784,10 @@
 			<Text>Enemy units within 2 tiles are killed.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_COMMANDANTE_UNIT_STRENGTH" Language="en_US">
-			<Text>Grants +7 [ICON_Strength] Combat Strength and 1 promotion level to a land unit.</Text>
+			<Text>Grants +10 [ICON_Strength] Combat Strength and 1 promotion level to a land unit.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_COMMANDANTE_UNIT_STRENGTH_BUFF_DESCRIPTION" Language="en_US">
-			<Text>+7 [ICON_Strength] Combat Strength （{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PIAR_NAME}）</Text>
+			<Text>+10 [ICON_Strength] Combat Strength （{LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PIAR_NAME}）</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MELEE_ANTICAV_BUFF" Language="en_US">
 			<Text>Grants +7 [ICON_Strength] Combat Strength to Melee and Anti-Cavalry class units within 2 tiles.</Text>
@@ -807,7 +809,7 @@
 		</Replace>
 		<!--Tech and civic adjustments-->
 		<Replace Tag="LOC_TECH_MASS_PRODUCTION_DESCRIPTION_SST" Language="en_US">
-			<Text>Builders gain 1 extra build action.</Text>
+			<Text>Builders gain 1 extra build charge.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_METAL_CASTING_DESCRIPTION_SST" Language="en_US">
 			<Text>New cities receive a free Builder.</Text>
@@ -824,6 +826,7 @@
 		<Replace Tag="LOC_POLICY_SERFDOM_DESCRIPTION" Language="en_US">
 			<Text>+30% [ICON_Production] Production toward Builders, and newly trained Builders gain 1 extra build action.</Text>
 		</Replace>
+		<!--TEXT ABOVE CHECKED-->
 		<!--Policies-->
 		<Replace Tag="LOC_POLICY_AFTER_ACTION_REPORTS_DESCRIPTION" Language="en_US">
 			<Text>All units gain +100% combat experience.</Text>
