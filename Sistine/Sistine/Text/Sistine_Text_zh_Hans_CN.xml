@@ -309,6 +309,9 @@
 		<Replace Tag="LOC_CIVIC_ENVIRONMENTALISM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>离岸风力发电厂、太阳能农场、风力发电厂、地热发电厂将提供等同于其 [ICON_POWER] 电力的 [ICON_TOURISM] 旅游业绩。</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION_MODE_SST" Language="zh_Hans_CN">
+			<Text>建有大浴场的河畔泛滥平原单元格免受洪水侵袭（但来自洪水的 [ICON_FOOD] 食物和 [ICON_PRODUCTION] 生产力加成减半）。此城市的泛滥平原单元格+2 [ICON_FAITH] 信仰值。[NEWLINE][NEWLINE]必须建在泛滥平原单元格中。</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_BIOSPHERE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有离岸风力发电厂、太阳能农场、风力发电厂、地热发电厂和水力发电坝产出的 [ICON_POWER] 电力+200%。帝国中与雨林和沼泽相邻的单元格+1魅力。必须建在与“社区”区域相邻的河流旁。</Text>
 		</Replace>
@@ -1369,7 +1372,7 @@
 			<Text>此城市对邻近城市释放的宗教压力强度加倍。此城市每位 [ICON_Citizen] 公民每回合可带来+1 [ICON_FAITH] 信仰值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>3回合即可就职，为本城市+20忠诚度。城市驻军 [ICON_Strength] 战斗力+5。您在9个单元格内的其他城市每回合获得对您文明的4点忠诚度。</Text>
+			<Text>3回合即可就职，为本城市+20忠诚度。城市驻军 [ICON_Strength] 战斗力+5。您在9个单元格内的其他城市每回合获得+4对您文明的忠诚度。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>城市领土内的单位防御时可+5 [ICON_Strength] 战斗力。此城中生产的所有军事单位若初始未拥有免费升级，则其初始可获得一项免费升级。</Text>
@@ -1450,10 +1453,6 @@
 		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>在无产阶级领导的社会主义国家里，人民享有最高权力；然而，即使是马克思也意识到，为了有效地运作政府机构并确保无产阶级专政，必须存在某种形式的党组织。由此，1917年的布尔什维克宣称，一群官僚中的先进分子需要领导一个一个集权政党来治理新生的苏俄政权。</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION_MODE_SST" Language="zh_Hans_CN">
-			<Text>建有大浴场的河畔泛滥平原单元格免受洪水侵袭（但来自洪水的 [ICON_FOOD] 食物和 [ICON_PRODUCTION] 生产力加成减半）。此城市的泛滥平原单元格+2 [ICON_FAITH] 信仰值。[NEWLINE][NEWLINE]必须建在泛滥平原单元格中。</Text>
-		</Replace>
-
 		<!--Dedications and Ages-->
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
 			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”：{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED}可在古典和中古时代中选择。</Text>

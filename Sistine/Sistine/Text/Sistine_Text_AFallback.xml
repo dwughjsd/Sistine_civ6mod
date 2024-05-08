@@ -309,6 +309,9 @@
 		<Replace Tag="LOC_CIVIC_ENVIRONMENTALISM_DESCRIPTION" Language="en_US">
 			<Text>Offshore Wind Farms, Solar Farms, Wind Farms, and Geothermal Power Plants provide [ICON_Tourism] Tourism equal to its [ICON_Power] Power.</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION_MODE_SST" Language="en_US">
+			<Text>The Floodplains tiles along the river containing the Great Bath are now immune to Flood damage (though [ICON_FOOD] Food and [ICON_PRODUCTION] Production bonuses from flooding drop by 50%). Floodplains tiles belonging to this city gain +2 [ICON_FAITH] Faith for each time Flood damage is mitigated.[NEWLINE][NEWLINE]Must be built on a Floodplains tile.</Text>
+		</Replace>	
 		<Replace Tag="LOC_BUILDING_BIOSPHERE_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>+200% [ICON_POWER] Power for all Offshore Windfarms, Solar Farms, Wind Farms, Geothermal Plants, and Hydroelectric Dams. +1 Appeal to tiles adjacent to Rainforest and Marsh in your empire. Must be built along a River adjacent to a Neighborhood district.</Text>
 		</Replace>
@@ -1341,7 +1344,7 @@
 		<!--TEXT ABOVE CHECKED-->
 		<!--Trade route overhaul-->
 		<Replace Tag="LOC_CIVIC_COLD_WAR_DESCRIPTION" Language="en_US">
-			<Text>Grants the ability to construct an additional Spy. +1 [ICON_TradeRoute] Trade Route capacity.</Text>
+			<Text>Grants the ability to train an additional Spy. +1 [ICON_TradeRoute] Trade Route capacity.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_CURRENCY_DESCRIPTION_SST" Language="en_US">
 			<Text>+1 [ICON_TradeRoute] Trade Route capacity.</Text>
@@ -1359,8 +1362,17 @@
 			<Text>+50% yields from [ICON_TradeRoute] Trade Routes.</Text>
 		</Replace>
 		<!--Governors-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION" Language="en_US">
+			<Text>+0.5 [ICON_Science] Science and [ICON_Culture] Culture per [ICON_Citizen] Citizen in the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Food] Growth in the city. +50% yields from plot harvests and feature removals in city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="en_US">
+			<Text>Religious pressure to adjacent cities is 100% stronger from this city. +1 [ICON_Faith] Faith per [ICON_Citizen] Citizen in this city.</Text>
+		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION" Language="en_US">
-			<Text>Increases city garrison [ICON_Strength] Combat Strength by +5. Your other cities within 9 tiles gain +4 Loyalty points per turn towards your civilization. Establishes in 3 turns.</Text>
+			<Text>Establishes in 3 turns and +20 Loyalty to the city. Increases city garrison [ICON_Strength] Combat Strength by +5. Your other cities within 9 tiles gain +4 Loyalty per turn towards your civilization.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION" Language="en_US">
 			<Text>Units defending within the city's territory get +5 [ICON_Strength] Combat Strength. Military units trained in this city start with a free promotion that do not already start with a free promotion.</Text>
@@ -1381,7 +1393,7 @@
 			<Text>Other cities within 9 tiles and not owned by you lose 4 Loyalty per turn.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="en_US">
-			<Text>Your [ICON_TradeRoute] Trade Routes ending here provide +1 [ICON_Food] Food and +1 [ICON_Production] Production to their starting city.</Text>
+			<Text>Your [ICON_TradeRoute] Trade Routes ending here provide +2 [ICON_Food] Food and +2 [ICON_Production] Production to their starting city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="en_US">
 			<Text>Increases the [ICON_POWER] Power provided by each resource of the Coal Power Plant, Oil Power Plant, and Nuclear Power Plant by 1 and the [ICON_Production] Production of all Industrial Zone buildings in this city by +2.</Text>
@@ -1408,7 +1420,7 @@
 			<Text>Double adjacency bonuses from Campuses in the city. +25% [ICON_Science] Science to this city's Library and Public School.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_DESCRIPTION" Language="en_US">
-			<Text>30% [ICON_Production] Production increase to all projects in the city.</Text>
+			<Text>+30% [ICON_Production] Production towards city projects in the city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="en_US">
 			<Text>The [ICON_Gold] Gold required to purchase tiles in this city is reduced by 20%.</Text>
@@ -1420,9 +1432,183 @@
 			<Text>This city receives +2 [ICON_Gold] Gold from each feature. Tiles adjacent to unimproved features receive +1 Appeal in this city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="en_US">
-			<Text>All Offshore Wind Farms, Solar Farms, Wind Farms, and Geothermal Plants in this city receive +2 [ICON_POWER] Power and +2 [ICON_Gold] Gold. Hydroelectric Dams in this city provide an additional +2 [ICON_POWER] Power to all cities within 6 tiles. +2 [ICON_Gold] Gold to this city's tiles beside a river.</Text>
+			<Text>All Offshore Wind Farms, Solar Farms, Wind Farms, and Geothermal Plants in this city receive +2 [ICON_POWER] Power and +2 [ICON_Gold] Gold. Hydroelectric Dams in this city provide an additional +2 [ICON_POWER] Power to all cities within 6 tiles. +2 [ICON_Gold] Gold to this city's tiles next to a river.</Text>
 		</Replace>
 		<!--Dedications and Ages-->
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”：{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED}可在古典和中古时代中选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”：{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE_SHARED}可在古典和中古时代中选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_4" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_RELIGIOUS}”：首次使一座城市信奉您创立的宗教+2时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE_SHARED}可在古典到启蒙时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”：{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE_SHARED}可在古典到启蒙时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_6" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_EXPLORATION}”：每发现1个新大陆或自然奇观+3时代得分。在战斗中每击杀1个非蛮族海军单位+1时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE_SHARED}可在启蒙到电气时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_7" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”：{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED}可在启蒙到电气时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_8" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INDUSTRIAL}”：{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED}可在工业到原子时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_9" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_MILITARY}”：在战斗中每击杀1个非蛮族军团+1时代得分、每击杀1个非蛮族军队+2时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED}可在工业到原子时代之间选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_10" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ESPIONAGE}”：每次进攻性间谍行动成功+1时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE_SHARED}可在原子及之后的时代中选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_11" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_TOURISM}”：每发掘1件文物+1时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE_SHARED}可在原子及之后的时代中选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_12" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AERONAUTICAL}”：每建造1座航空港建筑+1时代得分。每获得或购买1名 [ICON_GreatPerson] 伟人+1时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED}可在信息和未来时代中选择。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_13" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”：每用末日机甲击杀1个非蛮族单位，便+1时代得分。在黄金时代开始时选择后，{LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED}可在信息和未来时代中选择。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”着力点加成：[NEWLINE]{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>每次触发 [ICON_CivicBoosted] 启发+2时代得分。建成拥有巨作槽位的建筑+1时代得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”着力点加成：[NEWLINE]{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>每次触发 [ICON_TechBoosted] 尤里卡+2时代得分。建造以科技值为基础产出的建筑+1时代得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”着力点加成：[NEWLINE]{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>每修建1个新的专业化区域则+1时代得分。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”着力点加成：[NEWLINE]{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>每完成1条 [ICON_TradeRoute] 贸易路线+1时代得分。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INDUSTRIAL}”着力点加成：[NEWLINE]{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_DARK_AGE" Language="zh_Hans_CN">
+			<Text>{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>每建造1座工业时代以后的建筑+1时代得分。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_CULTURAL}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>魅力为普通及以上的单元格+1 [ICON_Culture] 文化值。每座城市+1 [ICON_Culture] 文化值。城市每拥有1处特色区域，额外+1 [ICON_Culture] 文化值。每回合+4 [ICON_GreatWriter] 大作家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>与河流相邻的单元格以及海岸和海洋单元格+1 [ICON_Science] 科技值。商业中心和港口区域的 [ICON_GOLD] 金币相邻加成也提供 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_RELIGIOUS}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>所有传教士、使徒和审判官+2 [ICON_Movement] 移动力且无视控制范围（ZOC），新生产的这些单位+2使用次数。每座圣地建筑增大城市产生的宗教压力50%。每回合产生的 [ICON_GreatProphet] 大预言家点数+4。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>所有建造者+2 [ICON_Movement] 移动力。所有城市建造区域、建筑和奇观时+6 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_EXPLORATION}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>和首座城市不在同一个大陆上的城市的所有单元格 +1 [ICON_Food] 食物、+20% [ICON_Production] 生产力，每回合+8忠诚度。海军和水运单位+2 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>您的商人不可被掠夺。外国城市的每个专业化区域为您的国际贸易路线+3 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_INDUSTRIAL}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED}</Text>
+		  </Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>建筑获得电力供应的额外产出+2。城市中每有一座学院建筑，便+10% [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_MILITARY}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>解锁一种特殊战争借口，与正式战争相比可少产生75% [ICON_STAT_GRIEVANCE] 不满，且可于谴责目标后立即使用。生产军事单位时+15% [ICON_Production] 生产力。有军营的城市每个公民提供+1 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_TOURISM}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>世界奇观产出的 [ICON_Tourism] 旅游业绩+50%。国家公园产出的 [ICON_Tourism] 旅游业绩+100%。建造所有奇观加速+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AERONAUTICAL}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>如处于信息时代，则解锁人造卫星、核聚变和纳米技术的尤里卡；如处于未来时代，则解锁智能材料、预测系统和地外任务的 [ICON_TechBoosted] 尤里卡；如果尤里卡已触发过则解锁该项科技。建造宇航中心和飞行场区域时+30% [ICON_PRODUCTION] 生产力。拥有宇航中心或飞行场的城市+15% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_ESPIONAGE}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>间谍部署到另一文明的城市无需时间。进行攻击性任务时等级提升4级。立即获得2个随机科技和1个随机市政。</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+			<Text>在您的首都处获得1架末日机甲。每回合获得3点 [ICON_Resource_Uranium] 铀。末日机甲 +17 [ICON_Strength] 战斗力，+1 [ICON_Range] 射程。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+17 [ICON_Strength] Combat Strength (Automaton Warfare Golden Age).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="en_US">
+			<Text>+17 [ICON_Strength] Combat Strength from the Automaton Warfare Golden Age</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_NAME" Language="en_US">
+			<Text>Giant Death Robot Combat</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_NAME" Language="en_US">
+			<Text>Giant Death Robot Range</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Range] Range (Automaton Warfare Golden Age).</Text>
+		</Replace>
+
+
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_CULTURAL} Golden Age:[NEWLINE][ICON_CivicBoosted] Inspirations provide an additional 10% of civic costs. Each city receives +1 [ICON_Culture] Culture, and an additional +1 [ICON_Culture] Culture for each specialty district.</Text>
 		</Replace>
@@ -1450,47 +1636,7 @@
 		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_AUTOMATON} Golden Age:[NEWLINE]Gain a Giant Death Robot in your capital. Receive 3 [ICON_Resource_Uranium] Uranium per turn. Giant Death Robots receive +5 [ICON_Strength] Combat Strength and +1 [ICON_Range] Range.</Text>
 		</Replace>
-
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_NAME" Language="en_US">
-			<Text>Giant Death Robot Combat</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_NAME" Language="en_US">
-			<Text>Giant Death Robot Range</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength (Automaton Warfare Golden Age).</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_RANGE_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Range] Range (Automaton Warfare Golden Age).</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="en_US">
-			<Text>+5 [ICON_Strength] Combat Strength from the Automaton Warfare Golden Age</Text>
-		</Replace>
-		<!--Civilopedia-->
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OPERA_HOUSE_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Opera is a theatrical drama in which the actors sing all their dialog rather than speaking it, differentiating it from other forms of musical dramas. The opera singers are usually accompanied by an orchestra. An opera house is a theatre designed with a stage for the singers, space to seat the orchestra, and acoustics which help project the music to the audience. The Teatro San Cassiano was the first public opera house, opened in Venice, Italy, in 1637. Since that time opera houses have opened across the world - they are almost de rigueur for any city with pretensions of being a center of culture and art.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_SCHOOL_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>A public school provides free pre-university education to a civilization's children. This is a fairly advanced concept. First, the civilization must believe that education is important, and that educating the poor is not a threat to the ruling class. Second, the civilization must be wealthy enough so that the children of the poor do not need to work to fend off starvation. And finally, the civilization must be enlightened enough to be willing to expend some of its public revenue providing the education. Most countries in the world today provide some level of public education for their young. The first American public grade schools opened during the Colonial era. The first public high school was opened in Boston in 1821.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Manufacturing plants are large industrial complexes that produce goods of all types, although they are generally used to produce durable consumer goods such as automobiles. Essentially, a manufacturing plant is a large, sophisticated factory that employs specialization of labor, complex machinery, and assembly lines to gain efficiency and economies of scale. This combination of manpower and automation increases productivity and reduces production costs.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>A hospital is an institution for diagnosing and treating the sick or injured, and for housing them during their recovery. Many hospitals are also teaching institutions, where student doctors and nurses learn their trade. The earliest hospitals were temples to certain gods associated with health and healing. Religious hospitals were established in Sri Lanka by 430 BC, and King Asoka of India created a chain of hospitals across Hindustan around 230 BC.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>A medical laboratory is an institution that studies disease and human anatomy using a wide variety of extremely sophisticated and powerful instruments - from ultrasound to cameras the size of an ant to electron microscopes. Most - if not all - of the remarkable advances in medicine in the past 25 years have been made in medical labs. These include the sequencing of human DNA, antiviral therapies to battle HIV, gene editing, and more. Much of the increasing cost of healthcare can be attributed to the simple fact that medical laboratories have been remarkably successful at battling illness and prolonging and improving the quality of human life - and these improvements cost huge amounts of money.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>In a proletarian socialist state, the people have the power; however, even Marx realized that some form of party hierarchy would be necessary for efficient operation of state services and to insure that the proletarian order itself was preserved. For that reason, the Bolsheviks argued in 1917 that a vanguard party of bureaucrats would head a centralized political party that administered the new Soviet Russia.</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION_MODE_SST" Language="en_US">
-			<Text>The Floodplains tiles along the river containing the Great Bath are now immune to Flood damage (though [ICON_FOOD] Food and [ICON_PRODUCTION] Production bonuses from flooding drop by 50%). Floodplains tiles belonging to this city gain +2 [ICON_FAITH] Faith for each time Flood damage is mitigated.[NEWLINE][NEWLINE]Must be built on a Floodplains tile.</Text>
-		</Replace>
-		
 		<!--Experimental - Golden Age enhancement-->
-
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_CULTURAL} Golden Age:[NEWLINE][ICON_CivicBoosted] +1 [ICON_Culture] Culture to tiles with Average Appeal or higher. Each city receives +1 [ICON_Culture] Culture, and an additional +1 [ICON_Culture] Culture for each specialty district. +4 [ICON_GreatWriter] Great Writer points per turn.</Text>
 		</Replace>
@@ -1526,13 +1672,6 @@
 			<Text>{LOC_MOMENT_CATEGORY_AUTOMATON} Golden Age:[NEWLINE]Gain a Giant Death Robot in your capital. Receive 3 [ICON_Resource_Uranium] Uranium per turn. [ICON_Resource_Uranium] Uranium mines accumulate +1 more resource per turn. +17 [ICON_Strength] Combat Strength and +1 [ICON_Range] Range to Giant Death Robots.</Text>
 		</Replace>
 
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_DESCRIPTION" Language="en_US">
-			<Text>+17 [ICON_Strength] Combat Strength (Automaton Warfare Golden Age).</Text>
-		</Replace>
-		<Replace Tag="LOC_ABILITY_COMMEMORATION_AUTOMATON_COMBAT_STRENGTH_PREVIEW_DESCRIPTION" Language="en_US">
-			<Text>+17 [ICON_Strength] Combat Strength from the Automaton Warfare Golden Age</Text>
-		</Replace>
-
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_CULTURAL} Dedication Bonus:[NEWLINE]Gain +2 Era Score each time you trigger an [ICON_CivicBoosted] Inspiration. +1 Era Score for constructing a building with a Great Work Slot.</Text>
 		</Replace>
@@ -1549,5 +1688,36 @@
 		<Replace Tag="LOC_WORLD_CONGRESS_DISTRICT_BUILDING_PRODUCTION_DESC" Language="en_US">
 			<Text>+50% [ICON_Production] Production towards buildings in this district.</Text>
 		</Replace>
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>[ICON_FOOD] Food and [ICON_CULTURE] Culture flow down the great Nile River while playing as Egyptian Cleopatra.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Make sure you settle cities with lots of Rivers and Floodplains when playing as Egyptian Cleopatra. Settling next to rivers with her leading Egypt provide everything a civilization that stands the test of time needs: [ICON_Production] Production, [ICON_Culture] Culture, [ICON_Food] Food, and Appeal. The Iteru ability gives [ICON_Production] Production and protection from Floods on these river-adjacent cities as well. Her leader ability gives [ICON_Culture] Culture, Appeal, and [ICON_FOOD] Food for river cities. Even more [ICON_Culture] Culture for river cities is found if you can solve the riddle of the Sphinx (that is to say, by constructing them). Culture Victory is Cleopatra’s main focus with [ICON_Culture] Culture coming from the Sphinx and her leader ability.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_ALT_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Ptolemaic Cleopatra is Qin Shi Huang's main competitor in the wonder race; however, instead of a Great Wall to hide behind, she uses her charm (and trade benefits) to encourage her powerful friends to attack on her behalf.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_ALT_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Egypt starts right along a River where they get bonuses for building districts and wonders. Those wonders become especially valuable with Sphinxes nearby, allowing Egypt to get off to a speedy start in all areas of the game. If Cleopatra can then befriend the other powerful civilizations (perhaps because they are getting [ICON_Food] Food from trading with her) she will be able to continue to move forward with wonders. This will set her up to push toward any victory type, though with both wonders and Sphinxes, she is especially strong playing for a Culture Victory.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OPERA_HOUSE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Opera is a theatrical drama in which the actors sing all their dialog rather than speaking it, differentiating it from other forms of musical dramas. The opera singers are usually accompanied by an orchestra. An opera house is a theatre designed with a stage for the singers, space to seat the orchestra, and acoustics which help project the music to the audience. The Teatro San Cassiano was the first public opera house, opened in Venice, Italy, in 1637. Since that time opera houses have opened across the world - they are almost de rigueur for any city with pretensions of being a center of culture and art.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_SCHOOL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A public school provides free pre-university education to a civilization's children. This is a fairly advanced concept. First, the civilization must believe that education is important, and that educating the poor is not a threat to the ruling class. Second, the civilization must be wealthy enough so that the children of the poor do not need to work to fend off starvation. And finally, the civilization must be enlightened enough to be willing to expend some of its public revenue providing the education. Most countries in the world today provide some level of public education for their young. The first American public grade schools opened during the Colonial era. The first public high school was opened in Boston in 1821.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Manufacturing plants are large industrial complexes that produce goods of all types, although they are generally used to produce durable consumer goods such as automobiles. Essentially, a manufacturing plant is a large, sophisticated factory that employs specialization of labor, complex machinery, and assembly lines to gain efficiency and economies of scale. This combination of manpower and automation increases productivity and reduces production costs.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A hospital is an institution for diagnosing and treating the sick or injured, and for housing them during their recovery. Many hospitals are also teaching institutions, where student doctors and nurses learn their trade. The earliest hospitals were temples to certain gods associated with health and healing. Religious hospitals were established in Sri Lanka by 430 BC, and King Asoka of India created a chain of hospitals across Hindustan around 230 BC.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A medical laboratory is an institution that studies disease and human anatomy using a wide variety of extremely sophisticated and powerful instruments - from ultrasound to cameras the size of an ant to electron microscopes. Most - if not all - of the remarkable advances in medicine in the past 25 years have been made in medical labs. These include the sequencing of human DNA, antiviral therapies to battle HIV, gene editing, and more. Much of the increasing cost of healthcare can be attributed to the simple fact that medical laboratories have been remarkably successful at battling illness and prolonging and improving the quality of human life - and these improvements cost huge amounts of money.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>In a proletarian socialist state, the people have the power; however, even Marx realized that some form of party hierarchy would be necessary for efficient operation of state services and to insure that the proletarian order itself was preserved. For that reason, the Bolsheviks argued in 1917 that a vanguard party of bureaucrats would head a centralized political party that administered the new Soviet Russia.</Text>
+		</Replace>		
 	</LocalizedText>
 </GameData>
