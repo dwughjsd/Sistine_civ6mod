@@ -1434,25 +1434,6 @@
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城所有离岸风力发电厂、太阳能农场、风力发电厂及地热发电厂+2 [ICON_POWER] 电力、+2 [ICON_Gold] 金币。此城的水力发电坝向6单元格内的城市提供额外+2 [ICON_POWER] 电力。此城沿河单元格+2 [ICON_Gold] 金币。</Text>
 		</Replace>
-		<!--Civilopedia-->
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OPERA_HOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>歌剧是一种舞台剧。它与其他形式的音乐剧的区别在于：演员们唱出各自的对白，而不是简单地说出。演出歌剧时，演员通常有管弦乐队一同参演。歌剧院是一种剧场，其中配有演员使用的舞台，容纳管弦乐队的场地和用于将音乐声更好地传导至观众席的声学设计。圣卡西亚诺剧院是世界上第一家公共歌剧院，于1637年在意大利威尼斯开放。从那时起，世界各地都出现了歌剧院——对任何有着成为文化与艺术中心的理想的城市而言，修建歌剧院几乎是基本操作。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_SCHOOL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>公立学校向一个文明的儿童提供免费的大学前教育，这是一个相当先进的理念。首先，该文明必须明白教育的重要性，对穷人的教育并不会威胁到统治阶层。其次，该文明不能穷到穷人的孩子不工作就会挨饿。最后，该文明必须有足够的远见从公共收入中拿出一部分支持教育。今天世界上大部分国家都为他们的年轻一代提供或多或少的公共教育。美国的第一所小学始于殖民地时期，第一所高中则是1821年在波士顿建立。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>精密制造厂是一种大型的工业复合体，能够生产各种类型的产品，不过通常会用来制造汽车这样的耐用消费品。简单来说，精密制造厂就是一种大型而复杂的工厂，使用专业劳工、复杂机械以及生产流水线以获得更高的生产效率以及大规模生产的经济优势。这种人力与自动化的结合不仅提升了效率，而且降低了生产成本。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>医院是对病人或伤者进行诊疗，并为他们提供住处以便康复的机构。许多医院也同时是教学机构，令学习医疗和护理的学生在此学习专业技能。供奉和健康及医疗有关的神灵的寺庙成为了最初的医院。公元前430年在斯里兰卡出现了专门的宗教医院，而印度的阿育王则于公元前230年左右在印度北部兴建了一系列的医院。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>医学实验室是研究疾病和人体构造的机构。医学实验室使用各式各样极度精密又无比强大的仪器，从超声波仪到蚂蚁大小的摄像机，再到电子显微镜，应有尽有。在过去的25年里，绝大部分（若非所有）医学界的重大突破都是医学实验室里取得。这些突破包括：人类DNA测序、对抗艾滋病的抗病毒疗法、基因编辑，等等。当代社会医疗费用的不断攀升在很大程度上都要归因于这样一个简单的事实：医学实验室在战胜疾病、延长人类寿命、提高人类生命质量方面取得了惊人的成就，而这些成就是需要花费巨资的。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>在无产阶级领导的社会主义国家里，人民享有最高权力；然而，即使是马克思也意识到，为了有效地运作政府机构并确保无产阶级专政，必须存在某种形式的党组织。由此，1917年的布尔什维克宣称，一群官僚中的先进分子需要领导一个一个集权政党来治理新生的苏俄政权。</Text>
-		</Replace>
 		<!--Dedications and Ages-->
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
 			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”：{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED}可在古典和中古时代中选择。</Text>
@@ -1488,7 +1469,7 @@
 			<Text>“{LOC_MOMENT_CATEGORY_AERONAUTICAL}”：每建造1座航空港建筑+1时代得分。每获得或购买1名 [ICON_GreatPerson] 伟人+1时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED}可在信息和未来时代中选择。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_13" Language="zh_Hans_CN">
-			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”：每用末日机甲击杀1个非蛮族单位，便+1时代得分。在黄金时代开始时选择后，{LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED}可在信息和未来时代中选择。</Text>
+			<Text>“{LOC_MOMENT_CATEGORY_AUTOMATON}”：每用末日机甲击杀1个非蛮族单位，便+1时代得分。在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED}可在信息和未来时代中选择。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
@@ -1572,13 +1553,13 @@
 			<Text>“{LOC_MOMENT_CATEGORY_ECONOMIC}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
-			<Text>您的商人不可被掠夺。外国城市的每个专业化区域为您的国际贸易路线+3 [ICON_Gold] 金币。</Text>
+			<Text>您的商人不可被掠夺。外国城市的每个专业化区域为您的国际贸易路线+2 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
 			<Text>“{LOC_MOMENT_CATEGORY_INDUSTRIAL}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED}</Text>
 		  </Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
-			<Text>建筑获得电力供应的额外产出+2。城市中每有一座学院建筑，便+10% [ICON_PRODUCTION] 生产力。</Text>
+			<Text>建筑获得电力供应时的额外产出+2。城市中每有一座学院建筑，便+10% [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
 			<Text>“{LOC_MOMENT_CATEGORY_MILITARY}”黄金时代：[NEWLINE]{LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED}</Text>
@@ -1638,10 +1619,28 @@
 			<Text>选择埃及人{LOC_LEADER_CLEOPATRA_NAME}进行游戏时，务必在拥有大量河流和泛滥平原的地方开拓城市。让她治下的埃及沿河定居，才能得到以下重要资源，建立经得起时间考验的文明：[ICON_Production] 生产力、[ICON_Culture] 文化值、[ICON_Food] 食物，以及魅力值。“{LOC_TRAIT_CIVILIZATION_ITERU_NAME}”能力能够提供 [ICON_Production] 生产力，并保护毗邻河流的城市免受洪水侵袭。她的领袖能力为河畔城市提供 [ICON_Culture] 文化值、魅力值，以及 [ICON_FOOD] 食物。如果解开狮身人面像的谜团（指建成它们），河畔城市还能产出更多 [ICON_Culture] 文化值。有了狮身人面像和自身领袖能力所产出的 [ICON_Culture] 文化值，{LOC_LEADER_CLEOPATRA_NAME}将着重于文化胜利。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_ALT_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
-			<Text>在奇观竞争中，{LOC_LEADER_CLEOPATRA_NAME}是秦始皇的主要竞争对手；但她不会守在长城之后，而是依靠自己的魅力（和贸易利益）劝诱其强大的朋友替她进行攻击。</Text>
+			<Text>在奇观竞争中，托勒密{LOC_LEADER_CLEOPATRA_NAME}是秦始皇的主要竞争对手；但她不会守在长城之后，而是依靠自己的魅力（和贸易利益）劝诱其强大的朋友替她进行攻击。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CLEOPATRA_ALT_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
 			<Text>埃及沿河而建，他们在此处建造区域和奇观可获得加成。和附近的狮身人面像一起时，这些奇观会变得非常有价值，能让埃及在游戏中的各个方面都快速起步。如果{LOC_LEADER_CLEOPATRA_NAME}接下来和其他强大文明成为朋友（或许因为他们能通过和她的贸易获得 [ICON_Food] 食物），她将能继续使用奇观向前迈进。这使她能获得任何类型的胜利，但在奇观和狮身人面像的帮助下，她尤其擅长在游戏中取得文化胜利。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OPERA_HOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>歌剧是一种舞台剧。它与其他形式的音乐剧的区别在于：演员们唱出各自的对白，而不是简单地说出。演出歌剧时，演员通常有管弦乐队一同参演。歌剧院是一种剧场，其中配有演员使用的舞台，容纳管弦乐队的场地和用于将音乐声更好地传导至观众席的声学设计。圣卡西亚诺剧院是世界上第一家公共歌剧院，于1637年在意大利威尼斯开放。从那时起，世界各地都出现了歌剧院——对任何有着成为文化与艺术中心的理想的城市而言，修建歌剧院几乎是基本操作。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_SCHOOL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>公立学校向一个文明的儿童提供免费的大学前教育，这是一个相当先进的理念。首先，该文明必须明白教育的重要性，对穷人的教育并不会威胁到统治阶层。其次，该文明不能穷到穷人的孩子不工作就会挨饿。最后，该文明必须有足够的远见从公共收入中拿出一部分支持教育。今天世界上大部分国家都为他们的年轻一代提供或多或少的公共教育。美国的第一所小学始于殖民地时期，第一所高中则是1821年在波士顿建立。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>精密制造厂是一种大型的工业复合体，能够生产各种类型的产品，不过通常会用来制造汽车这样的耐用消费品。简单来说，精密制造厂就是一种大型而复杂的工厂，使用专业劳工、复杂机械以及生产流水线以获得更高的生产效率以及大规模生产的经济优势。这种人力与自动化的结合不仅提升了效率，而且降低了生产成本。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>医院是对病人或伤者进行诊疗，并为他们提供住处以便康复的机构。许多医院也同时是教学机构，令学习医疗和护理的学生在此学习专业技能。供奉和健康及医疗有关的神灵的寺庙成为了最初的医院。公元前430年在斯里兰卡出现了专门的宗教医院，而印度的阿育王则于公元前230年左右在印度北部兴建了一系列的医院。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>医学实验室是研究疾病和人体构造的机构。医学实验室使用各式各样极度精密又无比强大的仪器，从超声波仪到蚂蚁大小的摄像机，再到电子显微镜，应有尽有。在过去的25年里，绝大部分（若非所有）医学界的重大突破都是医学实验室里取得。这些突破包括：人类DNA测序、对抗艾滋病的抗病毒疗法、基因编辑，等等。当代社会医疗费用的不断攀升在很大程度上都要归因于这样一个简单的事实：医学实验室在战胜疾病、延长人类寿命、提高人类生命质量方面取得了惊人的成就，而这些成就是需要花费巨资的。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在无产阶级领导的社会主义国家里，人民享有最高权力；然而，即使是马克思也意识到，为了有效地运作政府机构并确保无产阶级专政，必须存在某种形式的党组织。由此，1917年的布尔什维克宣称，一群官僚中的先进分子需要领导一个一个集权政党来治理新生的苏俄政权。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
