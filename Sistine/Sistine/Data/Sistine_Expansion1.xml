@@ -14,7 +14,7 @@
 			</Set>
 		</Update>
 		<Update>
-			<Where MomentType="MOMENT_BUILDING_CONSTRUCTED_FIRST_UNIQUE" />
+			<Where MomentType="MOMENT_UNIT_CREATED_FIRST_UNIQUE" />
 			<Set>
 				<EraScore>2</EraScore>
 			</Set>
