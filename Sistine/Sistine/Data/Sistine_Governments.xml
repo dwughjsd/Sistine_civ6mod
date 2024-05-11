@@ -124,9 +124,6 @@
 		/>
 		<!--THEOCRACY-->
 		<Delete GovernmentType="GOVERNMENT_THEOCRACY"
-			ModifierId="THEOCRACY_RELIGIOUS"
-		/>
-		<Delete GovernmentType="GOVERNMENT_THEOCRACY"
 			ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"
 		/>
 		<Row GovernmentType="GOVERNMENT_THEOCRACY"
@@ -687,6 +684,10 @@
 			<Set Value="4" />
 		</Update>
 		<Update>
+			<Where ModifierId="THEOCRACY_LEGACY_RELIGIOUS_BUFF" Name="Amount" />
+			<Set Value="4" />
+		</Update>
+		<Update>
 			<Where ModifierId="THEOCRACY_FAITH_PURCHASE" Name="Amount" />
 			<Set Value="20" />
 		</Update>
@@ -1097,9 +1098,6 @@
 			ModifierId="GOVERNMENT_MONARCHY_STARFORT_PRODUCTION_SST"
 		/>
 		<!--THEOCRACY-->
-		<Delete PolicyType="POLICY_GOV_THEOCRACY"
-			ModifierId="THEOCRACY_LEGACY_RELIGIOUS"
-		/>
 		<Delete PolicyType="POLICY_GOV_THEOCRACY"
 			ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"
 		/>
