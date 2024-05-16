@@ -1435,160 +1435,160 @@
 			<Text>All Offshore Wind Farms, Solar Farms, Wind Farms, and Geothermal Plants in this city receive +2 [ICON_POWER] Power and +2 [ICON_Gold] Gold. Hydroelectric Dams in this city provide an additional +2 [ICON_POWER] Power to all cities within 6 tiles. +2 [ICON_Gold] Gold to this city's tiles next to a river.</Text>
 		</Replace>
 		<!--Dedications and Ages-->
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC}: {LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED} If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED} Classical and Medieval Era.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_3" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_CULTURAL}: {LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE_SHARED} If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE_SHARED} Classical and Medieval Era.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_4" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_4" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_RELIGIOUS}: Gain +2 Era Score each time you convert a city to your founded Religion for the first time. If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE_SHARED} Classical through Renaissance Era.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_5" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_INFRASTRUCTURE}: {LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE_SHARED} If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE_SHARED} Classical through Renaissance Era.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_6" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_6" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_EXPLORATION}: Gain +3 Era Score each time you discover a new Continent or natural wonder. If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE_SHARED} Renaissance through Modern Era.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_7" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_7" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_ECONOMIC}: {LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE_SHARED} If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED} Renaissance through Modern Era.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_8" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_8" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_INDUSTRIAL}: {LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE_SHARED} If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED} Industrial through Atomic Era.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_9" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_9" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_MILITARY}: Gain +1 Era Score each time you kill a non-Barbarian Corps in combat and +2 Era Score each time you kill a non-Barbarian Army in combat. If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED} Industrial through Atomic Era.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_10" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_10" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_ESPIONAGE}: Gain +1 Era Score for each successful offensive Spy operation. If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE_SHARED} Atomic and later eras.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_11" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_11" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_TOURISM}: Gain +1 Era Score for each Artifact extracted. If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE_SHARED} Atomic and later eras.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_12" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_12" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_AERONAUTICAL}: Gain +1 Era Score for each Aerodrome building constructed. Gain +1 Era Score each time a [ICON_GreatPerson] Great Person is earned or purchased. If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED} Information and Future Era.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_13" Language="zh_Hans_CN">
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_13" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_AUTOMATON}: Gain +1 Era Score each time you kill a non-Barbarian unit with a Giant Death Robot. If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED} Information and Future Era.</Text>
 		</Replace>
 
-		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_CULTURAL} Dedication Bonus:[NEWLINE]{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_DARK_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_NORMAL_AGE_SHARED" Language="en_US">
 			<Text>Gain +2 Era Score each time you trigger an [ICON_CivicBoosted] Inspiration. +1 Era Score for constructing a building with a Great Work Slot.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC} Dedication Bonus:[NEWLINE]{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_DARK_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_DARK_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED" Language="en_US">
 			<Text>Gain +2 Era Score each time you trigger a [ICON_TechBoosted] Eureka. +1 Era Score for constructing a building that provides Science as a base yield.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_INFRASTRUCTURE} Dedication Bonus:[NEWLINE]{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_DARK_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_DARK_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_NORMAL_AGE_SHARED" Language="en_US">
 			<Text>Gain +1 Era Score each time you construct a new specialty District.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_ECONOMIC} Dedication Bonus:[NEWLINE]{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_DARK_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_DARK_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_NORMAL_AGE_SHARED" Language="en_US">
 			<Text>Gain +1 Era Score each time you successfully complete a [ICON_TradeRoute] Trade Route.</Text>
 		</Replace>
 
-		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_INDUSTRIAL} Dedication Bonus:[NEWLINE]{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_DARK_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_DARK_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_NORMAL_AGE_SHARED" Language="en_US">
 			<Text>Gain +1 Era Score for each Industrial or later building constructed.</Text>
 		</Replace>
 		
-		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_CULTURAL} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>+1 [ICON_Culture] Culture to tiles with Average Appeal or higher. Each city receives +1 [ICON_Culture] Culture, and an additional +1 [ICON_Culture] Culture for each specialty district. +4 [ICON_GreatWriter] Great Writer points per turn.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>+1 [ICON_Science] Science to tiles adjacent to a river, as well as Coast and Ocean tiles. Commercial Hub and Harbor district's [ICON_GOLD] Gold adjacency bonus provides [ICON_Science] Science as well.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_RELIGIOUS} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>All Missionaries, Apostles, and Inquisitors receive +2 [ICON_Movement] Movement and ignore Zone of Control. Additionally, newly trained ones get +2 Charges. Each Holy Site building increases the religious pressure of this city by 50%. +4 [ICON_GreatProphet] Great Prophet points per turn.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_INFRASTRUCTURE} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>+2 [ICON_Movement] Movement for all Builders. +6 [ICON_Production] Production towards districts, buildings, and wonders.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_EXPLORATION} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_EXPLORATION_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>+1 [ICON_Food], +20% [ICON_Production] Production, and +8 Loyalty per turn for cities settled on a different continent than your first city. +2 [ICON_Movement] Movement for naval and embarked units.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_ECONOMIC} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_ECONOMIC_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>Your Traders cannot be plundered. International [ICON_TradeRoute] Trade Routes provide +2 [ICON_Gold] Gold per specialty district in the foreign city.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_INDUSTRIAL} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED}</Text>
 		  </Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>Buildings that provide additional yields when [ICON_POWER] Powered receive +2 of that yield. Your cities receive +10% [ICON_Production] Production for each Campus building in the city.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_MILITARY} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_MILITARY_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>Unlock a special Casus Belli which generates 75% less [ICON_STAT_GRIEVANCE] Grievances than Formal War and can be used immediately after Denouncing the target. +15% [ICON_Production] Production towards military units. Cities with an Encampment provide +1 [ICON_Production] Production per [ICON_CITIZEN] Population.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_TOURISM} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>+50% [ICON_Tourism] Tourism from World Wonders. +100% [ICON_Tourism] Tourism to all National Parks. +100% [ICON_Production] Production towards all wonders.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_AERONAUTICAL} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_AERONAUTICAL_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>Unlocks the [ICON_TechBoosted] Eurekas for Satellites, Nuclear Fusion, and Nanotechnology if in the Information Era. When chosen in the Future Era the [ICON_TechBoosted] Eurekas for Smart Materials, Predictive Systems, and Offworld Mission are unlocked. If they are already triggered, instead completes the tech. +30% [ICON_Production] towards Spaceport and Aerodrome districts. +15% [ICON_Science] Science and [ICON_Production] Production to cities with a Spaceport or Aerodrome.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_ESPIONAGE} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_ESPIONAGE_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>Spies take no time to establish their presence in another civilization's city. Your Spy level is increased by 4 for offensive operations. Receive 2 random Technologies and a random Civic.</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_AUTOMATON} Golden Age:[NEWLINE]{LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED}</Text>
 		</Replace>
-		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED" Language="zh_Hans_CN">
+		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_GOLDEN_AGE_SHARED" Language="en_US">
 			<Text>Gain a Giant Death Robot in your capital. Receive 3 [ICON_Resource_Uranium] Uranium per turn. [ICON_Resource_Uranium] Uranium mines accumulate +1 more resource per turn. +17 [ICON_Strength] Combat Strength and +1 [ICON_Range] Range to Giant Death Robots.</Text>
 		</Replace>
 
