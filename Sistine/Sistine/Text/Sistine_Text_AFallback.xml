@@ -123,7 +123,7 @@
 			<Text>+1 [ICON_Production] Production in every city with a Factory or Consulate building when producing wonders, buildings, and districts. Receive +2 [ICON_Production] Production if it has both these buildings.</Text>
 		</Replace>
 		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
-			<Text>+3 [ICON_Production] Production in every city with a Chancery or Power Plant building when producing wonders, buildings, and districts. Receive +6 [ICON_Production] Production if it has both a Chancery and a Power Plant building.</Text>
+			<Text>+1 [ICON_Production] Production in every city with a Chancery or Power Plant building when producing wonders, buildings, and districts. Receive +2 [ICON_Production] Production if it has both a Chancery and a Power Plant building.</Text>
 		</Replace>
 		<!--Beliefs-->
 		<Replace Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" Language="en_US">
