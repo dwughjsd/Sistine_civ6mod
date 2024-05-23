@@ -1108,7 +1108,7 @@
 			<Text>Build 2 Manufacturing Plants.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_ARCHERY" Language="en_US">
-			<Text>Own 3 Slingers.</Text>
+			<Text>Own 2 Slingers.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_MASONRY" Language="en_US">
 			<Text>Build 2 Quarries.</Text>
