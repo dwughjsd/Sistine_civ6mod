@@ -708,9 +708,9 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE" Language="en_US">
 			<Text>Increases non-[ICON_Food]Food yield benefits of Happiness in your empire by 50%.</Text>
 		</Replace>
-		<Row Tag="LOC_GREATPERSON_DISTRICT_SCIENCE_ADJACENCY_AS_TOURISM_ATTACH">
+		<Replace Tag="LOC_GREATPERSON_DISTRICT_SCIENCE_ADJACENCY_AS_TOURISM_ATTACH" Language="en_US">
 			<Text>Grants [ICON_Tourism] Tourism in each of this city's Districts equal to its adjacency bonus (halved for [ICON_Gold] Gold).</Text>
-		</Row>
+		</Replace>
 		<!--Great Generals-->
 		<Replace Tag="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Ancient, Classical, and Medieval era land units within 2 tiles.</Text>
