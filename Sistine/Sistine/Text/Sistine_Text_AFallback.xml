@@ -1341,7 +1341,6 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ROBOTICS" Language="en_US">
 			<Text>The ever-changing field of space exploration requires a new type of equipment that can partially replace human labor. Might we refer to science fiction and call it a "robot"?</Text>
 		</Replace>
-		<!--TEXT ABOVE CHECKED-->
 		<!--Trade route overhaul-->
 		<Replace Tag="LOC_CIVIC_COLD_WAR_DESCRIPTION" Language="en_US">
 			<Text>Grants the ability to train an additional Spy. +1 [ICON_TradeRoute] Trade Route capacity.</Text>

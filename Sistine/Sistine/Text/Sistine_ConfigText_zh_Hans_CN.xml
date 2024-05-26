@@ -488,7 +488,11 @@
 		<Replace Tag="LOC_TRAIT_LEADER_BANNOCKBURN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>由您创建的城市+20% [ICON_PRODUCTION] 生产力，非您创建的城市-20% [ICON_PRODUCTION] 生产力。解锁防御战术市政后即可宣布解放战争。宣布解放战争后的10回合内+100% [ICON_Production] 生产力、+2 [ICON_Movement] 移动力。</Text>
 		</Replace>
-		  <!--Civ Traits-->
+		<!--Changes pending-->
+		<Replace Tag="LOC_TRAIT_LEADER_CLEOPATRA_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>泛滥平原上的资源+1 [ICON_FOOD] 食物、+1 [ICON_CULTURE] 文化值。已拥有的泛滥平原单元格为相邻单元格提供的魅力+1，而非通常的-1。</Text>
+		</Replace>
+		<!--Civ Traits-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>使用建造者建造次数可推进50%的区域建设进度。</Text>
 		</Replace>
