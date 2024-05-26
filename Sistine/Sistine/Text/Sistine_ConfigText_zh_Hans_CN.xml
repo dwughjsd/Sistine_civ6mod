@@ -583,6 +583,9 @@
 		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造瑞典特色改良设施{LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME}的能力。[NEWLINE][NEWLINE]+1魅力。每种地貌（雪地、冻土、沙漠、平原或草原）中的每座瑞典城市+2 [ICON_Culture] 文化值、+2 [ICON_Tourism] 旅游业绩。每个城市仅限建造一座。{LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME}所在的单元格无法被切换到其他城市。</Text>
 		  </Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURGAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造斯基泰特色改良设施{LOC_IMPROVEMENT_KURGAN_NAME}的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值。若与牧场相邻则+4 [ICON_Gold] 金币。每与一座牧场相邻便+1 [ICON_Faith] 信仰值（研究完“马镫”后提升为+2）。研究“飞行”后将根据 [ICON_FAITH] 信仰值提供 [ICON_TOURISM] 旅游业绩。不能建在丘陵上。</Text>
+		</Replace>
 		<Replace Tag="LOC_ROUTE_RAILROAD_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建造不消耗次数但需消耗1点 [ICON_RESOURCE_IRON] 铁和1点 [ICON_RESOURCE_COAL] 煤。可大幅提高单位沿铁路单元格前进的 [ICON_Movement] 移动速度。与铁路路径重叠的 [ICON_TradeRoute] 贸易路线从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。</Text>
 		</Replace>

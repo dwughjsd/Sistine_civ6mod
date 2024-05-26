@@ -590,6 +590,9 @@
 		<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct an Open-Air Museum, unique to Sweden.[NEWLINE][NEWLINE]+1 Appeal. +2 [ICON_Culture] Culture and +2 [ICON_Tourism] Tourism for each type of terrain (Snow, Tundra, Desert, Plains or Grassland) in which at least one Swedish city is founded. One per city. Tiles with Open-Air Museums cannot be swapped.</Text>
 		  </Replace>
+		<Replace Tag="LOC_IMPROVEMENT_KURGAN_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Kurgan, unique to Scythia.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith. +4 [ICON_Gold] Gold if adjacent to a Pasture. +1 [ICON_Faith] Faith for each adjacent Pasture (becomes +2 after researching Stirrups). Provides [ICON_TOURISM] Tourism from [ICON_FAITH] Faith after researching Flight. Cannot be built on Hills.</Text>
+		</Replace>
 		<Replace Tag="LOC_ROUTE_RAILROAD_DESCRIPTION" Language="en_US">
 			<Text>Does not cost a charge, but does cost 1 [ICON_RESOURCE_IRON] Iron and 1 [ICON_RESOURCE_COAL] Coal. Greatly improves [ICON_Movement] Movement speed of any unit moving from one Railroad tile to another. [ICON_TradeRoute] Trade Routes traveling over Railroads can multiply the [ICON_Gold] Gold they get from districts at their destination.</Text>
 		</Replace>

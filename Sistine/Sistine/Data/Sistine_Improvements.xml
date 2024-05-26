@@ -279,6 +279,7 @@
 		<Replace ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_MAHAVIHARA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 		<Replace ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Replace ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_GOLD" YieldChange="0"/>
 	</Improvement_YieldChanges>
 	<Improvement_Adjacencies>
 		<Row ImprovementType="IMPROVEMENT_MONASTERY" YieldChangeId="Monastery_LuxuryAdjacency"/>
@@ -401,6 +402,11 @@
 			<Where ModifierId="NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE" />
 			<Set SubjectRequirementSetId="NAZCA_LINE_ADJACENCY_FAITH_RESOURCE_REQUIREMENTS"/>
 		</Update>
+		<Row>
+			<ModifierId>KURGAN_PASTUREADJACENCY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_PASTURE_REQUIREMENTS_SST</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Update>
@@ -419,6 +425,16 @@
 			<Where ModifierId="MISSION_NEWCONTINENT_FAITH" Name="Amount" />
 			<Set Value="1"/>
 		</Update>
+		<Row>
+			<ModifierId>KURGAN_PASTUREADJACENCY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>KURGAN_PASTUREADJACENCY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
 	</ModifierArguments>
 	<Improvement_BonusYieldChanges>
 		<!--The ID is not necessary for the system to work. However it's good to make it unique.-->
@@ -454,5 +470,31 @@
 		<Delete ImprovementType="IMPROVEMENT_STEPWELL" ModifierId="STEPWELL_FARMADJACENCY_FOOD" />
 		<Delete ImprovementType="IMPROVEMENT_STEPWELL" ModifierId="STEPWELL_HOLYSITEADJACENCY_FAITH" />
 		<Delete ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" ModifierId="OPEN_AIR_MUSEUM_LOYALTY" />
+		<Row ImprovementType="IMPROVEMENT_KURGAN" ModifierId="KURGAN_PASTUREADJACENCY_GOLD" />
 	</ImprovementModifiers>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_PASTURE_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_PASTURE_REQUIREMENTS_SST</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_PASTURE_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_PASTURE_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_PASTURE_SST</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_PASTURE</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>
