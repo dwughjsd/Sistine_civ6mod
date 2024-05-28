@@ -3,48 +3,48 @@
 	<Units>
 		<!--All other heroes receive -6 penalty-->
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_ANANSI" />
+			<Where UnitType="UNIT_HERO_ANANSI" />
 			<Set Combat="12" RangedCombat="24"/>
 		</Update>
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_ARTHUR" />
+			<Where UnitType="UNIT_HERO_ARTHUR" />
 			<Set Combat="30" />
 		</Update>
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_BEOWULF" />
+			<Where UnitType="UNIT_HERO_BEOWULF" />
 			<Set Combat="28" />
 		</Update>
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_HERCULES" />
+			<Where UnitType="UNIT_HERO_HERCULES" />
 			<Set Combat="30" />
 		</Update>
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_HIPPOLYTA" />
+			<Where UnitType="UNIT_HERO_HIPPOLYTA" />
 			<Set Combat="26" />
 		</Update>
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_HUNAHPU" />
+			<Where UnitType="UNIT_HERO_HUNAHPU" />
 			<Set Combat="24" />
 		</Update>
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_MAUI" />
+			<Where UnitType="UNIT_HERO_MAUI" />
 			<Set Combat="24" />
 		</Update>
 		<!--Mulan receive -10 penalty cuz she can be really strong-->
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_MULAN" />
+			<Where UnitType="UNIT_HERO_MULAN" />
 			<Set Combat="6" RangedCombat="18"/>
 		</Update>
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_OYA" />
+			<Where UnitType="UNIT_HERO_OYA" />
 			<Set Combat="24" />
 		</Update>
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_SINBAD" />
+			<Where UnitType="UNIT_HERO_SINBAD" />
 			<Set Combat="24" />
 		</Update>
 		<Update>
-			<Where GreatWorkType="UNIT_HERO_WUKONG" />
+			<Where UnitType="UNIT_HERO_WUKONG" />
 			<Set Combat="26" />
 		</Update>
 	</Units>
