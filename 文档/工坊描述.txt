@@ -4,11 +4,11 @@
 
 “鉴古维新”（暂定名，开发代号为Sistine）是我们制作的规模最大的全面调整mod，改动了原版游戏的几乎所有方面，目标是通过引入文明系列历代的做法，对游戏内选项进行平衡，增大游戏的决策空间，以使游戏的全流程更加有趣。
 
-[h1]模组特性：[/h1]
+[h1]模组特性[/h1]
 
 [b]来自老玩家，献给老玩家。[/b]本作品由接触文明系列超过十年的玩家设计，在制作过程中追溯了历代文明。绝大部分改动由旧作启发，以求游戏流程和战略复杂度遵循本系列经典风格。
 
-[b]顶层设计，全面调整。[/b]本作在设计过程中考虑了各项系统的相互作用，致力于为游戏全过程提供好于原版游戏的体验。对因游戏限制无法调整且严重影响游戏体验的问题（如：紧急状态、世界议会、垄断），尽可能做了限制并弱化其危害。
+[b]顶层设计，全面调整。[/b]本作在设计过程中考虑了各项系统的相互作用，致力于为游戏全过程提供好于原版游戏的体验。对因游戏限制无法调整且严重影响游戏体验的问题（如：紧急状态、世界议会、垄断），尽可能做了限制并弱化其危害，但并不完全移除以保持游戏机制的完整风味。
 
 [b]真正的AI改进。[/b]在玩家胜利回合数基本不变的情况下，我们通过不增加额外作弊的方式使神难度AI的科技胜利加快了约100回合。本作也许是工坊中第一款将AI表现作为开发主要目标，从规则入手优化AI表现的大修模组。
 
@@ -16,9 +16,9 @@
 
 [b]文本修正（进行中，仅限简体中文）[/b]：本作已经重定了大量游戏内术语的中文翻译，将来还会修复一些风味文本，使其符合历史真实并更易于理解。（由于游戏内文本数量巨大，若发现遗漏欢迎反馈！）
 
-[h1]主要改动：[/h1]
+[h1]主要改动[/h1]
 
-全局参数：对大量全局参数进行了调整，降低了不合理的游戏进度涨价系数（砍树/掠夺收益和区域涨价）、同盟升级所需经验值、蛮族强度等严重损害游戏玩法的参数。
+全局参数和胜利规则：对大量全局参数进行了调整，降低了不合理的游戏进度涨价系数（砍树/掠夺收益和区域涨价）、同盟升级所需经验值、蛮族强度等严重损害游戏玩法的参数。修订了游戏胜利流程，科技胜利和文化胜利对科技和市政的要求更高，不再陷入“科技胜利靠文化，文化胜利靠宗教”的怪圈。
 
 地形、地貌和资源：重新平衡了地块产出：丘陵按照旧作传统产出更少的食物，沼泽不再提供额外的食物，反而使单元格产出减少。资源经过重新调整，变得更加平衡有用。
 
@@ -42,7 +42,7 @@ AI表现：大幅度强化了高难度AI取得科技胜利的能力。AI能够�
 
 我们仍将根据当前版本的运行情况和大家的反馈继续评估调整数值。
 
-[h1]已知问题：[/h1]
+[h1]已知问题[/h1]
 
 新增加的建筑缺少图标和模型。我们缺少可用的美术素材，且区域建筑模型的工作量很大，因此我们目前暂无计划实现。如果你有可用的素材或者处理好了需要的美术资源，欢迎联系我们。
 
@@ -51,6 +51,8 @@ AI表现：大幅度强化了高难度AI取得科技胜利的能力。AI能够�
 [h1]向大家介绍 Shimamura et al.[/h1]
 
 Shimamura et al. （字面意思为“岛村和其他人”）简而言之就是 UzukiShimamura卯月 与小伙伴们的合作团队——我们由一群富有经验的文明6mod制作者组成，致力于设计富有特色而与原版游戏相协调的领袖mod。当然，如果你能做得更好，我们也需要你的帮助！
+
+www139154 负责了本作品的游戏流程测试。 Boa of the Boaians 完成了本作的初步英文本地化。
 
 本作历时已久，得到过许多设计和测试方面的建议，我们难以一一列出。在此对所有测试过我们的预览版的玩家表示感谢。
 
@@ -62,3 +64,58 @@ Click the Thumbs Up button, pleaaase! If we are able to receive 1000 positive ra
 
 This mod needs [b]ALL[/b] DLCs to work.
 
+Project Sistine (codename, not final name) is the largest mod we have ever made, and a total conversion mod that modified nearly every aspect of the vanilla Civilization VI. This mod aims to introduce principles and methods used in previous Civilization titles to balance available choices in the game to provide more meaningful strategies, thus making the gameplay more interesting.
+
+[h1]Summary[/h1]
+
+[b]By fanatics, for fanatics.[/b] This mod is designed by veteran Civilization players who played this franchise since more than 10 years ago and is built with referring to all previous titles.  Most changes are inspired by classic titles in the Civilization franchise to keep the overall gameplay and strategic complexity of the modded rule set fits the style they provided.
+
+[b]Top-down overhaul.[/b] Interactions among game systems are carefully considered to provide a novel and better experience different from the vanilla rule set. Restricted unmoddable but harmful-if-untouched systems (e.g. Emergencies, World Congress, Monopolies) without totally removing them to keep the game flavor intact.
+
+[b]True AI improvements.[/b] We accelerated Deity AIs' Science Victory by ~100T without any additional cheats while kept turns needed to win for human players. This mod might be the first overhaul mod that take AI performance into consideration. 
+
+[b]Stability and performance.[/b] This mod kept conservasive about adding new contents to prevent the gameplay from being messed - more importantly, this mod won't slow down late game to an unacceptable extent or unstabilize the game to make it crash more. It's also multiplayer compatible.
+
+[h1]Detailed Changes[/h1]
+
+Global parameters and victory conditions: 对大量全局参数进行了调整，降低了不合理的游戏进度涨价系数（砍树/掠夺收益和区域涨价）、同盟升级所需经验值、蛮族强度等严重损害游戏玩法的参数。修订了游戏胜利流程，科技胜利和文化胜利对科技和市政的要求更高，不再陷入“科技胜利靠文化，文化胜利靠宗教”的怪圈。
+
+地形、地貌和资源：重新平衡了地块产出：丘陵按照旧作传统产出更少的食物，沼泽不再提供额外的食物，反而使单元格产出减少。资源经过重新调整，变得更加平衡有用。
+
+建筑、奇观和区域：降价了区域和建筑；大多数建筑获得了按比例强化城市基础产出的能力。奇观得到强化并降低了价格。
+
+科技树和市政树：修改了少量前置要求；调整了获得科技/市政提升的要求，在一局游戏中追求完成所有科技市政的提升不再值得。
+
+宗教：大幅强化了宗教的自然传播速度，减少了宗教胜利的操作量。同时，削弱利用宗教赢得早期文化胜利的能力。
+
+政体和政策：重新平衡了各大政体；加强了使用率低的政策，整合了后期的零散政策。
+
+伟人：加强了弱势的伟人，令伟人更有招募的价值。
+
+游戏时代和着力点加成：黄金时代更难达成，但奖励也更加丰厚。
+
+单位：重新定位轻骑兵为突袭敌方远程单位的单位；重骑兵基础战斗力较强，用于正面攻击敌方防御单位但不适合攻城；中后期侦察单位用于游击和牵制。
+
+AI表现：大幅度强化了高难度AI取得科技胜利的能力。AI能够建设繁荣的城市，快速发展科技和市政，对玩家施加远大于原版AI的压力——而他们获得的作弊没有增加，仅仅从直接提升产出改为间接提升。
+
+文明、领袖和城邦：削弱了城邦的通用效果，平衡了城邦的特色加成，使刷图变得不再必要。强化了过弱无趣的文明和领袖，并削弱了数值过于强力以至影响美观的文明和领袖。
+
+我们仍将根据当前版本的运行情况和大家的反馈继续评估调整数值。
+
+[h1]已知问题[/h1]
+
+新增加的建筑缺少图标和模型。我们缺少可用的美术素材，且区域建筑模型的工作量很大，因此我们目前暂无计划实现。如果你有可用的素材或者处理好了需要的美术资源，欢迎联系我们。
+
+（简体中文）文本可能仍然存在术语不一致的问题。如果发现这种情况，请尽快告知我们修复。
+
+[h1]向大家介绍 Shimamura et al.[/h1]
+
+Shimamura et al. （字面意思为“岛村和其他人”）简而言之就是 UzukiShimamura卯月 与小伙伴们的合作团队——我们由一群富有经验的文明6mod制作者组成，致力于设计富有特色而与原版游戏相协调的领袖mod。当然，如果你能做得更好，我们也需要你的帮助！
+
+www139154 负责了本作品的游戏流程测试。 Boa of the Boaians 完成了本作的初步英文本地化。
+
+本作历时已久，得到过许多设计和测试方面的建议，我们难以一一列出。在此对所有测试过我们的预览版的玩家表示感谢。
+
+需要mod制作支持，或者发现了什么问题吗？在[url=github.com/dwughjsd]我的GitHub[/url]（仅英文）上对我们的作品提出Issue吧。
+
+老实说，1000个好评是一个很遥远的目标。设置这个大目标的一大原因是我确实产生了离开这个游戏的想法——这个全面调整mod花费了我太多的精力。当然，如果我能够得到这份前所未有的支持，那我当然得继续陪伴大家啦。
