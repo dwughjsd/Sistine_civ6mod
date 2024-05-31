@@ -1,63 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<!--Reset city-state bonus-->
-	<TraitModifiers>
-		<Delete TraitType="MINOR_CIV_SCIENTIFIC_TRAIT" ModifierId="MINOR_CIV_SCIENTIFIC_SMALL_INFLUENCE_ETHIOPIA"/>
-		<Delete TraitType="MINOR_CIV_RELIGIOUS_TRAIT" ModifierId="MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_ETHIOPIA"/>
-		<Delete TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_SMALL_INFLUENCE_ETHIOPIA"/>
-		<Delete TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_SMALL_INFLUENCE_LIGHTHOUSE"/>
-		<Delete TraitType="MINOR_CIV_CULTURAL_TRAIT" ModifierId="MINOR_CIV_CULTURAL_SMALL_INFLUENCE_ETHIOPIA"/>
-		<Delete TraitType="MINOR_CIV_MILITARISTIC_TRAIT" ModifierId="MINOR_CIV_MILITARISTIC_SMALL_INFLUENCE_ETHIOPIA"/>
-		<Delete TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_ETHIOPIA_BUILDING"/>
-		<Delete TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_ETHIOPIA_DISTRICT"/>
-	</TraitModifiers>
-	<ModifierArguments>
-		<Update><Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_UNIVERSITY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_RESEARCH_LAB" Name="Amount"/><Set Value="1"/></Update>
-	
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_CATHEDRAL" Name="Amount"/><Set Value="1"/></Update>	
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_DAR_E_MEHR" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_GURDWARA" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_MEETING_HOUSE" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_MOSQUE" Name="Amount"/><Set Value="1"/></Update>	
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_PAGODA" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_STUPA" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_SYNAGOGUE" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_WAT" Name="Amount"/><Set Value="1"/></Update>
-
-		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_CONSULATE" Name="Amount"/><Set Value="2"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_BANK_ETHIOPIA" Name="Amount"/><Set Value="2"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_SHIPYARD_ETHIOPIA" Name="Amount"/><Set Value="2"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_CHANCERY" Name="Amount"/><Set Value="2"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_STOCK_EXCHANGE" Name="Amount"/><Set Value="2"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_SEAPORT" Name="Amount"/><Set Value="2"/></Update>
-
-		<Update><Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_MUSEUM_ART" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_MUSEUM_ARTIFACT" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_BROADCAST_CENTER" Name="Amount"/><Set Value="1"/></Update>
-
-		<Update><Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_ARMORY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_MILITARY_ACADEMY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
-
-		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CONSULATE" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_FACTORY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_FACTORY_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CHANCERY" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/><Set Value="1"/></Update>
-	</ModifierArguments>
-		
 	<!--Wonder Culture-->
 	<CivicModifiers>
 		<Row>
@@ -142,11 +84,6 @@
 		<Row CivicType="CIVIC_URBANIZATION" ModifierId="CIVIC_GRANT_ONE_TRADE_ROUTE"/>
 		<Row CivicType="CIVIC_COLD_WAR" ModifierId="CIVIC_GRANT_ONE_TRADE_ROUTE"/>
 	</CivicModifiers>
-	<GameModifiers>
-		<Row ModifierId="ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_FOOD"/>
-		<Row ModifierId="ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_PRODUCTION"/>
-		<Row ModifierId="ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_GOLD"/>
-	</GameModifiers>
 	<Modifiers>
 		<Row>
 			<ModifierId>TECH_TRADE_ROUTE_YIELD_DEST_CULTURE</ModifierId>
@@ -195,33 +132,6 @@
 		<Row>
 			<ModifierId>TECH_TRADE_ROUTE_YIELD_ORIG_SCIENCE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_FOOD</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>CITY_HAS_COMMERCIAL_HUB_OR_HARBOR_REQUIREMENTS_SST</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>CITY_HAS_COMMERCIAL_HUB_OR_HARBOR_REQUIREMENTS_SST</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_GOLD</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>CITY_HAS_COMMERCIAL_HUB_OR_HARBOR_REQUIREMENTS_SST</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_FOOD_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_PRODUCTION_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_GOLD_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -405,6 +315,44 @@
 			<Name>Origin</Name>
 			<Value>true</Value>
 		</Row>
+	</ModifierArguments>
+	
+	<!--Harbor & CommHub bonus trade route bonus-->
+	<!--<GameModifiers>
+		<Row ModifierId="ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_FOOD"/>
+		<Row ModifierId="ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_PRODUCTION"/>
+		<Row ModifierId="ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_GOLD"/>
+	</GameModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_COMMERCIAL_HUB_OR_HARBOR_REQUIREMENTS_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_COMMERCIAL_HUB_OR_HARBOR_REQUIREMENTS_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_GOLD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_COMMERCIAL_HUB_OR_HARBOR_REQUIREMENTS_SST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_GOLD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
 		<Row>
 			<ModifierId>ALL_CITIES_COMMERCIAL_HUB_HARBOR_TRADEROUTE_BONUS_FOOD</ModifierId>
 			<Name>ModifierId</Name>
@@ -466,5 +414,5 @@
 			<RequirementSetId>CITY_HAS_COMMERCIAL_HUB_OR_HARBOR_REQUIREMENTS_SST</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_HARBOR</RequirementId>
 		</Row>
-	</RequirementSetRequirements>
+	</RequirementSetRequirements>-->
 </GameData>

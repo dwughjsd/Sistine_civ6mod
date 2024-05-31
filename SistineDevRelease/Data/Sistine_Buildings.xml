@@ -35,7 +35,6 @@
 		<Update><Where BuildingType="BUILDING_COAL_POWER_PLANT" /><Set Description="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_SST" /></Update>
 		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" /><Set Description="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_SST" /></Update>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" Name="LOC_BUILDING_MANUFACTURING_PLANT_NAME" Description="LOC_BUILDING_MANUFACTURING_PLANT_DESCRIPTION" PrereqTech="TECH_ROBOTICS" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" RegionalRange="6" Cost="785"/>
-
 		<!--Entertainment Complex and Water Park-->
 		<Update><Where BuildingType="BUILDING_ZOO" /><Set PrereqCivic="CIVIC_EXPLORATION" Entertainment="2" /></Update>
 		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set PrereqCivic="CIVIC_EXPLORATION" Entertainment="3" /></Update>
@@ -116,9 +115,9 @@
 		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
 		<Delete BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/>
 		<!--Industrial Zone-->
-		<Update><Where BuildingType="BUILDING_WORKSHOP" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
-		<Update><Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
-		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
+		<Update><Where BuildingType="BUILDING_WORKSHOP" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
+		<Update><Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
 		<Update><Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
 		<Update><Where BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION"/><Set YieldChange="5"/></Update>
 		<!--Harbor-->
@@ -144,9 +143,9 @@
 		<!--Commercial Hub-->
 		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/><Set YieldChange="3"/></Update>
 		<!--Industrial Zone-->
-		<Update><Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
-		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="5"/></Update>
-		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Update><Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
+		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
+		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
 		<!--Neighborhood-->
 		<Delete BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>
 		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD"/> <Set YieldChange="4"/></Update>

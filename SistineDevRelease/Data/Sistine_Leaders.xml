@@ -1,5 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!--City-state bonus overhaul-->
+	<TraitModifiers>
+		<Delete TraitType="MINOR_CIV_SCIENTIFIC_TRAIT" ModifierId="MINOR_CIV_SCIENTIFIC_SMALL_INFLUENCE_ETHIOPIA"/>
+		<Delete TraitType="MINOR_CIV_RELIGIOUS_TRAIT" ModifierId="MINOR_CIV_RELIGIOUS_SMALL_INFLUENCE_ETHIOPIA"/>
+		<Delete TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_SMALL_INFLUENCE_ETHIOPIA"/>
+		<Delete TraitType="MINOR_CIV_TRADE_TRAIT" ModifierId="MINOR_CIV_TRADE_SMALL_INFLUENCE_LIGHTHOUSE"/>
+		<Delete TraitType="MINOR_CIV_CULTURAL_TRAIT" ModifierId="MINOR_CIV_CULTURAL_SMALL_INFLUENCE_ETHIOPIA"/>
+		<Delete TraitType="MINOR_CIV_MILITARISTIC_TRAIT" ModifierId="MINOR_CIV_MILITARISTIC_SMALL_INFLUENCE_ETHIOPIA"/>
+		<Delete TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_ETHIOPIA_BUILDING"/>
+		<Delete TraitType="MINOR_CIV_INDUSTRIAL_TRAIT" ModifierId="MINOR_CIV_INDUSTRIAL_SMALL_INFLUENCE_ETHIOPIA_DISTRICT"/>
+	</TraitModifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_CONSULATE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_UNIVERSITY_ETHIOPIA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_CHANCERY" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_RESEARCH_LAB" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_CONSULATE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_TEMPLE_ETHIOPIA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_CHANCERY" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_CATHEDRAL" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_DAR_E_MEHR" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_GURDWARA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_MEETING_HOUSE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_MOSQUE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_PAGODA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_STUPA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_SYNAGOGUE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_WAT" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_CONSULATE" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_BANK_ETHIOPIA" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_SHIPYARD_ETHIOPIA" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_CHANCERY" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_STOCK_EXCHANGE" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_SEAPORT" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_CONSULATE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_MUSEUM_ART" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_MUSEUM_ARTIFACT" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_CHANCERY" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_BROADCAST_CENTER" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_CONSULATE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_ARMORY_ETHIOPIA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_CHANCERY" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_MILITARISTIC_PRODUCTION_FOR_MILITARY_ACADEMY_ETHIOPIA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_CONSULATE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CONSULATE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_FACTORY_ETHIOPIA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_FACTORY_ETHIOPIA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_CHANCERY" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_CHANCERY" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_POWER_PLANT_ETHIOPIA" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+	</ModifierArguments>
+
+
 	<LeaderTraits>
 		<!--Swap the two leader abilities-->
 		<Delete LeaderType="LEADER_CLEOPATRA_ALT" TraitType="TRAIT_LEADER_CLEOPATRA_ALT"/>
@@ -569,4 +740,10 @@
 			<RequirementId>REQUIRES_CITY_WAS_NOT_FOUNDED</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
+	<RequirementArguments>
+		<Update>
+			<Where RequirementId="REQUIRES_OBJECT_6_TILES_FROM_CAPITAL_NOT_CAPITAL" Name="MinDistance"/>
+			<Set Value="0"/>
+		</Update>
+	</RequirementArguments>
 </GameData>

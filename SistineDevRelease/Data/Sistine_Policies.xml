@@ -690,21 +690,21 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_10POP_SCIENCE" Name="Amount" Value="25"/>
+		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_10POP_SCIENCE" Name="Amount" Value="15"/>
 		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_10POP_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
-		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_15POP_SCIENCE" Name="Amount" Value="25"/>
+		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_15POP_SCIENCE" Name="Amount" Value="15"/>
 		<Row ModifierId="RATIONALISM_PUBLICSCHOOL_15POP_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
-		<Row ModifierId="GRANDOPERA_OPERAHOUSE_10POP_CULTURE" Name="Amount" Value="25"/>
+		<Row ModifierId="GRANDOPERA_OPERAHOUSE_10POP_CULTURE" Name="Amount" Value="15"/>
 		<Row ModifierId="GRANDOPERA_OPERAHOUSE_10POP_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
-		<Row ModifierId="GRANDOPERA_OPERAHOUSE_15POP_CULTURE" Name="Amount" Value="25"/>
+		<Row ModifierId="GRANDOPERA_OPERAHOUSE_15POP_CULTURE" Name="Amount" Value="15"/>
 		<Row ModifierId="GRANDOPERA_OPERAHOUSE_15POP_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
-		<Row ModifierId="SIMULTANEUM_TIER3_10POP_FAITH" Name="Amount" Value="25"/>
+		<Row ModifierId="SIMULTANEUM_TIER3_10POP_FAITH" Name="Amount" Value="15"/>
 		<Row ModifierId="SIMULTANEUM_TIER3_10POP_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
-		<Row ModifierId="SIMULTANEUM_TIER3_15POP_FAITH" Name="Amount" Value="25"/>
+		<Row ModifierId="SIMULTANEUM_TIER3_15POP_FAITH" Name="Amount" Value="15"/>
 		<Row ModifierId="SIMULTANEUM_TIER3_15POP_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
-		<Row ModifierId="FREEMARKET_TIER2_10POP_GOLD" Name="Amount" Value="25"/>
+		<Row ModifierId="FREEMARKET_TIER2_10POP_GOLD" Name="Amount" Value="15"/>
 		<Row ModifierId="FREEMARKET_TIER2_10POP_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="FREEMARKET_TIER2_15POP_GOLD" Name="Amount" Value="25"/>
+		<Row ModifierId="FREEMARKET_TIER2_15POP_GOLD" Name="Amount" Value="15"/>
 		<Row ModifierId="FREEMARKET_TIER2_15POP_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
 		<Row>
 			<ModifierId>FUTURE_VICTORY_CULTURE_TOURISM</ModifierId>

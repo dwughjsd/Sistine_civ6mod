@@ -206,10 +206,31 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN_NAME" Language="zh_Hans_CN" Text="希尔德加德·冯·宾根"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL_NAME" Language="zh_Hans_CN" Text="贾娜姬·安玛尔"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK_NAME" Language="zh_Hans_CN" Text="斯蒂芬妮·柯欧拉克"/>
+		<Replace Tag="LOC_GREATPERSON_ARTIFACT_SCIENCE" Language="zh_Hans_CN">
+			<Text>从该城市每个 [ICON_GreatWork_Artifact] 文物获得{Amount} [ICON_Science] 科技值。</Text>
+		</Replace>
 		<!--Great Merchants-->
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI_NAME" Language="zh_Hans_CN" Text="皮耶罗·德·巴尔迪"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL_NAME" Language="zh_Hans_CN" Text="托达·马尔拉贾"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN_NAME" Language="zh_Hans_CN" Text="赫莲娜·鲁宾斯坦"/>
+		<Replace Tag="LOC_GREATPERSON_1MODERNTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发{Amount}个随机电气时代科技的 [ICON_TechBoosted] 尤里卡。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_JOHN_ROCKEFELLER_EXPANSION2_ACTIVE" Language="zh_Hans_CN">
+			<Text>每回合提供3点 [ICON_RESOURCE_OIL] 石油。目的地城市每拥有1点战略资源，您 [ICON_TradeRoute] 贸易路线所产出的 [ICON_Gold] 金币便+2。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_TOYS" Language="zh_Hans_CN">
+			<Text>产出{Amount}份 [ICON_RESOURCE_TOYS] 玩具，一种提供+4 [ICON_Amenities] 宜居度的独特人造奢侈资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ZHANG_QIAN_ACTIVE" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。通往该城市的外国 [ICON_TradeRoute] 贸易路线为双方城市+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_MARCO_POLO_ACTIVE" Language="zh_Hans_CN">
+			<Text>为该城市赠予一个免费的商人单位并+1 [ICON_TradeRoute] 贸易路线容量。通往该城市的外国 [ICON_TradeRoute] 贸易路线为双方城市+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT" Language="zh_Hans_CN">
+			<Text>您的 [ICON_TradeRoute] 贸易路线目的地的每个专业化区域为其+{Amount} [ICON_Gold] 金币。</Text>
+		</Replace>
 		<!--Great Engineers-->
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE_NAME" Language="zh_Hans_CN" Text="圣乔治的詹姆斯"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_NAME" Language="zh_Hans_CN"><Text>米玛·希南</Text></Replace>
@@ -464,6 +485,18 @@
 		<Replace Tag="LOC_POLICY_VETERANCY_NAME" Language="zh_Hans_CN" Text="退役制度"/>
 		<Replace Tag="LOC_POLICY_ARSENAL_OF_DEMOCRACY_NAME" Language="zh_Hans_CN" Text="民主兵工厂"/>
 		<Replace Tag="LOC_POLICY_POLICE_STATE_NAME" Language="zh_Hans_CN" Text="警察国家"/>
+		<Replace Tag="LOC_POLICY_LIBERALISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建有至少2个专业化区域的所有城市+1 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ONLINE_COMMUNITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对您有发起 [ICON_TradeRoute] 贸易路线的文明+50% [ICON_Tourism] 旅游业绩输出。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CONTAINMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果城邦的宗主国和您的政体不同，您向城邦派遣的每个 [ICON_Envoy] 使者都被视为两个使者。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ARSENAL_OF_DEMOCRACY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您通往盟友城市或下属城邦的 [ICON_TradeRoute] 贸易路线为双边城市+4 [ICON_Food] 食物、+4 [ICON_Production] 生产力。所有盟友的同盟点数每回合额外增加0.25点。</Text>
+		</Replace>
 		<Replace Tag="LOC_POLICY_CHARISMATIC_LEADER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每回合+2用以获得城邦 [ICON_Envoy] 使者的影响力点数。</Text>
 		</Replace>
@@ -559,6 +592,9 @@
 			<Text>所有近战单位进攻时+5 [ICON_Strength] 战斗力。[NEWLINE]但无法在本国领土外回复生命值。</Text>
 		</Replace>
 		<!--Boosts-->
+		<Replace Tag="LOC_BOOST_TRIGGER_IRON_WORKING" Language="zh_Hans_CN">
+			<Text>建造1处铁矿山。</Text>
+		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_SAILING" Language="zh_Hans_CN">
 			<Text>在海岸边建立1座城市。</Text>
 		</Replace>
@@ -639,6 +675,18 @@
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_RAPID_DEPLOYMENT" Language="zh_Hans_CN">
 			<Text>有了横跨全球的空军基地，我们的军队已准备好随时部署到世界上的任何一个地方。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CURRENCY" Language="zh_Hans_CN">
+			<Text>您的 [ICON_TradeRoute] 贸易路线直接以物易物，而采用一种交换媒介能让贸易更加灵活。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ASTRONOMY" Language="zh_Hans_CN">
+			<Text>为了更好看清天空的模样，您的科学家正在远行深山。或许一种永久设施能帮得上忙？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BALLISTICS" Language="zh_Hans_CN">
+			<Text>您的兵工厂正在生产用于保护您的城市的装备。如果他们开发一种新型加农炮，效果会怎样？</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NANOTECHNOLOGY" Language="zh_Hans_CN">
+			<Text>拥有可以用于实验的各色金属可以帮助您的科学家推进全新领域的研究。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SAILING" Language="zh_Hans_CN">
 			<Text>在海岸边建成一座城市让您的文明深刻理解了如何在波涛之上辨别方向。</Text>

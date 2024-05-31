@@ -124,9 +124,6 @@
 		/>
 		<!--THEOCRACY-->
 		<Delete GovernmentType="GOVERNMENT_THEOCRACY"
-			ModifierId="THEOCRACY_RELIGIOUS"
-		/>
-		<Delete GovernmentType="GOVERNMENT_THEOCRACY"
 			ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"
 		/>
 		<Row GovernmentType="GOVERNMENT_THEOCRACY"
@@ -193,9 +190,6 @@
 		/>
 		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
 			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONTOSUZERAIN"
-		/>
-		<Delete GovernmentType="GOVERNMENT_DEMOCRACY"
-			ModifierId="DEMOCRACY_ALLIANCEPOINTS"
 		/>
 		<Row GovernmentType="GOVERNMENT_DEMOCRACY"
 			ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
@@ -687,6 +681,10 @@
 			<Set Value="4" />
 		</Update>
 		<Update>
+			<Where ModifierId="THEOCRACY_LEGACY_RELIGIOUS_BUFF" Name="Amount" />
+			<Set Value="4" />
+		</Update>
+		<Update>
 			<Where ModifierId="THEOCRACY_FAITH_PURCHASE" Name="Amount" />
 			<Set Value="20" />
 		</Update>
@@ -1098,9 +1096,6 @@
 		/>
 		<!--THEOCRACY-->
 		<Delete PolicyType="POLICY_GOV_THEOCRACY"
-			ModifierId="THEOCRACY_LEGACY_RELIGIOUS"
-		/>
-		<Delete PolicyType="POLICY_GOV_THEOCRACY"
 			ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"
 		/>
 		<Row PolicyType="POLICY_GOV_THEOCRACY"
@@ -1164,9 +1159,6 @@
 		/>
 		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
 			ModifierId="DEMOCRACY_TRADEROUTEPRODUCTIONTOSUZERAIN"
-		/>
-		<Delete PolicyType="POLICY_GOV_DEMOCRACY"
-			ModifierId="DEMOCRACY_ALLIANCEPOINTS"
 		/>
 		<Row PolicyType="POLICY_GOV_DEMOCRACY"
 			ModifierId="DEMOCRACY_SPECIALTY_DISTRICTS_CULTURE_SST"
