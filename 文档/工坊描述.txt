@@ -48,6 +48,8 @@ AI表现：大幅度强化了高难度AI取得科技胜利的能力。AI能够�
 
 新增加的建筑缺少图标和模型。我们缺少可用的美术素材，且区域建筑模型的工作量很大，因此我们目前暂无计划实现。如果你有可用的素材或者处理好了需要的美术资源，欢迎联系我们。
 
+我们需要一个更好听的正式名字，最好让它听起来像是一款资料片！
+
 （简体中文）文本可能仍然存在术语不一致的问题。如果发现这种情况，请尽快告知我们修复。
 
 [h1]向大家介绍 Shimamura et al.[/h1]
@@ -76,7 +78,7 @@ Project Sistine (codename, not final name) is the largest mod we have ever made,
 
 [b]True AI improvements.[/b] We accelerated Deity AIs' Science Victory by ~100T without any additional cheats while kept turns needed to win for human players. This mod might be the first overhaul mod that take AI performance into consideration. 
 
-[b]Stability and performance.[/b] This mod kept conservasive about adding new contents to prevent the gameplay from being messed - more importantly, this mod won't slow down late game to an unacceptable extent or unstabilize the game to make it crash more. It's also multiplayer compatible.
+[b]Stability and performance.[/b] This mod kept conservative about adding new contents to prevent the gameplay from being messed - more importantly, this mod won't slow down late game to an unacceptable extent or un-stabilize the game to make it crash more. It's also multiplayer compatible.
 
 [h1]Detailed Changes[/h1]
 
@@ -90,9 +92,9 @@ Buildings, wonders and districts: Lowered cost of buildings, wonders and distric
 
 Techs and civics: Tweaked prerequisites of some techs and civics. Lowered the difficulty to acquire a late-game boost while increased the difficulty to acquire an early-game one. It is no longer wise to try to let all techs and civics boosted before you unlock them.
 
-Religions: Overhauled Pantheons and Beliefs. Boosted natural spread of religions to reduce player operations needed to achieve a Religious Victory, and nerfed the ability of religions to win an early-game Cultural Victory.
+Religions: Overhauled Pantheons and Beliefs. Boosted natural spread of religions to reduce player operations needed to achieve a Religious Victory and nerfed the ability of religions to win an early-game Cultural Victory.
 
-Governemnts and policies: Rebalanced all governments, buffed policies of little use, and integrated late-game policies to let them cost less slots (thus strengthening them).
+Governments and policies: Rebalanced all governments, buffed policies of little use, and integrated late-game policies to let them cost less slots (thus strengthening them).
 
 Great people: Buffed underpowered great people to let all of them valuable.
 
@@ -104,11 +106,13 @@ AI performance: Greatly improved high-difficulty AI's performance to achieve a S
 
 Civs, leaders and city-states: Reduced generic bonuses of all city-states and balanced unique bonuses of city-states to reduce variance of randomly placed city-states while keeping them unique. Buffed underpowered and boring civs and leaders, and nerfed overpowered leaders with ugly numbers.
 
-We are still assessing these changes and are going to continuously tweak them based on our results and your feedbacks.
+We are still assessing these changes and are going to continuously tweak them based on our results and your feedback.
 
 [h1]Known Issue[/h1]
 
 Newly added buildings are lack of icons and 3D models due to insufficient art asset and the work needed to add them into the game. We currently have no plan to add them by ourselves, but if you have the asset needed or even able to add them into the game, feel free to contact us.
+
+We need a better name for this mod and we hope that its name just looks like one for a real official expansion!
 
 [h1]Introducing Shimamura et al.[/h1]
 
