@@ -182,7 +182,7 @@
 			<Text>One tile impassable natural wonder. Provides +2 [ICON_Production] Production and +2 [ICON_GOLD] Gold to adjacent tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_FEATURE_EYE_OF_THE_SAHARA_XP2_DESCRIPTION" Language="en_US">
-			<Text>Three tile natural wonder. Provides +4 [ICON_PRODUCTION] Production and +1 [ICON_SCIENCE] Science. After the game reaches the Atomic Era it provides an additional +1 [ICON_PRODUCTION] Production and +2 [ICON_SCIENCE] Science.</Text>
+			<Text>Three tile natural wonder. Provides +4 [ICON_PRODUCTION] Production and +1 [ICON_SCIENCE] Science. After the game reaches the Industrial Era it provides an additional +1 [ICON_PRODUCTION] Production and +2 [ICON_SCIENCE] Science.</Text>
 		</Replace>
 		<Replace Tag="LOC_FEATURE_GOBUSTAN_DESCRIPTION" Language="en_US">
 			<Text>Three tile natural wonder. It provides +4 [ICON_CULTURE] Culture and +2 [ICON_Production] Production.</Text>
