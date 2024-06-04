@@ -1433,6 +1433,9 @@
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="en_US">
 			<Text>All Offshore Wind Farms, Solar Farms, Wind Farms, and Geothermal Plants in this city receive +2 [ICON_POWER] Power and +2 [ICON_Gold] Gold. Hydroelectric Dams in this city provide an additional +2 [ICON_POWER] Power to all cities within 6 tiles. +2 [ICON_Gold] Gold to this city's tiles next to a river.</Text>
 		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION" Language="en_US">
+			<Text>Can be assigned to a city-state, where she acts as 3 [ICON_Envoy] Envoys.</Text>
+		</Replace>
 		<!--Dedications and Ages-->
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2" Language="en_US">
 			<Text>{LOC_MOMENT_CATEGORY_SCIENTIFIC}: {LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED} If chosen at the start of a Golden Age, {LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED} Classical and Medieval Era.</Text>

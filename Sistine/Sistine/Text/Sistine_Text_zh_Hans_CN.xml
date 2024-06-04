@@ -1433,6 +1433,9 @@
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城所有离岸风力发电厂、太阳能农场、风力发电厂及地热发电厂+2 [ICON_POWER] 电力、+2 [ICON_Gold] 金币。此城的水力发电坝向6单元格内的城市提供额外+2 [ICON_POWER] 电力。此城沿河单元格+2 [ICON_Gold] 金币。</Text>
 		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可派遣至城邦，效力等同于3名 [ICON_Envoy] 使者。</Text>
+		</Replace>
 		<!--Dedications and Ages-->
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
 			<Text>“{LOC_MOMENT_CATEGORY_SCIENTIFIC}”：{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_NORMAL_AGE_SHARED}在黄金时代开始时选择此着力点后：{LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE_SHARED}可在古典和中古时代中选择。</Text>
