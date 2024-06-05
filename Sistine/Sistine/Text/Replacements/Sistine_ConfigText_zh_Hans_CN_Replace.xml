@@ -214,9 +214,6 @@
 		<Replace Tag="LOC_LEADER_BASIL_NAME" Language="zh_Hans_CN">
 			<Text>巴西尔二世</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_BYZANTINE_TAGMA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>巴西尔二世的特色中古时代单位，替代骑士。甲胄骑兵1单元格范围内的陆地单位+4 [ICON_Strength] 战斗力或 [ICON_RELIGION] 宗教战斗力。</Text>
-		</Replace>
 		<Replace Tag="LOC_BYZANTIUM_GAUL_MOD_TEASER" Language="zh_Hans_CN">
 			<Text>新文明和领袖——拜占庭的巴西尔二世和高卢的安比奥里克斯</Text>
 		</Replace>
@@ -463,7 +460,7 @@
 			<Text>瓦良格卫队</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_NAME" Language="zh_Hans_CN">
-			<Text>麦罗埃的女王</Text>
+			<Text>麦罗埃女王</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_NAME" Language="zh_Hans_CN">
 			<Text>彼得大使团</Text>
@@ -627,7 +624,7 @@
 			<Text>安第斯路网</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造{LOC_LEADER_PACHACUTI_NAME}特色改良设施{LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME}的能力。[NEWLINE][NEWLINE]作为一组山脉中的移动通道使用，单位可消耗2点 [ICON_Movement] 移动力从一个点进入，再从另一个点走出。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。只能建在与山脉相邻的单元格上。无法被掠夺或移除。</Text>
+			<Text>解锁建造者建造{LOC_LEADER_PACHACUTI_NAME}特色改良设施{LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME}的能力。[NEWLINE][NEWLINE]可用作在一组山脉中移动的通道，单位可消耗2点 [ICON_Movement] 移动力从一个点进入，再从另一个点走出。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。只能建在与山脉相邻的单元格上。无法被掠夺或移除。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造埃塞俄比亚特色改良设施独石教堂的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值。每与1个山脉和丘陵单元格相邻，便+1 [ICON_Faith] 信仰值。研究“飞行”后可根据 [ICON_FAITH] 信仰值提供 [ICON_TOURISM] 旅游业绩。+1魅力。只能被自然灾害掠夺（无法被摧毁）。只能建在丘陵或火山土上，不能与另一座独石教堂相邻。</Text>
@@ -1026,6 +1023,44 @@
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NOT_NEIGHBOR" Language="zh_Hans_CN">
 			<Text>六天夫人很高兴您的定居点远离她的帝国。</Text>
+		</Replace>
+		
+		<!--Leader unique items retranslated-->
+		<Replace Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>埃莉诺的城市中的每件巨作可使9单元格内的外国城市每回合-1忠诚度。一座城市因忠诚度损失而离开另一文明时，若其每回合接受的对埃莉诺的文明的忠诚度压力高于对其它文明的，则会跳过自由城市阶段，直接加入她的文明。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>工业时代法国特色近战单位，替代线列步兵。在首都所处大陆作战时+10 [ICON_Strength] 战斗力。击杀单位后将获得 [ICON_GreatGeneral] 大将军点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_TA_SETI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产远程单位时+30% [ICON_Production] 生产力。所有远程单位获得+50%战斗经验值。建在战略资源上的矿山提供+1 [ICON_Production] 生产力。建在加成和奢侈资源上的矿山提供+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_AMBIORIX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您的文明每次生产一个非平民单位，便获得等同于该单位成本20%的 [ICON_CULTURE] 文化值。近战、反骑兵和远程单位每与1个单位相邻便获得+2 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GAUL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>矿山为所有区域提供少量相邻加成、对无主领土施放文化炸弹，并+1 [ICON_CULTURE] 文化值。专业化区域与其他区域相邻时不获得少量相邻加成，也无法建在市中心旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_OPPIDUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>高卢特色区域，比其所替代的工业区更早解锁，且成本更低。奥皮杜姆区域具有防御能力，且可执行远程攻击。首次建成奥皮杜姆，即可解锁“学徒制度”科技。[NEWLINE][NEWLINE]每与1个采石场或战略资源相邻便+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GAUL_GAESATAE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>高卢特色远古时代单位，替代勇士。此单位成本更高，与基础战斗力更高的单位作战时+10 [ICON_Strength] 战斗力。进攻区域防御时+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BASIL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击与拜占庭信仰同一宗教的城市时，轻重骑兵将输出全额伤害。解锁“君权神授”市政后将获得特色单位“拜占庭皇家近卫军”。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每有1座圣城皈依拜占庭的宗教（含拜占庭的圣城），单位便获得+3 [ICON_Strength] 战斗力或 [ICON_Religion] 宗教战斗力。击杀敌方文明或城邦的单位时，拜占庭的宗教将传播到附近的城市。有圣地区域的城市提供+1 [ICON_GreatProphet] 大预言家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BYZANTINE_DROMON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拜占庭特色古典时代单位，替代四列桨座战船。射程更大，与单位作战时+10 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BYZANTINE_TAGMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>巴西尔二世的特色中古时代单位，替代骑士。拜占庭皇家近卫军1单元格内的陆地单位获得+4 [ICON_Strength] 战斗力或 [ICON_RELIGION] 宗教战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>越南特色区域，替代军营。每与1个区域相邻，则+2 [ICON_CULTURE] 文化值。研究飞行科技后，将获得与 [ICON_CULTURE] 文化值产出相等的 [ICON_TOURISM] 旅游业绩。此区域不需要人口，建造花费更低，无法建在市中心旁，不提供 [ICON_GreatPerson] 伟人点数，且不属于专业化区域。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
