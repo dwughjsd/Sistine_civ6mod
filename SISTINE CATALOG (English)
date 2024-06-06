@@ -1,0 +1,2658 @@
+TITLE (标题)
+Official Title: 鉴古维新 (lit. "Refer to the classics and to renovate")
+English Title: Project Sistine
+Updated: 2024-06-07, 03:11 [UTC+8]
+
+GUIDE (指南)
+- Underline = Reworked
+- Italic Underline = New Addition
+- Statistics are counted in totality. (Ex. "+2 Gold. Increasing to +6 Gold when powered." instead of "+2 Gold. +4 Gold when powered.")
+- Concerning infrastructure categories, when "all" is mentioned, it is to be assumed that the bonus is empire-wide. When "all" is not mentioned, the bonus applies only to its city.
+- Similarly for categories concerning great people, as well as policies, civilization & leader abilities, their bonuses are to be assumed to be empire-wide unless specified otherwise.
+- BS = Bombard Strength.
+- CC = Culture Cost.
+- CS = Combat Strength.
+- PC = Production Cost.
+- RS = Ranged Strength.
+- SC = Science Cost.
+
+CONTENTS (目录)
+1. Ages (时代)
+2. Buildings (建筑)
+3. City-States (城邦)
+4. Civilizations & Leaders (文明和领袖)
+5. Districts (区域)
+6. Game Modes (游戏模式)
+7. Gameplay (游戏玩法)
+8. Governments (政体)
+9. Governors (总督)
+10. Great People (伟人)
+11. Improvements (改良设施)
+12. Policies (政策)
+13. Projects (项目)
+14. Religion (宗教)
+15. Resources (资源)
+16. Technologies & Civics (科技和市政)
+17. Terrain (地形)
+18. Units (单位)
+19. Wonders (奇观)
+
+OVERVIEW (摘要)
+AGES (时代)
+Dedications
+Bodyguard of Lies
+- Spies operate 4 levels higher offensively.
+- +2 technologies.
+- +1 civic.
+Exodus of the Evangelists
+- Religious units ignore Zone of Control.
+- +50% religious pressure per Holy Site building.
+Free Inquiry
+- Eurekas no longer grant +10% of technology costs.
+- +1 Science to tiles beside rivers.
+- +1 Science to Coast and Ocean tiles.
+Heartbeat of Steam
+- +2 Culture to powered Culture buildings.
+- +2 Gold to powered Gold buildings.
+- +2 Science to powered Science buildings.
+- +2 Food to powered Food buildings.
+- +2 Production to powered Production buildings.
+- +10% Science per Campus building.
+Hic Sunt Dracones
+- Cities not on the Capital's continent no longer start with bonus Population.
+- +8 Food to cities not on the Capital's continent.
+- +20% Production to cities not on the Capital's continent.
+Monumentality
+- +6 Production from districts.
+- +6 Production from buildings.
+Pen, Brush, and Voice
+- Inspirations no longer grant +10% of civic costs.
+- +1 Culture to positive appeal tiles.
+- +4 Great Writer points.
+Reform the Coinage
+- +2 Gold per specialty district in destination city to international Trade Routes.
+To Arms!
+- No longer gets +15% Production to military units.
+- +1 Production per Population to cities with Encampments.
+Wish You Were Here
+- +100% Production to Wonders.
+Era Score
+- Great Person Recruited = 4
+- Old Great Person Recruited = 3
+- Unique Building Completed = 2
+- Unique Improvement Completed = 2
+
+BUILDINGS (建筑)
+Aerodrome Buildings
+Airport
+- Unlocked by Radio technology.
+- +2 Production.
+- +50% Tourism to Great Works.
+- +50% Tourism to Improvements.
+- +50% Tourism to National Parks.
+- +50% Tourism to Wonders.
+- 480 PC -> 650 PC.
+Hangar
+- +50% Tourism to Great Works.
+- +50% Tourism to Improvements.
+- +50% Tourism to National Parks.
+- +50% Tourism to Wonders.
+- 380 PC -> 445 PC. 
+Campus Buildings
+Library
+- No longer provides base Science.
+- +0.5 Science per Population.
+- 90 PC -> 85 PC
+Madrasa
+- Has the changes to the University.
+- +4 Science.
+Navigation School
+- Has the changes to the University.
+- +2 Science.
+Public School
+- Unlocked by Scientific Theory technology.
+- Campus building.
+- Production Cost: 400
+- Gold Maintenance: 3
+- +1 Citizen slot.
+- Required for Research Lab.
+- Requires University.
+- +3 Science.
+- +2 Science from Specialists.
+- +0.5 Science per Population.
+- +1 Great Scientist point.
+Research Lab
+- Gold Maintenance: 4
+- Effects apply to cities within 6 tiles.
+- Unlocked by the Computers technology.
+- No longer requires University.
+- Requires Public School.
+- No longer provides base Science.
+- +4 Science when powered.
+- Specialists no longer provide Science.
+- Bonus Science equal to Campus adjacency.
+- +33% Science
+- Increased to +67% Science when powered.
+- +1 Science per Scientific City-State with 6 Envoys.
+University
+- No longer required for Research Lab.
+- Required for Public School.
+- +2 Science.
+- +33% Science.
+- +1 Science per Scientific City-State with 3 Envoys.
+- 250 PC -> 240 PC.
+City Center Buildings
+Ancient Walls
+- 80 PC -> 70 PC.
+Flood Barrier
+- Production cost no longer goes up when flooding.
+- 80 PC -> 650 PC.
+Granary
+- +1 Food to Deer and Bananas.
+- 65 PC -> 60 PC.
+Hospital
+- Unlocked by Sanitation technology.
+- City Center building.
+- Production Cost: 400
+- +2 Housing.
+- Gold Maintenance: 2
+- Requires Sewer.
+- Required for Medical Lab.
+- +6 Food.
+- +50% Growth.
+Medical Lab
+- Unlocked by Plastics technology.
+- City Center building.
+- Production Cost: 520
+- Effects apply to cities within 6 tiles.
+- +3 Housing.
+- Gold Maintenance: 3
+- Requires 3 Power.
+- Requires Hospital.
+- +3 Food.
+- Increased to +9 Food when powered.
+- +50% Growth.
+- Increased to +100% Growth when powered.
+Medieval Walls
+- 220 PC -> 215 PC.
+Monument
+- 60 PC -> 50 PC.
+Palace
+- +1 Culture -> +2 Culture
+- +2 Science -> +3 Science.
+- +2 Production -> +3 Production.
+- +5 Gold -> +6 Gold.
+Palgum
+- Has the changes to the Water Mill.
+Renaissance Walls
+- 300 PC -> 300 PC.
+Sewer
+- Unlocked by Engineering technology.
+- +1 Housing.
+- Gold Maintenance: 1
+- Required for Hospital.
+- +50% Growth.
+Tsikhe
+- 260 PC -> 240 PC.
+Water Mill
+- 80 PC -> 70 PC.
+Commercial Hub Buildings
+Bank
+- +2 Gold.
+- +25% Gold.
+- +2 Gold per Trade City-State with 3 Envoys.
+- 290 PC -> 290 PC.
+Grand Bazaar
+- Has the changes to the Bank.
+- 220 PC -> 230 PC.
+Market
+- +1 Gold.
+- +25% Gold.
+- 120 PC -> 120 PC.
+Stock Exchange
+- Effects apply to cities within 6 tiles.
+- No longer provides base Gold.
+- +3 Gold when powered.
+- +4 Gold from Specialists.
+- Bonus Gold equal to Commercial Hub adjacency.
+- +25% Gold.
+- Increased to +50% Gold when powered.
+- +2 Gold per Trade City-State with 6 Envoys.
+- 330 PC -> 400 PC.
+Sukiennice
+- Has the changes to the Market.
+- +6 Gold to domestic Trade Routes.
+- +3 Production to international Trade Routes.
+Dam Buildings
+Hydroelectric Dam
+- Now powers cities within 6 tiles.
+- 440 PC -> 520 PC.
+Diplomatic Quarter Buildings
+Chancery
+- +1 Science per Scientific City-States with 6 Envoys.
+- +1 Faith per Religious City-State with 6 Envoys.
+- +2 Gold per Trade City-State with 6 Envoys.
+- +1 Culture per Cultural City-State with 6 Envoys.
+- +1 Production to units per Militaristic City-State with 6 Envoys.
+- +1 Production to infrastructure per Industrial City-State with 6 Envoys.
+- 290 PC -> 290 PC.
+Consulate
+- +1 Science per Scientific City-State with 3 Envoys.
+- +1 Faith per Religious City-State with 3 Envoys.
+- +2 Gold per Trade City-State with 3 Envoys.
+- +1 Culture per Cultural City-State with 3 Envoys.
+- +1 Production to units per Militaristic City-State with 3 Envoys.
+- +1 Production to infrastructure per Industrial City-State with 3 Envoys.
+- 150 PC -> 135 PC.
+Encampment Buildings
+Armory
+- +1 Production to units per Militaristic City-State with 3 Envoys.
+- 195 PC -> 195 PC.
+- +25% combat experience to recon units.
+Barracks
+- 90 PC -> 85 PC.
+- +25% combat experience to recon units.
+Basilikoi Paides
+- Has the changes to the Barracks.
+Ordu
+- Has the changes to the Stable.
+Stable
+- +1 Production to Pastures.
+- 120 PC -> 120 PC.
+Military Academy
+- +1 Production and +2 Gold from Specialists.
+- +1 Production to units per Militaristic City-State with 6 Envoys.
+- 330 PC -> 400 PC.
+- +25% combat experience to recon units.
+Entertainment Complex Buildings
+Arena
+- 150 PC -> 135 PC.
+Stadium
+- Unlocked by Mass Media civic.
+- +2 Amenities.
+- +10 Tourism when Population is 10.
+- Increased to +20 Tourism when Population is 20.
+- 480 PC -> 540 PC.
+Thermal Bath
+- Has the changes to the Zoo.
+- +3 Amenities.
+Tlachtli
+- +3 Faith.
+- +3 Culture.
+- 135 PC -> 125 PC.
+Zoo
+- Unlocked by Exploration civic.
+- To cities within 6 tiles: +1 Amenity -> +2 Amenity.
+- 360 PC -> 275 PC.
+Government Plaza Buildings
+Ancestral Hall
+- +50% Production to Settlers in its city.
+- Grants one extra charge to Builders trained in its city.
+- +1 Builder when constructed.
+- +1 Settler when constructed.
+- 150 PC -> 135 PC.
+Audience Chamber
+- No longer -2 Loyalty to cities without Governors.
+- +2 Food to all cities with a Governor.
+- Free Sewers to all cities until at least 4 Sewers exist.
+- 150 PC -> 135 PC.
+Foreign Ministry
+- +4 Envoys when constructed.
+- +50% Gold discount upgrading levied units.
+- 290 PC -> 290 PC.
+Grand Master's Chapel
+- Bonus Culture to Holy Sites equal to their adjacency.
+- 290 PC -> 290 PC.
+Intelligence Agency
+- +1 level of Diplomatic Visibility on everyone.
+- 290 PC -> 290 PC.
+National History Museum
+- +25% Tourism towards civilizations you have a Trade Route to.
+- +1 Great Artist when constructed.
+- 440 PC -> 520 PC.
+Royal Society
+- +1 technology when constructed.
+- 440 PC -> 520 PC.
+War Department
+- +4 Combat Strength to attacking units.
+- 25% resource discount to all unit upgrades.
+- 25% Gold discount to all unit upgrades.
+- 440 PC -> 520 PC.
+Warlord's Throne
+- Killed enemy units grant Culture equal to 50% of their Combat Strength.
+- +1 Great General when constructed.
+- 150 PC -> 135 PC.
+Harbor Buildings
+Lighthouse
+- +1 Food to Crabs and Fish.
+- 120 PC -> 120 PC.
+Seaport
+- No longer provides base Food.
+- +2 Gold and +1 Food from Specialists.
+- +1 Production to Coast tiles.
+- +2 Gold per Trade City-State with 6 Envoys.
+- 440 PC -> 520 PC.
+Shipyard
+- +1 Production to Coast tiles.
+- +2 Gold per Trade City-State with 3 Envoys.
+- 290 PC -> 290 PC.
+Holy Site Buildings
+Cathedral
+- +2 Faith from Specialists.
+- +1 slot for Relics.
+- +1 Faith per Religious City-State with 6 Envoys.
+- 190 PC -> 195 PC.
+Dar-e Mehr
+- +2 Faith from Specialists.
+- +1 slot for Relics.
+- +1 Faith per Religious City-State with 6 Envoys.
+- 190 PC -> 195 PC.
+Gurdwara
+- +2 Faith from Specialists.
+- +1 slot for Relics.
+- +1 Faith per Religious City-State with 6 Envoys.
+- 190 PC -> 195 PC.
+Meeting House
+- +2 Faith from Specialists.
+- +1 slot for Relics.
+- +1 Faith per Religious City-State with 6 Envoys.
+- 190 PC -> 195 PC.
+Mosque
+- +2 Faith from Specialists.
+- +1 slot for Relics.
+- +1 Faith per Religious City-State with 6 Envoys.
+- 190 PC -> 195 PC.
+Pagoda
+- +2 Faith from Specialists.
+- +1 slot for Relics.
+- +1 Faith per Religious City-State with 6 Envoys.
+- 190 PC -> 195 PC.
+Prasat
+- Has the changes to the Temple.
+- +4 Faith from Specialists.
+- No longer provides any Tourism based on Population.
+Shrine
+- 70 PC -> 65 PC
+Stave Church
+- Has the changes to the Temple.
+Stupa
+- +2 Faith from Specialists.
+- +1 slot for Relics.
+- +1 Faith per Religious City-State with 6 Envoys.
+- 190 PC -> 195 PC.
+Synagogue
+- +2 Faith from Specialists.
+- +1 slot for Relics.
+- +1 Faith per Religious City-State with 6 Envoys.
+- 190 PC -> 195 PC.
+Temple
+- +1 Faith per Religious City-State with 3 Envoys.
+- Slot for Relics removed.
+- 120 PC -> 120 PC.
+Wat
+- +2 Faith from Specialists.
+- +1 slot for Relics.
+- +1 Faith per Religious City-State with 6 Envoys.
+- 190 PC -> 195 PC.
+Industrial Zone Buildings
+Coal Power Plant
+- Specialists no longer provide Production.
+- +1 Production to infrastructure per Industrial City-State with 6 Envoys.
+- 300 PC -> 400 PC.
+Electronics Factory
+- Has the changes to the Factory.
+- +4 Production.
+Factory
+- Required for Manufacturing Plant.
+- +3 Production.
+- Increased to +6 Production when powered.
+- +2 Production from Specialists.
+- +10% Production.
+- Increased to +25% Production when powered.
+- +1 Production to infrastructure per Industrial City-State with 3 Envoys.
+- 330 PC -> 400 PC.
+Manufacturing Plant
+- Unlocked by Robotics technology.
+- Industrial Zone building.
+- Gold Maintenance: 4
+- +1 Citizen slot.
+- Effects apply to cities within 6 tiles.
+- Production Cost: 785
+- Requires 3 Power.
+- Requires Factory.
+- +3 Production when powered.
+- Bonus Production equal to Industrial Zone adjacency.
+- +15% Production when powered.
+- +1 Great Engineer point.
+- +50% Production to projects when powered.
+Nuclear Power Plant
+- +5 Production.
+- Specialists no longer provide Production.
+- +1 Production to infrastructure per Industrial City-State with 6 Envoys.
+- 480 PC -> 650 PC.
+Oil Power Plant
+- +4 Production.
+- Specialists no longer provide Production.
+- +1 Production to infrastructure per Industrial City-State with 6 Envoys.
+- 360 PC -> 520 PC.
+Workshop
+- +2 Production.
+- +1 Production to Copper and Stone.
+- +10% Production.
+- 195 PC -> 195 PC.
+Neighborhood Buildings
+Food Market
+- No longer requires Power.
+- Required for Shopping Mall.
+- +4 Food.
+- No longer provides bonus Food when powered.
+- 360 PC -> 360 PC.
+Shopping Mall
+- Gold Maintenance: 2
+- Requires 3 Power.
+- +1 Amenity when powered.
+- Requires Food Market.
+- +4 Gold.
+- Increased to +8 Gold when powered.
+- +10 Tourism when Population is 10.
+- Increased to +20 Tourism when Population is 20.
+- 440 PC -> 520 PC.
+Preserve Buildings
+Grove
+- 150 PC -> 110 PC.
+Sanctuary
+- Unlocked by Scientific Theory technology.
+- 440 PC -> 400 PC.
+Theater Square Buildings
+Amphitheater
+- No longer provides base Culture.
+- +2 Great Writer points.
+- +2 Culture per specialty district.
+- 150 PC -> 135 PC.
+Archaeological Museum
+- Not required for Broadcast Center.
+- Required for Opera House.
+- No longer provides Great Writer points.
+- +2 Culture per specialty district.
+- +1 Culture per Cultural City-State with 3 Envoys.
+- 290 PC -> 290 PC.
+Art Museum
+- Not required for Broadcast Center.
+- Required for Opera House.
+- No longer provides Great Writer points.
+- +2 Culture per specialty district.
+- +1 Culture per Cultural City-State with 3 Envoys.
+- 290 PC -> 290 PC.
+Broadcast Center
+- Gold Maintenance: 6
+- Effects apply to cities within 6 tiles.
+- No longer requires Art or Archaeological Museum.
+- Requires Opera House.
+- No longer provides base Culture.
+- +3 Culture when powered.
+- Specialists no longer provide Culture.
+- Bonus Culture equal to Theater Square adjacency.
+- +33% Culture.
+- Increased to +67% Culture when powered.
+- No longer provides Great Artist points.
+- +2 Great Musician points.
+- +1 Culture per Cultural City-State with 6 Envoys.
+- 440 PC -> 520 PC.
+Film Studio
+- Has the changes to the Broadcast Center.
+- +1 Great Musician point.
+Marae
+- Has the changes to the Amphitheater.
+Opera House
+- Unlocked by Opera and Ballet civic.
+- Theater Square building.
+- Production Cost: 400
+- Gold Maintenance: 3
+- +1 Citizen slot.
+- Requires Art Museum or Archaeological Museum.
+- Required for Broadcast Center.
+- +3 Culture.
+- +2 Culture from Specialists.
+- +33% Culture.
+- +2 Great Musician points.
+- +1 slot for Great Works of Music.
+Water Park Buildings
+Aquarium
+- +3 Amenities.
+- 360 PC -> 420 PC.
+Aquatics Center
+- +3 Amenities.
+- Increased to +6 Amenities when powered.
+- +5 Tourism to coastal or lake Wonders.
+- 660 PC -> 650 PC.
+Ferris Wheel
+- +2 Amenities.
+- 290 PC -> 290 PC.
+
+CITY-STATES (城邦)
+Cultural City-States
+Kumasi
+- No longer provides Gold to Trade Routes.
+Nan Madol
+- +1 Culture to districts beside Coast or Lake tiles.
+Industrial City-States
+Auckland
+- +1 Production to Coast tiles with Industrial Zones.
+- Increased in the Industrial Era to +2 Production to Coast tiles with Industrial Zones.
+Brussels
+- +15% Production to buildings.
+Cardiff
+- +2 Production to cities with Lighthouses.
+- +2 Production to cities with Shipyards.
+- +2 Production to cities with Seaports.
+Hong Kong
+- +30% Production to projects.
+Johannesburg
+- +1 Production to improved resources with Industrial Zones.
+- Increased with Industrialization technology to +2 Production to improved resources with Industrial Zones.
+Singapore
+- +3 Production for each foreign civilization the origin city has a Trade Route to.
+Militaristic City-States
+Akkad
+- Anti-cavalry units no longer damage walls fully.
+Ngazargamu
+- Encampment buildings now cost 15% less Gold.
+Preslav
+- +5 Combat Strength to light and heavy cavalry units fighting on Hills.
+Wolin
+- +2 Great General points.
+- +2 Great Admiral points.
+Religious City-States
+Chinguetti
+- +2 Faith to international Trade Routes per specialty district in destination city.
+Jerusalem
+- Cities with Holy Sites exert 100% stronger religious pressure.
+Vatican City
+- +1 Great Writer points from Holy Sites.
+- +1 Great Artist points from Holy Sites.
+- +2 Faith from Great Works of Writing.
+- +2 Faith from Great Works of Art.
+Scientific City-States
+Fez
+- +30 Science per Population for converting a city for the first time.
+Mitla
+- +1 Food to Farms with Campuses. (Needs verification)
+Trade City-States
+Bandar Brunei
+- +3 Gold from Trading Posts in foreign cities per Trade Route going to or passing through.
+Hunza
+- +1 Gold to Trade Routes for every 3 tiles traveled.
+Mogadishu
+- +2 Trade Route capacity.
+Muscat
+- +1 Amenity from Banks.
+Venice
+- +3 Gold for each luxury resource at the destination city to international Trade Routes.
+
+CIVILIZATIONS & LEADERS (文明和领袖)
+America
+Teddy Roosevelt (Bull Moose)
+- Cities founded on Breathtaking tiles get a free Naturalist.
+- +1 Culture beside a Wonder or Woods.
+- +1 Science beside a Natural Wonder or Mountains.
+- +2 Appeal to cities with a National Park.
+Aztec
+- Spending 1 Builder charge completes 50% of a district's Production cost.
+Montezuma
+- Luxury resources provide Amenities to 1 extra city.
+Babylon
+- -80% Science.
+Brazil
+Pedro II
+- Receives free Great Person points every new era. (Scales)
+Byzantium
+- +2 Combat Strength for each Holy City converted to founded religion.
+- +2 Religious Strength for each Holy City converted to founded religion.
+China
+Wu Zetian
+- Successful espionage missions grant +400% of the Science the target city produced that turn.
+- Successful espionage missions grant +400% of the Culture the target city produced that turn.
+- Successful espionage missions grant +400% of the Faith the target city produced that turn.
+Yongle
+- +0.5 Science per Population in cities with at least 10 Population.
+- +0.5 Culture per Population in cities with at least 10 Population.
+- +1 Gold per Population in cities with at least 10 Population.
+Egypt
+Cleopatra (Egyptian)
+- Now has the Arrival of Hapi ability.
+Cleopatra (Ptolemaic)
+- Now has the Mediterranean's Bride ability.
+- +2 Science from Trade Routes sent by others.
+- +2 Production to international Trade Routes.
+- +2 Gold to international Trade Routes.
+Ramses II
+- +2 Production to buildings.
+- When a wonder is built, receive bonus Culture equal to 50% of its cost.
+- When a building is built, receive bonus Culture equal to 25% of its cost.
+England
+Eleanor of Aquitaine
+- Nearby foreign cities lose -2 Loyalty per owned Great Work.
+Victoria (Age of Steam)
+- Manufacturing Plants integrated into Age of Steam ability.
+- +2 Production to strategic resources if they are improved.
+- +5% Production per Industrial Zone building.
+France
+- +2 Culture to specialty districts from Medieval to Industrial eras.
+Eleanor of Aquitaine
+- Nearby foreign cities lose -2 Loyalty per owned Great Work.
+Gaul
+Ambiorix
+- +1 Combat Strength per adjacent unit to melee units.
+- +1 Combat Strength per adjacent unit to ranged units.
+- +1 Combat Strength per adjacent unit to anti-cavalry units.
+Georgia
+Tamar
+- Bonus Faith equal to 40% of unit cost when new unit is trained.
+Gran Colombia
+- +1 Movement with Military Training civic.
+Hungary
+Matthias Corvinus
+- 50% discount to upgrading levied units.
+Indonesia
+Gitarja
+- +2 Culture to City Centers.
+Khmer
+- +0.5 Faith per Population in cities with an Aqueduct.
+Jayavarman VII
+- Holy Sites no longer have a +2 adjacency to rivers.
+- Holy Sites now only grant bonus Food equal to their adjacency if beside a river.
+- +1 Housing to Holy Sites beside a river.
+Kongo
+- No longer get Great Prophet points.
+Korea
+Seondeok
+- +3 Culture to cities with Governors.
+- +3 Science to cities with Governors.
+Mali
+Sundiata Keita
+- +1 Great Writer points from Commercial Hubs.
+- 50% Gold discount buying Great People.
+- +6 Gold from Great Works of Writing.
+- +3 Production from Great Works of Writing.
+Maya
+- Tier 1 starting bias towards Maize.
+- No longer has any starting bias towards Grassland or Plains tiles.
+Netherlands
+Wilhelmina
+- +4 Culture from Trade Routes sent by allies.
+- +4 Culture from Trade Routes sent by suzerained city-states.
+- +4 Loyalty to the starting city from domestic Trade Routes.
+Nubia
+Amanitore
+- +20% Production to buildings.
+- Increases to +40% Production if a Nubian Pyramid is beside the City Center.
+Ottomans
+Suleiman (Muhteşem)
+- 15% yields when in a Golden or Heroic Age.
+Phoenicia
+Dido
+- +50% Production to the Government Plaza.
+- +50% Production to buildings in cities with a Government Plaza.
+Poland
+Jadwiga
+- +3 Faith to the Palace.
+Russia
+Peter
+- +1 Culture to international Trade Routes.
+- +1 Science to international Trade Routes.
+- +1 Science and Culture per technology or civic respectively behind in to Trade Routes.
+Scotland
+- +10% Science when city is Happy.
+- Increased to +20% Science when Ecstatic.
+- +10% Production when city is Happy.
+- Increased to +20% Production when Ecstatic.
+Robert the Bruce
+- +20% Production in founded cities.
+- -20% Production in conquered cities.
+Spain
+- +2 Gold to Trade Routes.
+- Increased to +6 Gold if Trade Routes are intercontinental.
+- +1 Faith to Trade Routes.
+- Increased to +3 Gold if Trade Routes are intercontinental.
+Sweden
+- +2 Great Scientist points from Universities.
+- +2 Great Engineer points from Factories.
+Vietnam
+- +1 Culture to districts on Woods.
+- +1 Science to districts on Rainforests.
+- +1 Production to districts on Marshes.
+Bà Triệu
+- +3 Combat Strength to units in Woods, Rainforest, or Marsh.
+- Increases to +6 Combat Strength in home territory.
+
+DISTRICTS (区域)
+Non-Specialty Districts
+Neighborhood
+- +4 Food with Food Markets.
+- +4 Gold with Shopping Malls.
+- Increases to +8 Gold with Shopping Malls when powered.
+- 54 PC -> 40 PC.
+Specialty Districts
+Aqueduct
+- 36 PC -> 30 PC.
+Campus
+- +3 Science from Specialists.
+- +1 Gold to incoming international Trade Routes.
+- 54 PC -> 40 PC.
+Canal
+- 81 PC -> 60 PC.
+Commercial Hub
+- +6 Gold from Specialists.
+- 54 PC -> 40 PC.
+Dam
+- 81 PC -> 60 PC.
+Diplomatic Quarter
+- +1 Gold to incoming international Trade Routes.
+- 30 PC -> 40 PC.
+Encampment
+- +2 Production from Specialists.
+- +1 Gold to incoming international Trade Routes.
+- 54 PC -> 40 PC.
+Entertainment Complex
+- +1 Gold to incoming international Trade Routes.
+- 54 PC -> 40 PC.
+Government Plaza
+- 30 PC -> 40 PC.
+- +1 Gold to incoming international Trade Routes.
+- No longer provides any Loyalty.
+- +10 Science.
+- +10 Culture.
+- +10 Gold.
+- +10 Faith.
+- +10 Production.
+Harbor
+- 54 PC -> 40 PC.
+- +2 Food from Specialists.
+Holy Site
+- 54 PC -> 40 PC.
+- +3 Faith from Specialists.
+- +1 Gold to incoming international Trade Routes.
+Industrial Zone
+- 54 PC -> 40 PC.
+- +3 Production from Specialists.
+- +1 Gold to incoming international Trade Routes.
+- Removed +1 Production adjacency per strategic resource.
+- +1 Production adjacency per Mine.
+- +2 Production adjacency per Offshore Oil Rig.
+- +2 Production adjacency per Oil Well.
+- +1 Production adjacency per Lumber Mill.
+- +1 Production adjacency per Aqueduct.
+- +1 Production adjacency per Bath.
+- +1 Production adjacency per Canal.
+- +1 Production adjacency per Dam.
+Spaceport
+- 1800 PC -> 1600 PC.
+Theater Square
+- 54 PC -> 40 PC.
+- +3 Culture from Specialists.
+- No longer provides Great Musician points.
+- +1 Culture adjacency on Charming tiles.
+- Increases to +3 Culture on Breathtaking tiles.
+Water Park
+- 54 PC -> 40 PC.
+- +1 Gold to incoming international Trade Routes.
+Unique Non-Specialty Districts
+Bath
+- 18 PC -> 15 PC.
+Unique Specialty Districts
+Acropolis
+- Has the changes to the Theater Square.
+- 27 PC -> 20 PC.
+Cothon
+- Has the changes to the Harbor.
+- 27 PC -> 20 PC.
+Hansa
+- Has the changes to the Industrial Zone.
+- +1 Production adjacency per Offshore Oil Rig.
+- +1 Production adjacency per Oil Well.
+- 27 PC -> 20 PC.
+Ikanda
+- Has the changes to the Encampment.
+- 27 PC -> 20 PC.
+Lavra
+- Has the changes to the Holy Site.
+- +1 Great Prophet point.
+- 27 PC -> 20 PC.
+Observatory
+- Has the changes to the Campus.
+- 27 PC -> 20 PC.
+Oppidum
+- Has the changes to the Industrial Zone.
+- +3 Production from Specialists.
+- +1 Production adjacency per strategic resource.
+- +1 Production adjacency per Mine.
+- +1 Production adjacency per Offshore Oil Rig.
+- +1 Production adjacency per Oil Well.
+- 27 PC -> 20 PC.
+Royal Navy Dockyard
+- Has the changes to the Harbor.
+- +1 Great Admiral point.
+- 27 PC -> 20 PC.
+Seowon
+- Has the changes to the Campus.
+- 27 PC -> 20 PC.
+Suguba
+- Has the changes to the Commercial Hub.
+- 27 PC -> 20 PC.
+Thành
+- Has the changes to the Encampment.
+- 27 PC -> 20 PC.
+
+GAME MODES (游戏模式)
+Heroes & Legends
+- -6 base CS to all Heroes.
+Mulan
+- Receives -10 base CS instead of the usual -6.
+
+GAMEPLAY (游戏玩法)
+- AI decisions tweaked to be more logical.
+- AI now hates on those with different governments way more.
+- Culture costs of civics is tweaked.
+- Difficulty yields and bonuses to AI tweaked.
+- Production cost of all types infrastructure is tweaked.
+- Production cost of all projects is tweaked.
+- Science costs of technologies is tweaked.
+- World Eras are now shorter.
+World Congress
+- World Congress sessions now start in the Industrial Era.
+
+GOVERNMENTS (政体)
+Tier I
+Autocracy
+- The Capital no longer receives +1 of all yields per Palace.
+- The Capital no longer receives +1 of all yields per Government Plaza building.
+- The Capital no longer receives +1 of all yields per Diplomatic Quarter building.
+- +2 Culture to the Palace.
+- +2 Culture to the Government Plaza.
+- +2 Culture to the Diplomatic Quarter.
+- +1 Gold per Population to the Capital.
+- +1 Gold per Population to a city with a Government Plaza.
+- +1 Gold per Population to a city with a Diplomatic Quarter.
+Classical Republic
+- No longer provides +1 Housing.
+- +1 Culture to cities.
+- +10% Great People points.
+Oligarchy
+- +2 Culture to garrisoned cities.
+- +25% unit experience.
+Tier II
+Merchant Republic
+- +15% Gold.
+- +1 Gold per Population in Governor cities.
+- +2 Science from Markets.
+  +2 Science from Banks.
+- +2 Science from Lighthouses.
+- +2 Science from Shipyards.
+Monarchy
+- +15% of all non-Food yields.
+- +2 Food per Walls.
+- +1 Production per Walls.
+- +10% Food to cities.
+Theocracy
+- +4 Religious Strength to units.
+- No longer gets +0.5 Faith per Population in Governor cities.
+- +2 Faith from Shrines.
+- +1 Culture from Shrines.
+- +2 Faith from Temples.
+- +1 Culture from Temples.
+- +4 Combat Strength fighting units from different religions.
+- 20% discount on Faith purchases.
+Tier III
+Communism
+- 2 Military policy slots.
+- 2 Economic policy slots.
+- 2 Diplomatic policy slots.
+- 2 Wildcard policy slots.
+- +15% Production.
+- +25% Science from Factories.
+- +100% Production to Factories.
+Democracy
+- Trade Routes to allies no longer grant +4 Food for both sides.
+- Trade Routes to allies no longer grant +4 Production for both sides.
+- Trade Routes to city-states no longer grant +4 Food for both sides.
+- Trade Routes to city-states no longer grant +4 Production for both sides.
+- +1 Culture per specialty district.
+- +2 Gold per specialty district.
+- +0.5 Alliance Points.
+Fascism
+- 3 Military policy slots.
+- 2 Economic policy slots.
+- No longer gets -15% war weariness.
+- +1 Movement to units.
+- +25% Production to units.
+- Units ignore Zone of Control.
+Tier IV
+Corporate Libertarianism
+- 2 Military policy slots.
+- 2 Diplomatic policy slots.
+- No longer gets -10% Science.
+- +10% Gold to cities with Commercial Hubs.
+- +10% Gold to cities with Encampments.
+- Improved strategic resources provide +2.
+- Captured cities cannot lose Loyalty.
+Digital Democracy
+- 2 Economic policy slots.
+- 2 Diplomatic policy slots.
+- No longer gets -3 Combat Strength to units.
+- No longer gets +2 Culture from specialty districts.
+- +3 Tourism to specialty districts.
+- +30% Tourism.
+Synthetic Technocracy
+- 2 Military policy slots.
+- 2 Economic policy slots.
+- No longer gets -10% Tourism.
+- No longer gets +30% Production to city projects.
+- Exoplanet Expedition travels +3 Light Years faster.
+- +20% Science from Campuses.
+- +20% Science from Industrial Zones.
+
+GOVERNORS (总督)
+Liang (The Surveyor)
+Water Works
+- No longer grants +2 Housing from Neighborhoods.
+- No longer grants +1 Amenity from Canals.
+- +2 Amenity to Aqueducts.
+- +2 Housing to Dams.
+- +2 Amenity to Dams.
+Zoning Commissioner
+- +30% Production to districts.
+- +30% Production to buildings.
+Magnus (The Steward)
+Groundbreaker
+- +50% Growth.
+Industrialist
+- +2 Production to Workshops.
+- +2 Production to Factories.
+- +2 Production to Manufacturing Plant.
+Surplus Logistics
+- +2 Food to domestic Trade Routes ending in established city.
+- +2 Production to domestic Trade Routes ending in established city.
+Moksha (The Cardinal)
+- No longer gets +2 Faith from districts.
+- +1 Faith per Population.
+Pingala (The Educator)
+Connoisseur
+- +100% Theater Square adjacency.
+- +25% Culture from Amphitheaters.
+- +25% Culture from Art Museums.
+- +25% Culture from Archaeological Museums.
+Librarian
+- +1 Culture per Population.
+- +1 Science per Population.
+Researcher
+- +100% Campus adjacency.
+- +25% Science from Libraries.
+- +25% Science from Public Schools.
+Space Initiative
+- +30% Production to all projects.
+Victor (The Castellan)
+- +20 Loyalty.
+Air Defense
+- +100% Production to support units.
+Arms Race Proponent
+- No longer provides +100% Production to nuclear armaments
+- +30% Production to units.
+Defense Logistics
+- +1 Production to strategic resources.
+Embrasure
+- +2 Loyalty towards you to foreign cities within 9 tiles.
+- No longer grants free promotions to units trained in this city.
+Garrison Commander
+- Foreign cities within 9 tiles no longer get +2 Loyalty to you.
+- +1 promotion to units trained in established city.
+Reyna (The Financier)
+Harbormaster
+- +3 Gold to foreign Trade Routes passing through.
+Land Acquisition
+- City tiles are 20% cheaper to purchase.
+Renewable Subsidizer
+- +2 Gold to tiles beside rivers.
+
+GREAT PEOPLE (伟人)
+Comandante Generals
+Francisco de Paula Santander
+- +1 random civic.
+Gregor MacGregor
+- Bonus Gold equal to 200% of the chosen unit's Gold cost.
+José Antonio Páez
+- +7 Combat Strength to cavalry units in 2 tiles.
+José Félix Ribas
+- -100 HP to enemy units in 2 tiles.
+Manuel Piar
+- +1 promotion to chosen unit.
+- +10 Combat Strength to chosen unit.
+Mariano Montilla
+- +7 Combat Strength against district defenses to units in 2 tiles.
+Rafael Urdaneta
+- +1 Movement to units.
+Santiago Mariño
+- +7 Combat Strength to melee units in 2 tiles.
+- +7 Combat Strength to anti-cavalry units in 2 tiles.
+Great Admirals
+Artemisia
+- 2 charges.
+Chester Nimitz
+- 3 charges.
+Ching Shih
+- Gain 900 Gold.
+Clancy Fernando
+- 3 charges.
+Ferdinand Magellan
+- Gain 600 Gold.
+Franz von Hipper
+- 2 charges.
+Hanno the Navigator
+- 2 charges.
+Himerios
+- 2 charges.
+Horatio Nelson
+- +2 Production from Shipyards.
+Joaquim Marques Lisboa
+- -50% war weariness.
+Laskarina Bouboulina
+- 2 charges.
+Leif Erikson
+- No longer grants access to Ocean tiles.
+- +1 Movement to naval units.
+Sergey Gorshkov
+- 3 charges.
+Togo Heigachiro
+- +6 Loyalty to all cities.
+Yi Sun-Sin
+- 2 charges.
+Great Engineers
+Alvar Aalto
+- +50% Tourism to chosen city.
+Charles Correa
+- +100% Tourism to chosen city.
+James of St. George
+- +2 Culture to chosen city.
+Joseph Paxton
+- Happy cities' non-Food yields increased to 5%.
+- Ecstatic cities' non-Food yields increased to 10%.
+Kenzo Tange
+- Bonus Tourism to all city districts equal to their adjacencies.
+Mimar Sinan
+- +2 Housing to chosen city.
+- +1 Amenity to chosen city.
+Robert Goddard
+- Grants Rocketry technology if Eureka already triggered.
+- Bonus Eureka for Advanced Ballistics technology, grants technology if Eureka already triggered.
+Great Generals
+Æthelflæd
+- +0.3 Loyalty per Population.
+Ahmad Shah Massoud
+- 2 charges.
+Dandara
+- 3 charges.
+Douglas MacArthur
+- 2 charges.
+Dwight Eisenhower
+- +3 Combat Strength to land units.
+Georgy Zhukov
+- +7 Combat Strength to cavalry units.
+Gustavus Adolphus
+- 2 charges.
+Hannibal Barca
+- 2 charges.
+John Monash
+- 2 charges.
+José de San Martín
+- +0.5 Loyalty per Population.
+Marina Raskova
+- +100% Production to Aerodromes.
+- +100% Production to Aerodrome buildings.
+Rani Lakshmibai
+- 2 charges.
+Samori Ture
+- 2 charges.
+Sudirman
+- +1 Loyalty per Population.
+Timur
+- 2 charges.
+Vijaya Wimalaratne
+- 2 charges.
+Great Merchants
+Adam Smith
+- +1 Economic policy slot.
+Irene of Athens
+- Now both grants a free copy of a luxury resource and a Governor title.
+Jakob Fugger
+- +1 Gold to mines.
+Jamsetji Tata
+- Free Library, University, and Public School.
+- +2 Science from Public Schools.
+John Jakob Aster
+- +4 Housing to chosen city.
+- +1 Gold per Population to chosen city.
+Mary Katherine Goddard
+- +1 Gold per Population to chosen city.
+- +1 Gold per specialty district in destination city to domestic Trade Routes.
+Masaru Ibuka
+- Bonus Culture equal to Industrial Zones' adjacency.
+- +200% Tourism from Great Works of Music.
+Piero de' Bardi
+- Grants Gold equal to 3% of the treasury per turn.
+Raja Todar Mal
+- +1 Gold per specialty district in destination city to international Trade Routes.
+Zhou Daguan
+- Grants enough envoys to a city-state to become its Suzerain.
+Great Scientists
+Abdus Salam
+- +3 Future era Eurekas.
+Abu Al-Qasim Al-Zahrawi
+- +2 Eurekas.
+- +10 HP to adjacent units.
+Alan Turing
+- +2 Eurekas.
+- Bonus Eureka for Radio technology, grants technology if Eureka already triggered.
+Albert Einstein
+- +2 Eurekas.
+Alfred Nobel
+- +2 Eurekas.
+Aryabhata
+- +1 Science per adjacent Mountain to Campuses.
+Carl Sagan
+- Bonus Eureka for Offworld Mission technology, grants technology if Eureka already triggered.
+Dmitri Mendeleev
+- +2 Eurekas
+- Bonus Eureka for Plastics technology, grants technology if Eureka already triggered.
+Emilie Du Chatelet
+- +2 Eurekas
+- +1 Science from Universities.
+Erwin Schrödinger
+- +20% bonus Science to Eurekas.
+- +2 Eurekas when entering a new era.
+Euclid
+- Completes Mathematics technology if its Eureka is triggered.
+- Grants +1 technology.
+Hildegard of Bingen
+- Bonus Science equal to 15% of Faith output.
+Ibn Khaldun
+- Happy cities' non-Food yields increased to 5%.
+- Ecstatic cities' non-Food yields increased to 10%.
+James Young
+- +2 Eurekas.
+- Bonus Eureka for Refining technology, grants technology if Eureka already triggered.
+- Bonus Eureka for Combustion technology, grants technology if Eureka already triggered.
+Omar Khayyam
+- +2 Eurekas.
+- +1 Inspiration.
+Stephanie Kwolek
+- Bonus Eureka for Composites technology, grants technology if Eureka already triggered.
+- Bonus Eureka for Smart Materials technology, grants technology if Eureka already triggered.
+- +50% Production to Space Race projects.
+
+IMPROVEMENTS (改良设施)
+Base Improvements
+Camp
+- No longer gets +1 Gold from Synthetic Materials technology.
+- +1 Gold from Conservation civic.
+Farm
+- Can be built on Deserts with Irrigation technology.
+- Can be built on Desert Hills with Irrigation technology & Civil Engineering civic.
+- +1 Food if not on freshwater tile with Chemistry technology.
+- +1 Food if on freshwater tile with Feudalism civic.
+- No longer gets +1 Food per adjacent 2 Farms with Feudalism civic.
+- +1 Food per two adjacent Farms with Replaceable Parts technology.
+- Increases to +1 Food per adjacent Farm with Satellites technology.
+Fishing Boats
+- No longer gets +2 Gold from Cartograpghy technology.
+- +1 Production from Medieval Faires civic.
+Geothermal Plant
+- +4 Production.
+- +2 Gold.
+Lumber Mill
+- Can be built in Rainforest with Guilds civic.
+- +1 Production.
+- +1 Production with Military Engineering technology.
+Mine
+- +1 Production transferred from Apprenticeship technology to Civil Service civic.
+- +1 Production transferred from Industrialization technology to Steam Power technology.
+Offshore Wind Farm
+- +4 Production.
+Pasture
+- No longer gets +1 Food from Stirrups technology.
+- +1 Production from Stirrups technology.
+- No longer gets +1 Food from Robotics technology.
+- +1 Production from Robotics technology.
+Quarry
+- +1 Production transferred from Rocketry technology to Guilds civic.
+- +1 Production transferred from Gunpowder technology to Civil Engineering civic.
+Seastead
+- +0.5 Housing.
+- +3 Culture.
+- +3 Food.
+- +3 Production.
+Solar Farm
+- +3 Production.
+- +2 Gold.
+Wind Farm
+- +3 Production.
+- +2 Gold.
+City-State Improvements
+Cahokia Mounds
+- +1 Amenity from city's first-built Cahokia Mounds.
+- +1 Amenity from city's second-built Cahokia Mounds with Colonialism civic.
+Colossal Heads
+- No longer gets +1 Faith per adjacent 2 Woods or Rainforest.
+- +1 Culture per adjacent 2 Woods or Rainforest.
+- No longer gets +1 Faith per adjacent Woods or Rainforest with Humanism civic.
+- +1 Culture per adjacent Woods or Rainforest with Humanism civic.
+- Bonus Tourism equal to Culture with Flight technology.
+Kurgan
+- +3 Gold -> 0 Gold.
+- +4 Gold adjacent to at least 1 Pasture.
+Mahavihara
+- +1 Science.
+Moai
+- The Culture bonuses for being adjacent to Moai now increase with the Colonialism civic.
+- +1 Culture on or adjacent to at least 1 Volcanic Soil.
+Monastery
+- +1 Culture per adjacent luxury resource.
+- No longer gets +1 Faith per adjacent 2 districts.
+- +1 Culture per adjacent district.
+- Bonus Tourism equal to Culture with Flight technology.
+Nazca Lines
+- Now adds +1 Food to adjacent Desert tiles regardless of who owns it, and no longer needs Civil Service civic.
+Trading Dome
+- +4 Gold.
+- +1 Science with Economics technology.
+- +2 Gold per adjacent luxury resource.
+- International Trade Routes now grant +1 Gold per Trading Dome in sending cities even if the player is not Samarkand's suzerain.
+Civilization Improvements
+Château
+- Unlocked with Feudalism civic.
+- No longer required to be built beside a bonus or luxury resource.
+Feitoria
+- +2 Production.
+- +2 Gold to Portuguese Trade Routes.
+Golf Course
+- +2 Culture per adjacent City Center.
+- +2 Culture per adjacent Entertainment Complex.
+- +2 Culture with Capitalism civic.
+Great Wall
+- +1 Gold per adjacent Great Wall.
+- +1 Culture per adjacent Great Wall.
+Hacienda
+- Now gets +1 Food per adjacent Plantation without any technology.
+Kampung
+- +2 Food per adjacent Fishing Boat.
+Mekewap
+- +1 Food per adjacent bonus resource.
+- Increases to +2 Food per adjacent resource with Conservation.
+Mission
+- +1 Faith if on a continent where the Capital is not.
+- +1 Science with Cultural Heritage civic.
+Nubian Pyramid
+- +1 Food.
+- +1 Food per Dam.
+- +1 Food per Canal.
+- +1 Food per Aqueduct.
+- +1 Culture per Entertainment Complex.
+- +1 Culture per Water Park.
+- Bonus Tourism equal to Culture with Flight technology.
+Open-Air Museum
+- +1 Appeal.
+Polder
+- +2 Food.
+- No longer gets +4 Gold with Civil Engineering civic.
+- +2 Gold with Medieval Faires civic.
+Sphinx
+- Now gets +1 Culture from Humanism civic instead of Natural History civic.
+Stepwell
+- +1 Food per adjacent Farm.
+- No longer gets +1 Food for being beside at least 1 Farm.
+- +1 Faith per adjacent Stepwell.
+- No longer gets +1 Food for being beside at least 1 Holy Site.
+Terrace Farm
+- +0.5 Housing.
+- +1 Production per adjacent Aqueduct.
+- +1 Food per two adjacent Farms with Replaceable Parts technology.
+- Increases to +1 Food per adjacent Farm with Satellites technology.
+Ziggurat
+- Can no longer be built adjacent to another Ziggurat.
+- Now gets +1 Culture from Humanism civic instead of Natural History civic.
+- +1 Science with Civil Engineering civic.
+Governor Improvements
+City Park
+- +3 Culture.
+Fishery
+- +2 Food.
+Military Improvements
+Mountain Engineer
+- Now built by Builder instead of Military Engineers.
+Roads
+Classical Roads
+- 0.75 Movement per tile.
+Industrial Roads
+- 0.5 Movement per tile.
+Modern Roads
+- 0.33 Movement per tile.
+Railroads
+- 0.1 Movement per tile.
+
+POLICIES (政策)
+Dark Age Policies
+Automated Workforce
+- No longer gets +20% Production to city projects.
+- +2 Production per Population.
+Disinformation Campaign
+- -20% Science to all cities.
+- -20% Culture to all cities.
+- +4 Amenities to all cities.
+Elite Forces
+- +1 Gold maintenance to all units.
+Inquisition
+- -15% Science to all cities.
+Isolationism
+- +3 Food to domestic Trade Routes.
+- +3 Production to domestic Trade Routes.
+- +3 Gold to domestic Trade Routes.
+Monasticism
+- Functionality repairs.
+Robber Barons
+- No longer gets Gold bonuses from Stock Exchanges.
+- No longer gets Gold bonuses from Factories.
+- +50% Gold in cities with Banks or Shipyards.
+- +25% Production in cities with Banks or Shipyards.
+Rogue State
+- No longer gets +50% Production to nuclear projects.
+- No longer gets +50% Production to WMDs.
+- +50% Production to projects.
+Diplomatic Policies
+Arsenal of Democracy
+- Added back.
+- No longer requires a specific government.
+Communications Office
+- +2 Loyalty per Governor title.
+- +5% Gold per Governor title.
+- +10% Faith per Governor title.
+Containment
+- Obsoleted by Rabblerousing policy.
+Cryptography
+- Obsoleted by Non-State Actors policy.
+Diplomatic Capital
+- Made into an diplomatic policy from a wildcard one.
+- Open borders with all city-states.
+- +4 Influence towards Envoys.
+- +1 Gold per sent Envoy.
+- +1 Science per sent Envoy.
+- +1 Faith per sent Envoy.
+- +1 Culture per sent Envoy.
+Gunboat Diplomacy
+- Obsoleted by Diplomatic Capital policy.
+Machiavellianism
+- Obsoleted by Non-State Actors policy.
+Merchant Confederation
+- Obsoleted by Diplomatic Capital policy.
+Music Censorship
+- Obsoleted by Space Tourism pollicy.
+Non-State Actors
+- Made into an diplomatic policy from a wildcard one.
+- Enemy Spy reduced by 2 levels in owned territory.
+- Spies are 1 level higher in offensive missions.
+- +50% Production to Spies.
+- Spy operations take 25% less time.
+Police State
+- Unlocked with Totalitarianism civic.
+- +2 Amenity to conquered cities.
+- No longer requires a specific government.
+Praetorium
+- +4 Loyalty from Governors.
+- +10% Gold to cities with Governors.
+- +10% Faith to cities with Governors.
+Rabblerousing
+- Made into an diplomatic policy from a wildcard one.
+- No longer grants +1 Diplomatic Favor per turn.
+- Each sent Envoy counts as 2 when sent to a city-state whose suzerain has a different government.
+Space Tourism
+- Made into an diplomatic policy from a wildcard one.
+- Blocks Rock Bands from entering.
+Wisselbanken
+- Obsoleted by Arsenal of Democracy policy.
+Economic Policies
+Civil Prestige
+- +2 Amenities to cities with Governors.
+- +1 Housing to cities with Governors.
+Collectivization
+- No longer requires a specific government.
+Colonization
+- +30% Production to Settlers.
+Defense of the Motherland
+- Made into an economic policy from a military one.
+- +1 of all non-Gold yields to all cities.
+- +2 Gold to all cities.
+- No longer requires a specific government.
+Expropriation
+- Plot purchase Gold cost no longer reduced by 20%
+- Cities' territory expands 40% faster.
+- +30% Production to Settlers.
+Free Market
+- +15% Gold in cities with Banks or Shipyards and at least 10 Population.
+- Increases to +30% Gold if city has at least 15 Population.
+God King
+- Obsoleted by Defense of the Motherland policy.
+Grand Opera
+- +15% Culture in cities with Opera Houses and at least 10 Population.
+- Increases to +30% Science if city has at least 15 Population.
+Hallyu
+- Made into an economic policy from a wildcard one.
+- +100% Tourism to civilizations you have a Trade Route with.
+Heritage Tourism
+- +100% Tourism from Wonders.
+Land Surveyors
+- Cities' territory expands 40% faster.
+New Deal
+- +1 Amenity to cities with at least 2 specialty districts.
+- Increased to +2 Amenity if there is at least 3 specialty districts.
+- +2 Housing to cities with at least 2 specialty districts.
+- Increased to +4 Housing if there is at least 3 specialty districts.
+- No longer requires a specific government.
+Online Communities
+- Obsoleted by Hallyu policy.
+Public Transport
+- No longer grants 100 Gold per Appeal when replacing Farm with Neighborhood. (Rise and Fall only.)
+Rationalism
+- +15% Science in cities with Public Schools and at least 10 Population.
+- Increases to +30% Science if city has at least 15 Population.
+Satellite Broadcasts
+- +100% Tourism to Great Works of Music.
+Serfdom
+- +30% Production to Builders.
+- +1 extra charge to Builders.
+Simultaneum
+- +15% Faith in cities with Worship buildings and at least 10 Population.
+- Increases to +30% Faith if city has at least 15 Population.
+Sports Media
+- +1 Amenity from Broadcast Centers.
+- +1 Amenity from Aquatic Centers.
+Urban Planning
+- Obsoleted by Defense of the Motherland policy.
+Military Policies
+Aerospace Contractors
+- Made into a military policy from a wildcard one.
+- +30% Science to cities with a Military Academy, Seaport. or Spaceport.
+- +60% Production to cities with a Military Academy, Seaport. or Spaceport.
+- +6 Power to cities with a Military Academy, Seaport. or Spaceport.
+Bastions
+- Obsoleted by Global Coalition or Their Finest Hour policy.
+Force Modernization
+- +1 Amenity to cities with Encampments.
+- +1 Amenity to cities with Armories.
+- +30% Production to Encampments.
+- +30% Production to Encampment buildings.
+- +30% Production to Harbors.
+- +30% Production to Harbor buildings.
+Global Coalition
+- Made into a military policy from a wildcard one.
+- +5 City Ranged Strength.
+- +6 City Defense Strength.
+Integrated Attack Logistics
+- Made into a military policy from a wildcard one.
+- WMD Gold maintenance reduced by 50%.
+- +100% Production to units.
+- +2 Movement to units.
+Integrated Space Cell
+- Obsoleted by Aerospace Contractors policy.
+- +15% Science to cities with a Military Academy, Seaport. or Spaceport.
+- +15% Production to cities with a Military Academy, Seaport. or Spaceport.
+International Waters
+- Obsoleted by Integrated Attack Logistics policy.
+Lightning Warfare
+- Obsoleted by Integrated Attack Logistics policy.
+Limes
+- Obsoleted by Public Works or Their Finest Hour policy.
+Limitanei
+- Removed.
+Logistics
+- Obsoleted by Integrated Attack Logistics policy.
+Martial Law
+- Made into a military policy from a wildcard one.
+- +1 Amenity to garrisoned cities.
+- No longer requires a specific government.
+Military First
+- Obsoleted by Integrated Attack Logistics policy.
+Military Research
+- +15% Science to cities with Military Academies or Seaports.
+- +4 Science from Seaports.
+- +4 Science from Military Academies.
+- +4 Science from Renaissance Walls.
+Native Conquest
+- Obsoleted by Global Coalition policy.
+Patriotic War
+- Unlocked with Class Struggle civic.
+- +5 Combat Strength to units in or adjacent to home territory.
+- Obsoleted by Integrated Attack Logistics policy.
+- No longer requires a specific government.
+Professional Army
+- +1 Amenity to cities with Encampments.
+Propaganda
+- Removed.
+Retainers
+- Obsoleted by Martial Law policy.
+- +2 Loyalty to garrisoned cities.
+Retinues
+- Removed.
+Second Strike Capability
+- Obsoleted by Strategic Air Force policy.
+Strategic Air Force
+- WMD Gold maintenance reduced by 50%.
+Survey
+- Obsoleted by After Action Reports policy.
+Their Finest Hour
+- Made into a military policy from a wildcard one.
+- Obsoleted by Global Coalition.
+- +5 City Ranged Strength.
+- +6 City Defense Strength.
+- No longer requires a specific government.
+Third Alternative
+- +2 Science from Military Academies.
+- +2 Science from Research Labs.
+- +2 Science from Coal Power Plants.
+- +2 Science from Oil Power Plants.
+- +2 Science from Nuclear Power Plants.
+- No longer requires a specific government.
+Total War
+- +1 promotion to units trained in a city with an Encampment.
+Wars of Religion
+- Obsoleted by Global Coalition.
+Legacy Policies
+Autocratic Legacy
+- +2 Culture to the Palace.
+- +2 Culture to the Government Plaza.
+- +2 Culture to the Diplomatic Quarter.
+- +1 Gold per Population to the Capital.
+- +1 Gold per Population to a city with a Government Plaza.
+- +1 Gold per Population to a city with a Diplomatic Quarter.
+Communist Legacy
+- +15% Production.
+- +25% Science from Factories.
+- +100% Production to Factories.
+Democratic Legacy
+- +1 Culture per specialty district.
+- +2 Gold per specialty district.
+Fascist Legacy
+- No longer gets -15% war weariness.
+- +1 Movement to units.
+- Units ignore Zone of Control.
+Mercantile Legacy
+- +1 Gold per Population in Governor cities.
+- +2 Science from Markets.
+  +2 Science from Banks.
+- +2 Science from Lighthouses.
+- +2 Science from Shipyards.
+Monarchic Legacy
+- +15% of all non-Food yields.
+- +2 Food per Walls.
+- +1 Production per Walls.
+Oligarchic Legacy
+- +2 Culture to garrisoned cities.
+Republican Legacy
+- No longer provides +1 Housing.
+- +1 Culture to cities.
+Theocratic Legacy
+- +4 Religious Strength to units.
+- No longer gets +0.5 Faith per Population in Governor cities.
+- +2 Faith from Shrines.
+- +1 Culture from Shrines.
+- +2 Faith from Temples.
+- +1 Culture from Temples.
+- +4 Combat Strength fighting units from different religions.
+Wildcard Policies
+Frescoes
+- +2 Great Artist points from Archaeological Museums.
+- +4 Great Artist points from Art Museums.
+Inspiration
+- +2 Great Scientist points from Libraries.
+Laissez-Faire
+- +2 Great Admiral points from Lighthouses.
+- +2 Great Merchant points from Markets.
+- +2 Great Merchant points from Stock Exchanges.
+- +2 Great Admiral points from Seaports.
+Literary Tradition
+- +2 Great Writer points from Amphitheaters.
+Military Organization
+- +2 Great General points from Military Academies.
+Navigation
+- +2 Great Admiral points from Lighthouses.
+Nobel Prize
+- +2 Great Scientist points from Libraries.
+- +2 Great Engineer points from Workshops.
+- +2 Great Scientist points from Public Schools.
+- +2 Great Engineer points from Manufacturing Plants.
+Revelation
+- +2 Great Prophet points from Shrines.
+Science Foundations
+- +2 Great Scientist points from Research Labs.
+- +2 Great Engineer points from Coal Power Plants.
+- +2 Great Engineer points from Oil Power Plants.
+- +2 Great Engineer points from Nuclear Power Plants.
+Strategos
+- +2 Great General points from Barracks.
+- +2 Great General points from Stable.
+Traveling Merchants
+- +2 Great Merchant points from Markets.
+
+PROJECTS (项目)
+Science Victory Projects
+Exoplanet Expedition
+- Requires Offworld Mission technology.
+Lagrange Laser Station
+- Can be done 5 times.
+- Unlocked by Smart Materials technology.
+- No longer requires 30 Aluminum to be completed.
+Terrestrial Laser Station
+- Removed.
+
+RELIGION (宗教)
+Follower Beliefs
+Jesuit Education
+- Theater Square buildings not purchasable by Faith.
+- +10% Science to cities with Temples.
+- Increased to +25% Science in cities with no Universities.
+Religious Community
+- +2 Production to cities with at least 1 specialty district.
+Work Ethic
+- +2 Production to Shrines.
+- +4 Production to Temples.
+Pantheons
+Divine Spark
+- +1 Great Scientist point to Campuses, Library not required.
+- +1 Great Writer point to Theater Squares, Amphitheater not required.
+Earth Goddess
+- +1 Faith to tiles that are at least Charming appeal.
+- Increased to +2 Faith in tiles that are at least Breathtaking appeal.
+- +1 Great Prophet point if City Center is at least Charming appeal.
+Fertility Rites
+- City growth rate 15% higher.
+Fire Goddess
+- +1 Production to Geothermal Fissures.
+- +1 Production to Volcanic Soil.
+- +1 Science to Geothermal Fissures.
+- +1 Science to Volcanic Soil.
+God of Craftsmen
+- +1 Great Prophet point if city has improved Horses or Iron.
+God of Healing
+- Units' healing increased by 30 in City Centers or adjacent tiles.
+Goddess of Festivals
+- +1 Food to Plantations.
+Monument to the Gods
+- +20% Production to Ancient and Classical Wonders.
+- Increased to +40% Production if city has improved Marble.
+Oral Tradition
+- +1 Culture to Plantations.
+Religious Idols
+- +1 Faith to Mines on bonus resources.
+- +1 Faith to Mines on luxury resources.
+- +1 Culture to Mines on bonus resources.
+- +1 Culture to Mines on luxury resources.
+- +1 Great Prophet point if city has improved Copper, Silver, or Jade.
+Stone Circles
+- +1 Great Prophet point if city has improved Stone, Gypsum, or Marble.
+
+RESOURCES (资源)
+Bonus Resources
+Bananas
+- +1 Food if there is a Granary.
+Copper
+- +1 Production if there is a Workshop.
+Crabs
+- +1 Food if there is a Lighthouse.
+Deer
+- +1 Food if there is a Granary.
+Fish
+- +1 Food if there is a Lighthouse.
+Stone
+- +1 Production if there is a Workshop.
+Luxury Resources
+- Luxury resources that spawn on maps now provide +1 Amenity to two cities.
+Amber
+- +2 Gold.
+Cocoa
+- +3 Gold -> +5 Gold.
+Coffee
+- +2 Gold.
+Cotton
+- +3 Gold -> +4 Gold.
+Diamonds
+- +3 Gold -> +6 Gold.
+Dyes
+- +2 Gold.
+Furs
+- +1 Gold -> +2 Gold.
+Gypsum
+- +1 Production -> +2 Production.
+Incense
+- +1 Faith -> +2 Faith.
+- +1 Culture.
+Ivory
+- +1 Gold -> +2 Gold.
+Jade
+- +2 Gold.
+Jeans
+- +1 Amenity to four cities.
+Marble
+- +2 Gold.
+Mercury
+- +2 Gold.
+Olives
+- +1 Production -> +2 Production
+Pearls
+- +2 Gold.
+Salt
+- +1 Food -> +2 Food.
+Silk
+- +2 Gold.
+Silver
+- +3 Gold -> +6 Gold.
+Tea
+- +2 Gold.
+Tobacco
+- +2 Gold.
+Truffles
+- +3 Gold -> +4 Gold.
+Turtles
+- +2 Gold.
+Whales
+- +1 Production -> +2 Production
+Wine
+- +1 Gold -> +2 Gold.
+Strategic Resources
+Aluminum
+- +1 Production.
+Iron
+- +1 Production.
+
+TECHNOLOGIES & CIVICS (科技和市政)
+Civics
+Capitalism
+- 1580 CC -> 1980 CC.
+- Inspiration triggered by building a Stock Exchange.
+Civil Engineering
+- Farms can be built on Desert Hills with Irrigation technology.
+- 1010 CC -> 1285 CC.
+- Inspiration triggered by building 8 different specialty districts.
+Civil Service
+- 300 CC -> 425 CC.
+Class Struggle
+- 1640 CC -> 2380 CC.
+- Ideology civic no longer required.
+- Mass Media civic required.
+- Mobilization civic required.
+Code of Laws
+- 20 CC -> 25 CC.
+Cold War
+- +1 Trade Route capacity.
+- 2185 CC -> 3090 CC.
+Colonialism
+- 800 CC -> 1135 CC.
+- Now requires the Exploration civic.
+Craftsmanship
+- 40 CC -> 60 CC.
+Cultural Hegemony
+- 3200-3300 CC -> 5950 CC-6150 CC.
+- Required for Future Civic.
+Defensive Tactics
+- 175 CC -> 300 CC.
+- Inspiration triggered by building 2 Ancient Walls.
+Diplomatic Service
+- 600 CC -> 750 CC.
+Distributed Sovereignty
+- 3000 CC -> 4975 CC.
+- Inspiration triggered by training 3 Rock Bands.
+Divine Right
+- 340 CC -> 465 CC.
+Drama and Poetry
+- +2 Culture to Wonders.
+- 110 CC -> 180 CC.
+Early Empire
+- 70 CC -> 125 CC.
+- Inspiration triggered by growing a city to 6 Population.
+Environmentalism
+- 2880 CC -> 4310 CC.
+- No longer provides +25% Tourism.
+- Grants to renewable energy sources Tourism equal to their Power.
+- Inspiration triggered by building 2 Hydroelectric Dams.
+Exodus Imperative
+- 3200-3300 CC -> 5950 CC-6150 CC.
+- Required for Future Civic.
+Exploration
+- 440 CC -> 630 CC.
+- Now needed to research Colonialism civic.
+Feudalism
+- +1 Food to Farms on freshwater tiles.
+- 300 CC -> 425 CC.
+Foreign Trade
+- 40 CC -> 60 CC.
+Future Civic
+- 3500 CC -> 6350 CC.
+- Requires all other Future Era civics.
+Games and Recreation
+- 110 CC -> 180 CC.
+- Inspiration triggered by having the Mathematics technology.
+Global Warming Mitigation
+- 3200-3300 CC -> 5950-6150 CC.
+- Required for Future Civic.
+Globalism
+- 2880 CC -> 4310 CC.
+- No longer required for Future civic.
+- Inspiration triggered by building 1 Airport.
+Humanism
+- 600 CC -> 750 CC.
+- Antiquity Sites now revealed with Humanism.
+Ideology
+- 1640 CC -> 2380 CC.
+- No longer required for the Suffrage, Totalitarianism, or Class Struggle civics.
+Information Warfare
+- 3200-3300 CC -> 5950 CC-6150 CC.
+- Required for Future Civic.
+Medieval Faires
+- +1 Trade Route capacity.
+- 420 CC -> 555 CC.
+- Inspiration triggered by having 3 Trade Routes.
+- Inspiration triggered by building 2 Amphitheaters.
+Mercenaries
+- 340 CC -> 465 CC.
+Military Tradition
+- 50 CC -> 95 CC.
+Military Training
+- 120 CC -> 240 CC.
+Mobilization
+- 1540 CC -> 1860 CC.
+Mysticism
+- 50 CC -> 95 CC.
+Nationalism
+- 1010 CC -> 1285 CC.
+- Inspiration triggered by building 1 Public School.
+Natural History
+- 1050 CC -> 1475 CC.
+- No longer reveals Antiquity Sites.
+- Inspiration triggered by building 2 Archaeological Museums.
+Naval Tradition
+- 220 CC -> 335 CC.
+- Have 2 Quadriremes.
+Near Future Governance
+- 3100 CC -> 5150 CC.
+Nuclear Program
+- 1715 CC -> 2500 CC.
+- Inspiration triggered by building 2 Research Labs.
+Opera and Ballet
+-  800 CC -> 1135 CC
+Optimization Imperative
+- 3000 CC -> 4975 CC.
+- Inspiration triggered by building 2 Manufacturing Plants.
+Political Philisophy
+- 110 CC -> 180 CC.
+Professional Sports
+- 2185 CC -> 3090 CC.
+- Inspiration triggered by building 1 Stadium.
+Rapid Deployment
+- 2415 CC -> 3630 CC.
+Recorded History
+- 175 CC -> 300 CC.
+Reformed Church
+- 440 CC -> 630 CC.
+Smart Power Doctrine
+- 3200-3300 CC -> 5950 CC-6150 CC.
+- Required for Future Civic.
+Social Media
+- 2880 CC -> 4310 CC.
+- No longer required for Future Civic.
+- +50% Tourism.
+- +100% Tourism to Seaside Resorts.
+- +100% Tourism to Ski Resorts.
+Space Race
+- 2415 CC -> 3630 CC.
+- Inspiration triggered by building 2 Spaceports.
+State Workforce
+- 70 CC -> 125 CC.
+- Inspiration triggered by building 2 specialty districts.
+Suffrage
+- 1640 CC -> 2380 CC.
+- Ideology civic no longer required.
+- Mass Media civic now required.
+- Mobilization civic now required.
+- Inspiration triggered by building 2 Hospitals.
+The Enlightenment
+- 720 CC -> 900 CC.
+- Now requires Reformed Church civic instead of Diplomatic Service civic.
+Theology
+- 120 CC -> 240 CC.
+Totalitarianism
+- 1640 CC -> 2380 CC.
+- Ideology civic no longer required.
+- Mass Media civic now required.
+- Mobilization civic now required.
+- Inspiration triggered by building a Military Academy.
+Urbanization
+- +1 Trade Route capacity.
+- 1210 CC -> 1625 CC.
+Venture Politics
+- 3000 CC -> 4975 CC.
+- Inspiration triggered by building 2 Uranium Mines.
+Technologies
+Advanced AI
+- 2200-2300 SC -> 4540-4840 SC.
+- Required for Offworld Mission technology.
+Advanced Flight
+- 1480 SC -> 2460 SC.
+- Eureka triggered by building 1 Hangar.
+Advanced Power Cells
+- 2200-2300 SC -> 4540-4840 SC.
+- Required for Offworld Mission technology.
+Animal Husbandry
+- 25 SC -> 30 SC.
+Apprenticeship
+- 300 SC -> 280 SC.
+- Eureka triggered by building 4 Mines.
+Archery
+- 50 SC -> 60 SC.
+- Eureka triggered by having 2 Slingers.
+Astrology
+- 50 SC -> 60 SC.
+Ballistics
+- 930 SC -> 960 SC.
+- Eureka triggered by building 2 Armories.
+Banking
+- +1 Trade Route capacity.
+Bronze Working
+- 80 SC -> 100 SC.
+Buttress
+- 300 SC -> 280 SC
+Cartography
+- 600 SC -> 540
+Castles
+- 390 SC -> 400 SC.
+- Eureka triggered by recruiting a Great Engineer.
+Celestial Navigation
+- 120 SC -> 150 SC.
+Chemistry
+- +1 Food to Farms not on freshwater tiles.
+- 1370 SC -> 1990 SC.
+- Eureka triggered by having a Level 3 Alliance.
+Combined Arms
+- 1480 SC -> 2460 SC.
+- Eureka triggered by training a Biplane.
+Combustion
+- +1 Trade Route capacity.
+- 1370 -> 1990 SC.
+Composites
+- 1340 SC -> 3460 SC.
+- Eureka triggered by training 2 Tanks.
+Computers
+- 1660 SC -> 2950 SC.
+- Tourism bonus: 25% -> 50%.
+Construction
+- New cities start with 2 population.
+- New cities start with 3 extra tiles.
+- 200 SC -> 210 SC
+- Eureka triggered by building 2 Water Mills.
+Currency
+- +1 Trade Route capacity.
+- 120 SC -> 150 SC.
+Cybernetics
+- 2200-2300 SC -> 4540-4840 SC.
+- Required for Offworld Mission technology.
+Economics
+- +50% yields to Trade Routes.
+- 1070 SC -> 1240 SC.
+Education
+- 335 SC -> 400 SC
+Electricity
+- 1370 SC -> 1990 SC.
+- Eureka triggered by having a Privateer.
+Engineering
+- +1 Movement to Builders.
+- +1 Movement to Settlers.
+- 200 SC -> 210 SC.
+- Eureka triggered by having a Tier 1 Government.
+Flight
+- 1250 SC -> 1540 SC.
+Future Tech
+- 2600 SC -> 5400 SC.
+- Requires Offworld Mission technology.
+Guidance Systems
+- +1 Trade Route capacity.
+- 1850 SC -> 3460 SC.
+- Train 3 Artillery.
+Gunpowder
+- 600 SC -> 540 SC.
+Horseback Riding
+- 120 SC -> 150 SC.
+Industrialization
+- 930 SC -> 960 SC.
+- Eureka triggered by building 3 Workshops.
+Iron Working
+- 120 SC -> 150 SC.
+- Eureka triggered by building an Iron Mine.
+Irrigation
+- 50 SC -> 60 SC.
+- Farms can be built on Deserts.
+- Farms can be built on Desert Hills with Civil Engineering civic.
+Lasers
+- 1340 SC -> 3460 SC.
+- No longer requires Robotics technology.
+- Eureka triggered by training 1 Drone.
+Machinery
+- 300 SC -> 280 SC
+- Eureka triggered by having 2 Catapults.
+Masonry
+- 80 SC -> 100 SC.
+- Eureka triggered by building 2 Quarries.
+Mass Production
+- 600 SC -> 540 SC.
+- Eureka triggered by building 3 Lumber Mills.
+- +1 Charge to Builders.
+Mathematics
+- 200 SC -> 210 SC.
+- Eureka triggered by building 4 different specialty districts.
+Metal Casting
+- +1 Builder to new cities.
+- 600 SC -> 540 SC
+Military Engineering
+- 200 SC -> 400 SC.
+Military Science
+- 930 SC -> 960 SC.
+Mining
+- 25 SC -> 30 SC.
+Nanotechnology
+- 1560 SC -> 3990 SC.
+- Eureka triggered by building 2 Aluminum Mines.
+Nuclear Fission
+- 1660 SC -> 2950 SC.
+Nuclear Fusion
+- 1560 SC -> 3990 SC.
+Offworld Mission
+- 2200-2300 -> 5110 SC.
+- Requires all other Future era technologies.
+- Required for Future Technology.
+Plastics
+- 1480 SC -> 2460.
+Pottery
+- 25 SC -> 30 SC.
+Predictive Systems
+- 2200-2300 SC -> 4540-4840 SC.
+- Required for Offworld Mission technology.
+Printing
+- 600 SC -> 540 SC.
+Radio
+- 1370 SC -> 1990 SC.
+- Eureka triggered by researching the Mass Media civic.
+Refining
+- 1250 SC -> 1540 SC.
+- Eureka triggered by building 3 Coal Power Plants.
+Replaceable Parts
+- +1 Charge to Builders.
+Rifling
+- 1070 SC -> 1240 SC.
+- Eureka triggered by building 2 Niter Mines.
+Robotics
+- 2155 SC -> 3990 SC.
+- No longer requires Lasers technology.
+- Eureka triggered by researching the Space Race civic.
+Sailing
+- 50 SC -> 60 SC.
+- +1 Food to Lake tiles.
+Sanitation
+- New cities start with 4 population.
+- New cities start with 6 extra tiles.
+- 1070 SC -> 1240 SC.
+- Inspiration triggered by researching the Urbanization civic.
+Satellites
+- 1850 SC -> 3460 SC.
+- Eureka triggered by completing the Launch Earth Satellite project.
+Scientific Theory
+- 930 SC -> 960 SC.
+Seasteads
+- 2200-2300 SC -> 4540-4840 SC.
+- Required for Offworld Mission technology.
+Shipbuilding
+- 200 SC -> 210 SC.
+Siege Tactics
+- 730 SC -> 700 SC.
+Smart Materials
+- 2200-2300 SC -> 4540-4840 SC.
+- Required for Offworld Mission technology.
+Square Rigging
+- 730 SC -> 700 SC.
+Stealth Technology
+- 1340 SC -> 3460 SC.
+- Train 1 Bomber.
+Steam Power
+- +0.3 Production per Population.
+Steel
+- +12 City Defense Strength.
+- -3 City Defense Strength per level of Walls. 
+- 1250 SC -> 1540 SC.
+- Eureka triggered by building 2 Coal Mines.
+Synthetic Materials
+- 1660 SC -> 2950 SC.
+Telecommunications
+- 1850 SC -> 3460 SC.
+- Eureka triggered by building a Broadcast Center.
+Wheel
+- 80 SC -> 100 SC.
+Writing
+- 50 SC -> 60 SC.
+
+TERRAIN (地形)
+Features
+Grassland Floodplains
+- +1 Production.
+Marsh
+- +1 Food -> -1 Food.
+Plains Floodplains
+- +1 Production.
+Rainforest
+- +1 Food -> 0 Food.
+Natural Wonders
+Chocolate Hills
+- +1 Food -> +2 Food.
+- +2 Production -> 3 Production.
+- +1 Science.
+Crater Lake
+- +5 Faith -> +5 Faith.
+- +1 Science -> +3 Science.
+Dead Sea
+- +2 Faith -> +2 Faith.
+- +2 Culture -> +4 Culture.
+Delicate Arch
+- To adjacent tiles: +2 Production.
+- To adjacent tiles: +1 Gold -> +2 Gold.
+- To adjacent tiles: +2 Faith -> 0 Faith.
+Eye of the Sahara
+- +2 Production -> +4 Production.
+- Atomic Era bonuses transferred to the Industrial Era.
+- In the Industrial Era: +3 Science -> +2 Science.
+Gobustan
+- +3 Culture -> +4 Culture.
+- +1 Production -> +2 Production.
+Great Barrier Reef
+- +3 Food -> +4 Food.
+- +2 Science -> +2 Science.
+Hạ Long Bay
+- +3 Food -> +3 Food.
+- +1 Culture -> +1 Culture.
+- +1 Production -> +2 Production.
+Lake Retba
+- +3 Culture -> +2 Culture.
+- +2 Gold -> +2 Gold.
+- +1 Production -> +2 Production.
+Mato Tipila
+- To adjacent tiles: +1 Faith -> +2 Faith.
+- To adjacent tiles: +1 Production -> +1 Production.
+Matterhorn
+- To adjacent tiles: +1 Culture -> +2 Culture.
+Mount Kilimanjaro
+- To adjacent tiles: +2 Food -> +3 Food.
+Mount Vesuvius
+- To adjacent tiles: +1 Production -> +2 Production.
+Païtiti
+- To adjacent tiles: +2 Culture -> +1 Culture.
+- To adjacent tiles: +3 Gold -> +1 Gold.
+Pamukkale
+- +1 Amenity -> +2 Amenity.
+Pantanal
+- +2 Food -> +3 Food.
+- +2 Culture -> +2 Culture.
+- +1 Production.
+Sahara el Beyda
+- +1 Science -> +2 Science.
+- +1 Culture -> +2 Culture.
+- +4 Gold -> +4 Gold.
+Tsingy de Bemaraha
+- To adjacent tiles: +1 Culture -> +1 Culture.
+- To adjacent tiles: +1 Science -> +2 Science.
+Ubsunur Hollow
+- +2 Faith -> +2 Faith.
+- +1 Food -> +2 Food.
+- +1 Production -> +2 Production.
+Zhangye Danxia
+- To adjacent tiles: +2 Culture.
+Terrain
+Grass Hills
+- +2 Food -> +1 Food.
+Plains Hills
+- +1 Food -> 0 Food.
+Tundra Hills
+- +1 Food -> 0 Food.
+
+UNITS (单位)
+Air Bomber
+Bomber
+- Resource = 1 Aluminum -> 20 Aluminum.
+- Resource Maintenance = 1 Aluminum -> 0 Aluminum.
+Jet Bomber
+- Resource = 1 Aluminum -> 20 Aluminum.
+- Resource Maintenance = 1 Aluminum -> 0 Aluminum.
+Air Fighter
+Biplane
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+Fighter
+- Resource = 1 Aluminum -> 20 Aluminum.
+- Resource Maintenance = 1 Aluminum -> 0 Aluminum.
+Jet Bomber
+- Resource = 1 Aluminum -> 20 Aluminum.
+- Resource Maintenance = 1 Aluminum -> 0 Aluminum.
+P-51 Mustang
+- Resource = 1 Aluminum -> 10 Aluminum.
+- Resource Maintenance = 1 Aluminum -> 0 Aluminum.
+Anti-Cavalry
+AT Crew
+- CS = 75 -> 72.
+Carolean
+- Has the changes of the Pike and Shot.
+Hoplite
+- CS = 28 -> 22.
+Impi
+- Has the changes of the Pikeman.
+Modern AT
+- CS = 85 -> 82.
+Pike and Shot
+- CS = 55 -> 52
+Pikeman
+- CS = 45 -> 42.
+Spearman
+- CS = 25 -> 22.
+Civilian
+Archaeologist
+- Required Civic: Natural History -> Humanism.
+Builder
+- 50 PC -> 75 PC.
+- +1 Movement from the Engineering technology.
+- +1 Movement from the Mass Production technology.
+- +1 Charge from the Mass Production technology.
+- +1 Charge from the Replaceable Parts technology.
+Naturalist
+- Required Civic: Conservation -> Natural History.
+Trader
+- 40 PC -> 80 PC.
+Settler
+- +1 Movement from the Engineering technology.
+- +1 Movement from the Mass Production technology.
+Spy
+- 225 PC -> 50 PC.
+- Offensive spy missions' chance of success reduced.
+Heavy Cavalry
+Cuirassier
+- CS = 64 -> 68.
+- Movement = 4 -> 3.
+- -7 Combat Strength fighting in districts.
+Heavy Chariot
+- CS = 28 -> 28.
+- -7 Combat Strength fighting in districts.
+Hetairoi
+- No longer replaces the Horseman.
+- CS = 36 -> 38.
+- Movement = 4 -> 3.
+Mamluk
+- Has the changes of the Knight.
+Mandekalu Cavalry
+- Has the changes of the Knight.
+- CS = 55 -> 53.
+Modern Armor
+- CS = 95 -> 88.
+- Movement = 4 -> 3.
+- Resource = Oil -> Aluminum.
+- Requires 20 Aluminum to train.
+- No longer requires 1 Oil per turn to maintain.
+Knight
+- CS = 50 -> 48.
+- Movement = 4 -> 3.
+Rough Rider
+- CS = 67 -> 71.
+- Movement = 5 -> 4.
+Tagma
+- Has the changes of the Knight.
+Tank
+- CS = 85 -> 78.
+- Movement = 4 -> 3.
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+Varu
+- CS = 40 -> 38.
+War-Cart
+- Movement = 3 -> 3.
+Winged Hussar
+- CS = 64 -> 68.
+- Movement = 4 -> 3.
+Light Cavalry
+- +7 Combat Strength attacking ranged or siege units.
+Black Army
+- CS = 49 -> 46.
+Cavalry
+- CS = 62 -> 63.
+Cossack
+- CS = 67 -> 68.
+Courser
+- CS = 46 -> 43.
+Helicopter
+- CS = 86 -> 78.
+- Movement = 4 -> 5.
+- Resource = 1 Aluminum -> 20 Oil.
+- Resource Maintenance = 1 Aluminum -> 0 Aluminum.
+Horseman
+- CS = 36 -> 33.
+Huszár
+- CS = 65 -> 66.
+Llanero
+- CS = 62 -> 63.
+Malón Raider
+- CS = 55 -> 53.
+Mountie
+- CS = 62 -> 63.
+Oromo Cavalry
+- CS = 48 -> 45.
+Melee
+Eagle Warrior
+- 65 PC -> 45 PC.
+- 28 CS -> 23 CS.
+Infantry
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+Mechanized Infantry
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+Nihang
+- Can now be trained with Production.
+Naval Carrier
+- +1 additional attack.
+Aircraft Carrier
+- RS = 50.
+- Range = 6.
+- Movement = 3 -> 4.
+- Flight Deck promotion: +1 additional attack.
+- Hangar Deck promotion: +1 additional attack.
+- Folding Wings Deck promotion: +1 additional attack.
+Naval Melee
+Bireme
+- CS = 35 -> 30.
+Destroyer
+- Movement = 4 -> 5.
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+Galley
+-  CS = 30 -> 25.
+Ironclad
+- Resource = 1 Coal -> 20 Coal.
+- Resource Maintenance = 1 Coal -> 0 Coal.
+Viking Longship
+- CS = 35 -> 30.
+Naval Raider
+Nuclear Submarine
+- CS = 80 -> 65.
+- RS = 85 -> 95.
+- Movement = 3 -> 4.
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+- -17 Combat Strength fighting district defenses.
+Submarine
+- CS = 65 -> 55.
+- RS = 75 -> 85.
+- Movement = 3 -> 4.
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+- -17 Combat Strength fighting district defenses.
+U-Boat
+- Has the changes of the Submarine.
+Naval Ranged
+Battleship
+- CS = 60 -> 65.
+- RS -> BS = 70 -> 75.
+- Resource = 1 Coal -> 20 Coal.
+- Resource Maintenance = 1 Coal -> 0 Coal.
+De Zeven Provinciën
+- Has the changes of the Frigate.
+Dromon
+- Has the changes of the Quadrireme.
+Frigate
+- Ranged Strength converted to Bombard Strength.
+Jong
+- Has the changes of the Frigate.
+Minas Geraes
+- CS = 70 -> 70.
+- RS -> BS = 80 -> 80.
+- Resource = 1 Coal -> 10 Coal.
+- Resource Maintenance = 1 Coal -> 0 Coal.
+Missile Cruiser
+- CS = 75 -> 75.
+- RS -> BS = 90 -> 85.
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+Quadrireme
+- CS = 20 -> 25.
+- RS -> BS = 25 -> 30.
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+Ranged
+Crouching Tiger
+- Range = 1 -> 2.
+- Now replaces Crossbowman.
+Machine Gun
+- CS = 70 -> 65.
+- RS = 85 -> 75.
+Recon
+- +17 Combat Strength when defending.
+- Encampment buildings now give XP to recon units.
+Highlander
+- Has the changes of the Ranger.
+- CS = 50 -> 55.
+- RS = 65 -> 60.
+Ranger
+- CS = 45 -> 50.
+- RS = 60 -> 55.
+- Range = 1 -> 2.
+Skirmisher
+- CS = 20 -> 20.
+- RS = 30 -> 25.
+- Range = 1 -> 2.
+- Required Technology -> Required Civic = Machinery -> Defensive Tactics.
+Spec Ops
+- CS = 60 -> 65.
+- RS = 65 -> 70.
+- Range = 2 -> 2.
+Warak'aq
+- Has the changes of the Skirmisher.
+- RS = 40 -> 35.
+Siege
+Artillery
+- BS = 80 -> 70.
+- Range = 2 -> 3.
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+Bombard
+- CS = 45 -> 40
+- BS = 55 -> 45.
+Catapult
+- CS = 25 -> 20.
+- BS = 35 -> 25.
+Domrey
+- CS = 40 -> 35.
+- BS = 50 -> 40.
+Rocket Artillery
+- BS = 100 -> 85.
+- Resource = 1 Oil -> 20 Oil.
+- Resource Maintenance = 1 Oil -> 0 Oil.
+Trebuchet
+- CS = 35 -> 30.
+- BS = 45 -> 35.
+
+WONDERS (奇观)
+- +2 Culture from the Drama and Poetry civic.
+Ancient Era Wonders
+Etemenanki
+- 220 PC -> 175 PC.
+- +2 Food to Marshes.
+- No longer provides Production to Floodplains.
+Great Bath
+- 180 PC -> 150 PC.
+- Apocalypse Mode only: Faith from floods removed.
+- Apocalypse Mode only: +2 Faith to Floodplains.
+Hanging Gardens
+- 180 PC -> 150 PC.
+- +6 Food.
+Oracle
+- 290 PC -> 250 PC.
+- +10% bonus Science to Eurekas.
+- +10% bonus Culture to Inspirations.
+Pyramids
+- 220 PC -> 175 PC.
+Stonehenge
+- 180 PC -> 150 PC.
+- +2 Culture.
+Temple of Artemis
+- 180 PC -> 150 PC.
+Classical Era Wonders
+Apadana
+- 400 PC -> 300 PC.
+- +2 bonus Envoys when constructed. (Totaling to +3 with Apadana's usual bonus.)
+- +1 Envoy when any wonder is constructed. (Including Apadana.)
+Colosseum
+- 400 PC -> 300 PC.
+Colossus
+- 400 PC -> 300 PC.
+- +1 Gold to all Coast and Ocean tiles.
+Great Library
+- 400 PC -> 300 PC.
+- Grants Eurekas also to all Medieval era technologies.
+Great Lighthouse
+- 290 PC -> 250 PC.
+- Allows Ocean access.
+Jebel Barkal
+- 400 PC -> 300 PC.
+- +2 Production.
+- +2 Science.
+Machu Picchu
+- 400 PC -> 300 PC.
+Mahabodhi Temple
+- 400 PC -> 300 PC.
+- Strengthens city's religious pressure by 100%
+Mausoleum at Halicarnassus
+- 400 PC -> 300 PC.
+Petra
+- 400 PC -> 300 PC.
+- +1 Trader.
+- +1 Trade Route capacity.
+- +1 Food, +2 Gold, +1 Production to Desert tiles without Floodplains.
+Statue of Zeus
+- 400 PC -> 300 PC.
+Terracotta Army
+- 400 PC -> 300 PC.
+- +3 Swordsman.
+- +3 Crossbowman.
+Medieval Era Wonders
+Alhambra
+- 710 PC -> 480 PC.
+- +20% Culture.
+Angkor Wat
+- 710 PC -> 480 PC.
+Chichen Itza
+- 710 PC -> 480 PC.
+- +1 Food to Rainforests.
+Meenakshi Temple
+- 710 PC -> 480 PC.
+Hagia Sophia
+- 710 PC -> 480 PC.
+- +2 charges to Missionaries and Apostles.
+Huey Teocalli
+- 710 PC -> 480 PC.
+- +2 Gold to Lakes.
+Kilwa Kisiwani
+- 710 PC -> 480 PC.
+Kotoku-in
+- 710 PC -> 480 PC.
+- +1 promotion to all Warrior Monks.
+Mont St. Michel
+- 710 PC -> 480 PC.
+University of Sankore
+- 710 PC -> 480 PC.
+- +1 Science to all Shrines.
+- +1 Science to all Temples.
+- No longer receives Faith from domestic Trade Routes.
+Renaissance Era Wonders
+Casa de Contratación
+- 920 PC -> 600 PC.
+Forbidden City
+- 920 PC -> 600 PC.
+- +4 Diplomatic Victory points.
+Great Zimbabwe
+- 920 PC -> 600 PC.
+- +1 Trader.
+Potala Palace
+- 1060 PC -> 725 PC.
+St. Basil's Cathedral
+- 920 PC -> 600 PC.
+Taj Mahal
+- 920 PC -> 600 PC.
+- +15% Science in a Golden Age to all cities.
+- +15% Culture in a Golden Age to all cities.
+- +15% Production in a Golden Age to all cities.
+- +15% Faith in a Golden Age to all cities.
+- +15% Gold in a Golden Age to all cities.
+Torre de Belém
+- 920 PC -> 600 PC.
+- +1 Builder to all cities not on Capital's continent when constructed.
+Venetian Arsenal
+- 920 PC -> 600 PC.
+- +1 Great Engineer.
+Industrial Era Wonders
+Big Ben
+- 1450 PC -> 1000 PC.
+Bolshoi Theatre
+- 1240 PC -> 850 PC.
+Hermitage
+- 1450 PC -> 1000 PC.
+- +50% Culture.
+Országház
+- 920 PC -> 600 PC.
+- +2 Science per suzerained city-state.
+- +2 Culture per suzerained city-state.
+- +2 Faith per suzerained city-state.
+- +2 Gold per suzerained city-state.
+Oxford University
+- 1240 PC -> 850 PC.
+Panama Canal
+- 920 PC -> 600 PC.
+- +5 Production.
+Ruhr Valley
+- 1240 PC -> 850 PC.
+- +2 Production to all Workshops.
+- +2 Production to all Factories.
+Statue of Liberty
+- 1240 PC -> 850 PC.
+- +3 Builders when constructed.
+- +0.5 Production per Population to all cities.
+Modern Era Wonders
+Broadway
+- 1620 PC -> 1280 PC.
+- +6 Culture.
+- +1 Great Writer.
+- +1 Great Musician.
+- No longer grants a free Atomic era Inspiration.
+- No longer provides +20% Culture.
+Cristo Redentor
+- 1620 PC -> 1280 PC.
+- +1 Atomic era Inspiration.
+Eiffel Tower
+- 1620 PC -> 1280 PC.
+Golden Gate Bridge
+- 1620 PC -> 1280 PC.
+Atomic Era Wonders
+Amundsen-Scott Research Station
+- 1620 PC -> 1280 PC.
+- +1 Great Scientist.
+Biosphère
+- No longer grants Tourism for green energy.
+Estádio do Maracanã
+- 1740 PC -> 1365 PC.
+- +10 Tourism to all Entertainment Complexes or Water Parks.
+Sydney Opera House
+- 1850 PC -> 1625 PC.
+- Grants Inspirations also to all Atomic and Information era civics.
