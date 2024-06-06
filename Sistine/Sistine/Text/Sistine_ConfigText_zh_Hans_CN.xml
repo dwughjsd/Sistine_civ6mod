@@ -124,7 +124,7 @@
 		</Replace>
 		<!--Unique Buildings-->
 		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>日本特色建筑。{LOC_PRODUCTION_10_SST}研究“电力”科技后为此城市提供+4 [ICON_Culture] 文化值。其 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心（前提是其尚未从其他的此建筑获得加成）。</Text>
+			<Text>日本特色建筑。为此城+10% [ICON_Production] 生产力，[ICON_Power] 供电充足时额外+15% [ICON_Production] 生产力。基础研究“电力”科技后为此城市提供+4 [ICON_Culture] 文化值。其 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心（前提是其尚未从其他的此建筑获得加成）。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>美国特色建筑。游戏进入现代之后，为所在城市+100% [ICON_Tourism] 旅游业绩。{LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST}</Text>
@@ -596,6 +596,13 @@
 		<!--Unique Unit-->
 		<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>中国中古时代特色单位，替代弩手。高战斗力远程单位。</Text>
+		</Replace>
+		<!--Text fixes-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有区域在与区域相邻时获得标准相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>作为文化场地的希腊特色区域，替代剧院广场，建造费用更低。建成后奖励1名 [ICON_Envoy] 使者。[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}每个相邻区域+1 [ICON_Culture] 文化值，每个相邻市中心额外+1 [ICON_Culture] 文化值。每个相邻奇观、娱乐中心及水上乐园+2 [ICON_Culture] 文化值。只能建在丘陵上。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

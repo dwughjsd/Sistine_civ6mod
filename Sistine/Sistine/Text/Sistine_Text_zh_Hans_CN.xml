@@ -398,10 +398,7 @@
 		</Replace>
 		<!--Districts-->
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您城市里的文化场地区。[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}</Text>
-		</Replace>
-		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>希腊特色文化遗址区域，替代剧院广场，建造费用更低。建成后奖励1名 [ICON_Envoy] 使者。[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}每个相邻区域+1 [ICON_Culture] 文化值，每个相邻市中心额外+1 [ICON_Culture] 文化值。每个相邻奇观、娱乐设施及水上乐园+2 [ICON_Culture] 文化值。只能建在丘陵上。</Text>
+			<Text>您城市里的文化场地区域。[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建设在迷人单元格上时+1 [ICON_CULTURE] 文化值，建设在惊艳单元格上时+3 [ICON_CULTURE] 文化值。</Text>

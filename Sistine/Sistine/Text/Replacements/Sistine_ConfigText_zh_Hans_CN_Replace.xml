@@ -1062,5 +1062,38 @@
 		<Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>越南特色区域，替代军营。每与1个区域相邻，则+2 [ICON_CULTURE] 文化值。研究飞行科技后，将获得与 [ICON_CULTURE] 文化值产出相等的 [ICON_TOURISM] 旅游业绩。此区域不需要人口，建造花费更低，无法建在市中心旁，不提供 [ICON_GreatPerson] 伟人点数，且不属于专业化区域。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DIVINE_WIND_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>陆地单位处于相邻海岸的陆地单元格时+5 [ICON_Strength] 战斗力；浅水单元格上的海军单位+5 [ICON_Strength] 战斗力。建造军营、圣地和剧院广场的时间减半。单位不受飓风伤害。与日本交战文明的单位在日本领土内遭遇飓风时受到+100%伤害。</Text>
+		</Replace>		
+		<Replace Tag="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>日本特色中古时代近战单位，替代披甲战士。受伤后不会获得战斗力减益。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建立城市可获得额外领土。冻土提供+1 [ICON_Faith] 信仰值与+1 [ICON_Production] 生产力。与俄罗斯交战文明的单位在俄罗斯领土内遭遇暴风雪时受到+100%伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RUSSIAN_COSSACK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>俄罗斯特色工业时代单位，替代近代骑兵。更加强大，且在位于或靠近俄罗斯领土作战时+5 [ICON_Strength] 战斗力。如有剩余 [ICON_Movement] 移动力，可在攻击后移动。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LAVRA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>用于宗教活动的俄罗斯特色区域。替代圣地区域，建造费用更低。[NEWLINE][NEWLINE]此城市中每次使用伟人，便可使边界扩大一单元格。拉伏拉大修院中若有神祠，每回合提供+1 [ICON_GreatWriter] 大作家点数；若有寺庙，每回合提供+1 [ICON_GreatArtist] 大艺术家点数；若有祭祀建筑，每回合提供+1 [ICON_GreatMusician] 大音乐家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SURROUNDED_BY_GLORY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个以您为宗主国的城邦使您获得+5% [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GREEK_HOPLITE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>希腊特色远古时代反骑兵单位，替代矛兵。和至少一个希腊重步兵相邻时+10 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有骑兵类单位+3 [ICON_Strength] 战斗力，且有几率俘获被其击败的敌方骑兵类单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MONGOLIAN_ORTOO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>发起一条 [ICON_TradeRoute] 贸易路线即可立即在终点城市创建一座 [ICON_TradingPost] 贸易站。在一个文明的任意城市中拥有一座 [ICON_TradingPost] 贸易站后，对其 [ICON_VisLimited] 外交能见度上升1级。所有蒙古单位在 [ICON_VisLimited] 外交能见度高于对方时获得的 [ICON_Strength] 战斗力加成翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ORDU_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>蒙古特色建筑。使本城市生产的轻重骑兵单位+1 [ICON_MOVEMENT] 移动力。本城市生产的所有骑兵和攻城单位+25%战斗经验值。[NEWLINE]战略资源储备+10（标准速度下）。[NEWLINE][NEWLINE]无法建造在已拥有兵营的军营区域中。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MONGOLIAN_KESHIG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>蒙古特色中古时代远程骑兵单位。可护送在平民和支援单位使其获得自身的高 [ICON_Movement] 移动力。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
