@@ -1,7 +1,7 @@
 TITLE (标题)
 Official Title: 鉴古维新 (lit. "Refer to the classics and to renovate")
 English Title: Project Sistine
-Updated: 2024-06-07, 14:49 [UTC+8]
+Updated: 2024-06-07, 22:08 [UTC+8]
 
 GUIDE (指南)
 - Underline = Reworked
@@ -401,11 +401,11 @@ Coal Power Plant
 - 300 PC -> 400 PC.
 Electronics Factory
 - Has the changes to the Factory.
-- +4 Production.
+- To cities within 6 tiles: Increased to +8 Production -> +7 Production when powered.
 Factory
 - Required for Manufacturing Plant.
-- +3 Production.
-- Increased to +6 Production when powered.
+- To cities within 6 tiles: +3 Production -> +3 Production.
+- To cities within 6 tiles: Increased to +6 Production -> +6 Production when powered.
 - +2 Production from Specialists.
 - +10% Production.
 - Increased to +25% Production when powered.
@@ -431,7 +431,7 @@ Nuclear Power Plant
 - +1 Production to infrastructure per Industrial City-State with 6 Envoys.
 - 480 PC -> 650 PC.
 Oil Power Plant
-- +4 Production.
+- To cities within 6 tiles: +3 Production -> +4 Production.
 - Specialists no longer provide Production.
 - +1 Production to infrastructure per Industrial City-State with 6 Envoys.
 - 360 PC -> 520 PC.
