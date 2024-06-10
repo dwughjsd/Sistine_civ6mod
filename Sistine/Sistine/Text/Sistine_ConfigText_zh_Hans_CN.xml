@@ -471,7 +471,7 @@
 			<Text>处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代时，+15% 所有类型产出。未处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代时，和同样未处于 [ICON_GLORY_GOLDEN_AGE] 黄金时代或英雄时代的文明作战将+4 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>在城市中完成特色项目后，可将原始 [ICON_Capital] 首都迁至任意拥有U型港的城市（必须为本方建立）。每个市政广场建筑与市政广场区域+1 [ICON_TradeRoute] 贸易路线容量。建造市政广场+50% [ICON_Production] 生产力。在拥有市政广场的城市中建造区域和建筑时+50% [ICON_Production] 生产力。</Text>
+			<Text>可通过完成特色项目，将其原始 [ICON_Capital] 首都迁至任意一座由本方建立且拥有U型港的城市。每个市政广场建筑与市政广场区域+1 [ICON_TradeRoute] 贸易路线容量。建造市政广场+50% [ICON_Production] 生产力。在拥有市政广场的城市中建造区域和建筑时+50% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>如果相邻城市在波兰文化炸弹的攻击下失去单元格，则波兰创立的宗教将成为此城的主流宗教。圣地从相邻区域获得标准信仰值相邻加成。宫殿+3 [ICON_Faith] 信仰值。[ICON_GreatWork_Relic] 遗物+2 [ICON_Faith] 信仰值、+2 [ICON_Culture] 文化值、+4 [ICON_Gold] 金币。</Text>

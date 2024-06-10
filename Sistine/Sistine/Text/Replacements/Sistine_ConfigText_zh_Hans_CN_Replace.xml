@@ -1059,9 +1059,6 @@
 		<Replace Tag="LOC_UNIT_BYZANTINE_TAGMA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>巴西尔二世的特色中古时代单位，替代骑士。拜占庭皇家近卫军1单元格内的陆地单位获得+4 [ICON_Strength] 战斗力或 [ICON_RELIGION] 宗教战斗力。</Text>
 		</Replace>
-		<Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>越南特色区域，替代军营。每与1个区域相邻，则+2 [ICON_CULTURE] 文化值。研究飞行科技后，将获得与 [ICON_CULTURE] 文化值产出相等的 [ICON_TOURISM] 旅游业绩。此区域不需要人口，建造花费更低，无法建在市中心旁，不提供 [ICON_GreatPerson] 伟人点数，且不属于专业化区域。</Text>
-		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DIVINE_WIND_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>陆地单位处于相邻海岸的陆地单元格时+5 [ICON_Strength] 战斗力；浅水单元格上的海军单位+5 [ICON_Strength] 战斗力。建造军营、圣地和剧院广场的时间减半。单位不受飓风伤害。与日本交战文明的单位在日本领土内遭遇飓风时受到+100%伤害。</Text>
 		</Replace>		
@@ -1094,6 +1091,67 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_MONGOLIAN_KESHIG_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>蒙古特色中古时代远程骑兵单位。可护送在平民和支援单位使其获得自身的高 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TOKUGAWA_XP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国际 [ICON_TradeRoute] 贸易路线的产出和 [ICON_Tourism] 旅游业绩-25%，但国内 [ICON_TradeRoute] 贸易路线的终点城市每有一个专业化区域便获得+1 [ICON_Culture] 文化值、+1 [ICON_Science] 科技值和+2 [ICON_Gold] 金币。在日本 [ICON_Capital] 首都6单元格内的城市固定为100%忠诚，且在研究“飞行”后每个区域+1 [ICON_Tourism] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_THEODORA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣地提供等于其相邻加成的 [ICON_CULTURE] 文化值。农场为跑马场和圣地提供 [ICON_FAITH] 信仰值相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HIPPODROME_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拜占庭特色区域。替代娱乐中心区域，提供+3 [ICON_Amenities] 宜居度，且建造花费更低。建成跑马场及区域内的建筑时，获得1个重骑兵单位。本区域以此方式提供的单位不消耗维护资源。无法建在拥有“水上乐园”的城市中。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游戏开始便激活“写作”科技 [ICON_TechBoosted] 尤里卡。若腓尼基建立的海岸城市与 [ICON_Capital] 首都位于同一大陆，则固定为100%忠诚。开拓者上船后，[ICON_Movement] 移动力与视野范围各+2。开拓者上船和下船无需额外花费 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COTHON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>用于城市中的航海活动的腓尼基特色区域，取代港口且建造成本更低。必须修建在与陆地相邻的海岸或湖泊上。[NEWLINE][NEWLINE]该城市生产海军单位与开拓者时+50% [ICON_PRODUCTION] 生产力。在该城范围内，所有受损海军单位每回合可恢复100点生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PHOENICIA_BIREME_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>腓尼基远古时代特色单位，替代桨帆船。[ICON_Strength] 战斗力及 [ICON_Movement] 移动力均有所提升。位于水域且与双列桨战船相距4个单元格内的贸易单位可免疫掠夺。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KHMER_DOMREY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中古时代高棉特色攻城单位，替代重力抛石机。此单位的近战和远程 [ICON_Strength] 战斗力高于重力抛石机。它能在同一回合中移动并攻击，并产生控制区域（ZOC）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KONGO_SHIELD_BEARER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>刚果特色古典时代单位，替代剑士。防御远程攻击时+10 [ICON_Strength] 战斗力。不受森林和雨林的移动力和视野惩罚。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MBANZA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>刚果特色区域，只能建在雨林或森林里。替代社区，但解锁更早且建造费用更低。无视魅力值，固定提供+5 [ICON_Housing] 住房、+2 [ICON_Food] 食物和+4 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>审判官可额外进行一次清除异教。审判官清除异教时可100%消除城市的其他宗教。战斗和宗教单位对战信仰其他宗教的单位时+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>西班牙特色启蒙时代单位，替代火枪手。1单元格内有宗教单位时+10 [ICON_Strength] 战斗力。如果此单位占领城市、或在城市被占领时位于相邻单元格，该城市会自动将该单位所属玩家的宗教采纳为主流宗教。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>遇见的每个已创建宗教且不在战争状态的文明（包括印度本身）提供+5信仰值 [ICON_Faith] 。与甘地交战的文明获得双倍厌战情绪。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DHARMA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得城市中所有至少有1个信徒的宗教的信徒信仰加成。城市内每有一种至少有1个信徒的宗教便+1 [ICON_Amenities] 宜居度。传教士+2传播次数. [ICON_TradeRoute] 贸易路线产生的宗教压力+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>印度特色古典时代重骑兵单位。与其相邻的敌方单位-5 [ICON_Strength] 战斗力。</Text>
+		</Replace>		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>越南特色区域，替代军营。每与1个区域相邻，则+2 [ICON_CULTURE] 文化值。研究飞行科技后，将获得与 [ICON_CULTURE] 文化值产出相等的 [ICON_TOURISM] 旅游业绩。此区域不需要人口，建造花费更低，无法建在市中心旁，不提供 [ICON_GreatPerson] 伟人点数，且不属于专业化区域。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
