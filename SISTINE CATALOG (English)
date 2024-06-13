@@ -1,7 +1,7 @@
 TITLE (标题)
 Official Title: 鉴古维新 (lit. "Refer to the classics and to renovate")
 English Title: Project Sistine
-Updated: 2024-06-08, 21:57 [UTC+8]
+Updated: 2024-06-13, 21:11 [UTC+8]
 
 GUIDE (指南)
 - Underline = Reworked
@@ -269,7 +269,7 @@ Arena
 - 150 PC -> 135 PC.
 Stadium
 - Unlocked by Mass Media civic.
-- +2 Amenities.
+- To cities within 6 tiles: +1 Amenity -> +2 Amenities.
 - +10 Tourism when Population is 10.
 - Increased to +20 Tourism when Population is 20.
 - 480 PC -> 540 PC.
@@ -518,11 +518,11 @@ Opera House
 - +1 slot for Great Works of Music.
 Water Park Buildings
 Aquarium
-- +1 Amenity -> +3 Amenities.
+- To cities within 9 tiles: +1 Amenity -> +3 Amenities.
 - 360 PC -> 420 PC.
 Aquatics Center
-- +3 Amenity.
-- Increased to +6 Amenities when powered.
+- To cities within 9 tiles: +1 Amenity -> +3 Amenity.
+- Increased to +3 Amenities -> +6 Amenities when powered.
 - +5 Tourism to coastal or lake Wonders.
 - 660 PC -> 650 PC.
 Ferris Wheel
