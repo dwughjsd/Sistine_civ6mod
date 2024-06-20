@@ -1,7 +1,7 @@
 TITLE (标题)
 Official Title: 鉴古维新 (lit. "Refer to the classics and to renovate")
 English Title: Project Sistine
-Updated: 2024-06-16, 20:22 [UTC+8]
+Updated: 2024-06-20, 22:00 [UTC+8]
 
 GUIDE (指南)
 - Underline = Reworked
@@ -799,9 +799,15 @@ Water Park
 Unique Non-Specialty Districts
 Bath
 - 18 PC -> 15 PC.
+Mbanza
+- Has the changes to the Neighborhood.
+- 27 PC -> 20 PC.
 Unique Specialty Districts
 Acropolis
 - Has the changes to the Theater Square.
+- 27 PC -> 20 PC.
+Copacabana
+- Has the changes to the Water Park.
 - 27 PC -> 20 PC.
 Cothon
 - Has the changes to the Harbor.
@@ -810,6 +816,9 @@ Hansa
 - Has the changes to the Industrial Zone.
 - +1 Production adjacency per Offshore Oil Rig.
 - +1 Production adjacency per Oil Well.
+- 27 PC -> 20 PC.
+Hippodrome
+- Has the changes to the Entertainment Complex.
 - 27 PC -> 20 PC.
 Ikanda
 - Has the changes to the Encampment.
@@ -835,6 +844,9 @@ Royal Navy Dockyard
 - 27 PC -> 20 PC.
 Seowon
 - Has the changes to the Campus.
+- 27 PC -> 20 PC.
+Street Carnival
+- Has the changes to the Entertainment Complex.
 - 27 PC -> 20 PC.
 Suguba
 - Has the changes to the Commercial Hub.
@@ -2280,6 +2292,10 @@ Settler
 Spy
 - 225 PC -> 50 PC.
 - Offensive spy missions' chance of success reduced.
+GDR
+Giant Death Robot
+- Resource = 1 Uranium -> 60 Uranium.
+- Resource Maintenance = 3 Uranium -> 0 Uranium.
 Heavy Cavalry
 Cuirassier
 - CS = 64 -> 68.
@@ -2292,6 +2308,10 @@ Hetairoi
 - No longer replaces the Horseman.
 - CS = 36 -> 38.
 - Movement = 4 -> 3.
+Knight
+- CS = 50 -> 48.
+- Movement = 4 -> 3.
+- -7 Combat Strength fighting in districts.
 Mamluk
 - Has the changes of the Knight.
 Mandekalu Cavalry
@@ -2303,9 +2323,6 @@ Modern Armor
 - Resource = Oil -> Aluminum.
 - Requires 20 Aluminum to train.
 - No longer requires 1 Oil per turn to maintain.
-Knight
-- CS = 50 -> 48.
-- Movement = 4 -> 3.
 Rough Rider
 - CS = 67 -> 71.
 - Movement = 5 -> 4.
@@ -2370,7 +2387,7 @@ Aircraft Carrier
 - Movement = 3 -> 4.
 - Flight Deck promotion: +1 additional attack.
 - Hangar Deck promotion: +1 additional attack.
-- Folding Wings Deck promotion: +1 additional attack.
+- Folding Wings promotion: +1 additional attack.
 Naval Melee
 Bireme
 - CS = 35 -> 30.
@@ -2390,8 +2407,6 @@ Nuclear Submarine
 - CS = 80 -> 65.
 - RS = 85 -> 95.
 - Movement = 3 -> 4.
-- Resource = 1 Oil -> 20 Oil.
-- Resource Maintenance = 1 Oil -> 0 Oil.
 - -17 Combat Strength fighting district defenses.
 Submarine
 - CS = 65 -> 55.
@@ -2429,8 +2444,6 @@ Missile Cruiser
 Quadrireme
 - CS = 20 -> 25.
 - RS -> BS = 25 -> 30.
-- Resource = 1 Oil -> 20 Oil.
-- Resource Maintenance = 1 Oil -> 0 Oil.
 Ranged
 Crouching Tiger
 - Range = 1 -> 2.
