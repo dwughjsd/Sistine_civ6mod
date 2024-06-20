@@ -1,7 +1,7 @@
 TITLE (标题)
 Official Title: 鉴古维新 (lit. "Refer to the classics and to renovate")
 English Title: Project Sistine
-Updated: 2024-06-20, 22:00 [UTC+8]
+Updated: 2024-06-21, 03:20 [UTC+8]
 
 GUIDE (指南)
 - Underline = Reworked
@@ -727,25 +727,27 @@ Bà Triệu
 
 DISTRICTS (区域)
 Non-Specialty Districts
+Aqueduct
+- 36 PC -> 30 PC.
+Canal
+- 81 PC -> 60 PC.
+Dam
+- 81 PC -> 60 PC.
 Neighborhood
 - +4 Food with Food Markets.
 - +4 Gold with Shopping Malls.
 - Increases to +8 Gold with Shopping Malls when powered.
 - 54 PC -> 40 PC.
+Spaceport
+- 1800 PC -> 1600 PC.
 Specialty Districts
-Aqueduct
-- 36 PC -> 30 PC.
 Campus
 - +3 Science from Specialists.
 - +1 Gold to incoming international Trade Routes.
 - 54 PC -> 40 PC.
-Canal
-- 81 PC -> 60 PC.
 Commercial Hub
 - +6 Gold from Specialists.
 - 54 PC -> 40 PC.
-Dam
-- 81 PC -> 60 PC.
 Diplomatic Quarter
 - +1 Gold to incoming international Trade Routes.
 - 30 PC -> 40 PC.
@@ -785,8 +787,6 @@ Industrial Zone
 - +1 Production adjacency per Bath.
 - +1 Production adjacency per Canal.
 - +1 Production adjacency per Dam.
-Spaceport
-- 1800 PC -> 1600 PC.
 Theater Square
 - 54 PC -> 40 PC.
 - +3 Culture from Specialists.
