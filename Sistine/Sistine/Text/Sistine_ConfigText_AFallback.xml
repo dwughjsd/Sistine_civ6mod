@@ -498,7 +498,6 @@
 		<!--Changes pending-->
 		<Replace Tag="LOC_TRAIT_LEADER_CLEOPATRA_ALT_DESCRIPTION" Language="en_US">
 			<Text>Resources on Floodplains receive +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Owned Floodplains tiles grant +1 Appeal to adjacent tiles instead of usual -1.</Text>
-			Text>
 		</Replace>
 		<!--Civ Traits-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION" Language="en_US">
