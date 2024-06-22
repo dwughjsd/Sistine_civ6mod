@@ -511,7 +511,7 @@
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_NAME" Language="zh_Hans_CN">
 			<Text>阿克苏姆传承</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_NAME" Language="ja_JP">
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_NAME" Language="zh_Hans_CN">
 			<Text>帝国自由市</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_NAME" Language="zh_Hans_CN">
@@ -1133,20 +1133,40 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>印度特色古典时代重骑兵单位。与其相邻的敌方单位-5 [ICON_Strength] 战斗力。</Text>
-		</Replace>		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HAMMURABI_XP1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首次建成一种专业化区域（市政广场除外）时，获得此时可在该区域中建造的、所需 [ICON_PRODUCTION] 生产力最低的建筑。首次建造任意其他区域时，获得1名 [ICON_ENVOY] 使者。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>额外获得一个军事政策槽位。攻击城邦时+7 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每座城市均可在通常的区域数量限制（由 [ICON_Citizen] 人口决定）之上额外建造一个区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GERMAN_UBOAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>德国特色电气时代海军单位，替代潜艇。生产成本更低，+1视野，在海洋单元格作战时+10 [ICON_Strength] 战斗力。能发现其他隐形单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>用于工业活动的德国特色区域，替代工业区，建造费用更低。[NEWLINE][NEWLINE]可从每个相邻的商业中心、水渠、运河和堤坝区域处获得+2 [ICON_Production] 生产力加成。每处相邻资源为其提供1点 [ICON_Production] 生产力加成。每两处相邻区域为其提供1点 [ICON_Production] 生产力加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_KUBLAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使用任意政体均可额外获得一个经济政策槽位。首次在另一个文明的城市中建立 [ICON_TradingPost] 贸易站时随机获得一项 [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占领蛮族哨站后，除 [ICON_Gold] 金币之外，您还将获得部落村庄奖励。征集城邦单位的费用减半。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SUMERIAN_WAR_CART_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>苏美尔特色远古时代单位。比其他所有初始单位更强大。对战反骑兵单位时不受减益。从开阔地形开始回合时有4点 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对主要文明宣布突袭战争后的10回合内+2 [ICON_Movement] 移动力。占领的城市在驻有单位时每回合+5忠诚度。宣布突袭战争的 [ICON_STAT_GRIEVANCE] 不满和好战惩罚等同于正式战争。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有“政治哲学”市政后，+1 [ICON_TradeRoute] 贸易路线容量。国内贸易路线+2 [ICON_Gold] 金币，+1 [ICON_Culture] 文化值。建设在本国领土中的道路比通常的道路先进一级。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_IMMORTAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>波斯特色近战单位，替代剑士。可进行远程攻击，[ICON_Range] 射程为2。防御力强。</Text>
+		</Replace>
 		
 		
 		

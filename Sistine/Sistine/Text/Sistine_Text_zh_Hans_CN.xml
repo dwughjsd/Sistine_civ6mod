@@ -400,9 +400,6 @@
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您城市里的文化场地区域。[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}</Text>
 		</Replace>
-		<Replace Tag="LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建设在迷人单元格上时+1 [ICON_CULTURE] 文化值，建设在惊艳单元格上时+3 [ICON_CULTURE] 文化值。</Text>
-		</Replace>
 		<!--Wonders-->
 		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>帝国中的所有沼泽单元格+2 [ICON_SCIENCE] 科技值、+1 [ICON_PRODUCTION] 生产力、+2 [ICON_FOOD] 食物。此城市的所有泛滥平原单元格+1 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须建在泛滥平原或沼泽上。</Text>

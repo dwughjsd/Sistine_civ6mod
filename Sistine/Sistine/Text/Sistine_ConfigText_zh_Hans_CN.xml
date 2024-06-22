@@ -124,7 +124,7 @@
 		</Replace>
 		<!--Unique Buildings-->
 		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>日本特色建筑。为此城+10% [ICON_Production] 生产力，[ICON_Power] 供电充足时额外+15% [ICON_Production] 生产力。基础研究“电力”科技后为此城市提供+4 [ICON_Culture] 文化值。其 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心（前提是其尚未从其他的此建筑获得加成）。</Text>
+			<Text>日本特色建筑。为此城+10% [ICON_Production] 生产力，[ICON_Power] 供电充足时额外+15% [ICON_Production] 生产力。研究“电力”科技后为此城市提供+4 [ICON_Culture] 文化值。基础 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心（前提是其尚未从其他的此建筑获得加成）。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>美国特色建筑。游戏进入现代之后，为所在城市+100% [ICON_Tourism] 旅游业绩。{LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST}</Text>
@@ -497,7 +497,7 @@
 			<Text>使用建造者建造次数可推进50%的区域建设进度。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-80%。</Text>
+			<Text>[ICON_TechBoosted] 尤里卡提供科技所需的全部 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-80%。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每有1座圣城皈依拜占庭的宗教（也包括拜占庭的圣城），单位便获得+2 [ICON_Strength] 战斗力或 [ICON_Religion] 宗教战斗力。击杀敌方文明或城邦的单位时，拜占庭的宗教将传播到附近的城市。如城市拥有圣地区域，其提供的 [ICON_GreatProphet] 大预言家点数+1。</Text>
@@ -601,8 +601,14 @@
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有区域在与区域相邻时获得标准相邻加成。</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建设在迷人单元格上时+1 [ICON_CULTURE] 文化值，建设在惊艳单元格上时+3 [ICON_CULTURE] 文化值。</Text>
+		</Replace>
 		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>作为文化场地的希腊特色区域，替代剧院广场，建造费用更低。建成后奖励1名 [ICON_Envoy] 使者。[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}每个相邻区域+1 [ICON_Culture] 文化值，每个相邻市中心额外+1 [ICON_Culture] 文化值。每个相邻奇观、娱乐中心及水上乐园+2 [ICON_Culture] 文化值。只能建在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与同一个敌人交战时，5个单元格以内的盟友单位共享掠夺奖励和战斗经验值。您和您的同盟与同一个敌人作战可获得同盟点数。对战与您和您的盟友同时交战的玩家的单位时+5 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

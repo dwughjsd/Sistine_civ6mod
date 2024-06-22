@@ -177,7 +177,6 @@
 		<Replace Tag="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE" Language="zh_Hans_CN" Text="获得2个随机科技的 [ICON_TechBoosted] 尤里卡，获得1个随机的中古时代或启蒙时代市政的 [ICON_CivicBoosted] 启发。"/>
 		<Replace Tag="LOC_HUD_POPUP_CIVIC_BOOST_UNLOCKED" Language="zh_Hans_CN" Text="启发！"/>
 		<Replace Tag="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN" Text="征服非自由城市的城市后，其中每个军营或学院将启动1个 [ICON_TechBoosted] 尤里卡、每个圣地或剧院广场则将带来1次 [ICON_CivicBoosted] 启发。"/>
-		<Replace Tag="LOC_TRAIT_LEADER_KUBLAI_DESCRIPTION" Language="zh_Hans_CN" Text="任意政体中额外增加一个经济政策槽位。首次在另一个文明的城市中建立 [ICON_TradingPost] 贸易站时随机获得一项 [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发。"/>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN" Text="[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发额外提供科技与市政成本的10%。建成奇观时将获得奇观所处时代的一项随机[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发（如可用）。"/>
 		<Replace Tag="LOC_ERA_REVIEW_POPUP_ERA_SCORE_CIVIC_BOOSTS" Language="zh_Hans_CN" Text="着力点加成：触发启发（每个+{1_ScoreIncrement}）"/>
 		<Replace Tag="LOC_CIVIC_BOOST_DEDICATION_NOTIFICATION" Language="zh_Hans_CN" Text="您触发了1次 [ICON_CivicBoosted] 启发。"/>

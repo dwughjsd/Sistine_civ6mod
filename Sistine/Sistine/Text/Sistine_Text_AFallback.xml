@@ -400,9 +400,6 @@
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="en_US">
 			<Text>A district in your city for cultural sites.[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}</Text>
 		</Replace>
-		<Replace Tag="LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Culture] Culture when built on Charming tiles, +3 Culture when built on Breathtaking tiles.</Text>
-		</Replace>
 		<!--Wonders-->
 		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_SCIENCE] Science, +1 [ICON_PRODUCTION] Production, and +2 [ICON_Food] Food to all Marsh tiles in your empire. +1 [ICON_SCIENCE] Science on all Floodplains tiles for this city.[NEWLINE][NEWLINE]Must be built on Floodplains or Marsh.</Text>

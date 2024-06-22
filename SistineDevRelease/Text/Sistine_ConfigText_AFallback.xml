@@ -124,7 +124,7 @@
 		</Replace>
 		<!--Unique Buildings-->
 		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>A building unique to Japan. {LOC_PRODUCTION_10_SST} Provides +4 [ICON_Culture] Culture to this city after researching the Electricity technology. Its [ICON_PRODUCTION] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
+			<Text>A building unique to Japan. +10% [ICON_Production] Production in this city. Additional +15% [ICON_PRODUCTION] Production when [ICON_Power] Powered. Provides +4 [ICON_Culture] Culture to this city after researching the Electricity technology. Its [ICON_PRODUCTION] Production bonus is extended to all City Centers within 6 tiles that do not already have a bonus from this building type.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>A building unique to America. +100% [ICON_Tourism] Tourism pressure from this city towards other civilizations when the game enters the Modern era. {LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST}</Text>
@@ -498,7 +498,6 @@
 		<!--Changes pending-->
 		<Replace Tag="LOC_TRAIT_LEADER_CLEOPATRA_ALT_DESCRIPTION" Language="en_US">
 			<Text>Resources on Floodplains receive +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Owned Floodplains tiles grant +1 Appeal to adjacent tiles instead of usual -1.</Text>
-			Text>
 		</Replace>
 		<!--Civ Traits-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION" Language="en_US">
@@ -604,6 +603,19 @@
 		<!--Unique Unit-->
 		<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="en_US">
 			<Text>Chinese unique Medieval era unit that replaces the Crossbowman. Ranged unit with high combat strength.</Text>
+		</Replace>
+		<!--Text fixes-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION" Language="en_US">
+			<Text>All districts receive an standard adjacency bonus for being adjacent to another district.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture when built on Charming tiles, +3 Culture when built on Breathtaking tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Greece for cultural sites. Replaces the Theater Square district and cheaper to build. Awards 1 [ICON_Envoy] Envoy when completed.[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION} +1 [ICON_Culture] Culture bonus for each adjacent district and an additional +1 [ICON_Culture] Culture bonus for adjacent City Center. +2 [ICON_Culture] Culture bonus for each adjacent wonder, Entertainment Complex, and Water Park. Can only be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>When at war with a common foe, units of your allies within 5 tiles share pillage rewards and combat experience gains. Your Alliances gain Alliance Points for being at war with a common foe. +5 [ICON_Strength] Combat Strength against units of players at war with you and your ally.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
