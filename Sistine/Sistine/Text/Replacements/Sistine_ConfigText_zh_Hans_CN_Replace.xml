@@ -1162,11 +1162,63 @@
 			<Text>对主要文明宣布突袭战争后的10回合内+2 [ICON_Movement] 移动力。占领的城市在驻有单位时每回合+5忠诚度。宣布突袭战争的 [ICON_STAT_GRIEVANCE] 不满和好战惩罚等同于正式战争。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有“政治哲学”市政后，+1 [ICON_TradeRoute] 贸易路线容量。国内贸易路线+2 [ICON_Gold] 金币，+1 [ICON_Culture] 文化值。建设在本国领土中的道路比通常的道路先进一级。</Text>
+			<Text>拥有“政治哲学”市政后，+1 [ICON_TradeRoute] 贸易路线容量。国内贸易路线+2 [ICON_Gold] 金币，+1 [ICON_Culture] 文化值。在本国领土中建设的道路比常规先进一级。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_PERSIAN_IMMORTAL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>波斯特色近战单位，替代剑士。可进行远程攻击，[ICON_Range] 射程为2。防御力强。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对遇到的所有其它文明获得高于标准1级的 [ICON_VisLimited] 外交能见度。解锁“城堡”科技后免费获得1个间谍（并增加1个间谍容量）。所有间谍初始便可免费获得1个晋升，升级为探员。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>法国特色工业时代近战单位，替代线列步兵。在首都所处大陆作战时+10 [ICON_Strength] 战斗力。击杀单位后将获得 [ICON_GreatGeneral] 大将军点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MAGNIFICENCES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与剧院广场区域或法式城堡相邻的已改良奢侈资源获得+2 [ICON_CULTURE] 文化值。可在任意拥有剧院广场区域的城市中开展“宫廷盛会”项目。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWEDEN_CAROLEAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>瑞典特色启蒙时代单位，取代枪刺与射击方阵，速度较其更快。每点未使用的 [ICON_Movement] 移动力提供+3 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ITERU_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造与河流相邻的区域与奇观时 [ICON_Production] 生产力+15%。不会受到洪水的损害。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>埃及特色远古时代远程单位。从开阔地形开始回合时有4点 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MAPUCHE_MALON_RAIDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>马普切特色启蒙时代单位。在友方领土4个单元格内时+5 [ICON_Strength] 战斗力。掠夺只消耗1点 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LUDWIG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>奇观（无需建成）从每个相邻区域获得+2 [ICON_CULTURE] 文化值。此项 [ICON_CULTURE] 文化值显示在城市产出中。解锁“城堡”之后，所有文化 [ICON_CULTURE] 相邻加成将提供 [ICON_TOURISM] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCOTTISH_HIGHLANDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>苏格兰特色工业时代单位，替代游骑兵，是一种强力的侦察单位。在丘陵和森林中作战时+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>马里特色区域，专用于经济与贸易，取代商业中心。使用 [ICON_GOLD] 金币和 [ICON_FAITH] 信仰值在此城中购买单位、建筑和区域时，费用减少20%。[NEWLINE][NEWLINE]从每个相邻圣地获得+2 [ICON_Gold] 金币加成。位于河流流经的单元格时+2 [ICON_Gold] 金币加成。每与2个区域相邻获得+1 [ICON_Gold] 金币加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>起始城市中的每个沙漠（不含丘陵）单元格为国际 [ICON_TradeRoute] 贸易路线提供+1 [ICON_GOLD] 金币。文明进入黄金时代后可获得+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MALI_MANDEKALU_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>马里特色中古时代单位，替代骑士。位于陆地且与曼德卡鲁骑兵相距4个单元格内的商人单位可免遭掠夺。战斗胜利后，可获得等同于被击杀单位基础 [ICON_Strength] 战斗力数值的 [ICON_GOLD] 金币（标准速度下）。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>领土中的奢侈资源为额外2座城市提供1点 [ICON_Amenities] 宜居度。阿兹特克国土内每种改良的奢侈资源为军事单位+1 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AZTEC_EAGLE_WARRIOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿兹特克特色远古时代单位，替代勇士。有几率把其他文明的军事单位转化为建造者并俘获。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MENELIK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建在丘陵上的城市获得等同于所产生 [ICON_FAITH] 信仰值15%的 [ICON_SCIENCE] 科技值和 [ICON_CULTURE] 文化值。单位在丘陵上时+4 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>起点城市的每种资源为埃塞俄比亚的国际贸易路线提供+0.5 [ICON_Faith] 信仰值。城市每获得1份资源，本城市内已改良的这种资源便提供额外+1 [ICON_Faith] 信仰值。可用信仰值购买考古博物馆和考古学家。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ETHIOPIAN_OROMO_CAVALRY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>埃塞俄比亚特色中古时代轻骑兵单位。替代追猎者，比其战斗力更强、视野更广。在丘陵中移动时无 [ICON_Movement] 移动力减益。</Text>
+		</Replace>
+		
 		
 		
 		

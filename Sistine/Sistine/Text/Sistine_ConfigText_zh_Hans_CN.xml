@@ -456,7 +456,7 @@
 			<Text>圣地与河流相邻时将提供等同于其相邻加成的 [ICON_FOOD] 食物，+1 [ICON_Housing] 住房。圣地可施放文化炸弹。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>无法建造圣地区。从已成为多数刚果城市信仰的宗教中获得信仰值。每次完成一个姆班赞或剧院广场区时获得一位（城市主流宗教的）使徒。</Text>
+			<Text>无法建造圣地区。获得刚果信仰的主流宗教的所有信仰加成。每次完成一个姆班赞或剧院广场区域时获得一位（此城市主流宗教的）使徒。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在城市中就职的[ICON_Governor] 总督提供+3 [ICON_Culture] 文化值和 [ICON_Science] 科技值，且其每项已获得的升级（包括首个升级）另外提供+3% [ICON_Culture] 文化值和 [ICON_Science] 科技值。</Text>
