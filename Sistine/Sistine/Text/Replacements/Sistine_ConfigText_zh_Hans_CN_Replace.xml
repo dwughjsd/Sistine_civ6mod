@@ -1203,9 +1203,6 @@
 		<Replace Tag="LOC_UNIT_MALI_MANDEKALU_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>马里特色中古时代单位，替代骑士。位于陆地且与曼德卡鲁骑兵相距4个单元格内的商人单位可免遭掠夺。战斗胜利后，可获得等同于被击杀单位基础 [ICON_Strength] 战斗力数值的 [ICON_GOLD] 金币（标准速度下）。</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>领土中的奢侈资源为额外2座城市提供1点 [ICON_Amenities] 宜居度。阿兹特克国土内每种改良的奢侈资源为军事单位+1 [ICON_Strength] 战斗力。</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_AZTEC_EAGLE_WARRIOR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>阿兹特克特色远古时代单位，替代勇士。有几率把其他文明的军事单位转化为建造者并俘获。</Text>
 		</Replace>
