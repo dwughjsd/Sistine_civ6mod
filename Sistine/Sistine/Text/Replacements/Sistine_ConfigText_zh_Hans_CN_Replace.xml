@@ -1264,10 +1264,39 @@
 		<Replace Tag="LOC_TRAIT_LEADER_QIN_ALT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>近战单位获得“归化蛮族”操作。此操作能将蛮族单位转化为你的单位，但会移除使用它的近战单位。</Text>
 		</Replace>
-
-
-
-
+		<Replace Tag="LOC_TRAIT_LEADER_JOAO_III_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位+1视野。遇见一个新文明时+1 [ICON_TradeRoute] 贸易路线容量。开放所有城邦的边界。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_PORTUGAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国际 [ICON_TradeRoute] 贸易路线必须从沿海城市出发，且只能通往沿海或拥有港口的城市，但所有产出+50%。商人单位在水域中的行动范围+50%，且解锁时即可进入水域。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PORTUGUESE_NAU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>葡萄牙特色海军近战单位，替代轻快帆船。初始拥有1次免费升级，维护费用更低。可以建造商站2次。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果您尚未获得 [ICON_GreatProphet] 大预言家，当倒数第二个 [ICON_GreatProphet] 大预言家被招募后，自动获得最后一个。每座信奉阿拉伯宗教的外国城市+1 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARABIAN_MAMLUK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿拉伯特色中古时代单位，替代骑士。每回合结束时均可回复生命值（即便本回合已进行移动或攻击）。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有玩家均可以使用常规 [ICON_Faith] 信仰值成本的十分之一购买阿拉伯宗教的祭祀建筑。这种建筑可为阿拉伯城市增加10% [ICON_Science] 科技值、 [ICON_Faith] 信仰值和 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_THREE_KINGDOMS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>矿山每与1个书院区域相邻+1 [ICON_SCIENCE] 科技值。农场每与1个书院区域相邻+1 [ICON_FOOD] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>用于科学探索的朝鲜特色区域。替代学院区域。+4 [ICON_SCIENCE] 科技值。每与1个区域相邻便-1 [ICON_Science] 科技值。必须建造在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>朝鲜特色启蒙时代单位，替代野战加农炮。[ICON_Ranged] 远程攻击力强。无法在同一回合内移动并攻击。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>奥斯曼特色中古时代海军单位，取代私掠船。进行海岸扫荡时无需花费 [ICON_Movement] 移动力。除非与敌方单位相邻，否则只能被其他海军掠袭单位发现。揭示视野内的海军掠袭单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SULEIMAN_JANISSARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>奥斯曼特色启蒙时代单位，替代火枪手。初始便拥有1项免费升级。强于火枪手，且价格更低。城市必须拥有至少2人口才可训练苏丹亲兵。奥斯曼建立的城市在训练苏丹亲兵后将失去1人口。</Text>
+		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN" Text="征服非自由城市的城市后，其中每个军营或学院将启动1个 [ICON_TechBoosted] 尤里卡、每个圣地或剧院广场则将带来1次 [ICON_CivicBoosted] 启发。"/>
 		<Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="zh_Hans_CN">
