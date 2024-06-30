@@ -1215,10 +1215,61 @@
 		<Replace Tag="LOC_UNIT_ETHIOPIAN_OROMO_CAVALRY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>埃塞俄比亚特色中古时代轻骑兵单位。替代追猎者，比其战斗力更强、视野更广。在丘陵中移动时无 [ICON_Movement] 移动力减益。</Text>
 		</Replace>
-		
-		
-		
-		
+		<Replace Tag="LOC_TRAIT_LEADER_NADER_SHAH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击生命值全满的单位时+5 [ICON_Strength] 战斗力。非纳迪尔沙阿建造的城市每条国内 [ICON_TradeRoute] 贸易路线获得+2 [Icon_Faith] 信仰值和 +3 [Icon_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国内 [ICON_TradeRoute] 贸易路线的起点城市每有一个山脉单元格，便获得+1 [ICON_Food] 食物。解锁“对外贸易”市政后可获得安第斯路网改良设施。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>公民可在山脉单元格上工作。山脉单元格提供+2 [ICON_PRODUCTION] 生产力，游戏进入工业时代后额外+1 [ICON_PRODUCTION] 生产力。每与1个梯田农场相邻，山脉单元格+1 [ICON_FOOD] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INCA_WARAKAQ_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>印加特色中古时代单位，取代散兵。远程战斗力强于散兵，每回合额外+1攻击次数。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_POUNDMAKER_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有同盟类型均提供视野共享。[NEWLINE]您通往外国的[ICON_TradeRoute] 贸易路线的终点城市中每有一处营地或牧场，便为您+1 [ICON_Food] 食物。[NEWLINE]从外国前来的 [ICON_TradeRoute] 贸易路线的终点城市中每有一处营地或牧场，便为您+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_CREE_TRADE_GAIN_TILES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量，拥有“制陶”科技后获得1个免费商人。克里城市3单元格内的无主单元格将在克里的商人首次进入时划入克里领土中。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CREE_OKIHTCITAW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>克里特色远古时代单位，替代侦察兵，是强力的侦察单位。初始便拥有1次免费升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>巴西特色工业时代单位，取代战舰。强于战舰。由“民族主义”解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>巴西特色区域，替代水上乐园，+2 [ICON_Amenities] 宜居度。可解锁“狂欢节”项目，项目进行时提供额外+1 [ICON_Amenities] 宜居度，完成后提供若干 [ICON_GreatPerson] 伟人点数。无法建在拥有“街头狂欢节”的城市中。无法建在礁石上。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>巴西特色区域，代替娱乐中心区域，+2 [ICON_Amenities] 宜居度。可解锁“狂欢节”项目，项目进行时提供额外+1 [ICON_Amenities] 宜居度，完成后提供若干 [ICON_GreatPerson] 伟人点数。无法建在拥有“海滩嘉年华”的城市中。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_AMABUTHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可更早组建军团（雇佣兵市政）和军队（民族主义市政）。军团和军队的 [ICON_STRENGTH] 基础战斗力额外+5。 </Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZULU_ISIBONGO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>驻有单位的城市每回合忠诚度+3；如驻有军团或军队，则+5。如已解锁相关市政，用单位占领城市则可将其升级为军团或军队。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZULU_IMPI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>祖鲁特色中古时代单位，替代长枪兵。夹击加成更高，建造成本和维护费较低。获得经验值更快。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN" Text="[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发提供科技与市政成本的50%，而非通常的40%。建成奇观时获得奇观所处时代的一项随机[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发（如可用）。"/>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造远古和古典奇观时可消耗建造者建造次数完成奇观原始成本的15%。建造者额外获得1次建造次数。运河改为由“砌筑”科技解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_CONVERT_BARBARIANS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>归化蛮族</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QIN_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>近战单位获得“归化蛮族”操作。此操作能将蛮族单位转化为你的单位，但会移除使用它的近战单位。</Text>
+		</Replace>
+
+
+
+
+
+		<Replace Tag="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN" Text="征服非自由城市的城市后，其中每个军营或学院将启动1个 [ICON_TechBoosted] 尤里卡、每个圣地或剧院广场则将带来1次 [ICON_CivicBoosted] 启发。"/>
 		<Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>越南特色区域，替代军营。每与1个区域相邻，则+2 [ICON_CULTURE] 文化值。研究飞行科技后，将获得与 [ICON_CULTURE] 文化值产出相等的 [ICON_TOURISM] 旅游业绩。此区域不需要人口，建造花费更低，无法建在市中心旁，不提供 [ICON_GreatPerson] 伟人点数，且不属于专业化区域。</Text>
 		</Replace>
