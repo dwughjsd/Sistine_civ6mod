@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<!--Techs-->
+
 		<!--Eras-->
 		<Replace Tag="LOC_ERA_CLASSICAL_NAME" Language="zh_Hans_CN" Text="古典时代"/>
 		<Replace Tag="LOC_ERA_MEDIEVAL_NAME" Language="zh_Hans_CN" Text="中古时代"/>
@@ -125,7 +127,7 @@
 			<Text>您城市中专职金融和贸易的区域。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您城市中进行海军活动的区域。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
+			<Text>您城市中进行航海活动的区域。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
 		</Replace>
 		<!--Wildcard-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_PLATOS_REPUBLIC_DESCRIPTION" Language="zh_Hans_CN">
@@ -1162,16 +1164,394 @@
 			<Text>对主要文明宣布突袭战争后的10回合内+2 [ICON_Movement] 移动力。占领的城市在驻有单位时每回合+5忠诚度。宣布突袭战争的 [ICON_STAT_GRIEVANCE] 不满和好战惩罚等同于正式战争。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有“政治哲学”市政后，+1 [ICON_TradeRoute] 贸易路线容量。国内贸易路线+2 [ICON_Gold] 金币，+1 [ICON_Culture] 文化值。建设在本国领土中的道路比通常的道路先进一级。</Text>
+			<Text>拥有“政治哲学”市政后，+1 [ICON_TradeRoute] 贸易路线容量。国内贸易路线+2 [ICON_Gold] 金币，+1 [ICON_Culture] 文化值。在本国领土中建设的道路比常规先进一级。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_PERSIAN_IMMORTAL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>波斯特色近战单位，替代剑士。可进行远程攻击，[ICON_Range] 射程为2。防御力强。</Text>
 		</Replace>
-		
-		
-		
+		<Replace Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对遇到的所有其它文明获得高于标准1级的 [ICON_VisLimited] 外交能见度。解锁“城堡”科技后免费获得1个间谍（并增加1个间谍容量）。所有间谍初始便可免费获得1个晋升，升级为探员。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>法国特色工业时代近战单位，替代线列步兵。在首都所处大陆作战时+10 [ICON_Strength] 战斗力。击杀单位后将获得 [ICON_GreatGeneral] 大将军点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MAGNIFICENCES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与剧院广场区域或法式城堡相邻的已改良奢侈资源获得+2 [ICON_CULTURE] 文化值。可在任意拥有剧院广场区域的城市中开展“宫廷盛会”项目。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWEDEN_CAROLEAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>瑞典特色启蒙时代单位，取代枪刺与射击方阵，速度较其更快。每点未使用的 [ICON_Movement] 移动力提供+3 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ITERU_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造与河流相邻的区域与奇观时 [ICON_Production] 生产力+15%。不会受到洪水的损害。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>埃及特色远古时代远程单位。从开阔地形开始回合时有4点 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MAPUCHE_MALON_RAIDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>马普切特色启蒙时代单位。在友方领土4个单元格内时+5 [ICON_Strength] 战斗力。掠夺只消耗1点 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LUDWIG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>奇观（无需建成）从每个相邻区域获得+2 [ICON_CULTURE] 文化值。此项 [ICON_CULTURE] 文化值显示在城市产出中。解锁“城堡”之后，所有文化 [ICON_CULTURE] 相邻加成将提供 [ICON_TOURISM] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SCOTTISH_HIGHLANDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>苏格兰特色工业时代单位，替代游骑兵，是一种强力的侦察单位。在丘陵和森林中作战时+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>马里特色区域，专用于经济与贸易，取代商业中心。使用 [ICON_GOLD] 金币和 [ICON_FAITH] 信仰值在此城中购买单位、建筑和区域时，费用减少20%。[NEWLINE][NEWLINE]从每个相邻圣地获得+2 [ICON_Gold] 金币加成。位于河流流经的单元格时+2 [ICON_Gold] 金币加成。每与2个区域相邻获得+1 [ICON_Gold] 金币加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>起始城市中的每个沙漠（不含丘陵）单元格为国际 [ICON_TradeRoute] 贸易路线提供+1 [ICON_GOLD] 金币。文明进入黄金时代后可获得+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MALI_MANDEKALU_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>马里特色中古时代单位，替代骑士。位于陆地且与曼德卡鲁骑兵相距4个单元格内的商人单位可免遭掠夺。战斗胜利后，可获得等同于被击杀单位基础 [ICON_Strength] 战斗力数值的 [ICON_GOLD] 金币（标准速度下）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AZTEC_EAGLE_WARRIOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿兹特克特色远古时代单位，替代勇士。有几率把其他文明的军事单位转化为建造者并俘获。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_MENELIK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建在丘陵上的城市获得等同于所产生 [ICON_FAITH] 信仰值15%的 [ICON_SCIENCE] 科技值和 [ICON_CULTURE] 文化值。单位在丘陵上时+4 [ICON_STRENGTH] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>起点城市的每种资源为埃塞俄比亚的国际贸易路线提供+0.5 [ICON_Faith] 信仰值。城市每获得1份资源，本城市内已改良的这种资源便提供额外+1 [ICON_Faith] 信仰值。可用信仰值购买考古博物馆和考古学家。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ETHIOPIAN_OROMO_CAVALRY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>埃塞俄比亚特色中古时代轻骑兵单位。替代追猎者，比其战斗力更强、视野更广。在丘陵中移动时无 [ICON_Movement] 移动力减益。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NADER_SHAH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击生命值全满的单位时+5 [ICON_Strength] 战斗力。非纳迪尔沙阿建造的城市每条国内 [ICON_TradeRoute] 贸易路线获得+2 [Icon_Faith] 信仰值和 +3 [Icon_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国内 [ICON_TradeRoute] 贸易路线的起点城市每有一个山脉单元格，便获得+1 [ICON_Food] 食物。解锁“对外贸易”市政后可获得安第斯路网改良设施。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>公民可在山脉单元格上工作。山脉单元格提供+2 [ICON_PRODUCTION] 生产力，游戏进入工业时代后额外+1 [ICON_PRODUCTION] 生产力。每与1个梯田农场相邻，山脉单元格+1 [ICON_FOOD] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INCA_WARAKAQ_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>印加特色中古时代单位，取代散兵。远程战斗力强于散兵，每回合额外+1攻击次数。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_POUNDMAKER_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有同盟类型均提供视野共享。[NEWLINE]您通往外国的[ICON_TradeRoute] 贸易路线的终点城市中每有一处营地或牧场，便为您+1 [ICON_Food] 食物。[NEWLINE]从外国前来的 [ICON_TradeRoute] 贸易路线的终点城市中每有一处营地或牧场，便为您+1 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_CREE_TRADE_GAIN_TILES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量，拥有“制陶”科技后获得1个免费商人。克里城市3单元格内的无主单元格将在克里的商人首次进入时划入克里领土中。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CREE_OKIHTCITAW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>克里特色远古时代单位，替代侦察兵，是强力的侦察单位。初始便拥有1次免费升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>巴西特色工业时代单位，取代战舰。强于战舰。由“民族主义”解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>巴西特色区域，替代水上乐园，+2 [ICON_Amenities] 宜居度。可解锁“狂欢节”项目，项目进行时提供额外+1 [ICON_Amenities] 宜居度，完成后提供若干 [ICON_GreatPerson] 伟人点数。无法建在拥有“街头狂欢节”的城市中。无法建在礁石上。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>巴西特色区域，代替娱乐中心区域，+2 [ICON_Amenities] 宜居度。可解锁“狂欢节”项目，项目进行时提供额外+1 [ICON_Amenities] 宜居度，完成后提供若干 [ICON_GreatPerson] 伟人点数。无法建在拥有“海滩嘉年华”的城市中。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_AMABUTHO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可更早组建军团（雇佣兵市政）和军队（民族主义市政）。军团和军队的 [ICON_STRENGTH] 基础战斗力额外+5。 </Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZULU_ISIBONGO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>驻有单位的城市每回合忠诚度+3；如驻有军团或军队，则+5。如已解锁相关市政，用单位占领城市则可将其升级为军团或军队。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZULU_IMPI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>祖鲁特色中古时代单位，替代长枪兵。夹击加成更高，建造成本和维护费较低。获得经验值更快。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN" Text="[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发提供科技与市政成本的50%，而非通常的40%。建成奇观时获得奇观所处时代的一项随机[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发（如可用）。"/>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造远古和古典奇观时可消耗建造者建造次数完成奇观原始成本的15%。建造者额外获得1次建造次数。运河改为由“砌筑”科技解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNITOPERATION_CONVERT_BARBARIANS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>归化蛮族</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QIN_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>近战单位获得“归化蛮族”操作。此操作能将蛮族单位转化为你的单位，但会移除使用它的近战单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_JOAO_III_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位+1视野。遇见一个新文明时+1 [ICON_TradeRoute] 贸易路线容量。开放所有城邦的边界。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_PORTUGAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国际 [ICON_TradeRoute] 贸易路线必须从沿海城市出发，且只能通往沿海或拥有港口的城市，但所有产出+50%。商人单位在水域中的行动范围+50%，且解锁时即可进入水域。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PORTUGUESE_NAU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>葡萄牙特色海军近战单位，替代轻快帆船。初始拥有1次免费升级，维护费用更低。可以建造商站2次。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果您尚未获得 [ICON_GreatProphet] 大预言家，当倒数第二个 [ICON_GreatProphet] 大预言家被招募后，自动获得最后一个。每座信奉阿拉伯宗教的外国城市+1 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARABIAN_MAMLUK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿拉伯特色中古时代单位，替代骑士。每回合结束时均可回复生命值（即便本回合已进行移动或攻击）。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有玩家均可以使用常规 [ICON_Faith] 信仰值成本的十分之一购买阿拉伯宗教的祭祀建筑。这种建筑可为阿拉伯城市增加10% [ICON_Science] 科技值、 [ICON_Faith] 信仰值和 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_THREE_KINGDOMS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>矿山每与1个书院区域相邻+1 [ICON_SCIENCE] 科技值。农场每与1个书院区域相邻+1 [ICON_FOOD] 食物。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>用于科学探索的朝鲜特色区域。替代学院区域。+4 [ICON_SCIENCE] 科技值。每与1个区域相邻便-1 [ICON_Science] 科技值。必须建造在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>朝鲜特色启蒙时代单位，替代野战加农炮。[ICON_Ranged] 远程攻击力强。无法在同一回合内移动并攻击。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>奥斯曼特色中古时代海军单位，取代私掠船。进行海岸扫荡时无需花费 [ICON_Movement] 移动力。{LOC_UNIT_STEALTH_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SULEIMAN_JANISSARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>奥斯曼特色启蒙时代单位，替代火枪手。初始便拥有1项免费升级。强于火枪手，且价格更低。城市必须拥有至少2人口才可训练苏丹亲兵。奥斯曼建立的城市在训练苏丹亲兵后将失去1人口。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有一位有着军事与外交能力的专属特色总督。研究“火药”科技后获得特色单位“苏丹亲兵”及1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TSIKHE_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>格鲁吉亚特色建筑。[ICON_Production] 生产力花费低于启蒙城墙，并拥有更强的外部防御力。获得“自然保护”市政后提供+3 [ICON_TOURISM] 旅游业绩。提供+4 [ICON_Faith] 信仰值。进入黄金时代后 [ICON_TOURISM] 旅游业绩与 [ICON_FAITH] 信仰值均+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GEORGIAN_KHEVSURETI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>格鲁吉亚特色中古时代单位，替代披甲战士。在丘陵地形战斗时+7 [ICON_Strength] 战斗力。在丘陵地形移动时不受 [ICON_Movement] 移动力减益。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMERICAN_P51_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>美国特色原子时代空中单位，替代战斗机。与战斗机对战时+5 [ICON_Strength] 战斗力、飞行范围+2、获得经验值+50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_INDONESIA_NUSANTARA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>海岸和湖泊单元格可为圣地、学院、工业区和剧院广场提供少量相邻加成。娱乐中心在与海岸或湖泊单元格相邻时+1来自娱乐设施的 [ICON_AMENITIES] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INDONESIAN_JONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>印度尼西亚特色中古时代海军单位，替代护卫舰。处于编队内时，编队内的其它单位将继承该护卫单位的 [ICON_Movement] 移动力，同时该单位+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TRAJANS_COLUMN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市建立时额外附带一座市中心建筑（从远古时代开始游戏时，将获得纪念碑）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ROMAN_LEGION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>罗马特色古典时代近战单位，替代剑士。能建造一个罗马堡垒。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LAST_BEST_WEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>允许在冻土地形上建造农场。解锁“土木工程”后，可在冻土丘陵上建造农场。在雪地、冻土、雪地丘陵和冻土丘陵上，所有矿山和伐木场+2 [ICON_PRODUCTION] 生产力；营地和农场+2 [ICON_FOOD] 食物，且+100%战略资源积累速度。购买这些地形的单元格费用降低50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CANADA_MOUNTIE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>加拿大特色电气时代单位。可创建2座国家公园。在国家公园附近的2个单元格内战斗时+5 [ICON_Strength] 战斗力。如果为本方国家公园，则在加成基础上额外再+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DE_ZEVEN_PROVINCIEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>荷兰特色启蒙单位，取代护卫舰。攻击区域时+7 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_PAX_BRITANNICA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每次在新的非首都所在大陆建造首座城市时免费获得1个近战单位与1条 [ICON_TradeRoute] 贸易路线容量。建造“皇家海军船坞”后，获得1个当前可生产的最强海军单位。研究“军事科学”科技后，获得特色单位“红衫军”。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>维多利亚作为领袖时的英国特色工业时代单位，替代线列步兵。在非首都所处大陆作战时+10 [ICON_Strength] 战斗力。下船不消耗移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ENGLISH_SEADOG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>英国特色启蒙时代海军单位，取代私掠船。击败敌方船只后有几率将其俘获。{LOC_UNIT_STEALTH_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>英国特色区域，用于您城市中的航海活动。替代港口。同时移除该单元格的上船、下船 [ICON_Movement] 移动力减益。必须建在与陆地相邻的海岸或湖泊地形上。[NEWLINE][NEWLINE]造船厂中建造的所有海军单位+1 [ICON_Movement] 移动力。[NEWLINE]修建在非首都所在大陆上时+2 [ICON_Gold] 金币、每回合+4忠诚度。无法建造在礁石上。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_THUNDERBOLT_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有海军近战单位允许发动海岸突袭，且生产时+50% [ICON_PRODUCTION] 生产力。掠夺或海岸扫荡矿山时除 [ICON_GOLD] 金币外还将获得 [ICON_SCIENCE] 科技值。掠夺或海岸扫荡采石场、牧场、种植园和营地时除 [ICON_FAITH] 信仰值外还将获得 [ICON_CULTURE] 文化值。解锁“航海”科技后即可获得特色单位维京长船。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位在研究“造船”科技后获得进入海洋单元格的能力。海军近战单位可在中立领土上回复。单位上下船无需消耗额外 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>挪威特色中古时代近战单位，替代披甲战士。若该单位从敌方领土开始回合，则拥有4点 [ICON_Movement] 移动力。进攻时+10 [ICON_Strength] 战斗力，防御近战攻击时-5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NORWEGIAN_LONGSHIP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>挪威特色远古时代海军单位，替代桨帆船。可使用海岸扫荡能力掠夺敌方海岸土地或俘获相邻的平民。可在中立领土上恢复。位于海岸时拥有4点 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HARALD_ALT_XP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有单位-2 [ICON_GOLD]金币维护费。征集城邦单位的花费-75%，且这些单位完成击杀时获得等同于敌方[ICON_STRENGTH] 战斗力50%的[ICON_CULTURE] 文化值、[ICON_FAITH] 信仰值和 [ICON_SCIENCE] 科技值。木板教堂每回合+1影响力点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_COLOMBIAN_LLANERO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>大哥伦比亚特色工业时代单位，替代近代骑兵。维护花费低。每与1个牛仔骑兵相邻+2 [ICON_Strength] 战斗力。总司令发动隐退技能时，若处于其影响范围内，将回复满生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>匈牙利特色建筑。+2 [ICON_Amenities] 宜居度并+2点 [ICON_PRODUCTION] 生产力，可扩展到6个单元格内的每个市中心。城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。此城中若包含至少1处地热裂缝，则该城市+3 [ICON_TOURISM] 旅游业绩，同时额外+2 [ICON_AMENITIES] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HUNGARY_BLACK_ARMY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>匈牙利特色中古时代单位，取代追猎者。[NEWLINE]每与1个征集的单位相邻+3 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HUNGARY_HUSZAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>匈牙利特色工业时代单位，取代近代骑兵。[NEWLINE]每有1个生效的同盟+3 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>波兰特色启蒙时代单位，替代胸甲骑兵。如果该单位在一次战斗中对防御它的敌方单位产生的伤害多于自身受到的伤害，则会将敌方单位推向后方的单元格。若其无法后退，将受到更高的伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>工业区提供+2 [ICON_Amenities] 宜居度、每回合+3忠诚度，但种植园每回合-2忠诚度。建造工业区和其建筑后获得1个免费近战单位。获得和维护这些单位不需要资源，且它们获得+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACEDONIAN_HYPASPIST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>马其顿特色近战单位，替代剑士。围攻区域时+5 [ICON_Strength] 战斗力。拥有50%的额外支援加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN" Text="征服非自由城市的城市后，其中每个军营或学院将启动1个 [ICON_TechBoosted] 尤里卡、每个圣地或剧院广场则将带来1次 [ICON_CivicBoosted] 启发。"/>
+		<Replace Tag="LOC_TRAIT_LEADER_ELIZABETH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得首位 [ICON_GreatAdmiral] 海军统帅后，英国的 [ICON_TradeRoute] 贸易路线容量+2。通往任意城邦的 [ICON_TradeRoute] 贸易路线起点城市每有一个专业化区域，便+3 [ICON_GOLD] 金币。使用海军单位掠夺 [ICON_TradeRoute] 贸易路线的收益+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首次征服一座城市或从蛮族哨站获得[ICON_GOLD] 金币时 +300 [ICON_GOLD] 金币。奖励 [ICON_GOLD] 金币数量在研究“金属铸造”之后变为500，研究“钢铁”之后变为700（标准速度下）。与蛮族对战时+5[ICON_Strength] 战斗力，且始终可获得常规数额的战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DIGGER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>澳大利亚特色电气时代单位，替代现代步兵。在海岸单元格上作战时+10 [ICON_Strength] 战斗力。在中立或外国领土上作战时+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_VIETNAMESE_VOI_CHIEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>越南特色中古时代远程单位，替代弩手。拥有更高移动力且在攻击后可移动。防御时战斗力更强且拥有更高视野，但生产成本更高。</Text>
+		</Replace>
 		<Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>越南特色区域，替代军营。每与1个区域相邻，则+2 [ICON_CULTURE] 文化值。研究飞行科技后，将获得与 [ICON_CULTURE] 文化值产出相等的 [ICON_TOURISM] 旅游业绩。此区域不需要人口，建造花费更低，无法建在市中心旁，不提供 [ICON_GreatPerson] 伟人点数，且不属于专业化区域。</Text>
+		</Replace>
+		<!--Unit description-->
+		<Row Tag="LOC_UNIT_STEALTH_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>除非其与敌方单位相邻，否则只能被其他海军掠袭单位发现。揭示视野内的海军掠袭单位。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COAST_ONLY_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>研究制图学之前只能在海岸水域行动。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NO_MOVE_AND_ATTACK_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>无法在一回合内移动并攻击（除非已获得“专家组”升级）。</Text>
+		</Row>
+		<Replace Tag="LOC_UNIT_AIRCRAFT_CARRIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>原子能时代的近战海军单位，可运输空中单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NUCLEAR_SUBMARINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>极为先进的信息时代远程掠袭海军单位，能装备核武器。{LOC_UNIT_STEALTH_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PRIVATEER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>启蒙时代远程海军单位，能够进行海岸扫荡。{LOC_UNIT_STEALTH_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FRIGATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>启蒙时代远程海军单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GALLEY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>远古时代近战海军战斗单位。{LOC_UNIT_COAST_ONLY_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SUBMARINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>电气时代远程掠袭海军单位。{LOC_UNIT_STEALTH_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>电气时代海军远程单位。为1单元格范围内提供空袭和核攻击掩护。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CARAVEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>快速的启蒙时代探索用近战海军单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DESTROYER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>最强大的近战海军单位。揭示视野内的海军掠袭单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BOMBER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>第一种轰炸机单位，原子时代可用。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BIPLANE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>第一种空军战斗单位，电气时代可用。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIGHTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>原子时代双翼机升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MAN_AT_ARMS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中古时代近战单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AT_CREW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>电气时代用于反制骑兵的单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_AT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信息时代用于反制骑兵的单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPULT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>古典时代攻城单位，适合对城市发起攻击。{LOC_UNIT_NO_MOVE_AND_ATTACK_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TREBUCHET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中古时代攻城单位，适合对城市发起攻击。{LOC_UNIT_NO_MOVE_AND_ATTACK_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BOMBARD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>启蒙时代攻城单位，适合对城市发起攻击。{LOC_UNIT_NO_MOVE_AND_ATTACK_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARTILLERY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>电气时代攻城单位，适合对城市发起攻击。{LOC_UNIT_NO_MOVE_AND_ATTACK_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ROCKET_ARTILLERY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信息时代攻城单位，适合对城市发起攻击。{LOC_UNIT_NO_MOVE_AND_ATTACK_DESCRIPTION_SST}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>弱小的远古时代近战单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPEARMAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>远古时代反骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SWORDSMAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>强大的古典时代近战单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PIKEMAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中古时代反骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PIKE_AND_SHOT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>启蒙时代晚期反骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MUSKETMAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>启蒙时代近战单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INFANTRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>电气时代近战单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MECHANIZED_INFANTRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信息时代近战单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SLINGER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>弱小的远古时代远程单位。攻强守弱。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARCHER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>第一种 [ICON_Range] 攻击范围为2的远古时代远程单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中古时代远程单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>工业时代远程单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>原子时代远程单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HEAVY_CHARIOT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>强而有力的远古时代重骑兵单位。如在无森林、雨林和丘陵的平地单元格上开始回合，会获得1 [ICON_Movement] 移动力加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>强而有力的中古时代重骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_ARMOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>快速又强大的信息时代重骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TANK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>移动迅速的电气时代重骑兵单位，无视控制区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SKIRMISHER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中古时代侦察单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPEC_OPS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>原子时代侦察单位。拥有“空投”能力，可移动到离友方单元格7个单元格的位置上（如果从航空港或飞机跑道上执行空投则距离上升为12个单元格）。无需先消灭地面战斗单位即可直接攻击支援单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_COURSER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中古时代轻骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SUPPLY_CONVOY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>电气时代支援单位。增加相邻单位的治疗效果。如单位从补给车队旁开始移动，则+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>电气时代支援单位。为1单元格内的攻城类单位+1 [ICON_Range] 射程。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ANTIAIR_GUN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>原子时代的防空支援单位。为1单元格范围内提供空袭掩护。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MOBILE_SAM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信息时代的防空支援单位。为1单元格范围内提供空袭和核攻击掩护。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MOBILE_SAM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信息时代的防空支援单位。为1单元格范围内提供空袭和核攻击掩护。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MILITARY_ENGINEER_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中古时代支援单位。需要“兵工厂”才能生产。能建造道路、堡垒、飞机跑道、导弹发射井和穿山隧道改良设施。其建造次数可用于加快运河、堤坝、水渠区域或拦洪坝20%的建造进度。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BATTERING_RAM_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>远古时代支援单位。与城市相邻时，近战和抗骑兵单位发起进攻可对城墙输出全额伤害。对拥有中古或启蒙城墙的城市无效。对现代都市防御无效。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SIEGE_TOWER_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中古时代支援单位。与城市相邻时，近战和反骑兵单位可无视城墙直接对城市发起进攻。对拥有启蒙城墙的城市无效。对现代都市防御无效。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DRONE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>原子时代支援单位。为1单元格内的攻城单位+1 [ICON_Range] 射程、+5 [ICON_Bombard] 轰炸攻击力。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

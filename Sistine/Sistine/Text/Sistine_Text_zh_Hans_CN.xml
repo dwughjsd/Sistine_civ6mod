@@ -1638,5 +1638,9 @@
 		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>在无产阶级领导的社会主义国家里，人民享有最高权力；然而，即使是马克思也意识到，为了有效地运作政府机构并确保无产阶级专政，必须存在某种形式的党组织。由此，1917年的布尔什维克宣称，一群官僚中的先进分子需要领导一个一个集权政党来治理新生的苏俄政权。</Text>
 		</Replace>
+		<!--Text fixes-->
+		<Replace Tag="LOC_TECH_STEEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>伐木场+1 [ICON_Production] 生产力。解锁现代都市防御，使得所有城市自动获得400点防御工事生命值和发起远程攻击的能力。此前的城墙改良形态将全部过时，攻城支援单位也将不再有效。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

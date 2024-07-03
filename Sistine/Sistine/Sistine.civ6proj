@@ -18,30 +18,30 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
-  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
   <Dependency type="Dlc" title="LOC_BABYLON_MOD_TITLE" id="8424840C-92EF-4426-A9B4-B4E0CB818049" />
   <Dependency type="Dlc" title="LOC_BYZANTIUM_GAUL_MOD_TITLE" id="A1100FC4-70F2-4129-AC27-2A65A685ED08" />
   <Dependency type="Dlc" title="LOC_ETHIOPIA_MOD_TITLE" id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" />
   <Dependency type="Dlc" title="LOC_GRANCOLOMBIA_MAYA_MOD_TITLE" id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" />
   <Dependency type="Dlc" title="LOC_KUBLAIKHAN_VIETNAM_MOD_TITLE" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
   <Dependency type="Dlc" title="LOC_PORTUGAL_MOD_TITLE" id="FFDF4E79-DEE2-47BB-919B-F5739106627A" />
-  <Reference type="Dlc" title="DLC: Australia Civilization Pack" id="E3F53C61-371C-440B-96CE-077D318B36C0" />
-  <Reference type="Dlc" title="DLC: Aztec Civilization Pack" id="02A8BDDE-67EA-4D38-9540-26E685E3156E" />
-  <Reference type="Dlc" title="DLC: Khmer and Indonesia Civilization Pack" id="1F367231-A040-4793-BDBB-088816853683" />
-  <Reference type="Dlc" title="DLC: Nubia Civilization Pack" id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" />
-  <Reference type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
-  <Reference type="Dlc" title="DLC: Poland Civilization Pack" id="3809975F-263F-40A2-A747-8BFB171D821A" />
-  <Reference type="Dlc" title="DLC: Vikings Content" id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" />
-  <Reference type="Dlc" title="LOC_BARBARIAN_CLANS_MODE_TITLE" id="19ED1A36-D744-4A58-8F8B-0376C2BA86E5" />
-  <Reference type="Dlc" title="LOC_CATHERINE_DE_MEDICI_MOD_TITLE" id="CE5876CD-6900-46D1-9C9C-8DBA1F28872E" />
-  <Reference type="Dlc" title="LOC_TEDDY_ROOSEVELT_MOD_TITLE" id="113D9459-0A3B-4FCB-A49C-483F40303575" />
-  <Reference type="Dlc" title="LOC_JULIUS_CAESAR_MOD_TITLE" id="9ED63236-617C-45A6-BB70-8CB6B0BE8ED2" />
-  <Reference type="Dlc" title="LOC_GREAT_BUILDERS_MOD_TITLE" id="249D9276-0832-48E4-B370-14531FA4E33C" />
-  <Reference type="Dlc" title="LOC_GREAT_NEGOTIATORS_MOD_TITLE" id="7A66DB58-B354-4061-8C80-95B638DD6F6C" />
-  <Reference type="Dlc" title="LOC_GREAT_WARLORDS_MOD_TITLE" id="F48213B4-56F5-45DD-92F7-AC78E49BDA49" />
-  <Reference type="Dlc" title="LOC_RULERS_OF_CHINA_MOD_TITLE" id="7D27831B-BAA6-4A8B-A39C-94243BAD3F47" />
-  <Reference type="Dlc" title="LOC_RULERS_OF_ENGLAND_MOD_TITLE" id="258EF3CA-890B-4863-8A52-982822EFF7BD" />
-  <Reference type="Dlc" title="LOC_RULERS_OF_THE_SAHARA_MOD_TITLE" id="82AE6F24-930F-4640-833C-FCDFD4845757" />
+  <Dependency type="Dlc" title="DLC: Australia Civilization Pack" id="E3F53C61-371C-440B-96CE-077D318B36C0" />
+  <Dependency type="Dlc" title="DLC: Aztec Civilization Pack" id="02A8BDDE-67EA-4D38-9540-26E685E3156E" />
+  <Dependency type="Dlc" title="DLC: Khmer and Indonesia Civilization Pack" id="1F367231-A040-4793-BDBB-088816853683" />
+  <Dependency type="Dlc" title="DLC: Nubia Civilization Pack" id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" />
+  <Dependency type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
+  <Dependency type="Dlc" title="DLC: Poland Civilization Pack" id="3809975F-263F-40A2-A747-8BFB171D821A" />
+  <Dependency type="Dlc" title="DLC: Vikings Content" id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" />
+  <Dependency type="Dlc" title="LOC_BARBARIAN_CLANS_MODE_TITLE" id="19ED1A36-D744-4A58-8F8B-0376C2BA86E5" />
+  <Dependency type="Dlc" title="LOC_CATHERINE_DE_MEDICI_MOD_TITLE" id="CE5876CD-6900-46D1-9C9C-8DBA1F28872E" />
+  <Dependency type="Dlc" title="LOC_TEDDY_ROOSEVELT_MOD_TITLE" id="113D9459-0A3B-4FCB-A49C-483F40303575" />
+  <Dependency type="Dlc" title="LOC_JULIUS_CAESAR_MOD_TITLE" id="9ED63236-617C-45A6-BB70-8CB6B0BE8ED2" />
+  <Dependency type="Dlc" title="LOC_GREAT_BUILDERS_MOD_TITLE" id="249D9276-0832-48E4-B370-14531FA4E33C" />
+  <Dependency type="Dlc" title="LOC_GREAT_NEGOTIATORS_MOD_TITLE" id="7A66DB58-B354-4061-8C80-95B638DD6F6C" />
+  <Dependency type="Dlc" title="LOC_GREAT_WARLORDS_MOD_TITLE" id="F48213B4-56F5-45DD-92F7-AC78E49BDA49" />
+  <Dependency type="Dlc" title="LOC_RULERS_OF_CHINA_MOD_TITLE" id="7D27831B-BAA6-4A8B-A39C-94243BAD3F47" />
+  <Dependency type="Dlc" title="LOC_RULERS_OF_ENGLAND_MOD_TITLE" id="258EF3CA-890B-4863-8A52-982822EFF7BD" />
+  <Dependency type="Dlc" title="LOC_RULERS_OF_THE_SAHARA_MOD_TITLE" id="82AE6F24-930F-4640-833C-FCDFD4845757" />
 </Associations>]]></AssociationData>
     <AssemblyName>Sistine</AssemblyName>
     <RootNamespace>Sistine</RootNamespace>

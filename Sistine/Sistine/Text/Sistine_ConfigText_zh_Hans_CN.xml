@@ -127,7 +127,7 @@
 			<Text>日本特色建筑。为此城+10% [ICON_Production] 生产力，[ICON_Power] 供电充足时额外+15% [ICON_Production] 生产力。研究“电力”科技后为此城市提供+4 [ICON_Culture] 文化值。基础 [ICON_Production] 生产力加成延伸到6单元格内的所有市中心（前提是其尚未从其他的此建筑获得加成）。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>美国特色建筑。游戏进入现代之后，为所在城市+100% [ICON_Tourism] 旅游业绩。{LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST}</Text>
+			<Text>美国特色建筑。游戏进入电气时代之后，为所在城市+100% [ICON_Tourism] 旅游业绩。{LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION_SST}</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>奥斯曼特色建筑。{LOC_BUILDING_BANK_DESCRIPTION_SST}额外增加1点本城市已改良的每种战略资源。本城市每改良一种奢侈资源，获得+1 [ICON_AMENITIES] 宜居度。</Text>
@@ -533,7 +533,7 @@
 			<Text>{LOC_TRAIT_LEADER_TRIEU_DESCRIPTION}</Text>
 		  </Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_VIETNAM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有陆地专业化区域只能建造在雨林、沼泽或森林上。建在这些地貌上的建筑和区域将获得以下收益：建在森林上提供+1 [ICON_CULTURE] 文化值、建在雨林上提供+1 [ICON_SCIENCE] 科技值、建在沼泽上提供+1 [ICON_PRODUCTION] 生产力。拥有“中世纪集市”市政后即可栽种森林。</Text>
+			<Text>所有陆地专业化区域只能建造在雨林、沼泽或森林上。建在这些地貌上的建筑和区域将获得以下收益：森林上+1 [ICON_CULTURE] 文化值、雨林上+1 [ICON_SCIENCE] 科技值、沼泽上+1 [ICON_PRODUCTION] 生产力。拥有“中世纪集市”市政后即可栽种森林。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>游戏处于中古到工业时代期间，每个专业化区域+2 [ICON_Culture] 文化值。建造中古到工业时代的奇观+20% [ICON_Production] 生产力。所有奇观的 [ICON_Tourism] 旅游业绩+100%。</Text>
