@@ -453,12 +453,13 @@
 		<Delete ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="50"/>
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
 		
-		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory-->
+		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory, also keeps their standing army high enough in early-game.-->
 		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER"/>
-		<Row ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
-		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-10"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-15"/>
-		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-25"/>
+		<Row ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="25"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="100"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-50"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-50"/>
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-50"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROCKETRY" />
