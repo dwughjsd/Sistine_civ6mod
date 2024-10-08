@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<GlobalParameters>
+		<!--AI-->
+		<!--possibly loan interest. too large will make AI spend a large amount of GPT for low-value spot goods, while a small number will let them loan much cash easily.-->
+		<Replace Name="AI_DISCOUNT_RATE" Value="3.0" />
+		<Replace Name="AI_TURNS_BETWEEN_TRADES" Value="5" />
+		<!--It's causing AI paying much to buy luxuries. We are still trying to figure out how to make them sell with a higher price too-->
+		<Replace Name="AI_BASE_LUXURY_VALUE" Value="100" />
+		<!--Misc but important changes-->
 		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="40" />
 		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="30" />
 		<Replace Name="GAME_COST_ESCALATION" Value="400" />
@@ -14,8 +21,6 @@
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MAX" Value="20" />
 		<Replace Name="IDENTITY_PER_TURN_FROM_OCCUPATION_MIN" Value="0" />
 		<Replace Name="CITY_AMENITIES_FOR_FREE" Value="1" />
-		<!--It's causing AI paying much to buy luxuries. We are still trying to figure out how to make them sell with a higher price too-->
-		<Replace Name="AI_BASE_LUXURY_VALUE" Value="100" />
 		<Replace Name="CIVIC_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
 		<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="0" />
 		<!--Cultural Victory overhaul-->
@@ -45,7 +50,7 @@
 		<Replace Name="COMBAT_RANGED_VS_DISTRICT_STRENGTH_MODIFIER" Value="7" />
 		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_MELEE" Value="30" />
 		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_RANGED" Value="30" />
-		<Replace Name="COMBAT_GARRISON_MILITIA_MODIFIER" Value="3" />
+		<Replace Name="COMBAT_GARRISON_MILITIA_MODIFIER" Value="5" />
 	</GlobalParameters>
 	<BarbarianTribes>
 		<Update>

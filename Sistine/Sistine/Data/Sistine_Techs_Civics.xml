@@ -62,6 +62,10 @@
 			<Set Description="LOC_TECH_OFFWORLD_MISSION_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
+			<Where TechnologyType="TECH_TELECOMMUNICATIONS" />
+			<Set UITreeRow="-1"/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_STEALTH_TECHNOLOGY" />
 			<Set Critical="0"/>
 		</Update>
@@ -324,7 +328,7 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_TELECOMMUNICATIONS" />
-			<Set Cost="3460"/>
+			<Set Cost="3990"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_SATELLITES" />
@@ -450,8 +454,10 @@
 		<Delete Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_BANKING"/>
 		<Delete Technology="TECH_ECONOMICS" PrereqTech="TECH_METAL_CASTING"/>
 		<Delete Technology="TECH_ROBOTICS" PrereqTech="TECH_LASERS"/>
+		<Delete Technology="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_COMPUTERS"/>
 		<Row Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_METAL_CASTING"/>
 		<Row Technology="TECH_ECONOMICS" PrereqTech="TECH_BANKING"/>
+		<Row Technology="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_SATELLITES"/>
 		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_OFFWORLD_MISSION"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_SEASTEADS"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_ADVANCED_AI"/>

@@ -35,7 +35,7 @@
 		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_MELEE" MinNumber="2" />
 		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_RANGED" MinNumber="1" MaxPercentage="50"/>
 		<Replace TeamName="Simple City Attack Force" AiType="UNITAI_COMBAT" MinNumber="5" MaxNumber="12"/>
-		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_SIEGE" MaxNumber="1" />
+		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_SIEGE" MinNumber="1" MaxNumber="2" />
 		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
 		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_CIVILIAN" MaxNumber="0" />
 		<Replace TeamName="Simple City Attack Force" AiType="UNITTYPE_NAVAL" MaxNumber="0" />
@@ -50,7 +50,7 @@
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_RANGED" MinNumber="2" MaxNumber="8" MaxPercentage="40"/>
 		<Replace TeamName="City Attack Force" AiType="UNITAI_COMBAT" MinNumber="6" MaxNumber="16"/>
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE" MaxNumber="3"/>
-		<Replace TeamName="City Attack Force" AiType="UNITTYPE_AIR_SIEGE" MinNumber="0" MaxNumber="3" />
+		<Replace TeamName="City Attack Force" AiType="UNITTYPE_AIR_SIEGE" MinNumber="1" MaxNumber="3" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE_SUPPORT" AiTypeDependence="UNITTYPE_MELEE" MinNumber="0" MaxNumber="1" />
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_SIEGE_ALL" MinNumber="1"/>
 		<Replace TeamName="City Attack Force" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
@@ -66,7 +66,7 @@
 		<Replace TeamName="City Defense" AiType="UNITTYPE_CIVILIAN" MaxNumber="0" />
 		<Replace TeamName="City Defense" AiType="UNITTYPE_CIVILIAN_LEADER" MaxNumber="1" />
 		<Replace TeamName="City Defense" AiType="UNITTYPE_RANGED" MinPercentage="70" />
-		<Replace TeamName="City Defense" AiType="UNITTYPE_SIEGE_ALL" MaxNumber="0" />
+		<Replace TeamName="City Defense" AiType="UNITTYPE_SIEGE_ALL" MaxNumber="1" />
 		<Replace TeamName="City Defense" AiType="UNITTYPE_NAVAL" MaxNumber="0" />
 		<Replace TeamName="City Defense" AiType="UNITAI_COMBAT" MinNumber="0" />
 		<Replace TeamName="City Defense" AiType="UNITAI_EXPLORE" MinNumber="0" />

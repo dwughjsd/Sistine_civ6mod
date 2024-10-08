@@ -31,6 +31,7 @@
 		-->
 	</TraitModifiers>
 	<CivicModifiers>
+		<!--Used to boost Ancient era tech and civic for high diff AIs-->
 		<Row CivicType="CIVIC_CODE_OF_LAWS" ModifierId="CODE_OF_LAWS_HIGH_DIFF_AI_TECH_BOOST" />
 		<Row CivicType="CIVIC_CODE_OF_LAWS" ModifierId="CODE_OF_LAWS_HIGH_DIFF_AI_CIVIC_BOOST" />
 	</CivicModifiers>
@@ -77,6 +78,8 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
 		</Row>
+		<!--No longer match current version of policy cards so need to be revised if used-->
+		<!--
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_SERFDOM</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_TRAINED_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
@@ -138,6 +141,7 @@
 			<RunOnce>true</RunOnce>
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MAJOR</OwnerRequirementSetId>
 		</Row>
+		-->
 		<Row>
 			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_TECH_BOOST</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
@@ -244,6 +248,7 @@
 			<Value>-10</Value>
 			<Extra>10</Extra>
 		</Row>
+		<!--
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_SERFDOM</ModifierId>
 			<Name>Amount</Name>
@@ -319,6 +324,7 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		-->
 		<Row>
 			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_TECH_BOOST</ModifierId>
 			<Name>Amount</Name>
@@ -367,13 +373,15 @@
 			<Type>LinearScaleFromDefaultHandicap</Type>
 			<Value>-25</Value>
 			<Extra>25</Extra>
-		</Row>		<Row>
+		</Row>
+		<Row>
 			<ModifierId>HIGH_DIFFICULTY_UNITS_PRODUCTION_SCALING</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
 			<Value>-25</Value>
 			<Extra>25</Extra>
-		</Row>		<Row>
+		</Row>
+		<Row>
 			<ModifierId>HIGH_DIFFICULTY_BUILDINGS_PRODUCTION_SCALING</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>

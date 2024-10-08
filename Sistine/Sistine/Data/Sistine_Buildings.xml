@@ -351,7 +351,9 @@
 	</Building_TourismBombs_XP2>
 	
 	<GameModifiers>
+		<!--This modifier is used to compensate cities' inner defense strength so that its strength will be on par with the strongest unit you have (if the argument is set properly). remember to tweak it with COMBAT_GARRISON_MILITIA_MODIFIER global parameter.
 		<Row ModifierId="CITY_INNER_DEFENCE_ATTACH"/>
+		-->
 		<!--Theater Square-->
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH"/>
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH"/>
@@ -633,11 +635,7 @@
 		</Row>
 		<Row>
 			<ModifierId>GOV_HOLY_SITE_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>GOV_HOLY_SITE_CULTURE_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
 			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
 		</Row>
 		<Row>
@@ -756,18 +754,13 @@
 		</Row>
 		<Row>
 			<ModifierId>GOV_HOLY_SITE_CULTURE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>GOV_HOLY_SITE_CULTURE_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>GOV_HOLY_SITE_CULTURE_MODIFIER</ModifierId>
-			<Name>YieldTypeToMirror</Name>
-			<Value>YIELD_FAITH</Value>
-		</Row>
-		<Row>
-			<ModifierId>GOV_HOLY_SITE_CULTURE_MODIFIER</ModifierId>
-			<Name>YieldTypeToGrant</Name>
+			<Name>YieldType</Name>
 			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_HOLY_SITE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>GOV_GRANT_ATTACK_BUFF</ModifierId>

@@ -1,71 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<DiplomaticStateActions>
+		<!--TeamOnly actions for teammates. They should make alliances ASAP.-->
 		<Update>
 			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_CULTURAL"/>
-			<Set Worth="10" Cost="-10" />
+			<Set Worth="100" Cost="-100" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_ECONOMIC"/>
-			<Set Worth="10" Cost="-10" />
+			<Set Worth="100" Cost="-100" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_MILITARY"/>
-			<Set Worth="10" Cost="-10" />
+			<Set Worth="100" Cost="-100" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_RELIGIOUS"/>
-			<Set Worth="10" Cost="-10" />
+			<Set Worth="100" Cost="-100" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_RESEARCH"/>
-			<Set Worth="10" Cost="-10" />
+			<Set Worth="100" Cost="-100" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_RENEW_ALLIANCE"/>
-			<Set Worth="25" Cost="10" />
+			<Set Worth="100" Cost="-100" />
 		</Update>
+		<!--Normal Alliances. There should be enough profit but we can make it happen more often.-->
 		<Update>
 			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_CULTURAL"/>
-			<Set Worth="25" Cost="10" />
+			<Set Worth="5" Cost="15" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_ECONOMIC"/>
-			<Set Worth="25" Cost="10" />
+			<Set Worth="5" Cost="15" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_MILITARY"/>
-			<Set Worth="25" Cost="10" />
+			<Set Worth="5" Cost="15" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_RELIGIOUS"/>
-			<Set Worth="25" Cost="10" />
+			<Set Worth="5" Cost="15" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_RESEARCH"/>
-			<Set Worth="25" Cost="10" />
+			<Set Worth="5" Cost="15" />
 		</Update>
 
 		<Update>
-			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_DECLARE_FRIENDSHIP"/>
-			<Set Worth="0" Cost="0" />
-		</Update>
-		<Update>
-			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_DECLARE_FRIENDSHIP"/>
-			<Set Worth="0" Cost="0" />
-		</Update>
-		<Update>
 			<Where StateType="DIPLO_STATE_FRIENDLY" DiplomaticActionType="DIPLOACTION_DECLARE_FRIENDSHIP"/>
-			<Set Worth="-5" Cost="5" />
+			<Set AiAllowed="true"/>
+		</Update>
+
+		<Update>
+			<Where StateType="DIPLO_STATE_FRIENDLY" DiplomaticActionType="DIPLOACTION_DENOUNCE"/>
+			<Set Worth="-100" Cost="50" TransitionToState="DIPLO_STATE_DENOUNCED" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_NEUTRAL" DiplomaticActionType="DIPLOACTION_DENOUNCE"/>
+			<Set Worth="-50" Cost="25" TransitionToState="DIPLO_STATE_DENOUNCED" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_UNFRIENDLY" DiplomaticActionType="DIPLOACTION_DENOUNCE"/>
+			<Set Worth="-25" Cost="5" />
 		</Update>
 
 		<Update>
 			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_JOINT_WAR"/>
-			<Set Worth="-5" Cost="-10" />
+			<Set Worth="-10" Cost="-10" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_JOINT_WAR"/>
-			<Set Worth="-10" Cost="-5" />
+			<Set Worth="-15" Cost="-5" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_FRIENDLY" DiplomaticActionType="DIPLOACTION_JOINT_WAR"/>
@@ -73,20 +80,20 @@
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_NEUTRAL" DiplomaticActionType="DIPLOACTION_JOINT_WAR"/>
-			<Set Worth="-30" Cost="0" />
+			<Set Worth="-25" Cost="0" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_UNFRIENDLY" DiplomaticActionType="DIPLOACTION_JOINT_WAR"/>
-			<Set Worth="-50" Cost="0" />
+			<Set Worth="-100" Cost="0" />
 		</Update>
 
 		<Update>
 			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_OPEN_BORDERS"/>
-			<Set Worth="15" Cost="0" />
+			<Set Worth="5" Cost="0" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_FRIENDLY" DiplomaticActionType="DIPLOACTION_OPEN_BORDERS"/>
-			<Set Worth="10" Cost="5" />
+			<Set Worth="5" Cost="5" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_NEUTRAL" DiplomaticActionType="DIPLOACTION_OPEN_BORDERS"/>
@@ -97,37 +104,28 @@
 			<Set Worth="0" Cost="20" />
 		</Update>
 
-
-		<Update>
-			<Where StateType="DIPLO_STATE_NEUTRAL" DiplomaticActionType="DIPLOACTION_PROPOSE_TRADE"/>
-			<Set Worth="-5" Cost="5" />
-		</Update>
-		<Update>
-			<Where StateType="DIPLO_STATE_UNFRIENDLY" DiplomaticActionType="DIPLOACTION_PROPOSE_TRADE"/>
-			<Set Worth="-5" Cost="5" />
-		</Update>
-
 		<Update>
 			<Where StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
-			<Set Worth="10" Cost="-10" />
+			<Set Worth="10" Cost="0" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
-			<Set Worth="5" Cost="-5" />
+			<Set Worth="5" Cost="0" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_FRIENDLY" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
-			<Set Worth="0" Cost="0" />
+			<Set Worth="0" Cost="15" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_NEUTRAL" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
-			<Set Worth="0" Cost="10" />
+			<Set Worth="0" Cost="25" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_UNFRIENDLY" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/>
-			<Set Worth="0" Cost="20" />
+			<Set Worth="0" Cost="50" />
 		</Update>
 	</DiplomaticStateActions>
+
 	<DiplomaticStates>
 		<Update>
 			<Where StateType="DIPLO_STATE_ALLIED"/>
@@ -135,7 +133,7 @@
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_DECLARED_FRIEND"/>
-			<Set DiplomaticYieldBonus="15" />
+			<Set DiplomaticYieldBonus="10" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_FRIENDLY"/>
