@@ -351,7 +351,9 @@
 	</Building_TourismBombs_XP2>
 	
 	<GameModifiers>
+		<!--This modifier is used to compensate cities' inner defense strength so that its strength will be on par with the strongest unit you have (if the argument is set properly). remember to tweak it with COMBAT_GARRISON_MILITIA_MODIFIER global parameter.
 		<Row ModifierId="CITY_INNER_DEFENCE_ATTACH"/>
+		-->
 		<!--Theater Square-->
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_AMPHITHEATER_ATTACH"/>
 		<Row ModifierId="CULTUREBUILDING_DISTRICT_CULTURE_MUSEUM_ART_ATTACH"/>
