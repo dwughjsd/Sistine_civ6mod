@@ -900,6 +900,12 @@
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_NAME" Language="zh_Hans_CN">
 			<Text>给水工程</Text>
 		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>派遣到城邦后将获得该城邦的奢侈资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_Governor] 总督所属文明的所有单位在此城的单元格中1回合即可完全恢复体力。</Text>
+		</Replace>
 		<!--Dedications and Ages-->
 		<Replace Tag="LOC_MOMENT_CATEGORY_CULTURAL" Language="zh_Hans_CN">
 			<Text>琴棋书画</Text>
