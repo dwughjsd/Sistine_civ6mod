@@ -1395,7 +1395,7 @@
 			<Text>此城生产单位所需战略资源花费减少50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城修建区域和建筑时+30% [ICON_Production] 生产力。</Text>
+			<Text>此城修建区域、建筑和奇观时+30% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>可在此城建造渔场改良设施。+2 [ICON_Food] 食物、+0.5 [ICON_Housing] 住房，每与1份海洋资源相邻则+1 [ICON_Food] 食物。梁在此城就职时+2 [ICON_PRODUCTION] 生产力。</Text>

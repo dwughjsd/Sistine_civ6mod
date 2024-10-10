@@ -1395,7 +1395,7 @@
 			<Text>Strategic resource costs for units are discounted 50%.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="en_US">
-			<Text>+30% [ICON_Production] Production towards constructing districts and buildings in the city.</Text>
+			<Text>+30% [ICON_Production] Production towards districts, buildings and wonders in the city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION" Language="en_US">
 			<Text>Can construct the Fishery improvement. +2 [ICON_Food] Food, +0.5 [ICON_Housing] Housing, +1 [ICON_Food] Food if adjacent to a sea resource. +2 [ICON_PRODUCTION] Production if Liang is in the city.</Text>
