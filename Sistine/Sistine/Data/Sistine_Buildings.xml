@@ -635,11 +635,7 @@
 		</Row>
 		<Row>
 			<ModifierId>GOV_HOLY_SITE_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>GOV_HOLY_SITE_CULTURE_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
 			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
 		</Row>
 		<Row>
@@ -758,18 +754,13 @@
 		</Row>
 		<Row>
 			<ModifierId>GOV_HOLY_SITE_CULTURE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>GOV_HOLY_SITE_CULTURE_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>GOV_HOLY_SITE_CULTURE_MODIFIER</ModifierId>
-			<Name>YieldTypeToMirror</Name>
-			<Value>YIELD_FAITH</Value>
-		</Row>
-		<Row>
-			<ModifierId>GOV_HOLY_SITE_CULTURE_MODIFIER</ModifierId>
-			<Name>YieldTypeToGrant</Name>
+			<Name>YieldType</Name>
 			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_HOLY_SITE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>GOV_GRANT_ATTACK_BUFF</ModifierId>

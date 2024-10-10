@@ -379,7 +379,7 @@
 			<Text>已建造情报局</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可用 [ICON_Faith] 信仰值购买陆地单位。掠夺改良设施和区域可提供 [ICON_Faith] 信仰值加成。圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Culture] 文化值。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>可用 [ICON_Faith] 信仰值购买陆地单位。掠夺改良设施和区域可提供 [ICON_Faith] 信仰值加成。圣地区域+2 [ICON_Culture] 文化值。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>升级单位所需的 [ICON_Gold] 金币和资源减少25%。军事单位攻击时 +4 [ICON_Strength] 战斗力。所有单位消灭敌方单位均可恢复生命值（上限20点）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
@@ -1359,7 +1359,7 @@
 			<Text>城市中每位 [ICON_Citizen] 公民每回合可带来+0.5 [ICON_CULTURE] 文化值和+0.5 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市的 [ICON_Food] 人口增长+50%。此城市收获资源和移除地貌的产出+50%。</Text>
+			<Text>城市的 [ICON_Food] 人口增长+50%。此城市每位 [ICON_Citizen] 公民每回合可带来+1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城市对邻近城市释放的宗教压力强度加倍。此城市每位 [ICON_Citizen] 公民每回合可带来+1 [ICON_FAITH] 信仰值。</Text>
@@ -1416,10 +1416,10 @@
 			<Text>在城市中进行项目时+30% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城购买单元格所需的 [ICON_Gold] 金币降低20%。</Text>
+			<Text>此城购买单元格所需的 [ICON_Gold] 金币降低20%。每条经过此城的外国 [ICON_TradeRoute] 贸易路线为您每回合+3 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城商业中心和港口的相邻加成加倍。每条经过此城的外国 [ICON_TradeRoute] 贸易路线为您每回合+3 [ICON_Gold] 金币。</Text>
+			<Text>此城商业中心和港口的相邻加成加倍。此城的市场、银行、灯塔和造船厂+25% [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每个地貌+2 [ICON_Gold] 金币。此城与未改良地貌相邻的单元格获得+1魅力。</Text>
