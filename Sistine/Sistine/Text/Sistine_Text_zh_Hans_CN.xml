@@ -1359,7 +1359,7 @@
 			<Text>城市中每位 [ICON_Citizen] 公民每回合可带来+0.5 [ICON_CULTURE] 文化值和+0.5 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市的 [ICON_Food] 人口增长+50%。此城市每位 [ICON_Citizen] 公民每回合可带来+1 [ICON_Production] 生产力。</Text>
+			<Text>此城市每位 [ICON_Citizen] 公民每回合可带来+1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城市对邻近城市释放的宗教压力强度加倍。此城市每位 [ICON_Citizen] 公民每回合可带来+1 [ICON_FAITH] 信仰值。</Text>
@@ -1386,7 +1386,7 @@
 			<Text>9个单元格内其他文明的城市每回合将失去8点忠诚度。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您以此城为终点的 [ICON_TradeRoute] 贸易路线为起点城市+2 [ICON_Food] 食物、+2 [ICON_Production] 生产力。</Text>
+			<Text>城市的 [ICON_Food] 人口增长+50%。您以此城为终点的 [ICON_TradeRoute] 贸易路线为起点城市+2 [ICON_Food] 食物、+2 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城所有工业区建筑+2 [ICON_Production] 生产力。燃煤发电厂、燃油发电厂与核电站消耗每1份资源产生的 [ICON_POWER] 电力+1。</Text>

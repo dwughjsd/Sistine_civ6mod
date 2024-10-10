@@ -1359,7 +1359,7 @@
 			<Text>+0.5 [ICON_Science] Science and [ICON_Culture] Culture per [ICON_Citizen] Citizen in the city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_Food] Growth in the city. +1 [ICON_Production] Production per [ICON_Citizen] Citizen in this city.</Text>
+			<Text>+1 [ICON_Production] Production per [ICON_Citizen] Citizen in this city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="en_US">
 			<Text>Religious pressure to adjacent cities is 100% stronger from this city. +1 [ICON_Faith] Faith per [ICON_Citizen] Citizen in this city.</Text>
@@ -1386,7 +1386,7 @@
 			<Text>Other cities within 9 tiles and not owned by you lose 4 Loyalty per turn.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="en_US">
-			<Text>Your [ICON_TradeRoute] Trade Routes ending here provide +2 [ICON_Food] Food and +2 [ICON_Production] Production to their starting city.</Text>
+			<Text>+50% [ICON_Food] Growth in the city. Your [ICON_TradeRoute] Trade Routes ending here provide +2 [ICON_Food] Food and +2 [ICON_Production] Production to their starting city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST_DESCRIPTION" Language="en_US">
 			<Text>Increases the [ICON_POWER] Power provided by each resource of the Coal Power Plant, Oil Power Plant, and Nuclear Power Plant by 1 and the [ICON_Production] Production of all Industrial Zone buildings in this city by +2.</Text>
