@@ -274,7 +274,7 @@
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_NUCLEAR_SUBMARINE" />
-			<Set Combat="65" RangedCombat="95" />
+			<Set Combat="65" RangedCombat="95" PrereqTech="TECH_NANOTECHNOLOGY"/>
 		</Update>
 		<!--Naval Carrier-->
 		<Update>
