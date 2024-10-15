@@ -43,7 +43,7 @@
 		<Update><Where BuildingType="BUILDING_AQUARIUM" /><Set Entertainment="3" /></Update>
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set Entertainment="3" /></Update>
 		<!--Aerodrome-->
-		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" PrereqTech="TECH_RADIO" /></Update>
+		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" /></Update>
 		<!--Neighborhood-->
 		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" /></Update>
 		<!--Preserve-->
