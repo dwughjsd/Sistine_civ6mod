@@ -210,6 +210,7 @@
 		<Row ListType="IndustrialTechs"/>
 		<Row ListType="ModernTechs"/>
 		<Row ListType="AtomicTechs"/>
+		<Row ListType="InformationTechs"/>
 		<Row ListType="InformationYields"/>
 		<Row ListType="DefaultCivicsSST"/>
 		<Row ListType="DefaultFavorBuildings"/>
@@ -239,6 +240,7 @@
 		<Row ListType="IndustrialTechs" System="Technologies"/>
 		<Row ListType="ModernTechs" System="Technologies"/>
 		<Row ListType="AtomicTechs" System="Technologies"/>
+		<Row ListType="InformationTechs" System="Technologies"/>
 		<Row ListType="InformationYields" System="Yields"/>
 		<Row ListType="DefaultCivicsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Civics"/>
 		<Row ListType="DefaultCivicsSST" LeaderType="MINOR_CIV_DEFAULT_TRAIT" System="Civics"/>
@@ -269,6 +271,7 @@
 		<InsertOrIgnore StrategyType="STRATEGY_INDUSTRIAL_CHANGES" ListType="IndustrialTechs"/>
 		<InsertOrIgnore StrategyType="STRATEGY_MODERN_CHANGES" ListType="ModernTechs"/>
 		<InsertOrIgnore StrategyType="STRATEGY_ATOMIC_CHANGES" ListType="AtomicTechs"/>
+		<InsertOrIgnore StrategyType="STRATEGY_INFORMATION_CHANGES" ListType="InformationTechs"/>
 		<InsertOrIgnore StrategyType="STRATEGY_INFORMATION_CHANGES" ListType="InformationYields"/>
 
 		<InsertOrIgnore StrategyType="STRATEGY_MEDIEVAL_CHANGES" ListType="MedievalBuildings"/>
@@ -308,8 +311,13 @@
 		<Row ListType="ModernTechs" Item="TECH_BALLISTICS" Favored="true" />
 		<Row ListType="AtomicTechs" Item="TECH_ROCKETRY" Favored="true" />
 		<Row ListType="AtomicTechs" Item="TECH_COMPUTERS" Favored="true" />
+		<Row ListType="AtomicTechs" Item="TECH_STEEL" Favored="true" />
 		<Row ListType="AtomicTechs" Item="TECH_REFINING" Favored="true" />
-
+		<Row ListType="AtomicTechs" Item="TECH_COMBUSTION" Favored="true" />
+		<Row ListType="AtomicTechs" Item="TECH_PLASTICS" Favored="true" />
+		<Row ListType="AtomicTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" />
+		<Row ListType="AtomicTechs" Item="TECH_COMPOSITES" Favored="true" />
+		
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_RECORDED_HISTORY" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_FEUDALISM" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_EXPLORATION" Favored="true" />
@@ -461,18 +469,19 @@
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-30"/>
 
 		<!--C'mon it's the era of Gathering Storm-->
-		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROCKETRY" />
+		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_EDUCATION" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SCIENTIFIC_THEORY" Favored="true" />
+		<Replace ListType="ScienceVictoryTechs" Item="TECH_ROCKETRY" Favored="true"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPUTERS" Favored="true" />
-		<Row ListType="ScienceVictoryTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" />
-		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" />
+		<Replace ListType="ScienceVictoryTechs" Item="TECH_SATELLITES" Favored="true"/>
+		<Replace ListType="ScienceVictoryTechs" Item="TECH_ROBOTICS" Favored="true"/>
+		<Replace ListType="ScienceVictoryTechs" Item="TECH_NANOTECHNOLOGY" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EARTH_SATELLITE" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MOON_LANDING" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MARS_BASE" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
-		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
 		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_MANUFACTURING_PLANT" Favored="true"/>

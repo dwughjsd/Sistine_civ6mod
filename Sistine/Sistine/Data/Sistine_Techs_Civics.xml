@@ -15,7 +15,7 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_SYNTHETIC_MATERIALS" />
-			<Set Description=""/>
+			<Set Description="" AdvisorType="ADVISOR_GENERIC"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_ROCKETRY" />
@@ -35,7 +35,7 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_GUIDANCE_SYSTEMS" />
-			<Set Description="LOC_TECH_GUIDANCE_SYSTEMS_DESCRIPTION_SST"/>
+			<Set Description="LOC_TECH_GUIDANCE_SYSTEMS_DESCRIPTION_SST" AdvisorType="ADVISOR_CONQUEST"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_MASS_PRODUCTION" />
@@ -63,11 +63,11 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_TELECOMMUNICATIONS" />
-			<Set UITreeRow="-1"/>
+			<Set UITreeRow="-1" AdvisorType="ADVISOR_GENERIC"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_STEALTH_TECHNOLOGY" />
-			<Set Critical="0"/>
+			<Set Critical="0" AdvisorType="ADVISOR_CONQUEST"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_ROBOTICS" />
@@ -92,6 +92,50 @@
 		<Update>
 			<Where TechnologyType="TECH_PREDICTIVE_SYSTEMS" />
 			<Set Critical="0"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CONSTRUCTION" />
+			<Set AdvisorType="ADVISOR_GENERIC"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ENGINEERING" />
+			<Set AdvisorType="ADVISOR_GENERIC"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_FLIGHT" />
+			<Set AdvisorType="ADVISOR_CULTURE"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ADVANCED_FLIGHT" />
+			<Set AdvisorType="ADVISOR_CULTURE"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_CHEMISTRY" />
+			<Set AdvisorType="ADVISOR_GENERIC"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_COMPUTERS" />
+			<Set AdvisorType="ADVISOR_TECHNOLOGY"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_LASERS" />
+			<Set AdvisorType="ADVISOR_CONQUEST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_COMPOSITES" />
+			<Set AdvisorType="ADVISOR_GENERIC"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_NUCLEAR_FUSION" />
+			<Set AdvisorType="ADVISOR_CONQUEST"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_SMART_MATERIALS" />
+			<Set AdvisorType="ADVISOR_TECHNOLOGY"/>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_OFFWORLD_MISSION" />
+			<Set AdvisorType="ADVISOR_TECHNOLOGY"/>
 		</Update>
 		<!--Cost: Don't add other info here, queries are auto generated-->
 		<Update>
@@ -514,6 +558,34 @@
 		<Update>
 			<Where CivicType="CIVIC_CIVIL_SERVICE" />
 			<Set Description="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_EXPLORATION" />
+			<Set AdvisorType="ADVISOR_TECHNOLOGY"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CORPORATE_LIBERTARIANISM" />
+			<Set AdvisorType="ADVISOR_CONQUEST"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_DIGITAL_DEMOCRACY" />
+			<Set AdvisorType="ADVISOR_CULTURE"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_SYNTHETIC_TECHNOCRACY" />
+			<Set AdvisorType="ADVISOR_TECHNOLOGY"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_EXODUS_IMPERATIVE" />
+			<Set AdvisorType="ADVISOR_TECHNOLOGY"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CULTURAL_HEGEMONY" />
+			<Set AdvisorType="ADVISOR_CULTURE"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_INFORMATION_WARFARE" />
+			<Set AdvisorType="ADVISOR_CONQUEST"/>
 		</Update>
 		<!--Cost: Don't add other info here, queries are auto generated-->
 		<Update>
