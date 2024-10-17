@@ -116,7 +116,7 @@
 		<!--A heuristic to advance goverment tier. -->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_INFLUENCE" />
-			<Set DefaultValue="4.0" />
+			<Set DefaultValue="6.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
@@ -305,18 +305,11 @@
 		<Row ListType="ClassicalTechs" Item="TECH_CONSTRUCTION" Favored="true" />
 		<Row ListType="ClassicalTechs" Item="TECH_MILITARY_ENGINEERING" Favored="true" />
 		<Row ListType="RenaissanceTechs" Item="TECH_PRINTING" Favored="true" />
-		<Row ListType="IndustrialTechs" Item="TECH_STEAM_POWER" Favored="true" />
-		<Row ListType="ModernTechs" Item="TECH_REPLACEABLE_PARTS" Favored="true" />
+		<Row ListType="IndustrialTechs" Item="TECH_MASS_PRODUCTION" Favored="true" />
+		<Row ListType="IndustrialTechs" Item="TECH_SQUARE_RIGGING" Favored="true" />
 		<Row ListType="ModernTechs" Item="TECH_SANITATION" Favored="true" />
 		<Row ListType="ModernTechs" Item="TECH_BALLISTICS" Favored="true" />
-		<Row ListType="AtomicTechs" Item="TECH_ROCKETRY" Favored="true" />
-		<Row ListType="AtomicTechs" Item="TECH_COMPUTERS" Favored="true" />
-		<Row ListType="AtomicTechs" Item="TECH_STEEL" Favored="true" />
-		<Row ListType="AtomicTechs" Item="TECH_REFINING" Favored="true" />
-		<Row ListType="AtomicTechs" Item="TECH_COMBUSTION" Favored="true" />
-		<Row ListType="AtomicTechs" Item="TECH_PLASTICS" Favored="true" />
-		<Row ListType="AtomicTechs" Item="TECH_SYNTHETIC_MATERIALS" Favored="true" />
-		<Row ListType="AtomicTechs" Item="TECH_COMPOSITES" Favored="true" />
+
 		
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_RECORDED_HISTORY" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_FEUDALISM" Favored="true" />
@@ -468,14 +461,18 @@
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-40"/>
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-30"/>
 
-		<!--C'mon it's the era of Gathering Storm-->
+		<!--Seems that AI prefers to unlock favored techs that are not far away from available choices-->
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_EDUCATION" Favored="true" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_INDUSTRIALIZATION" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_SCIENTIFIC_THEORY" Favored="true" />
-		<Replace ListType="ScienceVictoryTechs" Item="TECH_ROCKETRY" Favored="true"/>
+		<Row ListType="ScienceVictoryTechs" Item="TECH_ELECTRICITY" Favored="true" />
+		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROCKETRY" Favored="true"/>
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPUTERS" Favored="true" />
 		<Replace ListType="ScienceVictoryTechs" Item="TECH_SATELLITES" Favored="true"/>
-		<Replace ListType="ScienceVictoryTechs" Item="TECH_ROBOTICS" Favored="true"/>
+		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROBOTICS" Favored="true"/>
+		<Row ListType="ScienceVictoryTechs" Item="TECH_PLASTICS" Favored="true" />
+		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" />
 		<Replace ListType="ScienceVictoryTechs" Item="TECH_NANOTECHNOLOGY" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EARTH_SATELLITE" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MOON_LANDING" Favored="true"/>
