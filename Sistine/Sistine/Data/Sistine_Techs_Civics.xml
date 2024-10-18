@@ -63,7 +63,7 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_TELECOMMUNICATIONS" />
-			<Set UITreeRow="0" AdvisorType="ADVISOR_CONQUEST"/>
+			<Set AdvisorType="ADVISOR_CONQUEST"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_STEALTH_TECHNOLOGY" />
@@ -372,7 +372,7 @@
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_TELECOMMUNICATIONS" />
-			<Set Cost="3990"/>
+			<Set Cost="3460"/>
 		</Update>
 		<Update>
 			<Where TechnologyType="TECH_SATELLITES" />
@@ -498,11 +498,8 @@
 		<Delete Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_BANKING"/>
 		<Delete Technology="TECH_ECONOMICS" PrereqTech="TECH_METAL_CASTING"/>
 		<Delete Technology="TECH_ROBOTICS" PrereqTech="TECH_LASERS"/>
-		<Delete Technology="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_COMPUTERS"/>
 		<Row Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_METAL_CASTING"/>
 		<Row Technology="TECH_ECONOMICS" PrereqTech="TECH_BANKING"/>
-		<Row Technology="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_SATELLITES"/>
-		<Row Technology="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_LASERS"/>
 		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_OFFWORLD_MISSION"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_SEASTEADS"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_ADVANCED_AI"/>
@@ -588,7 +585,7 @@
 			<Where CivicType="CIVIC_INFORMATION_WARFARE" />
 			<Set AdvisorType="ADVISOR_CONQUEST"/>
 		</Update>
-		<!--Cost: Don't add other info here, queries are auto generated-->
+		<!--Cost: Don't add other data here, queries are auto generated-->
 		<Update>
 			<Where CivicType="CIVIC_CODE_OF_LAWS" />
 			<Set Cost="25"/>
