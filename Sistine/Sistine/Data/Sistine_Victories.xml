@@ -305,7 +305,10 @@
 		<Row ListType="IndustrialTechs" Item="TECH_MASS_PRODUCTION" Favored="true" />
 		<Row ListType="IndustrialTechs" Item="TECH_SQUARE_RIGGING" Favored="true" />
 		<Row ListType="ModernTechs" Item="TECH_SANITATION" Favored="true" />
-		
+		<Row ListType="AtomicTechs" Item="TECH_REPLACEABLE_PARTS" Favored="true" />
+		<Row ListType="AtomicTechs" Item="TECH_CHEMISTRY" Favored="true" />
+		<Row ListType="AtomicTechs" Item="TECH_PLASTICS" Favored="true" />
+
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_RECORDED_HISTORY" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_FEUDALISM" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_EXPLORATION" Favored="true" />
@@ -465,7 +468,6 @@
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPUTERS" Favored="true" />
 		<Replace ListType="ScienceVictoryTechs" Item="TECH_SATELLITES" Favored="true"/>
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_ROBOTICS" Favored="true"/>
-		<Row ListType="ScienceVictoryTechs" Item="TECH_PLASTICS" Favored="true" />
 		<Row ListType="ScienceVictoryTechs" Item="TECH_COMPOSITES" Favored="true" />
 		<Replace ListType="ScienceVictoryTechs" Item="TECH_NANOTECHNOLOGY" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EARTH_SATELLITE" Favored="true"/>
