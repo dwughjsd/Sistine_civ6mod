@@ -303,7 +303,6 @@
 		<Row ListType="IndustrialTechs" Item="TECH_MASS_PRODUCTION" Favored="true" />
 		<Row ListType="IndustrialTechs" Item="TECH_SQUARE_RIGGING" Favored="true" />
 		<Row ListType="ModernTechs" Item="TECH_SANITATION" Favored="true" />
-
 		
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_RECORDED_HISTORY" Favored="true" />
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_FEUDALISM" Favored="true" />
