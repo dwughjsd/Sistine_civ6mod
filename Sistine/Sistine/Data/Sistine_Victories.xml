@@ -2,7 +2,6 @@
 <GameData>
 	<Types>
 		<Row Type="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" Kind="KIND_VICTORY_STRATEGY"/>
-		<Row Type="STRATEGY_SCIENCE_VICTORY_FINAL_PUSH" Kind="KIND_VICTORY_STRATEGY"/>
 		<Row Type="PSEUDOYIELD_GOLDENAGE_POINT" Kind="KIND_PSEUDOYIELD"/>
 	</Types>
 	<Strategies>
@@ -17,7 +16,6 @@
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" NumConditionsNeeded="3"/>
 		<Row StrategyType="STRATEGY_ATOMIC_CHANGES" NumConditionsNeeded="1"/>
 		<Row StrategyType="STRATEGY_INFORMATION_CHANGES" NumConditionsNeeded="1"/>
-		<Row StrategyType="STRATEGY_SCIENCE_VICTORY_FINAL_PUSH" NumConditionsNeeded="1"/>
 	</Strategies>
 
 	<StrategyConditions>
@@ -48,8 +46,14 @@
 		</Update>
 		<Delete StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Tourists Taken" />
 		<Delete StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ConditionFunction="Has Taken Capital" />
-		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Exclusive="true"/>
-		<Row StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Is Modern" Exclusive="true"/>
+		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Disqualifier="true"/>
+		<Row StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Disqualifier="true"/>
+		<Row StrategyType="VICTORY_STRATEGY_RELIGIOUS_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Disqualifier="true"/>
+		<Row StrategyType="VICTORY_STRATEGY_DIPLOMATIC_VICTORY" ConditionFunction="Has Tech Lead" ThresholdValue="10" Disqualifier="true"/>
+		<Row StrategyType="VICTORY_STRATEGY_CULTURAL_VICTORY" ConditionFunction="Is Atomic" Disqualifier="true"/>
+		<Row StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ConditionFunction="Is Modern" Disqualifier="true"/>
+		<Row StrategyType="VICTORY_STRATEGY_RELIGIOUS_VICTORY" ConditionFunction="Is Industrial" Disqualifier="true"/>
+		<Row StrategyType="VICTORY_STRATEGY_DIPLOMATIC_VICTORY" ConditionFunction="Is Atomic" Disqualifier="true"/>
 		<Delete StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Lags Military"/>
 		<Delete StrategyType="VICTORY_STRATEGY_SCIENCE_VICTORY" ConditionFunction="Has Science Wonders"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Has Settle Spot" ThresholdValue="0"/>
@@ -60,7 +64,6 @@
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Medieval" Disqualifier="true"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Is Not Major" Disqualifier="true"/>
 		<Row StrategyType="STRATEGY_RAPID_EXPANSION_HIGH_DIFF" ConditionFunction="Handicap at or below" ThresholdValue="6" Disqualifier="true"/>
-		<Row StrategyType="STRATEGY_SCIENCE_VICTORY_FINAL_PUSH" ConditionFunction="Finished Space Project" ThresholdValue="3" />
 		<Row StrategyType="STRATEGY_ATOMIC_CHANGES" ConditionFunction="Is Atomic"/>
 		<Row StrategyType="STRATEGY_ATOMIC_CHANGES" ConditionFunction="Is Not Major" Disqualifier="true"/>
 		<Row StrategyType="STRATEGY_INFORMATION_CHANGES" ConditionFunction="Is Information"/>
@@ -221,7 +224,6 @@
 		<Row ListType="IndustrialBuildings"/>
 		<Row ListType="IndustrialDistricts"/>
 		<Row ListType="ScienceVictoryBuildings"/>
-		<Row ListType="ScienceVictoryFinalPushTechsSST"/>
 		<Row ListType="CultureVictoryBuildings"/>
 		<Row ListType="CultureVictoryDistricts"/>
 		<Row ListType="ReligiousVictoryBuildings"/>
@@ -253,7 +255,6 @@
 		<Row ListType="IndustrialDistricts" System="Districts"/>
 		<Row ListType="DefaultDistrictsSST" LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Districts"/>
 		<Row ListType="ScienceVictoryBuildings" System="Buildings"/>
-		<Row ListType="ScienceVictoryFinalPushTechsSST" System="Technologies"/>
 		<Row ListType="CultureVictoryBuildings" System="Buildings"/>
 		<Row ListType="CultureVictoryDistricts" System="Districts"/>
 		<Row ListType="ReligiousVictoryBuildings" System="Buildings"/>
@@ -285,8 +286,6 @@
 		<InsertOrIgnore StrategyType="VICTORY_STRATEGY_RELIGIOUS_VICTORY" ListType="ReligiousVictoryBuildings"/>
 		<InsertOrIgnore StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryBuildings"/>
 		<InsertOrIgnore StrategyType="VICTORY_STRATEGY_MILITARY_VICTORY" ListType="MilitaryVictoryDistricts"/>
-		
-		<InsertOrIgnore StrategyType="STRATEGY_SCIENCE_VICTORY_FINAL_PUSH" ListType="ScienceVictoryFinalPushTechsSST"/>
 	</Strategy_Priorities>
 
 	<AiFavoredItems>
@@ -301,14 +300,9 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
 		
-		<Row ListType="AncientTechs" Item="TECH_ARCHERY" Favored="true" />
-		<Row ListType="ClassicalTechs" Item="TECH_CONSTRUCTION" Favored="true" />
-		<Row ListType="ClassicalTechs" Item="TECH_MILITARY_ENGINEERING" Favored="true" />
-		<Row ListType="RenaissanceTechs" Item="TECH_PRINTING" Favored="true" />
 		<Row ListType="IndustrialTechs" Item="TECH_MASS_PRODUCTION" Favored="true" />
 		<Row ListType="IndustrialTechs" Item="TECH_SQUARE_RIGGING" Favored="true" />
 		<Row ListType="ModernTechs" Item="TECH_SANITATION" Favored="true" />
-		<Row ListType="ModernTechs" Item="TECH_BALLISTICS" Favored="true" />
 
 		
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_RECORDED_HISTORY" Favored="true" />
@@ -482,8 +476,6 @@
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
 		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_MANUFACTURING_PLANT" Favored="true"/>
-
-		<Row ListType="ScienceVictoryFinalPushTechsSST" Item="TECH_SMART_MATERIALS" Favored="true"/>
 
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>
 		<Row ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
