@@ -41,6 +41,13 @@
 			<ModifierId>HIGH_DIFFICULTY_AI_REVEAL_MAP</ModifierId>
 		</Row>
 		-->
+		<!--AI always tries to run telecom and stealth techs which are virtually useless for them. There is no way to block them from trying to research it so we have to grant the 2 techs so that they won't waste time-->
+		<Row TechnologyType="TECH_COMPUTERS">
+			<ModifierId>COMPUTERS_AI_GRANT_TELECOMMUNICATIONS</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_SYNTHETIC_MATERIALS">
+			<ModifierId>SYNTHETIC_MATERIALS_AI_GRANT_STEALTH</ModifierId>
+		</Row>
 	</TechnologyModifiers>
 	<Modifiers>
 		<Row>
@@ -170,6 +177,16 @@
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_BUILDINGS_PRODUCTION_SCALING</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMPUTERS_AI_GRANT_TELECOMMUNICATIONS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SYNTHETIC_MATERIALS_AI_GRANT_STEALTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
 		</Row>
 	</Modifiers>
@@ -387,6 +404,16 @@
 			<Type>LinearScaleFromDefaultHandicap</Type>
 			<Value>-25</Value>
 			<Extra>25</Extra>
+		</Row>
+		<Row>
+			<ModifierId>COMPUTERS_AI_GRANT_TELECOMMUNICATIONS</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_TELECOMMUNICATIONS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SYNTHETIC_MATERIALS_AI_GRANT_STEALTH</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_STEALTH_TECHNOLOGY</Value>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>
