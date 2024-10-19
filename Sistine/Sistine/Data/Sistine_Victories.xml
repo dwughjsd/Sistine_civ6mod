@@ -299,6 +299,7 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_WIDE" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SCIENCE" Favored="true"/>
 
 		<Row ListType="AncientTechs" Item="TECH_ANIMAL_HUSBANDRY" Favored="true" />
 		<Row ListType="AncientTechs" Item="TECH_BRONZE_WORKING" Favored="true" />
@@ -418,8 +419,7 @@
 		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="20"/>
 
 		<!--We really need more improvements!-->
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
 		
 		<!--No need to promote military academy. Build more Campus instead.-->
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" />
@@ -437,7 +437,9 @@
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_MERCHANT" Value="25"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
-		
+		<!--Industrial Powerrrrrrrrr!!!!!!!!! Let's see what would happen if we make it aggressively.-->
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="1000"/>
+
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="20"/>
 
 		<!--Slow building campuses and we are going to launch spaceships!-->
