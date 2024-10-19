@@ -379,7 +379,7 @@
 			<Text>已建造情报局</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可用 [ICON_Faith] 信仰值购买陆地单位。掠夺改良设施和区域可提供 [ICON_Faith] 信仰值加成。圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Culture] 文化值。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>可用 [ICON_Faith] 信仰值购买陆地单位。掠夺改良设施和区域可提供 [ICON_Faith] 信仰值加成。圣地区域+2 [ICON_Culture] 文化值。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>升级单位所需的 [ICON_Gold] 金币和资源减少25%。军事单位攻击时 +4 [ICON_Strength] 战斗力。所有单位消灭敌方单位均可恢复生命值（上限20点）。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
@@ -682,7 +682,7 @@
 			<Text>此城市+2 [ICON_Culture] 文化值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_COMPUTERSTECHBOOST" Language="zh_Hans_CN">
-			<Text>触发计算机科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
+			<Text>触发{LOC_TECH_COMPUTERS_NAME}科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE_ACTIVE" Language="zh_Hans_CN">
 			<Text>立即在该城市中建造远古和中世纪城墙。此城市提供+2 [ICON_Culture] 文化值。</Text>
@@ -697,7 +697,7 @@
 			<Text>此城市的奇观提供+100% [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ROCKETRYTECHBOOST" Language="zh_Hans_CN">
-			<Text>触发火箭技术和高级弹道学科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
+			<Text>触发{LOC_TECH_ROCKETRY_NAME}和{LOC_TECH_ADVANCED_BALLISTICS_NAME}科技的 [ICON_TechBoosted] 尤里卡，如果尤里卡已触发过则解锁该项科技。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE" Language="zh_Hans_CN">
 			<Text>您帝国中幸福等级提供的非 [ICON_Food] 食物产出增益提升50%。</Text>
@@ -1394,8 +1394,11 @@
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城生产单位所需战略资源花费减少50%。</Text>
 		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_BUILDER_GUILDMASTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中已改良的单元格+1 [ICON_PRODUCTION] 生产力。</Text>
+		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城修建区域和建筑时+30% [ICON_Production] 生产力。</Text>
+			<Text>此城修建区域、建筑和奇观时+30% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_AQUACULTURE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>可在此城建造渔场改良设施。+2 [ICON_Food] 食物、+0.5 [ICON_Housing] 住房，每与1份海洋资源相邻则+1 [ICON_Food] 食物。梁在此城就职时+2 [ICON_PRODUCTION] 生产力。</Text>
@@ -1416,10 +1419,10 @@
 			<Text>在城市中进行项目时+30% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城购买单元格所需的 [ICON_Gold] 金币降低20%。</Text>
+			<Text>此城购买单元格所需的 [ICON_Gold] 金币降低20%。每条经过此城的外国 [ICON_TradeRoute] 贸易路线为您每回合+3 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城商业中心和港口的相邻加成加倍。每条经过此城的外国 [ICON_TradeRoute] 贸易路线为您每回合+3 [ICON_Gold] 金币。</Text>
+			<Text>此城商业中心和港口的相邻加成加倍。此城的市场、银行、灯塔和造船厂+25% [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每个地貌+2 [ICON_Gold] 金币。此城与未改良地貌相邻的单元格获得+1魅力。</Text>
