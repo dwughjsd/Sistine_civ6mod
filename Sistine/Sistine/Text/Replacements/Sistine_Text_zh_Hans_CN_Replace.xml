@@ -402,6 +402,7 @@
 		<Replace Tag="LOC_GREATWORK_PUSHKIN_2_NAME" Language="zh_Hans_CN" Text="《鲍里斯·戈都诺夫》"/>
 		<Replace Tag="LOC_GREATWORK_POE_1_NAME" Language="zh_Hans_CN" Text="《泄密的心》"/>
 		<Replace Tag="LOC_GREATWORK_CAPEK_1_NAME" Language="zh_Hans_CN" Text="《罗素姆万能机器人》"/>
+		<Replace Tag="LOC_GREATWORK_WELLS_1_NAME" Language="zh_Hans_CN" Text="《星际战争》"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_WOLFGANG_AMADEUS_MOZART_NAME" Language="zh_Hans_CN" Text="沃尔夫冈·阿玛多伊斯·莫扎特"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_DIMITRIE_CANTEMIR_NAME" Language="zh_Hans_CN" Text="迪米特里·坎泰米尔"/>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FRANZ_LISZT_NAME" Language="zh_Hans_CN" Text="弗朗茨·李斯特"/>
