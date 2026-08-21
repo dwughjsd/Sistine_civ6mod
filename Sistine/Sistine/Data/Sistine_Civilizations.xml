@@ -146,7 +146,8 @@
 	</ModifierArguments>
 	<TraitModifiers>
 		<Delete TraitType="TRAIT_CIVILIZATION_TREASURE_FLEET" ModifierId="TRAIT_INTERCONTINENTAL_DISTRICT_PRODUCTION"/>
-		<Delete TraitType="TRAIT_CIVILIZATION_MAYAB" ModifierId="TRAIT_MAYA_FARMS_PRODUCTION"/>
+		<!--It's funny that this modifier is actually FARMS_GOLD. The real one that's needed to be deleted is the farm adjacency bonus.-->
+		<!--<Delete TraitType="TRAIT_CIVILIZATION_MAYAB" ModifierId="TRAIT_MAYA_FARMS_PRODUCTION"/>-->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_VIETNAM</TraitType>
 			<ModifierId>TRAIT_FOREST_DISTRICTS_CULTURE</ModifierId>

@@ -249,6 +249,11 @@
 		</Row>
 	</Requirements>
 
+	<!--It's funny that this is one of the Maya's civ ability. Now it is not anymore.-->
+	<Adjacency_YieldChanges>
+		<Delete ID="Farm_FoodObservatoryAdjacency"/>
+	</Adjacency_YieldChanges>
+
 	<Adjacency_YieldChanges>
 		<Update>
 			<Where ID="Farms_MedievalAdjacency" />
@@ -259,7 +264,7 @@
 			<Set PrereqTech="TECH_SATELLITES" />
 		</Update>
 	</Adjacency_YieldChanges>
-	
+
 	<!--Unique improvements-->
 	<Improvements>
 		<Update>
@@ -439,11 +444,11 @@
 	<Improvement_BonusYieldChanges>
 		<!--The ID is not necessary for the system to work. However it's good to make it unique.-->
 		<Update>
-			<Where Id="18" ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"/> 
+			<Where Id="18" ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"/>
 			<Set PrereqCivic="CIVIC_HUMANISM"/>
 		</Update>
 		<Update>
-			<Where Id="21" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"/> 
+			<Where Id="21" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"/>
 			<Set PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
 		</Update>
 		<Row Id="502" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
