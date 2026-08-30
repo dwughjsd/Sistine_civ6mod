@@ -428,9 +428,6 @@
 		<Replace Tag="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>通向本方城市的本方 [ICON_TradeRoute] 贸易路线每回合可为起点城市+4忠诚度。通往外国城市或起源于外国城市的 [ICON_TradeRoute] 贸易路线为您+2 [ICON_Culture] 文化值。通向盟友或以您为宗主国的城邦的 [ICON_TradeRoute] 贸易路线额外+4 [ICON_Culture] 文化值。</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有城市建造建筑和奇观时+2 [ICON_Production] 生产力。建筑建成时，获得等同于建筑花费25%的 [ICON_CULTURE] 文化值；奇观建成时则获得50%。</Text>
-		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>城市中每有一座工业区建筑便+5% [ICON_PRODUCTION] 生产力。已改良的战略资源+2 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
@@ -460,9 +457,6 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在城市中就职的[ICON_Governor] 总督提供+3 [ICON_Culture] 文化值和 [ICON_Science] 科技值，且其每项已获得的升级（包括首个升级）另外提供+3% [ICON_Culture] 文化值和 [ICON_Science] 科技值。</Text>
-		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>招募伟人所花费的 [ICON_GOLD] 金币-50%。马里建立的城市的市场获得2个 [ICON_GreatWork_WRITING] 著作巨作槽位。商业中心每回合提供+1 [ICON_GreatWriter] 大作家点数。[ICON_GreatWork_WRITING] 著作巨作+6 [ICON_GOLD] 金币、+3 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建造所有区域和建筑+20% [ICON_Production] 生产力，如果努比亚金字塔临近市中心，加成提升至+40%。</Text>
@@ -612,6 +606,14 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>与同一个敌人交战时，5个单元格以内的盟友单位共享掠夺奖励和战斗经验值。您和您的同盟与同一个敌人作战可获得同盟点数。对战与您和您的盟友同时交战的玩家的单位时+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+
+		<!--DLC: RulersOfTheSahara-->
+		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市建造建筑和奇观时+2 [ICON_Production] 生产力。建筑建成时，获得等同于建筑花费25%的 [ICON_CULTURE] 文化值；奇观建成时则获得50%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>招募伟人所花费的 [ICON_GOLD] 金币-50%。马里建立的城市的市场获得2个 [ICON_GreatWork_WRITING] 著作巨作槽位。商业中心每回合提供+1 [ICON_GreatWriter] 大作家点数。[ICON_GreatWork_WRITING] 著作巨作+6 [ICON_GOLD] 金币、+3 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

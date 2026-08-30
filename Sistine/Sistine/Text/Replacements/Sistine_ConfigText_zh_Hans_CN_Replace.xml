@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<!--Techs-->
-
 		<!--Eras-->
 		<Replace Tag="LOC_ERA_CLASSICAL_NAME" Language="zh_Hans_CN" Text="古典时代"/>
 		<Replace Tag="LOC_ERA_MEDIEVAL_NAME" Language="zh_Hans_CN" Text="中古时代"/>
@@ -398,9 +396,6 @@
 		<Replace Tag="LOC_TRAIT_LEADER_CLEOPATRA_ALT_NAME" Language="en_US">
 			<Text>Arrival of Isis</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_NAME" Language="zh_Hans_CN">
-			<Text>阿布辛贝神庙</Text>
-		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PAX_BRITANNICA_NAME" Language="zh_Hans_CN">
 			<Text>不列颠治世</Text>
 		</Replace>
@@ -442,9 +437,6 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NZINGA_MBANDE_NAME" Language="zh_Hans_CN">
 			<Text>恩东戈和马坦巴女王</Text>
-		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_NAME" Language="zh_Hans_CN">
-			<Text>索格伦之子</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KUPES_VOYAGE_NAME" Language="zh_Hans_CN">
 			<Text>库佩之航</Text>
@@ -979,9 +971,6 @@
 		<Replace Tag="LOC_LOADING_INFO_LEADER_TRAJAN" Language="zh_Hans_CN">
 			<Text>布下大局吧，强大罗马的皇帝图拉真。您的军团已准备好出发，建立世界上最大的帝国。如果您能真正实现条条道路通罗马，您的帝国将会拥有巨额财富和无尽奢华。那时，我们的公民必将宣扬您是最佳元首，他们最优秀的统治者。</Text>
 		</Replace>
-		<Replace Tag="LOC_LOADING_INFO_LEADER_JULIUS_CAESAR" Language="zh_Hans_CN">
-			<Text>凯撒万岁！您是罗马的将军、世族、狄克推多。您的人民，以及您的雄心，长久以来呼唤着您。骰子已经掷下——不要让任何人反对您的计划，无论是不共戴天的仇敌，还是亲密无间的好友。</Text>
-		</Replace>
 		<!---->
 		<Replace Tag="LOC_LOADING_INFO_LEADER_PETER_GREAT" Language="zh_Hans_CN">
 			<Text>沙皇彼得，拥抱祖国母亲的凛冽寒风吧。您对科学和文化的热爱是上天赐予的礼物，而从派往外国的大使团中您将学到很多这些知识。在您的统治下，俄罗斯必将繁荣发展并不断扩张，把周围所有土地都纳为己有，或许创造出世界上最伟大的陆权帝国。</Text>
@@ -1384,9 +1373,6 @@
 		<Replace Tag="LOC_TRAIT_LEADER_ELIZABETH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>获得首位 [ICON_GreatAdmiral] 海军统帅后，英国的 [ICON_TradeRoute] 贸易路线容量+2。通往任意城邦的 [ICON_TradeRoute] 贸易路线起点城市每有一个专业化区域，便+3 [ICON_GOLD] 金币。使用海军单位掠夺 [ICON_TradeRoute] 贸易路线的收益+100%。</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>首次征服一座城市或从蛮族哨站获得[ICON_GOLD] 金币时 +300 [ICON_GOLD] 金币。奖励 [ICON_GOLD] 金币数量在研究“金属铸造”之后变为500，研究“钢铁”之后变为700（标准速度下）。与蛮族对战时+5[ICON_Strength] 战斗力，且始终可获得常规数额的战斗经验值。</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_DIGGER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>澳大利亚特色电气时代单位，替代现代步兵。在海岸单元格上作战时+10 [ICON_Strength] 战斗力。在中立或外国领土上作战时+5 [ICON_Strength] 战斗力。</Text>
 		</Replace>
@@ -1552,6 +1538,21 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_DRONE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>原子时代支援单位。为1单元格内的攻城单位+1 [ICON_Range] 射程、+5 [ICON_Bombard] 轰炸攻击力。</Text>
+		</Replace>
+
+		<!--DLC: JuliusCaesar-->
+		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首次征服一座城市或从蛮族哨站获得[ICON_GOLD] 金币时 +300 [ICON_GOLD] 金币。奖励 [ICON_GOLD] 金币数量在研究“金属铸造”之后变为500，研究“钢铁”之后变为700（标准速度下）。与蛮族对战时+5[ICON_Strength] 战斗力，且始终可获得常规数额的战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JULIUS_CAESAR" Language="zh_Hans_CN">
+			<Text>凯撒万岁！您是罗马的将军、世族、狄克推多。您的人民，以及您的雄心，长久以来呼唤着您。骰子已经掷下——不要让任何人反对您的计划，无论是不共戴天的仇敌，还是亲密无间的好友。</Text>
+		</Replace>
+		<!--DLC: RulersOfTheSahara-->
+		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_NAME" Language="zh_Hans_CN">
+			<Text>阿布辛贝神庙</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_NAME" Language="zh_Hans_CN">
+			<Text>索格伦之子</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

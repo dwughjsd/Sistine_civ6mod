@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_VICTORIA_ALT" ModifierId="VICTORIA_PRODUCTION_MANUFACTURING_PLANT"/>
+	</TraitModifiers>
+</GameData>

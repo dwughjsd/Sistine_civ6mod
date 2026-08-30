@@ -435,9 +435,6 @@
 		<Replace Tag="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION" Language="en_US">
 			<Text>Your [ICON_TradeRoute] Trade Routes to your own cities provide +4 Loyalty per turn for the starting city. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +2 [ICON_Culture] Culture to you. Additional +4 [ICON_Culture] Culture for [ICON_TradeRoute] Trade Routes to an Ally's city or vassal city-state.</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_DESCRIPTION" Language="en_US">
-			<Text>All cities receive +2 [ICON_Production] Production when constructing Buildings and Wonders. Gain [ICON_CULTURE] Culture equal to 25% of the construction cost when finishing Buildings and 50% when completing Wonders.</Text>
-		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION" Language="en_US">
 			<Text>+5% [ICON_PRODUCTION] Production in Cities for every Industrial Zone building in that city. +2 [ICON_PRODUCTION] Production to all improved Strategic Resources.</Text>
 		</Replace>
@@ -467,9 +464,6 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="en_US">
 			<Text>[ICON_Governor] Governors established in a city provides +3 [ICON_CULTURE] Culture and [ICON_SCIENCE] Science, as well as +3% [ICON_Culture] Culture and [ICON_Science] Science for each Promotion they have earned, including their first.</Text>
-		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION" Language="en_US">
-			<Text>It costs 50% less [ICON_GOLD] Gold to recruit Great People and the Market gains 2 [ICON_GreatWork_WRITING] Great Writing slots in Cities founded by Mali. Commercial Hubs provide +1 [ICON_GreatWriter] Great Writer point per turn. [ICON_GreatWork_WRITING] Great Works of Writing receive +6 [ICON_GOLD] Gold and +3 [ICON_PRODUCTION] Production.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_DESCRIPTION" Language="en_US">
 			<Text>+20% [ICON_Production] Production towards all districts and buildings, rising to +40% if there is a Nubian Pyramid adjacent to the City Center.</Text>
@@ -619,6 +613,14 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>When at war with a common foe, units of your allies within 5 tiles share pillage rewards and combat experience gains. Your Alliances gain Alliance Points for being at war with a common foe. +5 [ICON_Strength] Combat Strength against units of players at war with you and your ally.</Text>
+		</Replace>
+		
+		<!--DLC: RulersOfTheSahara-->
+		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_DESCRIPTION" Language="en_US">
+			<Text>All cities receive +2 [ICON_Production] Production when constructing Buildings and Wonders. Gain [ICON_CULTURE] Culture equal to 25% of the construction cost when finishing Buildings and 50% when completing Wonders.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION" Language="en_US">
+			<Text>It costs 50% less [ICON_GOLD] Gold to recruit Great People and the Market gains 2 [ICON_GreatWork_WRITING] Great Writing slots in Cities founded by Mali. Commercial Hubs provide +1 [ICON_GreatWriter] Great Writer point per turn. [ICON_GreatWork_WRITING] Great Works of Writing receive +6 [ICON_GOLD] Gold and +3 [ICON_PRODUCTION] Production.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
