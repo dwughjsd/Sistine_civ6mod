@@ -110,7 +110,6 @@
 		<Delete BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
 		<!--Commercial Hub-->
 		<Update><Where BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD"/><Set YieldChange="1"/></Update>
-		<Update><Where BuildingType="BUILDING_SUKIENNICE" YieldType="YIELD_GOLD"/><Set YieldChange="1"/></Update>
 		<Update><Where BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
 		<Update><Where BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
 		<Delete BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/>
@@ -153,21 +152,13 @@
 
 	<Building_CitizenYieldChanges>
 		<!--Theater Square-->
-		<!--<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="2"/>
-		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_BROADCAST_CENTER"/>
 		<Delete BuildingType="BUILDING_FILM_STUDIO"/>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<!--Campus-->
-		<!--<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-		<Row BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_RESEARCH_LAB"/>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<!--Holy Site-->
-		<!--<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="2"/>
-		<Row BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="2"/>-->
-		<Row BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" YieldChange="4"/>
 		<Delete BuildingType="BUILDING_CATHEDRAL"/>
 		<Delete BuildingType="BUILDING_DAR_E_MEHR"/>
 		<Delete BuildingType="BUILDING_GURDWARA"/>
@@ -187,14 +178,10 @@
 		<Row BuildingType="BUILDING_SYNAGOGUE" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<Row BuildingType="BUILDING_WAT" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<!--Encampment-->
-		<!--<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
-		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_GOLD" YieldChange="2"/>-->
 		<Delete BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" />
 		<Row BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<!--Commercial Hub-->
-		<!--<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="4"/>
-		<Row BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD" YieldChange="4"/>-->
 		<Delete BuildingType="BUILDING_STOCK_EXCHANGE"/>
 		<Row BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<!--Industrial Zone-->
@@ -204,12 +191,7 @@
 		<Delete BuildingType="BUILDING_POWER_PLANT"/>
 		<Delete BuildingType="BUILDING_COAL_POWER_PLANT" />
 		<Delete BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
-		<!--<Row BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
-		<Row BuildingType="BUILDING_COAL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
-		<Row BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>-->
 		<!--Harbor-->
-		<!--<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Row BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_FOOD" YieldChange="1"/>-->
 		<Delete BuildingType="BUILDING_SEAPORT"/>
 		<Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_FOOD" YieldChange="1"/>
@@ -254,7 +236,6 @@
 		<Row BuildingType="BUILDING_STABLE" ModifierId="STABLE_PASTURE_PRODUCTION"/>
 		<!--Commercial Hub-->
 		<Row BuildingType="BUILDING_MARKET" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
-		<Row BuildingType="BUILDING_SUKIENNICE" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
 		<Row BuildingType="BUILDING_BANK" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
 		<Row BuildingType="BUILDING_GRAND_BAZAAR" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
 		<Row BuildingType="BUILDING_STOCK_EXCHANGE" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
@@ -330,10 +311,8 @@
 		<Update><Where BuildingType="BUILDING_PALACE" GreatWorkSlotType="GREATWORKSLOT_PALACE"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
 		<Update><Where BuildingType="BUILDING_MUSEUM_ART" GreatWorkSlotType="GREATWORKSLOT_ART"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
 		<Update><Where BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
-		<Update><Where BuildingType="BUILDING_APADANA" GreatWorkSlotType="GREATWORKSLOT_PALACE"/><Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/></Update>
 		<!--Holy Site-->
 		<Delete BuildingType="BUILDING_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
-		<Delete BuildingType="BUILDING_PRASAT" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
 		<Delete BuildingType="BUILDING_STAVE_CHURCH" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
 		<Row BuildingType="BUILDING_CATHEDRAL" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
 		<Row BuildingType="BUILDING_DAR_E_MEHR" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
@@ -424,8 +403,6 @@
 		<Update><Where BuildingType="BUILDING_TEMPLE" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_STAVE_CHURCH" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_SEWER" /><Set Cost="120"/></Update>
-		<Update><Where BuildingType="BUILDING_PRASAT" /><Set Cost="120"/></Update>
-		<Update><Where BuildingType="BUILDING_SUKIENNICE" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_ORDU" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_TLACHTLI" /><Set Cost="125"/></Update>
 		<Update><Where BuildingType="BUILDING_ARENA" /><Set Cost="135"/></Update>
@@ -504,7 +481,6 @@
 		<Update><Where BuildingType="BUILDING_MAHABODHI_TEMPLE" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_TERRACOTTA_ARMY" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_JEBEL_BARKAL" /><Set Cost="300"/></Update>
-		<Update><Where BuildingType="BUILDING_APADANA" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_HALICARNASSUS_MAUSOLEUM" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_MACHU_PICCHU" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_STATUE_OF_ZEUS" /><Set Cost="300"/></Update>
@@ -512,7 +488,6 @@
 		<Update><Where BuildingType="BUILDING_ALHAMBRA" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_CHICHEN_ITZA" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_MONT_ST_MICHEL" /><Set Cost="480"/></Update>
-		<Update><Where BuildingType="BUILDING_HUEY_TEOCALLI" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_ANGKOR_WAT" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_KILWA_KISIWANI" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_KOTOKU_IN" /><Set Cost="480"/></Update>
@@ -866,8 +841,6 @@
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_HANGING_GARDENS" YieldType="YIELD_FOOD" YieldChange="6"/>
 		<Row BuildingType="BUILDING_STONEHENGE" YieldType="YIELD_CULTURE" YieldChange="2"/>
-		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
-		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Row BuildingType="BUILDING_PETRA" YieldType="YIELD_CULTURE" YieldChange="3"/>
 		<Row BuildingType="BUILDING_PANAMA_CANAL" YieldType="YIELD_PRODUCTION" YieldChange="5"/>
 		<Row BuildingType="BUILDING_BROADWAY" YieldType="YIELD_CULTURE" YieldChange="6"/>
@@ -878,7 +851,6 @@
 		<Delete BuildingType="BUILDING_ETEMENANKI" ModifierId="ETEMENANKI_PRODUCTION_FLOODPLAINS"/>
 		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_TECHNOLOGY_BOOST"/>
 		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_CIVIC_BOOST"/>
-		<Row BuildingType="BUILDING_APADANA" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
 		<Row BuildingType="BUILDING_COLOSSUS" ModifierId="COLOSSUS_WATER_GOLD"/>
 		<Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" ModifierId="CARTOGRAPHY_GRANT_OCEAN_NAVIGATION"/>
 		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" ModifierId="CARDINAL_BISHOP_PRESSURE"/>
@@ -893,7 +865,6 @@
 		<Row BuildingType="BUILDING_ALHAMBRA" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
 		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
 		<Row BuildingType="BUILDING_CHICHEN_ITZA" ModifierId="CHICHEN_ITZA_JUNGLE_FOOD"/>
-		<Row BuildingType="BUILDING_HUEY_TEOCALLI" ModifierId="HUEY_LAKE_GOLD"/>
 		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_SCIENCE"/>
 		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_CULTURE"/>
 		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_PRODUCTION"/>
@@ -1481,9 +1452,4 @@
 		</Row>
 	</UnitAbilityModifiers>
 
-	<!--Prasat-->
-	<TraitModifiers>
-		<Delete ModifierId="PRASAT_TOURISM_10_POPULATION"/>
-		<Delete ModifierId="PRASAT_TOURISM_20_POPULATION"/>
-	</TraitModifiers>
 </GameData>

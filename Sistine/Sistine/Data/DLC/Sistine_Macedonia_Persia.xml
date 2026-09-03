@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Building_GreatWorks>
+		<Update>
+			<Where BuildingType="BUILDING_APADANA" GreatWorkSlotType="GREATWORKSLOT_PALACE"/>
+			<Set NonUniquePersonYield="3" NonUniquePersonTourism="3"/>
+		</Update>
+	</Building_GreatWorks>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_APADANA" />
+			<Set Cost="300"/>
+		</Update>
+	</Buildings>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_APADANA" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+	</BuildingModifiers>
+</GameData>

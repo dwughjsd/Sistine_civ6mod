@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_SUKIENNICE" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="1"/>
+		</Update>
+	</Building_YieldChanges>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_SUKIENNICE" ModifierId="COMMERCIALBULIDING_GOLD_25"/>
+	</BuildingModifiers>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_SUKIENNICE" />
+			<Set Cost="120"/>
+		</Update>
+	</Buildings>
+</GameData>

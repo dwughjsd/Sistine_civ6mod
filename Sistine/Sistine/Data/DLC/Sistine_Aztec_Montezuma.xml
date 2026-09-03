@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_HUEY_TEOCALLI" />
+			<Set Cost="480"/>
+		</Update>
+	</Buildings>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_HUEY_TEOCALLI" ModifierId="HUEY_LAKE_GOLD"/>
+	</BuildingModifiers>
+</GameData>

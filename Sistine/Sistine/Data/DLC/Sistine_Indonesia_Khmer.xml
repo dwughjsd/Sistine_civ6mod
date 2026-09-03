@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Building_CitizenYieldChanges>
+		<Row BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" YieldChange="4"/>
+	</Building_CitizenYieldChanges>
+	<Building_GreatWorks>
+		<!--Holy Site-->
+		<Delete BuildingType="BUILDING_PRASAT" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
+	</Building_GreatWorks>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_PRASAT" />
+			<Set Cost="120"/>
+		</Update>
+	</Buildings>
+
+	<!--Prasat-->
+	<TraitModifiers>
+		<Delete ModifierId="PRASAT_TOURISM_10_POPULATION"/>
+		<Delete ModifierId="PRASAT_TOURISM_20_POPULATION"/>
+	</TraitModifiers>
+</GameData>

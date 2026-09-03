@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_JEBEL_BARKAL" />
+			<Set Cost="300"/>
+		</Update>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+	</Building_YieldChanges>
+</GameData>
