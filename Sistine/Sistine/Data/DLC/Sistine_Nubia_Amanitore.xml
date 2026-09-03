@@ -10,4 +10,37 @@
 		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 	</Building_YieldChanges>
+
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_DamAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_CanalAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_AqueductAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_EntertainmentComplexAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_WaterEntertainmentComplexAdjacency"/>
+	</Improvement_Adjacencies>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Improvement_YieldChanges>
+		<Replace ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_FOOD" YieldChange="1"/>
+	</Improvement_YieldChanges>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE" ModifierId="TRAIT_BASE_BUILDING_PRODUCTION_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE" ModifierId="TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_PLOT_ADJACENT_PYRAMID</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>

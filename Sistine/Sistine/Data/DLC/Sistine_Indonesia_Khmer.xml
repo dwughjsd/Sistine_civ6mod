@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Building_CitizenYieldChanges>
-		<Row BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" YieldChange="4"/>
-	</Building_CitizenYieldChanges>
 	<Building_GreatWorks>
 		<!--Holy Site-->
 		<Delete BuildingType="BUILDING_PRASAT" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
@@ -19,4 +16,33 @@
 		<Delete ModifierId="PRASAT_TOURISM_10_POPULATION"/>
 		<Delete ModifierId="PRASAT_TOURISM_20_POPULATION"/>
 	</TraitModifiers>
+
+	<Feature_YieldChanges>
+		<Replace FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Replace FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Feature_YieldChanges>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_EXALTED_GODDESS" ModifierId="TRAIT_CULTURE_CITY_CENTER"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_CITY_CENTER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_ADJACENT_COAST_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_CITY_CENTER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_CITY_CENTER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>

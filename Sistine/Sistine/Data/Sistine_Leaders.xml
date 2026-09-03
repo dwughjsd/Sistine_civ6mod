@@ -171,7 +171,6 @@
 	</ModifierArguments>
 
     <TraitModifiers>
-        <Row TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="TRAIT_FREE_NATURALIST_ON_BREATHTAKING"/>
         <Row TraitType="TRAIT_LEADER_ROOSEVELT_COROLLARY" ModifierId="DIPLOMATICLEAGUE_DUPLICATEFIRSTINFLUENCETOKEN"/>
         <Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_ANCIENT"/>
 		<Row TraitType="TRAIT_LEADER_MAGNANIMOUS" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS_CLASSICAL"/>
@@ -184,34 +183,19 @@
         <Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_TRADEROUTECULTUREFROMALLY"/>
         <Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_TRADEROUTECULTUREFROMSUZERAIN"/>
 		<Row TraitType="TRAIT_LEADER_RELIGION_CITY_STATES" ModifierId="TRAIT_GRANT_FAITH_UNIT_TRAINED"/>
-		<Row TraitType="TRAIT_LEADER_EXALTED_GODDESS" ModifierId="TRAIT_CULTURE_CITY_CENTER"/>
 		<Delete TraitType="TRAIT_LEADER_MONASTERIES_KING" ModifierId="TRAIT_MONASTERIES_KING_HOLY_SITE_RIVER_ADJACENCY"/>
 		<Row TraitType="TRAIT_LEADER_HWARANG" ModifierId="TRAIT_ADJUST_GOVERNOR_CULTURE"/>
 		<Row TraitType="TRAIT_LEADER_HWARANG" ModifierId="TRAIT_ADJUST_GOVERNOR_SCIENCE"/>
-		<Row TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE" ModifierId="TRAIT_BASE_BUILDING_PRODUCTION_MODIFIER"/>
-		<Row TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE" ModifierId="TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER"/>
 		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRAIT_GOVERNMENT_PRODUCTION"/>
 		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRAIT_GOVERNMENT_BUILDINGS_PRODUCTION"/>
 		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="TRAIT_TRADEROUTECULTURE"/>
 		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="TRAIT_TRADEROUTESCIENCE"/>
 		<Row TraitType="TRAIT_LEADER_MEDITERRANEAN" ModifierId="TRAIT_INCOMING_TRADE_GAIN_SCIENCE"/>
 		<Row TraitType="TRAIT_LEADER_MEDITERRANEAN" ModifierId="TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_LITHUANIAN_UNION" ModifierId="TRAIT_PALACE_FAITH"/>
 		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_FOUNDED_CITY_PRODUCTION"/>
 		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_NOT_FOUNDED_CITY_PRODUCTION_PENALTY"/>
 	</TraitModifiers>
     <Modifiers>
-        <Row>
-			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-        <Row>
-			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
-            <SubjectRequirementSetId>PLOT_BREATHTAKING_APPEAL</SubjectRequirementSetId>
-			<RunOnce>true</RunOnce>
-			<Permanent>true</Permanent>
-		</Row>
 		<Row>
 			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_ANCIENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
@@ -284,11 +268,6 @@
 			<ModifierId>TRAIT_GRANT_FAITH_UNIT_TRAINED</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_YIELD_PER_UNIT_COST</ModifierType>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_CULTURE_CITY_CENTER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
-			<SubjectRequirementSetId>PLOT_IS_ADJACENT_COAST_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
 		<Update>
 			<Where ModifierId="TRAIT_MONASTERIES_KING_ADJACENCY_FOOD" />
 			<Set SubjectRequirementSetId="PLOT_IS_HOLY_SITE_RIVER_HOUSING_REQUIREMENTS"/>
@@ -311,11 +290,6 @@
 		<Row>
 			<ModifierId>TRAIT_BASE_BUILDING_PRODUCTION_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>REQUIREMENTS_PLOT_ADJACENT_PYRAMID</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_GOVERNMENT_PRODUCTION</ModifierId>
@@ -343,10 +317,6 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
-		</Row>
-		<Row>
 			<ModifierId>TRAIT_FOUNDED_CITY_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>FOUNDED_CITY_SST</SubjectRequirementSetId>
@@ -358,24 +328,6 @@
 		</Row>
     </Modifiers>
     <ModifierArguments>
-		<Update><Where ModifierId="TRAIT_ANTIQUES_AND_PARKS_CULTURE_FORESTS_OR_WONDERS" Name="Amount"/><Set Value="1"/></Update>
-		<Update><Where ModifierId="TRAIT_ANTIQUES_AND_PARKS_SCIENCE_NATIONAL_WONDERS_OR_MOUNTAINS" Name="Amount"/><Set Value="1"/></Update>
-        <Update><Where ModifierId="TRAIT_NATIONAL_PARK_APPEAL_BONUS" Name="Amount"/><Set Value="2"/></Update>
-        <Row>
-			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</ModifierId>
-			<Name>UnitType</Name>
-			<Value>UNIT_NATURALIST</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_FREE_NATURALIST_ON_BREATHTAKING_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
 		<Update><Where ModifierId="TRAIT_OWNED_LUXURY_EXTRA_AMENITIES" Name="Amount"/><Set Value="1"/></Update>
 		<Row>
 			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS_ANCIENT</ModifierId>
@@ -530,16 +482,6 @@
 			<Where ModifierId="LEVY_UNITUPGRADEDISCOUNT" Name="Amount" />
 			<Set Value="50"/>
 		</Update>
-		<Row>
-			<ModifierId>TRAIT_CULTURE_CITY_CENTER</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_CULTURE_CITY_CENTER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
 		<Update>
 			<Where ModifierId="TRAIT_HOLY_SITE_RIVER_2HOUSING" Name="Amount"/>
 			<Set Value="1"/>
@@ -592,11 +534,6 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_BASE_BUILDING_PRODUCTION_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>20</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_PYRAMID_BUILDING_PRODUCTION_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>20</Value>
 		</Row>
@@ -672,21 +609,6 @@
 			<ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_PRODUCTION</ModifierId>
 			<Name>Intercontinental</Name>
 			<Value>false</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
-			<Name>BuildingType</Name>
-			<Value>BUILDING_PALACE</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
-			<Name>Amount</Name>
-			<Value>3</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_PALACE_FAITH</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FAITH</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_FOUNDED_CITY_PRODUCTION</ModifierId>

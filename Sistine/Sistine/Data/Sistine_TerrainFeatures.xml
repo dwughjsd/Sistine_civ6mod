@@ -68,9 +68,6 @@
 		<Replace FeatureType="FEATURE_GOBUSTAN" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Replace FeatureType="FEATURE_BARRIER_REEF" YieldType="YIELD_FOOD" YieldChange="4"/>
 		<Replace FeatureType="FEATURE_BARRIER_REEF" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-		<Replace FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_FOOD" YieldChange="3"/>
-		<Replace FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		<Replace FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Replace FeatureType="FEATURE_LAKE_RETBA" YieldType="YIELD_CULTURE" YieldChange="3"/>
 		<Replace FeatureType="FEATURE_LAKE_RETBA" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Replace FeatureType="FEATURE_LAKE_RETBA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>

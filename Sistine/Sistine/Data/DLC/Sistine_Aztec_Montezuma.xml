@@ -9,4 +9,33 @@
 	<BuildingModifiers>
 		<Row BuildingType="BUILDING_HUEY_TEOCALLI" ModifierId="HUEY_LAKE_GOLD"/>
 	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>FOODHUEY_PLAYER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>FOODHUEY_PLOT_IS_LAKE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>HUEY_LAKE_GOLD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>

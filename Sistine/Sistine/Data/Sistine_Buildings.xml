@@ -480,7 +480,6 @@
 		<Update><Where BuildingType="BUILDING_GREAT_LIBRARY" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_MAHABODHI_TEMPLE" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_TERRACOTTA_ARMY" /><Set Cost="300"/></Update>
-		<Update><Where BuildingType="BUILDING_JEBEL_BARKAL" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_HALICARNASSUS_MAUSOLEUM" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_MACHU_PICCHU" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_STATUE_OF_ZEUS" /><Set Cost="300"/></Update>
@@ -944,16 +943,6 @@
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
-		<Row>
-			<ModifierId>HUEY_LAKE_GOLD</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>FOODHUEY_PLAYER_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>FOODHUEY_PLOT_IS_LAKE_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
 		<Update>
 			<Where ModifierId="CONTRATACION_FOREIGNFAITH" />
 			<Set SubjectRequirementSetId="CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS"/>
@@ -1217,21 +1206,6 @@
 			<Where ModifierId="HAGIA_SOPHIA_ADJUST_RELIGIOUS_CHARGES" Name="Amount"/>
 			<Set Value="2"/>
 		</Update>
-		<Row>
-			<ModifierId>HUEY_LAKE_GOLD</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>HUEY_LAKE_GOLD_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
-		</Row>
-		<Row>
-			<ModifierId>HUEY_LAKE_GOLD_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
 		<Update>
 			<Where ModifierId="STBASILS_ADDFOOD_MODIFIER" Name="Amount"/>
 			<Set Value="2"/>

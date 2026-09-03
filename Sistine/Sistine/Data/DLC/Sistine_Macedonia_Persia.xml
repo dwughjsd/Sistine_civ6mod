@@ -15,4 +15,7 @@
 	<BuildingModifiers>
 		<Row BuildingType="BUILDING_APADANA" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
 	</BuildingModifiers>
+	<TypeTags>
+		<Row Type="ABILITY_BASILIKOI_TRAINED_UNIT_XP" Tag="CLASS_WARRIOR_MONK"/>
+	</TypeTags>
 </GameData>

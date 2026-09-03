@@ -84,7 +84,6 @@
 		<Replace ImprovementType="IMPROVEMENT_WIND_FARM" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-		<Replace ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_FOOD" YieldChange="1"/>
 		<Replace ImprovementType="IMPROVEMENT_FEITORIA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 	</Improvement_YieldChanges>
 
@@ -287,14 +286,8 @@
 		<Replace ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_GOLD" YieldChange="0"/>
 	</Improvement_YieldChanges>
 	<Improvement_Adjacencies>
-		<Row ImprovementType="IMPROVEMENT_MONASTERY" YieldChangeId="Monastery_LuxuryAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_STEPWELL" YieldChangeId="Stepwell_FarmAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_STEPWELL" YieldChangeId="Stepwell_HolySiteAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_DamAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_CanalAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_AqueductAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_EntertainmentComplexAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_WaterEntertainmentComplexAdjacency"/>
 	</Improvement_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Update>
@@ -464,12 +457,10 @@
 		</Update>
 	</Improvement_BonusYieldChanges>
 	<Improvement_Tourism>
-		<Row ImprovementType="IMPROVEMENT_MONASTERY" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
 		<Update>
 			<Where ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" />
 			<Set TourismSource="TOURISMSOURCE_CULTURE"/>
 		</Update>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
 	</Improvement_Tourism>
 	<ImprovementModifiers>
 		<Delete ImprovementType="IMPROVEMENT_STEPWELL" ModifierId="STEPWELL_FARMADJACENCY_FOOD" />
