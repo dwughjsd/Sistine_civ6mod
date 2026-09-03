@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH"/>
+			<Set>
+				<YieldChange>4</YieldChange>
+			</Set>
+		</Update>
+	</Building_YieldChanges>
 	<Building_GreatWorks>
 		<!--Holy Site-->
 		<Delete BuildingType="BUILDING_PRASAT" GreatWorkSlotType="GREATWORKSLOT_RELIC"/>
