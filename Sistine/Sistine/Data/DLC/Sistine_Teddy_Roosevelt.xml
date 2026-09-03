@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<AiFavoredItems>
+		<Delete ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
+		<Row ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
+	</AiFavoredItems>
+</GameData>

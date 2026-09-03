@@ -320,11 +320,9 @@
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_CLASS_STRUGGLE" Favored="true" />
 
 		<Delete ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
-		<Delete ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
 
 		<Row ListType="ExploitationLoverExploitationPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="-100"/>
 		<Row ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="15"/>
-		<Row ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
 
 		<Delete ListType="DefaultYieldBias" Item="YIELD_PRODUCTION"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_CULTURE"/>
