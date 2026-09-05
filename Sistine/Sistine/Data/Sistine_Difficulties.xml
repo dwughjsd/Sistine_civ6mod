@@ -564,17 +564,21 @@
 	<!--Policies cheats-->
 	<!--We all know AI never use these policies. So why not give them?-->
 	<TraitModifiers>
+		<!--Builder charges-->
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SERFDOM_BUILDERCHARGES"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SERFDOM_BUILDERPRODUCTION"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_PUBLIC_WORKS"/>
+		<!--Science-->
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_NATURAL_PHILOSOPHY"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_FIVE_YEAR_PLAN"/>
+		<!--Culture-->
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_AESTHETICS"/>
-		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_CRAFTSMEN"/>
-		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_TOWN_CHARTERS"/>
-		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_ECONOMIC_UNION"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SPORTS_MEDIA_STADIUM"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SPORTS_MEDIA_BROADCASTCENTER"/>
 		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_SPORTS_MEDIA_AQUATICSCENTER"/>
+		<!--Gold-->
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_TOWN_CHARTERS"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="HIGH_DIFFICULTY_AI_ECONOMIC_UNION"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
@@ -609,10 +613,10 @@
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_MEDIEVAL_FAIRES</OwnerRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>HIGH_DIFFICULTY_AI_CRAFTSMEN</ModifierId>
+			<ModifierId>HIGH_DIFFICULTY_AI_FIVE_YEAR_PLAN</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
-			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_GUILDS</OwnerRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_IDEOLOGY</OwnerRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_TOWN_CHARTERS</ModifierId>
@@ -693,12 +697,12 @@
 			<Value>100</Value>
 		</Row>
 		<Row>
-			<ModifierId>HIGH_DIFFICULTY_AI_CRAFTSMEN</ModifierId>
+			<ModifierId>HIGH_DIFFICULTY_AI_FIVE_YEAR_PLAN</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_PRODUCTION</Value>
 		</Row>
 		<Row>
-			<ModifierId>HIGH_DIFFICULTY_AI_CRAFTSMEN</ModifierId>
+			<ModifierId>HIGH_DIFFICULTY_AI_FIVE_YEAR_PLAN</ModifierId>
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
