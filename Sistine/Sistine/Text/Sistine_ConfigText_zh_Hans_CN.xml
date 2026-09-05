@@ -333,7 +333,7 @@
 			<Text>城市每座军营建筑使本城购买陆地战斗或支援单位所需的 [ICON_GOLD] 金币减少15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_PALENQUE_BONUS" Language="zh_Hans_CN">
-			<Text>建有学院区域的城市的农场 +1 [ICON_FOOD] 食物，人口增长加快15%。</Text>
+			<Text>建有学院区域的城市的农场 +1 [ICON_FOOD] 食物，人口增长加快25%。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="zh_Hans_CN">
 			<Text>丘陵上的轻骑兵和重骑兵+5 [ICON_Strength] 战斗力。</Text>

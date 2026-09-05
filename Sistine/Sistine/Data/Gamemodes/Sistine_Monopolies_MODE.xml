@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<PseudoYields>
+		<Update>
+			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT"/>
+			<Set>
+				<DefaultValue>20</DefaultValue>
+			</Set>
+		</Update>
+	</PseudoYields>
 	<GlobalParameters>
 		<!--No more monopolies and the absurd tourism-->
 		<Replace Name="MONOPOLY_REQUIRED_RESOURCE_CONTROL_PERCENTAGE" Value="101" />

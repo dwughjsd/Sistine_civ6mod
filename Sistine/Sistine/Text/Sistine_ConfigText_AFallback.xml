@@ -340,7 +340,7 @@
 			<Text>Land combat or Support units are 15% cheaper to purchase with [ICON_GOLD] Gold for each Encampment district building in that city.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_PALENQUE_BONUS" Language="en_US">
-			<Text>Cities with a Campus district receive 15% higher city growth rate and +1 [ICON_Food] Food to Farms.</Text>
+			<Text>Cities with a Campus district receive 25% higher city growth rate and +1 [ICON_Food] Food to Farms.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1" Language="en_US">
 			<Text>Your light and heavy cavalry units have +5 [ICON_Strength] Strength when fighting on hill tiles.</Text>

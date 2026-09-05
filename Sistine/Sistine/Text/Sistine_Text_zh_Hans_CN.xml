@@ -868,7 +868,7 @@
 			<Text>+100%剧院广场区相邻加成，广播中心、体育场和水上运动中心+1 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有公立学校的城市：若至少有10 [ICON_CITIZEN] 人口，+15% [ICON_SCIENCE] 科技值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
+			<Text>建有大学的城市：若至少有10 [ICON_CITIZEN] 人口，+15% [ICON_SCIENCE] 科技值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建有银行或造船厂的城市：若至少有10 [ICON_CITIZEN] 人口，+15% [ICON_Gold] 金币；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
