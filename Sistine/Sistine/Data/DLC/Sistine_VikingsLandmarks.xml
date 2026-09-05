@@ -61,15 +61,5 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<Row>
-			<ModifierId>MINOR_CIV_MUSCAT_BANK_AMENITY_BONUS</ModifierId>
-			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>MINOR_CIV_MUSCAT_BANK_AMENITY_BONUS_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_AMENITIES_FROM_CITY_STATES</ModifierType>
-			<SubjectRequirementSetId>BUILDING_IS_BANK</SubjectRequirementSetId>
-		</Row>
 	</ModifierArguments>
 </GameData>

@@ -489,7 +489,6 @@
 		<Update><Where BuildingType="BUILDING_MONT_ST_MICHEL" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_ANGKOR_WAT" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_KILWA_KISIWANI" /><Set Cost="480"/></Update>
-		<Update><Where BuildingType="BUILDING_KOTOKU_IN" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_MEENAKSHI_TEMPLE" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_UNIVERSITY_SANKORE" /><Set Cost="480"/></Update>
 		<Update><Where BuildingType="BUILDING_VENETIAN_ARSENAL" /><Set Cost="600"/></Update>
@@ -497,7 +496,6 @@
 		<Update><Where BuildingType="BUILDING_FORBIDDEN_CITY" /><Set Cost="600"/></Update>
 		<Update><Where BuildingType="BUILDING_CASA_DE_CONTRATACION" /><Set Cost="600"/></Update>
 		<Update><Where BuildingType="BUILDING_ST_BASILS_CATHEDRAL" /><Set Cost="600"/></Update>
-		<Update><Where BuildingType="BUILDING_TAJ_MAHAL" /><Set Cost="600"/></Update>
 		<Update><Where BuildingType="BUILDING_ORSZAGHAZ" /><Set Cost="600"/></Update>
 		<Update><Where BuildingType="BUILDING_PANAMA_CANAL" /><Set Cost="600"/></Update>
 		<Update><Where BuildingType="BUILDING_TORRE_DE_BELEM" /><Set Cost="600"/></Update>
@@ -505,13 +503,11 @@
 		<Update><Where BuildingType="BUILDING_RUHR_VALLEY" /><Set Cost="850"/></Update>
 		<Update><Where BuildingType="BUILDING_BOLSHOI_THEATRE" /><Set Cost="850"/></Update>
 		<Update><Where BuildingType="BUILDING_OXFORD_UNIVERSITY" /><Set Cost="850"/></Update>
-		<Update><Where BuildingType="BUILDING_STATUE_LIBERTY" /><Set Cost="850"/></Update>
 		<Update><Where BuildingType="BUILDING_BIG_BEN" /><Set Cost="1000"/></Update>
 		<Update><Where BuildingType="BUILDING_HERMITAGE" /><Set Cost="1000"/></Update>
 		<Update><Where BuildingType="BUILDING_EIFFEL_TOWER" /><Set Cost="1280"/></Update>
 		<Update><Where BuildingType="BUILDING_BROADWAY" /><Set Cost="1280"/></Update>
 		<Update><Where BuildingType="BUILDING_CRISTO_REDENTOR" /><Set Cost="1280"/></Update>
-		<Update><Where BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" /><Set Cost="1280"/></Update>
 		<Update><Where BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" /><Set Cost="1280"/></Update>
 		<Update><Where BuildingType="BUILDING_ESTADIO_DO_MARACANA" /><Set Cost="1365"/></Update>
 		<Update><Where BuildingType="BUILDING_BIOSPHERE" /><Set Cost="1365"/></Update>
@@ -857,24 +853,16 @@
 		<Row BuildingType="BUILDING_PETRA" ModifierId="COLOSSUS_ADDTRADEROUTE"/>
 		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" ModifierId="TERRACOTTAARMY_GRANT_SWORDSMAN"/>
 		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" ModifierId="TERRACOTTAARMY_GRANT_CROSSBOWMAN"/>
-		<Row BuildingType="BUILDING_KOTOKU_IN" ModifierId="KOTOKUIN_WARRIOR_MONK_ABILITY"/>
 		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_SHRINE_SCIENCE"/>
 		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TEMPLE_SCIENCE"/>
 		<Delete BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TRADE_DOMESTIC_FAITH"/>
 		<Row BuildingType="BUILDING_ALHAMBRA" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
 		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
 		<Row BuildingType="BUILDING_CHICHEN_ITZA" ModifierId="CHICHEN_ITZA_JUNGLE_FOOD"/>
-		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_SCIENCE"/>
-		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_CULTURE"/>
-		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_PRODUCTION"/>
-		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_FAITH"/>
-		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_GOLD"/>
 		<Row BuildingType="BUILDING_FORBIDDEN_CITY" ModifierId="FORBIDDENCITY_DIPLOVP"/>
 		<Row BuildingType="BUILDING_GREAT_ZIMBABWE" ModifierId="COLOSSUS_GRANT_TRADER"/>
 		<Row BuildingType="BUILDING_TORRE_DE_BELEM" ModifierId="BELEM_FOREIGN_CITY_BUILDER"/>
 		<Row BuildingType="BUILDING_VENETIAN_ARSENAL" ModifierId="VENETIANARSENAL_GRANT_ENGINEER"/>
-		<Row BuildingType="BUILDING_STATUE_LIBERTY" ModifierId="STATUELIBERTY_GRANTBUILDERS"/>
-		<Row BuildingType="BUILDING_STATUE_LIBERTY" ModifierId="STATUELIBERTY_PRODUCTION_PER_POP"/>
 		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_SCIENCEPERTRIBUTARY"/>
 		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_CULTUREPERTRIBUTARY"/>
 		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_FAITHPERTRIBUTARY"/>
@@ -887,7 +875,6 @@
 		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BUILDING_BROADWAY_RANDOMCIVICBOOST"/>
 		<Delete BuildingType="BUILDING_BROADWAY" ModifierId="BROADWAY_ADDCULTUREYIELD"/>
 		<Row BuildingType="BUILDING_CRISTO_REDENTOR" ModifierId="BUILDING_BROADWAY_RANDOMCIVICBOOST"/>
-		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" ModifierId="AMUNDSENSCOTT_GREAT_SCIENTIST"/>
 		<Delete BuildingType="BUILDING_BIOSPHERE" ModifierId="BIOSPHERE_GREEN_ENERGY_TOURISM" />
 		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" ModifierId="MARACANA_ENTERTAINMENT_TOURISM"/>
 		<Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" ModifierId="SYDNEYOPERAHOUSE_ALL_ATOMIC_AND_INFORMATION_CIVIC_BOOSTS"/>

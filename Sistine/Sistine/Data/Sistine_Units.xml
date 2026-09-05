@@ -49,10 +49,6 @@
 			<Set Combat="50" RangedCombat="55" Range="2"/>
 		</Update>
 		<Update>
-			<Where UnitType="UNIT_SCOTTISH_HIGHLANDER" />
-			<Set Combat="55" RangedCombat="60" Range="2"/>
-		</Update>
-		<Update>
 			<Where UnitType="UNIT_SPEC_OPS" />
 			<Set Combat="65" RangedCombat="70" Range="2"/>
 		</Update>
@@ -476,7 +472,6 @@
 		<Row Type="ABILITY_RECON_DEFENSE_BONUS_VS_RANGED" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
 		<Row Type="UNIT_INCA_WARAKAQ" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
 		<Row Type="UNIT_RANGER" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
-		<Row Type="UNIT_SCOTTISH_HIGHLANDER" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
 		<Row Type="UNIT_SKIRMISHER" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
 		<Row Type="UNIT_SPEC_OPS" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
 		<Row Type="ABILITY_SUBMARINES_VS_DISTRICT_PENALTY" Tag="CLASS_SUBMARINES"/>

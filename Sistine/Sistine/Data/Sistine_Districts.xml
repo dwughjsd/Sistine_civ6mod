@@ -110,14 +110,6 @@
 			<Set Cost="20" />
 		</Update>
 		<Update>
-			<Where DistrictType="DISTRICT_IKANDA" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_SEOWON" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
 			<Where DistrictType="DISTRICT_WATER_STREET_CARNIVAL" />
 			<Set Cost="20" />
 		</Update>
@@ -180,10 +172,6 @@
 			<Set YieldChange="3" />
 		</Update>
 		<Update>
-			<Where DistrictType="DISTRICT_IKANDA" YieldType="YIELD_PRODUCTION"/>
-			<Set YieldChange="2" />
-		</Update>
-		<Update>
 			<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION"/>
 			<Set YieldChange="3" />
 		</Update>
@@ -202,10 +190,6 @@
 		<Update>
 			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_FOOD"/>
 			<Set YieldChange="2" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_SEOWON" YieldType="YIELD_SCIENCE"/>
-			<Set YieldChange="3" />
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_SUGUBA" YieldType="YIELD_GOLD"/>
@@ -244,8 +228,6 @@
 		<Row DistrictType="DISTRICT_HANSA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_LAVRA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_IKANDA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_GOVERNMENT" YieldType="YIELD_CULTURE" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>

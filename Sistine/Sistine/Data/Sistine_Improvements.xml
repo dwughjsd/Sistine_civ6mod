@@ -282,7 +282,6 @@
 	<Improvement_YieldChanges>
 		<Replace ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_MAHAVIHARA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
-		<Replace ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_FOOD" YieldChange="2"/>
 		<Replace ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_GOLD" YieldChange="0"/>
 	</Improvement_YieldChanges>
 	<Improvement_Adjacencies>
@@ -446,11 +445,6 @@
 		</Update>
 		<Row Id="502" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
 		<Row Id="20001" ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_ECONOMICS"/>
-		<Update>
-			<Where ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_GOLD" />
-			<Set BonusYieldChange="2" PrereqCivic="CIVIC_MEDIEVAL_FAIRES"/>
-		</Update>
-		<Row Id="20002" ImprovementType="IMPROVEMENT_GOLF_COURSE" YieldType="YIELD_CULTURE" BonusYieldChange="2" PrereqCivic="CIVIC_CAPITALISM"/>
 		<Update>
 			<Where Id="17" ImprovementType="IMPROVEMENT_MISSION" YieldType="YIELD_SCIENCE"  />
 			<Set BonusYieldChange="1" />
