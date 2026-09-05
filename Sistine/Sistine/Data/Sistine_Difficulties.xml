@@ -23,20 +23,7 @@
 		<Row CivicType="CIVIC_CODE_OF_LAWS" ModifierId="CODE_OF_LAWS_HIGH_DIFF_AI_TECH_BOOST" />
 		<Row CivicType="CIVIC_CODE_OF_LAWS" ModifierId="CODE_OF_LAWS_HIGH_DIFF_AI_CIVIC_BOOST" />
 	</CivicModifiers>
-	<TechnologyModifiers>
-		<!--
-		<Row TechnologyType="TECH_PRINTING">
-			<ModifierId>HIGH_DIFFICULTY_AI_REVEAL_MAP</ModifierId>
-		</Row>
-		-->
-		<!--AI always tries to run telecom and stealth techs which are virtually useless for them. There is no way to block them from trying to research it so we have to grant the 2 techs so that they won't waste time-->
-		<Row TechnologyType="TECH_COMPUTERS">
-			<ModifierId>COMPUTERS_AI_GRANT_TELECOMMUNICATIONS</ModifierId>
-		</Row>
-		<Row TechnologyType="TECH_SYNTHETIC_MATERIALS">
-			<ModifierId>SYNTHETIC_MATERIALS_AI_GRANT_STEALTH</ModifierId>
-		</Row>
-	</TechnologyModifiers>
+
 	<Modifiers>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_TECH_BOOST_BONUS_SST</ModifierId>
@@ -558,7 +545,22 @@
 			<Set GameEraMinimumTurns="25"/>
 		</Update>
 	</Eras_XP1>
-	
+
+	<!--Additional cheats-->
+	<TechnologyModifiers>
+		<!--
+		<Row TechnologyType="TECH_PRINTING">
+			<ModifierId>HIGH_DIFFICULTY_AI_REVEAL_MAP</ModifierId>
+		</Row>
+		-->
+		<!--AI always tries to run telecom and stealth techs which are virtually useless for them. There is no way to block them from trying to research it so we have to grant the 2 techs so that they won't waste time		-->
+		<Row TechnologyType="TECH_COMPUTERS">
+			<ModifierId>COMPUTERS_AI_GRANT_TELECOMMUNICATIONS</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_SYNTHETIC_MATERIALS">
+			<ModifierId>SYNTHETIC_MATERIALS_AI_GRANT_STEALTH</ModifierId>
+		</Row>
+	</TechnologyModifiers>
 	<!--Policies cheats-->
 	<!--We all know AI never use these policies. So why not give them?-->
 	<TraitModifiers>
