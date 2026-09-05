@@ -1382,6 +1382,19 @@
 		<Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>越南特色区域，替代军营。每与1个区域相邻，则+2 [ICON_CULTURE] 文化值。研究飞行科技后，将获得与 [ICON_CULTURE] 文化值产出相等的 [ICON_TOURISM] 旅游业绩。此区域不需要人口，建造花费更低，无法建在市中心旁，不提供 [ICON_GreatPerson] 伟人点数，且不属于专业化区域。</Text>
 		</Replace>
+		<!--Building description-->
+		<Replace Tag="LOC_BUILDING_ARENA_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得“自然保护”市政后提供1点 [ICON_TOURISM] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WALLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供环绕市中心和军营的城墙。城墙使市中心和军营能发起 [ICON_Ranged] 远程攻击。必须先击毁城墙方能进攻城市。获得“自然保护”市政后提供1点 [ICON_TOURISM] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CASTLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提升外部防御力。获得“自然保护”市政以后提供2点 [ICON_TOURISM] 旅游业绩。此城不受破城槌影响。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STAR_FORT_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将外部防御能力提升至最高级。获得“自然保护”市政后提供3点 [ICON_TOURISM] 旅游业绩。此城不受破城槌或攻城塔影响。</Text>
+		</Replace>
 		<!--Unit description-->
 		<Row Tag="LOC_UNIT_STEALTH_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>除非其与敌方单位相邻，否则只能被其他海军掠袭单位发现。揭示视野内的海军掠袭单位。</Text>

@@ -615,5 +615,9 @@
 		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>招募伟人所花费的 [ICON_GOLD] 金币-50%。马里建立的城市的市场获得2个 [ICON_GreatWork_WRITING] 著作巨作槽位。商业中心每回合提供+1 [ICON_GreatWriter] 大作家点数。[ICON_GreatWork_WRITING] 著作巨作+6 [ICON_GOLD] 金币、+3 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
+		<!--DLC: Australia-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为所有海岸城市+3 [ICON_Housing] 住房。牧场可触发文化炸弹。拥有迷人魅力的单元格中的学院、商业中心、圣地和工业区的产出+1；惊艳的单元格则产出+3。 </Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

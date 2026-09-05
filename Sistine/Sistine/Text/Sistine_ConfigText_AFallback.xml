@@ -622,5 +622,9 @@
 		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION" Language="en_US">
 			<Text>It costs 50% less [ICON_GOLD] Gold to recruit Great People and the Market gains 2 [ICON_GreatWork_WRITING] Great Writing slots in Cities founded by Mali. Commercial Hubs provide +1 [ICON_GreatWriter] Great Writer point per turn. [ICON_GreatWork_WRITING] Great Works of Writing receive +6 [ICON_GOLD] Gold and +3 [ICON_PRODUCTION] Production.</Text>
 		</Replace>
+		<!--DLC: Australia-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Housing] Housing in coastal cities. Pastures trigger a Culture Bomb. Yields from Campuses, Commercial Hubs, Holy Sites and Industrial Zones are +1 in tiles with Charming Appeal, +3 in Breathtaking. </Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
