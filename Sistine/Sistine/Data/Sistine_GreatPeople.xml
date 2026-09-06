@@ -1,5 +1,231 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!--In case of Babylon is disabled-->
+	<Types>
+		<InsertOrIgnore Type="MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<InsertOrIgnore>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_HAPPINESS_YIELD</EffectType>
+		</InsertOrIgnore>
+	</DynamicModifiers>
+	<Modifiers>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD_BAB</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</InsertOrIgnore>
+	</Modifiers>
+	<ModifierArguments>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_SCIENCE</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_HAPPY</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_CULTURE</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_HAPPY</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_PRODUCTION</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_HAPPY</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_GOLD</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_HAPPY</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_FAITH</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_HAPPY</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_HAPPY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_CULTURE</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_PRODUCTION</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_GOLD</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_FAITH</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</InsertOrIgnore>
+	</ModifierArguments>
+	
 	<!--Great Scientists-->
 	<GreatPersonIndividualActionModifiers>
 		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
@@ -101,13 +327,6 @@
 			<Set ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS" ActionEffectTextOverride="LOC_GREATPERSON_STEPHANIE_KWOLEK_ACTIVE"/>
 		</Update>
 	</GreatPersonIndividuals>
-
-	<GreatPersonIndividualBirthModifiers>
-		<Row>
-			<GreatPersonIndividualType>GREAT_PERSON_INDIVIDUAL_MARGARET_MEAD</GreatPersonIndividualType>
-			<ModifierId>GREAT_PERSON_ENTER_FOREIGN_LANDS</ModifierId>
-		</Row>
-	</GreatPersonIndividualBirthModifiers>
 
 	<Modifiers>
 		<Row>
@@ -661,8 +880,6 @@
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_IRENE_OF_ATHENS" ModifierId="GREATPERSON_GOVERNOR_POINTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
 		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI" ModifierId="GREATPERSON_GOLD_SMALL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PIERO_DE_BARDI" ModifierId="GREATPERSON_GOLD_INTEREST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHOU_DAGUAN" ModifierId="GREATPERSON_GAIN_THREE_ENVOYS_HERE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHOU_DAGUAN" ModifierId="GREATPERSON_CITY_STATE_GRANT_ENVOYS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
 		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAKOB_FUGGER" ModifierId="GREATPERSON_GOLD_SMALL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAKOB_FUGGER" ModifierId="GREATPERSON_MINE_GOLD" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RAJA_TODAR_MAL" ModifierId="GREATPERSON_GOLD_PER_SPECIALTY_DISTRICT_FOR_INTERNATIONAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
@@ -957,16 +1174,6 @@
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON" ModifierId="GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_PRODUCTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON" ModifierId="GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_GOLD" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON" ModifierId="GREAT_PERSON_INDIVIDUAL_IBN_KHALDUN_EMPIRE_ECSTATIC_FAITH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KENZO_TANGE" ModifierId="GREATPERSON_DISTRICT_SCIENCE_ADJACENCY_AS_TOURISM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_CITY"/>
-		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KENZO_TANGE" ModifierId="GREATPERSON_DISTRICT_CULTURE_ADJACENCY_AS_TOURISM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_CITY"/>
-		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KENZO_TANGE" ModifierId="GREATPERSON_DISTRICT_GOLD_ADJACENCY_AS_TOURISM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_CITY"/>
-		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KENZO_TANGE" ModifierId="GREATPERSON_DISTRICT_FAITH_ADJACENCY_AS_TOURISM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_CITY"/>
-		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KENZO_TANGE" ModifierId="GREATPERSON_DISTRICT_PRODUCTION_ADJACENCY_AS_TOURISM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_CITY"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KENZO_TANGE" ModifierId="GREATPERSON_DISTRICT_SCIENCE_ADJACENCY_AS_TOURISM_ATTACH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KENZO_TANGE" ModifierId="GREATPERSON_DISTRICT_CULTURE_ADJACENCY_AS_TOURISM_ATTACH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KENZO_TANGE" ModifierId="GREATPERSON_DISTRICT_GOLD_ADJACENCY_AS_TOURISM_ATTACH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KENZO_TANGE" ModifierId="GREATPERSON_DISTRICT_FAITH_ADJACENCY_AS_TOURISM_ATTACH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KENZO_TANGE" ModifierId="GREATPERSON_DISTRICT_PRODUCTION_ADJACENCY_AS_TOURISM_ATTACH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 
 		<!--<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BI_SHENG" ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_1" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BI_SHENG" ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_2" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
@@ -1847,4 +2054,5 @@
 	<ModifierStrings>
 		<Row ModifierId="URDANETA_UNIT_MOVEMENT" Context="Preview" Text="LOC_ABILITY_URDANETA_UNIT_MOVEMENT_DESCRIPTION"/>
 	</ModifierStrings>
+	
 </GameData>
