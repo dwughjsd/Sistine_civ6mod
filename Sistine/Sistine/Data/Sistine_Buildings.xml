@@ -105,7 +105,6 @@
 		<Delete BuildingType="BUILDING_LIBRARY" YieldType="YIELD_SCIENCE"/>
 		<Update><Where BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE"/><Set YieldChange="2"/></Update>
 		<Update><Where BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE"/><Set YieldChange="4"/></Update>
-		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE"/><Set YieldChange="2"/></Update>		
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="3"/>
 		<Delete BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/>
 		<!--Commercial Hub-->
@@ -228,7 +227,6 @@
 		<Row BuildingType="BUILDING_LIBRARY" ModifierId="SCIENCEBULIDING_SCIENCE_PER_POP"/>
 		<Row BuildingType="BUILDING_UNIVERSITY" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
 		<Row BuildingType="BUILDING_MADRASA" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
-		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
 		<Row BuildingType="BUILDING_PUBLIC_SCHOOL" ModifierId="SCIENCEBULIDING_SCIENCE_PER_POP"/>
 		<Row BuildingType="BUILDING_RESEARCH_LAB" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
 		<Row BuildingType="BUILDING_RESEARCH_LAB" ModifierId="SCIENCEBULIDING_SCIENCE_34_POWERED"/>
@@ -429,7 +427,6 @@
 		<Update><Where BuildingType="BUILDING_UNIVERSITY" /><Set Cost="240"/></Update>
 		<Update><Where BuildingType="BUILDING_MADRASA" /><Set Cost="240"/></Update>
 		<Update><Where BuildingType="BUILDING_TSIKHE" /><Set Cost="240"/></Update>
-		<Update><Where BuildingType="BUILDING_NAVIGATION_SCHOOL" /><Set Cost="240"/></Update>
 		<Update><Where BuildingType="BUILDING_ZOO" /><Set Cost="275"/></Update>
 		<Update><Where BuildingType="BUILDING_THERMAL_BATH" /><Set Cost="275"/></Update>
 		<Update><Where BuildingType="BUILDING_SHIPYARD" /><Set Cost="290"/></Update>
@@ -471,7 +468,6 @@
 		<Update><Where BuildingType="BUILDING_TEMPLE_ARTEMIS" /><Set Cost="150"/></Update>
 		<Update><Where BuildingType="BUILDING_GREAT_BATH" /><Set Cost="150"/></Update>
 		<Update><Where BuildingType="BUILDING_PYRAMIDS" /><Set Cost="175"/></Update>
-		<Update><Where BuildingType="BUILDING_ETEMENANKI" /><Set Cost="175"/></Update>
 		<Update><Where BuildingType="BUILDING_ORACLE" /><Set Cost="250"/></Update>
 		<Update><Where BuildingType="BUILDING_GREAT_LIGHTHOUSE" /><Set Cost="250"/></Update>
 		<Update><Where BuildingType="BUILDING_COLOSSUS" /><Set Cost="300"/></Update>
@@ -498,7 +494,6 @@
 		<Update><Where BuildingType="BUILDING_ST_BASILS_CATHEDRAL" /><Set Cost="600"/></Update>
 		<Update><Where BuildingType="BUILDING_ORSZAGHAZ" /><Set Cost="600"/></Update>
 		<Update><Where BuildingType="BUILDING_PANAMA_CANAL" /><Set Cost="600"/></Update>
-		<Update><Where BuildingType="BUILDING_TORRE_DE_BELEM" /><Set Cost="600"/></Update>
 		<Update><Where BuildingType="BUILDING_POTALA_PALACE" /><Set Cost="725"/></Update>
 		<Update><Where BuildingType="BUILDING_RUHR_VALLEY" /><Set Cost="850"/></Update>
 		<Update><Where BuildingType="BUILDING_BOLSHOI_THEATRE" /><Set Cost="850"/></Update>
@@ -842,8 +837,6 @@
 	</Building_YieldChanges>
 	
 	<BuildingModifiers>
-		<Row BuildingType="BUILDING_ETEMENANKI" ModifierId="ETEMENANKI_FOOD_MARSH"/>
-		<Delete BuildingType="BUILDING_ETEMENANKI" ModifierId="ETEMENANKI_PRODUCTION_FLOODPLAINS"/>
 		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_TECHNOLOGY_BOOST"/>
 		<Row BuildingType="BUILDING_ORACLE" ModifierId="TRAIT_CIVIC_BOOST"/>
 		<Row BuildingType="BUILDING_COLOSSUS" ModifierId="COLOSSUS_WATER_GOLD"/>
@@ -861,7 +854,6 @@
 		<Row BuildingType="BUILDING_CHICHEN_ITZA" ModifierId="CHICHEN_ITZA_JUNGLE_FOOD"/>
 		<Row BuildingType="BUILDING_FORBIDDEN_CITY" ModifierId="FORBIDDENCITY_DIPLOVP"/>
 		<Row BuildingType="BUILDING_GREAT_ZIMBABWE" ModifierId="COLOSSUS_GRANT_TRADER"/>
-		<Row BuildingType="BUILDING_TORRE_DE_BELEM" ModifierId="BELEM_FOREIGN_CITY_BUILDER"/>
 		<Row BuildingType="BUILDING_VENETIAN_ARSENAL" ModifierId="VENETIANARSENAL_GRANT_ENGINEER"/>
 		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_SCIENCEPERTRIBUTARY"/>
 		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="RAJ_CULTUREPERTRIBUTARY"/>
@@ -881,11 +873,6 @@
 	</BuildingModifiers>
 	
 	<Modifiers>
-		<Row>
-			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>PLOT_HAS_MARSH_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
 		<Row>
 			<ModifierId>COLOSSUS_WATER_GOLD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
@@ -1055,16 +1042,6 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
-		<Row>
-			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
 		<Update>
 			<Where ModifierId="HANGING_GARDEN_ADDGROWTH" Name="Amount"/>
 			<Set Value="25"/>

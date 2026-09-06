@@ -1,3 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_NAVIGATION_SCHOOL" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="2"/>
+		</Update>
+	</Building_YieldChanges>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_NAVIGATION_SCHOOL" ModifierId="SCIENCEBULIDING_SCIENCE_33"/>
+		<Row BuildingType="BUILDING_ETEMENANKI" ModifierId="ETEMENANKI_FOOD_MARSH"/>
+		<Delete BuildingType="BUILDING_ETEMENANKI" ModifierId="ETEMENANKI_PRODUCTION_FLOODPLAINS"/>
+		<Row BuildingType="BUILDING_TORRE_DE_BELEM" ModifierId="BELEM_FOREIGN_CITY_BUILDER"/>
+	</BuildingModifiers>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_NAVIGATION_SCHOOL" />
+			<Set Cost="240"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ETEMENANKI" />
+			<Set Cost="175"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_TORRE_DE_BELEM" />
+			<Set Cost="600"/>
+		</Update>
+	</Buildings>
+	<Improvement_YieldChanges>
+		<Replace ImprovementType="IMPROVEMENT_FEITORIA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Improvement_YieldChanges>
+	<Modifiers>
+		<Row>
+			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MARSH_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>ETEMENANKI_FOOD_MARSH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>
