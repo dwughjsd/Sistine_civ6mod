@@ -1965,22 +1965,8 @@
 	<ModifierStrings>
 		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST" Context="Summary" Text="LOC_GREAT_PERSON_INDIVIDUAL_SHIPYARD_PRODUCTION_SST"/>
 		<Row ModifierId="GREATPERSON_LEIF_ERIKSON_SIGHT_BONUS" Context="Summary" Text="LOC_GREATPERSON_LEIF_ERIKSON_EXPANSION2_ACTIVE"/>
-
 	</ModifierStrings>
-	<!--Commandante Generals-->
-	<GreatPersonIndividualActionModifiers>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PAULA_SANTANDER" ModifierId="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_RANDOM_CIVIC" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PIAR" ModifierId="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_UNIT_PROMOTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA" ModifierId="GREAT_PERSON_URDANETA_UNIT_MOVEMENT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
-	</GreatPersonIndividualActionModifiers>
-	<Modifiers>
-		<Row>
-			<ModifierId>GREAT_PERSON_URDANETA_UNIT_MOVEMENT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
-			<SubjectRequirementSetId>AOE_LAND_REQUIREMENTS</SubjectRequirementSetId>
-			<Permanent>true</Permanent>
-		</Row>
-	</Modifiers>
+
 	<ModifierArguments>
 		<Update>
 			<Where ModifierId="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_UNIT_GOLD" Name="UnitCostPercent"/>
@@ -2006,11 +1992,6 @@
 			<Where ModifierId="COMMANDANTE_UNIT_STR_VS_DISTRICTS" Name="Amount"/>
 			<Set Value="7"/>
 		</Update>
-		<Row>
-			<ModifierId>GREAT_PERSON_URDANETA_UNIT_MOVEMENT</ModifierId>
-			<Name>AbilityType</Name>
-			<Value>ABILITY_URDANETA_UNIT_MOVEMENT</Value>
-		</Row>
 	</ModifierArguments>
 
 	<Types>

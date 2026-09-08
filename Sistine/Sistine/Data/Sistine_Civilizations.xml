@@ -149,18 +149,6 @@
 		<!--It's funny that this modifier is actually FARMS_GOLD. The real one that's needed to be deleted is the farm adjacency bonus.-->
 		<!--<Delete TraitType="TRAIT_CIVILIZATION_MAYAB" ModifierId="TRAIT_MAYA_FARMS_PRODUCTION"/>-->
 		<Row>
-			<TraitType>TRAIT_CIVILIZATION_VIETNAM</TraitType>
-			<ModifierId>TRAIT_FOREST_DISTRICTS_CULTURE</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_VIETNAM</TraitType>
-			<ModifierId>TRAIT_JUNGLE_DISTRICTS_SCIENCE</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_VIETNAM</TraitType>
-			<ModifierId>TRAIT_MARSH_DISTRICTS_PRODUCTION</ModifierId>
-		</Row>
-		<Row>
 			<TraitType>TRAIT_CIVILIZATION_WONDER_TOURISM</TraitType>
 			<ModifierId>TRAIT_DISTRICT_CULTURE_MEDIEVAL_TO_INDUSTRIAL</ModifierId>
 		</Row>
@@ -242,11 +230,4 @@
 			<Set TraitType="TRAIT_CIVILIZATION_NKISI"/>
 		</Update>
 	</ExcludedGreatPersonClasses>
-	<StartBiasResources>
-		<Delete CivilizationType="CIVILIZATION_MAYA" />
-		<Row CivilizationType="CIVILIZATION_MAYA" ResourceType="RESOURCE_MAIZE" Tier="1"/>
-	</StartBiasResources>
-	<StartBiasTerrains>
-		<Delete CivilizationType="CIVILIZATION_MAYA" />
-	</StartBiasTerrains>
 </GameData>

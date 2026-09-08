@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_DIPLOMATIC_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
 </GameData>

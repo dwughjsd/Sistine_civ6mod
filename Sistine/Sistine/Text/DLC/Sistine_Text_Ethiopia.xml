@@ -110,5 +110,11 @@
 		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
 			<Text>在拥有外交办或发电厂的城市中建造奇观、建筑和区域时+1 [ICON_Production] 生产力。如城市同时拥有外交办和发电厂，则+2 [ICON_Production] 生产力。</Text>
 		</Replace>
+		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="en_US">
+			<Text>Palace, Government Plaza and Diplomatic Quarter provide +2 [ICON_Culture] Culture and +1 [ICON_Gold] Gold per [ICON_Citizen] Citizen in the city.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="zh_Hans_CN">
+			<Text>宫殿、市政广场和外交区+2 [ICON_Culture] 文化，使所在城市的每位 [ICON_Citizen] 市民提供+1 [ICON_Gold] 金币。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

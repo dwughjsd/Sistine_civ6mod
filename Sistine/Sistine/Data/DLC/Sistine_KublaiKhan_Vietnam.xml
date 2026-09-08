@@ -1,3 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_THANH" />
+			<Set Cost="20" />
+		</Update>
+	</Districts>
+	<District_CitizenYieldChanges>
+		<Update>
+			<Where DistrictType="DISTRICT_THANH" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="2" />
+		</Update>
+	</District_CitizenYieldChanges>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_THANH" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_VIETNAM</TraitType>
+			<ModifierId>TRAIT_FOREST_DISTRICTS_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_VIETNAM</TraitType>
+			<ModifierId>TRAIT_JUNGLE_DISTRICTS_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_VIETNAM</TraitType>
+			<ModifierId>TRAIT_MARSH_DISTRICTS_PRODUCTION</ModifierId>
+		</Row>
+	</TraitModifiers>
 </GameData>

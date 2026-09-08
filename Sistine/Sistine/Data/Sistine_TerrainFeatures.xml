@@ -78,8 +78,6 @@
 		<Replace FeatureType="FEATURE_DEVILSTOWER" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<Replace FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_FOOD" YieldChange="3"/>
 		<Replace FeatureType="FEATURE_VESUVIUS" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
-		<Replace FeatureType="FEATURE_PAITITI" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		<Replace FeatureType="FEATURE_PAITITI" YieldType="YIELD_GOLD" YieldChange="1"/>
 		<Replace FeatureType="FEATURE_TSINGY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Replace FeatureType="FEATURE_TSINGY" YieldType="YIELD_CULTURE" YieldChange="1"/>
 	</Feature_AdjacentYields>

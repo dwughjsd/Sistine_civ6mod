@@ -135,7 +135,7 @@
 		</Replace>
 		<!--Governments & Policies-->
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="en_US">
-			<Text>Palace, Government Plaza and Diplomatic Quarter provide +2 [ICON_Culture] Culture and +1 [ICON_Gold] Gold per [ICON_Citizen] Citizen in the city.</Text>
+			<Text>Palace and Government Plaza provide +2 [ICON_Culture] Culture and +1 [ICON_Gold] Gold per [ICON_Citizen] Citizen in the city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST" Language="en_US">
 			<Text>+10% Production toward Wonders.</Text>

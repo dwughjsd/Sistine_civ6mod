@@ -1,3 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_OBSERVATORY" />
+			<Set Cost="20" />
+		</Update>
+	</Districts>
+	<District_CitizenYieldChanges>
+		<Update>
+			<Where DistrictType="DISTRICT_OBSERVATORY" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="3" />
+		</Update>
+	</District_CitizenYieldChanges>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_OBSERVATORY" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+
+	<Feature_AdjacentYields>
+		<Replace FeatureType="FEATURE_PAITITI" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_PAITITI" YieldType="YIELD_GOLD" YieldChange="1"/>
+	</Feature_AdjacentYields>
+	<!--Commandante Generals-->
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PAULA_SANTANDER" ModifierId="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_RANDOM_CIVIC" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PIAR" ModifierId="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_UNIT_PROMOTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA" ModifierId="GREAT_PERSON_URDANETA_UNIT_MOVEMENT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+	</GreatPersonIndividualActionModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>GREAT_PERSON_URDANETA_UNIT_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_LAND_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREAT_PERSON_URDANETA_UNIT_MOVEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_URDANETA_UNIT_MOVEMENT</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_HUNZA_GOLD_FROM_TRADE_ROUTE_LENGTH" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_HUNZA_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.3334</Value>
+		</Row>
+		<Delete ModifierId="MINOR_CIV_SINGAPORE_PRODUCTION_PER_MAJOR_TRADE_PARTNER" Name="Amount" />
+		<Row>
+			<ModifierId>MINOR_CIV_SINGAPORE_PRODUCTION_PER_MAJOR_TRADE_PARTNER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+
+	<StartBiasResources>
+		<Delete CivilizationType="CIVILIZATION_MAYA" />
+		<Row CivilizationType="CIVILIZATION_MAYA" ResourceType="RESOURCE_MAIZE" Tier="1"/>
+	</StartBiasResources>
+	<StartBiasTerrains>
+		<Delete CivilizationType="CIVILIZATION_MAYA" />
+	</StartBiasTerrains>
+
+	<TraitModifiers>
+		<Delete TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_HOLY_SITE_WRITER_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_HOLY_SITE_ARTIST_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_WRITING_FAITH_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_SCULPTURE_FAITH_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_PORTRAIT_FAITH_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_LANDSCAPE_FAITH_BONUS"/>
+		<Row TraitType="MINOR_CIV_VATICAN_CITY_TRAIT" ModifierId="MINOR_CIV_VATICAN_CITY_RELIGIOUS_FAITH_BONUS"/>
+	</TraitModifiers>
+	
+	<TypeTags>
+		<Row Type="RESOURCE_MAIZE" Tag="CLASS_FARMS"/>
+		<Row Type="ABILITY_COMMANDANTE_MELEE_ANTICAV_BUFF" Tag="CLASS_WARRIOR_MONK"/>
+		<Row Type="ABILITY_MUTAL_COMBAT_STRENGTH_NEAR_CAPITAL" Tag="CLASS_WARRIOR_MONK"/>
+		<Row Type="ABILITY_MUTAL_COMBAT_STRENGTH_NEAR_CAPITAL" Tag="CLASS_NAVAL_CARRIER"/>
+	</TypeTags>
 </GameData>

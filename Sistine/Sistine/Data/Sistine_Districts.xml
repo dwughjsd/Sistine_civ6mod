@@ -121,22 +121,6 @@
 			<Where DistrictType="DISTRICT_SUGUBA" />
 			<Set Cost="20" />
 		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_OBSERVATORY" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_HIPPODROME" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_OPPIDUM" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_THANH" />
-			<Set Cost="20" />
-		</Update>
 	</Districts>
 	<District_CitizenYieldChanges>
 		<Update>
@@ -180,24 +164,12 @@
 			<Set YieldChange="3" />
 		</Update>
 		<Update>
-			<Where DistrictType="DISTRICT_OBSERVATORY" YieldType="YIELD_SCIENCE"/>
-			<Set YieldChange="3" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_PRODUCTION"/>
-			<Set YieldChange="3" />
-		</Update>
-		<Update>
 			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_FOOD"/>
 			<Set YieldChange="2" />
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_SUGUBA" YieldType="YIELD_GOLD"/>
 			<Set YieldChange="6" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_THANH" YieldType="YIELD_PRODUCTION"/>
-			<Set YieldChange="2" />
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_THEATER" YieldType="YIELD_CULTURE"/>
@@ -231,11 +203,6 @@
 		<Row DistrictType="DISTRICT_GOVERNMENT" YieldType="YIELD_CULTURE" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_OBSERVATORY" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_THANH" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_DIPLOMATIC_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 	<TraitModifiers>
 		<Row>
@@ -364,15 +331,10 @@
 	</ModifierArguments>
 	<District_Adjacencies>
 		<Delete DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Strategic_Production"/>
-		<Delete DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production2"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Minel_HalfProduction"/>
 		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="OffshoreOilRig_Production2"/>
 		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="OilWell_Production2"/>
 		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="OffshoreOilRig_Production"/>
 		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="OilWell_Production"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="OffshoreOilRig_Production"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="OilWell_Production"/>
 	</District_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Update>

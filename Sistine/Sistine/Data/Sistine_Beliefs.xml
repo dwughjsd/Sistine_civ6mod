@@ -741,4 +741,28 @@
 			Value="BUILDING_UNIVERSITY"
 		/>
 	</RequirementArguments>
+	
+	<!--In case of GranColoumbia_Maya is disabled-->
+	<Requirements>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_HORSES</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_IRON</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
+		</InsertOrIgnore>
+	</Requirements>
+	<RequirementArguments>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_HORSES</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_HORSES</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_IRON</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</InsertOrIgnore>
+	</RequirementArguments>
 </GameData>
