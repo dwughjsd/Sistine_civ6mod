@@ -26,7 +26,7 @@
 		<Replace Tag="LOC_FEATURE_GOBUSTAN_QUOTE" Language="zh_Hans_CN" Text="“那么快张起神秘的罗网；[NEWLINE]啊，力量与欢愉的玲珑精灵，[NEWLINE]快从地角和天边走来，[NEWLINE]让曼舞和欢歌满布这世间。”[NEWLINE]——珀西·比希·雪莱"/>
 		<Replace Tag="LOC_FEATURE_IKKIL_QUOTE" Language="zh_Hans_CN" Text="“孩子，你见过天神之雨吗？雨水落下，浸入天神之山…天空中将出现一道圆环，天神之水便会从中缓缓流出。”[NEWLINE]——《契伦巴伦之书》"/>
 		<Replace Tag="LOC_FEATURE_PAMUKKALE_QUOTE" Language="zh_Hans_CN" Text="“在美索吉旁，与劳迪希亚相对的便是希拉波利斯古城，那里盛产温泉，还有一座冥王神殿，两者皆有非凡性质。这里的泉水十分容易沉积为岩石，通过水道进行引导后，便会形成一整片石堤。”[NEWLINE]——斯特拉波"/>
-		<Replace Tag="LOC_FEATURE_VESUVIUS_QUOTE" Language="zh_Hans_CN" Text="“大海在向后退缩，好像是被大地的震动推了回去;海岸则明显地向前延伸，许多海生动物搁浅在沙滩上。在海岸的那一面，浓云密布，乌黑可怕，蜿蜒的火舌不停地晃动着，火的势浪冲击着云层，把云层撕裂，状如火焰本身…”[NEWLINE]——小普林尼"/>
+		<Replace Tag="LOC_FEATURE_VESUVIUS_QUOTE" Language="zh_Hans_CN" Text="“大海在向后退缩，好像是被大地的震动推了回去；海岸则明显地向前延伸，许多海生动物搁浅在沙滩上。在海岸的那一面，浓云密布，乌黑可怕，蜿蜒的火舌不停地晃动着，火的势浪冲击着云层，把云层撕裂，状如火焰本身…”[NEWLINE]——小普林尼"/>
 		<Replace Tag="LOC_FEATURE_WHITEDESERT_QUOTE" Language="zh_Hans_CN" Text="“仿佛我在为乡亲们背水，步履维艰，任重道远。[NEWLINE]走过的谷地仿佛野驴空腹，荒无人烟，唯有狼在嚎叫，好像赌徒在同家人争辩。”[NEWLINE]——乌姆鲁勒·盖斯"/>
 		<Replace Tag="LOC_FEATURE_BERMUDA_TRIANGLE_QUOTE" Language="zh_Hans_CN" Text="“无人知晓这片海洋有着怎样美妙的神秘之处，它那不怒而威的波动起伏似乎在表明下面有着深藏不露的灵魂…无数幻影幽灵、沉迷的梦想家、梦游者、幻梦者，以及一切我们称之为生命与灵魂的，都在这里做梦，做梦，一直做下去。”[NEWLINE]——赫尔曼·梅尔维尔"/>
 		<Replace Tag="LOC_FEATURE_FOUNTAIN_OF_YOUTH_QUOTE" Language="zh_Hans_CN" Text="“吉耶婆那渴望获得美丽，于是便一跃入水。孪生兄弟双马童也没入水中。下个瞬间，它们都起身而出…年轻美貌，超凡脱俗。”[NEWLINE]——佚名"/>
@@ -359,7 +359,7 @@
 		<Replace Tag="LOC_BUILDING_BOLSHOI_THEATER_QUOTE" Language="zh_Hans_CN" Text="“莫斯科大剧院芭蕾舞团是想象力的宇宙，是一个具有魔法和吸引力的美丽浪漫之地。它所拥有的诸多世界与优雅的舞者、气势磅礴的音乐以及华丽的服饰交相辉映。”[NEWLINE]——特鲁迪·加丰科"/>
 		<Replace Tag="LOC_BUILDING_BROADWAY_QUOTE" Language="zh_Hans_CN" Text="“轻歌曼舞好营生，娱乐业至上。”[NEWLINE]——欧文·柏林《飞燕金枪》"/>
 		<Replace Tag="LOC_BUILDING_BIOSHPERE_QUOTE" Language="zh_Hans_CN" Text="“天堂既在我们头顶，也在我们脚下。”[NEWLINE]——亨利·戴维·梭罗"/>
-		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_QUOTE" Language="zh_Hans_CN" Text="论科学领导力，斯科特首屈一指；而论行进之迅速高效，阿蒙森当仁不让。[NEWLINE]——雷蒙德·普里斯特利爵士"/>
+		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_QUOTE" Language="zh_Hans_CN" Text="“论科学领导力，斯科特首屈一指；而论行进之迅速高效，阿蒙森当仁不让。”[NEWLINE]——雷蒙德·普里斯特利爵士"/>
 		<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_QUOTE" Language="zh_Hans_CN" Text="“西方国境外发现的所有领土均隶属于卡斯蒂利亚国王、王后，及其子孙后代。”[NEWLINE]——《托尔德西里亚斯条约》"/>
 		<Replace Tag="LOC_BUILDING_KILWA_KISIWANI_QUOTE" Language="zh_Hans_CN" Text="“基尔瓦是世界上建设得最为美丽的城市之一。房屋均为木制结构，房顶由草绳铺成，雨后生机勃勃。”[NEWLINE]——伊本·白图泰"/>
 		<Replace Tag="LOC_BUILDING_KOTOKU_IN_QUOTE" Language="zh_Hans_CN" Text="“踏过蜿蜒的羊肠小道，穿过地狱烈焰迎接审判日的人啊，请静观异教徒的祈祷，向着那镰仓大佛！”[NEWLINE]——鲁德亚德·吉卜林"/>
@@ -452,6 +452,7 @@
 		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_CARRIER_NAME" Language="zh_Hans_CN" Text="海军母舰"/>
 		<Replace Tag="LOC_PROMOTION_CLASS_APOSTLE_NAME" Language="zh_Hans_CN" Text="宗教使徒"/>
 		<Replace Tag="LOC_PROMOTION_CLASS_SPY_NAME" Language="zh_Hans_CN" Text="间谍"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_ANTI_CAVALRY_NAME" Language="zh_Hans_CN" Text="反骑兵"/>
 		<!--Unit Abilities-->
 		<Replace Tag="LOC_ABILITY_IGNORE_ZOC_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>不受敌人的控制区域（ZOC）影响。</Text>
@@ -897,6 +898,18 @@
 		</Replace>
 		<Replace Tag="LOC_POLICY_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>单位在友方领土开始回合时+1 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_AGOGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产远古和古典时代的近战、反骑兵和远程单位时+50% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产远古、古典、中古和启蒙时代的近战、反骑兵和远程单位时+50% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GRANDE_ARMEE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产工业及更早时代的近战、反骑兵和远程单位时+50% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MILITARY_FIRST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产所有近战、反骑兵和远程单位时+50% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<!--Wildcard-->
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOVT_4_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">

@@ -1,6 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<!--Settings-->
+		<Replace Tag="LOC_OPTIONS_TIME_OF_DAY_TEXT" Language="zh_Hans_CN">
+			<Text>动态时间画面</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_VIDEO_UI_UPSCALE_TEXT" Language="zh_Hans_CN">
+			<Text>UI缩放：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_VIDEO_VFX_DETAIL_LEVEL_TEXT" Language="zh_Hans_CN">
+			<Text>高品质视觉效果：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING" Language="zh_Hans_CN">
+			<Text>光照</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING_BLOOM_ENABLED_TEXT" Language="zh_Hans_CN">
+			<Text>泛光</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING_BLOOM_ENABLED_TOOLTIP" Language="zh_Hans_CN">
+			<Text>为亮光和反射添加泛光效果。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING_DYNAMIC_LIGHTING_ENABLED_TOOLTIP" Language="zh_Hans_CN">
+			<Text>在渲染中增加阳光以外的光源。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_OVERLAY" Language="zh_Hans_CN">
+			<Text>叠加层</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_SSOVERLAY_ENABLED_TEXT" Language="zh_Hans_CN">
+			<Text>屏幕空间叠加层</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_SSOVERLAY_ENABLED_TOOLTIP" Language="zh_Hans_CN">
+			<Text>将叠加层绘制于所有物件上方，而非仅在地形上。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXT" Language="zh_Hans_CN">
+			<Text>高分辨率网格</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TOOLTIP" Language="zh_Hans_CN">
+			<Text>地形模型网格变得更清晰、更精致。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXTURES_TEXT" Language="zh_Hans_CN">
+			<Text>高分辨率材质</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXTURES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>地形纹理变得更清晰、更精致。[NEWLINE][NEWLINE]禁用以[COLOR_Blue]减少内存使用[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_QUALITY_SHADER_TEXT" Language="zh_Hans_CN">
+			<Text>高品质着色器</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_QUALITY_SHADER_TOOLTIP" Language="zh_Hans_CN">
+			<Text>更改地形光照效果。[NEWLINE][NEWLINE]禁用[COLOR_Civ6DarkRed]可提高性能[ENDCOLOR]并[COLOR_Blue]减少内存占用[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_DETAIL_CLUTTER_TEXT" Language="zh_Hans_CN">
+			<Text>高精细度杂物</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER" Language="zh_Hans_CN">
+			<Text>水体</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER_HIGH_RESOLUTION_TEXT" Language="zh_Hans_CN">
+			<Text>高分辨率水体</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER_HIGH_QUALITY_SHADER_TEXT" Language="zh_Hans_CN">
+			<Text>高品质着色器</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER_HIGH_QUALITY_SHADER_TOOLTIP" Language="zh_Hans_CN">
+			<Text>更改水体光照效果。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER_REFLECTION_PASSES_TEXT" Language="zh_Hans_CN">
+			<Text>反射：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER_REFLECTION_PASSES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>控制水体反射的质量。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LEADERS" Language="zh_Hans_CN">
+			<Text>动态领袖</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MUTE_FOCUS" Language="zh_Hans_CN">
+			<Text>游戏窗口非活动时静音</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_EFFECTS_VOLUME" Language="zh_Hans_CN">
+			<Text>音效音量：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_AMBIENT_VOLUME" Language="zh_Hans_CN">
+			<Text>环境声效音量：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_SPEECH_VOLUME" Language="zh_Hans_CN">
+			<Text>语音音量：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_REFLECTION_1PASS" Language="zh_Hans_CN">
+			<Text>计算1轮</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_REFLECTION_2PASSES" Language="zh_Hans_CN">
+			<Text>计算2轮</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_REFLECTION_3PASSES" Language="zh_Hans_CN">
+			<Text>计算3轮</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_REFLECTION_4PASSES" Language="zh_Hans_CN">
+			<Text>计算4轮</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING_AO_ENABLED_TEXT" Language="zh_Hans_CN">
+			<Text>环境光遮蔽</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING_AO_ENABLED_TOOLTIP" Language="zh_Hans_CN">
+			<Text>使接受的环境光照更少的物体显示变暗。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_SUBTITLES" Language="zh_Hans_CN">
+			<Text>过场影像字幕</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_STRATEGIC_VIEW_START" Language="zh_Hans_CN">
+			<Text>开局进入战略视图：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_RIBBON_STATS_LABEL" Language="zh_Hans_CN">
+			<Text>在游戏界面条显示玩家产出数值：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY" Language="zh_Hans_CN">
+			<Text>地块提示框延迟：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_HISTORIC_MOMENT_ANIMATION" Language="zh_Hans_CN">
+			<Text>历史时刻展示动画</Text>
+		</Replace>
 		<!--Eras-->
 		<Replace Tag="LOC_ERA_CLASSICAL_NAME" Language="zh_Hans_CN" Text="古典时代"/>
 		<Replace Tag="LOC_ERA_MEDIEVAL_NAME" Language="zh_Hans_CN" Text="中古时代"/>
@@ -559,6 +677,15 @@
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZULU_ISIBONGO_NAME" Language="zh_Hans_CN">
 			<Text>班图赞诗</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_NAME" Language="zh_Hans_CN">
+			<Text>始皇帝</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_NAME" Language="zh_Hans_CN">
+			<Text>信仰之义</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游戏开始便激活“写作”科技 [ICON_TechBoosted] 尤里卡。腓尼基建造的海岸城市若与 [ICON_Capital] 首都在同一大陆，则其忠诚度为100%。开拓者上船后，[ICON_Movement] 移动力与视野范围各+2。开拓者上船和下船无需额外花费 [ICON_Movement] 移动力。</Text>
+		</Replace>
 		<!--Unique items-->
 		<Replace Tag="LOC_BUILDING_TLACHTLI_NAME" Language="zh_Hans_CN">
 			<Text>中美洲蹴球场</Text>
@@ -1015,7 +1142,7 @@
 		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NOT_NEIGHBOR" Language="zh_Hans_CN">
 			<Text>六天夫人很高兴您的定居点远离她的帝国。</Text>
 		</Replace>
-		
+
 		<!--Leader unique items retranslated-->
 		<Replace Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>埃莉诺的城市中的每件巨作可使9单元格内的外国城市每回合-1忠诚度。一座城市因忠诚度损失而离开另一文明时，若其每回合接受的对埃莉诺的文明的忠诚度压力高于对其它文明的，则会跳过自由城市阶段，直接加入她的文明。</Text>
