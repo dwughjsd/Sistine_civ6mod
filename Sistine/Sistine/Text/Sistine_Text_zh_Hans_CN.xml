@@ -84,7 +84,7 @@
 			<Text>在您的圣地区域、市中心以及与其相邻的单元格上，单位每回合多回复 +30 生命值。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>选择后在首都中获得1个建造者，城市人口增长速度提升15%。</Text>
+			<Text>选择后在首都中获得1个建造者，城市人口增长速度提升10%。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>改良后的战略资源提供的 [ICON_Production] 生产力和 [ICON_Faith] 信仰值+1。每座改良了 [ICON_RESOURCE_HORSES] 马或 [ICON_RESOURCE_IRON] 铁的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
@@ -350,7 +350,7 @@
 			<Text>帝国中的所有沼泽单元格+2 [ICON_SCIENCE] 科技值、+1 [ICON_PRODUCTION] 生产力、+2 [ICON_FOOD] 食物。此城市的所有泛滥平原单元格+1 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须建在泛滥平原或沼泽上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有城市人口增长加速25%。必须建在河流旁。</Text>
+			<Text>所有城市人口增长加速15%。必须建在河流旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>赞助伟人消耗的 [ICON_Faith] 信仰值减少25%。[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发额外提供10%的科技或市政成本。该城市的区域提供的对应类型的 [ICON_GreatPerson] 伟人点数+2（比如，剧院广场区的 [ICON_GreatWriter] 大作家点数）。必须建在丘陵上。</Text>
@@ -1304,7 +1304,7 @@
 			<Text>城市中每位 [ICON_Citizen] 公民每回合可带来+0.5 [ICON_CULTURE] 文化值和+0.5 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市的 [ICON_Food] 人口增长+50%。此城市收获资源和移除地貌的产出+50%。</Text>
+			<Text>城市的 [ICON_Food] 人口增长+20%。此城市收获资源和移除地貌的产出+50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城市对邻近城市释放的宗教压力强度加倍。此城市每位 [ICON_Citizen] 公民每回合可带来+1 [ICON_FAITH] 信仰值。</Text>

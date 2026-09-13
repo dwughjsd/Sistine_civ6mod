@@ -63,7 +63,7 @@
 		</Row>
 		<Update>
 			<Where ModifierId="MINOR_CIV_PALENQUE_CAMPUS_GROWTH_BONUS" Name="Amount"/>
-			<Set Value="25" />
+			<Set Value="15" />
 		</Update>
 	</ModifierArguments>
 </GameData>

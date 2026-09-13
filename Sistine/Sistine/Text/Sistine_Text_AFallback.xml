@@ -85,7 +85,7 @@
 			<Text>Increases Healing by +30 in your City Center or Holy Site district, or any adjacent tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>When chosen receive a Builder in your capital. City growth rate is 15% higher.</Text>
+			<Text>When chosen receive a Builder in your capital. City growth rate is 10% higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Production] Production and +1 [ICON_Faith] Faith from improved Strategic resources. +1 [ICON_GreatProphet] Great Prophet point from each city with an improved [ICON_Resource_Horses] Horses or [ICON_Resource_Iron] Iron resource.</Text>
@@ -351,7 +351,7 @@
 			<Text>+2 [ICON_SCIENCE] Science, +1 [ICON_PRODUCTION] Production, and +2 [ICON_Food] Food to all Marsh tiles in your empire. +1 [ICON_SCIENCE] Science on all Floodplains tiles for this city.[NEWLINE][NEWLINE]Must be built on Floodplains or Marsh.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="en_US">
-			<Text>Increases growth by 25% in all cities. Must be built next to a River.</Text>
+			<Text>Increases growth by 15% in all cities. Must be built next to a River.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="en_US">
 			<Text>Patronage of Great People costs 25% less [ICON_Faith] Faith. [ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide an extra 10% of the Science and Culture cost for researching technologies and civics. Districts in this city provide +2 [ICON_GreatPerson] Great Person points of their type (for example, [ICON_GreatWriter] Great Writer points from the Theater Square district). Must be built on Hills.</Text>
@@ -1305,7 +1305,7 @@
 			<Text>+0.5 [ICON_Science] Science and [ICON_Culture] Culture per [ICON_Citizen] Citizen in the city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_Food] Growth in the city. +50% yields from plot harvests and feature removals in city.</Text>
+			<Text>+20% [ICON_Food] Growth in the city. +50% yields from plot harvests and feature removals in city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="en_US">
 			<Text>Religious pressure to adjacent cities is 100% stronger from this city. +1 [ICON_Faith] Faith per [ICON_Citizen] Citizen in this city.</Text>

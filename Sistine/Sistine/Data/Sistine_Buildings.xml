@@ -1044,7 +1044,7 @@
 	<ModifierArguments>
 		<Update>
 			<Where ModifierId="HANGING_GARDEN_ADDGROWTH" Name="Amount"/>
-			<Set Value="25"/>
+			<Set Value="15"/>
 		</Update>
 		<Update>
 			<Where ModifierId="MACHUPICCHU_COMMERCIALHUB_GRASSMOUNTAIN_GOLD" Name="Amount"/>
