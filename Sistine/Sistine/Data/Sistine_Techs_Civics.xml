@@ -62,6 +62,10 @@
 			<Set Description="LOC_TECH_OFFWORLD_MISSION_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
+			<Where TechnologyType="TECH_FUTURE_TECH" />
+			<Set Description="LOC_TECH_FUTURE_TECH_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_TELECOMMUNICATIONS" />
 			<Set AdvisorType="ADVISOR_CONQUEST"/>
 		</Update>
@@ -584,6 +588,10 @@
 		<Update>
 			<Where CivicType="CIVIC_INFORMATION_WARFARE" />
 			<Set AdvisorType="ADVISOR_CONQUEST"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_FUTURE_CIVIC" />
+			<Set Description="LOC_CIVIC_FUTURE_CIVIC_DESCRIPTION_SST"/>
 		</Update>
 		<!--Cost: Don't add other data here, queries are auto generated-->
 		<Update>
@@ -1166,5 +1174,76 @@
 			<Name>TechType</Name>
 			<Value>TECH_SATELLITES</Value>
 		</Row>
+	</ModifierArguments>
+	
+	<!--Governors & Envoys-->
+	<CivicModifiers>
+		<Delete ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Delete ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Delete ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Delete ModifierId="CIVIC_AWARD_THREE_INFLUENCE_TOKENS"/>
+		<Delete CivicType="CIVIC_FUTURE_CIVIC" ModifierId="CIVIC_GRANT_FAVOR"/>
+		<Row CivicType="CIVIC_MYSTICISM" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_THEOLOGY" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_MILITARY_TRAINING" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_MERCENARIES" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_NAVAL_TRADITION" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_EXPLORATION" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_REFORMED_CHURCH" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_NATURAL_HISTORY" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_SCORCHED_EARTH" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_CONSERVATION" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_CAPITALISM" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_CULTURAL_HERITAGE" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_PROFESSIONAL_SPORTS" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_FUTURE_CIVIC" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_STATE_WORKFORCE" ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Row CivicType="CIVIC_DEFENSIVE_TACTICS" ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Row CivicType="CIVIC_RECORDED_HISTORY" ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Row CivicType="CIVIC_MEDIEVAL_FAIRES" ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Row CivicType="CIVIC_GUILDS" ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Row CivicType="CIVIC_MERCANTILISM" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_THE_ENLIGHTENMENT" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_CIVIL_ENGINEERING" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_NATIONALISM" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="CIVIC_AWARD_THREE_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_MOBILIZATION" ModifierId="CIVIC_AWARD_THREE_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_RAPID_DEPLOYMENT" ModifierId="CIVIC_AWARD_THREE_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_SPACE_RACE" ModifierId="CIVIC_AWARD_THREE_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_GLOBALIZATION" ModifierId="CIVIC_AWARD_FOUR_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_NEAR_FUTURE_GOVERNANCE" ModifierId="CIVIC_AWARD_FOUR_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" ModifierId="CIVIC_AWARD_FOUR_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" ModifierId="CIVIC_AWARD_FOUR_INFLUENCE_TOKENS"/>
+	</CivicModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>CIVIC_AWARD_FOUR_INFLUENCE_TOKENS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>CIVIC_AWARD_FOUR_INFLUENCE_TOKENS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Future Tech/Civic-->
+	<CivicModifiers>
+		<Row CivicType="CIVIC_FUTURE_CIVIC" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM"/>
+		<Row CivicType="CIVIC_FUTURE_CIVIC" ModifierId="CIVIC_MITIGATION_GRANT_DIPLOVP"/>
+	</CivicModifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="FUTURE_TECH_PROJECT_PRODUCTION" Name="Amount"/>
+			<Set>
+				<Value>25</Value>
+			</Set>
+		</Update>
 	</ModifierArguments>
 </GameData>

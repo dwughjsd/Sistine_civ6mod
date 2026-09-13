@@ -1590,5 +1590,12 @@
 		<Replace Tag="LOC_TECH_STEEL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>伐木场+1 [ICON_Production] 生产力。解锁现代都市防御，使得所有城市自动获得400点防御工事生命值和发起远程攻击的能力。此前的城墙改良形态将全部过时，攻城支援单位也将不再有效。</Text>
 		</Replace>
+		<!--Future Tech/Civic-->
+		<Replace Tag="LOC_TECH_FUTURE_TECH_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>可多次完成，增加分数胜利点数。每次完成后，所有城市建造城市项目时 [ICON_Production] 生产力均+25%。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_FUTURE_CIVIC_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>可多次完成，增加分数胜利点数。每完成一次便奖励1个 [ICON_Governor] 总督头衔与1点外交胜利点数，且在帝国全境内+50% [ICON_Tourism] 旅游业绩。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

@@ -1591,5 +1591,12 @@
 		<Replace Tag="LOC_TECH_STEEL_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Production] Production from the Lumber Mill improvement. Unlocks Urban Defenses, giving all of your cities an automatic 400 Fortification health and the ability to perform a ranged attack. All previous wall improvements become obsolete and siege support units are no longer effective.</Text>
 		</Replace>
+		<!--Future Tech/Civic-->
+		<Replace Tag="LOC_TECH_FUTURE_TECH_DESCRIPTION_SST" Language="en_US">
+			<Text>Can be completed multiple times, increasing your points towards the Score Victory. Also grants all of your cities +25% [ICON_Production] Production towards city projects each time it is completed.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_FUTURE_CIVIC_DESCRIPTION_SST" Language="en_US">
+			<Text>Can be completed multiple times, increasing your points towards the Score Victory. Also awards 1 [ICON_Governor] Governor title, 1 Diplomatic Victory point and +50% [ICON_Tourism] Tourism across your empire each time it is completed.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
