@@ -662,6 +662,9 @@
 		<Replace Tag="LOC_GREATPERSON_THEMISTOCLES_ACTIVE" Language="zh_Hans_CN">
 			<Text>立即创建1个四列桨座战船单位。</Text>
 		</Replace>
+		<Replace Tag="LOC_GREATPERSON_THEMISTOCLES_EXPANSION2_ACTIVE" Language="zh_Hans_CN">
+			<Text>立即生产出1个四列桨座战船单位。生产海军远程单位时+20% [ICON_Production] 生产力。</Text>
+		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ACTION_USAGE_ON_MILITARY_LAND_UNIT" Language="zh_Hans_CN">
 			<Text>在陆军单位上激活。</Text>
 		</Replace>
