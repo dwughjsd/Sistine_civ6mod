@@ -330,42 +330,10 @@
 		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" Name="YieldType" Value="YIELD_GOLD"/>
 	</ModifierArguments>
 	<District_Adjacencies>
-		<Delete DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Strategic_Production"/>
-		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="OffshoreOilRig_Production2"/>
-		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="OilWell_Production2"/>
-		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="OffshoreOilRig_Production"/>
-		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="OilWell_Production"/>
+		<Delete DistrictType="DISTRICT_SUGUBA" YieldChangeId="Lavra_Gold"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="Minel_HalfProduction"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="LumberMill_HalfProduction"/>
 	</District_Adjacencies>
-	<Adjacency_YieldChanges>
-		<Update>
-			<Where ID="Minel_HalfProduction" />
-			<Set TilesRequired="1" />
-		</Update>
-		<Update>
-			<Where ID="LumberMill_HalfProduction" />
-			<Set TilesRequired="1" />
-		</Update>
-		<Update>
-			<Where ID="Aqueduct_Production" />
-			<Set YieldChange="1" />
-		</Update>
-		<Update>
-			<Where ID="Bath_Production" />
-			<Set YieldChange="1" />
-		</Update>
-		<Update>
-			<Where ID="Canal_Production" />
-			<Set YieldChange="1" />
-		</Update>
-		<Update>
-			<Where ID="Dam_Production" />
-			<Set YieldChange="1" />
-		</Update>
-		<Row ID="OffshoreOilRig_Production" Description="LOC_DISTRICT_OFFSHORE_OIL_RIG_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
-		<Row ID="OffshoreOilRig_Production2" Description="LOC_DISTRICT_OFFSHORE_OIL_RIG_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
-		<Row ID="OilWell_Production" Description="LOC_DISTRICT_OIL_WELL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OIL_WELL"/>
-		<Row ID="OilWell_Production2" Description="LOC_DISTRICT_OIL_WELL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OIL_WELL"/>
-	</Adjacency_YieldChanges>
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>BUILDING_IS_FOOD_MARKET_SST</RequirementSetId>

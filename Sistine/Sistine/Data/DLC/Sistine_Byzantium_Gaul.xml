@@ -21,11 +21,10 @@
 		<Row DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 	<District_Adjacencies>
-		<Delete DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production2"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Minel_HalfProduction"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="OffshoreOilRig_Production"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="OilWell_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Aqueduct_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Canal_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Dam_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="LumberMill_HalfProduction"/>
 	</District_Adjacencies>
 	<TypeTags>
 		<Row Type="ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS" Tag="CLASS_WARRIOR_MONK"/>

@@ -305,6 +305,7 @@
 
 		<Row ListType="AncientTechs" Item="TECH_ANIMAL_HUSBANDRY" Favored="true" />
 		<Row ListType="AncientTechs" Item="TECH_BRONZE_WORKING" Favored="true" />
+		<Row ListType="AncientTechs" Item="TECH_IRRIGATION" Favored="true" />
 		<Row ListType="IndustrialTechs" Item="TECH_MASS_PRODUCTION" Favored="true" />
 		<Row ListType="IndustrialTechs" Item="TECH_SQUARE_RIGGING" Favored="true" />
 		<Row ListType="ModernTechs" Item="TECH_SANITATION" Favored="true" />
@@ -373,6 +374,7 @@
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_PRESERVE" Favored="false"/>
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_NEIGHBORHOOD" Favored="false"/>
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_AERODROME" Favored="false"/>
+		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_AQUEDUCT" Favored="true"/>
 		<Row ListType="IndustrialDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
 
 		<!--To avoid AI selling it at a low price-->
