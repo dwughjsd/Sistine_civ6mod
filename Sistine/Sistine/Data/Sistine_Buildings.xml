@@ -4,16 +4,12 @@
 		<Row Type="BUILDING_OPERA_HOUSE" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_PUBLIC_SCHOOL" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_MANUFACTURING_PLANT" Kind="KIND_BUILDING"/>
-		<Row Type="BUILDING_HOSPITAL" Kind="KIND_BUILDING"/>
-		<Row Type="BUILDING_MEDICAL_LAB" Kind="KIND_BUILDING"/>
 	</Types>
 	
 	<Buildings>
 		<!--City Center-->
 		<Update><Where BuildingType="BUILDING_GRANARY" /><Set Description="LOC_BUILDING_GRANARY_DESCRIPTION_SST"/></Update>
-		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST" PrereqTech="TECH_ENGINEERING" Housing="1" Maintenance="1"/></Update>
-		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_BUILDING_HOSPITAL_NAME" Description="LOC_BUILDING_HOSPITAL_DESCRIPTION" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC" Housing="2" Maintenance="2"/>
-		<Row BuildingType="BUILDING_MEDICAL_LAB" Name="LOC_BUILDING_MEDICAL_LAB_NAME" Description="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="520" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Housing="3" Maintenance="3"/>
+		<Update><Where BuildingType="BUILDING_SEWER" /><Set Description="LOC_BUILDING_SEWER_DESCRIPTION_SST"/></Update>
 		<!--Theater Square-->
 		<Update><Where BuildingType="BUILDING_AMPHITHEATER" /><Set Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST"/></Update>
 		<Row BuildingType="BUILDING_OPERA_HOUSE" Name="LOC_BUILDING_OPERA_HOUSE_NAME" Description="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="1"/>
@@ -51,7 +47,6 @@
 	</Buildings>
 	
 	<Buildings_XP2>
-		<Row BuildingType="BUILDING_MEDICAL_LAB" RequiredPower="3"/>
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set EntertainmentBonusWithPower="3" /></Update>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" RequiredPower="3"/>
 		<Delete BuildingType="BUILDING_FOOD_MARKET"/>
@@ -61,9 +56,6 @@
 	</Buildings_XP2>
 
 	<BuildingPrereqs>
-		<!--City Center-->
-		<Row Building="BUILDING_HOSPITAL" PrereqBuilding="BUILDING_SEWER"/>
-		<Row Building="BUILDING_MEDICAL_LAB" PrereqBuilding="BUILDING_HOSPITAL"/>
 		<!--Theater Square-->
 		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ART"/>
 		<Delete Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
@@ -90,8 +82,6 @@
 
 	<Building_YieldChanges>
 		<!--City Center-->
-		<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" YieldChange="6"/>
-		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="3"/>
 		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_CULTURE"/><Set YieldChange="2"/></Update>
 		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_SCIENCE"/><Set YieldChange="3"/></Update>
 		<Update><Where BuildingType="BUILDING_PALACE" YieldType="YIELD_PRODUCTION"/><Set YieldChange="3"/></Update>
@@ -131,8 +121,6 @@
 	</Building_YieldChanges>
 
 	<Building_YieldChangesBonusWithPower>
-		<!--City Center-->
-		<Row BuildingType="BUILDING_MEDICAL_LAB" YieldType="YIELD_FOOD" YieldChange="6"/>
 		<!--Theater Square-->
 		<Update><Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
 		<Update><Where BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_CULTURE"/><Set YieldChange="3"/></Update>
@@ -213,10 +201,7 @@
 	<BuildingModifiers>
 		<!--City Center-->
 		<Row BuildingType="BUILDING_GRANARY" ModifierId="BUILDING_GRANARY_FOOD"/>
-		<Row BuildingType="BUILDING_SEWER" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
-		<Row BuildingType="BUILDING_HOSPITAL" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
-		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_GROWTH"/>
-		<Row BuildingType="BUILDING_MEDICAL_LAB" ModifierId="GROWTHBUILDING_50_POP_POWERED"/>
+		<Row BuildingType="BUILDING_SEWER" ModifierId="GROWTHBUILDING_15_POP_GROWTH"/>
 		<!--Theater Square-->
 		<Row BuildingType="BUILDING_OPERA_HOUSE" ModifierId="CULTUREBUILDING_CULTURE_33"/>
 		<Row BuildingType="BUILDING_BROADCAST_CENTER" ModifierId="CULTUREBUILDING_CULTURE_33"/>
@@ -400,7 +385,6 @@
 		<Update><Where BuildingType="BUILDING_STABLE" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_TEMPLE" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_STAVE_CHURCH" /><Set Cost="120"/></Update>
-		<Update><Where BuildingType="BUILDING_SEWER" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_ORDU" /><Set Cost="120"/></Update>
 		<Update><Where BuildingType="BUILDING_TLACHTLI" /><Set Cost="125"/></Update>
 		<Update><Where BuildingType="BUILDING_ARENA" /><Set Cost="135"/></Update>
@@ -440,6 +424,7 @@
 		<Update><Where BuildingType="BUILDING_CHANCERY" /><Set Cost="290"/></Update>
 		<Update><Where BuildingType="BUILDING_STAR_FORT" /><Set Cost="300"/></Update>
 		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Cost="360"/></Update>
+		<Update><Where BuildingType="BUILDING_SEWER" /><Set Cost="200"/></Update>
 		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Cost="400"/></Update>
 		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" /><Set Cost="400"/></Update>
 		<Update><Where BuildingType="BUILDING_STOCK_EXCHANGE" /><Set Cost="400"/></Update>
@@ -524,7 +509,8 @@
 	<BuildingModifiers>
 		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_LOYALTY_DEBUFF" />
 		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_FOOD_BUFF_SST" />
-		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GRANT_SEWER_UNTIL_4" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GRANT_GRANARY_UNTIL_4" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GRANT_WATER_MILL_UNTIL_4" />
 		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_GRANT_BUILDER" />
 		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_COST_REDUCTION" />
 		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_PRODUCTION_SST" />
@@ -551,13 +537,25 @@
 			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>GOV_TALL_GRANT_SEWER_UNTIL_4</ModifierId>
+			<ModifierId>GOV_TALL_GRANT_GRANARY_UNTIL_4</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>GOV_TALL_GRANT_SEWER_UNTIL_4_MODIFIER</ModifierId>
+			<ModifierId>GOV_TALL_GRANT_GRANARY_UNTIL_4_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
-			<SubjectRequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_SEWER</SubjectRequirementSetId>
+			<SubjectRequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_GRANARY</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GOV_TALL_GRANT_WATER_MILL_UNTIL_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOV_TALL_GRANT_WATER_MILL_UNTIL_4_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_WATER_MILL</SubjectRequirementSetId>
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
 		</Row>
@@ -642,14 +640,24 @@
 			<Value>YIELD_FOOD</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOV_TALL_GRANT_SEWER_UNTIL_4</ModifierId>
+			<ModifierId>GOV_TALL_GRANT_GRANARY_UNTIL_4</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>GOV_TALL_GRANT_SEWER_UNTIL_4_MODIFIER</Value>
+			<Value>GOV_TALL_GRANT_GRANARY_UNTIL_4_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>GOV_TALL_GRANT_SEWER_UNTIL_4_MODIFIER</ModifierId>
+			<ModifierId>GOV_TALL_GRANT_GRANARY_UNTIL_4_MODIFIER</ModifierId>
 			<Name>BuildingType</Name>
-			<Value>BUILDING_SEWER</Value>
+			<Value>BUILDING_GRANARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_TALL_GRANT_WATER_MILL_UNTIL_4</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOV_TALL_GRANT_WATER_MILL_UNTIL_4_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_TALL_GRANT_WATER_MILL_UNTIL_4_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WATER_MILL</Value>
 		</Row>
 		<Row ModifierId="GOV_SETTLER_PRODUCTION_SST"
 			Name="UnitType"
@@ -752,31 +760,54 @@
 	</ModifierArguments>
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_SEWER</RequirementSetId>
+			<RequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_GRANARY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_WATER_MILL</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_SEWER</RequirementSetId>
-			<RequirementId>REQUIRES_HAS_LESS_THAN_4_SEWER</RequirementId>
+			<RequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_GRANARY</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_GRANARY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_WATER_MILL</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_WATER_MILL</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
-			<RequirementId>REQUIRES_HAS_LESS_THAN_4_SEWER</RequirementId>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_GRANARY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_WATER_MILL</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS</RequirementType>
 			<Inverse>true</Inverse>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REQUIRES_HAS_LESS_THAN_4_SEWER</RequirementId>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_GRANARY</RequirementId>
 			<Name>BuildingType</Name>
-			<Value>BUILDING_SEWER</Value>
+			<Value>BUILDING_GRANARY</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_HAS_LESS_THAN_4_SEWER</RequirementId>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_GRANARY</RequirementId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_WATER_MILL</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WATER_MILL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_LESS_THAN_4_WATER_MILL</RequirementId>
 			<Name>Amount</Name>
 			<Value>4</Value>
 		</Row>

@@ -6,19 +6,7 @@
 			<Text>此城的 [ICON_RESOURCE_BANANAS] 香蕉和 [ICON_RESOURCE_DEER] 鹿提供的 [ICON_Food] 食物+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>此城 [ICON_Citizen] 人口增长加速50%。</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_HOSPITAL_NAME" Language="zh_Hans_CN">
-			<Text>医院</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_HOSPITAL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城 [ICON_Citizen] 人口增长加速50%。</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_MEDICAL_LAB_NAME" Language="zh_Hans_CN">
-			<Text>医学实验室</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_MEDICAL_LAB_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城 [ICON_Citizen] 人口增长加速50%，供电充足时额外+50%。基础 [ICON_Food] 食物加成延伸到6单元格内的所有市中心。此加成仅限应用到城市1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。</Text>
+			<Text>此城 [ICON_Citizen] 人口增长加速15%。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION_SST" Language="zh_Hans_CN">
 			<Text>城市每拥有1处专业化区域，则+2 [ICON_CULTURE] 文化值。</Text>

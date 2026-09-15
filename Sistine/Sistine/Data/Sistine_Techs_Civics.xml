@@ -1142,7 +1142,7 @@
 		<Update><Where CivicType="CIVIC_NUCLEAR_PROGRAM" /><Set NumItems="2"/></Update>
 		<Update><Where CivicType="CIVIC_MASS_MEDIA" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_DISTRICTS" DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" NumItems="3"/></Update>
 		<Update><Where CivicType="CIVIC_MOBILIZATION" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_INFANTRY" NumItems="3"/></Update>
-		<Update><Where CivicType="CIVIC_SUFFRAGE" /><Set BuildingType="BUILDING_HOSPITAL" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_SUFFRAGE" /><Set BuildingType="BUILDING_SEWER" NumItems="4"/></Update>
 		<Update><Where CivicType="CIVIC_TOTALITARIANISM" /><Set NumItems="1"/></Update>
 		<Update><Where CivicType="CIVIC_CLASS_STRUGGLE" /><Set NumItems="4"/></Update>
 		<Update><Where CivicType="CIVIC_PROFESSIONAL_SPORTS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_STADIUM" NumItems="1"/></Update>

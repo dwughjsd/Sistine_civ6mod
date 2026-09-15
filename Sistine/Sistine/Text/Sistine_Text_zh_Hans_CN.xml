@@ -303,7 +303,7 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送下水道建筑，直到您帝国中已有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送粮仓和水磨建筑，直到您帝国中已各有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城生产开拓者时 [ICON_Production] 生产力+50%。新训练的建造者获得额外的1次建造次数。获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
@@ -344,6 +344,9 @@
 		<!--Districts-->
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您城市里的文化场地区域。[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>区域从相邻河流、湖泊、绿洲或山脉引水，为该城市提供淡水资源。没有淡水资源的城市最多获得6个 [ICON_Housing] 住房。相反，已有淡水资源的城市 [ICON_Housing] 住房数量+2；若与地热裂缝相邻，提供+1 [ICON_Amenities]宜居度。此城 [ICON_Citizen] 人口增长加速10%。干旱时可防止 [ICON_Food] 食物损失。必须修建在与市中心相邻的单元格中。军事工程师可消耗1次使用次数来完成水渠20%的修建进度。</Text>
 		</Replace>
 		<!--Wonders-->
 		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="zh_Hans_CN">
@@ -1014,7 +1017,7 @@
 			<Text>拥有3个现代步兵。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_SUFFRAGE" Language="zh_Hans_CN">
-			<Text>建造2座医院。</Text>
+			<Text>建造4座下水道。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_TOTALITARIANISM" Language="zh_Hans_CN">
 			<Text>建造1座军事学院。</Text>
@@ -1201,9 +1204,6 @@
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_PROGRAM" Language="zh_Hans_CN">
 			<Text>建成专项研究实验室以后，您招募科学家进行核研究项目的构想得以付诸实施。</Text>
-		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE" Language="zh_Hans_CN">
-			<Text>您帝国内的女性要求拥有适当的医疗卫生服务。在取得了那场斗争的胜利后，她们现在想要投票的权利。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS" Language="zh_Hans_CN">
 			<Text>您新建的体育场希望举办一项新的职业体育联赛。</Text>
@@ -1576,12 +1576,6 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>精密制造厂是一种大型的工业复合体，能够生产各种类型的产品，不过通常会用来制造汽车这样的耐用消费品。简单来说，精密制造厂就是一种大型而复杂的工厂，使用专业劳工、复杂机械以及生产流水线以获得更高的生产效率以及大规模生产的经济优势。这种人力与自动化的结合不仅提升了效率，而且降低了生产成本。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>医院是对病人或伤者进行诊疗，并为他们提供住处以便康复的机构。许多医院也同时是教学机构，令学习医疗和护理的学生在此学习专业技能。供奉和健康及医疗有关的神灵的寺庙成为了最初的医院。公元前430年在斯里兰卡出现了专门的宗教医院，而印度的阿育王则于公元前230年左右在印度北部兴建了一系列的医院。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>医学实验室是研究疾病和人体构造的机构。医学实验室使用各式各样极度精密又无比强大的仪器，从超声波仪到蚂蚁大小的摄像机，再到电子显微镜，应有尽有。在过去的25年里，绝大部分（若非所有）医学界的重大突破都是医学实验室里取得。这些突破包括：人类DNA测序、对抗艾滋病的抗病毒疗法、基因编辑，等等。当代社会医疗费用的不断攀升在很大程度上都要归因于这样一个简单的事实：医学实验室在战胜疾病、延长人类寿命、提高人类生命质量方面取得了惊人的成就，而这些成就是需要花费巨资的。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>在无产阶级领导的社会主义国家里，人民享有最高权力；然而，即使是马克思也意识到，为了有效地运作政府机构并确保无产阶级专政，必须存在某种形式的党组织。由此，1917年的布尔什维克宣称，一群官僚中的先进分子需要领导一个一个集权政党来治理新生的苏俄政权。</Text>

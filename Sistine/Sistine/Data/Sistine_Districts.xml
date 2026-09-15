@@ -289,6 +289,7 @@
 			<DistrictType>DISTRICT_GOVERNMENT</DistrictType>
 			<ModifierId>GOVERNMENT_IDENTITY_PER_TURN_MODIFIER</ModifierId>
 		</Delete>
+		<Row DistrictType="DISTRICT_AQUEDUCT" ModifierId="GROWTHBUILDING_10_POP_GROWTH" />
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_SCIENCE" />
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_CULTURE" />
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_GOLD" />

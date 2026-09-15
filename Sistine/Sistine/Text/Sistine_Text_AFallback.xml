@@ -304,7 +304,7 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Food] Food, +2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in cities with [ICON_Governor] Governors. Grant free Sewer buildings, until there are 4 in your empire.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
+			<Text>+2 [ICON_Food] Food, +2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in cities with [ICON_Governor] Governors. Grant free Granary and Water Mill buildings, until there are 4 respectively in your empire.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
 			<Text>+50% [ICON_Production] Production towards Settlers. Newly trained Builders gain an extra build charge. Receive a free Settler and a free Builder.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
@@ -345,6 +345,9 @@
 		<!--Districts-->
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="en_US">
 			<Text>A district in your city for cultural sites.[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="en_US">
+			<Text>A district that provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. [ICON_CITIZEN] Population growth of this city is increased by 10%. If built adjacent to a Geothermal Fissure +1 [ICON_Amenities] Amenity. Prevents [ICON_Food] Food loss during Drought. Must be built adjacent to the City Center. Military Engineers can spend a charge to complete 20% of an Aqueduct's production.</Text>
 		</Replace>
 		<!--Wonders-->
 		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="en_US">
@@ -1012,7 +1015,7 @@
 			<Text>Have 3 Infantry units in your military.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_SUFFRAGE" Language="en_US">
-			<Text>Build 2 Hospitals.</Text>
+			<Text>Build 4 Sewers.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_TOTALITARIANISM" Language="en_US">
 			<Text>Build a Military Academy.</Text>
@@ -1199,9 +1202,6 @@
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_PROGRAM" Language="en_US">
 			<Text>With dedicated research labs in place, your initiative to recruit scientists into a nuclear research program can commence.</Text>
-		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE" Language="en_US">
-			<Text>The women of your empire have clamored for proper healthcare services. Having won that battle, they now need the right to vote.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS" Language="en_US">
 			<Text>Your newly built stadium wants to host a new professional sports league.</Text>
@@ -1577,12 +1577,6 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Manufacturing plants are large industrial complexes that produce goods of all types, although they are generally used to produce durable consumer goods such as automobiles. Essentially, a manufacturing plant is a large, sophisticated factory that employs specialization of labor, complex machinery, and assembly lines to gain efficiency and economies of scale. This combination of manpower and automation increases productivity and reduces production costs.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>A hospital is an institution for diagnosing and treating the sick or injured, and for housing them during their recovery. Many hospitals are also teaching institutions, where student doctors and nurses learn their trade. The earliest hospitals were temples to certain gods associated with health and healing. Religious hospitals were established in Sri Lanka by 430 BC, and King Asoka of India created a chain of hospitals across Hindustan around 230 BC.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>A medical laboratory is an institution that studies disease and human anatomy using a wide variety of extremely sophisticated and powerful instruments - from ultrasound to cameras the size of an ant to electron microscopes. Most - if not all - of the remarkable advances in medicine in the past 25 years have been made in medical labs. These include the sequencing of human DNA, antiviral therapies to battle HIV, gene editing, and more. Much of the increasing cost of healthcare can be attributed to the simple fact that medical laboratories have been remarkably successful at battling illness and prolonging and improving the quality of human life - and these improvements cost huge amounts of money.</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>In a proletarian socialist state, the people have the power; however, even Marx realized that some form of party hierarchy would be necessary for efficient operation of state services and to insure that the proletarian order itself was preserved. For that reason, the Bolsheviks argued in 1917 that a vanguard party of bureaucrats would head a centralized political party that administered the new Soviet Russia.</Text>
