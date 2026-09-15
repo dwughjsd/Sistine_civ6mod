@@ -40,8 +40,6 @@
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set Entertainment="3" /></Update>
 		<!--Aerodrome-->
 		<Update><Where BuildingType="BUILDING_AIRPORT" /><Set Description="LOC_BUILDING_AIRPORT_DESCRIPTION_SST" /></Update>
-		<!--Neighborhood-->
-		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set Maintenance="2" /></Update>
 		<!--Preserve-->
 		<Update><Where BuildingType="BUILDING_SANCTUARY" /><Set PrereqTech="TECH_SCIENTIFIC_THEORY" PrereqCivic=""/></Update>
 	</Buildings>
@@ -49,8 +47,6 @@
 	<Buildings_XP2>
 		<Update><Where BuildingType="BUILDING_AQUATICS_CENTER" /><Set EntertainmentBonusWithPower="3" /></Update>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" RequiredPower="3"/>
-		<Delete BuildingType="BUILDING_FOOD_MARKET"/>
-		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" /><Set RequiredPower="3" EntertainmentBonusWithPower="1" /></Update>
 		<!--Multiplier does not support decimal number!-->
 		<Replace BuildingType="BUILDING_FLOOD_BARRIER" BlocksCoastalFlooding="true" CostMultiplierPerTile="0" CostMultiplierPerSeaLevel="0" Pillage="false"/>
 	</Buildings_XP2>
@@ -71,14 +67,7 @@
 		<Row Building="BUILDING_PUBLIC_SCHOOL" PrereqBuilding="BUILDING_UNIVERSITY"/>
 		<!--Industrial Zone-->
 		<Row Building="BUILDING_MANUFACTURING_PLANT" PrereqBuilding="BUILDING_FACTORY"/>
-		<!--Neighborhood-->
-		<Row Building="BUILDING_SHOPPING_MALL" PrereqBuilding="BUILDING_FOOD_MARKET"/>
 	</BuildingPrereqs>
-
-	<MutuallyExclusiveBuildings>
-		<Delete Building="BUILDING_FOOD_MARKET" MutuallyExclusiveBuilding="BUILDING_SHOPPING_MALL"/>
-		<Delete Building="BUILDING_SHOPPING_MALL" MutuallyExclusiveBuilding="BUILDING_FOOD_MARKET"/>
-	</MutuallyExclusiveBuildings>
 
 	<Building_YieldChanges>
 		<!--City Center-->
@@ -133,7 +122,7 @@
 		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/><Set YieldChange="4"/></Update>
 		<Row BuildingType="BUILDING_MANUFACTURING_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
 		<!--Neighborhood-->
-		<Delete BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/>
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/> <Set YieldChange="2"/></Update>
 		<Update><Where BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD"/> <Set YieldChange="4"/></Update>
 	</Building_YieldChangesBonusWithPower>
 

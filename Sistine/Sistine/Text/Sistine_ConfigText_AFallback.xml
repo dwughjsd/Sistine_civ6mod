@@ -105,7 +105,7 @@
 			<Text>+50% [ICON_Tourism] to this city's Great Works, Wonders, Improvements, and National Parks. +50% combat experience for air units trained in this city. +1 air unit slot in Aerodrome district. Allows the ability to airlift land units between Aerodrome districts with Airports after the Rapid Deployment civic is unlocked.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="en_US">
-			<Text>+4 [ICON_Food] Food for each Neighborhood in this city. Can only be built once in a city, even if the city has multiple Neighborhoods.</Text>
+			<Text>+4 [ICON_Food] Food for each Neighborhood in this city. Additional +2 [ICON_FOOD] Food when [ICON_Power] Powered. Can only be built once in a city, even if the city has multiple Neighborhoods.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="en_US">
 			<Text>+4 [ICON_Gold] Gold for each Neighborhood in this city. Additional +4 [ICON_GOLD] Gold when [ICON_Power] Powered. +4 [ICON_TOURISM] Tourism. +10 [ICON_Tourism] Tourism if the city's [ICON_Citizen] Population is 10 or higher; +20 [ICON_Tourism] Tourism if the city's [ICON_Citizen] Population is 20 or higher; Can only be built once in a city, even if the city has multiple Neighborhoods.</Text>
