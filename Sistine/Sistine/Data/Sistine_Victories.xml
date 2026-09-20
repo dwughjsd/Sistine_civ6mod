@@ -93,7 +93,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
-			<Set DefaultValue="0.8" />
+			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" />
@@ -152,7 +152,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" />
-			<Set DefaultValue="0.67" />
+			<Set DefaultValue="0.4" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_COMBAT" />
@@ -369,6 +369,7 @@
 		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="30"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="200"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_FAITH" Value="100"/>
 
 		<!--They don't know how to use it properly-->
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_PRESERVE" Favored="false"/>
@@ -385,7 +386,7 @@
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-170"/>
-		<Row ListType="ClassicalYields" Item="YIELD_FAITH" Value="-20"/>
+		<Row ListType="ClassicalYields" Item="YIELD_FAITH" Value="-120"/>
 
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MONUMENT" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GRANARY" Favored="true"/>
@@ -434,6 +435,7 @@
 		<Delete ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" />
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" />
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-50"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="50"/>
@@ -511,7 +513,7 @@
 		<Row ListType="AggressivePseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="100"/>
 		<Row ListType="AggressivePseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="100"/>
 
-		<Row ListType="ReligiousPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="500"/>
+		<Row ListType="ReligiousPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="250"/>
 		<Row ListType="ReligiousPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="50"/>
 		<Row ListType="ReligiousYields" Item="YIELD_FAITH" Value="75"/>
 	</AiFavoredItems>
