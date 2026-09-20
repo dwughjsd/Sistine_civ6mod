@@ -45,7 +45,7 @@
 			<Text>解锁建造者建造牧场的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物。只能在有效资源上建造。[NEWLINE][NEWLINE]如果建在战略资源上，城市则可以利用该资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>奖励3位 [ICON_Envoy] 使者。允许建造者种植森林（人造林）。营地产出的 [ICON_Gold] 金币+2。您领土上从未被移除的森林（原始林）获得+1魅力。获得城墙的 [ICON_TOURISM] 旅游业绩。所有国家公园提供的 [ICON_TOURISM] 旅游业绩+100%。</Text>
+			<Text>允许建造者种植森林（人造林）。营地产出的 [ICON_Gold] 金币+2。您领土上从未被移除的森林（原始林）获得+1魅力。获得城墙的 [ICON_TOURISM] 旅游业绩。所有国家公园提供的 [ICON_TOURISM] 旅游业绩+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有海军和水运单位可在海洋单元格上航行。</Text>
@@ -246,7 +246,7 @@
 			<Text>在帝国全境内+50% [ICON_Tourism] 旅游业绩。海滨度假区和滑雪场产出的 [ICON_Tourism] 旅游业绩+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>允许使用 [ICON_Faith] 信仰值购买自然学家以及建造国家公园。奖励2位 [ICON_Envoy] 使者。</Text>
+			<Text>允许使用 [ICON_Faith] 信仰值购买自然学家以及建造国家公园。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CULTURAL_HERITAGE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>显示 [ICON_RESOURCE_SHIPWRECK] 海难遗址，考古学家可从此处挖掘 [ICON_GreatWork_Artifact] 文物。奖励3位 [ICON_Envoy] 使者。[ICON_GreatWork_Artifact] 文物 +100% [ICON_Tourism] 旅游业绩。</Text>

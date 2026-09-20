@@ -45,7 +45,7 @@
 			<Text>Unlocks the Builder ability to construct Pastures.[NEWLINE][NEWLINE]+1 [ICON_Food] Food. Can only be built on valid resources.[NEWLINE][NEWLINE]If built on Strategic resources, the city will gain use of that resource.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="en_US">
-			<Text>Awards 3 [ICON_Envoy] Envoys. Allows Builders to plant Woods (second-growth). +2 [ICON_Gold] Gold from the Camp improvement. Woods in your territory that have never been removed (old-growth) gain +1 Appeal. Receive [ICON_TOURISM] Tourism from Walls. +100% [ICON_Tourism] Tourism from National Parks.</Text>
+			<Text>Allows Builders to plant Woods (second-growth). +2 [ICON_Gold] Gold from the Camp improvement. Woods in your territory that have never been removed (old-growth) gain +1 Appeal. Receive [ICON_TOURISM] Tourism from Walls. +100% [ICON_Tourism] Tourism from National Parks.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="en_US">
 			<Text>All naval and embarked units can navigate Ocean tiles.</Text>
@@ -247,7 +247,7 @@
 			<Text>+50% [ICON_Tourism] Tourism across your empire. +100% [ICON_Tourism] Tourism from Seaside Resorts and Ski Resorts.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION" Language="en_US">
-			<Text>Allows the building of National Parks and the purchase of Naturalists with [ICON_Faith] Faith. Awards 2 [ICON_Envoy] Envoys. </Text>
+			<Text>Allows the building of National Parks and the purchase of Naturalists with [ICON_Faith] Faith.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CULTURAL_HERITAGE_DESCRIPTION" Language="en_US">
 			<Text>Reveals [ICON_RESOURCE_SHIPWRECK] Shipwrecks, and allows Archaeologists to extract [ICON_GreatWork_Artifact] Artifacts from them. Awards 3 [ICON_Envoy] Envoys. +100% [ICON_Tourism] Tourism from [ICON_GreatWork_Artifact] Artifacts.</Text>
