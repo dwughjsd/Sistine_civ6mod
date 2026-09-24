@@ -201,7 +201,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GOVERNOR" />
-			<Set DefaultValue="10" />
+			<Set DefaultValue="6" />
 		</Update>
 	</PseudoYields>
 
@@ -374,8 +374,9 @@
 		<!--They don't know how to use it properly-->
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_PRESERVE" Favored="false"/>
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_NEIGHBORHOOD" Favored="false"/>
-		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_AERODROME" Favored="false"/>
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_AQUEDUCT" Favored="true"/>
+		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_CAMPUS" Favored="true"/>
+		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_THEATER" Favored="true"/>
 		<Row ListType="IndustrialDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
 
 		<!--To avoid AI selling it at a low price-->
@@ -481,13 +482,11 @@
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MARS_BASE" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
-		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
 		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_MANUFACTURING_PLANT" Favored="true"/>
 
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>
 		<Row ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
-		<Row ListType="CultureVictoryDistricts" Item="DISTRICT_THEATER" Favored="true"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_LANDSCAPE" Value="100"/>
