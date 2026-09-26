@@ -93,7 +93,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
-			<Set DefaultValue="1.5" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" />
@@ -427,6 +427,9 @@
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_TRADE" Value="50"/>
 
 		<!--No need to promote military academy. Build more Campus instead.-->
+		<Row ListType="AncientPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="150"/>
+		<Row ListType="ClassicalPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="50"/>
+		<Row ListType="ClassicalPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="250"/>
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" />
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" />
 		<Delete ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" />
@@ -437,8 +440,10 @@
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" />
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-50"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-200"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="-250"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="50"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_MERCHANT" Value="25"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
