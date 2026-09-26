@@ -387,7 +387,7 @@
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-170"/>
-		<Row ListType="ClassicalYields" Item="YIELD_FAITH" Value="-120"/>
+		<Row ListType="ClassicalYields" Item="YIELD_FAITH" Value="-70"/>
 
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MONUMENT" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GRANARY" Favored="true"/>
@@ -405,7 +405,7 @@
 		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="15"/>
-		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-30"/>
+		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-80"/>
 		
 		<!--We need more improvements!-->
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
