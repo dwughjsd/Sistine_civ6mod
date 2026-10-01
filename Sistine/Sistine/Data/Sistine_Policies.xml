@@ -92,6 +92,30 @@
 		<Delete PolicyType="POLICY_RAID"/>
 		<Delete PolicyType="POLICY_DIPLOMATIC_LEAGUE"/>
 		<Delete PolicyType="POLICY_RETINUES"/>
+		<Update>
+			<Where PolicyType="POLICY_TRIANGULAR_TRADE"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_ECOMMERCE"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_TRADE_CONFEDERATION"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_MARKET_ECONOMY"/>
+			<Set>
+				<GovernmentSlotType>SLOT_DIPLOMATIC</GovernmentSlotType>
+			</Set>
+		</Update>
 	</Policies>
 	<ObsoletePolicies>
 		<Delete PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_NATIVE_CONQUEST"/>
@@ -270,6 +294,11 @@
 		<Row PolicyType="POLICY_NOBEL_PRIZE" ModifierId="MANUFACTURING_PLANT_ADDITIONAL_GP"/>
 		<Row PolicyType="POLICY_LAISSEZ_FAIRE" ModifierId="LIGHTHOUSE_ADDITIONAL_GP"/>
 		<Row PolicyType="POLICY_LAISSEZ_FAIRE" ModifierId="MARKET_ADDITIONAL_GP"/>
+		<!--Trade route policies-->
+		<Row PolicyType="POLICY_CARAVANSARIES" ModifierId="CARAVANSARIES_GOLD_FROM_TRADE_ROUTE_LENGTH"/>
+		<Row PolicyType="POLICY_TRIANGULAR_TRADE" ModifierId="TRIANGULAR_TRADE_GOLD_FROM_TRADE_ROUTE_LENGTH"/>
+		<Row PolicyType="POLICY_ECOMMERCE" ModifierId="ECOMMERCE_PRODUCTION_FROM_TRADE_ROUTE_LENGTH"/>
+		<Delete PolicyType="POLICY_ECOMMERCE" ModifierId="ECOMMERCE_TRADEROUTEPRODUCTION"/>
 	</PolicyModifiers>
 	<Modifiers>
 		<Row>
@@ -456,6 +485,18 @@
 		<Row>
 			<ModifierId>THIRDALTERNATIVE_POWER_PLANT_SCIENCE_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CARAVANSARIES_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRIANGULAR_TRADE_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ECOMMERCE_PRODUCTION_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -976,6 +1017,72 @@
 			<ModifierId>EXPROPRIATION_SETTLERPRODUCTION</ModifierId>
 			<Name>Amount</Name>
 			<Value>30</Value>
+		</Row>
+		<Delete ModifierId="CARAVANSARIES_TRADEROUTEGOLD" Name="Amount"/>
+		<Row>
+			<ModifierId>CARAVANSARIES_TRADEROUTEGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Delete ModifierId="ECOMMERCE_TRADEROUTEGOLD" Name="Amount"/>
+		<Row>
+			<ModifierId>ECOMMERCE_TRADEROUTEGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>CARAVANSARIES_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CARAVANSARIES_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRIANGULAR_TRADE_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRIANGULAR_TRADE_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>ECOMMERCE_PRODUCTION_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.25</Value>
+		</Row>
+		<Row>
+			<ModifierId>ECOMMERCE_PRODUCTION_FROM_TRADE_ROUTE_LENGTH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Delete ModifierId="TRADECONFEDERATION_TRADEROUTECULTURE" Name="Amount"/>
+		<Delete ModifierId="TRADECONFEDERATION_TRADEROUTESCIENCE" Name="Amount"/>
+		<Row>
+			<ModifierId>TRADECONFEDERATION_TRADEROUTECULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADECONFEDERATION_TRADEROUTESCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Delete ModifierId="MARKETECONOMY_TRADEROUTECULTURE" Name="Amount"/>
+		<Delete ModifierId="MARKETECONOMY_TRADEROUTESCIENCE" Name="Amount"/>
+		<Row>
+			<ModifierId>MARKETECONOMY_TRADEROUTECULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>MARKETECONOMY_TRADEROUTESCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
 		</Row>
 	</ModifierArguments>
 	<Policy_GovernmentExclusives_XP2>

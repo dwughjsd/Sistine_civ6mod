@@ -129,27 +129,62 @@
 	<DiplomaticStates>
 		<Update>
 			<Where StateType="DIPLO_STATE_ALLIED"/>
-			<Set DiplomaticYieldBonus="25" />
+			<Set DiplomaticYieldBonus="10" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_DECLARED_FRIEND"/>
-			<Set DiplomaticYieldBonus="10" />
+			<Set DiplomaticYieldBonus="5" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_FRIENDLY"/>
-			<Set DiplomaticYieldBonus="10" />
+			<Set DiplomaticYieldBonus="5" />
+		</Update>
+		<Update>
+			<Where StateType="DIPLO_STATE_NEUTRAL"/>
+			<Set DiplomaticYieldBonus="-15" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_UNFRIENDLY"/>
-			<Set DiplomaticYieldBonus="-25" />
+			<Set DiplomaticYieldBonus="-50" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_DENOUNCED"/>
-			<Set DiplomaticYieldBonus="-50" />
+			<Set DiplomaticYieldBonus="-75" />
 		</Update>
 	</DiplomaticStates>
 
-	<Eras_XP2>
+	<DiplomaticStateTransitions>
+		<Update>
+			<Where BaseState="DIPLO_STATE_FRIENDLY" TransitionState="DIPLO_STATE_DECLARED_FRIEND"/>
+			<Set AllowTransitionMin="20" RequireTransitionMax="30"/>
+		</Update>
+		<Update>
+			<Where BaseState="DIPLO_STATE_FRIENDLY" TransitionState="DIPLO_STATE_NEUTRAL"/>
+			<Set RequireTransitionMin="5" AllowTransitionMax="20"/>
+		</Update>
+		<Update>
+			<Where BaseState="DIPLO_STATE_NEUTRAL" TransitionState="DIPLO_STATE_FRIENDLY"/>
+			<Set RequireTransitionMax="20" AllowTransitionMin="10"/>
+		</Update>
+		<Update>
+			<Where BaseState="DIPLO_STATE_NEUTRAL" TransitionState="DIPLO_STATE_UNFRIENDLY"/>
+			<Set RequireTransitionMin="-5" AllowTransitionMax="0"/>
+		</Update>
+		<Update>
+			<Where BaseState="DIPLO_STATE_UNFRIENDLY" TransitionState="DIPLO_STATE_NEUTRAL"/>
+			<Set RequireTransitionMax="10" AllowTransitionMin="0"/>
+		</Update>
+		<Update>
+			<Where BaseState="DIPLO_STATE_UNFRIENDLY" TransitionState="DIPLO_STATE_DENOUNCED"/>
+			<Set RequireTransitionMin="-25" AllowTransitionMax="-10"/>
+		</Update>
+		<Update>
+			<Where BaseState="DIPLO_STATE_DENOUNCED" TransitionState="DIPLO_STATE_WAR"/>
+			<Set RequireTransitionMin="-30" />
+		</Update>
+	</DiplomaticStateTransitions>
+
+		<Eras_XP2>
 		<Update>
 			<Where EraType="ERA_ANCIENT"/>
 			<Set GrievanceDecayRate="12" />

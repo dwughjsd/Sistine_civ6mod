@@ -303,10 +303,10 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送粮仓和水磨建筑，直到您帝国中已各有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、 [ICON_Citizen] 人口增长加速10%、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送粮仓和水磨建筑，直到您帝国中已各有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>此城生产开拓者时 [ICON_Production] 生产力+50%。新训练的建造者获得额外的1次建造次数。获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>此城生产开拓者时 [ICON_Production] 生产力+50%。获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>立即获得1个 [ICON_GreatGeneral] 大将军。战斗胜利后，获得等同于被击杀单位 [ICON_Strength] 战斗力50%的 [ICON_Culture] 文化值（标准速度下）。占领一座敌方城市后，所有城市将获得20%的 [ICON_Production] 生产力加成，效果持续5回合。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
@@ -339,7 +339,7 @@
 			<Text>获得1项随机的免费科技。建造者能使用所有次数为一个区域项目提供 [ICON_Production] 生产力加成。一次只能用于一座城市，每回合仅限使用一次。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>用于纪念您的政体选择，仅能在您的帝国中建造一次的区域。此城市的非食物产出+10%。使相邻区域获得的相邻加成+1。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>用于纪念您的政体选择，仅能在您的帝国中建造一次的区域。此城市的非 [ICON_Food] 食物产出+10%。使相邻区域获得的相邻加成+1。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<!--Districts-->
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="zh_Hans_CN">
@@ -804,6 +804,21 @@
 		</Replace>
 		<Replace Tag="LOC_POLICY_FUTURE_VICTORY_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>有军事学院、码头或宇航中心的城市+30% [ICON_Science] 科技值，+60% [ICON_Production] 生产力，同时+6点 [ICON_Power] 电力。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币。您的 [ICON_TradeRoute] 贸易路线每经过5个单元格，其提供的 [ICON_Gold] 金币便+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TRIANGULAR_TRADE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币和+1 [ICON_Faith] 信仰值。您的 [ICON_TradeRoute] 贸易路线每经过4个单元格，其提供的 [ICON_Gold] 金币便+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ECOMMERCE_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有 [ICON_TradeRoute] 贸易路线提供的 [ICON_Gold] 金币+6。您的 [ICON_TradeRoute] 贸易路线每经过4个单元格，其提供的 [ICON_Production] 生产力便+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>国际 [ICON_TradeRoute] 贸易路线产出+2 [ICON_Culture] 文化值以及+2 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您的国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Culture] 文化值以及+3 [ICON_Science] 科技值，且目的地每个改良的奢侈资源和战略资源提供+1 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<!--Renamed as Party Leadership-->
 		<Replace Tag="LOC_POLICY_DEFENSE_OF_MOTHERLAND_NAME" Language="zh_Hans_CN">

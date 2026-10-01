@@ -304,10 +304,10 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Food] Food, +2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in cities with [ICON_Governor] Governors. Grant free Granary and Water Mill buildings, until there are 4 respectively in your empire.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
+			<Text>+2 [ICON_Food] Food, 10% increased [ICON_CITIZEN] Population growth, +2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in cities with [ICON_Governor] Governors. Grant free Granary and Water Mill buildings, until there are 4 respectively in your empire.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_Production] Production towards Settlers. Newly trained Builders gain an extra build charge. Receive a free Settler and a free Builder.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
+			<Text>+50% [ICON_Production] Production towards Settlers in this city. Receive a free Settler and a free Builder.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="en_US">
 			<Text>Grants a free [ICON_GreatGeneral] Great General. Combat victories provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit. (on Standard Speed). Capturing an enemy City grants 20% bonus [ICON_Production] Production in all Cities for 5 turns.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
@@ -805,6 +805,21 @@
 		</Replace>
 		<Replace Tag="LOC_POLICY_FUTURE_VICTORY_SCIENCE_DESCRIPTION" Language="en_US">
 			<Text>Cities with a Military Academy, Seaport, or Spaceport generate +30% [ICON_Science] Science, +60% [ICON_Production] Production, and +6 [ICON_Power] Power.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Gold] Gold from all [ICON_TradeRoute] Trade Routes. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 5 tiles they travel.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TRIANGULAR_TRADE_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Gold] Gold and +1 [ICON_Faith] Faith from all [ICON_TradeRoute] Trade Routes. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 4 tiles they travel.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ECOMMERCE_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>+6 [ICON_Gold] Gold from all [ICON_TradeRoute] Trade Routes. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Production] Production for every 4 tiles they travel.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Culture] Culture and +2 [ICON_Science] Science from international [ICON_TradeRoute] Trade Routes.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION" Language="en_US">
+			<Text>Your international [ICON_TradeRoute] Trade Routes provide +1 [ICON_Gold] Gold per Luxury and Strategic resource improved at the destination, as well as +3 [ICON_Culture] Culture and +3 [ICON_Science] Science.</Text>
 		</Replace>
 		<!--Renamed as Party Leadership-->
 		<Replace Tag="LOC_POLICY_DEFENSE_OF_MOTHERLAND_NAME" Language="en_US">

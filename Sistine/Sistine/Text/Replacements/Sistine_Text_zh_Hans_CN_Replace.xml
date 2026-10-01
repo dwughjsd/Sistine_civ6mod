@@ -460,6 +460,25 @@
 		<Replace Tag="LOC_ABILITY_IGNORE_ZOC_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>不受控制区域影响</Text>
 		</Replace>
+		<Replace Tag="LOC_PROMOTION_ARENA_ROCK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>娱乐中心区域单元格中的表演效果提升2个等级。</Text>
+		</Replace>
+		<!--HUD-->
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_CULTURE" Language="zh_Hans_CN">
+			<Text>相邻娱乐中心区域提供+{1_num} [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_AMENITIES_FROM_LUXURIES" Language="zh_Hans_CN">
+			<Text>来自奢侈资源的宜居度：</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_AMENITIES_LUXURIES" Language="zh_Hans_CN">
+			<Text>{1_Num} = 来自奢侈资源的宜居度[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_TYPE_TRAIT_AMENITY_ENTERTAINMENT" Language="zh_Hans_CN">
+			<Text>{1_Amount: number +#,###;-#,###} 来自娱乐设施的 [ICON_Amenities] {1_Amount : plural 1?宜居度; other?宜居度;}</Text>
+		</Replace>
+		<Replace Tag="LOC_TYPE_TRAIT_AMENITY_ENTERTAINMENT_POWER_ENHANCEMENT" Language="zh_Hans_CN">
+			<Text>[ICON_Power] 供电充足时，额外 {1_Amount: number +#,###;-#,###} 来自娱乐设施的 [ICON_Amenities] {1_Amount : plural 1?宜居度; other?宜居度;}</Text>
+		</Replace>
 		<!--Governments-->
 		<Replace Tag="LOC_GOVERNMENT_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁制"/>
 		<Replace Tag="LOC_GOVERNMENT_OLIGARCHY_NAME" Language="zh_Hans_CN" Text="寡头制"/>
@@ -896,9 +915,6 @@
 		</Replace>
 		<Replace Tag="LOC_POLICY_INVENTION_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>每回合+4 [ICON_GreatEngineer] 大工程师点数。每座工坊每回合+2 [ICON_GreatEngineer] 大工程师点数。</Text>
-		</Replace>
-		<Replace Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>您的国际 [ICON_TradeRoute] 贸易路线+2 [ICON_Culture] 文化值以及+2 [ICON_Science] 科技值，且目的地每个改良的奢侈资源和战略资源提供+1 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_LOGISTICS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>单位在友方领土开始回合时+1 [ICON_Movement] 移动力。</Text>
@@ -1362,6 +1378,12 @@
 		</Replace>
 		<Replace Tag="LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_DARK_AGE" Language="zh_Hans_CN">
 			<Text>{LOC_MOMENT_CATEGORY_AUTOMATON_BONUS_NORMAL_AGE}</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_ENTERTAINMENT_COMPLEX_FIRST" Language="zh_Hans_CN">
+			<Text>首次将娱乐中心发展完全</Text>
+		</Replace>
+		<Replace Tag="LOC_MOMENT_BUILDING_CONSTRUCTED_FULL_ENTERTAINMENT_COMPLEX_FIRST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您首次建成了娱乐中心区域中的所有建筑。</Text>
 		</Replace>
 		<!--Random Events-->
 		<Replace Tag="LOC_RANDOM_EVENT_KILIMANJARO_GENTLE_NAME" Language="zh_Hans_CN">
