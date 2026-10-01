@@ -1,6 +1,6 @@
-点击截图下方的好评按钮吧！如果我们能够获得也许1000个好评，我们就会继续推进本作，还有我们的下一个领袖mod。
+[h1]由于未知原因，快速交易mod能够增强本作的AI，因此推荐同时使用。本作不需要快速交易也能正常运行。[/h1]
 
-本模组需要[b]全部[/b]DLC才能正常工作。
+本模组需要[b]风云变幻[/b]资料片才能正常工作。
 
 “鉴古维新”（暂定名，开发代号为Sistine）是我们制作的规模最大的全面调整mod，改动了原版游戏的几乎所有方面，目标是通过引入文明系列历代的做法，对游戏内选项进行平衡，增大游戏的决策空间，以使游戏的全流程更加有趣。
 
@@ -62,11 +62,9 @@ www139154 负责了本作品的游戏流程测试。 Boa of the Boaians 完成�
 
 需要mod制作支持，或者发现了什么问题吗？在[url=github.com/dwughjsd]我的GitHub[/url]（仅英文）上对我们的作品提出Issue吧。
 
-老实说，1000个好评是一个很遥远的目标。设置这个大目标的一大原因是我确实产生了离开这个游戏的想法——这个全面调整mod花费了我太多的精力。当然，如果我能够得到这份前所未有的支持，那我当然得继续陪伴大家啦。
+[h1]For unknown reason we found the Quick Deals mod enhances AI performance so it's now recommended to use it with this mod. This mod doesn't need Quick Deals mod to run.[/h1]
 
-Click the Thumbs Up button, pleaaase! If we are able to receive 1000 positive rates, we will be motivated push this mod and our next leader mod forward.
-
-This mod needs [b]ALL[/b] DLCs to work.
+This mod needs [b]Gathering Storm[/b] Expansion to work.
 
 Project Sistine (codename, not final name) is the largest mod we have ever made, and a total conversion mod that modified nearly every aspect of the vanilla Civilization VI. This mod aims to introduce principles and methods used in previous Civilization titles to balance available choices in the game to provide more meaningful strategies, thus making the gameplay more interesting.
 
@@ -123,5 +121,3 @@ www139154 completed the gameplay test of this mod. Boa of the Boaians made preli
 This mod received a lot of suggestions about designing and bugfixes, which we are hard to track exact contributors due to the long time it takes to finish this mod. We hereby express our gratitude to all players who tested our preview builds.
 
 Need modding support, or found some issues? Create an issue on my [url=github.com/dwughjsd]GitHub[/url].
-
-TBH 1000 positive rates is a hard goal for us. I have to admit the main reason why I set such a high goal is that I actually wanted to leave this community - this total conversion mod has exhausted all my energy to build. Of course I will stay here in the workshop if I can really receive such an unprecedented support.
