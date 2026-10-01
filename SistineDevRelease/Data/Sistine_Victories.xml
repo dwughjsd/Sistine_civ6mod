@@ -93,7 +93,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_PROPHET" />
-			<Set DefaultValue="0.8" />
+			<Set DefaultValue="1.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_SCIENTIST" />
@@ -123,12 +123,12 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_IMPROVEMENT" />
-			<Set DefaultValue="10.0" />
+			<Set DefaultValue="20.0" />
 		</Update>
 		<!--Much more important than spy-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" />
-			<Set DefaultValue="12.0" />
+			<Set DefaultValue="8.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SPY" />
@@ -152,7 +152,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" />
-			<Set DefaultValue="0.67" />
+			<Set DefaultValue="0.4" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_COMBAT" />
@@ -201,7 +201,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GOVERNOR" />
-			<Set DefaultValue="12" />
+			<Set DefaultValue="6" />
 		</Update>
 	</PseudoYields>
 
@@ -289,6 +289,8 @@
 	</Strategy_Priorities>
 
 	<AiFavoredItems>
+		<Row ListType="UnitPriorityBoosts" Item="UNIT_BUILDER" Value="1"/>
+
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_GOVERNMENT" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_CONQUEST" Favored="true"/>
 		<Row ListType="MilitaryVictoryBuildings" Item="BUILDING_GOV_FAITH" Favored="true"/>
@@ -299,9 +301,11 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_WIDE" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_CITYSTATES" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SPIES" Favored="true"/>
+		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GOV_SCIENCE" Favored="true"/>
 
 		<Row ListType="AncientTechs" Item="TECH_ANIMAL_HUSBANDRY" Favored="true" />
 		<Row ListType="AncientTechs" Item="TECH_BRONZE_WORKING" Favored="true" />
+		<Row ListType="AncientTechs" Item="TECH_IRRIGATION" Favored="true" />
 		<Row ListType="IndustrialTechs" Item="TECH_MASS_PRODUCTION" Favored="true" />
 		<Row ListType="IndustrialTechs" Item="TECH_SQUARE_RIGGING" Favored="true" />
 		<Row ListType="ModernTechs" Item="TECH_SANITATION" Favored="true" />
@@ -319,11 +323,9 @@
 		<Row ListType="DefaultCivicsSST" Item="CIVIC_CLASS_STRUGGLE" Favored="true" />
 
 		<Delete ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
-		<Delete ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" />
 
 		<Row ListType="ExploitationLoverExploitationPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="-100"/>
 		<Row ListType="EnvironmentLoverEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="15"/>
-		<Row ListType="BullMooseEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
 
 		<Delete ListType="DefaultYieldBias" Item="YIELD_PRODUCTION"/>
 		<Delete ListType="DefaultYieldBias" Item="YIELD_CULTURE"/>
@@ -366,12 +368,15 @@
 		<Row ListType="DefaultYieldBias" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_CULTURE" Value="30"/>
 		<Row ListType="DefaultYieldBias" Item="YIELD_GOLD" Value="20"/>
-		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="20"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_FOOD" Value="200"/>
+		<Row ListType="DefaultYieldBias" Item="YIELD_FAITH" Value="100"/>
 
 		<!--They don't know how to use it properly-->
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_PRESERVE" Favored="false"/>
 		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_NEIGHBORHOOD" Favored="false"/>
-		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_AERODROME" Favored="false"/>
+		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_AQUEDUCT" Favored="true"/>
+		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_CAMPUS" Favored="true"/>
+		<Row ListType="DefaultDistrictsSST" Item="DISTRICT_THEATER" Favored="true"/>
 		<Row ListType="IndustrialDistricts" Item="DISTRICT_ENCAMPMENT" Favored="false"/>
 
 		<!--To avoid AI selling it at a low price-->
@@ -381,8 +386,8 @@
 		<Row ListType="ClassicalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_SCIENCE" Value="20"/>
 		<Row ListType="ClassicalYields" Item="YIELD_GOLD" Value="10"/>
-		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="10"/>
-		<Row ListType="ClassicalYields" Item="YIELD_FAITH" Value="-20"/>
+		<Row ListType="ClassicalYields" Item="YIELD_FOOD" Value="-170"/>
+		<Row ListType="ClassicalYields" Item="YIELD_FAITH" Value="-70"/>
 
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MONUMENT" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_GRANARY" Favored="true"/>
@@ -400,11 +405,11 @@
 		<Row ListType="MedievalYields" Item="YIELD_CULTURE" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_GOLD" Value="10"/>
 		<Row ListType="MedievalYields" Item="YIELD_FOOD" Value="15"/>
-		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-30"/>
+		<Row ListType="MedievalYields" Item="YIELD_FAITH" Value="-80"/>
 		
 		<!--We need more improvements!-->
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
-		
+
 		<Row ListType="RenaissanceYields" Item="YIELD_PRODUCTION" Value="10"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_SCIENCE" Value="30"/>
 		<Row ListType="RenaissanceYields" Item="YIELD_CULTURE" Value="30"/>
@@ -418,10 +423,13 @@
 		<Row ListType="IndustrialYields" Item="YIELD_GOLD" Value="20"/>
 
 		<!--We really need more improvements!-->
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="100"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
-		
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_IMPROVEMENT" Value="50"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_TRADE" Value="50"/>
+
 		<!--No need to promote military academy. Build more Campus instead.-->
+		<Row ListType="AncientPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="150"/>
+		<Row ListType="ClassicalPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="50"/>
+		<Row ListType="ClassicalPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="250"/>
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" />
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" />
 		<Delete ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" />
@@ -431,13 +439,18 @@
 		<Delete ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" />
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" />
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-50"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-200"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="-250"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="50"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_MERCHANT" Value="25"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
-		
+		<!--Industrial Powerrrrrrrrr!!!!!!!!! Let's see what would happen if we make it aggressively.-->
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="1000"/>
+
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="20"/>
 
 		<!--Slow building campuses and we are going to launch spaceships!-->
@@ -474,13 +487,11 @@
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_MARS_BASE" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_LAUNCH_EXOPLANET_EXPEDITION" Favored="true"/>
 		<Row ListType="ScienceVictoryProjects" Item="PROJECT_ORBITAL_LASER" Favored="true"/>
-		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
 		<Row ListType="ScienceVictoryDistricts" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
 		<Row ListType="ScienceVictoryBuildings" Item="BUILDING_MANUFACTURING_PLANT" Favored="true"/>
 
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="300"/>
 		<Row ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_ENVIRONMENT" Value="25"/>
-		<Row ListType="CultureVictoryDistricts" Item="DISTRICT_THEATER" Favored="true"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="100"/>
 		<Replace ListType="CultureVictoryPseudoYields" Item="PSEUDOYIELD_GREATWORK_LANDSCAPE" Value="100"/>
@@ -506,7 +517,7 @@
 		<Row ListType="AggressivePseudoYields" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="100"/>
 		<Row ListType="AggressivePseudoYields" Item="PSEUDOYIELD_GPP_GENERAL" Value="100"/>
 
-		<Row ListType="ReligiousPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="500"/>
+		<Row ListType="ReligiousPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="250"/>
 		<Row ListType="ReligiousPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="50"/>
 		<Row ListType="ReligiousYields" Item="YIELD_FAITH" Value="75"/>
 	</AiFavoredItems>

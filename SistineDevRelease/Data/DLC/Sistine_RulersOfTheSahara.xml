@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LeaderTraits>
+		<!--Swap the two leader abilities-->
+		<Delete LeaderType="LEADER_CLEOPATRA_ALT" TraitType="TRAIT_LEADER_CLEOPATRA_ALT"/>
+		<Delete LeaderType="LEADER_CLEOPATRA" TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
+		<Row LeaderType="LEADER_CLEOPATRA_ALT" TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
+		<Row LeaderType="LEADER_CLEOPATRA" TraitType="TRAIT_LEADER_CLEOPATRA_ALT"/>
+	</LeaderTraits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_RAMSES" ModifierId="TRAIT_EXTRA_PRODUCTION_BUILDINGS"/>
+		<Row TraitType="TRAIT_LEADER_SUNDIATA_KEITA" ModifierId="TRAIT_COMMERCIAL_HUB_GREAT_WRITER_POINTS"/>
+	</TraitModifiers>
+</GameData>

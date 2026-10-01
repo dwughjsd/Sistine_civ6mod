@@ -110,14 +110,6 @@
 			<Set Cost="20" />
 		</Update>
 		<Update>
-			<Where DistrictType="DISTRICT_IKANDA" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_SEOWON" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
 			<Where DistrictType="DISTRICT_WATER_STREET_CARNIVAL" />
 			<Set Cost="20" />
 		</Update>
@@ -127,22 +119,6 @@
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_SUGUBA" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_OBSERVATORY" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_HIPPODROME" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_OPPIDUM" />
-			<Set Cost="20" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_THANH" />
 			<Set Cost="20" />
 		</Update>
 	</Districts>
@@ -180,10 +156,6 @@
 			<Set YieldChange="3" />
 		</Update>
 		<Update>
-			<Where DistrictType="DISTRICT_IKANDA" YieldType="YIELD_PRODUCTION"/>
-			<Set YieldChange="2" />
-		</Update>
-		<Update>
 			<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION"/>
 			<Set YieldChange="3" />
 		</Update>
@@ -192,28 +164,12 @@
 			<Set YieldChange="3" />
 		</Update>
 		<Update>
-			<Where DistrictType="DISTRICT_OBSERVATORY" YieldType="YIELD_SCIENCE"/>
-			<Set YieldChange="3" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_PRODUCTION"/>
-			<Set YieldChange="3" />
-		</Update>
-		<Update>
 			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_FOOD"/>
 			<Set YieldChange="2" />
 		</Update>
 		<Update>
-			<Where DistrictType="DISTRICT_SEOWON" YieldType="YIELD_SCIENCE"/>
-			<Set YieldChange="3" />
-		</Update>
-		<Update>
 			<Where DistrictType="DISTRICT_SUGUBA" YieldType="YIELD_GOLD"/>
 			<Set YieldChange="6" />
-		</Update>
-		<Update>
-			<Where DistrictType="DISTRICT_THANH" YieldType="YIELD_PRODUCTION"/>
-			<Set YieldChange="2" />
 		</Update>
 		<Update>
 			<Where DistrictType="DISTRICT_THEATER" YieldType="YIELD_CULTURE"/>
@@ -244,16 +200,9 @@
 		<Row DistrictType="DISTRICT_HANSA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_LAVRA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_IKANDA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_SEOWON" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_GOVERNMENT" YieldType="YIELD_CULTURE" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_OBSERVATORY" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_THANH" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
-		<Row DistrictType="DISTRICT_DIPLOMATIC_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 	<TraitModifiers>
 		<Row>
@@ -340,15 +289,18 @@
 			<DistrictType>DISTRICT_GOVERNMENT</DistrictType>
 			<ModifierId>GOVERNMENT_IDENTITY_PER_TURN_MODIFIER</ModifierId>
 		</Delete>
+		<Row DistrictType="DISTRICT_AQUEDUCT" ModifierId="GROWTHBUILDING_10_POP_GROWTH" />
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_SCIENCE" />
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_CULTURE" />
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_GOLD" />
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_FAITH" />
 		<Row DistrictType="DISTRICT_GOVERNMENT" ModifierId="GOVERNMENT_10_PRODUCTION" />
 		<Row DistrictType="DISTRICT_NEIGHBORHOOD" ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" />
+		<Row DistrictType="DISTRICT_NEIGHBORHOOD" ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD_POWERED" />
 		<Row DistrictType="DISTRICT_NEIGHBORHOOD" ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" />
 		<Row DistrictType="DISTRICT_NEIGHBORHOOD" ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" />
 		<Row DistrictType="DISTRICT_MBANZA" ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" />
+		<Row DistrictType="DISTRICT_MBANZA" ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD_POWERED" />
 		<Row DistrictType="DISTRICT_MBANZA" ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" />
 		<Row DistrictType="DISTRICT_MBANZA" ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" />
 	</DistrictModifiers>
@@ -359,6 +311,7 @@
 		<Row ModifierId="GOVERNMENT_10_FAITH" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
 		<Row ModifierId="GOVERNMENT_10_PRODUCTION" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" />
 		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" ModifierType="MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE" SubjectRequirementSetId="BUILDING_IS_FOOD_MARKET_SST"/>
+		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD_POWERED" ModifierType="MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE" SubjectRequirementSetId="BUILDING_IS_FOOD_MARKET_POWERED_SST"/>
 		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" ModifierType="MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE" SubjectRequirementSetId="BUILDING_IS_SHOPPING_MALL_SST"/>
 		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" ModifierType="MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE" SubjectRequirementSetId="BUILDING_IS_SHOPPING_MALL_POWERED_SST"/>
 	</Modifiers>
@@ -375,56 +328,25 @@
 		<Row ModifierId="GOVERNMENT_10_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
 		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" Name="Amount" Value="4"/>
 		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD_POWERED" Name="Amount" Value="2"/>
+		<Row ModifierId="NEIGHBORHOOD_FOOD_MARKET_FOOD_POWERED" Name="YieldType" Value="YIELD_FOOD"/>
 		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" Name="Amount" Value="4"/>
 		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
 		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" Name="Amount" Value="4"/>
 		<Row ModifierId="NEIGHBORHOOD_SHOPPING_MALL_GOLD_POWERED" Name="YieldType" Value="YIELD_GOLD"/>
 	</ModifierArguments>
 	<District_Adjacencies>
-		<Delete DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Strategic_Production"/>
-		<Delete DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production2"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Strategic_Production"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Minel_HalfProduction"/>
-		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="OffshoreOilRig_Production2"/>
-		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="OilWell_Production2"/>
-		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="OffshoreOilRig_Production"/>
-		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="OilWell_Production"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="OffshoreOilRig_Production"/>
-		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="OilWell_Production"/>
+		<Delete DistrictType="DISTRICT_SUGUBA" YieldChangeId="Lavra_Gold"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="Minel_HalfProduction"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="LumberMill_HalfProduction"/>
 	</District_Adjacencies>
-	<Adjacency_YieldChanges>
-		<Update>
-			<Where ID="Minel_HalfProduction" />
-			<Set TilesRequired="1" />
-		</Update>
-		<Update>
-			<Where ID="LumberMill_HalfProduction" />
-			<Set TilesRequired="1" />
-		</Update>
-		<Update>
-			<Where ID="Aqueduct_Production" />
-			<Set YieldChange="1" />
-		</Update>
-		<Update>
-			<Where ID="Bath_Production" />
-			<Set YieldChange="1" />
-		</Update>
-		<Update>
-			<Where ID="Canal_Production" />
-			<Set YieldChange="1" />
-		</Update>
-		<Update>
-			<Where ID="Dam_Production" />
-			<Set YieldChange="1" />
-		</Update>
-		<Row ID="OffshoreOilRig_Production" Description="LOC_DISTRICT_OFFSHORE_OIL_RIG_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
-		<Row ID="OffshoreOilRig_Production2" Description="LOC_DISTRICT_OFFSHORE_OIL_RIG_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
-		<Row ID="OilWell_Production" Description="LOC_DISTRICT_OIL_WELL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OIL_WELL"/>
-		<Row ID="OilWell_Production2" Description="LOC_DISTRICT_OIL_WELL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OIL_WELL"/>
-	</Adjacency_YieldChanges>
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>BUILDING_IS_FOOD_MARKET_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_FOOD_MARKET_POWERED_SST</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
@@ -440,6 +362,14 @@
 		<Row>
 			<RequirementSetId>BUILDING_IS_FOOD_MARKET_SST</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_FOOD_MARKET_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_FOOD_MARKET_POWERED_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_FOOD_MARKET_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_FOOD_MARKET_POWERED_SST</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_IS_POWERED</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>BUILDING_IS_SHOPPING_MALL_SST</RequirementSetId>

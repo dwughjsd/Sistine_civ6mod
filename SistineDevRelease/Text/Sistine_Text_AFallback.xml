@@ -45,7 +45,7 @@
 			<Text>Unlocks the Builder ability to construct Pastures.[NEWLINE][NEWLINE]+1 [ICON_Food] Food. Can only be built on valid resources.[NEWLINE][NEWLINE]If built on Strategic resources, the city will gain use of that resource.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="en_US">
-			<Text>Awards 3 [ICON_Envoy] Envoys. Allows Builders to plant Woods (second-growth). +2 [ICON_Gold] Gold from the Camp improvement. Woods in your territory that have never been removed (old-growth) gain +1 Appeal. Receive [ICON_TOURISM] Tourism from Walls. +100% [ICON_Tourism] Tourism from National Parks.</Text>
+			<Text>Allows Builders to plant Woods (second-growth). +2 [ICON_Gold] Gold from the Camp improvement. Woods in your territory that have never been removed (old-growth) gain +1 Appeal. Receive [ICON_TOURISM] Tourism from Walls. +100% [ICON_Tourism] Tourism from National Parks.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="en_US">
 			<Text>All naval and embarked units can navigate Ocean tiles.</Text>
@@ -70,61 +70,7 @@
 		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="en_US">
 			<Text>Space Race project which launches a large rocket to land a human on the moon. Grants a one time [ICON_Culture] Culture bonus equal to 10 times your [ICON_Culture] Culture per turn, and marks the second step towards the Science Victory.</Text>
 		</Replace>
-		<!--City-states-->
-		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Science] Science in your [ICON_Capital] Capital.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Science] Science in every University and Consulate building.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Science] Science in every Research Lab and Chancery building.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Faith] Faith in the [ICON_Capital] Capital.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Faith] Faith in every Temple and Consulate building.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Faith] Faith in every worship and Chancery building.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
-			<Text>+2 [ICON_Gold] Gold in the [ICON_Capital] Capital.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
-			<Text>+2 [ICON_Gold] Gold in every Bank, Shipyard, and Consulate building.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
-			<Text>+2 [ICON_Gold] Gold in every Stock Exchange, Seaport, and Chancery building.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Culture] Culture in the [ICON_Capital] Capital.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Culture] Culture in every Art Museum, Archeological Museum, and Consulate building.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Culture] Culture in every Broadcast Center and Chancery building.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Production] Production in the [ICON_Capital] Capital when producing units.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Production] Production in every city with an Armory or Consulate building when producing units. Receive +2 [ICON_Production] Production if it has both these buildings.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Production] Production in every city with an Armory or Consulate building when producing units. Receive +2 [ICON_Production] Production if it has both these buildings.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Production] Production in the [ICON_Capital] Capital when producing wonders, buildings, and districts.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Production] Production in every city with a Factory or Consulate building when producing wonders, buildings, and districts. Receive +2 [ICON_Production] Production if it has both these buildings.</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
-			<Text>+1 [ICON_Production] Production in every city with a Chancery or Power Plant building when producing wonders, buildings, and districts. Receive +2 [ICON_Production] Production if it has both a Chancery and a Power Plant building.</Text>
-		</Replace>
+
 		<!--Beliefs-->
 		<Replace Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Culture] Culture from Plantations.</Text>
@@ -139,7 +85,7 @@
 			<Text>Increases Healing by +30 in your City Center or Holy Site district, or any adjacent tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>When chosen receive a Builder in your capital. City growth rate is 15% higher.</Text>
+			<Text>When chosen receive a Builder in your capital. City growth rate is 10% higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Production] Production and +1 [ICON_Faith] Faith from improved Strategic resources. +1 [ICON_GreatProphet] Great Prophet point from each city with an improved [ICON_Resource_Horses] Horses or [ICON_Resource_Iron] Iron resource.</Text>
@@ -189,7 +135,7 @@
 		</Replace>
 		<!--Governments & Policies-->
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="en_US">
-			<Text>Palace, Government Plaza and Diplomatic Quarter provide +2 [ICON_Culture] Culture and +1 [ICON_Gold] Gold per [ICON_Citizen] Citizen in the city.</Text>
+			<Text>Palace and Government Plaza provide +2 [ICON_Culture] Culture and +1 [ICON_Gold] Gold per [ICON_Citizen] Citizen in the city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST" Language="en_US">
 			<Text>+10% Production toward Wonders.</Text>
@@ -301,7 +247,7 @@
 			<Text>+50% [ICON_Tourism] Tourism across your empire. +100% [ICON_Tourism] Tourism from Seaside Resorts and Ski Resorts.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION" Language="en_US">
-			<Text>Allows the building of National Parks and the purchase of Naturalists with [ICON_Faith] Faith. Awards 2 [ICON_Envoy] Envoys. </Text>
+			<Text>Allows the building of National Parks and the purchase of Naturalists with [ICON_Faith] Faith.</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CULTURAL_HERITAGE_DESCRIPTION" Language="en_US">
 			<Text>Reveals [ICON_RESOURCE_SHIPWRECK] Shipwrecks, and allows Archaeologists to extract [ICON_GreatWork_Artifact] Artifacts from them. Awards 3 [ICON_Envoy] Envoys. +100% [ICON_Tourism] Tourism from [ICON_GreatWork_Artifact] Artifacts.</Text>
@@ -358,7 +304,7 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Food] Food, +2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in cities with [ICON_Governor] Governors. Grant free Sewer buildings, until there are 4 in your empire.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
+			<Text>+2 [ICON_Food] Food, +2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in cities with [ICON_Governor] Governors. Grant free Granary and Water Mill buildings, until there are 4 respectively in your empire.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
 			<Text>+50% [ICON_Production] Production towards Settlers. Newly trained Builders gain an extra build charge. Receive a free Settler and a free Builder.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
@@ -400,12 +346,15 @@
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="en_US">
 			<Text>A district in your city for cultural sites.[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="en_US">
+			<Text>A district that provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. [ICON_CITIZEN] Population growth of this city is increased by 10%. If built adjacent to a Geothermal Fissure +1 [ICON_Amenities] Amenity. Prevents [ICON_Food] Food loss during Drought. Must be built adjacent to the City Center. Military Engineers can spend a charge to complete 20% of an Aqueduct's production.</Text>
+		</Replace>
 		<!--Wonders-->
 		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_SCIENCE] Science, +1 [ICON_PRODUCTION] Production, and +2 [ICON_Food] Food to all Marsh tiles in your empire. +1 [ICON_SCIENCE] Science on all Floodplains tiles for this city.[NEWLINE][NEWLINE]Must be built on Floodplains or Marsh.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="en_US">
-			<Text>Increases growth by 25% in all cities. Must be built next to a River.</Text>
+			<Text>Increases growth by 15% in all cities. Must be built next to a River.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="en_US">
 			<Text>Patronage of Great People costs 25% less [ICON_Faith] Faith. [ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide an extra 10% of the Science and Culture cost for researching technologies and civics. Districts in this city provide +2 [ICON_GreatPerson] Great Person points of their type (for example, [ICON_GreatWriter] Great Writer points from the Theater Square district). Must be built on Hills.</Text>
@@ -868,7 +817,7 @@
 			<Text>+100% Theater Square district adjacency bonuses. Broadcast Centers, Stadiums and Aquatic Centers generate +1 [ICON_Amenities] Amenity.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="en_US">
-			<Text>Extra [ICON_Science] Science from cities with a Public School: +15% if city [ICON_CITIZEN] population is 10 or higher. The bonus is doubled if the city [ICON_CITIZEN] population is 15 or higher.</Text>
+			<Text>Extra [ICON_Science] Science from cities with a University: +15% if city [ICON_CITIZEN] population is 10 or higher. The bonus is doubled if the city [ICON_CITIZEN] population is 15 or higher.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="en_US">
 			<Text>Extra [ICON_Gold] Gold from cities with a Bank or Shipyard: +15% if city [ICON_CITIZEN] population is 10 or higher. The bonus is doubled if the city [ICON_CITIZEN] population is 15 or higher.</Text>
@@ -1066,7 +1015,7 @@
 			<Text>Have 3 Infantry units in your military.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_SUFFRAGE" Language="en_US">
-			<Text>Build 2 Hospitals.</Text>
+			<Text>Build 4 Sewers.</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_TOTALITARIANISM" Language="en_US">
 			<Text>Build a Military Academy.</Text>
@@ -1254,9 +1203,6 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_PROGRAM" Language="en_US">
 			<Text>With dedicated research labs in place, your initiative to recruit scientists into a nuclear research program can commence.</Text>
 		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE" Language="en_US">
-			<Text>The women of your empire have clamored for proper healthcare services. Having won that battle, they now need the right to vote.</Text>
-		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS" Language="en_US">
 			<Text>Your newly built stadium wants to host a new professional sports league.</Text>
 		</Replace>
@@ -1359,7 +1305,7 @@
 			<Text>+0.5 [ICON_Science] Science and [ICON_Culture] Culture per [ICON_Citizen] Citizen in the city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_Food] Growth in the city. +50% yields from plot harvests and feature removals in city.</Text>
+			<Text>+20% [ICON_Food] Growth in the city. +50% yields from plot harvests and feature removals in city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="en_US">
 			<Text>Religious pressure to adjacent cities is 100% stronger from this city. +1 [ICON_Faith] Faith per [ICON_Citizen] Citizen in this city.</Text>
@@ -1632,18 +1578,19 @@
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Manufacturing plants are large industrial complexes that produce goods of all types, although they are generally used to produce durable consumer goods such as automobiles. Essentially, a manufacturing plant is a large, sophisticated factory that employs specialization of labor, complex machinery, and assembly lines to gain efficiency and economies of scale. This combination of manpower and automation increases productivity and reduces production costs.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>A hospital is an institution for diagnosing and treating the sick or injured, and for housing them during their recovery. Many hospitals are also teaching institutions, where student doctors and nurses learn their trade. The earliest hospitals were temples to certain gods associated with health and healing. Religious hospitals were established in Sri Lanka by 430 BC, and King Asoka of India created a chain of hospitals across Hindustan around 230 BC.</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>A medical laboratory is an institution that studies disease and human anatomy using a wide variety of extremely sophisticated and powerful instruments - from ultrasound to cameras the size of an ant to electron microscopes. Most - if not all - of the remarkable advances in medicine in the past 25 years have been made in medical labs. These include the sequencing of human DNA, antiviral therapies to battle HIV, gene editing, and more. Much of the increasing cost of healthcare can be attributed to the simple fact that medical laboratories have been remarkably successful at battling illness and prolonging and improving the quality of human life - and these improvements cost huge amounts of money.</Text>
-		</Replace>
 		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>In a proletarian socialist state, the people have the power; however, even Marx realized that some form of party hierarchy would be necessary for efficient operation of state services and to insure that the proletarian order itself was preserved. For that reason, the Bolsheviks argued in 1917 that a vanguard party of bureaucrats would head a centralized political party that administered the new Soviet Russia.</Text>
 		</Replace>
 		<!--Text fixes-->
 		<Replace Tag="LOC_TECH_STEEL_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Production] Production from the Lumber Mill improvement. Unlocks Urban Defenses, giving all of your cities an automatic 400 Fortification health and the ability to perform a ranged attack. All previous wall improvements become obsolete and siege support units are no longer effective.</Text>
+		</Replace>
+		<!--Future Tech/Civic-->
+		<Replace Tag="LOC_TECH_FUTURE_TECH_DESCRIPTION_SST" Language="en_US">
+			<Text>Can be completed multiple times, increasing your points towards the Score Victory. Also grants all of your cities +25% [ICON_Production] Production towards city projects each time it is completed.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_FUTURE_CIVIC_DESCRIPTION_SST" Language="en_US">
+			<Text>Can be completed multiple times, increasing your points towards the Score Victory. Also awards 1 [ICON_Governor] Governor title, 1 Diplomatic Victory point and +50% [ICON_Tourism] Tourism across your empire each time it is completed.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

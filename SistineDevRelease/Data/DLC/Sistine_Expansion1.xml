@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_KOTOKU_IN" />
+			<Set Cost="480"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_TAJ_MAHAL" />
+			<Set Cost="600"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STATUE_LIBERTY" />
+			<Set Cost="850"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" />
+			<Set Cost="1280"/>
+		</Update>
+	</Buildings>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_KOTOKU_IN" ModifierId="KOTOKUIN_WARRIOR_MONK_ABILITY"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_SCIENCE"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_CULTURE"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_PRODUCTION"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_FAITH"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_GOLDEN_AGE_GOLD"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" ModifierId="STATUELIBERTY_GRANTBUILDERS"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" ModifierId="STATUELIBERTY_PRODUCTION_PER_POP"/>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" ModifierId="AMUNDSENSCOTT_GREAT_SCIENTIST"/>
+	</BuildingModifiers>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_IKANDA" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_SEOWON" />
+			<Set Cost="20" />
+		</Update>
+	</Districts>
+	<District_CitizenYieldChanges>
+		<Update>
+			<Where DistrictType="DISTRICT_IKANDA" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="2" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_SEOWON" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="3" />
+		</Update>
+	</District_CitizenYieldChanges>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_IKANDA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<Feature_YieldChanges>
+		<Replace FeatureType="FEATURE_EYE_OF_THE_SAHARA" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Replace FeatureType="FEATURE_EYE_OF_THE_SAHARA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_LAKE_RETBA" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Replace FeatureType="FEATURE_LAKE_RETBA" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_LAKE_RETBA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_UBSUNUR_HOLLOW" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_UBSUNUR_HOLLOW" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_UBSUNUR_HOLLOW" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Feature_YieldChanges>
+	<Feature_AdjacentYields>
+		<Replace FeatureType="FEATURE_DELICATE_ARCH" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_DELICATE_ARCH" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Delete FeatureType="FEATURE_DELICATE_ARCH" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_MATTERHORN" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row FeatureType="FEATURE_ZHANGYE_DANXIA" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Feature_AdjacentYields>
+	<Improvement_BonusYieldChanges>
+		<Row Id="20002" ImprovementType="IMPROVEMENT_GOLF_COURSE" YieldType="YIELD_CULTURE" BonusYieldChange="2" PrereqCivic="CIVIC_CAPITALISM"/>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_GOLD" />
+			<Set BonusYieldChange="2" PrereqCivic="CIVIC_MEDIEVAL_FAIRES"/>
+		</Update>
+	</Improvement_BonusYieldChanges>
+	<Improvement_YieldChanges>
+		<Replace ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_FOOD" YieldChange="2"/>
+	</Improvement_YieldChanges>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_TRADEROUTECULTUREFROMALLY"/>
+		<Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_TRADEROUTECULTUREFROMSUZERAIN"/>
+		<Row TraitType="TRAIT_LEADER_RELIGION_CITY_STATES" ModifierId="TRAIT_GRANT_FAITH_UNIT_TRAINED"/>
+		<Row TraitType="TRAIT_LEADER_HWARANG" ModifierId="TRAIT_ADJUST_GOVERNOR_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_HWARANG" ModifierId="TRAIT_ADJUST_GOVERNOR_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_FOUNDED_CITY_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_NOT_FOUNDED_CITY_PRODUCTION_PENALTY"/>
+	</TraitModifiers>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_SCOTTISH_HIGHLANDER" />
+			<Set Combat="55" RangedCombat="60" Range="2"/>
+		</Update>
+	</Units>
+	<TypeTags>
+		<Row Type="UNIT_SCOTTISH_HIGHLANDER" Tag="CLASS_RECON_DEFENSE_VS_RANGED"/>
+	</TypeTags>
+
+	<Modifiers>
+		
+	</Modifiers>
+	<ModifierArguments>
+		
+	</ModifierArguments>
+</GameData>

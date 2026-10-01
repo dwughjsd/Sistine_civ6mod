@@ -62,6 +62,10 @@
 			<Set Description="LOC_TECH_OFFWORLD_MISSION_DESCRIPTION_SST"/>
 		</Update>
 		<Update>
+			<Where TechnologyType="TECH_FUTURE_TECH" />
+			<Set Description="LOC_TECH_FUTURE_TECH_DESCRIPTION_SST"/>
+		</Update>
+		<Update>
 			<Where TechnologyType="TECH_TELECOMMUNICATIONS" />
 			<Set AdvisorType="ADVISOR_CONQUEST"/>
 		</Update>
@@ -584,6 +588,10 @@
 		<Update>
 			<Where CivicType="CIVIC_INFORMATION_WARFARE" />
 			<Set AdvisorType="ADVISOR_CONQUEST"/>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_FUTURE_CIVIC" />
+			<Set Description="LOC_CIVIC_FUTURE_CIVIC_DESCRIPTION_SST"/>
 		</Update>
 		<!--Cost: Don't add other data here, queries are auto generated-->
 		<Update>
@@ -1134,7 +1142,7 @@
 		<Update><Where CivicType="CIVIC_NUCLEAR_PROGRAM" /><Set NumItems="2"/></Update>
 		<Update><Where CivicType="CIVIC_MASS_MEDIA" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_DISTRICTS" DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" NumItems="3"/></Update>
 		<Update><Where CivicType="CIVIC_MOBILIZATION" /><Set BoostClass="BOOST_TRIGGER_OWN_X_UNITS_OF_TYPE" Unit1Type="UNIT_INFANTRY" NumItems="3"/></Update>
-		<Update><Where CivicType="CIVIC_SUFFRAGE" /><Set BuildingType="BUILDING_HOSPITAL" NumItems="2"/></Update>
+		<Update><Where CivicType="CIVIC_SUFFRAGE" /><Set BuildingType="BUILDING_SEWER" NumItems="4"/></Update>
 		<Update><Where CivicType="CIVIC_TOTALITARIANISM" /><Set NumItems="1"/></Update>
 		<Update><Where CivicType="CIVIC_CLASS_STRUGGLE" /><Set NumItems="4"/></Update>
 		<Update><Where CivicType="CIVIC_PROFESSIONAL_SPORTS" /><Set BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_STADIUM" NumItems="1"/></Update>
@@ -1166,5 +1174,229 @@
 			<Name>TechType</Name>
 			<Value>TECH_SATELLITES</Value>
 		</Row>
+	</ModifierArguments>
+	
+	<!--Governors & Envoys-->
+	<CivicModifiers>
+		<Delete ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Delete ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Delete ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Delete ModifierId="CIVIC_AWARD_THREE_INFLUENCE_TOKENS"/>
+		<Delete CivicType="CIVIC_FUTURE_CIVIC" ModifierId="CIVIC_GRANT_FAVOR"/>
+		<Row CivicType="CIVIC_MYSTICISM" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_THEOLOGY" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_MILITARY_TRAINING" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_MERCENARIES" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_NAVAL_TRADITION" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_EXPLORATION" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_REFORMED_CHURCH" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_NATURAL_HISTORY" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_OPERA_BALLET" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_CONSERVATION" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_CAPITALISM" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_CULTURAL_HERITAGE" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_PROFESSIONAL_SPORTS" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_SOCIAL_MEDIA" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_ENVIRONMENTALISM" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_FUTURE_CIVIC" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>
+		<Row CivicType="CIVIC_STATE_WORKFORCE" ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Row CivicType="CIVIC_DEFENSIVE_TACTICS" ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Row CivicType="CIVIC_RECORDED_HISTORY" ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Row CivicType="CIVIC_MEDIEVAL_FAIRES" ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Row CivicType="CIVIC_GUILDS" ModifierId="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"/>
+		<Row CivicType="CIVIC_MERCANTILISM" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_THE_ENLIGHTENMENT" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_CIVIL_ENGINEERING" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_NATIONALISM" ModifierId="CIVIC_AWARD_TWO_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_MASS_MEDIA" ModifierId="CIVIC_AWARD_THREE_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_MOBILIZATION" ModifierId="CIVIC_AWARD_THREE_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_RAPID_DEPLOYMENT" ModifierId="CIVIC_AWARD_THREE_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_SPACE_RACE" ModifierId="CIVIC_AWARD_THREE_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_GLOBALIZATION" ModifierId="CIVIC_AWARD_FOUR_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_NEAR_FUTURE_GOVERNANCE" ModifierId="CIVIC_AWARD_FOUR_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" ModifierId="CIVIC_AWARD_FOUR_INFLUENCE_TOKENS"/>
+		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" ModifierId="CIVIC_AWARD_FOUR_INFLUENCE_TOKENS"/>
+	</CivicModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>CIVIC_AWARD_FOUR_INFLUENCE_TOKENS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>CIVIC_AWARD_FOUR_INFLUENCE_TOKENS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Trick AI to get government civics.-->
+	<CivicModifiers>
+		<Row CivicType="CIVIC_SUFFRAGE" ModifierId="GOVERNMENT_BAIT_T3" />
+		<Row CivicType="CIVIC_TOTALITARIANISM" ModifierId="GOVERNMENT_BAIT_T3" />
+		<Row CivicType="CIVIC_CLASS_STRUGGLE" ModifierId="GOVERNMENT_BAIT_T3" />
+		<Row CivicType="CIVIC_SYNTHETIC_TECHNOCRACY" ModifierId="GOVERNMENT_BAIT_T4" />
+		<Row CivicType="CIVIC_DIGITAL_DEMOCRACY" ModifierId="GOVERNMENT_BAIT_T4" />
+		<Row CivicType="CIVIC_CORPORATE_LIBERTARIANISM" ModifierId="GOVERNMENT_BAIT_T4" />
+	</CivicModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOVERNMENT_BAIT_T3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>AI_HAS_NO_T3_CIVIC</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_BAIT_T4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>AI_HAS_NO_T4_CIVIC</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOVERNMENT_BAIT_T3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_BAIT_T3</ModifierId>
+			<Name>Amount</Name>
+			<Value>9999</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_BAIT_T4</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_BAIT_T4</ModifierId>
+			<Name>Amount</Name>
+			<Value>9999</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>AI_HAS_NO_T3_CIVIC</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AI_HAS_NO_T4_CIVIC</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>AI_HAS_NO_T3_CIVIC</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AI_HAS_NO_T3_CIVIC</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_NO_SUFFRAGE_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AI_HAS_NO_T3_CIVIC</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_NO_TOTALITARIANISM_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AI_HAS_NO_T3_CIVIC</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_NO_CLASS_STRUGGLE_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AI_HAS_NO_T4_CIVIC</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AI_HAS_NO_T4_CIVIC</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_NO_SYNTHETIC_TECHNOCRACY_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AI_HAS_NO_T4_CIVIC</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_NO_DIGITAL_DEMOCRACY_CIVIC_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AI_HAS_NO_T4_CIVIC</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_NO_CORPORATE_LIBERTARIANISM_CIVIC_SST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_SUFFRAGE_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_TOTALITARIANISM_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_CLASS_STRUGGLE_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_SYNTHETIC_TECHNOCRACY_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_DIGITAL_DEMOCRACY_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_CORPORATE_LIBERTARIANISM_CIVIC_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_SUFFRAGE_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_SUFFRAGE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_TOTALITARIANISM_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_TOTALITARIANISM</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_CLASS_STRUGGLE_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CLASS_STRUGGLE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_SYNTHETIC_TECHNOCRACY_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_SYNTHETIC_TECHNOCRACY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_DIGITAL_DEMOCRACY_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_DIGITAL_DEMOCRACY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_NO_CORPORATE_LIBERTARIANISM_CIVIC_SST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CORPORATE_LIBERTARIANISM</Value>
+		</Row>
+	</RequirementArguments>
+	
+
+	<!--Future Tech/Civic-->
+	<CivicModifiers>
+		<Row CivicType="CIVIC_FUTURE_CIVIC" ModifierId="ENVIRONMENTALISM_BOOST_ALL_TOURISM"/>
+		<Row CivicType="CIVIC_FUTURE_CIVIC" ModifierId="CIVIC_MITIGATION_GRANT_DIPLOVP"/>
+	</CivicModifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="FUTURE_TECH_PROJECT_PRODUCTION" Name="Amount"/>
+			<Set>
+				<Value>25</Value>
+			</Set>
+		</Update>
 	</ModifierArguments>
 </GameData>

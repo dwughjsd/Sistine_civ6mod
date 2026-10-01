@@ -84,8 +84,6 @@
 		<Replace ImprovementType="IMPROVEMENT_WIND_FARM" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 		<Replace ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-		<Replace ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_FOOD" YieldChange="1"/>
-		<Replace ImprovementType="IMPROVEMENT_FEITORIA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 	</Improvement_YieldChanges>
 
 	<RequirementSets>
@@ -249,6 +247,11 @@
 		</Row>
 	</Requirements>
 
+	<!--It's funny that this is one of the Maya's civ ability. Now it is not anymore.-->
+	<Adjacency_YieldChanges>
+		<Delete ID="Farm_FoodObservatoryAdjacency"/>
+	</Adjacency_YieldChanges>
+
 	<Adjacency_YieldChanges>
 		<Update>
 			<Where ID="Farms_MedievalAdjacency" />
@@ -259,7 +262,7 @@
 			<Set PrereqTech="TECH_SATELLITES" />
 		</Update>
 	</Adjacency_YieldChanges>
-	
+
 	<!--Unique improvements-->
 	<Improvements>
 		<Update>
@@ -276,20 +279,11 @@
 		</Update>
 	</Improvements>
 	<Improvement_YieldChanges>
-		<Replace ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_GOLD" YieldChange="4"/>
-		<Replace ImprovementType="IMPROVEMENT_MAHAVIHARA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
-		<Replace ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_FOOD" YieldChange="2"/>
 		<Replace ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_GOLD" YieldChange="0"/>
 	</Improvement_YieldChanges>
 	<Improvement_Adjacencies>
-		<Row ImprovementType="IMPROVEMENT_MONASTERY" YieldChangeId="Monastery_LuxuryAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_STEPWELL" YieldChangeId="Stepwell_FarmAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_STEPWELL" YieldChangeId="Stepwell_HolySiteAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_DamAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_CanalAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_AqueductAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_EntertainmentComplexAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_WaterEntertainmentComplexAdjacency"/>
 	</Improvement_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Update>
@@ -439,32 +433,24 @@
 	<Improvement_BonusYieldChanges>
 		<!--The ID is not necessary for the system to work. However it's good to make it unique.-->
 		<Update>
-			<Where Id="18" ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"/> 
+			<Where Id="18" ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE"/>
 			<Set PrereqCivic="CIVIC_HUMANISM"/>
 		</Update>
 		<Update>
-			<Where Id="21" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"/> 
+			<Where Id="21" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE"/>
 			<Set PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
 		</Update>
 		<Row Id="502" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
-		<Row Id="20001" ImprovementType="IMPROVEMENT_TRADING_DOME" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_ECONOMICS"/>
-		<Update>
-			<Where ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_GOLD" />
-			<Set BonusYieldChange="2" PrereqCivic="CIVIC_MEDIEVAL_FAIRES"/>
-		</Update>
-		<Row Id="20002" ImprovementType="IMPROVEMENT_GOLF_COURSE" YieldType="YIELD_CULTURE" BonusYieldChange="2" PrereqCivic="CIVIC_CAPITALISM"/>
 		<Update>
 			<Where Id="17" ImprovementType="IMPROVEMENT_MISSION" YieldType="YIELD_SCIENCE"  />
 			<Set BonusYieldChange="1" />
 		</Update>
 	</Improvement_BonusYieldChanges>
 	<Improvement_Tourism>
-		<Row ImprovementType="IMPROVEMENT_MONASTERY" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
 		<Update>
 			<Where ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" />
 			<Set TourismSource="TOURISMSOURCE_CULTURE"/>
 		</Update>
-		<Row ImprovementType="IMPROVEMENT_PYRAMID" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
 	</Improvement_Tourism>
 	<ImprovementModifiers>
 		<Delete ImprovementType="IMPROVEMENT_STEPWELL" ModifierId="STEPWELL_FARMADJACENCY_FOOD" />

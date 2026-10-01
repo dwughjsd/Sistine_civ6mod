@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_HIPPODROME" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_OPPIDUM" />
+			<Set Cost="20" />
+		</Update>
+	</Districts>
+	<District_CitizenYieldChanges>
+		<Update>
+			<Where DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="3" />
+		</Update>
+	</District_CitizenYieldChanges>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_HIPPODROME" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Aqueduct_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Canal_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Dam_Production"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="LumberMill_HalfProduction"/>
+	</District_Adjacencies>
+	<TypeTags>
+		<Row Type="ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS" Tag="CLASS_WARRIOR_MONK"/>
+		<Row Type="ABILITY_BYZANTIUM_COMBAT_UNITS" Tag="CLASS_NAVAL_CARRIER"/>
+	</TypeTags>
+</GameData>

@@ -20,6 +20,7 @@
 		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_RELIGIOUS" Favored="false"/>
 		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_NUCLEAR" Favored="false"/>
 		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_BACKSTAB" Favored="false"/>
+		<Row ListType="DefaultDiscussions" Item="WC_EMERGENCY_REQUEST_AID" Favored="false"/>
 	</AiFavoredItems>
 
 	<RandomEvents>

@@ -45,7 +45,7 @@
 			<Text>解锁建造者建造牧场的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物。只能在有效资源上建造。[NEWLINE][NEWLINE]如果建在战略资源上，城市则可以利用该资源。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CONSERVATION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>奖励3位 [ICON_Envoy] 使者。允许建造者种植森林（人造林）。营地产出的 [ICON_Gold] 金币+2。您领土上从未被移除的森林（原始林）获得+1魅力。获得城墙的 [ICON_TOURISM] 旅游业绩。所有国家公园提供的 [ICON_TOURISM] 旅游业绩+100%。</Text>
+			<Text>允许建造者种植森林（人造林）。营地产出的 [ICON_Gold] 金币+2。您领土上从未被移除的森林（原始林）获得+1魅力。获得城墙的 [ICON_TOURISM] 旅游业绩。所有国家公园提供的 [ICON_TOURISM] 旅游业绩+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有海军和水运单位可在海洋单元格上航行。</Text>
@@ -70,61 +70,6 @@
 		<Replace Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>发射火箭让人类登陆月球的太空竞赛项目。赠予一次等同于您每回合 [ICON_Culture] 文化值10倍的 [ICON_Culture] 文化值加成，标志着科技胜利的第二步。</Text>
 		</Replace>
-		<!--City-states-->
-		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>[ICON_Capital] 首都+1 [ICON_Science] 科技值。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>每座大学和领事馆+1 [ICON_Science] 科技值。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>每座研究实验室和外交办+1 [ICON_Science] 科技值。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>[ICON_Capital] 首都+1 [ICON_Faith] 信仰值。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>每座寺庙和领事馆+1 [ICON_Faith] 信仰值。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>每座祭祀建筑和外交办+1 [ICON_Faith] 信仰值。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>[ICON_Capital] 首都+2 [ICON_Gold] 金币。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>每座银行、造船厂和领事馆+2 [ICON_Gold] 金币。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>每座证券交易所、码头和外交办+2 [ICON_Gold] 金币。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>[ICON_Capital] 首都+1 [ICON_Culture] 文化值。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>每座艺术博物馆、考古博物馆和领事馆+1 [ICON_Culture] 文化值。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>每座广播中心和外交办+1 [ICON_Culture] 文化值。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>生产单位时，[ICON_Capital] 首都+1 [ICON_Production] 生产力。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>在拥有兵工厂或领事馆的城市中生产单位时+1 [ICON_Production] 生产力。如城市同时拥有这两个建筑，则+2 [ICON_Production] 生产力。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>在拥有军事学院或外交办的城市中生产单位时+1 [ICON_Production] 生产力。如城市同时拥有这两个建筑，则+2 [ICON_Production] 生产力。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>建造奇观、建筑和区域时，[ICON_Capital] 首都+1 [ICON_Production] 生产力。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>在拥有工厂或领事馆的城市中建造奇观、建筑和区域时+1 [ICON_Production] 生产力。如城市同时拥有这两个建筑，则+2 [ICON_Production] 生产力。</Text>
-		</Replace>
-		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="zh_Hans_CN">
-			<Text>在拥有外交办或发电厂的城市中建造奇观、建筑和区域时+1 [ICON_Production] 生产力。如城市同时拥有外交办和发电厂，则+2 [ICON_Production] 生产力。</Text>
-		</Replace>
 		<!--Beliefs-->
 		<Replace Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>种植园提供的 [ICON_Culture] 文化值+1。</Text>
@@ -139,7 +84,7 @@
 			<Text>在您的圣地区域、市中心以及与其相邻的单元格上，单位每回合多回复 +30 生命值。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>选择后在首都中获得1个建造者，城市人口增长速度提升15%。</Text>
+			<Text>选择后在首都中获得1个建造者，城市人口增长速度提升10%。</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>改良后的战略资源提供的 [ICON_Production] 生产力和 [ICON_Faith] 信仰值+1。每座改良了 [ICON_RESOURCE_HORSES] 马或 [ICON_RESOURCE_IRON] 铁的城市产出+1 [ICON_GreatProphet] 大预言家点数。</Text>
@@ -189,7 +134,7 @@
 		</Replace>
 		<!--Governments & Policies-->
 		<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_SST" Language="zh_Hans_CN">
-			<Text>宫殿、市政广场和外交区+2 [ICON_Culture] 文化，使所在城市的每位 [ICON_Citizen] 市民提供+1 [ICON_Gold] 金币。</Text>
+			<Text>宫殿和市政广场+2 [ICON_Culture] 文化，使所在城市的每位 [ICON_Citizen] 市民提供+1 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_SST" Language="zh_Hans_CN">
 			<Text>建设奇观时+10% [ICON_Production] 生产力。</Text>
@@ -301,7 +246,7 @@
 			<Text>在帝国全境内+50% [ICON_Tourism] 旅游业绩。海滨度假区和滑雪场产出的 [ICON_Tourism] 旅游业绩+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_NATURAL_HISTORY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>允许使用 [ICON_Faith] 信仰值购买自然学家以及建造国家公园。奖励2位 [ICON_Envoy] 使者。</Text>
+			<Text>允许使用 [ICON_Faith] 信仰值购买自然学家以及建造国家公园。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVIC_CULTURAL_HERITAGE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>显示 [ICON_RESOURCE_SHIPWRECK] 海难遗址，考古学家可从此处挖掘 [ICON_GreatWork_Artifact] 文物。奖励3位 [ICON_Envoy] 使者。[ICON_GreatWork_Artifact] 文物 +100% [ICON_Tourism] 旅游业绩。</Text>
@@ -358,7 +303,7 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送下水道建筑，直到您帝国中已有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送粮仓和水磨建筑，直到您帝国中已各有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城生产开拓者时 [ICON_Production] 生产力+50%。新训练的建造者获得额外的1次建造次数。获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
@@ -400,12 +345,15 @@
 		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您城市里的文化场地区域。[NEWLINE][NEWLINE]{LOC_DISTRICT_THEATER_APPEAL_DESCRIPTION}</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>区域从相邻河流、湖泊、绿洲或山脉引水，为该城市提供淡水资源。没有淡水资源的城市最多获得6个 [ICON_Housing] 住房。相反，已有淡水资源的城市 [ICON_Housing] 住房数量+2；若与地热裂缝相邻，提供+1 [ICON_Amenities]宜居度。此城 [ICON_Citizen] 人口增长加速10%。干旱时可防止 [ICON_Food] 食物损失。必须修建在与市中心相邻的单元格中。军事工程师可消耗1次使用次数来完成水渠20%的修建进度。</Text>
+		</Replace>
 		<!--Wonders-->
 		<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>帝国中的所有沼泽单元格+2 [ICON_SCIENCE] 科技值、+1 [ICON_PRODUCTION] 生产力、+2 [ICON_FOOD] 食物。此城市的所有泛滥平原单元格+1 [ICON_SCIENCE] 科技值。[NEWLINE][NEWLINE]必须建在泛滥平原或沼泽上。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有城市人口增长加速25%。必须建在河流旁。</Text>
+			<Text>所有城市人口增长加速15%。必须建在河流旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>赞助伟人消耗的 [ICON_Faith] 信仰值减少25%。[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 启发额外提供10%的科技或市政成本。该城市的区域提供的对应类型的 [ICON_GreatPerson] 伟人点数+2（比如，剧院广场区的 [ICON_GreatWriter] 大作家点数）。必须建在丘陵上。</Text>
@@ -868,7 +816,7 @@
 			<Text>+100%剧院广场区相邻加成，广播中心、体育场和水上运动中心+1 [ICON_Amenities] 宜居度。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有公立学校的城市：若至少有10 [ICON_CITIZEN] 人口，+15% [ICON_SCIENCE] 科技值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
+			<Text>建有大学的城市：若至少有10 [ICON_CITIZEN] 人口，+15% [ICON_SCIENCE] 科技值；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建有银行或造船厂的城市：若至少有10 [ICON_CITIZEN] 人口，+15% [ICON_Gold] 金币；若至少有15 [ICON_CITIZEN] 人口，此加成翻倍。</Text>
@@ -1069,7 +1017,7 @@
 			<Text>拥有3个现代步兵。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_SUFFRAGE" Language="zh_Hans_CN">
-			<Text>建造2座医院。</Text>
+			<Text>建造4座下水道。</Text>
 		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_TOTALITARIANISM" Language="zh_Hans_CN">
 			<Text>建造1座军事学院。</Text>
@@ -1257,9 +1205,6 @@
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_PROGRAM" Language="zh_Hans_CN">
 			<Text>建成专项研究实验室以后，您招募科学家进行核研究项目的构想得以付诸实施。</Text>
 		</Replace>
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE" Language="zh_Hans_CN">
-			<Text>您帝国内的女性要求拥有适当的医疗卫生服务。在取得了那场斗争的胜利后，她们现在想要投票的权利。</Text>
-		</Replace>
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS" Language="zh_Hans_CN">
 			<Text>您新建的体育场希望举办一项新的职业体育联赛。</Text>
 		</Replace>
@@ -1359,7 +1304,7 @@
 			<Text>城市中每位 [ICON_Citizen] 公民每回合可带来+0.5 [ICON_CULTURE] 文化值和+0.5 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市的 [ICON_Food] 人口增长+50%。此城市收获资源和移除地貌的产出+50%。</Text>
+			<Text>城市的 [ICON_Food] 人口增长+20%。此城市收获资源和移除地貌的产出+50%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_BISHOP_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城市对邻近城市释放的宗教压力强度加倍。此城市每位 [ICON_Citizen] 公民每回合可带来+1 [ICON_FAITH] 信仰值。</Text>
@@ -1632,18 +1577,19 @@
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MANUFACTURING_PLANT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>精密制造厂是一种大型的工业复合体，能够生产各种类型的产品，不过通常会用来制造汽车这样的耐用消费品。简单来说，精密制造厂就是一种大型而复杂的工厂，使用专业劳工、复杂机械以及生产流水线以获得更高的生产效率以及大规模生产的经济优势。这种人力与自动化的结合不仅提升了效率，而且降低了生产成本。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HOSPITAL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>医院是对病人或伤者进行诊疗，并为他们提供住处以便康复的机构。许多医院也同时是教学机构，令学习医疗和护理的学生在此学习专业技能。供奉和健康及医疗有关的神灵的寺庙成为了最初的医院。公元前430年在斯里兰卡出现了专门的宗教医院，而印度的阿育王则于公元前230年左右在印度北部兴建了一系列的医院。</Text>
-		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MEDICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>医学实验室是研究疾病和人体构造的机构。医学实验室使用各式各样极度精密又无比强大的仪器，从超声波仪到蚂蚁大小的摄像机，再到电子显微镜，应有尽有。在过去的25年里，绝大部分（若非所有）医学界的重大突破都是医学实验室里取得。这些突破包括：人类DNA测序、对抗艾滋病的抗病毒疗法、基因编辑，等等。当代社会医疗费用的不断攀升在很大程度上都要归因于这样一个简单的事实：医学实验室在战胜疾病、延长人类寿命、提高人类生命质量方面取得了惊人的成就，而这些成就是需要花费巨资的。</Text>
-		</Replace>
 		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DEFENSE_OF_MOTHERLAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>在无产阶级领导的社会主义国家里，人民享有最高权力；然而，即使是马克思也意识到，为了有效地运作政府机构并确保无产阶级专政，必须存在某种形式的党组织。由此，1917年的布尔什维克宣称，一群官僚中的先进分子需要领导一个一个集权政党来治理新生的苏俄政权。</Text>
 		</Replace>
 		<!--Text fixes-->
 		<Replace Tag="LOC_TECH_STEEL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>伐木场+1 [ICON_Production] 生产力。解锁现代都市防御，使得所有城市自动获得400点防御工事生命值和发起远程攻击的能力。此前的城墙改良形态将全部过时，攻城支援单位也将不再有效。</Text>
+		</Replace>
+		<!--Future Tech/Civic-->
+		<Replace Tag="LOC_TECH_FUTURE_TECH_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>可多次完成，增加分数胜利点数。每次完成后，所有城市建造城市项目时 [ICON_Production] 生产力均+25%。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_FUTURE_CIVIC_DESCRIPTION_SST" Language="zh_Hans_CN">
+			<Text>可多次完成，增加分数胜利点数。每完成一次便奖励1个 [ICON_Governor] 总督头衔与1点外交胜利点数，且在帝国全境内+50% [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

@@ -222,7 +222,7 @@
 		<Delete ModifierId="BLACK_MARKETEER_STRATEGIC_RESOURCE_COST_DISCOUNT" Name="Amount"/>
 		<Row ModifierId="BLACK_MARKETEER_STRATEGIC_RESOURCE_COST_DISCOUNT" Name="Amount" Value="50"/>
 		<Delete ModifierId="SURPLUS_LOGISTICS_EXTRA_GROWTH" Name="Amount"/>
-		<Row ModifierId="SURPLUS_LOGISTICS_EXTRA_GROWTH" Name="Amount" Value="50"/>
+		<Row ModifierId="SURPLUS_LOGISTICS_EXTRA_GROWTH" Name="Amount" Value="20"/>
 		<Delete ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_FOOD" Name="Amount"/>
 		<Row ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_FOOD" Name="Amount" Value="2"/>
 		<Row ModifierId="SURPLUS_LOGISTICS_TRADE_ROUTE_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>

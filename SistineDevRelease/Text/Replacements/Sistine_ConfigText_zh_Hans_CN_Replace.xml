@@ -1,8 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<!--Techs-->
-
+		<!--Settings-->
+		<Replace Tag="LOC_OPTIONS_TIME_OF_DAY_TEXT" Language="zh_Hans_CN">
+			<Text>动态时间画面</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_VIDEO_UI_UPSCALE_TEXT" Language="zh_Hans_CN">
+			<Text>UI缩放：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_VIDEO_VFX_DETAIL_LEVEL_TEXT" Language="zh_Hans_CN">
+			<Text>高品质视觉效果：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING" Language="zh_Hans_CN">
+			<Text>光照</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING_BLOOM_ENABLED_TEXT" Language="zh_Hans_CN">
+			<Text>泛光</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING_BLOOM_ENABLED_TOOLTIP" Language="zh_Hans_CN">
+			<Text>为亮光和反射添加泛光效果。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING_DYNAMIC_LIGHTING_ENABLED_TOOLTIP" Language="zh_Hans_CN">
+			<Text>在渲染中增加阳光以外的光源。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_OVERLAY" Language="zh_Hans_CN">
+			<Text>叠加层</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_SSOVERLAY_ENABLED_TEXT" Language="zh_Hans_CN">
+			<Text>屏幕空间叠加层</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_SSOVERLAY_ENABLED_TOOLTIP" Language="zh_Hans_CN">
+			<Text>将叠加层绘制于所有物件上方，而非仅在地形上。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXT" Language="zh_Hans_CN">
+			<Text>高分辨率网格</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TOOLTIP" Language="zh_Hans_CN">
+			<Text>地形模型网格变得更清晰、更精致。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXTURES_TEXT" Language="zh_Hans_CN">
+			<Text>高分辨率材质</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_RESOLUTION_TEXTURES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>地形纹理变得更清晰、更精致。[NEWLINE][NEWLINE]禁用以[COLOR_Blue]减少内存使用[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_QUALITY_SHADER_TEXT" Language="zh_Hans_CN">
+			<Text>高品质着色器</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_QUALITY_SHADER_TOOLTIP" Language="zh_Hans_CN">
+			<Text>更改地形光照效果。[NEWLINE][NEWLINE]禁用[COLOR_Civ6DarkRed]可提高性能[ENDCOLOR]并[COLOR_Blue]减少内存占用[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TERRAIN_HIGH_DETAIL_CLUTTER_TEXT" Language="zh_Hans_CN">
+			<Text>高精细度杂物</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER" Language="zh_Hans_CN">
+			<Text>水体</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER_HIGH_RESOLUTION_TEXT" Language="zh_Hans_CN">
+			<Text>高分辨率水体</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER_HIGH_QUALITY_SHADER_TEXT" Language="zh_Hans_CN">
+			<Text>高品质着色器</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER_HIGH_QUALITY_SHADER_TOOLTIP" Language="zh_Hans_CN">
+			<Text>更改水体光照效果。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER_REFLECTION_PASSES_TEXT" Language="zh_Hans_CN">
+			<Text>反射：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_WATER_REFLECTION_PASSES_TOOLTIP" Language="zh_Hans_CN">
+			<Text>控制水体反射的质量。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LEADERS" Language="zh_Hans_CN">
+			<Text>动态领袖</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MUTE_FOCUS" Language="zh_Hans_CN">
+			<Text>游戏窗口非活动时静音</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_EFFECTS_VOLUME" Language="zh_Hans_CN">
+			<Text>音效音量：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_AMBIENT_VOLUME" Language="zh_Hans_CN">
+			<Text>环境声效音量：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_SPEECH_VOLUME" Language="zh_Hans_CN">
+			<Text>语音音量：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_REFLECTION_1PASS" Language="zh_Hans_CN">
+			<Text>计算1轮</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_REFLECTION_2PASSES" Language="zh_Hans_CN">
+			<Text>计算2轮</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_REFLECTION_3PASSES" Language="zh_Hans_CN">
+			<Text>计算3轮</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_REFLECTION_4PASSES" Language="zh_Hans_CN">
+			<Text>计算4轮</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING_AO_ENABLED_TEXT" Language="zh_Hans_CN">
+			<Text>环境光遮蔽</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LIGHTING_AO_ENABLED_TOOLTIP" Language="zh_Hans_CN">
+			<Text>使接受的环境光照更少的物体显示变暗。[NEWLINE][NEWLINE]禁用以[COLOR_Civ6DarkRed]提高性能[ENDCOLOR]。</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_SUBTITLES" Language="zh_Hans_CN">
+			<Text>过场影像字幕</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_STRATEGIC_VIEW_START" Language="zh_Hans_CN">
+			<Text>开局进入战略视图：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_RIBBON_STATS_LABEL" Language="zh_Hans_CN">
+			<Text>在游戏界面条显示玩家产出数值：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PLOT_TOOLTIP_DELAY" Language="zh_Hans_CN">
+			<Text>地块提示框延迟：</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_HISTORIC_MOMENT_ANIMATION" Language="zh_Hans_CN">
+			<Text>历史时刻展示动画</Text>
+		</Replace>
 		<!--Eras-->
 		<Replace Tag="LOC_ERA_CLASSICAL_NAME" Language="zh_Hans_CN" Text="古典时代"/>
 		<Replace Tag="LOC_ERA_MEDIEVAL_NAME" Language="zh_Hans_CN" Text="中古时代"/>
@@ -398,9 +514,6 @@
 		<Replace Tag="LOC_TRAIT_LEADER_CLEOPATRA_ALT_NAME" Language="en_US">
 			<Text>Arrival of Isis</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_NAME" Language="zh_Hans_CN">
-			<Text>阿布辛贝神庙</Text>
-		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_PAX_BRITANNICA_NAME" Language="zh_Hans_CN">
 			<Text>不列颠治世</Text>
 		</Replace>
@@ -442,9 +555,6 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NZINGA_MBANDE_NAME" Language="zh_Hans_CN">
 			<Text>恩东戈和马坦巴女王</Text>
-		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_NAME" Language="zh_Hans_CN">
-			<Text>索格伦之子</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KUPES_VOYAGE_NAME" Language="zh_Hans_CN">
 			<Text>库佩之航</Text>
@@ -566,6 +676,15 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_ZULU_ISIBONGO_NAME" Language="zh_Hans_CN">
 			<Text>班图赞诗</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_NAME" Language="zh_Hans_CN">
+			<Text>始皇帝</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_NAME" Language="zh_Hans_CN">
+			<Text>信仰之义</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游戏开始便激活“写作”科技 [ICON_TechBoosted] 尤里卡。腓尼基建造的海岸城市若与 [ICON_Capital] 首都在同一大陆，则其忠诚度为100%。开拓者上船后，[ICON_Movement] 移动力与视野范围各+2。开拓者上船和下船无需额外花费 [ICON_Movement] 移动力。</Text>
 		</Replace>
 		<!--Unique items-->
 		<Replace Tag="LOC_BUILDING_TLACHTLI_NAME" Language="zh_Hans_CN">
@@ -923,7 +1042,7 @@
 			<Text>日本执权北条时宗，佛教的大潮跟随在您身后。您的国民深知平衡之道，而您最好的武士都学识渊博、精神丰盈。磨练自身，拥抱海上的神风吧，您将会修得开悟。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_TOKUGAWA" Language="zh_Hans_CN">
-			<Text>幕府大将军德川家康，您非常明了，只有耐心等待，利刃才能劈开要害。谨慎保卫您的家园，警惕国内外篡位者伺机而动，相信您的人民无比勤劳且足智多谋，因为只有他们才值得信赖。身为统治者，前路漫长，负担沉重；但手握武士刀时，便要摒弃不满，亦不可绝望。</Text>
+			<Text>幕府大将军德川家康，您非常明了：只有耐心等待，利刃才能劈开要害。谨慎保卫您的家园，警惕国内外篡位者伺机而动，相信您的人民无比勤劳且足智多谋，因为只有他们才值得信赖。身为统治者，前路漫长，负担沉重；但手握武士刀时，便要摒弃不满，亦不可绝望。</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_JAYAVARMAN" Language="zh_Hans_CN">
 			<Text>睿智的阇耶跋摩七世，高棉人尊崇勤政爱民的您。您掌管着这块土地上的清水，哺育着饥饿的人民，这也使您的地位几近于神。前进，神圣的建筑师！建设一个趋于完美的帝国吧，愿敌人为您无坚不摧的战象所踏平。</Text>
@@ -979,9 +1098,6 @@
 		<Replace Tag="LOC_LOADING_INFO_LEADER_TRAJAN" Language="zh_Hans_CN">
 			<Text>布下大局吧，强大罗马的皇帝图拉真。您的军团已准备好出发，建立世界上最大的帝国。如果您能真正实现条条道路通罗马，您的帝国将会拥有巨额财富和无尽奢华。那时，我们的公民必将宣扬您是最佳元首，他们最优秀的统治者。</Text>
 		</Replace>
-		<Replace Tag="LOC_LOADING_INFO_LEADER_JULIUS_CAESAR" Language="zh_Hans_CN">
-			<Text>凯撒万岁！您是罗马的将军、世族、狄克推多。您的人民，以及您的雄心，长久以来呼唤着您。骰子已经掷下——不要让任何人反对您的计划，无论是不共戴天的仇敌，还是亲密无间的好友。</Text>
-		</Replace>
 		<!---->
 		<Replace Tag="LOC_LOADING_INFO_LEADER_PETER_GREAT" Language="zh_Hans_CN">
 			<Text>沙皇彼得，拥抱祖国母亲的凛冽寒风吧。您对科学和文化的热爱是上天赐予的礼物，而从派往外国的大使团中您将学到很多这些知识。在您的统治下，俄罗斯必将繁荣发展并不断扩张，把周围所有土地都纳为己有，或许创造出世界上最伟大的陆权帝国。</Text>
@@ -1026,7 +1142,7 @@
 		<Replace Tag="LOC_DIPLO_MODIFIER_LADY_SIX_SKY_NOT_NEIGHBOR" Language="zh_Hans_CN">
 			<Text>六天夫人很高兴您的定居点远离她的帝国。</Text>
 		</Replace>
-		
+
 		<!--Leader unique items retranslated-->
 		<Replace Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>埃莉诺的城市中的每件巨作可使9单元格内的外国城市每回合-1忠诚度。一座城市因忠诚度损失而离开另一文明时，若其每回合接受的对埃莉诺的文明的忠诚度压力高于对其它文明的，则会跳过自由城市阶段，直接加入她的文明。</Text>
@@ -1384,9 +1500,6 @@
 		<Replace Tag="LOC_TRAIT_LEADER_ELIZABETH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>获得首位 [ICON_GreatAdmiral] 海军统帅后，英国的 [ICON_TradeRoute] 贸易路线容量+2。通往任意城邦的 [ICON_TradeRoute] 贸易路线起点城市每有一个专业化区域，便+3 [ICON_GOLD] 金币。使用海军单位掠夺 [ICON_TradeRoute] 贸易路线的收益+100%。</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>首次征服一座城市或从蛮族哨站获得[ICON_GOLD] 金币时 +300 [ICON_GOLD] 金币。奖励 [ICON_GOLD] 金币数量在研究“金属铸造”之后变为500，研究“钢铁”之后变为700（标准速度下）。与蛮族对战时+5[ICON_Strength] 战斗力，且始终可获得常规数额的战斗经验值。</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_DIGGER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>澳大利亚特色电气时代单位，替代现代步兵。在海岸单元格上作战时+10 [ICON_Strength] 战斗力。在中立或外国领土上作战时+5 [ICON_Strength] 战斗力。</Text>
 		</Replace>
@@ -1395,6 +1508,19 @@
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>越南特色区域，替代军营。每与1个区域相邻，则+2 [ICON_CULTURE] 文化值。研究飞行科技后，将获得与 [ICON_CULTURE] 文化值产出相等的 [ICON_TOURISM] 旅游业绩。此区域不需要人口，建造花费更低，无法建在市中心旁，不提供 [ICON_GreatPerson] 伟人点数，且不属于专业化区域。</Text>
+		</Replace>
+		<!--Building description-->
+		<Replace Tag="LOC_BUILDING_ARENA_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得“自然保护”市政后提供1点 [ICON_TOURISM] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WALLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提供环绕市中心和军营的城墙。城墙使市中心和军营能发起 [ICON_Ranged] 远程攻击。必须先击毁城墙方能进攻城市。获得“自然保护”市政后提供1点 [ICON_TOURISM] 旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CASTLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提升外部防御力。获得“自然保护”市政以后提供2点 [ICON_TOURISM] 旅游业绩。此城不受破城槌影响。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STAR_FORT_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将外部防御能力提升至最高级。获得“自然保护”市政后提供3点 [ICON_TOURISM] 旅游业绩。此城不受破城槌或攻城塔影响。</Text>
 		</Replace>
 		<!--Unit description-->
 		<Row Tag="LOC_UNIT_STEALTH_DESCRIPTION_SST" Language="zh_Hans_CN">
@@ -1552,6 +1678,21 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_DRONE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>原子时代支援单位。为1单元格内的攻城单位+1 [ICON_Range] 射程、+5 [ICON_Bombard] 轰炸攻击力。</Text>
+		</Replace>
+
+		<!--DLC: JuliusCaesar-->
+		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首次征服一座城市或从蛮族哨站获得[ICON_GOLD] 金币时 +300 [ICON_GOLD] 金币。奖励 [ICON_GOLD] 金币数量在研究“金属铸造”之后变为500，研究“钢铁”之后变为700（标准速度下）。与蛮族对战时+5[ICON_Strength] 战斗力，且始终可获得常规数额的战斗经验值。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JULIUS_CAESAR" Language="zh_Hans_CN">
+			<Text>凯撒万岁！您是罗马的将军、世族、狄克推多。您的人民，以及您的雄心，长久以来呼唤着您。骰子已经掷下——不要让任何人反对您的计划，无论是不共戴天的仇敌，还是亲密无间的好友。</Text>
+		</Replace>
+		<!--DLC: RulersOfTheSahara-->
+		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_NAME" Language="zh_Hans_CN">
+			<Text>阿布辛贝神庙</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_NAME" Language="zh_Hans_CN">
+			<Text>索格伦之子</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

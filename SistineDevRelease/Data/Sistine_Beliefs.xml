@@ -212,7 +212,7 @@
 		</Row>
 		<Update>
 			<Where ModifierId="FERTILITY_RITES_GROWTH" Name="Amount" />
-			<Set Value="15" />
+			<Set Value="10" />
 		</Update>
 		<Update>
 			<Where ModifierId="MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MODIFIER" Name="Amount" />
@@ -740,5 +740,29 @@
 			Name="BuildingType"
 			Value="BUILDING_UNIVERSITY"
 		/>
+	</RequirementArguments>
+	
+	<!--In case of GranColoumbia_Maya is disabled-->
+	<Requirements>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_HORSES</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_IRON</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED</RequirementType>
+		</InsertOrIgnore>
+	</Requirements>
+	<RequirementArguments>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_HORSES</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_HORSES</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_IMPROVED_IRON</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</InsertOrIgnore>
 	</RequirementArguments>
 </GameData>
