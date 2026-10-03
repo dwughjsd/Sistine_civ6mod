@@ -412,7 +412,7 @@
 		<Update><Where BuildingType="BUILDING_GOV_FAITH" /><Set Cost="290"/></Update>
 		<Update><Where BuildingType="BUILDING_CHANCERY" /><Set Cost="290"/></Update>
 		<Update><Where BuildingType="BUILDING_STAR_FORT" /><Set Cost="300"/></Update>
-		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Cost="360"/></Update>
+		<Update><Where BuildingType="BUILDING_FOOD_MARKET" /><Set Cost="445"/></Update>
 		<Update><Where BuildingType="BUILDING_SEWER" /><Set Cost="200"/></Update>
 		<Update><Where BuildingType="BUILDING_FACTORY" /><Set Cost="400"/></Update>
 		<Update><Where BuildingType="BUILDING_ELECTRONICS_FACTORY" /><Set Cost="400"/></Update>
