@@ -497,13 +497,10 @@
 		<Delete TechnologyType="TECH_OFFWORLD_MISSION"/>
 	</Technologies_XP2>
 	<TechnologyPrereqs>
-		<!--Disable it for now to mitigate the issue that all AIs doesn't care religion at all-->
-		<!--<Row Technology="TECH_ASTROLOGY" PrereqTech="TECH_POTTERY"/>-->
-		<Delete Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_BANKING"/>
-		<Delete Technology="TECH_ECONOMICS" PrereqTech="TECH_METAL_CASTING"/>
+		<Delete Technology="TECH_STIRRUPS" PrereqTech="TECH_HORSEBACK_RIDING"/>
+		<Delete Technology="TECH_GUNPOWDER" PrereqTech="TECH_APPRENTICESHIP"/>
 		<Delete Technology="TECH_ROBOTICS" PrereqTech="TECH_LASERS"/>
-		<Row Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_METAL_CASTING"/>
-		<Row Technology="TECH_ECONOMICS" PrereqTech="TECH_BANKING"/>
+
 		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_OFFWORLD_MISSION"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_SEASTEADS"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_ADVANCED_AI"/>
@@ -860,17 +857,11 @@
 		<Delete CivicType="CIVIC_FUTURE_CIVIC"/>
 	</Civics_XP2>
 	<CivicPrereqs>
-		<Delete Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_GLOBALIZATION"/>
-		<Delete Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_SOCIAL_MEDIA"/>
-		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_GLOBAL_WARMING_MITIGATION"/>
-		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_SMART_POWER_DOCTRINE"/>
-		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_INFORMATION_WARFARE"/>
-		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_EXODUS_IMPERATIVE"/>
-		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_CULTURAL_HEGEMONY"/>
 		<Row Civic="CIVIC_COLONIALISM" PrereqCivic="CIVIC_EXPLORATION"/>
 		<Delete Civic="CIVIC_THE_ENLIGHTENMENT" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
 		<Row Civic="CIVIC_THE_ENLIGHTENMENT" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
 		<Row Civic="CIVIC_MERCANTILISM" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
+		
 		<Delete Civic="CIVIC_SUFFRAGE" PrereqCivic="CIVIC_IDEOLOGY"/>
 		<Delete Civic="CIVIC_TOTALITARIANISM" PrereqCivic="CIVIC_IDEOLOGY"/>
 		<Delete Civic="CIVIC_CLASS_STRUGGLE" PrereqCivic="CIVIC_IDEOLOGY"/>
@@ -880,6 +871,14 @@
 		<Row Civic="CIVIC_SUFFRAGE" PrereqCivic="CIVIC_MOBILIZATION"/>
 		<Row Civic="CIVIC_TOTALITARIANISM" PrereqCivic="CIVIC_MOBILIZATION"/>
 		<Row Civic="CIVIC_CLASS_STRUGGLE" PrereqCivic="CIVIC_MOBILIZATION"/>
+		
+		<Delete Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_GLOBALIZATION"/>
+		<Delete Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_SOCIAL_MEDIA"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_GLOBAL_WARMING_MITIGATION"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_SMART_POWER_DOCTRINE"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_INFORMATION_WARFARE"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_EXODUS_IMPERATIVE"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_CULTURAL_HEGEMONY"/>
 	</CivicPrereqs>
 
 	<CivicModifiers>
