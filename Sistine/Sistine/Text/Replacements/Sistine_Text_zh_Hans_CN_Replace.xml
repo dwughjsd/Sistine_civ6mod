@@ -80,7 +80,7 @@
 		<Replace Tag="LOC_TECH_STIRRUPS_QUOTE_1" Language="zh_Hans_CN" Text="“很少有发明像马镫一样简单，也没几个会像马镫那样对历史产生这么强大的推动作用。”[NEWLINE]——林·怀特"/>
 		<Replace Tag="LOC_TECH_STIRRUPS_QUOTE_2" Language="zh_Hans_CN" Text="“在马镫和地面之间，我祈求宽恕，得到了宽恕。”[NEWLINE]——威廉·卡姆登"/>
 		<Replace Tag="LOC_TECH_MACHINERY_QUOTE_1" Language="zh_Hans_CN" Text="“我会想象世界就是一个机器。机器不会有多余零件。它们永远都是需要多少才有多少。”[NEWLINE]——雨果·卡布里特"/>
-		<Replace Tag="LOC_TECH_MACHINERY_QUOTE_2" Language="zh_Hans_CN" Text="“记住：人类自己也会出毛病，出毛病的不仅有机器。”[NEWLINE]——格雷戈里•本福德"/>
+		<Replace Tag="LOC_TECH_MACHINERY_QUOTE_2" Language="zh_Hans_CN" Text="“记住：人类自己也会出毛病，出毛病的不只有机器。”[NEWLINE]——格雷戈里•本福德"/>
 		<Replace Tag="LOC_TECH_EDUCATION_QUOTE_1" Language="zh_Hans_CN" Text="“教育的目的是让空虚的头脑变得能够接受知识。”[NEWLINE]——马尔科姆·福布斯"/>
 		<Replace Tag="LOC_TECH_EDUCATION_QUOTE_2" Language="zh_Hans_CN" Text="“一个人受教育的标志是他可以思考一种观点，但未必要认同它。”[NEWLINE]——亚里士多德"/>
 		<Replace Tag="LOC_TECH_MILITARY_ENGINEERING_QUOTE_1" Language="zh_Hans_CN" Text="“爆破——修筑——作战”[NEWLINE]——美国第十六工兵旅的座右铭"/>
@@ -136,7 +136,7 @@
 		<Replace Tag="LOC_TECH_COMBUSTION_QUOTE_2" Language="zh_Hans_CN" Text="“我一直认为用内燃机来替代马匹是人类历史进程中一件很令人沮丧的事。”[NEWLINE]——温斯顿·丘吉尔"/>
 		<Replace Tag="LOC_TECH_ADVANCED_FLIGHT_QUOTE_1" Language="zh_Hans_CN" Text="“是，飞机又快又实惠，不过，天啊，一味追求效率，我们得失去多少快乐，牺牲多少休闲时光啊。”[NEWLINE]——金吉·罗杰斯"/>
 		<Replace Tag="LOC_TECH_ADVANCED_FLIGHT_QUOTE_2" Language="zh_Hans_CN" Text="“上帝要是真的希望人类飞向天空，他就该让去机场的路好走一些。”[NEWLINE]——乔治·温特斯"/>
-		<Replace Tag="LOC_TECH_ROCKETRY_QUOTE_1" Language="zh_Hans_CN" Text="“火箭科学已经被神化了，使其与它的实际难度并不相称。”[NEWLINE]——约翰·卡马克"/>
+		<Replace Tag="LOC_TECH_ROCKETRY_QUOTE_1" Language="zh_Hans_CN" Text="“火箭科学被过度神化了，以至于与它的实际难度并不相称。”[NEWLINE]——约翰·卡马克"/>
 		<Replace Tag="LOC_TECH_ROCKETRY_QUOTE_2" Language="zh_Hans_CN" Text="“当你发射火箭的时候，你不是真正在驾驶这枚火箭。你只是某种程度上被绑在上面带着飞。”[NEWLINE]——迈克尔·安德森"/>
 		<Replace Tag="LOC_TECH_ADVANCED_BALLISTICS_QUOTE_1" Language="zh_Hans_CN" Text="“在学富五车的子弹面前，有勇无谋是没用的。”[NEWLINE]——乔治·巴顿"/>
 		<Replace Tag="LOC_TECH_ADVANCED_BALLISTICS_QUOTE_2" Language="zh_Hans_CN" Text="“瞄准月亮。如果没打中，也许还能打中星星。”[NEWLINE]——威廉·克莱门特·斯通"/>
@@ -151,7 +151,7 @@
 		<Replace Tag="LOC_TECH_SYNTHETIC_MATERIALS_QUOTE_1" Language="zh_Hans_CN" Text="“我们的文化里充斥着太多的塑料，以至于黑胶假豹皮变成了濒临灭绝的合成材料。”[NEWLINE]——莉莉·汤姆林"/>
 		<Replace Tag="LOC_TECH_SYNTHETIC_MATERIALS_QUOTE_2" Language="zh_Hans_CN" Text="“聚酯纤维得不到宽恕。在这个问题上，撒旦和上帝意见一致。”[NEWLINE]——乔·希尔"/>
 		<Replace Tag="LOC_TECH_TELECOMMUNICATIONS_QUOTE_1" Language="zh_Hans_CN" Text="“沃森先生…过来一下…我想见你。”[NEWLINE]——亚历山大·格雷厄姆·贝尔"/>
-		<Replace Tag="LOC_TECH_TELECOMMUNICATIONS_QUOTE_2" Language="zh_Hans_CN" Text="“沟通会出现的最大问题是产生了已经沟通过的错觉。”[NEWLINE]——乔治·萧伯纳"/>
+		<Replace Tag="LOC_TECH_TELECOMMUNICATIONS_QUOTE_2" Language="zh_Hans_CN" Text="“沟通中会出现的最大问题是：产生了它真的发生过的错觉。”[NEWLINE]——乔治·萧伯纳"/>
 		<Replace Tag="LOC_TECH_SATELLITES_QUOTE_1" Language="zh_Hans_CN" Text="“卫星无良知。”[NEWLINE]——爱德华·默罗"/>
 		<Replace Tag="LOC_TECH_SATELLITES_QUOTE_2" Language="zh_Hans_CN" Text="“就在现在，有31颗卫星在满世界飞驰，而它们除了帮你找到去杂货店的路以外，也干不了更好的事了。”[NEWLINE]——埃德·伯内特"/>
 		<Replace Tag="LOC_TECH_GUIDANCE_SYSTEMS_QUOTE_1" Language="zh_Hans_CN" Text="“若你不改变前进的方向，就会一直朝着你面向的方向前进。”[NEWLINE]——佚名（西方讹传为老子）"/>
