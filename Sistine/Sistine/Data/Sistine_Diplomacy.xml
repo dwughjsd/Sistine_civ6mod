@@ -137,34 +137,35 @@
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_FRIENDLY"/>
-			<Set DiplomaticYieldBonus="5" />
+			<Set DiplomaticYieldBonus="0" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_NEUTRAL"/>
-			<Set DiplomaticYieldBonus="-15" />
+			<Set DiplomaticYieldBonus="-5" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_UNFRIENDLY"/>
-			<Set DiplomaticYieldBonus="-50" />
+			<Set DiplomaticYieldBonus="-25" />
 		</Update>
 		<Update>
 			<Where StateType="DIPLO_STATE_DENOUNCED"/>
-			<Set DiplomaticYieldBonus="-75" />
+			<Set DiplomaticYieldBonus="-50" />
 		</Update>
 	</DiplomaticStates>
 
+	<!--
 	<DiplomaticStateTransitions>
 		<Update>
 			<Where BaseState="DIPLO_STATE_FRIENDLY" TransitionState="DIPLO_STATE_DECLARED_FRIEND"/>
-			<Set AllowTransitionMin="20" RequireTransitionMax="30"/>
+			<Set AllowTransitionMin="15" RequireTransitionMax="30"/>
 		</Update>
 		<Update>
 			<Where BaseState="DIPLO_STATE_FRIENDLY" TransitionState="DIPLO_STATE_NEUTRAL"/>
-			<Set RequireTransitionMin="5" AllowTransitionMax="20"/>
+			<Set RequireTransitionMin="5" AllowTransitionMax="15"/>
 		</Update>
 		<Update>
 			<Where BaseState="DIPLO_STATE_NEUTRAL" TransitionState="DIPLO_STATE_FRIENDLY"/>
-			<Set RequireTransitionMax="20" AllowTransitionMin="10"/>
+			<Set RequireTransitionMax="20" AllowTransitionMin="5"/>
 		</Update>
 		<Update>
 			<Where BaseState="DIPLO_STATE_NEUTRAL" TransitionState="DIPLO_STATE_UNFRIENDLY"/>
@@ -183,7 +184,7 @@
 			<Set RequireTransitionMin="-30" />
 		</Update>
 	</DiplomaticStateTransitions>
-
+	-->
 		<Eras_XP2>
 		<Update>
 			<Where EraType="ERA_ANCIENT"/>
