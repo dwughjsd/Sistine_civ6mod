@@ -80,4 +80,8 @@
 		<Row Type="ABILITY_MUTAL_COMBAT_STRENGTH_NEAR_CAPITAL" Tag="CLASS_WARRIOR_MONK"/>
 		<Row Type="ABILITY_MUTAL_COMBAT_STRENGTH_NEAR_CAPITAL" Tag="CLASS_NAVAL_CARRIER"/>
 	</TypeTags>
+	
+	<Resources>
+		<Update><Where ResourceType="RESOURCE_HONEY" /><Set Happiness="2" /></Update>
+	</Resources>
 </GameData>

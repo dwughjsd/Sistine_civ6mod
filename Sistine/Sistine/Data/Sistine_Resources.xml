@@ -36,7 +36,9 @@
 		<Update><Where ResourceType="RESOURCE_TRUFFLES" /><Set Happiness="2" /></Update>
 		<Update><Where ResourceType="RESOURCE_WHALES" /><Set Happiness="2" /></Update>
 		<Update><Where ResourceType="RESOURCE_WINE" /><Set Happiness="2" /></Update>
-
+		<Update><Where ResourceType="RESOURCE_AMBER" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_OLIVES" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_TURTLES" /><Set Happiness="2" /></Update>
 	</Resources>
 	<Tags>
 		<!-- Building Effects Based-->
@@ -70,7 +72,7 @@
 		<Row ResourceType="RESOURCE_MARBLE" YieldType="YIELD_GOLD" YieldChange="1"/>
 		<Row ResourceType="RESOURCE_MERCURY" YieldType="YIELD_GOLD" YieldChange="1"/>
 		<Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_GOLD" YieldChange="1"/>
-		<Update><Where ResourceType="RESOURCE_SALT" YieldType="YIELD_FOOD"/><Set YieldChange="2"/></Update>
+		<Update><Where ResourceType="RESOURCE_SALT" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
 		<Row ResourceType="RESOURCE_SILK" YieldType="YIELD_GOLD" YieldChange="1"/>
 		<Update><Where ResourceType="RESOURCE_SILVER" YieldType="YIELD_GOLD"/><Set YieldChange="4"/></Update>
 		<Row ResourceType="RESOURCE_TEA" YieldType="YIELD_GOLD" YieldChange="1"/>
