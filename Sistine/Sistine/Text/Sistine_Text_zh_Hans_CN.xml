@@ -806,13 +806,13 @@
 			<Text>有军事学院、码头或宇航中心的城市+30% [ICON_Science] 科技值，+60% [ICON_Production] 生产力，同时+6点 [ICON_Power] 电力。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币。您的 [ICON_TradeRoute] 贸易路线每经过5个单元格，其提供的 [ICON_Gold] 金币便+1。</Text>
+			<Text>所有 [ICON_TradeRoute] 贸易路线+2 [ICON_Gold] 金币。您的 [ICON_TradeRoute] 贸易路线每经过6个单元格，其提供的 [ICON_Gold] 金币便+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_TRIANGULAR_TRADE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币和+1 [ICON_Faith] 信仰值。您的 [ICON_TradeRoute] 贸易路线每经过4个单元格，其提供的 [ICON_Gold] 金币便+1。</Text>
+			<Text>所有 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币和+1 [ICON_Faith] 信仰值。您的 [ICON_TradeRoute] 贸易路线每经过5个单元格，其提供的 [ICON_Gold] 金币便+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_ECOMMERCE_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有 [ICON_TradeRoute] 贸易路线提供的 [ICON_Gold] 金币+6。您的 [ICON_TradeRoute] 贸易路线每经过4个单元格，其提供的 [ICON_Production] 生产力便+1。</Text>
+			<Text>所有 [ICON_TradeRoute] 贸易路线提供的 [ICON_Gold] 金币+6。您的 [ICON_TradeRoute] 贸易路线每经过5个单元格，其提供的 [ICON_Production] 生产力便+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>国际 [ICON_TradeRoute] 贸易路线产出+2 [ICON_Culture] 文化值以及+2 [ICON_Science] 科技值。</Text>

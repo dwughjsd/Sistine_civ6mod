@@ -807,13 +807,13 @@
 			<Text>Cities with a Military Academy, Seaport, or Spaceport generate +30% [ICON_Science] Science, +60% [ICON_Production] Production, and +6 [ICON_Power] Power.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION" Language="en_US">
-			<Text>+4 [ICON_Gold] Gold from all [ICON_TradeRoute] Trade Routes. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 5 tiles they travel.</Text>
+			<Text>+2 [ICON_Gold] Gold from all [ICON_TradeRoute] Trade Routes. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 6 tiles they travel.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_TRIANGULAR_TRADE_DESCRIPTION" Language="en_US">
-			<Text>+4 [ICON_Gold] Gold and +1 [ICON_Faith] Faith from all [ICON_TradeRoute] Trade Routes. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 4 tiles they travel.</Text>
+			<Text>+4 [ICON_Gold] Gold and +1 [ICON_Faith] Faith from all [ICON_TradeRoute] Trade Routes. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 5 tiles they travel.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_ECOMMERCE_EXPANSION1_DESCRIPTION" Language="en_US">
-			<Text>+6 [ICON_Gold] Gold from all [ICON_TradeRoute] Trade Routes. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Production] Production for every 4 tiles they travel.</Text>
+			<Text>+6 [ICON_Gold] Gold from all [ICON_TradeRoute] Trade Routes. Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Production] Production for every 5 tiles they travel.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_Culture] Culture and +2 [ICON_Science] Science from international [ICON_TradeRoute] Trade Routes.</Text>

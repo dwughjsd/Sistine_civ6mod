@@ -1022,7 +1022,7 @@
 		<Row>
 			<ModifierId>CARAVANSARIES_TRADEROUTEGOLD</ModifierId>
 			<Name>Amount</Name>
-			<Value>4</Value>
+			<Value>2</Value>
 		</Row>
 		<Delete ModifierId="ECOMMERCE_TRADEROUTEGOLD" Name="Amount"/>
 		<Row>
@@ -1033,7 +1033,7 @@
 		<Row>
 			<ModifierId>CARAVANSARIES_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
 			<Name>Amount</Name>
-			<Value>0.2</Value>
+			<Value>0.17</Value>
 		</Row>
 		<Row>
 			<ModifierId>CARAVANSARIES_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
@@ -1043,7 +1043,7 @@
 		<Row>
 			<ModifierId>TRIANGULAR_TRADE_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
 			<Name>Amount</Name>
-			<Value>0.25</Value>
+			<Value>0.2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRIANGULAR_TRADE_GOLD_FROM_TRADE_ROUTE_LENGTH</ModifierId>
@@ -1053,7 +1053,7 @@
 		<Row>
 			<ModifierId>ECOMMERCE_PRODUCTION_FROM_TRADE_ROUTE_LENGTH</ModifierId>
 			<Name>Amount</Name>
-			<Value>0.25</Value>
+			<Value>0.2</Value>
 		</Row>
 		<Row>
 			<ModifierId>ECOMMERCE_PRODUCTION_FROM_TRADE_ROUTE_LENGTH</ModifierId>
