@@ -91,9 +91,9 @@
 			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>COMPUTERS_AI_GRANT_TELECOMMUNICATIONS</ModifierId>
+			<ModifierId>ELECTRICITY_AI_GRANT_COMPUTERS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
-			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI</OwnerRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_ELECTRICITY_RADIO</OwnerRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>SYNTHETIC_MATERIALS_AI_GRANT_STEALTH</ModifierId>
@@ -240,9 +240,9 @@
 			<Extra>25</Extra>
 		</Row>
 		<Row>
-			<ModifierId>COMPUTERS_AI_GRANT_TELECOMMUNICATIONS</ModifierId>
+			<ModifierId>ELECTRICITY_AI_GRANT_COMPUTERS</ModifierId>
 			<Name>TechType</Name>
-			<Value>TECH_TELECOMMUNICATIONS</Value>
+			<Value>TECH_COMPUTERS</Value>
 		</Row>
 		<Row>
 			<ModifierId>SYNTHETIC_MATERIALS_AI_GRANT_STEALTH</ModifierId>
@@ -285,6 +285,10 @@
 		</Row>
 		<Row>
 			<RequirementSetId>PLAYER_IS_AI_NO_COLD_WAR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_ELECTRICITY_RADIO</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -393,8 +397,33 @@
 			<RequirementSetId>PLAYER_IS_AI_NO_COLD_WAR</RequirementSetId>
 			<RequirementId>REQUIRES_HAS_NO_COLD_WAR_SST</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_ELECTRICITY_RADIO</RequirementSetId>
+			<RequirementId>REQUIRES_HIGH_DIFFICULTY</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_ELECTRICITY_RADIO</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_AI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_ELECTRICITY_RADIO</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_TECH_RADIO_SST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_HIGH_DIFFICULTY_AI_ELECTRICITY_RADIO</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_TECH_ELECTRICITY_SST</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_HAS_TECH_RADIO_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_TECH_ELECTRICITY_SST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
 		<Row>
 			<RequirementId>REQUIRES_HAS_OFFWORLD_MISSION_TECH_SST</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
@@ -438,6 +467,16 @@
 		</Row>
 	</Requirements>
 	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_TECH_RADIO_SST</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_RADIO</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_TECH_ELECTRICITY_SST</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_ELECTRICITY</Value>
+		</Row>
 		<Row>
 			<RequirementId>REQUIRES_HAS_OFFWORLD_MISSION_TECH_SST</RequirementId>
 			<Name>TechnologyType</Name>
@@ -553,9 +592,12 @@
 			<ModifierId>HIGH_DIFFICULTY_AI_REVEAL_MAP</ModifierId>
 		</Row>
 		-->
-		<!--AI always tries to run telecom and stealth techs which are virtually useless for them. There is no way to block them from trying to research it so we have to grant the 2 techs so that they won't waste time		-->
-		<Row TechnologyType="TECH_COMPUTERS">
-			<ModifierId>COMPUTERS_AI_GRANT_TELECOMMUNICATIONS</ModifierId>
+		<!--AI always tries to run telecom and stealth techs which are virtually useless for them. Grant Computers instead of Telecom so that AIs can fully get Atomic Era cheats. There is no way to block them from trying to research it so we have to grant the 2 techs so that they won't waste time	-->
+		<Row TechnologyType="TECH_ELECTRICITY">
+			<ModifierId>ELECTRICITY_AI_GRANT_COMPUTERS</ModifierId>
+		</Row>
+		<Row TechnologyType="TECH_RADIO">
+			<ModifierId>ELECTRICITY_AI_GRANT_COMPUTERS</ModifierId>
 		</Row>
 		<Row TechnologyType="TECH_SYNTHETIC_MATERIALS">
 			<ModifierId>SYNTHETIC_MATERIALS_AI_GRANT_STEALTH</ModifierId>
@@ -742,4 +784,56 @@
 			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
+
+	<!--To prevent duplicate bonuses-->
+	<Modifiers>
+		<Update>
+			<Where ModifierId="SERFDOM_BUILDERCHARGES" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="PUBLICWORKS_BUILDERPRODUCTION" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="PUBLICWORKS_BUILDERCHARGES" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="NATURALPHILOSOPHY_DISTRICTSCIENCE" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="FIVEYEARPLAN_DISTRICTSCIENCE" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="FIVEYEARPLAN_DISTRICTPRODUCTION" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="AESTHETICS_DISTRICTCULTURE" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="SPORTSMEDIA_DISTRICTCULTURE" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="SPORTSMEDIA_STADIUMENTERTAINMENT" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TOWNCHARTERS_DISTRICTGOLD" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="ECONOMICUNION_HARBORGOLD" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+		<Update>
+			<Where ModifierId="ECONOMICUNION_COMMERCIALGOLD" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		</Update>
+	</Modifiers>
 </GameData>

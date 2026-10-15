@@ -1541,4 +1541,16 @@
 			<Value>BUILDING_SHIPYARD</Value>
 		</InsertOrIgnore>
 	</RequirementArguments>
+
+	<!--To prevent duplicate bonuses for AI policy cheat-->
+	<Modifiers>
+		<Update>
+			<Where ModifierId="SPORTSMEDIA_BROADCASTCENTERENTERTAINMENT" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN" />
+		</Update>
+		<Update>
+			<Where ModifierId="SPORTSMEDIA_AQUATICSCENTERMENTERTAINMENT" />
+			<Set OwnerRequirementSetId="PLAYER_IS_HUMAN" />
+		</Update>
+	</Modifiers>
 </GameData>
