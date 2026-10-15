@@ -154,8 +154,8 @@
 			<ModifierId>HIGH_DIFFICULTY_GOLD_PURCHASE_DISCOUNT_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>-10</Value>
-			<Extra>10</Extra>
+			<Value>-12</Value>
+			<Extra>12</Extra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
@@ -166,15 +166,15 @@
 			<ModifierId>HIGH_DIFFICULTY_FAITH_PURCHASE_DISCOUNT_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>-10</Value>
-			<Extra>10</Extra>
+			<Value>-12</Value>
+			<Extra>12</Extra>
 		</Row>
 		<Row>
 			<ModifierId>HIGH_DIFFICULTY_AI_ARMY_UPGRADE_DISCOUNT_SST</ModifierId>
 			<Name>Amount</Name>
 			<Type>LinearScaleFromDefaultHandicap</Type>
-			<Value>-10</Value>
-			<Extra>10</Extra>
+			<Value>-12</Value>
+			<Extra>12</Extra>
 		</Row>
 		<Row>
 			<ModifierId>CODE_OF_LAWS_HIGH_DIFF_AI_TECH_BOOST</ModifierId>
