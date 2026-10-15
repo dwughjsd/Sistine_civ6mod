@@ -153,11 +153,11 @@
 		</Update>
 	</DiplomaticStates>
 
-	<!--
+
 	<DiplomaticStateTransitions>
 		<Update>
 			<Where BaseState="DIPLO_STATE_FRIENDLY" TransitionState="DIPLO_STATE_DECLARED_FRIEND"/>
-			<Set AllowTransitionMin="15" RequireTransitionMax="30"/>
+			<Set AllowTransitionMin="20" RequireTransitionMax="35"/>
 		</Update>
 		<Update>
 			<Where BaseState="DIPLO_STATE_FRIENDLY" TransitionState="DIPLO_STATE_NEUTRAL"/>
@@ -165,26 +165,26 @@
 		</Update>
 		<Update>
 			<Where BaseState="DIPLO_STATE_NEUTRAL" TransitionState="DIPLO_STATE_FRIENDLY"/>
-			<Set RequireTransitionMax="20" AllowTransitionMin="5"/>
+			<Set RequireTransitionMax="20" AllowTransitionMin="10"/>
 		</Update>
 		<Update>
 			<Where BaseState="DIPLO_STATE_NEUTRAL" TransitionState="DIPLO_STATE_UNFRIENDLY"/>
-			<Set RequireTransitionMin="-5" AllowTransitionMax="0"/>
+			<Set RequireTransitionMin="-10" AllowTransitionMax="-5"/>
 		</Update>
 		<Update>
 			<Where BaseState="DIPLO_STATE_UNFRIENDLY" TransitionState="DIPLO_STATE_NEUTRAL"/>
-			<Set RequireTransitionMax="10" AllowTransitionMin="0"/>
+			<Set RequireTransitionMax="10" AllowTransitionMin="-5"/>
 		</Update>
 		<Update>
 			<Where BaseState="DIPLO_STATE_UNFRIENDLY" TransitionState="DIPLO_STATE_DENOUNCED"/>
-			<Set RequireTransitionMin="-25" AllowTransitionMax="-10"/>
+			<Set RequireTransitionMin="-25" AllowTransitionMax="-15"/>
 		</Update>
 		<Update>
 			<Where BaseState="DIPLO_STATE_DENOUNCED" TransitionState="DIPLO_STATE_WAR"/>
 			<Set RequireTransitionMin="-30" />
 		</Update>
 	</DiplomaticStateTransitions>
-	-->
+
 		<Eras_XP2>
 		<Update>
 			<Where EraType="ERA_ANCIENT"/>
