@@ -504,8 +504,20 @@
 		<Delete BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_LOYALTY_DEBUFF" />
 		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_FOOD_BUFF_SST" />
 		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_FOOD_BUFF_TITLE_2_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_2_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_FOOD_BUFF_TITLE_3_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_3_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_FOOD_BUFF_TITLE_4_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_4_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_FOOD_BUFF_TITLE_5_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_5_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_FOOD_BUFF_TITLE_6_SST" />
+		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_6_SST" />
+		<!--
 		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GRANT_GRANARY_UNTIL_4" />
 		<Row BuildingType="BUILDING_GOV_TALL" ModifierId="GOV_TALL_GRANT_WATER_MILL_UNTIL_4" />
+		-->
 		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_GRANT_BUILDER" />
 		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_COST_REDUCTION" />
 		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_PRODUCTION_SST" />
@@ -525,16 +537,18 @@
 		<Row BuildingType="BUILDING_GOV_SCIENCE" ModifierId="GOV_SCIENCE_FREE_TECH" />
 	</BuildingModifiers>
 	<Modifiers>
-		<Row>
-			<ModifierId>GOV_TALL_FOOD_BUFF_SST</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GOV_TALL_GROWTH_BUFF_SST</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_GOVERNOR_REQUIREMENTS"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_TITLE_2_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_2_TITLE_GOVERNOR_REQUIREMENTS"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_2_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_2_TITLE_GOVERNOR_REQUIREMENTS"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_TITLE_3_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_3_TITLE_GOVERNOR_REQUIREMENTS_SST"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_3_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_3_TITLE_GOVERNOR_REQUIREMENTS_SST"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_TITLE_4_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_4_TITLE_GOVERNOR_REQUIREMENTS_SST"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_4_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_4_TITLE_GOVERNOR_REQUIREMENTS_SST"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_TITLE_5_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_5_TITLE_GOVERNOR_REQUIREMENTS_SST"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_5_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_5_TITLE_GOVERNOR_REQUIREMENTS_SST"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_TITLE_6_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_6_TITLE_GOVERNOR_REQUIREMENTS_SST"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_6_SST" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_HAS_6_TITLE_GOVERNOR_REQUIREMENTS_SST"/>
 		<Row>
 			<ModifierId>GOV_TALL_GRANT_GRANARY_UNTIL_4</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
@@ -622,27 +636,23 @@
 	</Modifiers>
 
 	<ModifierArguments>
-		<Row>
-			<ModifierId>GOV_TALL_FOOD_BUFF_SST</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>GOV_TALL_FOOD_BUFF_MODIFIER_SST</Value>
-		</Row>
-		<Row>
-			<ModifierId>GOV_TALL_GROWTH_BUFF_SST</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>GOV_TALL_GROWTH_BUFF_MODIFIER_SST</Value>
-		</Row>
-		<Row>
-			<ModifierId>GOV_TALL_FOOD_BUFF_MODIFIER_SST</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>GOV_TALL_FOOD_BUFF_MODIFIER_SST</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row ModifierId="GOV_TALL_GROWTH_BUFF_MODIFIER_SST" Name="Amount" Value="10"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_SST" Name="ModifierId" Value="GOV_TALL_FOOD_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_SST" Name="ModifierId" Value="GOV_TALL_GROWTH_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_TITLE_2_SST" Name="ModifierId" Value="GOV_TALL_FOOD_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_2_SST" Name="ModifierId" Value="GOV_TALL_GROWTH_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_TITLE_3_SST" Name="ModifierId" Value="GOV_TALL_FOOD_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_3_SST" Name="ModifierId" Value="GOV_TALL_GROWTH_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_TITLE_4_SST" Name="ModifierId" Value="GOV_TALL_FOOD_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_4_SST" Name="ModifierId" Value="GOV_TALL_GROWTH_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_TITLE_5_SST" Name="ModifierId" Value="GOV_TALL_FOOD_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_5_SST" Name="ModifierId" Value="GOV_TALL_GROWTH_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_TITLE_6_SST" Name="ModifierId" Value="GOV_TALL_FOOD_BUFF_MODIFIER_SST"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_TITLE_6_SST" Name="ModifierId" Value="GOV_TALL_GROWTH_BUFF_MODIFIER_SST"/>
+
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_MODIFIER_SST" Name="Amount" Value="2"/>
+		<Row ModifierId="GOV_TALL_FOOD_BUFF_MODIFIER_SST" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="GOV_TALL_GROWTH_BUFF_MODIFIER_SST" Name="Amount" Value="5"/>
+		
 		<Row>
 			<ModifierId>GOV_TALL_GRANT_GRANARY_UNTIL_4</ModifierId>
 			<Name>ModifierId</Name>
@@ -771,6 +781,10 @@
 			<RequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_WATER_MILL</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<Row RequirementSetId="CITY_HAS_3_TITLE_GOVERNOR_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="CITY_HAS_4_TITLE_GOVERNOR_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="CITY_HAS_5_TITLE_GOVERNOR_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="CITY_HAS_6_TITLE_GOVERNOR_REQUIREMENTS_SST" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -781,8 +795,16 @@
 			<RequirementSetId>REQUIREMENTS_HAS_LESS_THAN_4_WATER_MILL</RequirementSetId>
 			<RequirementId>REQUIRES_HAS_LESS_THAN_4_WATER_MILL</RequirementId>
 		</Row>
+		<Row RequirementSetId="CITY_HAS_3_TITLE_GOVERNOR_REQUIREMENTS_SST" RequirementId="REQUIRES_CITY_HAS_3_TITLE_GOVERNOR_SST" />
+		<Row RequirementSetId="CITY_HAS_4_TITLE_GOVERNOR_REQUIREMENTS_SST" RequirementId="REQUIRES_CITY_HAS_4_TITLE_GOVERNOR_SST" />
+		<Row RequirementSetId="CITY_HAS_5_TITLE_GOVERNOR_REQUIREMENTS_SST" RequirementId="REQUIRES_CITY_HAS_5_TITLE_GOVERNOR_SST" />
+		<Row RequirementSetId="CITY_HAS_6_TITLE_GOVERNOR_REQUIREMENTS_SST" RequirementId="REQUIRES_CITY_HAS_6_TITLE_GOVERNOR_SST" />
 	</RequirementSetRequirements>
 	<Requirements>
+		<Row RequirementId="REQUIRES_CITY_HAS_3_TITLE_GOVERNOR_SST" RequirementType="REQUIREMENT_CITY_HAS_GOVERNOR_WITH_X_TITLES" />
+		<Row RequirementId="REQUIRES_CITY_HAS_4_TITLE_GOVERNOR_SST" RequirementType="REQUIREMENT_CITY_HAS_GOVERNOR_WITH_X_TITLES" />
+		<Row RequirementId="REQUIRES_CITY_HAS_5_TITLE_GOVERNOR_SST" RequirementType="REQUIREMENT_CITY_HAS_GOVERNOR_WITH_X_TITLES" />
+		<Row RequirementId="REQUIRES_CITY_HAS_6_TITLE_GOVERNOR_SST" RequirementType="REQUIREMENT_CITY_HAS_GOVERNOR_WITH_X_TITLES" />
 		<Row>
 			<RequirementId>REQUIRES_HAS_LESS_THAN_4_GRANARY</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS</RequirementType>
@@ -795,6 +817,14 @@
 		</Row>
 	</Requirements>
 	<RequirementArguments>
+		<Row RequirementId="REQUIRES_CITY_HAS_3_TITLE_GOVERNOR_SST" Name="Established" Value="true"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_3_TITLE_GOVERNOR_SST" Name="Amount" Value="3"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_4_TITLE_GOVERNOR_SST" Name="Established" Value="true"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_4_TITLE_GOVERNOR_SST" Name="Amount" Value="4"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_5_TITLE_GOVERNOR_SST" Name="Established" Value="true"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_5_TITLE_GOVERNOR_SST" Name="Amount" Value="5"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_6_TITLE_GOVERNOR_SST" Name="Established" Value="true"/>
+		<Row RequirementId="REQUIRES_CITY_HAS_6_TITLE_GOVERNOR_SST" Name="Amount" Value="6"/>
 		<Row>
 			<RequirementId>REQUIRES_HAS_LESS_THAN_4_GRANARY</RequirementId>
 			<Name>BuildingType</Name>

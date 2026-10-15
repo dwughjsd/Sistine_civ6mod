@@ -304,7 +304,7 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Food] Food, 10% increased [ICON_CITIZEN] Population growth, +2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in cities with [ICON_Governor] Governors. Grant free Granary and Water Mill buildings, until there are 4 respectively in your empire.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
+			<Text> +2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in cities with [ICON_Governor] Governors, as well as +2 [ICON_Food] Food and 5% increased [ICON_CITIZEN] Population growth for each Promotion they have earned, including their first.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
 			<Text>+50% [ICON_Production] Production towards Settlers in this city. Receive a free Settler and a free Builder.[NEWLINE]Awards 1 [Icon_Governor] Governor Title.</Text>

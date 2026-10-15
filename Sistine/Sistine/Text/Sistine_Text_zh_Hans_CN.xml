@@ -303,7 +303,7 @@
 		</Replace>
 		<!--Government Plaza-->
 		<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Food] 食物、 [ICON_Citizen] 人口增长加速10%、+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。免费赠送粮仓和水磨建筑，直到您帝国中已各有4座。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+			<Text>有 [ICON_Governor] 总督的城市+2 [ICON_Amenities] 宜居度、+4 [ICON_Housing] 住房。且其每项已获得的升级（包括首个升级）另外提供+2 [ICON_Food] 食物、 [ICON_Citizen] 人口增长加速5%。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城生产开拓者时 [ICON_Production] 生产力+50%。获得1个免费的开拓者和1个免费的建造者。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
