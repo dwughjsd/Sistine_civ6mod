@@ -593,7 +593,7 @@
 		</Row>
 		-->
 		<!--AI always tries to run telecom and stealth techs which are virtually useless for them. Grant Computers instead of Telecom so that AIs can fully get Atomic Era cheats. There is no way to block them from trying to research it so we have to grant the 2 techs so that they won't waste time	-->
-		<Row TechnologyType="TECH_ELECTRICITY">
+		<!--<Row TechnologyType="TECH_ELECTRICITY">
 			<ModifierId>ELECTRICITY_AI_GRANT_COMPUTERS</ModifierId>
 		</Row>
 		<Row TechnologyType="TECH_RADIO">
@@ -601,7 +601,7 @@
 		</Row>
 		<Row TechnologyType="TECH_SYNTHETIC_MATERIALS">
 			<ModifierId>SYNTHETIC_MATERIALS_AI_GRANT_STEALTH</ModifierId>
-		</Row>
+		</Row>-->
 	</TechnologyModifiers>
 	<!--Policies cheats-->
 	<!--We all know AI never use these policies. So why not give them?-->

@@ -500,6 +500,12 @@
 		<Delete Technology="TECH_STIRRUPS" PrereqTech="TECH_HORSEBACK_RIDING"/>
 		<Delete Technology="TECH_GUNPOWDER" PrereqTech="TECH_APPRENTICESHIP"/>
 		<Delete Technology="TECH_ROBOTICS" PrereqTech="TECH_LASERS"/>
+		
+		<Delete Technology="TECH_APPRENTICESHIP" PrereqTech="TECH_HORSEBACK_RIDING"/>
+		<Row Technology="TECH_APPRENTICESHIP" PrereqTech="TECH_CONSTRUCTION"/>
+		<Row Technology="TECH_SCIENTIFIC_THEORY" PrereqTech="TECH_METAL_CASTING"/>
+		<Row Technology="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_ADVANCED_FLIGHT"/>
+
 
 		<Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_OFFWORLD_MISSION"/>
 		<Row Technology="TECH_OFFWORLD_MISSION" PrereqTech="TECH_SEASTEADS"/>
