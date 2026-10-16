@@ -512,7 +512,7 @@
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ARYABHATA_ACTIVE" Language="en_US">
-			<Text>Campuses receive an additional +1 [ICON_Science] Science for each adjacent Mountain tile.</Text>
+			<Text>Campuses adjacent to a Mountain receive +2 [ICON_Science] Science.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_MATHEMATICS" Language="en_US">
 			<Text>Triggers the [ICON_TechBoosted] Eurekas for Celestrial Navigation, Mathematics and Engineering. If they are already triggered, instead completes the tech.</Text>

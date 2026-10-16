@@ -511,7 +511,7 @@
 			<Text>{LOC_GREATPERSON_SCIENTIST_ACTIVE_SST}</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_ARYABHATA_ACTIVE" Language="zh_Hans_CN">
-			<Text>每个山脉单元格为所有城市的学院额外+1 [ICON_Science] 科技值。</Text>
+			<Text>与山脉单元格相邻的学院获得+2 [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOOST_OR_GRANT_MATHEMATICS" Language="zh_Hans_CN">
 			<Text>触发“天文导航”、“数学”和“工程学”的 [ICON_TechBoosted] 尤里卡。如果尤里卡已触发过则解锁对应科技。</Text>
