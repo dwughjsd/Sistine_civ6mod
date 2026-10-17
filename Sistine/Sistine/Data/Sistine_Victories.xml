@@ -102,7 +102,7 @@
 		<!--Great artists GPP should be divided by 2 or AI will feel that it is VERY important. As now we have wonders to provide culture, Theaters are not that important-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="3.0" />
+			<Set DefaultValue="4.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
@@ -110,7 +110,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="3.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
@@ -177,7 +177,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
-			<Set DefaultValue="2.5" />
+			<Set DefaultValue="8.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
@@ -395,10 +395,15 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_LIBRARY" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_AMPHITHEATER" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_UNIVERSITY" Favored="true"/>
+		<Row ListType="MedievalBuildings" Item="BUILDING_ARENA" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_FACTORY" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_ZOO" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_FERRIS_WHEEL" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_AQUARIUM" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_MUSEUM_ART" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_OPERA_HOUSE" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_PUBLIC_SCHOOL" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_COAL_POWER_PLANT" Favored="true"/>
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MEDICAL_LAB" Favored="false"/>
 
 		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
@@ -440,13 +445,18 @@
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" />
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-50"/>
-		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-200"/>
-		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="-250"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_WRITER" Value="100"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ARTIST" Value="100"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="50"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_MERCHANT" Value="25"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_HAPPINESS" Value="200"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-200"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="100"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="-200"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_HAPPINESS" Value="300"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
 		<!--Industrial Powerrrrrrrrr!!!!!!!!! Let's see what would happen if we make it aggressively.-->
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="1000"/>
