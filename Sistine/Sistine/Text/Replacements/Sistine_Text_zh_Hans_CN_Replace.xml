@@ -406,6 +406,9 @@
 		<Replace Tag="LOC_TYPE_TRAIT_AMENITY_ENTERTAINMENT_POWER_ENHANCEMENT" Language="zh_Hans_CN">
 			<Text>[ICON_Power] 供电充足时，额外 {1_Amount: number +#,###;-#,###} 来自娱乐设施的 [ICON_Amenities] {1_Amount : plural 1?宜居度; other?宜居度;}</Text>
 		</Replace>
+		<Replace Tag="LOC_ADVISOR_CITYPANEL_IMPROVE_LUXURIES" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]开发奢侈资源。</Text>
+		</Replace>
 		<!--Governments-->
 		<Replace Tag="LOC_GOVERNMENT_AUTOCRACY_NAME" Language="zh_Hans_CN" Text="独裁制"/>
 		<Replace Tag="LOC_GOVERNMENT_OLIGARCHY_NAME" Language="zh_Hans_CN" Text="寡头制"/>
