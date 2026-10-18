@@ -397,6 +397,9 @@
 		<Replace Tag="LOC_HUD_CITY_AMENITIES_FROM_LUXURIES" Language="zh_Hans_CN">
 			<Text>来自奢侈资源的宜居度：</Text>
 		</Replace>
+		<Replace Tag="LOC_HUD_CITY_AMENITIES_FROM_IMPROVEMENTS" Language="zh_Hans_CN">
+			<Text>来自改良设施的宜居度：</Text>
+		</Replace>
 		<Replace Tag="LOC_HUD_CITY_AMENITIES_LUXURIES" Language="zh_Hans_CN">
 			<Text>{1_Num} = 来自奢侈资源的宜居度[NEWLINE]</Text>
 		</Replace>
