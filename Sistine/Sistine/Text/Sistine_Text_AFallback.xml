@@ -850,7 +850,7 @@
 			<Text>+2 [ICON_Housing] Housing in all cities with at least 2 specialty districts.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_CIVIL_PRESTIGE_DESCRIPTION" Language="en_US">
-			<Text>Established [ICON_GOVERNOR] Governors with at least 2 Promotions provide +2 [ICON_Amenities] Amenities and +1 [ICON_Housing] Housing.</Text>
+			<Text>Established [ICON_GOVERNOR] Governors provide +2 [ICON_Amenities] Amenities and +2 [ICON_Housing] Housing.</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_MILITARY_RESEARCH_EXPANSION1_DESCRIPTION" Language="en_US">
 			<Text>Military Academies, Seaports, and Renaissance Walls generate +4 [ICON_Science] Science.</Text>
