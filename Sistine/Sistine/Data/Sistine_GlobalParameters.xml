@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<GlobalParameters>
-		<!--AI-->
+		<!--Test proved that 80 is optimal. Don't waste time trying other numbers later-->
+		<!--<Replace Name="AI_CURRENT_TASK_BIAS" Value="80" />-->
 		<!--possibly loan interest. too large will make AI spend a large amount of GPT for low-value spot goods, while a small number will let them loan much cash easily.-->
 		<Replace Name="AI_DISCOUNT_RATE" Value="3.0" />
 		<Replace Name="AI_TURNS_BETWEEN_TRADES" Value="5" />
-		<!--It's causing AI paying much to buy luxuries. We are still trying to figure out how to make them sell with a higher price too-->
-		<Replace Name="AI_BASE_LUXURY_VALUE" Value="100" />
 		<!--Misc but important changes-->
 		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="40" />
 		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="30" />

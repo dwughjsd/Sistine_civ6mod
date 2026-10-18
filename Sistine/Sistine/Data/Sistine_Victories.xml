@@ -102,7 +102,7 @@
 		<!--Great artists GPP should be divided by 2 or AI will feel that it is VERY important. As now we have wonders to provide culture, Theaters are not that important-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_WRITER" />
-			<Set DefaultValue="4.0" />
+			<Set DefaultValue="3.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" />
@@ -144,7 +144,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" />
-			<Set DefaultValue="15.0" />
+			<Set DefaultValue="12.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" />
@@ -160,24 +160,20 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.33" />
 		</Update>
 		<!--Just don't waste production-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" />
-			<Set DefaultValue="0.25" />
+			<Set DefaultValue="0.2" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SETTLER" />
 			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
-			<Where PseudoYieldType="PSEUDOYIELD_RESOURCE_LUXURY" />
-			<Set DefaultValue="0.5" />
-		</Update>
-		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
-			<Set DefaultValue="8.0" />
+			<Set DefaultValue="3.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
@@ -449,15 +445,14 @@
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ARTIST" Value="100"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="50"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_MERCHANT" Value="25"/>
-		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_HAPPINESS" Value="200"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-200"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="100"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="-200"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_HAPPINESS" Value="300"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="100"/>
 		<!--Industrial Powerrrrrrrrr!!!!!!!!! Let's see what would happen if we make it aggressively.-->
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="1000"/>
 
@@ -475,10 +470,10 @@
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory, also keeps their standing army high enough in early-game.-->
 		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER"/>
 		<Row ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
-		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="85"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="75"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-50"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-40"/>
-		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-30"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-50"/>
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-75"/>
 
 		<!--Seems that AI prefers to unlock favored techs that are not far away from available choices-->
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>
