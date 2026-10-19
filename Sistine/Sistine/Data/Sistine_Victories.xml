@@ -449,11 +449,13 @@
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="100"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="300"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="-200"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="300"/>
 		<!--Industrial Powerrrrrrrrr!!!!!!!!! Let's see what would happen if we make it aggressively.-->
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="300"/>
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="1000"/>
 
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="20"/>
