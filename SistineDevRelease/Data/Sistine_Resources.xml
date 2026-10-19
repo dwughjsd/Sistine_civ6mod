@@ -36,7 +36,9 @@
 		<Update><Where ResourceType="RESOURCE_TRUFFLES" /><Set Happiness="2" /></Update>
 		<Update><Where ResourceType="RESOURCE_WHALES" /><Set Happiness="2" /></Update>
 		<Update><Where ResourceType="RESOURCE_WINE" /><Set Happiness="2" /></Update>
-
+		<Update><Where ResourceType="RESOURCE_AMBER" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_OLIVES" /><Set Happiness="2" /></Update>
+		<Update><Where ResourceType="RESOURCE_TURTLES" /><Set Happiness="2" /></Update>
 	</Resources>
 	<Tags>
 		<!-- Building Effects Based-->
@@ -61,31 +63,22 @@
     </TypeTags>
 
 	<Resource_YieldChanges>
-		<Update><Where ResourceType="RESOURCE_COCOA" YieldType="YIELD_GOLD"/><Set YieldChange="5"/></Update>
-		<Row ResourceType="RESOURCE_COFFEE" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Update><Where ResourceType="RESOURCE_COTTON" YieldType="YIELD_GOLD"/><Set YieldChange="4"/></Update>
-		<Update><Where ResourceType="RESOURCE_DIAMONDS" YieldType="YIELD_GOLD"/><Set YieldChange="6"/></Update>
-		<Row ResourceType="RESOURCE_DYES" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Update><Where ResourceType="RESOURCE_FURS" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
-		<Update><Where ResourceType="RESOURCE_GYPSUM" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
-		<Update><Where ResourceType="RESOURCE_INCENSE" YieldType="YIELD_FAITH"/><Set YieldChange="2"/></Update>
+		<Update><Where ResourceType="RESOURCE_COCOA" YieldType="YIELD_GOLD"/><Set YieldChange="4"/></Update>
+		<Row ResourceType="RESOURCE_COFFEE" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Update><Where ResourceType="RESOURCE_DIAMONDS" YieldType="YIELD_GOLD"/><Set YieldChange="4"/></Update>
+		<Row ResourceType="RESOURCE_DYES" YieldType="YIELD_GOLD" YieldChange="1"/>
 		<Row ResourceType="RESOURCE_INCENSE" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		<Update><Where ResourceType="RESOURCE_IVORY" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
-		<Row ResourceType="RESOURCE_JADE" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Row ResourceType="RESOURCE_MARBLE" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Row ResourceType="RESOURCE_MERCURY" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Update><Where ResourceType="RESOURCE_SALT" YieldType="YIELD_FOOD"/><Set YieldChange="2"/></Update>
-		<Row ResourceType="RESOURCE_SILK" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Update><Where ResourceType="RESOURCE_SILVER" YieldType="YIELD_GOLD"/><Set YieldChange="6"/></Update>
-		<Row ResourceType="RESOURCE_TEA" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Row ResourceType="RESOURCE_TOBACCO" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Update><Where ResourceType="RESOURCE_TRUFFLES" YieldType="YIELD_GOLD"/><Set YieldChange="4"/></Update>
-		<Update><Where ResourceType="RESOURCE_WHALES" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
-		<Update><Where ResourceType="RESOURCE_WINE" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
-		<Row ResourceType="RESOURCE_AMBER" YieldType="YIELD_GOLD" YieldChange="2"/>
-		<Update><Where ResourceType="RESOURCE_OLIVES" YieldType="YIELD_PRODUCTION"/><Set YieldChange="2"/></Update>
-		<Row ResourceType="RESOURCE_TURTLES" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_JADE" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_MARBLE" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_MERCURY" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Update><Where ResourceType="RESOURCE_SALT" YieldType="YIELD_GOLD"/><Set YieldChange="2"/></Update>
+		<Row ResourceType="RESOURCE_SILK" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Update><Where ResourceType="RESOURCE_SILVER" YieldType="YIELD_GOLD"/><Set YieldChange="4"/></Update>
+		<Row ResourceType="RESOURCE_TEA" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_TOBACCO" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_AMBER" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_TURTLES" YieldType="YIELD_GOLD" YieldChange="1"/>
 		<Row ResourceType="RESOURCE_ALUMINUM" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row ResourceType="RESOURCE_IRON" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</Resource_YieldChanges>

@@ -245,6 +245,12 @@
 		<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>您城市中进行航海活动的区域。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建在海岸单元格上的区域，可增加 [ICON_Amenities] 宜居度，让人民生活幸福。无法建在拥有娱乐中心区域的城市中。无法建在礁石上。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BREAD_AND_CIRCUSES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市项目，可增加此城市对自身和对附近其他城市施加的忠诚度压力。[NEWLINE][NEWLINE]项目启动后，每位 [ICON_Citizen] 公民每回合对此城所施加的忠诚度压力+0.5。此忠诚度压力还将影响9个单元格以内的其他城市，但每远离1个单元格，效果减弱10%。项目完成后此城立即+20忠诚度。[NEWLINE][NEWLINE]需要先建成“娱乐中心”区域。</Text>
+		</Replace>
 		<!--Wildcard-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_PLATOS_REPUBLIC_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>所有类型的政体均可获得一个额外的通用政策槽位。</Text>
@@ -324,6 +330,9 @@
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_YEREVAN_BONUS" Language="zh_Hans_CN">
 			<Text>您的使徒单位可以从所有可能的升级中选择一项，而不限于随机得到的选项。</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MEXICO_CITY_BONUS" Language="zh_Hans_CN">
+			<Text>来自工业区、水上乐园和娱乐中心的区域效果范围增加3个单元格。</Text>
 		</Replace>
 		<!--Civ and Leaders-->
 		<Replace Tag="LOC_CITIZEN_GREECE_MODERN_MALE_2" Language="zh_Hans_CN">
@@ -456,7 +465,7 @@
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_ALT_TITLE" Language="en_US">
 			<Text>Qin Shi Huang (Unifier)</Text>
 		</Replace>
-		
+
 		<!--Fix "multiply" translation-->
 		<Replace Tag="LOC_BUILDING_PANAMA_CANAL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>修建完成后，将自动建造1或2个相邻运河区域。海军单位现可穿越运河奇观单元格。如 [ICON_TradeRoute] 贸易路线途径此处，其从目的地的区域处获得的 [ICON_Gold] 金币将获得更高的加成倍率。[NEWLINE][NEWLINE]必须修建在平原单元格之上，同时建筑单元格两侧相邻的两个正对单元格必须满足以下条件：其中一块单元格必须能够修建与巴拿马运河单元格连接的运河区域；另一块单元格则必须为城市、水域或可以修建相连运河的单元格。</Text>
@@ -1098,7 +1107,6 @@
 		<Replace Tag="LOC_LOADING_INFO_LEADER_TRAJAN" Language="zh_Hans_CN">
 			<Text>布下大局吧，强大罗马的皇帝图拉真。您的军团已准备好出发，建立世界上最大的帝国。如果您能真正实现条条道路通罗马，您的帝国将会拥有巨额财富和无尽奢华。那时，我们的公民必将宣扬您是最佳元首，他们最优秀的统治者。</Text>
 		</Replace>
-		<!---->
 		<Replace Tag="LOC_LOADING_INFO_LEADER_PETER_GREAT" Language="zh_Hans_CN">
 			<Text>沙皇彼得，拥抱祖国母亲的凛冽寒风吧。您对科学和文化的热爱是上天赐予的礼物，而从派往外国的大使团中您将学到很多这些知识。在您的统治下，俄罗斯必将繁荣发展并不断扩张，把周围所有土地都纳为己有，或许创造出世界上最伟大的陆权帝国。</Text>
 		</Replace>
@@ -1478,9 +1486,6 @@
 		<Replace Tag="LOC_UNIT_COLOMBIAN_LLANERO_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>大哥伦比亚特色工业时代单位，替代近代骑兵。维护花费低。每与1个牛仔骑兵相邻+2 [ICON_Strength] 战斗力。总司令发动隐退技能时，若处于其影响范围内，将回复满生命值。</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>匈牙利特色建筑。+2 [ICON_Amenities] 宜居度并+2点 [ICON_PRODUCTION] 生产力，可扩展到6个单元格内的每个市中心。城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。此城中若包含至少1处地热裂缝，则该城市+3 [ICON_TOURISM] 旅游业绩，同时额外+2 [ICON_AMENITIES] 宜居度。</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_HUNGARY_BLACK_ARMY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>匈牙利特色中古时代单位，取代追猎者。[NEWLINE]每与1个征集的单位相邻+3 [ICON_Strength] 战斗力。</Text>
 		</Replace>
@@ -1694,5 +1699,79 @@
 		<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_NAME" Language="zh_Hans_CN">
 			<Text>索格伦之子</Text>
 		</Replace>
+
+		<!--Districts and buildings (incomplete)-->
+		<Replace Tag="LOC_DISTRICT_AERODROME_NAME" Language="zh_Hans_CN" Text="飞行场"/>
+		<Replace Tag="LOC_BUILDING_AIRPORT_NAME" Language="zh_Hans_CN" Text="空港"/>
+		<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_NAME" Language="zh_Hans_CN" Text="水力发电坝"/>
+		<Replace Tag="LOC_BUILDING_SHRINE_NAME" Language="zh_Hans_CN" Text="神祠"/>
+		<Replace Tag="LOC_BUILDING_AMPHITHEATER_NAME" Language="zh_Hans_CN" Text="露天剧场"/>
+		<Replace Tag="LOC_BUILDING_WORKSHOP_NAME" Language="zh_Hans_CN" Text="工坊"/>
+		<Replace Tag="LOC_BUILDING_CASTLE_NAME" Language="zh_Hans_CN" Text="中古城墙"/>
+		<Replace Tag="LOC_BUILDING_STAR_FORT_NAME" Language="zh_Hans_CN" Text="启蒙城墙"/>
+		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_NAME" Language="zh_Hans_CN" Text="阿兹特克大神庙"/>
+		<Replace Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_NAME" Language="zh_Hans_CN" Text="阿蒙森-斯科特研究站"/>
+		<Replace Tag="LOC_BUILDING_GOV_MILITARY_NAME" Language="zh_Hans_CN" Text="战争部"/>
+		<!--Techs and civics-->
+		<Replace Tag="LOC_TECH_POTTERY_NAME" Language="zh_Hans_CN" Text="制陶"/>
+		<Replace Tag="LOC_TECH_ANIMAL_HUSBANDRY_NAME" Language="zh_Hans_CN" Text="畜牧"/>
+		<Replace Tag="LOC_TECH_MINING_NAME" Language="zh_Hans_CN" Text="采矿"/>
+		<Replace Tag="LOC_TECH_SAILING_NAME" Language="zh_Hans_CN" Text="航海"/>
+		<Replace Tag="LOC_TECH_WRITING_NAME" Language="zh_Hans_CN" Text="书写"/>
+		<Replace Tag="LOC_TECH_MASONRY_NAME" Language="zh_Hans_CN" Text="砌筑"/>
+		<Replace Tag="LOC_TECH_BRONZE_WORKING_NAME" Language="zh_Hans_CN" Text="青铜加工"/>
+		<Replace Tag="LOC_TECH_IRON_WORKING_NAME" Language="zh_Hans_CN" Text="铁器加工"/>
+		<Replace Tag="LOC_TECH_SHIPBUILDING_NAME" Language="zh_Hans_CN" Text="造船"/>
+		<Replace Tag="LOC_TECH_MATHEMATICS_NAME" Language="zh_Hans_CN" Text="数学"/>
+		<Replace Tag="LOC_TECH_CONSTRUCTION_NAME" Language="zh_Hans_CN" Text="建设工法"/>
+		<Replace Tag="LOC_TECH_ENGINEERING_NAME" Language="zh_Hans_CN" Text="工程学"/>
+		<Replace Tag="LOC_TECH_MILITARY_TACTICS_NAME" Language="zh_Hans_CN" Text="军事战术"/>
+		<Replace Tag="LOC_TECH_APPRENTICESHIP_NAME" Language="zh_Hans_CN" Text="学徒制度"/>
+		<Replace Tag="LOC_TECH_MACHINERY_NAME" Language="zh_Hans_CN" Text="机械"/>
+		<Replace Tag="LOC_TECH_EDUCATION_NAME" Language="zh_Hans_CN" Text="教育学"/>
+		<Replace Tag="LOC_TECH_STIRRUPS_NAME" Language="zh_Hans_CN" Text="马镫"/>
+		<Replace Tag="LOC_TECH_MASS_PRODUCTION_NAME" Language="zh_Hans_CN" Text="大规模生产"/>
+		<Replace Tag="LOC_TECH_SQUARE_RIGGING_NAME" Language="zh_Hans_CN" Text="横帆索具"/>
+		<Replace Tag="LOC_TECH_SIEGE_TACTICS_NAME" Language="zh_Hans_CN" Text="围攻战术"/>
+		<Replace Tag="LOC_TECH_MILITARY_SCIENCE_NAME" Language="zh_Hans_CN" Text="军事科学"/>
+		<Replace Tag="LOC_TECH_SANITATION_NAME" Language="zh_Hans_CN" Text="公共卫生"/>
+		<Replace Tag="LOC_TECH_ECONOMICS_NAME" Language="zh_Hans_CN" Text="经济学"/>
+		<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_NAME" Language="zh_Hans_CN" Text="可更换部件"/>
+		<Replace Tag="LOC_TECH_COMBUSTION_NAME" Language="zh_Hans_CN" Text="内燃机"/>
+		<Replace Tag="LOC_TECH_ROCKETRY_NAME" Language="zh_Hans_CN" Text="火箭技术"/>
+		<Replace Tag="LOC_TECH_ADVANCED_BALLISTICS_NAME" Language="zh_Hans_CN" Text="先进弹道学"/>
+		<Replace Tag="LOC_TECH_COMPUTERS_NAME" Language="zh_Hans_CN" Text="计算机"/>
+		<Replace Tag="LOC_TECH_SATELLITES_NAME" Language="zh_Hans_CN" Text="人造卫星"/>
+		<Replace Tag="LOC_TECH_GUIDANCE_SYSTEMS_NAME" Language="zh_Hans_CN" Text="导航系统"/>
+		<Replace Tag="LOC_TECH_ADVANCED_AI_NAME" Language="zh_Hans_CN" Text="先进人工智能"/>
+		<Replace Tag="LOC_TECH_ADVANCED_POWER_CELLS_NAME" Language="zh_Hans_CN" Text="先进电池装置"/>
+		<Replace Tag="LOC_TECH_PREDICTIVE_SYSTEMS_NAME" Language="zh_Hans_CN" Text="预测系统"/>
+		<Replace Tag="LOC_TECH_OFFWORLD_MISSION_NAME" Language="zh_Hans_CN" Text="地外任务"/>
+		<Replace Tag="LOC_CIVIC_CRAFTSMANSHIP_NAME" Language="zh_Hans_CN" Text="工匠技艺"/>
+		<Replace Tag="LOC_CIVIC_STATE_WORKFORCE_NAME" Language="zh_Hans_CN" Text="国有劳力"/>
+		<Replace Tag="LOC_CIVIC_EARLY_EMPIRE_NAME" Language="zh_Hans_CN" Text="早期帝国"/>
+		<Replace Tag="LOC_CIVIC_DIVINE_RIGHT_NAME" Language="zh_Hans_CN" Text="君权神授"/>
+		<Replace Tag="LOC_CIVIC_REFORMED_CHURCH_NAME" Language="zh_Hans_CN" Text="教会改革"/>
+		<Replace Tag="LOC_CIVIC_CONSERVATION_NAME" Language="zh_Hans_CN" Text="自然保护"/>
+		<Replace Tag="LOC_CIVIC_NUCLEAR_PROGRAM_NAME" Language="zh_Hans_CN" Text="核计划"/>
+		<Replace Tag="LOC_CIVIC_MOBILIZATION_NAME" Language="zh_Hans_CN" Text="动员"/>
+		<Replace Tag="LOC_CIVIC_SUFFRAGE_NAME" Language="zh_Hans_CN" Text="普选权"/>
+		<Replace Tag="LOC_CIVIC_RAPID_DEPLOYMENT_NAME" Language="zh_Hans_CN" Text="快速部署"/>
+		<Replace Tag="LOC_CIVIC_CORPORATE_LIBERTARIANISM_NAME" Language="zh_Hans_CN" Text="风投政治"/>
+		<Replace Tag="LOC_CIVIC_SYNTHETIC_TECHNOCRACY_NAME" Language="zh_Hans_CN" Text="优化必要论"/>
+		<Replace Tag="LOC_CIVIC_GLOBAL_WARMING_MITIGATION_NAME" Language="zh_Hans_CN" Text="全球变暖缓解"/>
+		<Replace Tag="LOC_CIVIC_SMART_POWER_DOCTRINE_NAME" Language="zh_Hans_CN" Text="巧实力学说"/>
+		<Replace Tag="LOC_CIVIC_EXODUS_IMPERATIVE_NAME" Language="zh_Hans_CN" Text="远征必要论"/>
+		<!--Unit classes-->
+		<Replace Tag="LOC_FORMATION_CLASS_NAVAL_NAME" Language="zh_Hans_CN" Text="海上战斗"/>
+		<Replace Tag="LOC_FORMATION_CLASS_AIR_NAME" Language="zh_Hans_CN" Text="空中战斗"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_RAIDER_NAME" Language="zh_Hans_CN" Text="海军掠袭"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_AIR_FIGHTER_NAME" Language="zh_Hans_CN" Text="空中格斗"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_RANGED_NAME" Language="zh_Hans_CN" Text="海军远程"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_RANGED_NAME" Language="zh_Hans_CN" Text="远程"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_NAVAL_CARRIER_NAME" Language="zh_Hans_CN" Text="海军母舰"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_APOSTLE_NAME" Language="zh_Hans_CN" Text="宗教使徒"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_SPY_NAME" Language="zh_Hans_CN" Text="间谍"/>
+		<Replace Tag="LOC_PROMOTION_CLASS_ANTI_CAVALRY_NAME" Language="zh_Hans_CN" Text="反骑兵"/>
 	</LocalizedText>
 </GameData>

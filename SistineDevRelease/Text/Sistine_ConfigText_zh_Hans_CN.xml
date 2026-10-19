@@ -92,8 +92,11 @@
 		<Replace Tag="LOC_BUILDING_AQUATICS_CENTER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>[ICON_Amenities] 宜居度加成延伸到9个单元格中的每个市中心。此加成1座城市仅能应用1次，因此市中心9个单元格以内相同的此建筑不会再额外提供加成。此城中建在海岸单元格之上或周围的每座奇观+5 [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_Amenities] 宜居度加成延伸到6个单元格中的每个市中心。此加成1座城市仅能应用1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。所在城市额外+1 [ICON_Amenities] 宜居度。此城中的每处雨林和沼泽单元格+1 [ICON_SCIENCE] 科技值。</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_STADIUM_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>[ICON_Amenities] 宜居度加成延伸到6个单元格中的每个市中心。此加成+2座城市仅能应用1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。如城市 [ICON_CITIZEN] 人口大于等于10，则+10 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+10 [ICON_Tourism] 旅游业绩。</Text>
+			<Text>[ICON_Amenities] 宜居度加成延伸到6个单元格中的每个市中心。此加成1座城市仅能应用1次，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。所在城市额外+1 [ICON_Amenities] 宜居度。如城市 [ICON_CITIZEN] 人口大于等于10，则+10 [ICON_Tourism] 旅游业绩；如城市 [ICON_CITIZEN] 人口大于等于20，则+10 [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>6个单元格内的沿河单元格+1 [ICON_Production] 生产力。向6单元格内的城市提供+6点来自可再生水能的 [ICON_Power] 电力。</Text>
@@ -133,7 +136,7 @@
 			<Text>波兰特色建筑。{LOC_BUILDING_BANK_DESCRIPTION_SST}从此城开始的国际 [ICON_TradeRoute] 贸易路线+3 [ICON_Production] 生产力；国内 [ICON_TradeRoute] 贸易路线+6 [ICON_Gold] 金币。如此城尚未建有灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>匈牙利特色建筑。+3点 [ICON_Amenities] 宜居度与+2点 [ICON_PRODUCTION] 生产力，可扩展到6个单元格内的每个市中心。城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。[NEWLINE][NEWLINE]此城中若包含至少1处地热裂缝，则该城市的 [ICON_TOURISM] 旅游业绩+3，同时 [ICON_AMENITIES] 宜居度额外+2。</Text>
+			<Text>匈牙利特色建筑。+2 [ICON_Amenities] 宜居度、+2 [ICON_PRODUCTION] 生产力，可扩展到6个单元格内的每个市中心。城市仅能应用1次此类加成，因此市中心6个单元格以内相同的此建筑不会再额外提供加成。[NEWLINE][NEWLINE]此城中若包含至少1处地热裂缝，则该城市的 [ICON_TOURISM] 旅游业绩+3，同时 [ICON_AMENITIES] 宜居度额外+2。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TLACHTLI_XP1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>阿兹特克特色建筑。提供2点 [ICON_Amenities] 宜居度、+3 [ICON_Culture] 文化值、+3 [ICON_Faith] 信仰值，并提供1点 [ICON_GreatGeneral] 大将军点数。获得“自然保护”市政后，提供的 [ICON_TOURISM] 旅游业绩+1。</Text>
@@ -564,7 +567,7 @@
 			<Text>解锁{LOC_UNIT_PORTUGUESE_NAU_NAME}建造葡萄牙特色改良设施商站的能力。[NEWLINE][NEWLINE]提供+4 [ICON_Gold] 金币、+2 [ICON_Production] 生产力。从葡萄牙通往此城的贸易路线提供+2 [ICON_GOLD] 金币、+1 [ICON_PRODUCTION] 生产力。仅能建造在奢侈或加成资源旁，且必须在已对您开放边境的其他文明或城邦领土上。必须建造在与陆地相邻的海岸或湖泊单元格上，且无法与另一个商站相邻。商站无法被移除。 </Text>
 		  </Replace>
 		<Replace Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造苏格兰特色改良设施高尔夫球场的能力。[NEWLINE][NEWLINE]+2 [ICON_AMENITIES] 宜居度、+2 [ICON_GOLD] 金币。如与市中心区域相邻，则+2 [ICON_CULTURE] 文化值；如与娱乐设施区域相邻，则+2 [ICON_CULTURE] 文化值。解锁更多市政和科技后可获得更多 [ICON_CULTURE] 文化值、 [ICON_TOURISM] 旅游业绩和 [ICON_HOUSING] 住房。无法建在沙漠或沙漠丘陵地貌上。每座城市仅限建造一座。高尔夫球场所在的单元格无法被切换到其他城市。+1魅力。</Text>
+			<Text>解锁建造者建造苏格兰特色改良设施高尔夫球场的能力。[NEWLINE][NEWLINE]+2 [ICON_AMENITIES] 宜居度、+2 [ICON_GOLD] 金币。如与市中心区域相邻，则+2 [ICON_CULTURE] 文化值；如与娱乐中心区域相邻，则+2 [ICON_CULTURE] 文化值。解锁更多市政和科技后可获得更多 [ICON_CULTURE] 文化值、 [ICON_TOURISM] 旅游业绩和 [ICON_HOUSING] 住房。无法建在沙漠或沙漠丘陵地貌上。每座城市仅限建造一座。高尔夫球场所在的单元格无法被切换到其他城市。+1魅力。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MISSION_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造西班牙特色改良设施传教团的能力。[NEWLINE][NEWLINE]+2 [ICON_Faith] 信仰值。建在非 [ICON_Capital] 首都所在大陆上时，+1 [ICON_Faith] 信仰值、+1 [ICON_PRODUCTION] 生产力并+1 [ICON_Food] 食物。每与一个学院和圣地区域相邻便+1 [ICON_Science] 科技值。解锁“文化遗产”市政后将产出更多 [ICON_SCIENCE] 科技值。若城市拥有的传教团改良设施与市中心相邻，且处于非 [ICON_Capital] 首都所在大陆上，则每回合+2忠诚度。</Text>

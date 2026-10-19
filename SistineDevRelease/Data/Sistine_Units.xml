@@ -287,7 +287,7 @@
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_TRADER" />
-			<Set Cost="80" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
+			<Set Cost="60" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" />
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_SPY" />

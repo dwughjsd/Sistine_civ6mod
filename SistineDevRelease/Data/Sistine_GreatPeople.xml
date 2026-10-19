@@ -229,11 +229,7 @@
 	<!--Great Scientists-->
 	<GreatPersonIndividualActionModifiers>
 		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_CAMPUS_GRASSMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_CAMPUS_PLAINSMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_CAMPUS_DESERTMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_CAMPUS_TUNDRAMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_CAMPUS_SNOWMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_MOUNTAIN_CAMPUS_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREAT_PERSON_INDIVIDUAL_GRANT_TECH_SST_2" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI" ModifierId="GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI" ModifierId="GREAT_PERSON_INDIVIDUAL_EUREKAS_MODIFIER_SST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
@@ -330,29 +326,9 @@
 
 	<Modifiers>
 		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
-			<Permanent>true</Permanent>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
-			<Permanent>true</Permanent>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
-			<Permanent>true</Permanent>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
-			<Permanent>true</Permanent>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
-			<Permanent>true</Permanent>
+			<ModifierId>GREATPERSON_MOUNTAIN_CAMPUS_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_MOUNTAIN_CAMPUS_SST</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>GREATPERSON_FAITH_INTO_SCIENCE</ModifierId>
@@ -460,129 +436,14 @@
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_CAMPUS</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierId>GREATPERSON_MOUNTAIN_CAMPUS_SCIENCE</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_SCIENCE</Value>
 		</Row>
 		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierId>GREATPERSON_MOUNTAIN_CAMPUS_SCIENCE</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
-			<Name>Description</Name>
-			<Value>LOC_DISTRICT_MOUNTAINS_SCIENCE1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_CAMPUS</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_SCIENCE</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
-			<Name>Description</Name>
-			<Value>LOC_DISTRICT_MOUNTAINS_SCIENCE2</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_CAMPUS</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_SCIENCE</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
-			<Name>Description</Name>
-			<Value>LOC_DISTRICT_MOUNTAINS_SCIENCE3</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_CAMPUS</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_SCIENCE</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
-			<Name>Description</Name>
-			<Value>LOC_DISTRICT_MOUNTAINS_SCIENCE4</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_CAMPUS</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_SCIENCE</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GREATPERSON_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
-			<Name>Description</Name>
-			<Value>LOC_DISTRICT_MOUNTAINS_SCIENCE5</Value>
+			<Value>2</Value>
 		</Row>
 		<Update>
 			<Where ModifierId="GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE_HEAL_BONUS" Name="Amount"/>
@@ -861,6 +722,22 @@
 		<Delete ModifierId="GREATPERSON_ADJACENT_RAINFOREST_SCIENCE" Context="Summary" Text="LOC_GREATPERSON_ADJACENT_RAINFOREST_SCIENCE"/>
 	</ModifierStrings>
 
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_MOUNTAIN_CAMPUS_SST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_MOUNTAIN_CAMPUS_SST</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_CAMPUS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_MOUNTAIN_CAMPUS_SST</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_MOUNTAIN</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 	<!--Great Merchants-->
 	<GreatPersonIndividuals>
 		<Update>

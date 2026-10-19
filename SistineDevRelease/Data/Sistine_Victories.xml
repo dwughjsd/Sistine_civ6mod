@@ -110,7 +110,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_GPP_MUSICIAN" />
-			<Set DefaultValue="2.0" />
+			<Set DefaultValue="3.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_DISTRICT" />
@@ -144,7 +144,7 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_NUCLEAR_WEAPON" />
-			<Set DefaultValue="15.0" />
+			<Set DefaultValue="12.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_CITY_POPULATION" />
@@ -160,24 +160,20 @@
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" />
-			<Set DefaultValue="0.5" />
+			<Set DefaultValue="0.33" />
 		</Update>
 		<!--Just don't waste production-->
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" />
-			<Set DefaultValue="0.25" />
+			<Set DefaultValue="0.2" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_UNIT_SETTLER" />
 			<Set DefaultValue="1.5" />
 		</Update>
 		<Update>
-			<Where PseudoYieldType="PSEUDOYIELD_RESOURCE_LUXURY" />
-			<Set DefaultValue="0.5" />
-		</Update>
-		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_HAPPINESS" />
-			<Set DefaultValue="2.5" />
+			<Set DefaultValue="3.0" />
 		</Update>
 		<Update>
 			<Where PseudoYieldType="PSEUDOYIELD_WONDER" />
@@ -395,10 +391,15 @@
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_LIBRARY" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_AMPHITHEATER" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_UNIVERSITY" Favored="true"/>
+		<Row ListType="MedievalBuildings" Item="BUILDING_ARENA" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_FACTORY" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_ZOO" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_FERRIS_WHEEL" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_AQUARIUM" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_MUSEUM_ART" Favored="true"/>
+		<Row ListType="IndustrialBuildings" Item="BUILDING_OPERA_HOUSE" Favored="true"/>
 		<Row ListType="DefaultFavorBuildings" Item="BUILDING_PUBLIC_SCHOOL" Favored="true"/>
 		<Row ListType="IndustrialBuildings" Item="BUILDING_COAL_POWER_PLANT" Favored="true"/>
-		<Row ListType="DefaultFavorBuildings" Item="BUILDING_MEDICAL_LAB" Favored="false"/>
 
 		<Row ListType="MedievalYields" Item="YIELD_PRODUCTION" Value="20"/>
 		<Row ListType="MedievalYields" Item="YIELD_SCIENCE" Value="30"/>
@@ -440,15 +441,21 @@
 		<Delete ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" />
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-50"/>
-		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-200"/>
-		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="-250"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_WRITER" Value="100"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ARTIST" Value="100"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="50"/>
 		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_GPP_MERCHANT" Value="25"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_PROPHET" Value="-200"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="100"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="300"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_UNIT_RELIGIOUS" Value="-200"/>
 		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="300"/>
 		<!--Industrial Powerrrrrrrrr!!!!!!!!! Let's see what would happen if we make it aggressively.-->
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_DISTRICT" Value="300"/>
 		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_GPP_ENGINEER" Value="1000"/>
 
 		<Row ListType="ModernYields" Item="YIELD_PRODUCTION" Value="20"/>
@@ -465,10 +472,10 @@
 		<!--Trying to resolve the issue that AI keeps spamming standing army (not for conquering) and stop pursuing victory, also keeps their standing army high enough in early-game.-->
 		<Delete ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER"/>
 		<Row ListType="StandingArmyPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="15"/>
-		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="85"/>
+		<Row ListType="MedievalPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="75"/>
 		<Row ListType="RenaissancePseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-50"/>
-		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-40"/>
-		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-30"/>
+		<Row ListType="IndustrialPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-50"/>
+		<Row ListType="ModernPseudoYields" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="-75"/>
 
 		<!--Seems that AI prefers to unlock favored techs that are not far away from available choices-->
 		<Delete ListType="ScienceVictoryTechs" Item="TECH_NUCLEAR_FUSION"/>

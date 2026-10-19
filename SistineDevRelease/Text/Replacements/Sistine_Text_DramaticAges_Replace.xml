@@ -22,5 +22,11 @@
 		<Replace Tag="LOC_POLICY_SAMODERZHAVIYE_NAME" Language="zh_Hans_CN">
 			<Text>暴政独裁</Text>
 		</Replace>
+		<Replace Tag="LOC_POLICY_CULTURE_INDUSTRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市每拥有1处专业化区域，则+1 [ICON_CULTURE] 文化值。建造非专业化区域时+25% [ICON_PRODUCTION] 生产力。可使用 [ICON_Faith] 信仰值购买娱乐中心和水上乐园区域建筑。</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_REFORM_THE_COINAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您的商人无法被掠夺。外国城市中每拥有一个专业化区域，国际 [ICON_TradeRoute] 贸易路线提供的 [ICON_Gold] 金币则+3。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

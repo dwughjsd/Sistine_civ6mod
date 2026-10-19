@@ -200,6 +200,8 @@
 		<Row DistrictType="DISTRICT_HANSA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_LAVRA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Delete DistrictType="DISTRICT_GOVERNMENT" YieldType="YIELD_GOLD"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_GOVERNMENT" YieldType="YIELD_CULTURE" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
